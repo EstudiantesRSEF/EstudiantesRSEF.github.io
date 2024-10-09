@@ -4,6 +4,8 @@ title: PLANCKS Barcelona 2025
 hidden: True
 permalink: /PLANCKS25/
 ---
+<!-- Enlazamos el archivo CSS del carrusel -->
+<link rel="stylesheet" href="/css/carousel.css">
 
 <div class="no-pad-top" id="index-page">
   <div class="container">
@@ -54,7 +56,7 @@ Está organizado por y para estudiantes de grado, máster y doctorado en física
         </div>
       </div> -->
 
-
+<!--
 <!-- FOTOS -->
       <div class="section" id="content-desktop">
         <div class="row">
@@ -75,8 +77,24 @@ Está organizado por y para estudiantes de grado, máster y doctorado en física
         </div>
       </div>
 
+-->
+<!-- CARRUSEL DE FOTOS -->
+      <div class="section" id="content-desktop">
+        <div class="carousel">
+          <div class="carousel-container">
+            <img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis1.jpg" alt="Foto 1" class="carousel-image">
+            <img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis2.jpg" alt="Foto 2" class="carousel-image">
+            <img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis3.jpg" alt="Foto 3" class="carousel-image">
+	    <img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis4.jpeg" alt="Foto 4" class="carousel-image">
+          </div>
+          <!-- Botones de navegación -->
+          <button class="prev" onclick="prevSlide()">&#10094;</button>
+          <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+      </div>
 
       <h4 id="objetivos">Objetivos</h4>
+
       
 <!-- OBJETIVOS -->
       <div class="section">
@@ -470,6 +488,8 @@ Tod@s los participantes al concurso tendrán un año de suscripción gratis a Am
     <a href="#!" class="modal-close waves-effect waves-green btn-flat">CERRAR</a>
   </div>
 </div>
+
+<script src="/js/carousel.js"></script>
 
 {% endif %}
 {% endfor %}
