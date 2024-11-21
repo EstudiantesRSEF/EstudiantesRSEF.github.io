@@ -9,14 +9,10 @@
       <li style="height: 100px" class="dd-plancks"><a href="{{ subitem.url }}" {% if subitem.blank != nil %} target="_blank" {% endif %}>{{ subitem.text }}</a></li>
       {% endfor %}
      </ul>
-<!--
-    {% else %}
-      <div style="font-size: 1.2rem;">
-        {{ item.text }}
-      </div>
--->
     {% endif %}
 {% endfor %}
+
+<!-- font-size: 1.2rem; -->
 
 <div id="content-desktop">
   <nav class="navbar-plancks" style="background-color: #352F71;" >
