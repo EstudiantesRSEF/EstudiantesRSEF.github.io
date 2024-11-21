@@ -1,15 +1,19 @@
 {% assign navurl = page.url | remove: 'index.html' %}
 {% for item in include.nav %}
     {% if item.subitems %}
-    <ul id="dropdown-{{ item.slug }}" class="dropdown-content dd-plancks" style="border: 2px solid #333072; background-color: #00a79d;">
+     <ul id="dropdown-{{ item.slug }}" class="dropdown-content dd-plancks" style="border: 2px solid #333072; background-color: #00a79d;">
       {% if item.url != nil %}
       <li style="height: 100px"><a href="{{ item.url }}">{{ item.text }}</a></li>
       {% endif %}
       {% for subitem in item.subitems %}
       <li style="height: 100px" class="dd-plancks"><a href="{{ subitem.url }}" {% if subitem.blank != nil %} target="_blank" {% endif %}>{{ subitem.text }}</a></li>
       {% endfor %}
-    </ul>
-{% endif %}
+     </ul>
+    {% else %}
+      <div style="font-size: 1.2rem;">
+        {{ item.text }}
+      </div>
+    {% endif %}
 {% endfor %}
 
 <div id="content-desktop">
