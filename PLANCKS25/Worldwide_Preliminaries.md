@@ -24,7 +24,7 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
 <div class="bubble-container">
   <div class="info-bubble">
     <img src="/img/eventos/2025-PLANCKS/NCs/Costa_Rica.jpg" alt="CR Logo" class="bubble-logo" />
-    <h3 class="bubble-title">NC Costa Rica</h3>
+    <h3 class="bubble-title">TC Costa Rica</h3>
     <p class="bubble-date">Date: </p>
     <p class="bubble-mail">Contact: <a href="mailto:lc-montes-de-oca@iaps.info">lc-montes-de-oca@iaps.info</a></p>
     <p class="bubble-organizers">Organizers: University of Costa Rica & CORIOLIS (COsta RIcan OLympiad for physIcs Students)</p>
@@ -38,7 +38,7 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
 <div class="bubble-container">
   <div class="info-bubble">
     <img src="/img/eventos/2025-PLANCKS/NCs/Czech_Republic.png" alt="CZ Logo" class="bubble-logo" />
-    <h3 class="bubble-title">NC Czech Republic</h3>
+    <h3 class="bubble-title">TC Czech Republic</h3>
     <p class="bubble-date">Date: </p>
     <p class="bubble-mail">Contact: <a href="mailto:iaps@fykos.cz">iaps@fykos.cz</a></p>
     <p class="bubble-organizers">Organizers: FYKOS, Charles University</p>
@@ -52,7 +52,7 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
 <div class="bubble-container">
   <div class="info-bubble">
     <img src="/img/eventos/2025-PLANCKS/NCs/Finland.png" alt="FN Logo" class="bubble-logo" />
-    <h3 class="bubble-title">NC Finland</h3>
+    <h3 class="bubble-title">TC Finland</h3>
     <p class="bubble-date">Date: </p>
     <p class="bubble-mail">Contact: <a href="mailto:integraatiofest@lateksii.fi">integraatiofest@lateksii.fi</a></p>
     <p class="bubble-organizers">Organizers: Lappeenranta University of Technology, PLANCKS-karsinnat</p>
@@ -66,7 +66,7 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
 <div class="bubble-container">
   <div class="info-bubble">
     <img src="/img/eventos/2025-PLANCKS/NCs/France.png" alt="FR Logo" class="bubble-logo" />
-    <h3 class="bubble-title">NC France</h3>
+    <h3 class="bubble-title">TC France</h3>
     <p class="bubble-date">Date: </p>
     <p class="bubble-mail">Contact: <a href="mailto:nc-france@iaps.info">nc-france@iaps.info</a></p>
     <p class="bubble-organizers">Organizers: Université Paris Cité, French Plancks Preliminaries</p>
@@ -80,7 +80,7 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
 <div class="bubble-container">
   <div class="info-bubble">
     <img src="/img/eventos/2025-PLANCKS/NCs/Germany.png" alt="DE Logo" class="bubble-logo" />
-    <h3 class="bubble-title">NC Germany</h3>
+    <h3 class="bubble-title">TC Germany</h3>
     <p class="bubble-date">Date: </p>
     <p class="bubble-mail">Contact: <a href="mailto:dopplers@jdpg.de">dopplers@jdpg.de</a></p>
     <p class="bubble-organizers">Organizers: Hanover, DOPPLERS (Deutsche Olympiade im Physik-Probleme-Lösen Eifrig Rätselnder Studierender)</p>
@@ -94,7 +94,7 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
 <div class="bubble-container">
   <div class="info-bubble">
     <img src="/img/eventos/2025-PLANCKS/NCs/Greece.png" alt="GR Logo" class="bubble-logo" />
-    <h3 class="bubble-title">NC Greece</h3>
+    <h3 class="bubble-title">TC Greece</h3>
     <p class="bubble-date">Date: </p>
     <p class="bubble-mail">Contact: <a href="mailto:tc-greece@iaps.info">tc-greece@iaps.info</a></p>
     <p class="bubble-organizers">Organizers: National Kapodistrian University of Athens, Road to Plancks – HAPS</p>
@@ -108,7 +108,7 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
 <div class="bubble-container">
   <div class="info-bubble">
     <img src="/img/eventos/2025-PLANCKS/NCs/Hungary.png" alt="HU Logo" class="bubble-logo" />
-    <h3 class="bubble-title">NC Hungary</h3>
+    <h3 class="bubble-title">TC Hungary</h3>
     <p class="bubble-date">Date: </p>
     <p class="bubble-mail">Contact: <a href="mailto:mafihe@mafihe.hu">mafihe@mafihe.hu</a></p>
     <p class="bubble-organizers">Organizers: Eötvös Loránd University, MAFIHE Plancks válogató</p>
@@ -122,7 +122,7 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
 <div class="bubble-container">
   <div class="info-bubble">
     <img src="/img/eventos/2025-PLANCKS/NCs/India.png" alt="IN Logo" class="bubble-logo" />
-    <h3 class="bubble-title">NC India</h3>
+    <h3 class="bubble-title">TC India</h3>
     <p class="bubble-date">Date: </p>
     <p class="bubble-mail">Contact: <a href="mailto:nc-india@iaps.info">nc-india@iaps.info</a></p>
     <p class="bubble-organizers">Organizers: Indian Young Physicists League (Online)</p>
@@ -136,7 +136,7 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
 <div class="bubble-container">
   <div class="info-bubble">
     <img src="/img/eventos/2025-PLANCKS/NCs/Italy.png" alt="IT Logo" class="bubble-logo" />
-    <h3 class="bubble-title">NC Italy</h3>
+    <h3 class="bubble-title">TC Italy</h3>
     <p class="bubble-date">Date: </p>
     <p class="bubble-mail">Contact: <a href="mailto:Esecutivo@ai-sf.it">Esecutivo@ai-sf.it</a></p>
     <p class="bubble-organizers">Organizers: PrePLANCKS2025 (Online, across 15 universities and cities)</p>
@@ -150,7 +150,7 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
 <div class="bubble-container">
   <div class="info-bubble">
     <img src="/img/eventos/2025-PLANCKS/NCs/Poland.png" alt="PL Logo" class="bubble-logo" />
-    <h3 class="bubble-title">NC Poland</h3>
+    <h3 class="bubble-title">TC Poland</h3>
     <p class="bubble-date">Date: </p>
     <p class="bubble-mail">Contact: <a href="mailto:nabla@pwr.edu.pl">nabla@pwr.edu.pl</a></p>
     <p class="bubble-organizers">Organizers: Polish National Preliminaries for PLANCKS 2025, Wrocław University of Science and Technology</p>
@@ -164,7 +164,7 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
 <div class="bubble-container">
   <div class="info-bubble">
     <img src="/img/eventos/2025-PLANCKS/NCs/Portugal.png" alt="PL Logo" class="bubble-logo" />
-    <h3 class="bubble-title">NC Portugal</h3>
+    <h3 class="bubble-title">TC Portugal</h3>
     <p class="bubble-date">Date: </p>
     <p class="bubble-mail">Contact: <a href="mailto:nc-portugal@iaps.info">nc-portugal@iaps.info</a></p>
     <p class="bubble-organizers">Organizers: Preliminares PLANCKS Portugal, Universidade de Lisboa</p>
@@ -178,7 +178,7 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
 <div class="bubble-container">
   <div class="info-bubble">
     <img src="/img/eventos/2025-PLANCKS/NCs/Macedonia.png" alt="MA Logo" class="bubble-logo" />
-    <h3 class="bubble-title">NC Republic of North Macedonia</h3>
+    <h3 class="bubble-title">TC Republic of North Macedonia</h3>
     <p class="bubble-date">Date: </p>
     <p class="bubble-mail">Contact: <a href="mailto:nc-macedonia@iaps.info">nc-macedonia@iaps.info</a></p>
     <p class="bubble-organizers">Organizers: PLANCKS 2025 Macedonian Preliminaries, University Ss. Cyril and Methodius</p>
@@ -192,7 +192,7 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
 <div class="bubble-container">
   <div class="info-bubble">
     <img src="/img/eventos/2025-PLANCKS/NCs/Serbia.png" alt="MA Logo" class="bubble-logo" />
-    <h3 class="bubble-title">NC Serbia</h3>
+    <h3 class="bubble-title">TC Serbia</h3>
     <p class="bubble-date">Date: </p>
     <p class="bubble-mail">Contact: <a href="mailto:nc-serbia@iaps.info">nc-serbia@iaps.info</a></p>
     <p class="bubble-organizers">Organizers: PLANĆKS 2025, University of Belgrade</p>
@@ -206,7 +206,7 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
 <div class="bubble-container">
   <div class="info-bubble">
     <img src="/img/eventos/2025-PLANCKS/NCs/Spain.png" alt="MA Logo" class="bubble-logo" />
-    <h3 class="bubble-title">NC Spain</h3>
+    <h3 class="bubble-title">TC Spain</h3>
     <p class="bubble-date">Date: </p>
     <p class="bubble-mail">Contact: <a href="mailto:nc-spain@iaps.info">nc-spain@iaps.info</a></p>
     <p class="bubble-organizers">Organizers: Preliminares PLANCKS 2025, GdeE RSEF</p>
@@ -220,7 +220,7 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
 <div class="bubble-container">
   <div class="info-bubble">
     <img src="/img/eventos/2025-PLANCKS/NCs/Netherlands.png" alt="NE Logo" class="bubble-logo" />
-    <h3 class="bubble-title">NC UK and Ireland</h3>
+    <h3 class="bubble-title">TC UK and Ireland</h3>
     <p class="bubble-date">Date: </p>
     <p class="bubble-mail">Contact: <a href="mailto:pion@nsaweb.nl">pion@nsaweb.nl</a></p>
     <p class="bubble-organizers">Organizers: PION (Project Interuniversitaire Olympiade Natuurkunde), Amsterdam</p>
@@ -234,7 +234,7 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
 <div class="bubble-container">
   <div class="info-bubble">
     <img src="/img/eventos/2025-PLANCKS/NCs/UK_Ireland.png" alt="UK_IR Logo" class="bubble-logo" />
-    <h3 class="bubble-title">NC UK and Ireland</h3>
+    <h3 class="bubble-title">TC UK and Ireland</h3>
     <p class="bubble-date">Date: </p>
     <p class="bubble-mail">Contact: <a href="mailto:plancks2024@gmail.com">plancks2024@gmail.com</a></p>
     <p class="bubble-organizers">Organizers: PLANCKS UK&IRE Swansea 2025 – UK and Ireland Preliminaries</p>
