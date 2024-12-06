@@ -17,21 +17,22 @@
 <div id="content-desktop">
   <nav class="navbar-plancks" style="background-color: #352F71;" >
     <div class="nav-wrapper container" style="display: flex; justify-content: space-between; align-items: flex-start">
-
       <div style="display: flex; align-items: flex-start; position: relative; left: -152px;">               
         <!-- Logo -->
         <a id="logo-container" href="/PLANCKS25/" style="display: flex; justify-content: space-between; align-items: flex-start;"> 
           <img src="/img/eventos/2025-PLANCKS/Logo.png" alt="Logo" style="height: 152px; border-radius: 60%; margin-top: 0;">
         </a>
-              
         <!-- Title -->
-        <a href="/PLANCKS25/" style="margin-left: 50px; color: white; font-size: 30px; font-weight: bold;">
+        <a href="/PLANCKS25/" class = "hide-on-large-only" style="margin-left: 50px; color: white; font-size: 30px; font-weight: bold;">
+          PLANCKS Barcelona 2025
+        </a>       
+        <a href="/PLANCKS25/" class = "hide-on-med-only" style="margin-left: 50px; color: white; font-size: 30px; font-weight: bold;">
           PLANCKS Barcelona 2025
         </a>
       </div>
 
       <!-- For Big Screens -->
-      <ul class="right hide-on-med-and-down">
+      <ul class="right hide-on-small-and-down">
         {% for item in include.nav %}
           {% if item.subitems %}
             <li>
