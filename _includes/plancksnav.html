@@ -18,7 +18,7 @@
   <nav class="navbar-plancks" style="background-color: #352F71;" >
     <div class="nav-wrapper container" style="display: flex; justify-content: space-between; align-items: flex-start">
 
-      <div class = "hide-on-large-only" style="position: relative; left: -80px">               
+      <div class = "hide-on-large-only" style="display: flex; align-items: flex-start; position: relative; left: -80px">               
         <a id="logo-container" href="/PLANCKS25/" style="justify-content: space-between; flex: 2"> 
           <img src="/img/eventos/2025-PLANCKS/Logo.png" alt="Logo" style="height: 100px; border-radius: 60%; margin-top: 0;">
         </a>
@@ -27,7 +27,7 @@
         </a> 
       </div>
 
-      <div class = "hide-on-med-only" style="position: relative; left: -152px">                 
+      <div class = "hide-on-med-only" style="display: flex; align-items: flex-start; position: relative; left: -152px">                 
         <a id="logo-container" href="/PLANCKS25/" style="justify-content: space-between; flex: 2"> 
           <img src="/img/eventos/2025-PLANCKS/Logo.png" alt="Logo" style="height: 152px; border-radius: 60%; margin-top: 0;">
         </a>
@@ -37,7 +37,7 @@
       </div>
 
       <!-- For Big Screens -->
-      <ul class="right hide-on-small-and-down" style="flex: 1; text-align: right; justify-content: flex-end">
+      <ul class="right hide-on-small-and-down" style="flex: 1;">
         {% for item in include.nav %}
           {% if item.subitems %}
             <li>
