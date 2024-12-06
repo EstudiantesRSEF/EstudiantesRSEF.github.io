@@ -36,13 +36,13 @@
         {% for item in include.nav %}
           {% if item.subitems %}
             <li>
-              <a class="dropdown-button" href="{{ item.url }}" data-activates="dropdown-{{ item.slug }}" style = "display: flex; align-items: center; font-size: 30 px;">
+              <a class="dropdown-button" href="{{ item.url }}" data-activates="dropdown-{{ item.slug }}" style = "display: flex; align-items: center; font-size: 40 px;">
                 {{ item.text }}  <i class="material-icons" style = "margin-left: 5px"> arrow_drop_down </i>
               </a>
             </li>
           {% else %}
             <li>
-              <a href="{{ item.url }}" style="font-size: 30 px; font-weight: bold">
+              <a href="{{ item.url }}" style="font-size: 40 px; font-weight: bold">
                 {% if item.url == navurl %}
                   <b>{{ item.text }}</b>
                 {% else %}
