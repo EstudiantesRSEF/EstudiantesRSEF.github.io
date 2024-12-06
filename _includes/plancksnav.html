@@ -18,7 +18,7 @@
   <nav class="navbar-plancks" style="background-color: #352F71;" >
     <div class="nav-wrapper container" style="display: flex; justify-content: space-between; align-items: flex-start">
 
-      <div class = "hide-on-large-only" style="display: flex; align-items: flex-start; position: relative; left: -80px">               
+      <div class = "hide-on-large-only" style="position: relative; left: -80px">               
         <a id="logo-container" href="/PLANCKS25/" style="justify-content: space-between; flex: 2"> 
           <img src="/img/eventos/2025-PLANCKS/Logo.png" alt="Logo" style="height: 100px; border-radius: 60%; margin-top: 0;">
         </a>
@@ -27,7 +27,7 @@
         </a> 
       </div>
 
-      <div class = "hide-on-med-only" style="display: flex; align-items: flex-start; position: relative; left: -152px">                 
+      <div class = "hide-on-med-only" style="position: relative; left: -152px">                 
         <a id="logo-container" href="/PLANCKS25/" style="justify-content: space-between; flex: 2"> 
           <img src="/img/eventos/2025-PLANCKS/Logo.png" alt="Logo" style="height: 152px; border-radius: 60%; margin-top: 0;">
         </a>
@@ -37,16 +37,16 @@
       </div>
 
       <!-- For Big Screens -->
-      <ul class="right hide-on-small-and-down" style="flex: 1; text-align: right;">
+      <ul class="right hide-on-small-and-down" style="flex: 1; text-align: right; display: flex">
         {% for item in include.nav %}
           {% if item.subitems %}
-            <li>
+            <li style = "flex: 1">
               <a class="dropdown-button" href="{{ item.url }}" data-activates="dropdown-{{ item.slug }}" style = "display: flex; align-items: center; font-size: 40 px;">
                 {{ item.text }}  <i class="material-icons" style = "margin-left: 5px"> arrow_drop_down </i>
               </a>
             </li>
           {% else %}
-            <li>
+            <li style = "flex: 1">
               <a href="{{ item.url }}" style="font-size: 40 px; font-weight: bold">
                 {% if item.url == navurl %}
                   <b>{{ item.text }}</b>
