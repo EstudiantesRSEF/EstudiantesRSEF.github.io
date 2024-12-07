@@ -132,3 +132,64 @@
   ex: 
   logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado: 
+
+- nombre: "Castilla La Mancha - UCLM"
+  id: "CastillaLaManchaUCLM"
+  img: "/img/logos/gdee-rsef-logo-cuadrado.png"
+  mail: "estudiantesrsef.uclm@gmail.com"
+  presidente: "Ángel Francisco Martín Pérez"
+  vicepresidente: "Eduardo Truchado Iniesta"
+  secretario: "Carmen Marín"
+  tesorero: ""
+  fundacion: "11/2024"
+  ins: "https://www.instagram.com/estudiantesrsef_uclm/"
+  tw: 
+  ex: 
+  logo: "/img/banner/logo-banner-estrsef.jpg"
+  congelado: 
+
+# - nombre: "Murcia - UMU"
+#   id: "MurciaUMU"
+#   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
+#   mail: "estudiantesrsef.uva@gmail.com"
+#   presidente: "Javier Torroglosa"
+#   vicepresidente: "Cayetano"
+#   secretario: "Sergio Mulero"
+#   tesorero: "Tyler Scott"
+#   fundacion: "12/2024"
+#   ins: 
+#   tw: 
+#   ex: 
+#   logo: "/img/banner/logo-banner-estrsef.jpg"
+#   congelado: 
+
+# - nombre: "La Laguna - ULL"
+#   id: "LaLagunaULL"
+#   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
+#   mail: 
+#   presidente: "María Magdalena"
+#   vicepresidente: "Lucía González"
+#   secretario: "Mar Sánchez"
+#   tesorero: "Gareb Enoc Fernández"
+#   fundacion: "12/2024"
+#   ins: 
+#   tw: 
+#   ex: 
+#   logo: "/img/banner/logo-banner-estrsef.jpg"
+#   congelado: 
+
+# - nombre: "Alicante - UA"
+#   id: "AlicanteUA"
+#   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
+#   mail: 
+#   presidente: "Ernesto Tomás Riera"
+#   vicepresidente: "Álvaro Serrano" #--------------------------------------------------
+#   secretario: "Said Tahmi"
+#   tesorero: "Pablo"
+#   fundacion: "12/2024"
+#   ins: 
+#   tw: 
+#   ex: 
+#   logo: "/img/banner/logo-banner-estrsef.jpg"
+#   congelado: 
+
