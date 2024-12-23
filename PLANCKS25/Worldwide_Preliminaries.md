@@ -124,11 +124,11 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
     <img src="/img/eventos/2025-PLANCKS/NCs/IYPL-logo.jpg" alt="IN Logo" class="bubble-logo" />
     <h3 class="bubble-title">TC India</h3>
     <p class="bubble-date">Date: </p>
-    <p class="bubble-mail">Contact: <a href="mailto:nc-india@iaps.info">nc-india@iaps.info</a></p>
+    <p class="bubble-mail">Contact: <a href="mailto:tc-india@iaps.info">tc-india@iaps.info</a></p>
     <p class="bubble-organizers">Organizers: Indian Young Physicists League (Online)</p>
     <div class="bubble-buttons">
       <a href="https://iaps.info/members/national-committees/nc-india/" class="btn-plancks25">{IAPS}</a>
-      <a href="https://www.instagram.com/aips_india/" class="btn-plancks25">Website</a>
+      <a href="https://iypl2025.github.io/IYPL/" class="btn-plancks25">Website</a> <!--https://www.instagram.com/aips_india/-->
     </div>
   </div>
 </div>
