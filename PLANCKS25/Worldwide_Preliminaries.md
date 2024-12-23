@@ -128,7 +128,7 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
     <p class="bubble-organizers">Organizers: Indian Young Physicists League (Online)</p>
     <div class="bubble-buttons">
       <a href="https://iaps.info/members/national-committees/nc-india/" class="btn-plancks25">{IAPS}</a>
-      <a href="https://www.facebook.com/aipsfb/" class="btn-plancks25">Website</a>
+      <a href="https://www.instagram.com/aips_india/" class="btn-plancks25">Website</a>
     </div>
   </div>
 </div>
