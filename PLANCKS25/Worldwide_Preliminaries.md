@@ -121,7 +121,7 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
 
 <div class="bubble-container">
   <div class="info-bubble">
-    <img src="/img/eventos/2025-PLANCKS/NCs/India.png" alt="IN Logo" class="bubble-logo" />
+    <img src="/img/eventos/2025-PLANCKS/NCs/IYPL-logo.jpg" alt="IN Logo" class="bubble-logo" />
     <h3 class="bubble-title">TC India</h3>
     <p class="bubble-date">Date: </p>
     <p class="bubble-mail">Contact: <a href="mailto:nc-india@iaps.info">nc-india@iaps.info</a></p>
