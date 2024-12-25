@@ -26,13 +26,13 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
         <div class="bubble-container">
           <div class="info-bubble">
             <img src="{{venue.logo}}" alt="{{ venue.title }} Logo" class="bubble-logo" />
-            <h3 class="bubble-title">{{ sede.title }}</h3>
-            <p class="bubble-date">Date: {{ sede.date }}</p>
-            <p class="bubble-mail">Contact: <a href="mailto:{{venue.mail}}">{{ sede.mail }}</a></p>
-            <p class="bubble-organizers">Organizers: {{ sede.organizers }}</p>
+            <h3 class="bubble-title">{{ venue.name }}</h3>
+            <p class="bubble-date">Date: {{ venue.date }}</p>
+            <p class="bubble-mail">Contact: <a href="mailto:{{venue.contact}}">{{ venue.contact}}</a></p>
+            <p class="bubble-organizers">Organizers: {{venue.organizers}}</p>
             <div class="bubble-buttons">
-              <a href="{{venue.iaps_link}}" class="btn-plancks25">{IAPS}</a>
-              <a href="{{venue.website_link}}" class="btn-plancks25">Website</a>
+              <a href="{{venue.iaps}}" class="btn-plancks25">{IAPS}</a>
+              <a href="{{venue.web}}" class="btn-plancks25">Website</a>
             </div>
           </div>
         </div>
