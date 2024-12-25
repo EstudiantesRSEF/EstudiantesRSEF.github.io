@@ -24,12 +24,12 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
 <div class="bubble-parent">
         {% for venue in site.data.PLANCKS25.info_venues %}
         <div class="bubble-container">
-          <div class="info-bubble">
+          <div class="info-bubble" >
             <img src="{{venue.logo}}" alt="{{ venue.title }} Logo" class="bubble-logo" />
             <h3 class="bubble-title">{{ venue.name }}</h3>
-            <p class="bubble-date">Date: {{ venue.date }}</p>
-            <p class="bubble-mail">Contact: <a href="mailto:{{venue.contact}}">{{ venue.contact}}</a></p>
-            <p class="bubble-organizers">Organizers: {{venue.organizers}}</p>
+            <p class="bubble-date" style="color: #E0E0E0">Date: {{ venue.date }}</p>
+            <p class="bubble-mail" style="color: #E0E0E0">Contact: <a href="mailto:{{venue.contact}}" style="color: #352F71; text-decoration: underline;">{{ venue.contact}}</a></p>
+            <p class="bubble-organizers" style="color: #E0E0E0">Organizers: {{venue.organizers}}</p>
             <div class="bubble-buttons">
               <a href="{{venue.iaps}}" class="btn-plancks25">{IAPS}</a>
               <a href="{{venue.web}}" class="btn-plancks25">Website</a>
