@@ -9,13 +9,13 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
      <div class="section">
 
 <!-- BANNER -->
-      <img class="materialboxed" width="100%" src="/img/eventos/2024-PrelisPLANCKS/bannerPrelis24.png">
+      <img class="materialboxed" width="100%" src="/img/eventos/2025-PrelisPLANCKS/bannerPrelis24.png">
 
 
 <!-- RESULTADOS -->
       <hr>
       <h2 style="text-align: center;">        
-          <a href="{{ site.url}}/PreliminaresPLANCKS/2024/clasificacionprelis2024.pdf" target="_blank"><span style="color: #3ca41c;"><strong>CLASIFICACIÓN DE LAS PRELIMINARES DE PLANCKS 2024</strong></span></a>        
+          <a href="{{ site.url}}/PreliminaresPLANCKS/2025/clasificacionprelis2025.pdf" target="_blank"><span style="color: #3ca41c;"><strong>CLASIFICACIÓN DE LAS PRELIMINARES DE PLANCKS 2025</strong></span></a>        
       </h2>
       <hr>
 
@@ -44,7 +44,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
 <!-- COUNTDOWN -->
 <!--
       <div class="row">  
-        <p style="text-align: justify;">Las inscripciones para las Preliminares de PLANCKS 2024 se cerrarán en...</p>
+        <p style="text-align: justify;">Las inscripciones para las Preliminares de PLANCKS 2025 se cerrarán en...</p>
         <h3 style="text-align: center;"><p id="countdown" style="text-align:center"></p></h3>
         <p style="text-align: justify;">¡No dejes tu inscripción para el último momento para asegurarnos que tendrás aulas y supervisores disponibles en tu facultad!</p>
         <p style="text-align: justify;"> Sólo para equipos con miembros del GdeE. Hemos comenzado ya con la promoción a todos los estudiantes de física de España. ¡Así que no te quedes sin plaza!</p>
@@ -53,9 +53,9 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
 <!-- FINAL INSCRIPCIONES -->
 <div class="section">  
         <div class="row center">
-          <p style="text-align: justify;">¡Las inscripciones para las Preliminares de PLANCKS 2024 han sido un éxito! Hemos vuelto a superar el número de participantes, con un total de...</p>
+          <p style="text-align: justify;">¡Las inscripciones para las Preliminares de PLANCKS 2025 han sido un éxito! Hemos vuelto a superar el número de participantes, con un total de...</p>
           <h3 style="text-align: center;">¡¡105 equipos en 19 sedes!!</h3>
-          <p style="text-align: justify;">¡Gracias por ser parte de las Preliminares de PLANCKS 2024 y contribuir a su éxito!</p>
+          <p style="text-align: justify;">¡Gracias por ser parte de las Preliminares de PLANCKS 2025 y contribuir a su éxito!</p>
         </div>
       </div>
 
@@ -65,12 +65,12 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
 <!--
       <div class="section">
         <h3 id="Autores">¡Conoce a l@s autor@s de los problemas!</h3>
-        <p style="text-align: justify;">Los miembros del Comité Académico de las Preliminares PLANCKS 2024 son:</p>
+        <p style="text-align: justify;">Los miembros del Comité Académico de las Preliminares PLANCKS 2025 son:</p>
 
         <div class="col s12 m6">
           <div class="row center">
             {% for person in site.persons %}
-            {% if person.evento contains "Prelis2024" %}
+            {% if person.evento contains "Prelis2025" %}
               <ul class="collection waves-effect waves-light" style="width: 40%">
                 <a href="#{{ person.id | remove: "/" }}-modal" class="collection-item modal-trigger waves-effect waves-light" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
                   <li class="collection-item avatar2">
@@ -89,14 +89,14 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
 
 <!-- COMITÉS -->
     <div class="row"> 
-      <p style="text-align: justify;">Además, puedes <a href="#comites-modal" class="prelis24 modal-trigger">consultar aquí</a> los integrantes del Comité Organizador de las Preliminares de PLANCKS 2024.</p>
+      <p style="text-align: justify;">Además, puedes <a href="#comites-modal" class="prelis24 modal-trigger">consultar aquí</a> los integrantes del Comité Organizador de las Preliminares de PLANCKS 2025.</p>
     </div>
 
     
      <!-- Modal PONENTES -->
 
      {% for person in site.persons %}
-     {% if person.evento contains "Prelis2024" %}
+     {% if person.evento contains "Prelis2025" %}
 
      <div id="{{ person.id | remove: "/" }}-modal" class="modal">
        <div class="modal-content">
@@ -164,7 +164,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
     {% assign loopindex = 0 %}
     {% for event in site.events reversed %}
     {% if event.title contains "Preliminares de PLANCKS"%}
-    {% if event.title != "Preliminares de PLANCKS 2024"%}
+    {% if event.title != "Preliminares de PLANCKS 2025"%}
     {% assign rowfinder = loopindex | modulo:2 %}
     {% if rowfinder == 0 %}
       <div class="row">
@@ -208,11 +208,11 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
       <div class="row center">
         <h3 class="justify">Información general</h3>
 
-        <p style="text-align: justify;"><strong>¿En qué consisten las Preliminares?</strong> Las Preliminares de PLANCKS 2024 es una competición de física teórica por equipos en la que habrá que resolver 4 problemas. Puedes ver las pruebas de otros años en la <a class="prelis24 modal-close" href="#ediciones-anteriores">sección de Ediciones anteriores</a>.</p>
+        <p style="text-align: justify;"><strong>¿En qué consisten las Preliminares?</strong> Las Preliminares de PLANCKS 2025 es una competición de física teórica por equipos en la que habrá que resolver 4 problemas. Puedes ver las pruebas de otros años en la <a class="prelis24 modal-close" href="#ediciones-anteriores">sección de Ediciones anteriores</a>.</p>
         
         <p style="text-align: justify;"><strong>¿Cómo puedo participar en las Preliminares?</strong> Es muy sencillo: si conoces un@s cuant@s amig@s con los que te apetecería pasar un buen rato, resolver problemas que resultan todo un reto e inventarte respuestas disparatadas cuando no sepas por donde salir, reúne un equipo de hasta cuatro personas y no lo dudes: <a class="prelis24" href="https://docs.google.com/forms/d/e/1FAIpQLSe621X8cPqOPlC6gNIk9nioyiRIrpsDfFANJnPRVUAaavZDNA/viewform" id="inscripcion-button" target="_blank">¡inscríbete!</a> Esta primera fase nacional nos permitirá seleccionar al mejor equipo para que nos represente en la competición internacional. Por cierto, es posible que el comité organizador os pida ayuda para encontrar un aula y un/a supervisor/a para poder garantizar una sede de las Preliminares en vuestra ciudad.</p>
 
-        <p style="text-align: justify;"><strong>¿Cómo y cuándo tendrán lugar las Preliminares?</strong> Las Preliminares de PLANCKS 2024 en España se celebrarán el próximo <strong>viernes 1 de marzo por la tarde</strong>, de forma simultánea en sedes situadas en facultades de física del territorio nacional. La prueba durará 3 horas y tendrá lugar de 16:00 a 19:00 (GMT+1).</p>
+        <p style="text-align: justify;"><strong>¿Cómo y cuándo tendrán lugar las Preliminares?</strong> Las Preliminares de PLANCKS 2025 en España se celebrarán el próximo <strong>viernes 1 de marzo por la tarde</strong>, de forma simultánea en sedes situadas en facultades de física del territorio nacional. La prueba durará 3 horas y tendrá lugar de 16:00 a 19:00 (GMT+1).</p>
         
         <p style="text-align: justify;"><strong>Y si la prueba os sale muy bien hay premio por partida doble...</strong></p>
         
@@ -221,7 +221,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
           <li style="text-align: justify;">¡Y este año tenemos premios para los dos mejores equipos gracias a la financiación de la Fundación Ramón Areces! Lee más en <a href="#premios-modal" class="prelis24">este enlace</a>.</li> 
         </list> 
 
-        <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a class="prelis24" href="/PreliminaresPLANCKS/2024/CompetitionRules_PrelisPLANCKS2024.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
+        <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a class="prelis24" href="/PreliminaresPLANCKS/2025/CompetitionRules_PrelisPLANCKS2025.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
       </div>
     </div>
     
@@ -270,12 +270,12 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center">
         <h3 class="justify">Información para supervisoras/es</h3>
-        <p style="text-align: justify;">¡Hola! Si has llegado hasta esta página es que puedes ser un/a posible supervisor/a de examen en las Preliminares de PLANCKS 2024. A continuación, te contamos cuáles son los requisitos y las responsabilidades del cargo.</p>
+        <p style="text-align: justify;">¡Hola! Si has llegado hasta esta página es que puedes ser un/a posible supervisor/a de examen en las Preliminares de PLANCKS 2025. A continuación, te contamos cuáles son los requisitos y las responsabilidades del cargo.</p>
         <p style="text-align: justify;">Lee sobre la información general de las Preliminares de PLANCKS en <a class="prelis24 modal-trigger" href="#info-modal">este enlace</a>.</p>
         <p style="text-align: justify;"><strong>¿Cuáles son los requisitos del cargo de Supervisor/a?</strong> Son dos:</p>
         <list class="a">
           <li style="text-align: justify;">Ser investigador pre- o post-doctoral o ser docente universitario o de educación secundaria (en activo o jubilado).</li>
-          <li style="text-align: justify;">Comprometerse a tener disponibilidad en el rango horario 15:30h - 19:30h el viernes 1 de marzo de 2024, así como a dedicar esa disponibilidad a las responsabilidades abajo indicadas.</li>
+          <li style="text-align: justify;">Comprometerse a tener disponibilidad en el rango horario 15:30h - 19:30h el viernes 1 de marzo de 2025, así como a dedicar esa disponibilidad a las responsabilidades abajo indicadas.</li>
         </list>
         <p style="text-align: justify;"><strong>¿Cuáles son las responsabilidades del cargo de Supervisor/a?</strong> Son las siguientes:</p>
         <list class="a">
@@ -284,8 +284,8 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
           <li style="text-align: justify;">Supervisar el desarrollo de la prueba durante su realización y velar por el cumplimiento de las normas establecidas.</li>
           <li style="text-align: justify;">Recoger las hojas de la prueba y escanearlas para enviarlas al Comité Organizador el mismo día de la prueba.</li>
         </list>
-        <p style="text-align: justify;"><strong>¿Cómo puedo supervisar un examen en las Preliminares 2024?</strong> Es muy sencillo: sólo tienes que rellenar <a class="prelis24" href="https://docs.google.com/forms/d/e/1FAIpQLSdEsspz155pqui07-RYSDWc12-pOQ4msZ2p6EI-iPYuWypghw/viewform" id="inscripcion-supervisores-button" target="_blank">este formulario</a>. Una vez cumplimentado, nos pondremos en contacto contigo para informarte de los siguientes pasos.</p>
-        <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a class="prelis24" href="/PreliminaresPLANCKS/2024/CompetitionRules_PrelisPLANCKS2024.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
+        <p style="text-align: justify;"><strong>¿Cómo puedo supervisar un examen en las Preliminares 2025?</strong> Es muy sencillo: sólo tienes que rellenar <a class="prelis24" href="https://docs.google.com/forms/d/e/1FAIpQLSdEsspz155pqui07-RYSDWc12-pOQ4msZ2p6EI-iPYuWypghw/viewform" id="inscripcion-supervisores-button" target="_blank">este formulario</a>. Una vez cumplimentado, nos pondremos en contacto contigo para informarte de los siguientes pasos.</p>
+        <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a class="prelis24" href="/PreliminaresPLANCKS/2025/CompetitionRules_PrelisPLANCKS2025.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
       </div>
     </div>
   </div>
@@ -312,7 +312,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
       <div class="row center">
         <div class="col s12 m6">
           <div class="row center">
-            <a href="https://plancks.uk/dublin24/" target="_blank" id="plancks-button" class="btn-large waves-effect waves-light" style="background-color: #ffffff; color: #3ca41c"><strong>Conoce Plancks 2024</strong></a>
+            <a href="https://plancks.uk/dublin24/" target="_blank" id="plancks-button" class="btn-large waves-effect waves-light" style="background-color: #ffffff; color: #3ca41c"><strong>Conoce Plancks 2025</strong></a>
           </div>
         </div>
         <div class="col s12 m6">
@@ -441,7 +441,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
 <!-- TIMER SCRIPT -->
 <script>
   // Set the date we're counting down to
-  var countDownDate = new Date("Feb 26, 2024 00:00:00").getTime();
+  var countDownDate = new Date("Feb 26, 2025 00:00:00").getTime();
 
   // Update the count down every 1 second
   var x = setInterval(function() {

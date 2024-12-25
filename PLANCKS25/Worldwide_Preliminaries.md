@@ -20,7 +20,26 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
       <p style="text-align: justify;">If your country is not listed below, then don’t wait and contact us on plancks25@rsef.es to arrange representing your country.</p>
 
 <!-- SEDES -->
+
 <div class="bubble-parent">
+        {% for venue in site.data.PLANCKS25.info_venues %}
+        <div class="bubble-container">
+          <div class="info-bubble">
+            <img src="{{ venue.logo }}" alt="{{ venue.title }} Logo" class="bubble-logo" />
+            <h3 class="bubble-title">{{ sede.title }}</h3>
+            <p class="bubble-date">Date: {{ sede.date }}</p>
+            <p class="bubble-mail">Contact: <a href="mailto:{{ venue.mail }}">{{ sede.mail }}</a></p>
+            <p class="bubble-organizers">Organizers: {{ sede.organizers }}</p>
+            <div class="bubble-buttons">
+              <a href="{{ venue.iaps_link }}" class="btn-plancks25">{IAPS}</a>
+              <a href="{{ venue.website_link }}" class="btn-plancks25">Website</a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+<!-- <div class="bubble-parent">
 <div class="bubble-container">
   <div class="info-bubble">
     <img src="/img/eventos/2025-PLANCKS/NCs/Costa_Rica.jpg" alt="CR Logo" class="bubble-logo" />
@@ -331,7 +350,7 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
     </div>
   </div>
 </div>
-</div>
+</div> -->
 
 <!-- SPONSORS -->
       {% include PLANCKS25_patrocinadores.html %}
