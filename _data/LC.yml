@@ -152,10 +152,13 @@
 #   id: "MurciaUMU"
 #   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
 #   mail: "estudiantesrsef.uva@gmail.com"
-#   presidente: "Javier Torroglosa"
-#   vicepresidente: "Cayetano"
-#   secretario: "Sergio Mulero"
-#   tesorero: "Tyler Scott"
+#   presidente: "Francisco Javier Torroglosa Úbeda"
+#   vicepresidente: "Cayetano Bayona Pacheco"
+#   secretario: "Sergio Mulero Moreno"
+#   tesorero: "Tyler Scott Stapleton"
+#   colaboradores:
+#     - nombre_col: "Valeria Martínez Molina"
+#     - nombre_col: "Ana María Molina Miñarro"
 #   fundacion: "12/2024"
 #   ins: 
 #   tw: 
@@ -167,10 +170,10 @@
 #   id: "LaLagunaULL"
 #   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
 #   mail: 
-#   presidente: "María Magdalena"
-#   vicepresidente: "Lucía González"
-#   secretario: "Mar Sánchez"
-#   tesorero: "Gareb Enoc Fernández"
+#   presidente: "María Magdalena Rodríguez"
+#   vicepresidente: "Lucía González Pérez"
+#   secretario: "Mar Sánchez Sicilia"
+#   tesorero: "Gareb Enoc Fernández Rodríguez"
 #   fundacion: "12/2024"
 #   ins: 
 #   tw: 
@@ -183,9 +186,9 @@
 #   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
 #   mail: 
 #   presidente: "Ernesto Tomás Riera"
-#   vicepresidente: "Álvaro Serrano" #--------------------------------------------------
+#   vicepresidente: "Álvaro Serrano Ruiz" 
 #   secretario: "Said Tahmi"
-#   tesorero: "Pablo"
+#   tesorero: "Pablo Sorribes Córcoles"
 #   fundacion: "12/2024"
 #   ins: 
 #   tw: 
