@@ -148,51 +148,51 @@
   logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado: 
 
-# - nombre: "Murcia - UMU"
-#   id: "MurciaUMU"
-#   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
-#   mail: "estudiantesrsef.uva@gmail.com"
-#   presidente: "Francisco Javier Torroglosa Úbeda"
-#   vicepresidente: "Cayetano Bayona Pacheco"
-#   secretario: "Sergio Mulero Moreno"
-#   tesorero: "Tyler Scott Stapleton"
-#   colaboradores:
-#     - nombre_col: "Valeria Martínez Molina"
-#     - nombre_col: "Ana María Molina Miñarro"
-#   fundacion: "12/2024"
-#   ins: 
-#   tw: 
-#   ex: 
-#   logo: "/img/banner/logo-banner-estrsef.jpg"
-#   congelado: 
+- nombre: "Murcia - UMU"
+  id: "MurciaUMU"
+  img: "/img/logos/gdee-rsef-logo-cuadrado.png"
+  mail: "estudiantesrsef.uva@gmail.com"
+  presidente: "Francisco Javier Torroglosa Úbeda"
+  vicepresidente: "Cayetano Bayona Pacheco"
+  secretario: "Sergio Mulero Moreno"
+  tesorero: "Tyler Scott Stapleton"
+  colaboradores:
+    - nombre_col: "Valeria Martínez Molina"
+    - nombre_col: "Ana María Molina Miñarro"
+  fundacion: "12/2024"
+  ins: 
+  tw: 
+  ex: 
+  logo: "/img/banner/logo-banner-estrsef.jpg"
+  congelado: 
 
-# - nombre: "La Laguna - ULL"
-#   id: "LaLagunaULL"
-#   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
-#   mail: 
-#   presidente: "María Magdalena Rodríguez"
-#   vicepresidente: "Lucía González Pérez"
-#   secretario: "Mar Sánchez Sicilia"
-#   tesorero: "Gareb Enoc Fernández Rodríguez"
-#   fundacion: "12/2024"
-#   ins: 
-#   tw: 
-#   ex: 
-#   logo: "/img/banner/logo-banner-estrsef.jpg"
-#   congelado: 
+- nombre: "La Laguna - ULL"
+  id: "LaLagunaULL"
+  img: "/img/logos/gdee-rsef-logo-cuadrado.png"
+  mail: 
+  presidente: "María Magdalena Rodríguez"
+  vicepresidente: "Lucía González Pérez"
+  secretario: "Mar Sánchez Sicilia"
+  tesorero: "Gareb Enoc Fernández Rodríguez"
+  fundacion: "12/2024"
+  ins: 
+  tw: 
+  ex: 
+  logo: "/img/banner/logo-banner-estrsef.jpg"
+  congelado: 
 
-# - nombre: "Alicante - UA"
-#   id: "AlicanteUA"
-#   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
-#   mail: 
-#   presidente: "Ernesto Tomás Riera"
-#   vicepresidente: "Álvaro Serrano Ruiz" 
-#   secretario: "Said Tahmi"
-#   tesorero: "Pablo Sorribes Córcoles"
-#   fundacion: "12/2024"
-#   ins: 
-#   tw: 
-#   ex: 
-#   logo: "/img/banner/logo-banner-estrsef.jpg"
-#   congelado: 
+- nombre: "Alicante - UA"
+  id: "AlicanteUA"
+  img: "/img/logos/gdee-rsef-logo-cuadrado.png"
+  mail: 
+  presidente: "Ernesto Tomás Riera"
+  vicepresidente: "Álvaro Serrano Ruiz" 
+  secretario: "Said Tahmi"
+  tesorero: "Pablo Sorribes Córcoles"
+  fundacion: "12/2024"
+  ins: 
+  tw: 
+  ex: 
+  logo: "/img/banner/logo-banner-estrsef.jpg"
+  congelado: 
 
