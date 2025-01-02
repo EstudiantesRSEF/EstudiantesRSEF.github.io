@@ -47,10 +47,10 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
           <a href="#info-modal" id="info-button" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light"><i class="material-icons" style="padding-right: 8px;">info</i><strong>Información general</strong></a>
         </div>
         <div class="row center">
-          <a href="#supervisores-modal" id="supervisores-button" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Supervisoras/es</strong></a>
-          <a href="#plancks-modal" id="conocer-button" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light"><i class="material-icons" style="padding-right: 8px;">explore</i><strong>Conoce Plancks</strong></a>
-          <a href="#premios-modal" id="premios-button" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light"><i class="material-icons" style="padding-right: 8px;">star</i><strong>Premios</strong></a>
-          <a href="#inscripcion-modal" id="inscripcion-button" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light"><i class="material-icons" style="padding-right: 8px;">create</i><strong>Inscríbete</strong></a>
+          <a href="#supervisores-modal" id="supervisores-button" class="btn-plancks25 waves-effect waves-light"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Supervisoras/es</strong></a>
+          <a href="#plancks-modal" id="conocer-button" class="btn-plancks25 waves-effect waves-light"><i class="material-icons" style="padding-right: 8px;">explore</i><strong>Conoce Plancks</strong></a>
+          <a href="#premios-modal" id="premios-button" class="btn-plancks25 waves-effect waves-light"><i class="material-icons" style="padding-right: 8px;">star</i><strong>Premios</strong></a>
+          <a href="#inscripcion-modal" id="inscripcion-button" class="btn-plancks25 waves-effect waves-light"><i class="material-icons" style="padding-right: 8px;">create</i><strong>Inscríbete</strong></a>
         </div>
       </div>
        <!-- COUNTDOWN -->
