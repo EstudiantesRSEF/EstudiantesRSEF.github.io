@@ -4,6 +4,29 @@ title: Preliminares PLANCKS 2025
 permalink: /PreliminaresPLANCKS2025pruebasmd/
 ---
 
+<div class="sidebar">
+    <ul>
+        <li>
+            <a href="https://example.com">
+                <img src="imagen1.jpg" alt="Imagen 1">
+                <p>Título 1</p>
+            </a>
+        </li>
+        <li>
+            <a href="https://example.com">
+                <img src="imagen2.jpg" alt="Imagen 2">
+                <p>Título 2</p>
+            </a>
+        </li>
+        <li>
+            <a href="https://example.com">
+                <img src="imagen3.jpg" alt="Imagen 3">
+                <p>Título 3</p>
+            </a>
+        </li>
+    </ul>
+</div>
+
 <div class="no-pad-top" id="index-page">
   <div class="container">
      <div class="section">
