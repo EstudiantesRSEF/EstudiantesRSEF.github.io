@@ -6,6 +6,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
 
 <div class="no-pad-top" id="index-page">
   <div class="container" style = "display: flex; flex-direction: row-reverse; padding-left: -10px">
+    <!--Sidebar con posts-->
     <div class="prelis25"><div class="sidebar">
       <ul>
         {% for item in site.data.Prelis.PostsList limit:3 %}
@@ -25,22 +26,23 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
         {% endfor %}
       </ul>
     </div></div>    
+    <!--Seccion de texto -->
     <div class="section prelis25">
-        <!-- BANNER -->
+        <!-- BANNER
       <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
-        <!-- RESULTADOS -->
+        RESULTADOS
       <hr>
       <h2 style="text-align: center;">        
           <a href="{{ site.url}}/PreliminaresPLANCKS/2025/clasificacionprelis2025.pdf" target="_blank"><span><strong>CLASIFICACIÓN DE LAS PRELIMINARES DE PLANCKS 2025</strong></span></a>        
       </h2>
       <hr>
-        <!-- SOLUCIONES -->
+        SOLUCIONES
       <h2 style="text-align: center;">        
         <a href="https://drive.google.com/drive/folders/1W5TApAH-R18FIYzg79aIk_bP2T36iI4F" target="_blank"><span><strong>SOLUCIONES DE LOS PROBLEMAS</strong></span></a>        
       </h2>
-      <hr>
+      <hr> -->
         <!-- INTRODUCCIÓN -->
-      <p style="text-align: justify;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la octava edición de las <strong>Preliminares de PLANCKS</strong>! Y este año también ofrecemos <strong>1000€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces. Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p>
+      <p style="text-align: justify;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la octava edición de las <strong>Preliminares de PLANCKS</strong>! <!--Y este año también ofrecemos <strong>1000€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces.--> Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p>
         <!-- BOTONES -->
       <div class="section" style="display: flex; flex-direction: column; justify-content: space-between">
         <div class="row center" style="flex: 1; display: flex; justify-content: center; align-items: center;">
@@ -54,24 +56,21 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
         </div>
       </div>
        <!-- COUNTDOWN -->
-      <!--
       <div class="row">  
         <p style="text-align: justify;">Las inscripciones para las Preliminares de PLANCKS 2025 se cerrarán en...</p>
         <h3 style="text-align: center;"><p id="countdown" style="text-align:center"></p></h3>
         <p style="text-align: justify;">¡No dejes tu inscripción para el último momento para asegurarnos que tendrás aulas y supervisores disponibles en tu facultad!</p>
         <p style="text-align: justify;"> Sólo para equipos con miembros del GdeE. Hemos comenzado ya con la promoción a todos los estudiantes de física de España. ¡Así que no te quedes sin plaza!</p>
       </div> 
-      -->      
         <!-- FINAL INSCRIPCIONES -->
-      <div class="section">  
+      <!-- <div class="section">  
         <div class="row center">
           <p style="text-align: justify;">¡Las inscripciones para las Preliminares de PLANCKS 2025 han sido un éxito! Hemos vuelto a superar el número de participantes, con un total de...</p>
           <h3 style="text-align: center;">¡¡105 equipos en 19 sedes!!</h3>
           <p style="text-align: justify;">¡Gracias por ser parte de las Preliminares de PLANCKS 2025 y contribuir a su éxito!</p>
         </div>
-      </div>
+      </div> -->
         <!-- AUTORES -->
-      <!--
       <div class="section">
         <h3 id="Autores">¡Conoce a l@s autor@s de los problemas!</h3>
         <p style="text-align: justify;">Los miembros del Comité Académico de las Preliminares PLANCKS 2025 son:</p>
@@ -93,51 +92,10 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
           </div>
        </div>
       </div>
-      -->
         <!-- COMITÉS -->
       <div class="row"> 
         <p style="text-align: justify;">Además, puedes <a href="#comites-modal" class="prelis25 modal-trigger">consultar aquí</a> los integrantes del Comité Organizador de las Preliminares de PLANCKS 2025.</p>
       </div>    
-        <!-- Modal PONENTES -->
-      {% for person in site.persons %}
-      {% if person.evento contains "Prelis2025" %}
-      <div id="{{ person.id | remove: "/" }}-modal" class="modal">
-        <div class="modal-content">
-          <div class="section" style="padding-left: 30px; padding-right: 30px;">
-            <div class="row">
-              <div class="col s12 m6 l6">
-                <div class="row center">
-                  <img src="{{ person.img }}" alt="" class="circle" width="70%">
-                </div>
-              </div>
-              <div class="col s12 m6 l6">        
-                <div class="row center" style="padding-left: 30px; padding-top: 50px;">
-                  <h3 class="justify">{{ person.nombre }}</h3>
-                  <h5 class="justify">{{ person.aff }}</h5>
-                  <h5 class="justify" style="padding-top: 10px;">{{ person.roldes }}</h5>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <h2 class="justify">Biografía</h2>
-              {%- if person.bio1 -%}
-                <p style="text-align: justify;"> {{ person.bio1 }} </p>
-              {%- endif -%}
-              {%- if person.bio2 -%}
-                <p style="text-align: justify;"> {{ person.bio2 }} </p>
-              {%- endif -%}
-              {%- if person.bio3 -%}
-                <p style="text-align: justify;"> {{ person.bio3 }} </p>
-              {%- endif -%}
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <a href="#!" class="modal-close waves-effect waves-green btn-flat">CERRAR</a>
-        </div>
-      </div>
-     {% endif %}
-     {% endfor %}
       <!-- MAP -->
       <div class="section">
         <div class="section">
@@ -192,18 +150,18 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
   </div>
 
 <!-- INFO MODAL -->
-<div id="info-modal" class="modal">
+<div id="info-modal" class="modal prelis25">
   <div class="modal-content-tight">    
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center">
         <h3 class="justify">Información general</h3>
         <p style="text-align: justify;"><strong>¿En qué consisten las Preliminares?</strong> Las Preliminares de PLANCKS 2025 es una competición de física teórica por equipos en la que habrá que resolver 4 problemas. Puedes ver las pruebas de otros años en la <a class="prelis25 modal-close" href="#ediciones-anteriores">sección de Ediciones anteriores</a>.</p>        
         <p style="text-align: justify;"><strong>¿Cómo puedo participar en las Preliminares?</strong> Es muy sencillo: si conoces un@s cuant@s amig@s con los que te apetecería pasar un buen rato, resolver problemas que resultan todo un reto e inventarte respuestas disparatadas cuando no sepas por donde salir, reúne un equipo de hasta cuatro personas y no lo dudes: <a class="prelis25" href="https://docs.google.com/forms/d/e/1FAIpQLSe621X8cPqOPlC6gNIk9nioyiRIrpsDfFANJnPRVUAaavZDNA/viewform" id="inscripcion-button" target="_blank">¡inscríbete!</a> Esta primera fase nacional nos permitirá seleccionar al mejor equipo para que nos represente en la competición internacional. Por cierto, es posible que el comité organizador os pida ayuda para encontrar un aula y un/a supervisor/a para poder garantizar una sede de las Preliminares en vuestra ciudad.</p>
-        <p style="text-align: justify;"><strong>¿Cómo y cuándo tendrán lugar las Preliminares?</strong> Las Preliminares de PLANCKS 2025 en España se celebrarán el próximo <strong>viernes 1 de marzo por la tarde</strong>, de forma simultánea en sedes situadas en facultades de física del territorio nacional. La prueba durará 3 horas y tendrá lugar de 16:00 a 19:00 (GMT+1).</p>        
-        <p style="text-align: justify;"><strong>Y si la prueba os sale muy bien hay premio por partida doble...</strong></p>        
+        <p style="text-align: justify;"><strong>¿Cómo y cuándo tendrán lugar las Preliminares?</strong> Las Preliminares de PLANCKS 2025 en España se celebrarán el próximo <strong>viernes 7 de marzo por la tarde</strong>, de forma simultánea en sedes situadas en facultades de física del territorio nacional. La prueba durará 3 horas y tendrá lugar de 16:00 a 19:00 (GMT+1).</p>        
+        <p style="text-align: justify;"><strong>Y si la prueba os sale muy bien<!-- hay premio por partida doble-->...</strong></p>        
         <list class="a">
-          <li style="text-align: justify;">Las Preliminares de PLANCKS son además la fase de clasificación nacional para PLANCKS en nuestro país. El mejor equipo de las Prelis nos representará en mayo en la final, ¡que se celebra en Dublín! La inscripción y alojamiento estará cubierta por el Grupo de Estudiantes. ¿Que aun no sabes lo que es PLANCKS? Encuentra toda la información en <a class="prelis25 modal-trigger" href="#plancks-modal">este enlace</a>.</li>
-          <li style="text-align: justify;">¡Y este año tenemos premios para los dos mejores equipos gracias a la financiación de la Fundación Ramón Areces! Lee más en <a href="#premios-modal" class="prelis25">este enlace</a>.</li> 
+          <li style="text-align: justify;">Las Preliminares de PLANCKS son la fase de clasificación nacional para PLANCKS en nuestro país. El mejor equipo de las Prelis nos representará en mayo en la final, ¡que se celebra en Barcelona! La inscripción y alojamiento estará cubierta por el Grupo de Estudiantes. ¿Que aún no sabes lo que es PLANCKS? Encuentra toda la información en <a class="prelis25 modal-trigger" href="#plancks-modal">este enlace</a>.</li>
+          <!-- <li style="text-align: justify;">¡Y este año tenemos premios para los dos mejores equipos gracias a la financiación de la Fundación Ramón Areces! Lee más en <a href="#premios-modal" class="prelis25">este enlace</a>.</li>  -->
         </list> 
         <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a class="prelis25" href="/PreliminaresPLANCKS/2025/CompetitionRules_PrelisPLANCKS2025.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
       </div>
@@ -223,7 +181,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
 </div>
 
 <!-- PREMIOS MODAL -->
-<div id="premios-modal" class="modal">
+<div id="premios-modal" class="modal prelis25">
   <div class="modal-content-tight">
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center">
@@ -246,7 +204,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
 </div>
 
 <!-- SUPERVISORES MODAL -->
-<div id="supervisores-modal" class="modal">
+<div id="supervisores-modal" class="modal prelis25">
   <div class="modal-content-tight">
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center">
@@ -276,7 +234,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
 </div>
 
 <!-- CONOCER MODAL -->
-<div id="plancks-modal" class="modal">
+<div id="plancks-modal" class="modal prelis25">
   <div class="modal-content-tight">    
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center">
@@ -307,7 +265,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
   </div>
 </div>
 <!-- INSCRIPCIÓN MODAL -->
-<div id="inscripcion-modal" class="modal">
+<div id="inscripcion-modal" class="modal prelis25">
   <div class="modal-content-tight">    
     <div class="section">
       <div class="row center">
@@ -333,7 +291,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
 </div>
 
 <!-- COMITÉS MODAL-->
-<div id="comites-modal" class="modal">
+<div id="comites-modal" class="modal prelis25">
   <div class="modal-content-tight">
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center" style="padding-left: 30px; padding-top: 10px;">
@@ -376,7 +334,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
 </div>
 
 <!-- MODAL COMITÉ ORGANIZADOR -->
-<div id="OCPrelis23" class="modal">
+<div id="OCPrelis23" class="modal prelis25">
   <div class="modal-content">
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center" style="padding-left: 30px; padding-top: 10px;">
