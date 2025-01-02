@@ -11,6 +11,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
         {% for item in site.data.Prelis.PostsList limit:3 %}
         <li>
           <a href="{{ item.url }}">
+          <p class="prelis25">{{ item.text }}</p>
             {% if item.video %}
               <video width="100%" height="auto" autoplay muted loop style="width:100px" style="width:250px">
                 <source src="{{ item.image }}" type="video/mp4">
@@ -18,8 +19,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
               </video>
             {% else %}
               <img src="{{ item.image }}" alt="{{ item.text }}" style="width:250px">
-            {% endif %}
-            <p>{{ item.text }}</p>
+            {% endif %}            
           </a>
         </li>
         {% endfor %}
