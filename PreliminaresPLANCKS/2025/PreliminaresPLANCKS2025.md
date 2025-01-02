@@ -26,7 +26,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
       <hr>
 
 <!-- INTRODUCCIÓN -->
-      <p style="text-align: justify;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la séptima edición de las <strong>Preliminares de PLANCKS</strong>! Y este año también ofrecemos <strong>1000€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces. Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p>
+      <p style="text-align: justify;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la octava edición de las <strong>Preliminares de PLANCKS</strong>! Y este año también ofrecemos <strong>1000€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces. Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p>
 
 <!-- BOTONES -->
       <div class="section">
