@@ -4,53 +4,48 @@ title: Preliminares PLANCKS 2025
 permalink: /PreliminaresPLANCKS2025pruebasmd/
 ---
 
-<div class="sidebar">
-    <ul>
-        <li>
-            <a href="https://example.com">
-                <img src="imagen1.jpg" alt="Imagen 1">
-                <p>Título 1</p>
-            </a>
-        </li>
-        <li>
-            <a href="https://example.com">
-                <img src="imagen2.jpg" alt="Imagen 2">
-                <p>Título 2</p>
-            </a>
-        </li>
-        <li>
-            <a href="https://example.com">
-                <img src="imagen3.jpg" alt="Imagen 3">
-                <p>Título 3</p>
-            </a>
-        </li>
-    </ul>
-</div>
+
 
 <div class="no-pad-top" id="index-page">
-  <div class="container">
-     <div class="section">
-
+  <div class="container" style = "display: flex; flex-direction: row">
+    <div class="sidebar">
+      <ul>
+        <li>
+          <a href="https://example.com">
+            <img src="imagen1.jpg" alt="Imagen 1">
+            <p>Título 1</p>
+            </a>
+        </li>
+        <li>
+          <a href="https://example.com">
+            <img src="imagen2.jpg" alt="Imagen 2">
+            <p>Título 2</p>
+          </a>
+        </li>
+        <li>
+          <a href="https://example.com">
+            <img src="imagen3.jpg" alt="Imagen 3">
+            <p>Título 3</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="section">
 <!-- BANNER -->
-      <img class="materialboxed" width="100%" src="/img/eventos/2025-PrelisPLANCKS/bannerPrelis24.png">
-
-
+    <img class="materialboxed" width="100%" src="/img/eventos/2025-PrelisPLANCKS/bannerPrelis24.png">
 <!-- RESULTADOS -->
       <hr>
       <h2 style="text-align: center;">        
           <a href="{{ site.url}}/PreliminaresPLANCKS/2025/clasificacionprelis2025.pdf" target="_blank"><span style="color: #3ca41c;"><strong>CLASIFICACIÓN DE LAS PRELIMINARES DE PLANCKS 2025</strong></span></a>        
       </h2>
       <hr>
-
 <!-- SOLUCIONES -->
       <h2 style="text-align: center;">        
           <a href="https://drive.google.com/drive/folders/1W5TApAH-R18FIYzg79aIk_bP2T36iI4F" target="_blank"><span style="color: #3ca41c;"><strong>SOLUCIONES DE LOS PROBLEMAS</strong></span></a>        
       </h2>
       <hr>
-
 <!-- INTRODUCCIÓN -->
       <p style="text-align: justify;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la octava edición de las <strong>Preliminares de PLANCKS</strong>! Y este año también ofrecemos <strong>1000€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces. Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p>
-
 <!-- BOTONES -->
       <div class="section">
         <div class="row center">
@@ -63,7 +58,6 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
           <a href="#inscripcion-modal" id="inscripcion-button" class="collection-item modal-trigger btn-large waves-effect waves-light" style="background-color: #ffffff; color: #3ca41c; display: inline-flex; align-items: center; margin-bottom: 5px;"><i class="material-icons" style="padding-right: 8px;">create</i><strong>Inscríbete</strong></a>
         </div>
       </div>
-
 <!-- COUNTDOWN -->
 <!--
       <div class="row">  
@@ -81,9 +75,6 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
           <p style="text-align: justify;">¡Gracias por ser parte de las Preliminares de PLANCKS 2025 y contribuir a su éxito!</p>
         </div>
       </div>
-
-
-
 <!-- AUTORES -->
 <!--
       <div class="section">
@@ -109,15 +100,11 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
        </div>
      </div>
 -->
-
 <!-- COMITÉS -->
     <div class="row"> 
       <p style="text-align: justify;">Además, puedes <a href="#comites-modal" class="prelis24 modal-trigger">consultar aquí</a> los integrantes del Comité Organizador de las Preliminares de PLANCKS 2025.</p>
-    </div>
-
-    
+    </div>    
      <!-- Modal PONENTES -->
-
      {% for person in site.persons %}
      {% if person.evento contains "Prelis2025" %}
 
@@ -163,9 +150,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
      {% endif %}
      {% endfor %}
 
-
 <!-- MAP -->
-
     <div class="section">
       <div class="section">
         <strong><h3>El mapa de las Preliminares de PLANCKS 2025</h3></strong>
@@ -173,9 +158,6 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
         <iframe src="/PreliminaresPLANCKS/2025/universities_map.html" width="100%" height="600" style="border:none;"></iframe>                
       </div> 
     </div>
-
-
-
 <!-- EDICIONES ANTERIORES -->
     <div class="section" id="ediciones-anteriores">
       <div class="row center">
@@ -221,7 +203,6 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
     {% endif %}
   </div>
 </div>
-
 
 <!-- INFO MODAL -->
 <div id="info-modal" class="modal">
