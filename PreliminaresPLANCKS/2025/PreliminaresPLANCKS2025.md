@@ -6,9 +6,9 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
 
 <div class="no-pad-top" id="index-page">
   <div class="container" style = "display: flex; flex-direction: row-reverse; padding-left: -10px">
-    <div class="sidebar">
+    <div class="sidebar prelis25">
       <ul>
-        {% for item in site.data.sidebar.items limit:3 %}
+        {% for item in site.data.Prelis.PostsList limit:3 %}
         <li>
           <a href="{{ item.url }}">
             <img src="{{ item.image }}" alt="{{ item.text }}">
