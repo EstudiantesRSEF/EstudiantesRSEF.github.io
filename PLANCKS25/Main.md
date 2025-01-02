@@ -11,17 +11,13 @@ permalink: /PLANCKS25/
 <div class="no-pad-top" id="index-page">
   <div class="container">
     <div class="section">
-
-
 <!-- BANNER -->
       <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
-
 <!-- INTRODUCCIÓN -->
       <p style="text-align: justify;">Welcome to the official webpage of PLANCKS 2025 in Barcelona!</p>
       <p style="text-align: justify;">The Physics League Across Numerous Countries for Kick-ass Students (PLANCKS) is a exam-based physics competition for bachelor’s and master’s students. It is a four-day event filled to the brim with numerous excursions and social activities, alongside an opening symposium and the contest itself. Participants are encouraged to discover the research environment and culture of the hosting country. PLANCKS enables physics students from all over the world the opportunity to connect with each other. The aim of this event is to increase international collaboration, host social activities and stimulate the personal development of individual contestants. By bringing physics students from all over the world together, PLANCKS creates the perfect setting for participants to challenge each other, and exchange ideas and experiences. The first edition of PLANCKS took place in May 2014 in Utrecht and this will be the 12th edition.</p>
       <!-- <p style="text-align: justify;">Keep scrolling through the page to get more information about this year's edition!</p> -->
       <p style="text-align: justify;">Stay tuned to this website for the latest updates on the event!</p>
-
 <!-- BOTONES -->
 
 <!--
