@@ -24,24 +24,24 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
         </li>
         {% endfor %}
       </ul>
-    </div></div>
+    </div>    
     <div class="section">
-<!-- BANNER -->
-    <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
-<!-- RESULTADOS -->
+        <!-- BANNER -->
+      <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
+        <!-- RESULTADOS -->
       <hr>
       <h2 style="text-align: center;">        
           <a href="{{ site.url}}/PreliminaresPLANCKS/2025/clasificacionprelis2025.pdf" target="_blank"><span style="color: #3ca41c;"><strong>CLASIFICACIÓN DE LAS PRELIMINARES DE PLANCKS 2025</strong></span></a>        
       </h2>
       <hr>
-<!-- SOLUCIONES -->
+        <!-- SOLUCIONES -->
       <h2 style="text-align: center;">        
-          <a href="https://drive.google.com/drive/folders/1W5TApAH-R18FIYzg79aIk_bP2T36iI4F" target="_blank"><span style="color: #3ca41c;"><strong>SOLUCIONES DE LOS PROBLEMAS</strong></span></a>        
+        <a href="https://drive.google.com/drive/folders/1W5TApAH-R18FIYzg79aIk_bP2T36iI4F" target="_blank"><span style="color: #3ca41c;"><strong>SOLUCIONES DE LOS PROBLEMAS</strong></span></a>        
       </h2>
       <hr>
-<!-- INTRODUCCIÓN -->
+        <!-- INTRODUCCIÓN -->
       <p style="text-align: justify;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la octava edición de las <strong>Preliminares de PLANCKS</strong>! Y este año también ofrecemos <strong>1000€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces. Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p>
-<!-- BOTONES -->
+        <!-- BOTONES -->
       <div class="section">
         <div class="row center">
           <a href="#info-modal" id="info-button" class="collection-item modal-trigger btn-large waves-effect waves-light" style="background-color: #ffffff; color: #3ca41c; display: inline-flex; align-items: center;"><i class="material-icons" style="padding-right: 8px;">info</i><strong>Información general</strong></a>
@@ -53,30 +53,28 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
           <a href="#inscripcion-modal" id="inscripcion-button" class="collection-item modal-trigger btn-large waves-effect waves-light" style="background-color: #ffffff; color: #3ca41c; display: inline-flex; align-items: center; margin-bottom: 5px;"><i class="material-icons" style="padding-right: 8px;">create</i><strong>Inscríbete</strong></a>
         </div>
       </div>
-<!-- COUNTDOWN -->
-<!--
+       <!-- COUNTDOWN -->
+      <!--
       <div class="row">  
         <p style="text-align: justify;">Las inscripciones para las Preliminares de PLANCKS 2025 se cerrarán en...</p>
         <h3 style="text-align: center;"><p id="countdown" style="text-align:center"></p></h3>
         <p style="text-align: justify;">¡No dejes tu inscripción para el último momento para asegurarnos que tendrás aulas y supervisores disponibles en tu facultad!</p>
         <p style="text-align: justify;"> Sólo para equipos con miembros del GdeE. Hemos comenzado ya con la promoción a todos los estudiantes de física de España. ¡Así que no te quedes sin plaza!</p>
-      </div> -->
-      
-<!-- FINAL INSCRIPCIONES -->
-<div class="section">  
+      </div> 
+      -->      
+        <!-- FINAL INSCRIPCIONES -->
+      <div class="section">  
         <div class="row center">
           <p style="text-align: justify;">¡Las inscripciones para las Preliminares de PLANCKS 2025 han sido un éxito! Hemos vuelto a superar el número de participantes, con un total de...</p>
           <h3 style="text-align: center;">¡¡105 equipos en 19 sedes!!</h3>
           <p style="text-align: justify;">¡Gracias por ser parte de las Preliminares de PLANCKS 2025 y contribuir a su éxito!</p>
         </div>
       </div>
-
-<!-- AUTORES -->
-<!--
+        <!-- AUTORES -->
+      <!--
       <div class="section">
         <h3 id="Autores">¡Conoce a l@s autor@s de los problemas!</h3>
         <p style="text-align: justify;">Los miembros del Comité Académico de las Preliminares PLANCKS 2025 son:</p>
-
         <div class="col s12 m6">
           <div class="row center">
             {% for person in site.persons %}
@@ -94,143 +92,122 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
             {% endfor %}    
           </div>
        </div>
-     </div>
--->
-
-<!-- COMITÉS -->
-
-    <div class="row"> 
-      <p style="text-align: justify;">Además, puedes <a href="#comites-modal" class="prelis24 modal-trigger">consultar aquí</a> los integrantes del Comité Organizador de las Preliminares de PLANCKS 2025.</p>
-    </div>    
-     <!-- Modal PONENTES -->
-     {% for person in site.persons %}
-     {% if person.evento contains "Prelis2025" %}
-
-     <div id="{{ person.id | remove: "/" }}-modal" class="modal">
-       <div class="modal-content">
-         <div class="section" style="padding-left: 30px; padding-right: 30px;">
-
-           <div class="row">
-             <div class="col s12 m6 l6">
-               <div class="row center">
-                <img src="{{ person.img }}" alt="" class="circle" width="70%">
-               </div>
-             </div>
-             <div class="col s12 m6 l6">        
-               <div class="row center" style="padding-left: 30px; padding-top: 50px;">
-                 <h3 class="justify">{{ person.nombre }}</h3>
-                 <h5 class="justify">{{ person.aff }}</h5>
-                 <h5 class="justify" style="padding-top: 10px;">{{ person.roldes }}</h5>
-               </div>
-             </div>
-           </div>
-
-           <div class="row">
-             <h2 class="justify">Biografía</h2>
-             {%- if person.bio1 -%}<p style="text-align: justify;">
-             {{ person.bio1 }}
-             </p>{%- endif -%}
-             {%- if person.bio2 -%}<p style="text-align: justify;">
-             {{ person.bio2 }}
-             </p>{%- endif -%}
-             {%- if person.bio3 -%}<p style="text-align: justify;">
-             {{ person.bio3 }}
-             </p>{%- endif -%}
-           </div>
-
-         </div>
-       </div>
-       <div class="modal-footer">
-         <a href="#!" class="modal-close waves-effect waves-green btn-flat">CERRAR</a>
-       </div>
-     </div>
-
-     {% endif %}
-     {% endfor %}
-
-
-<!-- MAP -->
-
-    <div class="section">
-      <div class="section">
-        <strong><h3>El mapa de las Preliminares de PLANCKS 2025</h3></strong>
-        <p style="text-align: justify;">¡En el siguiente mapa puedes consultar todas las sedes!</p>
-        <iframe src="/PreliminaresPLANCKS/2025/universities_map.html" width="100%" height="600" style="border:none;"></iframe>                
-      </div> 
-    </div>
-
-<!-- EDICIONES ANTERIORES -->
-
-    <div class="section" id="ediciones-anteriores">
-      <div class="row center">
-        <h3 id="EdicionesAnteriores">Ediciones Anteriores</h3>
-        <p style="text-align: justify;">En esta sección encontrarás información sobre ediciones anteriores de las Preliminares de PLANCKS como clasificaciones, exámenes resueltos o los integrantes de los Comités Organizador y Académico.</p>
       </div>
-    </div>
-
-    {% assign loopindex = 0 %}
-    {% for event in site.events reversed %}
-    {% if event.title contains "Preliminares de PLANCKS"%}
-    {% if event.title != "Preliminares de PLANCKS 2025"%}
-    {% assign rowfinder = loopindex | modulo:2 %}
-    {% if rowfinder == 0 %}
-      <div class="row">
-    {% endif %}
-      <div class="col s12 m6">
-        <div class="card horizontal">
-          <div class="card-image">
-    	      <img style="height: 230px; object-fit: cover;" src="{{ event.cover }}">
+      -->
+        <!-- COMITÉS -->
+      <div class="row"> 
+        <p style="text-align: justify;">Además, puedes <a href="#comites-modal" class="prelis24 modal-trigger">consultar aquí</a> los integrantes del Comité Organizador de las Preliminares de PLANCKS 2025.</p>
+      </div>    
+        <!-- Modal PONENTES -->
+      {% for person in site.persons %}
+      {% if person.evento contains "Prelis2025" %}
+      <div id="{{ person.id | remove: "/" }}-modal" class="modal">
+        <div class="modal-content">
+          <div class="section" style="padding-left: 30px; padding-right: 30px;">
+            <div class="row">
+              <div class="col s12 m6 l6">
+                <div class="row center">
+                  <img src="{{ person.img }}" alt="" class="circle" width="70%">
+                </div>
+              </div>
+              <div class="col s12 m6 l6">        
+                <div class="row center" style="padding-left: 30px; padding-top: 50px;">
+                  <h3 class="justify">{{ person.nombre }}</h3>
+                  <h5 class="justify">{{ person.aff }}</h5>
+                  <h5 class="justify" style="padding-top: 10px;">{{ person.roldes }}</h5>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <h2 class="justify">Biografía</h2>
+              {%- if person.bio1 -%}
+                <p style="text-align: justify;"> {{ person.bio1 }} </p>
+              {%- endif -%}
+              {%- if person.bio2 -%}
+                <p style="text-align: justify;"> {{ person.bio2 }} </p>
+              {%- endif -%}
+              {%- if person.bio3 -%}
+                <p style="text-align: justify;"> {{ person.bio3 }} </p>
+              {%- endif -%}
+            </div>
           </div>
-          <div class="card-content">
-        	  <span class="card-title grey-text text-darken-4">{{ event.title }}</span>
-        	  <p><small><b>{{ event.place }}</b> {{ event.startingdate | date: '%d %b %Y' }} {% if event.endingdate != nil %} - {{ event.endingdate | date: '%d %b %Y' }}                    {% endif %} </small></p>
-          </div>
-        	<div class="card-action">
-        	  <a href="{{ event.ranking }}" target="_blank">Clasificación</a>
-            <a href="{{ event.exam }}" target="_blank">Soluciones</a>
-        	  <a href="{{ event.url }}">Post web</a>
-            {% if event.comm != nil %}<a href="{{ event.comm }}">Comités Organizador y Académico</a>{% endif %}
-        	</div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">CERRAR</a>
         </div>
       </div>
-    {% if rowfinder == 1 %}
+     {% endif %}
+     {% endfor %}
+      <!-- MAP -->
+      <div class="section">
+        <div class="section">
+          <strong><h3>El mapa de las Preliminares de PLANCKS 2025</h3></strong>
+          <p style="text-align: justify;">¡En el siguiente mapa puedes consultar todas las sedes!</p>
+          <iframe src="/PreliminaresPLANCKS/2025/universities_map.html" width="100%" height="600" style="border:none;"></iframe>                
+        </div> 
       </div>
-    {% endif %}
-    {% assign loopindex = loopindex | plus: 1 %}
-    {% endif %}
-    {% endif %}
-    {% endfor %}
-    {% if loopindex == 1 %}
+      <!-- EDICIONES ANTERIORES -->
+      <div class="section" id="ediciones-anteriores">
+        <div class="row center">
+          <h3 id="EdicionesAnteriores">Ediciones Anteriores</h3>
+          <p style="text-align: justify;">En esta sección encontrarás información sobre ediciones anteriores de las Preliminares de PLANCKS como clasificaciones, exámenes resueltos o los integrantes de los Comités Organizador y Académico.</p>
+        </div>
       </div>
-    {% endif %}
-  </div>
-</div>
+      {% assign loopindex = 0 %}
+      {% for event in site.events reversed %}
+        {% if event.title contains "Preliminares de PLANCKS"%}
+        {% if event.title != "Preliminares de PLANCKS 2025"%}
+      {% assign rowfinder = loopindex | modulo:2 %}
+          {% if rowfinder == 0 %}
+            <div class="row">
+          {% endif %}
+              <div class="col s12 m6">
+                <div class="card horizontal">
+                  <div class="card-image">
+                    <img style="height: 230px; object-fit: cover;" src="{{ event.cover }}">
+                  </div>
+                <div class="card-content">
+                  <span class="card-title grey-text text-darken-4">{{ event.title }}</span>
+                  <p><small><b>{{ event.place }}</b> {{ event.startingdate | date: '%d %b %Y' }} {% if event.endingdate != nil %} - {{ event.endingdate | date: '%d %b %Y' }}                    {% endif %} </small></p>
+                </div>
+                <div class="card-action">
+                  <a href="{{ event.ranking }}" target="_blank">Clasificación</a>
+                  <a href="{{ event.exam }}" target="_blank">Soluciones</a>
+                  <a href="{{ event.url }}">Post web</a>
+                  {% if event.comm != nil %}<a href="{{ event.comm }}">Comités Organizador y Académico</a>{% endif %}
+                </div>
+              </div>
+            </div>
+          {% if rowfinder == 1 %}
+      </div>
+          {% endif %}
+      {% assign loopindex = loopindex | plus: 1 %}
+        {% endif %}
+        {% endif %}
+      {% endfor %}
+      {% if loopindex == 1 %}
+        </div>
+      {% endif %}
+    </div>
+  </div></div>
 
 <!-- INFO MODAL -->
 <div id="info-modal" class="modal">
-  <div class="modal-content-tight">
-    
+  <div class="modal-content-tight">    
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center">
         <h3 class="justify">Información general</h3>
-
-        <p style="text-align: justify;"><strong>¿En qué consisten las Preliminares?</strong> Las Preliminares de PLANCKS 2025 es una competición de física teórica por equipos en la que habrá que resolver 4 problemas. Puedes ver las pruebas de otros años en la <a class="prelis24 modal-close" href="#ediciones-anteriores">sección de Ediciones anteriores</a>.</p>
-        
+        <p style="text-align: justify;"><strong>¿En qué consisten las Preliminares?</strong> Las Preliminares de PLANCKS 2025 es una competición de física teórica por equipos en la que habrá que resolver 4 problemas. Puedes ver las pruebas de otros años en la <a class="prelis24 modal-close" href="#ediciones-anteriores">sección de Ediciones anteriores</a>.</p>        
         <p style="text-align: justify;"><strong>¿Cómo puedo participar en las Preliminares?</strong> Es muy sencillo: si conoces un@s cuant@s amig@s con los que te apetecería pasar un buen rato, resolver problemas que resultan todo un reto e inventarte respuestas disparatadas cuando no sepas por donde salir, reúne un equipo de hasta cuatro personas y no lo dudes: <a class="prelis24" href="https://docs.google.com/forms/d/e/1FAIpQLSe621X8cPqOPlC6gNIk9nioyiRIrpsDfFANJnPRVUAaavZDNA/viewform" id="inscripcion-button" target="_blank">¡inscríbete!</a> Esta primera fase nacional nos permitirá seleccionar al mejor equipo para que nos represente en la competición internacional. Por cierto, es posible que el comité organizador os pida ayuda para encontrar un aula y un/a supervisor/a para poder garantizar una sede de las Preliminares en vuestra ciudad.</p>
-
-        <p style="text-align: justify;"><strong>¿Cómo y cuándo tendrán lugar las Preliminares?</strong> Las Preliminares de PLANCKS 2025 en España se celebrarán el próximo <strong>viernes 1 de marzo por la tarde</strong>, de forma simultánea en sedes situadas en facultades de física del territorio nacional. La prueba durará 3 horas y tendrá lugar de 16:00 a 19:00 (GMT+1).</p>
-        
-        <p style="text-align: justify;"><strong>Y si la prueba os sale muy bien hay premio por partida doble...</strong></p>
-        
+        <p style="text-align: justify;"><strong>¿Cómo y cuándo tendrán lugar las Preliminares?</strong> Las Preliminares de PLANCKS 2025 en España se celebrarán el próximo <strong>viernes 1 de marzo por la tarde</strong>, de forma simultánea en sedes situadas en facultades de física del territorio nacional. La prueba durará 3 horas y tendrá lugar de 16:00 a 19:00 (GMT+1).</p>        
+        <p style="text-align: justify;"><strong>Y si la prueba os sale muy bien hay premio por partida doble...</strong></p>        
         <list class="a">
           <li style="text-align: justify;">Las Preliminares de PLANCKS son además la fase de clasificación nacional para PLANCKS en nuestro país. El mejor equipo de las Prelis nos representará en mayo en la final, ¡que se celebra en Dublín! La inscripción y alojamiento estará cubierta por el Grupo de Estudiantes. ¿Que aun no sabes lo que es PLANCKS? Encuentra toda la información en <a class="prelis24 modal-trigger" href="#plancks-modal">este enlace</a>.</li>
           <li style="text-align: justify;">¡Y este año tenemos premios para los dos mejores equipos gracias a la financiación de la Fundación Ramón Areces! Lee más en <a href="#premios-modal" class="prelis24">este enlace</a>.</li> 
         </list> 
-
         <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a class="prelis24" href="/PreliminaresPLANCKS/2025/CompetitionRules_PrelisPLANCKS2025.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
       </div>
-    </div>
-    
+    </div>    
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="section" style="padding-left: 15px; padding-right: 15px; border: 2px solid #3ca41c;">
         <strong>Términos y Condiciones de IAPS</strong> | Todos los participantes:
@@ -238,14 +215,12 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
         <p style="text-align: justify;">- Y se comprometen a cumplir las <a class="prelis24" href="https://www.iaps.info/wp-content/uploads/2021/01/PLANCKS-General-Rules-EGM-2020.pdf" target="_blank">Reglas Generales de PLANCKS</a>, además del <a class="prelis24" href="https://www.iaps.info/wp-content/uploads/2022/08/IAPS-Code-of-Conduct-2020.pdf" target="_blank">IAPS Code of Conduct</a>.</p>
         <p style="text-align: justify;">Además, habrán de tener en cuenta que el Grupo de Estudiantes de la RSEF no ejerce en modo alguno de intermediario económico en este convocatoria de PLANCKS.</p>
       </div>
-    </div>
-    
+    </div>    
   </div>
   <div class="modal-footer">
     <a href="#!" class="modal-close waves-effect waves-green btn-flat">CERRAR</a>
   </div>
 </div>
-
 
 <!-- PREMIOS MODAL -->
 <div id="premios-modal" class="modal">
@@ -302,8 +277,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
 
 <!-- CONOCER MODAL -->
 <div id="plancks-modal" class="modal">
-  <div class="modal-content-tight">
-    
+  <div class="modal-content-tight">    
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center">
         <h3 class="justify">Conoce Plancks </h3>
@@ -312,8 +286,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
           Este año PLANCKS será organizado por <a class="prelis24" href="https://www.iop.org/" id="iop-button" target="_blank"> the Institute of Physics (IOP) </a> y la prueba tendrá lugar del 23 al 27 de mayo en la Universidad de Dublín. ¡La última edición reunió 250 participantes de unos 30 países! Si quieres conocer más sobre PLANCKS y IAPS, la International Association of Physics Students, clica en los enlaces siguientes.
         </p>
       </div>
-    </div>
-    
+    </div>    
     <div class="section">
       <div class="row center">
         <div class="col s12 m6">
@@ -327,23 +300,19 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
           </div>
         </div>
       </div>
-    </div>
-    
+    </div>    
   </div>
   <div class="modal-footer">
     <a href="#!" class="modal-close waves-effect waves-green btn-flat">CERRAR</a>
   </div>
 </div>
-
 <!-- INSCRIPCIÓN MODAL -->
 <div id="inscripcion-modal" class="modal">
-  <div class="modal-content-tight">
-    
+  <div class="modal-content-tight">    
     <div class="section">
       <div class="row center">
         <h3 class="justify">¡Inscríbete!</h3>
-      </div>
-      
+      </div>      
       <div class="row center">  
         <div class="col s12 m6">
           <div class="row center">
@@ -355,15 +324,13 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsspz155pqui07-RYSDWc12-pOQ4msZ2p6EI-iPYuWypghw/viewform" id="inscripcion-supers-button" target="_blank" class="btn-large waves-effect waves-light" style="background-color: #ffffff; color: #3ca41c; display: inline-flex; align-items: center; margin-bottom: 5px;"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Inscripción supervisores</strong></a>
           </div>
         </div>
-      </div>
-      
+      </div>      
     </div>
   </div>
   <div class="modal-footer">
     <a href="#!" class="modal-close waves-effect waves-green btn-flat">CERRAR</a>
   </div>
 </div>
-
 
 <!-- COMITÉS MODAL-->
 <div id="comites-modal" class="modal">
@@ -386,8 +353,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
               <p align="center">Eric Jiménez Zurera - Logística</p>
               <p align="center">Eloi Casalé Cabanes - Logística</p>
               <p align="center">Manuel Porrón Álvarez - Logística </p>
-              <p align="center">Inmaculada Pérez Pérez  - Senior Advisor</p>
-              
+              <p align="center">Inmaculada Pérez Pérez  - Senior Advisor</p>              
             </div>
           </div>
           <div class="col s12 m6 l5">
@@ -409,15 +375,12 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
   </div>
 </div>
 
-
 <!-- MODAL COMITÉ ORGANIZADOR -->
-
 <div id="OCPrelis23" class="modal">
   <div class="modal-content">
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center" style="padding-left: 30px; padding-top: 10px;">
         <h3 class="justify">El Comité Organizador</h3>
-
         {% for item in site.data.prelis %}
         {% for miembro in item.miembros %}
         {% if miembro.class contains "OC" %}
@@ -431,10 +394,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
         {% endif %}
         {% endfor %}
         {% endfor %}
-
         <p>Conócenos mejor en la <a href="{{ site.url}}/junta-de-gobierno" target="_blank">web de la Junta de Gobierno</a> del Grupo de Estudiantes de la RSEF.</p>
-
-
       </div>
     </div>
   </div>

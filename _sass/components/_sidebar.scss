@@ -1,4 +1,9 @@
 .prelis25 {
+    .sidebar{
+        position: fixed;
+        margin-left: 20px;
+    }
+
     .sidebar ul {
       list-style: none;
       padding: 0;
@@ -37,5 +42,14 @@
     .sidebar ul li a:hover img, .sidebar ul li a:hover video {
       transform: scale(1.1); // Efecto de zoom al pasar el mouse
     }  
+
+      // New link styles
+    a {
+        color: #352F71; // Purple color for standard links
+    }
+
+    a:visited {
+        color: #00a79d; // Turquoise color for clicked links
+    }
   }
   
