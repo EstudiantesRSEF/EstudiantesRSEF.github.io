@@ -44,17 +44,33 @@
     }  
 
       // New link styles
-    a {
+    a:not(.btn-plancks25) {
         color:#00a79d ; // Purple color for standard links
+        background-color: transparent;
+        text-decoration: none;
     }
 
-    a:visited {
+    a:not(.btn-plancks25):visited {
         color: #352F71; // Turquoise color for clicked links
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:not(.btn-plancks25):hover {
+        color: #352F71; // Turquoise color for clicked links
+        background-color: transparent;
+        text-decoration: none;
     }
 
     span {
         color: #00a79d;
-        border: 1px solid #352F71 // Purple color for spans
-      }
-  }
+        border: 1px solid #352F71; // Purple color for spans
+        display: inline-block;
+      }    
+      
+    .btn-plancks25 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }}
 
