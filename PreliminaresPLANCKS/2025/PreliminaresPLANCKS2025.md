@@ -28,19 +28,19 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
     </div></div>    
     <!--Seccion de texto -->
     <div class="section prelis25">
-        <!-- BANNER
+        <!-- BANNER -->
       <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
-        RESULTADOS
-      <hr>
+        <!-- RESULTADOS -->
+      <!-- <hr>
       <h2 style="text-align: center;">        
           <a href="{{ site.url}}/PreliminaresPLANCKS/2025/clasificacionprelis2025.pdf" target="_blank"><span><strong>CLASIFICACIÓN DE LAS PRELIMINARES DE PLANCKS 2025</strong></span></a>        
       </h2>
-      <hr>
-        SOLUCIONES
-      <h2 style="text-align: center;">        
+      <hr> -->
+        <!-- SOLUCIONES -->
+      <!-- <h2 style="text-align: center;">        
         <a href="https://drive.google.com/drive/folders/1W5TApAH-R18FIYzg79aIk_bP2T36iI4F" target="_blank"><span><strong>SOLUCIONES DE LOS PROBLEMAS</strong></span></a>        
       </h2>
-      <hr> -->
+      <hr>  -->
         <!-- INTRODUCCIÓN -->
       <p style="text-align: justify;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la octava edición de las <strong>Preliminares de PLANCKS</strong>! <!--Y este año también ofrecemos <strong>1000€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces.--> Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p>
         <!-- BOTONES -->
