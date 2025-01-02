@@ -11,7 +11,14 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
         {% for item in site.data.Prelis.PostsList limit:3 %}
         <li>
           <a href="{{ item.url }}">
-            <img src="{{ item.image }}" alt="{{ item.text }}">
+            {% if item.video %}
+              <video width="100%" height="auto" autoplay muted loop>
+                <source src="{{ item.image }}" type="video/mp4">
+                Tu navegador no soporta videos.
+              </video>
+            {% else %}
+              <img src="{{ item.image }}" alt="{{ item.text }}">
+            {% endif %}
             <p>{{ item.text }}</p>
           </a>
         </li>
