@@ -8,3 +8,8 @@
     height: 100vh; // Hace que ocupe toda la altura de la pantalla
     position: fixed;
   }
+
+@media (max-width: 768px) {
+.sidebar {
+      width: 150px; // Reducir el ancho en pantallas pequeñas
+}

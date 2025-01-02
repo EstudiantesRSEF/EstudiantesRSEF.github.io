@@ -7,7 +7,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
 
 
 <div class="no-pad-top" id="index-page">
-  <div class="container" style = "display: flex; flex-direction: row-reverse">
+  <div class="container" style = "display: flex; flex-direction: row-reverse; margin-left: 10px">
     <div class="sidebar">
       <ul>
         <li>
