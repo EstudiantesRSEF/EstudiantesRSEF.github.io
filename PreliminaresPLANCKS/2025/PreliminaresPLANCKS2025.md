@@ -4,31 +4,19 @@ title: Preliminares PLANCKS 2025
 permalink: /PreliminaresPLANCKS2025pruebasmd/
 ---
 
-
-
 <div class="no-pad-top" id="index-page">
-  <div class="container" style = "display: flex; flex-direction: row-reverse; margin-left: 10px">
+  <div class="container" style = "display: flex; flex-direction: row-reverse; padding-left: -10px">
     <div class="sidebar">
       <ul>
+        {% for item in site.data.sidebar.items limit:3 %}
         <li>
-          <a href="https://example.com">
-            <img src="imagen1.jpg" alt="Imagen 1">
-            <p>Título 1</p>
-            </a>
-        </li>
-        <li>
-          <a href="https://example.com">
-            <img src="imagen2.jpg" alt="Imagen 2">
-            <p>Título 2</p>
+          <a href="{{ item.url }}">
+            <img src="{{ item.image }}" alt="{{ item.text }}">
+            <p>{{ item.text }}</p>
           </a>
         </li>
-        <li>
-          <a href="https://example.com">
-            <img src="imagen3.jpg" alt="Imagen 3">
-            <p>Título 3</p>
-          </a>
-        </li>
-      </ul>
+        {% endfor %}
+  </ul>
     </div>
     <div class="section">
 <!-- BANNER -->
@@ -75,6 +63,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
           <p style="text-align: justify;">¡Gracias por ser parte de las Preliminares de PLANCKS 2025 y contribuir a su éxito!</p>
         </div>
       </div>
+
 <!-- AUTORES -->
 <!--
       <div class="section">
@@ -100,7 +89,9 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
        </div>
      </div>
 -->
+
 <!-- COMITÉS -->
+
     <div class="row"> 
       <p style="text-align: justify;">Además, puedes <a href="#comites-modal" class="prelis24 modal-trigger">consultar aquí</a> los integrantes del Comité Organizador de las Preliminares de PLANCKS 2025.</p>
     </div>    
@@ -150,7 +141,9 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
      {% endif %}
      {% endfor %}
 
+
 <!-- MAP -->
+
     <div class="section">
       <div class="section">
         <strong><h3>El mapa de las Preliminares de PLANCKS 2025</h3></strong>
@@ -158,7 +151,9 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
         <iframe src="/PreliminaresPLANCKS/2025/universities_map.html" width="100%" height="600" style="border:none;"></iframe>                
       </div> 
     </div>
+
 <!-- EDICIONES ANTERIORES -->
+
     <div class="section" id="ediciones-anteriores">
       <div class="row center">
         <h3 id="EdicionesAnteriores">Ediciones Anteriores</h3>
