@@ -1,8 +1,8 @@
 - url: "https://www.instagram.com/p/DAQyHcstswn/?img_index=1"
-  image: "EstudiantesRSEF/EstudiantesRSEF.github.io/img/eventos/2025-PrelisPLANCKS/Presentación GdeE - post.png"
+  image: "/img/eventos/2025-PrelisPLANCKS/Presentación GdeE - post.png"
   text: "Presentación GdeE"
 - url: "https://www.instagram.com/p/DEQOQREsNYq/?img_index=1"
-  image: "EstudiantesRSEF/EstudiantesRSEF.github.io/img/eventos/2025-PrelisPLANCKS/Final - grafismo 1.mp4"
+  image: "/img/eventos/2025-PrelisPLANCKS/Final - grafismo 1.mp4"
   text: "2024 Wrapped"
   video: True
 # - url: "https://example.com/3"
