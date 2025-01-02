@@ -1,0 +1,9 @@
+.sidebar {
+    width: 200px; // Ajusta el ancho según tus necesidades
+    background-color: #f4f4f4; // Color de fondo
+    padding: 10px;
+    overflow-y: auto; // Scroll si el contenido es extenso
+    position: fixed; // Fija el sidebar en la página
+    right: 0; // Asegura que se alinee al lado derecho
+    height: 100vh; // Hace que ocupe toda la altura de la pantalla
+  }
