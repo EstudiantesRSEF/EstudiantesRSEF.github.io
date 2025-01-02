@@ -6,12 +6,12 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
 
 <div class="no-pad-top" id="index-page">
   <div class="container" style = "display: flex; flex-direction: row-reverse; padding-left: -10px">
-    <div class="prelis25 sidebar">
+    <div class="prelis25"><div class="sidebar">
       <ul>
         {% for item in site.data.Prelis.PostsList limit:3 %}
         <li>
           <a href="{{ item.url }}">
-          <p class="prelis25">{{ item.text }}</p>
+          <p>{{ item.text }}</p>
             {% if item.video %}
               <video width="100%" height="auto" autoplay muted loop style="width:100px" style="width:250px">
                 <source src="{{ item.image }}" type="video/mp4">
@@ -24,7 +24,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
         </li>
         {% endfor %}
       </ul>
-    </div>
+    </div></div>
     <div class="section">
 <!-- BANNER -->
     <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
