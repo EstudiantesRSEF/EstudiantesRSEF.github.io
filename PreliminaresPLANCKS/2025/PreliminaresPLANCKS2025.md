@@ -25,7 +25,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
         {% endfor %}
       </ul>
     </div></div>    
-    <div class="section prelis25">
+    <div class="section">
         <!-- BANNER -->
       <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
         <!-- RESULTADOS -->
