@@ -25,18 +25,18 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
         {% endfor %}
       </ul>
     </div></div>    
-    <div class="section">
+    <div class="section prelis25">
         <!-- BANNER -->
       <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
         <!-- RESULTADOS -->
       <hr>
       <h2 style="text-align: center;">        
-          <a href="{{ site.url}}/PreliminaresPLANCKS/2025/clasificacionprelis2025.pdf" target="_blank"><span style="color: #3ca41c;"><strong>CLASIFICACIÓN DE LAS PRELIMINARES DE PLANCKS 2025</strong></span></a>        
+          <a href="{{ site.url}}/PreliminaresPLANCKS/2025/clasificacionprelis2025.pdf" target="_blank"><span><strong>CLASIFICACIÓN DE LAS PRELIMINARES DE PLANCKS 2025</strong></span></a>        
       </h2>
       <hr>
         <!-- SOLUCIONES -->
       <h2 style="text-align: center;">        
-        <a href="https://drive.google.com/drive/folders/1W5TApAH-R18FIYzg79aIk_bP2T36iI4F" target="_blank"><span style="color: #3ca41c;"><strong>SOLUCIONES DE LOS PROBLEMAS</strong></span></a>        
+        <a href="https://drive.google.com/drive/folders/1W5TApAH-R18FIYzg79aIk_bP2T36iI4F" target="_blank"><span><strong>SOLUCIONES DE LOS PROBLEMAS</strong></span></a>        
       </h2>
       <hr>
         <!-- INTRODUCCIÓN -->
