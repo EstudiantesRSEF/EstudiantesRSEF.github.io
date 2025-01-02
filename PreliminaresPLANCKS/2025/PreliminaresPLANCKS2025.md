@@ -167,11 +167,11 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
       </div>
     </div>    
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
-      <div class="section" style="padding-left: 15px; padding-right: 15px; border: 2px solid #3ca41c;">
+      <div class="section" style="padding-left: 15px; padding-right: 15px; border: 2px solid #352F71;">
         <strong>Términos y Condiciones de IAPS</strong> | Todos los participantes:
         <p style="text-align: justify;">- Declaran conocer que PLANCKS está regulado por el Artículo 12 de las <a class="prelis25" href="https://www.iaps.info/wp-content/uploads/2023/01/iaps__Regulations_2022.pdf" target="_blank">IAPS Regulations</a>.</p>
         <p style="text-align: justify;">- Y se comprometen a cumplir las <a class="prelis25" href="https://www.iaps.info/wp-content/uploads/2021/01/PLANCKS-General-Rules-EGM-2020.pdf" target="_blank">Reglas Generales de PLANCKS</a>, además del <a class="prelis25" href="https://www.iaps.info/wp-content/uploads/2022/08/IAPS-Code-of-Conduct-2020.pdf" target="_blank">IAPS Code of Conduct</a>.</p>
-        <p style="text-align: justify;">Además, habrán de tener en cuenta que el Grupo de Estudiantes de la RSEF no ejerce en modo alguno de intermediario económico en este convocatoria de PLANCKS.</p>
+        <!-- <p style="text-align: justify;">Además, habrán de tener en cuenta que el Grupo de Estudiantes de la RSEF no ejerce en modo alguno de intermediario económico en este convocatoria de PLANCKS.</p> -->
       </div>
     </div>    
   </div>
@@ -187,11 +187,11 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
       <div class="row center">
         <h3 class="justify">Premios</h3>
         <p style="text-align: justify;">
-          Este año contamos con el apoyo y financiación de la <a class="prelis25" href="https://www.fundacionareces.es" id="ramon-areces" target="_blank">Fundación Ramón Areces</a>, que nos permite ofrecer premios a los dos mejores equipos: 550€ para el primer equipo y 450€ para el segundo. Además, los clasificados participarán en la fase internacional de PLANCKS en Dublín, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
+          <!--Este año contamos con el apoyo y financiación de la <a class="prelis25" href="https://www.fundacionareces.es" id="ramon-areces" target="_blank">Fundación Ramón Areces</a>, que nos permite ofrecer premios a los dos mejores equipos: 550€ para el primer equipo y 450€ para el segundo. Además, --> Los clasificados participarán en la fase internacional de PLANCKS en Barcelona, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
         </p>
-        <p style="text-align: justify;">
+        <!-- <p style="text-align: justify;">
           Todo esto no sería posible sin el apoyo de la Fundación Ramón Areces y de los miembros del GdeE. ¡Así que muchas gracias por confiar en nosotros!
-        </p>
+        </p> -->
         <p style="text-align: justify;">
           Si aún no sabes de qué estamos hablando, clica en este <a class="prelis25 modal-trigger" href="#info-modal">este enlace</a>.
         </p>
@@ -214,7 +214,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
         <p style="text-align: justify;"><strong>¿Cuáles son los requisitos del cargo de Supervisor/a?</strong> Son dos:</p>
         <list class="a">
           <li style="text-align: justify;">Ser investigador pre- o post-doctoral o ser docente universitario o de educación secundaria (en activo o jubilado).</li>
-          <li style="text-align: justify;">Comprometerse a tener disponibilidad en el rango horario 15:30h - 19:30h el viernes 1 de marzo de 2025, así como a dedicar esa disponibilidad a las responsabilidades abajo indicadas.</li>
+          <li style="text-align: justify;">Comprometerse a tener disponibilidad en el rango horario 15:30h - 19:30h el viernes 7 de marzo de 2025, así como a dedicar esa disponibilidad a las responsabilidades abajo indicadas.</li>
         </list>
         <p style="text-align: justify;"><strong>¿Cuáles son las responsabilidades del cargo de Supervisor/a?</strong> Son las siguientes:</p>
         <list class="a">
@@ -241,7 +241,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
         <h3 class="justify">Conoce Plancks </h3>
         <p style="text-align: justify;"><strong>¿Qué es PLANCKS?</strong> PLANCKS (Physics League Across Numerous Countries for Kick-ass Students) es la competición internacional de física teórica de IAPS, la International Association of Physics Students. En ella pueden participar equipos de tres a cuatro estudiantes de grado y/o máster. Además, la competición se enmarca en un evento de varios días repleto de charlas y actividades para que los participantes se conozcan entre sí.</p>
         <p style="text-align: justify;">
-          Este año PLANCKS será organizado por <a class="prelis25" href="https://www.iop.org/" id="iop-button" target="_blank"> the Institute of Physics (IOP) </a> y la prueba tendrá lugar del 23 al 27 de mayo en la Universidad de Dublín. ¡La última edición reunió 250 participantes de unos 30 países! Si quieres conocer más sobre PLANCKS y IAPS, la International Association of Physics Students, clica en los enlaces siguientes.
+          Este año PLANCKS será organizado por nosotros, ¡el <a class="prelis25" href="https://estudiantes.rsef.es/" id="iop-button" target="_blank"> GdeE de la RSEF </a>! y la prueba tendrá lugar del 1 al 5 de mayo en Barcelona. ¡La última edición reunió 250 participantes de unos 30 países! Si quieres conocer más sobre PLANCKS y IAPS, la International Association of Physics Students, clica en los enlaces siguientes.
         </p>
       </div>
     </div>    
@@ -249,12 +249,12 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
       <div class="row center">
         <div class="col s12 m6">
           <div class="row center">
-            <a href="https://plancks.uk/dublin24/" target="_blank" id="plancks-button" class="btn-large waves-effect waves-light" style="background-color: #ffffff; color: #3ca41c"><strong>Conoce Plancks 2025</strong></a>
+            <a href="https://estudiantes.rsef.es/PLANCKS25/" target="_blank" id="plancks-button" class="btn-plancks25 waves-effect waves-light" style="margin: 0 10px;"><strong>Conoce Plancks 2025</strong></a>
           </div>
         </div>
         <div class="col s12 m6">
           <div class="row center">
-            <a href="https://www.iaps.info/" target="_blank" id="iaps-button" class="btn-large waves-effect waves-light" style="background-color: #ffffff; color: #3ca41c"><strong>Conoce IAPS</strong></a>
+            <a href="https://www.iaps.info/" target="_blank" id="iaps-button" class="btn-plancks25 waves-effect waves-light" style="margin: 0 10px;"><strong>Conoce IAPS</strong></a>
           </div>
         </div>
       </div>
@@ -274,12 +274,12 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
       <div class="row center">  
         <div class="col s12 m6">
           <div class="row center">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe621X8cPqOPlC6gNIk9nioyiRIrpsDfFANJnPRVUAaavZDNA/viewform" id="inscripcion-equipos-button" target="_blank" class="btn-large waves-effect waves-light" style="background-color: #ffffff; color: #3ca41c; display: inline-flex; align-items: center; margin-bottom: 5px;"><i class="material-icons" style="padding-right: 8px;">groups</i><strong>Inscripción equipos</strong></a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe621X8cPqOPlC6gNIk9nioyiRIrpsDfFANJnPRVUAaavZDNA/viewform" id="inscripcion-equipos-button" target="_blank" class="btn-plancks25 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">groups</i><strong>Inscripción equipos</strong></a>
           </div>
         </div>
         <div class="col s12 m6">
           <div class="row center">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsspz155pqui07-RYSDWc12-pOQ4msZ2p6EI-iPYuWypghw/viewform" id="inscripcion-supers-button" target="_blank" class="btn-large waves-effect waves-light" style="background-color: #ffffff; color: #3ca41c; display: inline-flex; align-items: center; margin-bottom: 5px;"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Inscripción supervisores</strong></a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsspz155pqui07-RYSDWc12-pOQ4msZ2p6EI-iPYuWypghw/viewform" id="inscripcion-supers-button" target="_blank" class="btn-plancks25 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Inscripción supervisores</strong></a>
           </div>
         </div>
       </div>      
@@ -300,28 +300,23 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
           <div class="col s12 m6 l7">
             <div class="icon-block">
               <h5 class="center">Comité Organizador</h5>
-              <p align="center">Joan Llobera Querol - Presidente</p>
-              <p align="center">Irene Carrión López - Vicepresidenta</p>
+              <p align="center">Eric Jiménez Zurera - Presidente</p>
+              <p align="center">- Vicepresidenta</p>
               <p align="center">Misael Samir Malqui Cruz - Redes </p>
-              <p align="center">Lucía Longo - Redes </p>
-              <p align="center">María Sánchez Hernández - Redes </p>
               <p align="center">Miguel Durán Vera - Web </p>
               <p align="center">Adrián Marín Boyero - Grafismos </p>
-              <p align="center">Víctor Palma Cortés - Logística</p>
-              <p align="center">Eric Jiménez Zurera - Logística</p>
-              <p align="center">Eloi Casalé Cabanes - Logística</p>
-              <p align="center">Manuel Porrón Álvarez - Logística </p>
-              <p align="center">Inmaculada Pérez Pérez  - Senior Advisor</p>              
+              <p align="center">- Logística</p>
+              <p align="center">- Senior Advisor</p>              
             </div>
           </div>
           <div class="col s12 m6 l5">
             <div class="icon-block">
               <h5 class="center">Comité Académico</h5>
               <!-- <p align="center">No podemos desvelar su composición hasta después de la realización de la prueba. ;)</p> -->
-              <p align="center">Juan León - Presidente y Autor del Problema 2</p>
-              <p align="center">Sònia Estradé Albiol (UB) - Autora del Problema 1</p>
-              <p align="center">J. Arturo Alonso (CIEMAT) - Autor del Problema 3</p>
-              <p align="center">Enrique Conejero Jarque (USAL) - Autor del Problema 4</p>
+              <p align="center"></p>
+              <p align="center"></p>
+              <p align="center"></p>
+              <p align="center"></p>
             </div>
           </div>
         </div>
