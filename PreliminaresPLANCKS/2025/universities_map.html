@@ -8,112 +8,7 @@
         box-sizing: border-box;
         display: flow-root;
         height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-
-      /* Contenedor principal responsivo */
-      #f28a545f-a379-4919-865a-592c0365d724 {
-        position: relative;
-        width: 100%;
-        max-width: 100%;
-        overflow: hidden;
-      }
-
-      /* Escalar el contenido */
-      .bokeh-content {
-        transform-origin: top left; /* Escala desde la esquina superior izquierda */
-        transform: scale(1); /* Escala inicial (ajustada dinámicamente) */
-        width: 100%; /* Asegura que no haya desbordamiento */
-      }
-    </style>
-    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.2.min.js"></script>
-    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.2.min.js"></script>
-    <script type="text/javascript">
-      Bokeh.set_log_level("info");
-    </script>
-  </head>
-  <body>
-    <div id="f28a545f-a379-4919-865a-592c0365d724">
-      <div class="bokeh-content" id="bokeh-app"></div>
-    </div>
-  
-    <script type="application/json" id="bb1ae5cf-b5df-4832-a1d8-99f32f9b2ea7">
-      ...
-    </script>
-    <script type="text/javascript">
-      (function() {
-        const fn = function() {
-          Bokeh.safely(function() {
-            (function(root) {
-              function embed_document(root) {
-                const docs_json = document.getElementById('bb1ae5cf-b5df-4832-a1d8-99f32f9b2ea7').textContent;
-                const render_items = [{
-                  "docid":"d9a34265-ea6d-47eb-86b9-9a2c83e16996",
-                  "roots":{"p1054":"bokeh-app"},
-                  "root_ids":["p1054"]
-                }];
-
-                const container = document.getElementById('f28a545f-a379-4919-865a-592c0365d724');
-                const bokehContent = document.getElementById('bokeh-app');
-
-                // Insert Bokeh content
-                root.Bokeh.embed.embed_items(docs_json, render_items);
-
-                // Adjust the scale dynamically
-                function adjustScale() {
-                  const containerWidth = container.offsetWidth;
-                  const bokehWidth = bokehContent.scrollWidth; // Actual width of the Bokeh content
-                  const scale = containerWidth / bokehWidth; // Calculate scale ratio
-
-                  // Apply scale
-                  bokehContent.style.transform = `scale(${scale})`;
-                }
-
-                // Call the function initially and on resize
-                adjustScale();
-                window.addEventListener('resize', adjustScale);
-              }
-
-              if (root.Bokeh !== undefined) {
-                embed_document(root);
-              } else {
-                let attempts = 0;
-                const timer = setInterval(function(root) {
-                  if (root.Bokeh !== undefined) {
-                    clearInterval(timer);
-                    embed_document(root);
-                  } else {
-                    attempts++;
-                    if (attempts > 100) {
-                      clearInterval(timer);
-                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
-                    }
-                  }
-                }, 10, root);
-              }
-            })(window);
-          });
-        };
-        if (document.readyState != "loading") fn();
-        else document.addEventListener("DOMContentLoaded", fn);
-      })();
-    </script>
-  </body>
-</html>
-
-
-<!--
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Mapa de Universidades</title>
-    <style>
-      html, body {
-        box-sizing: border-box;
-        display: flow-root;
-        height: 100%;
+        width: 80%;
         margin: 0;
         padding: 0;
         
@@ -167,4 +62,3 @@
     </script>
   </body>
 </html> 
--->
