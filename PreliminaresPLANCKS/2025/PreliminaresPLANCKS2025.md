@@ -25,8 +25,10 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
         </li>
         {% endfor %}
       </ul>
-    </div></div>    
+    </div>
+    </div>    
     <!--Seccion de texto -->
+    <div class="container">
     <div class="section prelis25">
         <!-- BANNER -->
       <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
@@ -148,6 +150,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
       {% endif %}
     </div>
   </div>
+  </div>    
 
 <!-- INFO MODAL -->
 <div id="info-modal" class="modal prelis25">
