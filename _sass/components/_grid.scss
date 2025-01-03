@@ -132,13 +132,6 @@
   .row_prelis {
     justify-content: center; 
     flex-direction: column; 
-  }
-	
-  .row_prelis > * {
-    margin-bottom: 20px;
-  }
-
-  .row_prelis > *:last-child {
-    margin-bottom: 0; 
+    gap: 20px;
   }
 }
