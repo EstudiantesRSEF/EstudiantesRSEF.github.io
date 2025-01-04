@@ -166,12 +166,11 @@
     color: #352F71; // Purple color for hovered links
   }
 
-  // .btn-plancks25 {
-  //       color: #ffffff;
-  //       display: flex;
-  //       align-items: center;
-  //       justify-content: center;
-  //     }
+  .btn-plancks25 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 }
 
 .prelis25{
@@ -185,5 +184,10 @@
 
   a:not(.btn-plancks25):hover {
     color: #352F71; // Purple color for hovered links
+  }
+  .btn-plancks25 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
