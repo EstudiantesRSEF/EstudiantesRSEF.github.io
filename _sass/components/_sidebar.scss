@@ -89,7 +89,7 @@
   width: 90%; // Default for small screens
   margin: 0 auto;
   
-  justify-content: space-between;
+  justify-content: left;
 
   @media (min-width: 600px) {
     width: 85%; // Medium screens
@@ -111,14 +111,21 @@
 
   @media (min-width: 992px) {
     width: 15%; // Large screens
-    position: fixed;
-    right: 0; // Half of the sidebar width to make it half inside and half outside
+    // right: 0; // Half of the sidebar width to make it half inside and half outside
   }
 
   .sidebar {
     ul li img, ul li video {
       width: 100%; // Full width of the sidebar
       height: auto;
+    }
+
+    ul li p {
+      margin: 10px 0 0; // Espaciado encima del texto
+      font-size: 20px;
+      color: #352F71; // Color texto
+      font-weight: bold; // Texto en negrita
+      text-align: center; // Asegura que el texto esté centrado
     }
   }
 }
@@ -132,7 +139,7 @@
 
   @media (min-width: 992px) {
     width: 85%; // Adjust width for large screens
-    margin-right: 15%;
+    // margin-right: 15%;
   }
 
   a, span {
@@ -146,4 +153,11 @@
   a:hover {
     color: #352F71; // Purple color for hovered links
   }
+
+  .btn-plancks25 {
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 }
