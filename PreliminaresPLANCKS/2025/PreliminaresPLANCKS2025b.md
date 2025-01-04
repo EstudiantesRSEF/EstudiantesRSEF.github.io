@@ -192,7 +192,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmdb/
           Todo esto no sería posible sin el apoyo de la Fundación Ramón Areces y de los miembros del GdeE. ¡Así que muchas gracias por confiar en nosotros!
         </p> -->
         <p style="text-align: justify;">
-          Si aún no sabes de qué estamos hablando, clica en este <a class="prelis25 modal-trigger" href="#info-modal">este enlace</a>.
+          Si aún no sabes de qué estamos hablando, clica en este <a class="modal-trigger" href="#info-modal">este enlace</a>.
         </p>
       </div>
     </div>
@@ -209,7 +209,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmdb/
       <div class="row center">
         <h3 class="justify">Información para supervisoras/es</h3>
         <p style="text-align: justify;">¡Hola! Si has llegado hasta esta página es que puedes ser un/a posible supervisor/a de examen en las Preliminares de PLANCKS 2025. A continuación, te contamos cuáles son los requisitos y las responsabilidades del cargo.</p>
-        <p style="text-align: justify;">Lee sobre la información general de las Preliminares de PLANCKS en <a class="prelis25 modal-trigger" href="#info-modal">este enlace</a>.</p>
+        <p style="text-align: justify;">Lee sobre la información general de las Preliminares de PLANCKS en <a class="modal-trigger" href="#info-modal">este enlace</a>.</p>
         <p style="text-align: justify;"><strong>¿Cuáles son los requisitos del cargo de Supervisor/a?</strong> Son dos:</p>
         <list class="a">
           <li style="text-align: justify;">Ser investigador pre- o post-doctoral o ser docente universitario o de educación secundaria (en activo o jubilado).</li>
@@ -222,8 +222,8 @@ permalink: /PreliminaresPLANCKS2025pruebasmdb/
           <li style="text-align: justify;">Supervisar el desarrollo de la prueba durante su realización y velar por el cumplimiento de las normas establecidas.</li>
           <li style="text-align: justify;">Recoger las hojas de la prueba y escanearlas para enviarlas al Comité Organizador el mismo día de la prueba.</li>
         </list>
-        <p style="text-align: justify;"><strong>¿Cómo puedo supervisar un examen en las Preliminares 2025?</strong> Es muy sencillo: sólo tienes que rellenar <a class="prelis25" href="https://docs.google.com/forms/d/e/1FAIpQLSdEsspz155pqui07-RYSDWc12-pOQ4msZ2p6EI-iPYuWypghw/viewform" id="inscripcion-supervisores-button" target="_blank">este formulario</a>. Una vez cumplimentado, nos pondremos en contacto contigo para informarte de los siguientes pasos.</p>
-        <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a class="prelis25" href="/PreliminaresPLANCKS/2025/CompetitionRules_PrelisPLANCKS2025.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
+        <p style="text-align: justify;"><strong>¿Cómo puedo supervisar un examen en las Preliminares 2025?</strong> Es muy sencillo: sólo tienes que rellenar <a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsspz155pqui07-RYSDWc12-pOQ4msZ2p6EI-iPYuWypghw/viewform" id="inscripcion-supervisores-button" target="_blank">este formulario</a>. Una vez cumplimentado, nos pondremos en contacto contigo para informarte de los siguientes pasos.</p>
+        <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a href="/PreliminaresPLANCKS/2025/CompetitionRules_PrelisPLANCKS2025.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
       </div>
     </div>
   </div>
@@ -240,7 +240,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmdb/
         <h3 class="justify">Conoce Plancks </h3>
         <p style="text-align: justify;"><strong>¿Qué es PLANCKS?</strong> PLANCKS (Physics League Across Numerous Countries for Kick-ass Students) es la competición internacional de física teórica de IAPS, la International Association of Physics Students. En ella pueden participar equipos de tres a cuatro estudiantes de grado y/o máster. Además, la competición se enmarca en un evento de varios días repleto de charlas y actividades para que los participantes se conozcan entre sí.</p>
         <p style="text-align: justify;">
-          Este año PLANCKS será organizado por nosotros, ¡el <a class="prelis25" href="https://estudiantes.rsef.es/" id="iop-button" target="_blank"> GdeE de la RSEF </a>! y la prueba tendrá lugar del 1 al 5 de mayo en Barcelona. ¡La última edición reunió 250 participantes de unos 30 países! Si quieres conocer más sobre PLANCKS y IAPS, la International Association of Physics Students, clica en los enlaces siguientes.
+          Este año PLANCKS será organizado por nosotros, ¡el <a href="https://estudiantes.rsef.es/" id="iop-button" target="_blank"> GdeE de la RSEF </a>! y la prueba tendrá lugar del 1 al 5 de mayo en Barcelona. ¡La última edición reunió 250 participantes de unos 30 países! Si quieres conocer más sobre PLANCKS y IAPS, la International Association of Physics Students, clica en los enlaces siguientes.
         </p>
       </div>
     </div>    
@@ -300,22 +300,22 @@ permalink: /PreliminaresPLANCKS2025pruebasmdb/
             <div class="icon-block">
               <h5 class="center">Comité Organizador</h5>
               <p align="center">Eric Jiménez Zurera - Presidente</p>
-              <p align="center">- Vicepresidenta</p>
+              <p align="center">Joan Llobera Querol - Vicepresidenta</p>
               <p align="center">Misael Samir Malqui Cruz - Redes </p>
               <p align="center">Miguel Durán Vera - Web </p>
               <p align="center">Adrián Marín Boyero - Grafismos </p>
-              <p align="center">- Logística</p>
-              <p align="center">- Senior Advisor</p>              
+              <!-- <p align="center">- Logística</p>
+              <p align="center">- Senior Advisor</p>               -->
             </div>
           </div>
           <div class="col s12 m6 l5">
             <div class="icon-block">
               <h5 class="center">Comité Académico</h5>
               <!-- <p align="center">No podemos desvelar su composición hasta después de la realización de la prueba. ;)</p> -->
-              <p align="center"></p>
-              <p align="center"></p>
-              <p align="center"></p>
-              <p align="center"></p>
+              <p align="center">Ángel Sanz Ortiz</p>
+              <p align="center">Por anunciar...</p>
+              <!-- <p align="center"></p>
+              <p align="center"></p> -->
             </div>
           </div>
         </div>
