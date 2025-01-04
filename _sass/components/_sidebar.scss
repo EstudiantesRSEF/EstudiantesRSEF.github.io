@@ -84,10 +84,11 @@
 //   }
 
 .prelis25-container {
-  width: 90%; // Default for small screens
-  margin: 0 auto;
   display: flex;
   flex-direction: row-reverse;
+  width: 90%; // Default for small screens
+  margin: 0 auto;
+  
   justify-content: space-between;
 
   @media (min-width: 600px) {
@@ -100,12 +101,12 @@
 }
 
 .prelis25-sidebar {
-  width: 100%;
+  width: 10%;
   display: none; // Hide on small screens
 
   @media (min-width: 600px) {
-    width: 20%; // Medium screens
     display: block;
+    width: 20%; // Medium screens    
   }
 
   @media (min-width: 992px) {
