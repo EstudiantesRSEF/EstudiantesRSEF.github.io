@@ -74,7 +74,7 @@
   }}
 
 // Media queries
-  @media (min-width: 600px) and (max-width: 991px) {
+@media #{$medium-only} {
     .prelis25-container {
       margin-left: 10px; // Reduce left margin for the container
     }
