@@ -5,28 +5,28 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
 ---
 
 <div class="no-pad-top" id="index-page">
-  <div class="container" style = "display: flex; flex-direction: row-reverse; padding-left: -10px">
-    <!--Sidebar con posts-->
-    <div class="prelis25"><div class="sidebar">
-      <ul>
-        {% for item in site.data.Prelis.PostsList limit:3 %}
-        <li>
-          <a href="{{ item.url }}">
-          <p>{{ item.text }}</p>
-            {% if item.video %}
-              <video width="100%" height="auto" autoplay muted loop style="width:100px" style="width:250px">
+  <div class="container prelis25-container" style="display: flex; flex-direction: row-reverse;">
+    <div class="prelis25">
+      <div class="sidebar">
+        <ul>
+          {% for item in site.data.Prelis.PostsList limit:3 %}
+          <li>
+            <a href="{{ item.url }}">
+              <p>{{ item.text }}</p>
+              {% if item.video %}
+              <video width="100%" height="auto" autoplay muted loop style="width:100px">
                 <source src="{{ item.image }}" type="video/mp4">
                 Tu navegador no soporta videos.
               </video>
-            {% else %}
+              {% else %}
               <img src="{{ item.image }}" alt="{{ item.text }}" style="width:250px">
-            {% endif %}            
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-    </div>    
+              {% endif %}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>   
     <!--Seccion de texto -->
     <div class="container" style = "width: 100%">
     <div class="section prelis25">
