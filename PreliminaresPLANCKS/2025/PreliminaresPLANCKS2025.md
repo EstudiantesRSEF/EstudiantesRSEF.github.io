@@ -5,8 +5,8 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
 ---
 
 <div class="no-pad-top" id="index-page">
-  <div class="container prelis25-container" style="display: flex; flex-direction: row-reverse;">
-    <div class="prelis25">
+  <div class="prelis25-container">
+    <div class="prelis25-sidebar">
       <div class="sidebar">
         <ul>
           {% for item in site.data.Prelis.PostsList limit:3 %}
@@ -14,41 +14,39 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
             <a href="{{ item.url }}">
               <p>{{ item.text }}</p>
               {% if item.video %}
-              <video width="100%" height="auto" autoplay muted loop style="width:100px">
+              <video width="100%" height="auto" autoplay muted loop>
                 <source src="{{ item.image }}" type="video/mp4">
                 Tu navegador no soporta videos.
               </video>
               {% else %}
-              <img src="{{ item.image }}" alt="{{ item.text }}" style="width:250px">
+              <img src="{{ item.image }}" alt="{{ item.text }}">
               {% endif %}
             </a>
           </li>
           {% endfor %}
         </ul>
       </div>
-    </div>   
-    <!--Seccion de texto -->
-    <div class="container" style = "width: 100%">
-    <div class="section prelis25">
-        <!-- BANNER -->
+    </div>
+    <div class="prelis25-content">
+      <!-- BANNER -->
       <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
-        <!-- RESULTADOS -->
+      <!-- RESULTADOS -->
       <!-- <hr>
-      <h2 style="text-align: center;">        
-          <a href="{{ site.url}}/PreliminaresPLANCKS/2025/clasificacionprelis2025.pdf" target="_blank"><span><strong>CLASIFICACIÓN DE LAS PRELIMINARES DE PLANCKS 2025</strong></span></a>        
+      <h2 style="text-align: center;">
+        <a href="{{ site.url}}/PreliminaresPLANCKS/2025/clasificacionprelis2025.pdf" target="_blank"><span><strong>CLASIFICACIÓN DE LAS PRELIMINARES DE PLANCKS 2025</strong></span></a>
       </h2>
       <hr> -->
-        <!-- SOLUCIONES -->
-      <!-- <h2 style="text-align: center;">        
-        <a href="https://drive.google.com/drive/folders/1W5TApAH-R18FIYzg79aIk_bP2T36iI4F" target="_blank"><span><strong>SOLUCIONES DE LOS PROBLEMAS</strong></span></a>        
+      <!-- SOLUCIONES -->
+      <!-- <h2 style="text-align: center;">
+        <a href="https://drive.google.com/drive/folders/1W5TApAH-R18FIYzg79aIk_bP2T36iI4F" target="_blank"><span><strong>SOLUCIONES DE LOS PROBLEMAS</strong></span></a>
       </h2>
-      <hr>  -->
-        <!-- INTRODUCCIÓN -->
-      <p style="text-align: justify;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la octava edición de las <strong>Preliminares de PLANCKS</strong>! <!--Y este año también ofrecemos <strong>1000€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces.--> Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p>
-        <!-- BOTONES -->
+      <hr> -->
+      <!-- INTRODUCCIÓN -->
+      <p style="text-align: justify; line-height: 1.5;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la octava edición de las <strong>Preliminares de PLANCKS</strong>!<!-- Y este año también ofrecemos <strong>1000€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces.--> Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p>
+      <!-- BOTONES -->
       <div class="section" style="display: flex; flex-direction: column; justify-content: space-between">
-        <div class="row center" style="flex: 1; display: flex; justify-content: center; align-items: center;">
-          <a href="#info-modal" id="info-button" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">info</i><strong>Información general</strong></a>
+        <div class="row center">
+          <a href="#info-modal" id="info-button" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light"><i class="material-icons" style="padding-right: 8px;">info</i><strong>Información general</strong></a>
         </div>
         <div class="row_prelis">
           <a href="#supervisores-modal" id="supervisores-button" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Supervisoras/es</strong></a>
@@ -57,7 +55,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
           <a href="#inscripcion-modal" id="inscripcion-button" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">create</i><strong>Inscríbete</strong></a>
         </div>
       </div>
-       <!-- COUNTDOWN -->
+        <!-- COUNTDOWN -->
       <div class="row">  
         <p style="text-align: justify;">Las inscripciones para las Preliminares de PLANCKS 2025 se cerrarán en...</p>
         <h3 style="text-align: center;"><p id="countdown" style="text-align:center"></p></h3>
@@ -194,7 +192,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
           Todo esto no sería posible sin el apoyo de la Fundación Ramón Areces y de los miembros del GdeE. ¡Así que muchas gracias por confiar en nosotros!
         </p> -->
         <p style="text-align: justify;">
-          Si aún no sabes de qué estamos hablando, clica en este <a class="prelis25 modal-trigger" href="#info-modal">este enlace</a>.
+          Si aún no sabes de qué estamos hablando, clica en este <a class="modal-trigger" href="#info-modal">este enlace</a>.
         </p>
       </div>
     </div>
@@ -211,7 +209,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
       <div class="row center">
         <h3 class="justify">Información para supervisoras/es</h3>
         <p style="text-align: justify;">¡Hola! Si has llegado hasta esta página es que puedes ser un/a posible supervisor/a de examen en las Preliminares de PLANCKS 2025. A continuación, te contamos cuáles son los requisitos y las responsabilidades del cargo.</p>
-        <p style="text-align: justify;">Lee sobre la información general de las Preliminares de PLANCKS en <a class="prelis25 modal-trigger" href="#info-modal">este enlace</a>.</p>
+        <p style="text-align: justify;">Lee sobre la información general de las Preliminares de PLANCKS en <a class="modal-trigger" href="#info-modal">este enlace</a>.</p>
         <p style="text-align: justify;"><strong>¿Cuáles son los requisitos del cargo de Supervisor/a?</strong> Son dos:</p>
         <list class="a">
           <li style="text-align: justify;">Ser investigador pre- o post-doctoral o ser docente universitario o de educación secundaria (en activo o jubilado).</li>
@@ -224,8 +222,8 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
           <li style="text-align: justify;">Supervisar el desarrollo de la prueba durante su realización y velar por el cumplimiento de las normas establecidas.</li>
           <li style="text-align: justify;">Recoger las hojas de la prueba y escanearlas para enviarlas al Comité Organizador el mismo día de la prueba.</li>
         </list>
-        <p style="text-align: justify;"><strong>¿Cómo puedo supervisar un examen en las Preliminares 2025?</strong> Es muy sencillo: sólo tienes que rellenar <a class="prelis25" href="https://docs.google.com/forms/d/e/1FAIpQLSdEsspz155pqui07-RYSDWc12-pOQ4msZ2p6EI-iPYuWypghw/viewform" id="inscripcion-supervisores-button" target="_blank">este formulario</a>. Una vez cumplimentado, nos pondremos en contacto contigo para informarte de los siguientes pasos.</p>
-        <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a class="prelis25" href="/PreliminaresPLANCKS/2025/CompetitionRules_PrelisPLANCKS2025.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
+        <p style="text-align: justify;"><strong>¿Cómo puedo supervisar un examen en las Preliminares 2025?</strong> Es muy sencillo: sólo tienes que rellenar <a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsspz155pqui07-RYSDWc12-pOQ4msZ2p6EI-iPYuWypghw/viewform" id="inscripcion-supervisores-button" target="_blank">este formulario</a>. Una vez cumplimentado, nos pondremos en contacto contigo para informarte de los siguientes pasos.</p>
+        <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a href="/PreliminaresPLANCKS/2025/CompetitionRules_PrelisPLANCKS2025.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
       </div>
     </div>
   </div>
@@ -242,7 +240,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
         <h3 class="justify">Conoce Plancks </h3>
         <p style="text-align: justify;"><strong>¿Qué es PLANCKS?</strong> PLANCKS (Physics League Across Numerous Countries for Kick-ass Students) es la competición internacional de física teórica de IAPS, la International Association of Physics Students. En ella pueden participar equipos de tres a cuatro estudiantes de grado y/o máster. Además, la competición se enmarca en un evento de varios días repleto de charlas y actividades para que los participantes se conozcan entre sí.</p>
         <p style="text-align: justify;">
-          Este año PLANCKS será organizado por nosotros, ¡el <a class="prelis25" href="https://estudiantes.rsef.es/" id="iop-button" target="_blank"> GdeE de la RSEF </a>! y la prueba tendrá lugar del 1 al 5 de mayo en Barcelona. ¡La última edición reunió 250 participantes de unos 30 países! Si quieres conocer más sobre PLANCKS y IAPS, la International Association of Physics Students, clica en los enlaces siguientes.
+          Este año PLANCKS será organizado por nosotros, ¡el <a href="https://estudiantes.rsef.es/" id="iop-button" target="_blank"> GdeE de la RSEF </a>! y la prueba tendrá lugar del 1 al 5 de mayo en Barcelona. ¡La última edición reunió 250 participantes de unos 30 países! Si quieres conocer más sobre PLANCKS y IAPS, la International Association of Physics Students, clica en los enlaces siguientes.
         </p>
       </div>
     </div>    
@@ -302,22 +300,22 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
             <div class="icon-block">
               <h5 class="center">Comité Organizador</h5>
               <p align="center">Eric Jiménez Zurera - Presidente</p>
-              <p align="center">- Vicepresidenta</p>
+              <p align="center">Joan Llobera Querol - Vicepresidenta</p>
               <p align="center">Misael Samir Malqui Cruz - Redes </p>
               <p align="center">Miguel Durán Vera - Web </p>
               <p align="center">Adrián Marín Boyero - Grafismos </p>
-              <p align="center">- Logística</p>
-              <p align="center">- Senior Advisor</p>              
+              <!-- <p align="center">- Logística</p>
+              <p align="center">- Senior Advisor</p>               -->
             </div>
           </div>
           <div class="col s12 m6 l5">
             <div class="icon-block">
               <h5 class="center">Comité Académico</h5>
               <!-- <p align="center">No podemos desvelar su composición hasta después de la realización de la prueba. ;)</p> -->
-              <p align="center"></p>
-              <p align="center"></p>
-              <p align="center"></p>
-              <p align="center"></p>
+              <p align="center">Ángel Sanz Ortiz</p>
+              <p align="center">Por anunciar...</p>
+              <!-- <p align="center"></p>
+              <p align="center"></p> -->
             </div>
           </div>
         </div>
