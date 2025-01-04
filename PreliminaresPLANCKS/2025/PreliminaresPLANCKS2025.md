@@ -102,9 +102,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
       <div class="section">
           <strong><h3>El mapa de las Preliminares de PLANCKS 2025</h3></strong>
           <p style="text-align: justify;">¡En el siguiente mapa puedes consultar todas las sedes!</p>
-          <div class="bokeh-container">
-            <iframe src="/PreliminaresPLANCKS/2025/universities_map.html" class="scalable-iframe" style="border:none"></iframe> <!-- width="100%" height="600" -->
-          </div> 
+          <iframe src="/PreliminaresPLANCKS/2025/universities_map.html" class="scalable-iframe" style="border:none"></iframe> <!-- width="100%" height="600" -->
       </div> 
       <!-- EDICIONES ANTERIORES -->
       <div class="section" id="ediciones-anteriores">
