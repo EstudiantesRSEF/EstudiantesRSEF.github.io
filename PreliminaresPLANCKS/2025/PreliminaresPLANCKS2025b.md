@@ -44,15 +44,15 @@ permalink: /PreliminaresPLANCKS2025pruebasmdb/
       <!-- INTRODUCCIÓN -->
       <p style="text-align: justify; line-height: 1.5;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la octava edición de las <strong>Preliminares de PLANCKS</strong>! Y este año también ofrecemos <strong>1000€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces. Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p>
       <!-- BOTONES -->
-      <div class="section">
+      <div class="section" style="display: flex; flex-direction: column; justify-content: space-between">
         <div class="row center">
           <a href="#info-modal" id="info-button" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light"><i class="material-icons" style="padding-right: 8px;">info</i><strong>Información general</strong></a>
         </div>
-        <div class="row center">
-          <a href="#supervisores-modal" id="supervisores-button" class="btn-plancks25 waves-effect waves-light"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Supervisoras/es</strong></a>
-          <a href="#plancks-modal" id="conocer-button" class="btn-plancks25 waves-effect waves-light"><i class="material-icons" style="padding-right: 8px;">explore</i><strong>Conoce Plancks</strong></a>
-          <a href="#premios-modal" id="premios-button" class="btn-plancks25 waves-effect waves-light"><i class="material-icons" style="padding-right: 8px;">star</i><strong>Premios</strong></a>
-          <a href="#inscripcion-modal" id="inscripcion-button" class="btn-plancks25 waves-effect waves-light"><i class="material-icons" style="padding-right: 8px;">create</i><strong>Inscríbete</strong></a>
+        <div class="row_prelis">
+          <a href="#supervisores-modal" id="supervisores-button" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Supervisoras/es</strong></a>
+          <a href="#plancks-modal" id="conocer-button" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light" style="margin: 0 10px; line-height: 1.1;"><i class="material-icons" style="padding-right: 8px;">explore</i><strong>Conoce Plancks</strong></a>
+          <a href="#premios-modal" id="premios-button" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">star</i><strong>Premios</strong></a>
+          <a href="#inscripcion-modal" id="inscripcion-button" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">create</i><strong>Inscríbete</strong></a>
         </div>
       </div>
     </div>

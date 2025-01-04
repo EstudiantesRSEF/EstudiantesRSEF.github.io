@@ -103,6 +103,7 @@
 .prelis25-sidebar {
   // width: 10%;
   display: none; // Hide on small screens
+  margin-left: 1%;
 
   @media (min-width: 600px) {
     display: block;
