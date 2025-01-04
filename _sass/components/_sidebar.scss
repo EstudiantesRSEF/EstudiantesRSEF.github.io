@@ -101,7 +101,7 @@
 }
 
 .prelis25-sidebar {
-  width: 10%;
+  // width: 10%;
   display: none; // Hide on small screens
 
   @media (min-width: 600px) {
@@ -112,7 +112,7 @@
   @media (min-width: 992px) {
     width: 15%; // Large screens
     position: fixed;
-    left: -7.5%; // Half of the sidebar width to make it half inside and half outside
+    right: 0; // Half of the sidebar width to make it half inside and half outside
   }
 
   .sidebar {
@@ -132,6 +132,7 @@
 
   @media (min-width: 992px) {
     width: 85%; // Adjust width for large screens
+    margin-right: 15%;
   }
 
   a, span {
