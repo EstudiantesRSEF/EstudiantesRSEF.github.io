@@ -52,7 +52,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
         </div>
         <div class="row_prelis">
           <a href="#supervisores-modal" id="supervisores-button" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Supervisoras/es</strong></a>
-          <a href="#plancks-modal" id="conocer-button" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px; line-height: 1.1;">explore</i><strong>Conoce Plancks</strong></a>
+          <a href="#plancks-modal" id="conocer-button" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light" style="margin: 0 10px; line-height: 1.1;"><i class="material-icons" style="padding-right: 8px;">explore</i><strong>Conoce Plancks</strong></a>
           <a href="#premios-modal" id="premios-button" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">star</i><strong>Premios</strong></a>
           <a href="#inscripcion-modal" id="inscripcion-button" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">create</i><strong>Inscríbete</strong></a>
         </div>

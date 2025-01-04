@@ -74,12 +74,12 @@
   }}
 
 // Media queries
-@media #{$medium-only} {
+@media (min-width: 601px) and (max-width: 1011px) {
     .prelis25-container {
-      margin-left: 10px; // Reduce left margin for the container
+      margin-left: -1000px; // Reduce left margin for the container
     }
   
     .prelis25 .sidebar ul li img, .prelis25 .sidebar ul li video {
-      width: 150px; // Reduce width for images and videos
+      width: 10px; // Reduce width for images and videos
     }
   }
