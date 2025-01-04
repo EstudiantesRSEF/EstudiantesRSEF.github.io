@@ -173,3 +173,17 @@
         justify-content: center;
       }
 }
+
+.prelis25{
+  a, span {
+    color: #352F71; // Purple color for standard links and spans
+  }
+
+  a:visited {
+    color: #00a79d; // Turquoise color for clicked links
+  }
+
+  a:hover {
+    color: #352F71; // Purple color for hovered links
+  }
+}

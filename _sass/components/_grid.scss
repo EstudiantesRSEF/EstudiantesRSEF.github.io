@@ -135,6 +135,13 @@
     gap: 20px;
   }
 }
+@media (min-width: 769px) and (max-width: 1100px) {
+  .row_prelis {
+    flex-wrap: wrap; // Permite que los elementos se envuelvan a la siguiente línea
+    gap: 20px; // Ajusta la justificación para distribuir el espacio
+  }
+
+}
 
 .bokeh-container {
     width: 100%; 
