@@ -73,7 +73,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
         <!-- PUBLICACIONES MÓVILES -->
       <div class="publicaciones-movil">
         <div class="publicaciones-row">
-          {% for item in site.data.Prelis.PostsList limit:2 %}
+          {% for item in site.data.Prelis.PostsList limit:5 %}
           <div class="publicacion">
             <a href="{{ item.url }}">
               <p>{{ item.text }}</p>
