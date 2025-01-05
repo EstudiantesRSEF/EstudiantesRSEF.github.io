@@ -56,7 +56,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
         </div>
       </div>
         <!-- COUNTDOWN -->
-      <div class="row">  
+      <div class="row" style="margin-bottom: -10px">  
         <p style="text-align: justify;">Las inscripciones para las Preliminares de PLANCKS 2025 se cerrarán en...</p>
         <h3 style="text-align: center;"><p id="countdown" style="text-align:center"></p></h3>
         <p style="text-align: justify;">¡No dejes tu inscripción para el último momento para asegurarnos que tendrás aulas y supervisores disponibles en tu facultad!</p>

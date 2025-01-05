@@ -127,6 +127,17 @@
   .publicacion {
     flex: 0 0 48%; // Each item takes up about half the width
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &:first-child {
+      flex: 0 0 50%; // First item takes up 50% of the width
+    }
+
+    a:hover img, a:hover video {
+          transform: scale(1.1); // Efecto de zoom al pasar el mouse
+    }  
     img, video{
       width: 100%; // Ancho máximo para imágenes y videos
       height: auto; // Mantén las proporciones
