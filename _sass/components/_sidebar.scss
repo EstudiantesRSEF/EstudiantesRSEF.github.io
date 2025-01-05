@@ -7,10 +7,18 @@
   justify-content: left;
 
   @media (min-width: 600px) {
-    width: 85%; // Medium screens
+    width: 95%; // Medium screens
   }
 
   @media (min-width: 992px) {
+    width: 90%; // Large screens
+  }
+
+  @media (min-width: 1200px) {
+    width: 85%; // Large screens
+  }
+
+  @media (min-width: 1500px) {
     width: 80%; // Large screens
   }
 }
@@ -27,7 +35,6 @@
 
   @media (min-width: 992px) {
     width: 15%; // Large screens
-    // right: 0; // Half of the sidebar width to make it half inside and half outside
   }
 
   .sidebar {
