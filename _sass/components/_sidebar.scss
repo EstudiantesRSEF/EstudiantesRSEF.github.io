@@ -108,3 +108,24 @@
     line-height: 1.1;
   }
 }
+
+.publicaciones-movil {
+  display: none; // Hide on larger screens
+
+  @media (max-width: 599px) {
+    display: block;
+    overflow-x: auto; // Enable horizontal scrolling
+    white-space: nowrap; // Prevent line breaks
+  }
+
+  .publicaciones-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; // Space between items
+  }
+
+  .publicacion {
+    flex: 0 0 48%; // Each item takes up about half the width
+    box-sizing: border-box;
+  }
+}

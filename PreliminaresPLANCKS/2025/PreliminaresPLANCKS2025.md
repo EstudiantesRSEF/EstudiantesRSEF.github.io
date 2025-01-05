@@ -70,8 +70,28 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
           <p style="text-align: justify;">¡Gracias por ser parte de las Preliminares de PLANCKS 2025 y contribuir a su éxito!</p>
         </div>
       </div> -->
+        <!-- PUBLICACIONES MÓVILES -->
+      <div class="publicaciones-movil">
+        <div class="publicaciones-row">
+          {% for item in site.data.Prelis.PostsList limit:2 %}
+          <div class="publicacion">
+            <a href="{{ item.url }}">
+              <p>{{ item.text }}</p>
+              {% if item.video %}
+              <video width="100%" height="auto" autoplay muted loop>
+                <source src="{{ item.image }}" type="video/mp4">
+                Tu navegador no soporta videos.
+              </video>
+              {% else %}
+              <img src="{{ item.image }}" alt="{{ item.text }}">
+              {% endif %}
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
         <!-- AUTORES -->
-      <div class="section">
+      <!-- <div class="section">
         <h3 id="Autores">¡Conoce a l@s autor@s de los problemas!</h3>
         <p style="text-align: justify;">Los miembros del Comité Académico de las Preliminares PLANCKS 2025 son:</p>
         <div class="col s12 m6">
@@ -91,7 +111,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
             {% endfor %}    
           </div>
        </div>
-      </div>
+      </div> -->
         <!-- COMITÉS -->
       <div class="row"> 
         <p style="text-align: justify;">Además, puedes <a href="#comites-modal" class="prelis25 modal-trigger">consultar aquí</a> los integrantes del Comité Organizador de las Preliminares de PLANCKS 2025.</p>
@@ -300,7 +320,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
             <div class="icon-block">
               <h5 class="center">Comité Organizador</h5>
               <p align="center">Eric Jiménez Zurera - Presidente</p>
-              <p align="center">Joan Llobera Querol - Vicepresidenta</p>
+              <p align="center">Joan Llobera Querol - Vicepresidente</p>
               <p align="center">Misael Samir Malqui Cruz - Redes </p>
               <p align="center">Miguel Durán Vera - Web </p>
               <p align="center">Adrián Marín Boyero - Grafismos </p>
