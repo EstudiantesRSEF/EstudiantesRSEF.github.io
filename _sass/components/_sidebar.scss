@@ -127,5 +127,8 @@
   .publicacion {
     flex: 0 0 48%; // Each item takes up about half the width
     box-sizing: border-box;
+    img, video{
+      width: 50%; // Ancho máximo para imágenes y videos
+    }
   }
 }
