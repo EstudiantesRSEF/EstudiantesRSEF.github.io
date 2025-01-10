@@ -43,12 +43,6 @@
   }
 } 
 
-@media (max-width: 468px) {
-  .bubble-container {
-    width: 90%;
-  }
-}
-
 /* Individual bubble styling */
 .info-bubble {
   position: relative;
