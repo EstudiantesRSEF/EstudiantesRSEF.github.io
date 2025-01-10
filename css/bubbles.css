@@ -17,6 +17,7 @@
   margin: 0 auto; 
   padding: 10px; 
   width: 100%;
+  border: 2px dashed red; 
 }
 
 @media (min-width: 1024px) {
@@ -25,7 +26,6 @@
     grid-template-columns: auto auto auto;
     gap: 20px; 
     width: 100%;
-    /* border: 2px dashed red; for debugging */
   }
 } 
 
