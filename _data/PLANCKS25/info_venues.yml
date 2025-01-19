@@ -73,9 +73,9 @@
 - name: "TC Greece"
   date: "22-03-2025"
   contact: "tc-greece@iaps.info"
-  organizers: "ΕΕΦΦ – HAPS"
+  organizers: "TC Greece"
   logo: "/img/eventos/2025-PLANCKS/NCs/Greece.png"
-  web: "https://www.eef.gr/index.php"
+  web: "https://plancks.physics.uoi.gr/"
   iaps: "https://iaps.info/members/"
 
 - name: "TC Guatemala"
