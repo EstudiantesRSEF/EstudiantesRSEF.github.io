@@ -62,11 +62,19 @@
 #   web: "https://www.sfpnet.fr/"
 #   iaps: "https://iaps.info/members/national-committees/nc-france/"
 
+- name: "TC Georgia"
+  date: "02-03-2025"
+  contact: "tc-georgia@iaps.info"
+  organizers: "TC Georgia"
+  logo: "/img/eventos/2025-PLANCKS/NCs/Germany.png"
+  web: "https://gaps.org.ge/"
+  iaps: "https://iaps.info/members/national-committees/nc-georgia/"
+
 - name: "TC Germany"
   date: "29-03-2025"
   contact: "dopplers@jdpg.de"
   organizers: "JDPG"
-  logo: "/img/eventos/2025-PLANCKS/NCs/Germany.png"
+  logo: "/img/eventos/2025-PLANCKS/NCs/Georgia.png"
   web: "https://www.dpg-physik.de/veranstaltungen/2024/dopplers-2024"
   iaps: "https://iaps.info/members/national-committees/nc-germany/"
 
