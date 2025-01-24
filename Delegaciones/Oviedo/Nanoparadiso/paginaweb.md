@@ -12,7 +12,7 @@ permalink: /DeleOviedo/Nanoparadise2025/
 
 
 <!-- BANNER -->
-      <img class="materialboxed" width="100%" src="/Delegaciones/Oviedo/img/2025-Nanoparadise/Nanoparadise_Banner.png">
+      <img class="materialboxed" width="100%" src="/Delegaciones/Oviedo/img/2025-Nanoparadise/Banner_Nanoparadise.png">
 
 <!-- INTRODUCCIÓN -->
 
