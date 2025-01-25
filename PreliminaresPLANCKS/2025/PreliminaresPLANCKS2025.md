@@ -167,7 +167,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
       {% endif %}
     </div>
   </div>
-  </div>    
+</div>    
 
 <!-- INFO MODAL -->
 <div id="info-modal" class="modal prelis25">
@@ -192,7 +192,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
       <div class="section" style="padding-left: 15px; padding-right: 15px; border: 2px solid #352F71;">
         <strong>Términos y Condiciones de IAPS</strong> | Todos los participantes:
         <p style="text-align: justify;">- Declaran conocer que PLANCKS está regulado por el Artículo 12 de las <a class="prelis25" href="https://www.iaps.info/wp-content/uploads/2023/01/iaps__Regulations_2022.pdf" target="_blank">IAPS Regulations</a>.</p>
-        <p style="text-align: justify;">- Y se comprometen a cumplir las <a class="prelis25" href="https://www.iaps.info/wp-content/uploads/2021/01/PLANCKS-General-Rules-EGM-2020.pdf" target="_blank">Reglas Generales de PLANCKS</a>, además del <a class="prelis25" href="https://www.iaps.info/wp-content/uploads/2022/08/IAPS-Code-of-Conduct-2020.pdf" target="_blank">IAPS Code of Conduct</a> y <a class="prelis25" href="/PreliminaresPLANCKS/2025/Terms-and-Conditions-2020.pdf" target="_blank"> los Términos y Condiciones de cualquier actividad de IAPS.</p>
+        <p style="text-align: justify;">- Y se comprometen a cumplir las <a class="prelis25" href="https://www.iaps.info/wp-content/uploads/2021/01/PLANCKS-General-Rules-EGM-2020.pdf" target="_blank">Reglas Generales de PLANCKS</a>, además del <a class="prelis25" href="https://www.iaps.info/wp-content/uploads/2022/08/IAPS-Code-of-Conduct-2020.pdf" target="_blank">IAPS Code of Conduct</a> y <a class="prelis25" href="/PreliminaresPLANCKS/2025/Terms-and-Conditions-2020.pdf" target="_blank"> los Términos y Condiciones de cualquier actividad de IAPS.</a></p>
         <!-- <p style="text-align: justify;">Además, habrán de tener en cuenta que el Grupo de Estudiantes de la RSEF no ejerce en modo alguno de intermediario económico en este convocatoria de PLANCKS.</p> -->
       </div>
     </div>    
