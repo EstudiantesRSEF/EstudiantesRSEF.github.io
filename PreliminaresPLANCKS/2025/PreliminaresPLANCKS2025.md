@@ -90,7 +90,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
           {% endfor %}
         </div>
       </div>
-        <!-- AUTORES -->
+      <!-- AUTORES -->
       <!-- <div class="section">
         <h3 id="Autores">¡Conoce a l@s autor@s de los problemas!</h3>
         <p style="text-align: justify;">Los miembros del Comité Académico de las Preliminares PLANCKS 2025 son:</p>
