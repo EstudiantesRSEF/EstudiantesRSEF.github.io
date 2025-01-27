@@ -196,17 +196,17 @@
   logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado: 
 
-# - nombre: "Baleares - UIB"
-#   id: "BalearesUIB"
-#   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
-#   mail: 
-#   presidente: ""
-#   vicepresidente: "" 
-#   secretario: ""
-#   tesorero: ""
-#   fundacion: "12/2024"
-#   ins: 
-#   tw: 
-#   ex: 
-#   logo: "/img/banner/logo-banner-estrsef.jpg"
-#   congelado: 
+- nombre: "Baleares - UIB"
+  id: "BalearesUIB"
+  img: "/img/logos/gdee-rsef-logo-cuadrado.png"
+  mail: 
+  presidente: "Damià Vicens Ramis"
+  vicepresidente: "Lucas Solé Silveira" 
+  secretario: "Guillem Riera LLinas"
+  tesorero: "Álvaro Benito Hernández"
+  fundacion: "12/2024"
+  ins: 
+  tw: 
+  ex: 
+  logo: "/img/banner/logo-banner-estrsef.jpg"
+  congelado: 
