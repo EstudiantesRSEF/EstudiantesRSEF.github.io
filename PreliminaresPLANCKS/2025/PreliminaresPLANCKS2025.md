@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Preliminares PLANCKS 2025
-permalink: /PreliminaresPLANCKS2025pruebasmd/
+permalink: /PreliminaresPLANCKS2025/
 ---
 
 <div class="no-pad-top" id="index-page">
@@ -42,7 +42,8 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
       </h2>
       <hr> -->
       <!-- INTRODUCCIÓN -->
-      <p style="text-align: justify; line-height: 1.5;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la octava edición de las <strong>Preliminares de PLANCKS</strong>! Y este año también ofrecemos <strong>1000€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces. Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p>
+      <p style="text-align: justify; line-height: 1.5;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la octava edición de las <strong>Preliminares de PLANCKS</strong>!</p> 
+      <!-- Y este año también ofrecemos <strong>1000€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces. Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@! -->
       <!-- BOTONES -->
       <div class="section" style="display: flex; flex-direction: column; justify-content: space-between">
         <div class="row center">
@@ -209,11 +210,12 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
       <div class="row center">
         <h3 class="justify">Premios</h3>
         <p style="text-align: justify;">
-          Este año contamos con el apoyo y financiación de la <a class="prelis25" href="https://www.fundacionareces.es" id="ramon-areces" target="_blank">Fundación Ramón Areces</a>, que nos permite ofrecer premios a los dos mejores equipos: 550€ para el primer equipo y 450€ para el segundo. Además, los clasificados participarán en la fase internacional de PLANCKS en Barcelona, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
+          <!-- Este año contamos con el apoyo y financiación de la <a class="prelis25" href="https://www.fundacionareces.es" id="ramon-areces" target="_blank">Fundación Ramón Areces</a>, que nos permite ofrecer premios a los dos mejores equipos: 550€ para el primer equipo y 450€ para el segundo. Además, l -->
+          Los clasificados participarán en la fase internacional de PLANCKS en Barcelona, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
         </p>
-        <p style="text-align: justify;">
+        <!-- <p style="text-align: justify;">
           Todo esto no sería posible sin el apoyo de la Fundación Ramón Areces y de los miembros del GdeE. ¡Así que muchas gracias por confiar en nosotros!
-        </p>
+        </p> -->
         <p style="text-align: justify;">
           Si aún no sabes de qué estamos hablando, clica en este <a class="modal-trigger" href="#info-modal">este enlace</a>.
         </p>
@@ -246,7 +248,7 @@ permalink: /PreliminaresPLANCKS2025pruebasmd/
           <li style="text-align: justify;">Recoger las hojas de la prueba y escanearlas para enviarlas al Comité Organizador el mismo día de la prueba.</li>
         </list>
         <p style="text-align: justify;"><strong>¿Cómo puedo supervisar un examen en las Preliminares 2025?</strong> Es muy sencillo: sólo tienes que rellenar <a href="https://docs.google.com/forms/d/e/1FAIpQLSfkYroDxNN5NgQS5AqwKzitQc34YRTJj4H0yzd5amwEs4iw9A/viewform?usp=sharing" id="inscripcion-supervisores-button" target="_blank">este formulario</a>. Una vez cumplimentado, nos pondremos en contacto contigo para informarte de los siguientes pasos.</p>
-        <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a href="/PreliminaresPLANCKS/2025/CompetitionRules_PrelisPLANCKS2025.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
+        <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a href="/PreliminaresPLANCKS/2025/Competition_Rules_Preliminares_de_PLANCKS_2025.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
       </div>
     </div>
   </div>
