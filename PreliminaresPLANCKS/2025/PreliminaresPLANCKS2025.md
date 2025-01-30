@@ -186,7 +186,7 @@ permalink: /PreliminaresPLANCKS2025/
           <li style="text-align: justify;">Las Preliminares de PLANCKS son la fase de clasificación nacional para PLANCKS en nuestro país. El mejor equipo de las Prelis nos representará en mayo en la final, ¡que se celebra en Barcelona! La inscripción y alojamiento estará cubierta por el Grupo de Estudiantes. ¿Que aún no sabes lo que es PLANCKS? Encuentra toda la información en <a class="prelis25 modal-trigger" href="#plancks-modal">este enlace</a>.</li>
           <!-- <li style="text-align: justify;">¡Y este año tenemos premios para los dos mejores equipos gracias a la financiación de la Fundación Ramón Areces! Lee más en <a href="#premios-modal" class="prelis25">este enlace</a>.</li>  -->
         </list> 
-        <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a class="prelis25" href="/PreliminaresPLANCKS/2025/CompetitionRules_PrelisPLANCKS2025.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
+        <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a class="prelis25" href="/PreliminaresPLANCKS/2025/Competition_Rules_Preliminares_de_PLANCKS_2025.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
       </div>
     </div>    
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
