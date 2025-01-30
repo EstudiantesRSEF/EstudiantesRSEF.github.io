@@ -24,6 +24,8 @@ collections:
     output: true
     permalink: /:categories/:title/
 
+excerpt_separator: "\n\n"
+
 gems:
  - jekyll-redirect-from
  - jekyll-sitemap
