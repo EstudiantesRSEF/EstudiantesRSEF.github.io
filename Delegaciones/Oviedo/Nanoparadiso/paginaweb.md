@@ -167,10 +167,9 @@ permalink: /DeleOviedo/Nanoparadise2025/
           </div>
         </div>
       </div>
-  </p>
     <p style="text-align: justify;">
     Contact us: estudiantesrsef.uniovi@gmail.com
-  </p>
+    </p>
 	  
 <!-- SPONSORS -->
       {% include Delegaciones/Oviedo/Nanoparadise_patrocinadores.html %}
