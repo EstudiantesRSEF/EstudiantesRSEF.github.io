@@ -17,7 +17,7 @@ permalink: /DeleOviedo/Nanoparadise2025/
 <!-- INTRODUCCIÓN -->
 
       <p style="text-align: justify;">Welcome to Nanoparadise 2025!</p>
-      <p style="text-align: justify;"><strong>Nanoparadise<\strong> is an event happening from <strong>April 1 to 5 in Asturias, Spain<\strong>, bringing together up to <strong>40 physics students<\strong> from all over the world. You will get the chance to explore exciting research in nanophysics and nanomaterials in a region full of amazing research groups ready to meet you. Do not miss this opportunity to be part of the first international event organized by the Student Group of the Royal Spanish Society of Physics!</p>
+            <p style="text-align: justify;"><strong>Nanoparadise</strong> is an event happening from <strong>April 1 to 5 in Asturias, Spain</strong>, bringing together up to <strong>40 physics students</strong> from all over the world. You will get the chance to explore exciting research in nanophysics and nanomaterials in a region full of amazing research groups ready to meet you. Do not miss this opportunity to be part of the first international event organized by the Student Group of the Royal Spanish Society of Physics!</p>
       <p style="text-align: justify;">Asturias is waiting for you!</p>
 
 <!-- BOTONES -->
