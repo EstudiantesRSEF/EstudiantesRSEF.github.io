@@ -172,11 +172,7 @@ permalink: /DeleOviedo/Nanoparadise2025/
     </p>
 	  
 <!-- SPONSORS -->
-      {% include Delegaciones/Oviedo/Nanoparadise_patrocinadores.html %}
-	  
-    </div>
-	   
-    
+      {% include Delegaciones/Oviedo/Nanoparadise_patrocinadores.html %}    
   </div>
 </div>
 
