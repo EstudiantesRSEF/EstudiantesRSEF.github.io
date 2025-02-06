@@ -18,12 +18,75 @@
         ]
     },
     {
+        "university": "Universidad Autónoma de Barcelona (UAB)",
+        "longitude": 2.1057,
+        "latitude": 41.5016,
+        "teams": 1,
+        "team_list": [
+            "VDB"
+        ]
+    },
+    {
+        "university": "Universidad de Barcelona (UB)",
+        "longitude": 2.1662,
+        "latitude": 41.3879,
+        "teams": 1,
+        "team_list": [
+            "SU(137)"
+        ]
+    },
+    {
+        "university": "Universidad de Oviedo (UniOvi)",
+        "longitude": -5.845,
+        "latitude": 43.3619,
+        "teams": 1,
+        "team_list": [
+            "2blue2brown"
+        ]
+    },
+    {
         "university": "Universidad de Valladolid (UVA)",
         "longitude": -4.7245,
         "latitude": 41.6521,
         "teams": 1,
         "team_list": [
             "PSIsicos"
+        ]
+    },
+    {
+        "university": "Universidad de Valencia (UV)",
+        "longitude": -0.3752,
+        "latitude": 39.4699,
+        "teams": 1,
+        "team_list": [
+            "Atomkraft"
+        ]
+    },
+    {
+        "university": "Universidad de Granada (UGR)",
+        "longitude": -3.602,
+        "latitude": 37.1765,
+        "teams": 1,
+        "team_list": [
+            "CCOC"
+        ]
+    },
+    {
+        "university": "Universidad de Alcalá (UAH)",
+        "longitude": -3.3684,
+        "latitude": 40.4819,
+        "teams": 1,
+        "team_list": [
+            "Higgers Cuahnticos"
+        ]
+    },
+    {
+        "university": "Universidad de Murcia (UMU)",
+        "longitude": -1.1307,
+        "latitude": 37.9922,
+        "teams": 1,
+        "team_list": [
+            "KFC"
         ]
     }
 ]

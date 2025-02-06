@@ -103,5 +103,10 @@
         "university": "Universidad de Cantabria (UC)",
         "longitude": -3.8044,
         "latitude": 43.4623
+    },
+    "UMU": {
+        "university": "Universidad de Murcia (UMU)",
+        "longitude": -1.1307,
+        "latitude": 37.9922
     }
 }

@@ -11,8 +11,9 @@ sheet_data = get_google_sheet_data(spreadsheet_id,sheet_name, api_key)
 
 
 try:
-    useful_info = [entry for entry in sheet_data["values"][3:]]
+    useful_info = [entry for entry in sheet_data["values"][3:] if entry and any(cell.strip() for cell in entry if cell)]
     print("Sheet succesfully read")
+    print(useful_info)
 except:
     print("Failed to fetch data from Google Sheets API.")
 
