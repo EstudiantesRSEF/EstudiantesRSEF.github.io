@@ -151,7 +151,7 @@
 - nombre: "Murcia - UMU"
   id: "MurciaUMU"
   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
-  mail: "estudiantesrsef.uva@gmail.com"
+  mail: "estudiantesrsef.um@gmail.com"
   presidente: "Francisco Javier Torroglosa Úbeda"
   vicepresidente: "Cayetano Bayona Pacheco"
   secretario: "Sergio Mulero Moreno"
@@ -184,7 +184,7 @@
 - nombre: "Alicante - UA"
   id: "AlicanteUA"
   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
-  mail: 
+  mail: "estudiantesrsef.ua@gmail.com"
   presidente: "Ernesto Tomás Riera"
   vicepresidente: "Álvaro Serrano Ruiz" 
   secretario: "Said Tahmi"
@@ -199,7 +199,7 @@
 - nombre: "Baleares - UIB"
   id: "BalearesUIB"
   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
-  mail: 
+  mail: "estudiantesrsef.uib@gmail.com"
   presidente: "Damià Vicens Ramis"
   vicepresidente: "Lucas Solé Silveira" 
   secretario: "Guillem Riera LLinas"
