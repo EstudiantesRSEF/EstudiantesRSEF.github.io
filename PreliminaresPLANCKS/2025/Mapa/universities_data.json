@@ -21,9 +21,9 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 1,
+        "teams": 3,
         "team_list": [
-            "VDB"
+            "VDB\", f\"Quartet Formació\", f\"ukfy lacamariatas rostencurus"
         ]
     },
     {
@@ -33,6 +33,15 @@
         "teams": 1,
         "team_list": [
             "SU(137)"
+        ]
+    },
+    {
+        "university": "Universidad Autónoma de Madrid (UAM)",
+        "longitude": -3.6922,
+        "latitude": 40.5496,
+        "teams": 1,
+        "team_list": [
+            "Cohenistas"
         ]
     },
     {
@@ -66,9 +75,9 @@
         "university": "Universidad de Granada (UGR)",
         "longitude": -3.602,
         "latitude": 37.1765,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "CCOC"
+            "CCOC\", f\"Matemamados + e^iπ"
         ]
     },
     {

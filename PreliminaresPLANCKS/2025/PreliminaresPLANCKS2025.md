@@ -42,8 +42,7 @@ permalink: /PreliminaresPLANCKS2025/
       </h2>
       <hr> -->
       <!-- INTRODUCCIÓN -->
-      <p style="text-align: justify; line-height: 1.5;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la octava edición de las <strong>Preliminares de PLANCKS</strong>!</p> 
-      <!-- Y este año también ofrecemos <strong>1000€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces. Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@! -->
+      <p style="text-align: justify; line-height: 1.5;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la octava edición de las <strong>Preliminares de PLANCKS</strong>! Y este año también ofrecemos <strong>1500€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces. Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p>       
       <!-- BOTONES -->
       <div class="section" style="display: flex; flex-direction: column; justify-content: space-between">
         <div class="row center">
@@ -181,10 +180,10 @@ permalink: /PreliminaresPLANCKS2025/
         <p style="text-align: justify;"><strong>¿Cómo puedo participar en las Preliminares?</strong> Es muy sencillo: si conoces un@s cuant@s amig@s con los que te apetecería pasar un buen rato, resolver problemas que resultan todo un reto e inventarte respuestas disparatadas cuando no sepas por donde salir, reúne un equipo de hasta cuatro personas y no lo dudes: <a class="prelis25" href="https://docs.google.com/forms/d/e/1FAIpQLSeKyDq5URFysjS8J2fVBOmVnIz8kzJaSawA-WocMRvX1ivIdQ/viewform?usp=sharing" id="inscripcion-button" target="_blank">¡inscríbete!</a> Los equipos deben de estar formados por 3 o 4 personas. Esta primera fase nacional nos permitirá seleccionar a los mejores equipos para que nos representen en la competición internacional, el año pasado se clasificaron dos equipos a la fase final. </p>   
         <p style="text-align: justify;">Si ya existe una <a class="prelis25" href="https://estudiantes.rsef.es/delegaciones/">delegación del GdeE</a> en tu facultad, se ocuparán ellos de organizar las Prelis. Si no es el caso, es posible que el comité organizador os pida ayuda para encontrar un aula y un/a supervisor/a para poder garantizar una sede de las Preliminares en vuestra ciudad. </p>
         <p style="text-align: justify;"><strong>¿Cómo y cuándo tendrán lugar las Preliminares?</strong> Las Preliminares de PLANCKS 2025 en España se celebrarán el próximo <strong>viernes 7 de marzo por la tarde</strong>, de forma simultánea en sedes situadas en facultades de física del territorio nacional. La prueba durará 3 horas y tendrá lugar de 16:00 a 19:00 (GMT+1).</p>        
-        <p style="text-align: justify;"><strong>Y si la prueba os sale muy bien<!-- hay premio por partida doble-->...</strong></p>        
+        <p style="text-align: justify;"><strong>Y si la prueba os sale muy bien hay premio por partida doble...</strong></p>        
         <list class="a">
           <li style="text-align: justify;">Las Preliminares de PLANCKS son la fase de clasificación nacional para PLANCKS en nuestro país. El mejor equipo de las Prelis nos representará en mayo en la final, ¡que se celebra en Barcelona! La inscripción y alojamiento estará cubierta por el Grupo de Estudiantes. ¿Que aún no sabes lo que es PLANCKS? Encuentra toda la información en <a class="prelis25 modal-trigger" href="#plancks-modal">este enlace</a>.</li>
-          <!-- <li style="text-align: justify;">¡Y este año tenemos premios para los dos mejores equipos gracias a la financiación de la Fundación Ramón Areces! Lee más en <a href="#premios-modal" class="prelis25">este enlace</a>.</li>  -->
+          <li style="text-align: justify;">¡Y este año tenemos premios para los tres mejores equipos gracias a la financiación de la Fundación Ramón Areces! Lee más en <a href="#premios-modal" class="prelis25">este enlace</a>.</li> 
         </list> 
         <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a class="prelis25" href="/PreliminaresPLANCKS/2025/Competition_Rules_Preliminares_de_PLANCKS_2025.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
       </div>
@@ -210,8 +209,7 @@ permalink: /PreliminaresPLANCKS2025/
       <div class="row center">
         <h3 class="justify">Premios</h3>
         <p style="text-align: justify;">
-          <!-- Este año contamos con el apoyo y financiación de la <a class="prelis25" href="https://www.fundacionareces.es" id="ramon-areces" target="_blank">Fundación Ramón Areces</a>, que nos permite ofrecer premios a los dos mejores equipos: 550€ para el primer equipo y 450€ para el segundo. Además, l -->
-          Los clasificados participarán en la fase internacional de PLANCKS en Barcelona, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
+          Este año contamos con el apoyo y financiación de la <a class="prelis25" href="https://www.fundacionareces.es" id="ramon-areces" target="_blank">Fundación Ramón Areces</a>, que nos permite ofrecer premios a los tres mejores equipos: 700€ para el primer equipo, 500€ para el segundo y 300€ para el tercer clasificado. Además, los clasificados participarán en la fase internacional de PLANCKS en Barcelona, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
         </p>
         <!-- <p style="text-align: justify;">
           Todo esto no sería posible sin el apoyo de la Fundación Ramón Areces y de los miembros del GdeE. ¡Así que muchas gracias por confiar en nosotros!
