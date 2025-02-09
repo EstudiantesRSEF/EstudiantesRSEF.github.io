@@ -5,6 +5,7 @@ from bokeh.models import GeoJSONDataSource, ColumnDataSource, HoverTool, Div, Cu
 from bokeh.layouts import row, column
 from bokeh.io import output_file, save, curdoc
 import math
+import re
 
 def get_google_sheet_data(spreadsheet_id,sheet_name, api_key):
     # Construct the URL for the Google Sheets API
@@ -23,6 +24,23 @@ def get_google_sheet_data(spreadsheet_id,sheet_name, api_key):
         # Handle any errors that occur during the request
         print(f"An error occurred: {e}")
         return None
+
+def list_from_string(string: str):
+    pattern = r'"([^"]*)"'
+    extracted_items = re.findall(pattern, string)
+    return extracted_items
+
+def list_processing(data: list):
+    processed_data = []
+    for row in data:
+        if len(row) > 3:  # Check if the fourth element exists
+            try:
+                # Safely evaluate the string as a Python list
+                row[3] = list_from_string(row[3])
+            except (ValueError, SyntaxError):
+                pass  # Leave it as is if it cannot be evaluated
+        processed_data.append(row)
+    return processed_data
 
 def load_json(file_path):
     """

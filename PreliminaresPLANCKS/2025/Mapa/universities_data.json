@@ -23,7 +23,9 @@
         "latitude": 41.5016,
         "teams": 3,
         "team_list": [
-            "VDB\", f\"Quartet Formació\", f\"ukfy lacamariatas rostencurus"
+            "VDB",
+            "Quartet Formació",
+            "ukfy lacamariatas rostencurus"
         ]
     },
     {
@@ -77,7 +79,8 @@
         "latitude": 37.1765,
         "teams": 2,
         "team_list": [
-            "CCOC\", f\"Matemamados + e^iπ"
+            "CCOC",
+            "Matemamados + e^iπ"
         ]
     },
     {
