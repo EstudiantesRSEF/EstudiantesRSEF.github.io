@@ -122,7 +122,7 @@
   @media (max-width: 599px) {
     display: block;
     overflow-x: auto; // Enable horizontal scrolling
-    white-space: nowrap; // Prevent line breaks
+    // white-space: nowrap; // Prevent line breaks
   }
 
   .publicaciones-row {
@@ -159,6 +159,8 @@
       color: #352F71; // Color texto
       font-weight: bold; // Texto en negrita
       text-align: center; // Asegura que el texto esté centrado
+      line-height: 1.1;
+      height: 50px;
     }
   }
 }
