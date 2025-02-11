@@ -6,29 +6,25 @@ permalink: /PreliminaresPLANCKS/
 
 
 <div class="section">
-
 <!-- INTRODUCCIÓN -->
     <p style="text-align: justify;">
     ¿Te gustan los retos y te apasiona la física? ¿Quieres aspirar a representar a nuestro país en un concurso internacional con estudiantes de física de todo el mundo?
-    El Grupo de Estudiantes de la RSEF lleva ya seis años organizando las <strong>Preliminares de PLANCKS</strong> en España. Para participar sólo hace falta reunir un grupo de motivados como tú para pasar una tarde resolviendo problemas de física.
+    El Grupo de Estudiantes de la RSEF lleva ya ocho años organizando las <strong>Preliminares de PLANCKS</strong> en España. Para participar sólo hace falta reunir un grupo de motivados como tú para pasar una tarde resolviendo problemas de física.
     Si ves que falta poco para la próxima edición de las Preliminares, entra a ver qué se cuece. Mientras, puedes explorar las últimas ediciones del concurso.
-    Y si quieres conocer más sobre PLANCKS, consulta <a href="https://iaps.info/events/plancks/" target="_blank">esta página</a> de la International Association of Physics Students (IAPS). ¡Bienvenid@!</p>
-
+    Y si quieres conocer más sobre PLANCKS, consulta <a href="https://iaps.info/events/plancks/" class = "prelis25" target="_blank">esta página</a> de la International Association of Physics Students (IAPS). ¡Bienvenid@!</p>
     <div class="row center">
-      <a href="{{ site.url }}/PreliminaresPLANCKS2024/" id="prelis-button" class="btn-large waves-effect waves-light" style="background-color: #018c45;">Accede a la información de esta edición de las Prelis!</a>
+      <a href="{{ site.url }}/PreliminaresPLANCKS2025/" id="prelis-button" class="btn-plancks25 waves-effect waves-light ">Accede a la información de esta edición de las Prelis!</a>
     </div>    
     <!-- <h5 style="text-align: center;"><p style="text-align:center">La próxima edición de las preliminares de Plancks será en marzo de 2024.</p></h5> -->
     <!-- <h4 style="text-align: center;"><p style="text-align:center">Más información en enero de 2024.</p></h4> -->
-
 <!-- EDICIONES ANTERIORES -->
   <div class="section" id="ediciones-anteriores">
     <h3 id="EdicionesAnteriores">Ediciones Anteriores</h3>
     <p style="text-align: justify;">En esta sección encontrarás información sobre ediciones anteriores de las Preliminares de PLANCKS como clasificaciones, exámenes resueltos o los integrantes de los Comités Organizador y Académico.</p>
-
   {% assign loopindex = 0 %}
   {% for event in site.events reversed %}
   {% if event.title contains "Preliminares de PLANCKS"%}
-  <!--{% if event.title != "Preliminares de PLANCKS 2024"%}-->
+  {% if event.title != "Preliminares de PLANCKS 2025"%}
   {% assign rowfinder = loopindex | modulo:2 %}
   {% if rowfinder == 0 %}
     <div class="row">
@@ -62,36 +58,3 @@ permalink: /PreliminaresPLANCKS/
     </div>
   {% endif %}
 
-
-
-<!-- TIMER SCRIPT -->
-<script>
-  // Set the date we're counting down to
-  var countDownDate = new Date("Feb 26, 2022 23:59:59").getTime();
-
-  // Update the count down every 1 second
-  var x = setInterval(function() {
-
-    // Get today's date and time
-    var now = new Date().getTime();
-
-    // Find the distance between now and the count down date
-    var distance = countDownDate - now;
-
-    // Time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-    // Output the result in an element with id="countdown"
-    document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s ";
-
-    // If the count down is over, write some text
-    if (distance < 0) {
-      clearInterval(x);
-      document.getElementById("countdown").innerHTML = "INSCRIPCIONES CERRADAS";
-    }
-  }, 1000);
-</script>
