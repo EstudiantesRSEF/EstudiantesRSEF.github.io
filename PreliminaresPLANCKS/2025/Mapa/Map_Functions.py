@@ -67,7 +67,7 @@ def filter_universities(data_list, university_dict, output_file="filtered_univer
                             University abbreviation '%s' not found in university dictionary. 
                             Skipping entry: %s
                             *****************************************************""", uni_abbr, entry)
-        continue  # Skip processing this entry
+            continue  # Skip processing this entry
         
         if num_teams > 0:
             team_list = [entry[3].strip('[]').strip('f"').strip('"')] if isinstance(entry[3], str) else entry[3]
