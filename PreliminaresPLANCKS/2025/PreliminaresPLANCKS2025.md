@@ -183,7 +183,7 @@ permalink: /PreliminaresPLANCKS2025/
         <p style="text-align: justify;"><strong>Y si la prueba os sale muy bien hay premio por partida doble...</strong></p>        
         <list class="a">
           <li style="text-align: justify;">Las Preliminares de PLANCKS son la fase de clasificación nacional para PLANCKS en nuestro país. El mejor equipo de las Prelis nos representará en mayo en la final, ¡que se celebra en Barcelona! La inscripción y alojamiento estará cubierta por el Grupo de Estudiantes. ¿Que aún no sabes lo que es PLANCKS? Encuentra toda la información en <a class="prelis25 modal-trigger" href="#plancks-modal">este enlace</a>.</li>
-          <li style="text-align: justify;">¡Y este año tenemos premios para los tres mejores equipos gracias a la financiación de la Fundación Ramón Areces! Lee más en <a href="#premios-modal" class="prelis25">este enlace</a>.</li> 
+          <li style="text-align: justify;">¡Y este año tenemos premios para los tres mejores equipos gracias a la financiación de la Fundación Ramón Areces! Lee más en <a href="#premios-modal" class="prelis25 modal-trigger">este enlace</a>.</li> 
         </list> 
         <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a class="prelis25" href="/PreliminaresPLANCKS/2025/Competition_Rules_Preliminares_de_PLANCKS_2025.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
       </div>
@@ -327,8 +327,8 @@ permalink: /PreliminaresPLANCKS2025/
               <p align="center">Misael Samir Malqui Cruz - Redes </p>
               <p align="center">Miguel Durán Vera - Web </p>
               <p align="center">Adrián Marín Boyero - Grafismos </p>
-              <!-- <p align="center">- Logística</p>
-              <p align="center">- Senior Advisor</p>               -->
+              <p align="center">Manuel Peralta - Logística</p>
+              <!--<p align="center">- Senior Advisor</p>               -->
             </div>
           </div>
           <div class="col s12 m6 l5">

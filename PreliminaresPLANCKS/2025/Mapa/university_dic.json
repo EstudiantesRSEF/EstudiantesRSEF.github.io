@@ -108,5 +108,10 @@
         "university": "Universidad de Murcia (UMU)",
         "longitude": -1.1307,
         "latitude": 37.9922
+    },
+    "UCLM": {
+        "university": "Universidad de Castilla-La Mancha (UCLM)",
+        "longitude": -3.9206,
+        "latitude": 38.9941
     }
 }
