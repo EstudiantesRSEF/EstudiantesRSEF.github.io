@@ -6,6 +6,7 @@ from bokeh.layouts import row, column
 from bokeh.io import output_file, save, curdoc
 import math
 import re
+import logging
 
 def get_google_sheet_data(spreadsheet_id,sheet_name, api_key):
     # Construct the URL for the Google Sheets API
@@ -61,7 +62,12 @@ def filter_universities(data_list, university_dict, output_file="filtered_univer
         num_teams = int(entry[2])  # Convert number of teams to integer
 
         if uni_abbr not in university_dict:
-            raise ValueError(f"University abbreviation '{uni_abbr}' not found in university dictionary.")
+            logging.warning("""
+                            *****************************************************
+                            University abbreviation '%s' not found in university dictionary. 
+                            Skipping entry: %s
+                            *****************************************************""", uni_abbr, entry)
+        continue  # Skip processing this entry
         
         if num_teams > 0:
             team_list = [entry[3].strip('[]').strip('f"').strip('"')] if isinstance(entry[3], str) else entry[3]
