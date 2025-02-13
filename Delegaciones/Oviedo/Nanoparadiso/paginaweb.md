@@ -147,7 +147,10 @@ permalink: /DeleOviedo/Nanoparadise2025/
     <li><strong>Breakfasts</strong> and transportation during the event activities.</li>
     <li>Lunches and dinners included on the programme. If our budget allows it, there could be more.</li>
   </ul>
-
+  <p style="text-align: justify;">
+    Participants will stay at both Colegio Mayor San Gregorio and Alojamientos Dohve, both in Oviedo and less than 100m apart.
+  </p>
+	
   <h4>Participation Requirements</h4>
   <p style="text-align: justify;">
     To attend <strong>Nanoparadise</strong>, you must be a member of <strong>IAPS</strong> (International Association of Physics Students) 
@@ -160,7 +163,7 @@ permalink: /DeleOviedo/Nanoparadise2025/
         <div class="row">
           <div class="col s12 m6 l6">
             <div class="row center">
-              <h2>Register Here:</h2>
+              <h2>Inscriptions opened until February 25th. Register Here:</h2>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLScbxO-y4cW1J7RoyfuJBd7NoWHXO4342VfWgv1cyObn2b7M6g/viewform?usp=sharing" target="_blank" class="btn-enef24 waves-effect waves-light">Register here!</a>
 	      <!--<h5>Inscripciones cerradas</h5>-->
             </div>
