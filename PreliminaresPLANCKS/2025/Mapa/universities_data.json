@@ -23,14 +23,15 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 6,
+        "teams": 7,
         "team_list": [
             "VDB",
             "Quartet Formació",
             "ukfy lacamariatas rostencurus",
             "Momentum",
             "Maoistes",
-            "Gradientes calientes "
+            "Gradientes calientes ",
+            "MILB"
         ]
     },
     {
@@ -74,9 +75,10 @@
         "university": "Universidad de Oviedo (UniOvi)",
         "longitude": -5.845,
         "latitude": 43.3619,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "2blue2brown"
+            "2blue2brown",
+            "Z := Cuerpo"
         ]
     },
     {
@@ -105,6 +107,15 @@
         "team_list": [
             "CCOC",
             "Matemamados + e^iπ"
+        ]
+    },
+    {
+        "university": "Universidad Rovira i Virgili (URV)",
+        "longitude": 1.255,
+        "latitude": 41.1167,
+        "teams": 1,
+        "team_list": [
+            "aPlankats"
         ]
     },
     {
