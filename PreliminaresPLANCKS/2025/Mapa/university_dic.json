@@ -118,5 +118,10 @@
         "university": "Universidad Europea de Valencia (UEV)",
         "longitude": -0.3630,
         "latitude": 39.4697
+    },
+    "UAX": {
+        "university": "Universidad Alfonso X el Sabio (UAX)",
+        "longitude": -3.9844,
+        "latitude": 40.4519
     }
 }
