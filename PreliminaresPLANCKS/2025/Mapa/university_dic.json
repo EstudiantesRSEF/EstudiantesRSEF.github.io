@@ -123,5 +123,10 @@
         "university": "Universidad Alfonso X el Sabio (UAX)",
         "longitude": -3.9844,
         "latitude": 40.4519
+    },
+    "ULPGC": {
+        "university": "Universidad de Las Palmas de Gran Canaria (ULPGC)",
+        "longitude": -15.41343,
+        "latitude": 28.09973
     }
 }
