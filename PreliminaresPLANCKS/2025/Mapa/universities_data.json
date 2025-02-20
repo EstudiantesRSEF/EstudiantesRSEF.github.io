@@ -3,12 +3,13 @@
         "university": "Universidad Complutense de Madrid (UCM)",
         "longitude": -3.7267,
         "latitude": 40.4531,
-        "teams": 4,
+        "teams": 5,
         "team_list": [
             "Los Catenarios",
             "Hasbulla Rockets",
             "Pandas",
-            "Minutillos team"
+            "Minutillos team",
+            "Inepton Gas"
         ]
     },
     {
@@ -33,7 +34,7 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 10,
+        "teams": 13,
         "team_list": [
             "VDB",
             "Quartet Formació",
@@ -44,7 +45,10 @@
             "MILB",
             "Bohr-ratxos",
             "Esponjas del Sabio",
-            "Los cuatro Plancktasticos "
+            "Los cuatro Plancktasticos ",
+            "Urgencias ",
+            "Electrobros i Joel",
+            "LHC (Los Higgs Cuánticos)"
         ]
     },
     {
@@ -101,9 +105,10 @@
         "university": "Universidad de Valladolid (UVA)",
         "longitude": -4.7245,
         "latitude": 41.6521,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "PSIsicos"
+            "PSIsicos",
+            "Cocido Inercial"
         ]
     },
     {
@@ -159,9 +164,10 @@
         "university": "Universidad Carlos III de Madrid (UC3M)",
         "longitude": -3.727,
         "latitude": 40.3259,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "Las Pibitas de Rascón",
+            "Pepelu's CF",
             "UC3Minds"
         ]
     },
