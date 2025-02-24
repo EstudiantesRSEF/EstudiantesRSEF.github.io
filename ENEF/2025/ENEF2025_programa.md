@@ -35,8 +35,8 @@ permalink: /ENEF2025/programa/
     <div class="section">
       <div class="col s12 m6">
         <div class="row center">
-          {% assign people = site.data.ENEF.2025.ponentes}
-          {% for person in people %}
+          <!-- {% assign people = } -->
+          {% for person in site.data.ENEF.2025.ponentes %}
               <!-- <ul class="collection waves-effect waves-light" style="width: 33%">
                 <a href="#{{ person.id | remove: "/" }}-modal" class="collection-item modal-trigger waves-effect waves-light" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
                   <li class="collection-item avatar2">
