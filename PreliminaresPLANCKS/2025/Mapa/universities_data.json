@@ -25,16 +25,17 @@
         "university": "Universidad del País Vasco (UPV/EHU)",
         "longitude": -2.935,
         "latitude": 43.263,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "3 ondas y una partícula"
+            "3 ondas y una partícula",
+            "Eskalada"
         ]
     },
     {
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 13,
+        "teams": 17,
         "team_list": [
             "VDB",
             "Quartet Formació",
@@ -48,7 +49,11 @@
             "Los cuatro Plancktasticos ",
             "Urgencias ",
             "Electrobros i Joel",
-            "LHC (Los Higgs Cuánticos)"
+            "LHC (Los Higgs Cuánticos)",
+            "mi",
+            "For",
+            "guetes",
+            "Químics Infiltrats"
         ]
     },
     {
@@ -105,22 +110,24 @@
         "university": "Universidad de Valladolid (UVA)",
         "longitude": -4.7245,
         "latitude": 41.6521,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "PSIsicos",
-            "Cocido Inercial"
+            "Cocido Inercial",
+            "Conjunto Vacío Ø"
         ]
     },
     {
         "university": "Universidad de Valencia (UV)",
         "longitude": -0.3752,
         "latitude": 39.4699,
-        "teams": 4,
+        "teams": 5,
         "team_list": [
             "Atomkraft",
             "Breaking Mass",
             "Kummers",
-            "Malus-Pepin"
+            "Malus-Pepin",
+            "30 MEN"
         ]
     },
     {
@@ -130,7 +137,7 @@
         "teams": 2,
         "team_list": [
             "CCOC",
-            "Matemamados + e^iπ"
+            "Los neutrinos topacios"
         ]
     },
     {
@@ -175,10 +182,11 @@
         "university": "Universidad de Murcia (UMU)",
         "longitude": -1.1307,
         "latitude": 37.9922,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "KFC",
-            "Los gatos de Schrödinger"
+            "Los gatos de Schrödinger",
+            "El ∆ de Lippman-Swinger "
         ]
     },
     {
