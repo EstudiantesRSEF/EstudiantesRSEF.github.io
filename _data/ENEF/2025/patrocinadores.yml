@@ -1,18 +1,18 @@
 - name: "Organizador 1"
   type: "Organizer"
-  image: "/img/iaps.png"
+  image: "/img/eventos/2024-ENEF/Patrocinadores/ElGlobo.png"
 
 - name: "Organizador 2"
   type: "Organizer"
-  image: "/img/iaps.png"
+  image: "/img/eventos/2024-ENEF/Patrocinadores/FacCienciasGranada.png"
 
 - name: "Patrocinador Oro 1"
   type: "Gold"
-  image: "/img/iaps.png"
+  image: "/img/eventos/2024-ENEF/Patrocinadores/Qurv.svg"
 
 - name: "Patrocinador Oro 2"
   type: "Gold"
-  image: "/img/iaps.png"
+  image: "/img/eventos/2024-ENEF/Patrocinadores/Fujitsu.png"
 
 - name: "Patrocinador Plata 1"
   type: "Silver"
@@ -20,12 +20,12 @@
 
 - name: "Patrocinador Plata 2"
   type: "Silver"
-  image: "/img/iaps.png"
+  image: "/img/eventos/2024-ENEF/Patrocinadores/LuxQuanta.png"
 
 - name: "Patrocinador Bronce 1"
   type: "Bronze"
-  image: "/img/iaps.png"
+  image: "/img/eventos/2024-ENEF/Patrocinadores/ParqueDeLasCiencias.png"
 
 - name: "Patrocinador Bronce 2"
   type: "Bronze"
-  image: "/img/iaps.png"
+  image: "/img/eventos/2024-ENEF/Patrocinadores/LogoAndaluciaJunto.png"
