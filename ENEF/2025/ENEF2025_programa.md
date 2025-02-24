@@ -33,33 +33,29 @@ permalink: /ENEF2025/programa/
 <!-- PONENTES -->    
       <div class="section">
        <div class="col s12 m6">
-         <div class="row center">
-     {% assign sorted_persons = site.persons | sort: "position" %}
-         {% for person in sorted_persons %}
-         {% if person.evento contains "ENEF2024" %}
-         {% if person.visible contains "True" %}
-           <ul class="collection waves-effect waves-light" style="width: 33%">
-             <a href="#{{ person.id | remove: "/" }}-modal" class="collection-item modal-trigger waves-effect waves-light" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
-               <li class="collection-item avatar2">
-                 <img src="{{ person.img }}" alt="" class="circle">
-                 {% if person.nombredes %}
-                 <span class="title" style="padding-left: 10px">{{ person.nombredes }}</span>
-                 {% else %}
-                 <span class="title" style="padding-left: 10px">{{ person.nombre }}</span>
-                 {% endif %}
-                 <p style="padding-top: 10px">
-                   {{ person.horario }}
-                 </p>
-               </li>
-             </a>
-           </ul>
-         {% endif %}
-         {% endif %}
-         {% endfor %}
-         <h5>...¡y muchos más!</h5>
-         </div>
-       </div>
-     </div>
+          <div class="row center">
+            {% assign people = site.data.ENEF.2025.ponentes}
+            {% for person in people %}
+              <ul class="collection waves-effect waves-light" style="width: 33%">
+                <a href="#{{ person.id | remove: "/" }}-modal" class="collection-item modal-trigger waves-effect waves-light" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
+                  <li class="collection-item avatar2">
+                  <img src="{{ person.img }}" alt="" class="circle">
+                  {% if person.nombredes %}
+                    <span class="title" style="padding-left: 10px">{{ person.nombredes }}</span>
+                  {% else %}
+                    <span class="title" style="padding-left: 10px">{{ person.nombre }}</span>
+                  {% endif %}
+                  <p style="padding-top: 10px">
+                    {{ person.horario }}
+                  </p>
+                  </li>
+                </a>
+              </ul>
+            {% endfor %}
+            <h5>...¡y muchos más!</h5>
+          </div>
+        </div>
+      </div>
 <!-- SPONSORS -->
     {% include patrocinadores.html sponsors=site.data.ENEF.2025.patrocinadores %}     
     </div>   
@@ -67,6 +63,6 @@ permalink: /ENEF2025/programa/
 </div>
 
 
-<!-- {% include Modals/person_modals.html people=site.data.ENEF.2025.ponentes %}      -->
+{% include Modals/person_modals.html people=site.data.ENEF.2025.ponentes %}     
 
 
