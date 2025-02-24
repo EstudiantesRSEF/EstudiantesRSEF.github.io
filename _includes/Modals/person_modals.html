@@ -32,7 +32,7 @@
           <h3 class="justify">Biografía</h3>
           {% if person.bio %}
             {% for bio_entry in page.bio %}
-              <p>{{ bio_entry[1] }}</p>
+              <p>{{ bio_entry }}</p>
             {% endfor %}
           {% endif %}
         </div>
