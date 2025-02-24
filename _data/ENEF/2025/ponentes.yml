@@ -1,0 +1,37 @@
+- id: "persona-1"
+  img: "/img/ponentes/persona1.jpg"
+  nombre: "Juan Pérez"
+  rol: "Ponente Principal"
+  charla: "Charla sobre innovación y tecnología."
+  bio:
+    bio1: "Este es el primer párrafo de la biografía de Juan."
+    bio2: "Aquí se explica su experiencia internacional."
+    # Puedes tener hasta bio20, según sea necesario.
+  books:
+    book1:
+      title: "Innovación 101"
+      link: "https://ejemplo.com/libro1"
+      img: "/img/libros/libro1.jpg"
+    book2:
+      title: "Tecnología y Futuro"
+      link: "https://ejemplo.com/libro2"
+      img: "/img/libros/libro2.jpg"
+
+- id: "persona-1"
+  img: "/img/ponentes/persona1.jpg"
+  nombre: "Juan Pérez"
+  rol: "Ponente Principal"
+  charla: "Charla sobre innovación y tecnología."
+  bio:
+    bio1: "Este es el primer párrafo de la biografía de Juan."
+    bio2: "Aquí se explica su experiencia internacional."
+    # Puedes tener hasta bio20, según sea necesario.
+  books:
+    book1:
+      title: "Innovación 101"
+      link: "https://ejemplo.com/libro1"
+      img: "/img/libros/libro1.jpg"
+    book2:
+      title: "Tecnología y Futuro"
+      link: "https://ejemplo.com/libro2"
+      img: "/img/libros/libro2.jpg"
