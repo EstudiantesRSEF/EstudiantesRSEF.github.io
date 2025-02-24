@@ -60,40 +60,6 @@ permalink: /ENEF2025/programa/
          </div>
        </div>
      </div>
-<!-- LOCATIONS MANUAL -->    
-<!--        <div class="section">
-       <h3 id="espacios">Además visitaremos espacios como...</h3>
-       <p style="text-align: justify;">Instalaciones de la Universidad de Oviedo y laboratorios de física de los alrededores.</p>
-     </div>     
-     <div class="section">
-       <div class="col s12 m6">
-         <div class="row center">
-           <ul class="collection waves-effect waves-light" style="width: 33%">
-             <a href="#CINN-modal" class="collection-item modal-trigger waves-effect waves-light" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
-               <li class="collection-item avatar2">
-                 <img src="/img/eventos/2023-ENEF/locations/CINN_image.png" alt="" class="circle">
-                 <span class="title" style="padding-left: 10px">CINN</span>
-                 <p style="padding-top: 10px">
-                   Viernes 28 por la mañana.
-                 </p>
-               </li>
-             </a>
-           </ul>
-       <ul class="collection waves-effect waves-light" style="width: 33%">
-             <a href="#SeveroOchoa-modal" class="collection-item modal-trigger waves-effect waves-light" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
-               <li class="collection-item avatar2">
-                 <img src="/img/eventos/2023-ENEF/locations/SeveroOchoa_image.png" alt="" class="circle">
-                 <span class="title" style="padding-left: 10px">Centro Científico-Tecnológico Severo Ochoa</span>
-                 <p style="padding-top: 10px">
-                   Viernes 28 por la mañana.
-                 </p>
-               </li>
-             </a>
-           </ul>
-         <h5>...¡y muchos más!</h5>
-         </div>
-       </div>
-     </div>-->  
 <!-- SPONSORS -->
     {% include ENEF25_patrocinadores.html sponsors=site.data.ENEF.2025.patrocinadores %}     
     </div>   
