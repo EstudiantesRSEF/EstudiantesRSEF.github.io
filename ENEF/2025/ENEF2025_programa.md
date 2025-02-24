@@ -36,7 +36,7 @@ permalink: /ENEF2025/programa/
           <div class="row center">
             {% assign people = site.data.ENEF.2025.ponentes}
             {% for person in people %}
-              <ul class="collection waves-effect waves-light" style="width: 33%">
+              <!-- <ul class="collection waves-effect waves-light" style="width: 33%">
                 <a href="#{{ person.id | remove: "/" }}-modal" class="collection-item modal-trigger waves-effect waves-light" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
                   <li class="collection-item avatar2">
                   <img src="{{ person.img }}" alt="" class="circle">
@@ -50,7 +50,8 @@ permalink: /ENEF2025/programa/
                   </p>
                   </li>
                 </a>
-              </ul>
+              </ul> -->
+              {{person.nombre}}
             {% endfor %}
             <h5>...¡y muchos más!</h5>
           </div>
