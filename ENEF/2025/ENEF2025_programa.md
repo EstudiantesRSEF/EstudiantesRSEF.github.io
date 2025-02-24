@@ -68,7 +68,7 @@ permalink: /ENEF2025/programa/
 
 <!-- Modal PONENTES -->
 {% for person in site.persons %}
-{% if person.evento contains "ENEF2024" %}
+{% if person.evento contains "ENEF2025" %}
 <div id="{{ person.id | remove: "/" }}-modal" class="modal">
   <div class="modal-content">
     <div class="section" style="padding-left: 30px; padding-right: 30px;">

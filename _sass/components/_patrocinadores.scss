@@ -5,7 +5,6 @@
     flex-wrap: wrap;
     gap: 1rem;
     padding: 1rem;
-    border: 1px solid #ccc;
     margin-bottom: 2rem;
 }
 /* Cada item se adapta a su contenido sin forzar un ancho completo */
@@ -17,22 +16,22 @@
 }
 /* Altura de imagen según el tipo de contenedor */
 .patrocinadores-container.organizers img {
-    height: 20rem;
+    height: 15vw;
     width: auto;
     object-fit: contain;
 }
 .patrocinadores-container.gold img {
-    height: 15rem;
+    height: 10vw;
     width: auto;
     object-fit: contain;
 }
 .patrocinadores-container.silver img {
-    height: 10rem;
+    height: 5vw;
     width: auto;
     object-fit: contain;
 }
 .patrocinadores-container.bronze img {
-    height: 5rem;
+    height: 3vw;
     width: auto;
     object-fit: contain;
 }
