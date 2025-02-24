@@ -1,0 +1,37 @@
+/* Contenedor flex para los patrocinadores */
+.patrocinadores-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1vw;
+    padding: 1vw;
+    margin-bottom: 2vw;
+}
+/* Cada item se adapta a su contenido sin forzar un ancho completo */
+.patrocinadores-item {
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Altura de imagen según el tipo de contenedor */
+.patrocinadores-container.organizers img {
+    height: 15vw;
+    width: auto;
+    object-fit: contain;
+}
+.patrocinadores-container.gold img {
+    height: 10vw;
+    width: auto;
+    object-fit: contain;
+}
+.patrocinadores-container.silver img {
+    height: 5vw;
+    width: auto;
+    object-fit: contain;
+}
+.patrocinadores-container.bronze img {
+    height: 3vw;
+    width: auto;
+    object-fit: contain;
+}
