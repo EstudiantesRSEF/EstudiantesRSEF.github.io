@@ -12,7 +12,7 @@
   align-items: center;         /* Vertically center content */
   box-sizing: border-box;
   height: 10vw;                /* 10% of viewport width tall */
-  width: calc(10vw * 5);       /* 5 times the height = 50vw */
+  max-width: 30vw;       /* 5 times the height = 50vw */
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -28,31 +28,4 @@
   object-fit: cover;
   margin-left: 1rem;
   margin-right: 1rem;
-}
-
-/* Container for the text (name, role, etc.) */
-.ponente-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;                 /* Fill remaining space */
-  overflow: hidden;
-}
-
-/* The name/title text */
-.ponente-info h2 {
-  margin: 0.3vw;
-  font-size: 1.2rem;
-  white-space: nowrap;         /* Single line, or use line-clamp if needed */
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-/* Additional text (optional) */
-.ponente-info p {
-  margin: 0.3rem 0 0 0;
-  font-size: 1rem;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
