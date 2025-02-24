@@ -35,69 +35,6 @@
             {% endif %}
           </div>
         </div>
-
-        <!-- Recomendaciones (si existen) -->
-        {% if person.books %}
-          <div class="row">
-            <h3 class="justify" style="padding-bottom: 12px;">Contenido Recomendado</h3>
-            {% for key, book in person.books %}
-              <div class="col s12 m6 l6">
-                <div class="row center">
-                  <a href="{{ book.link }}" target="_blank">
-                    <img class="responsive-img" style="width:50%;" src="{{ book.img }}" alt="{{ book.title }}">
-                  </a>
-                  <p style="text-align: center; padding: 0 2px;">
-                    <a href="{{ book.link }}" target="_blank">{{ book.title }}</a>
-                  </p>
-                </div>
-              </div>  
-            {% endfor %}                      
-          </div>
-        {% endif %}
-
-        <!-- Video (si existe) -->
-        {% if person.videotitle %}
-        <div class="row">
-            <center>
-            <iframe width="642" height="361" src="{{ person.videolink }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </center>
-        </div>
-        {% endif %}
-
-        <!-- Otros enlaces -->
-        % if person.otherinfo1link %}
-            <div class="row">
-              <div class="col s12 m6 l6">
-                <div class="row center">
-                  <a href="{{ person.otherinfo1link }}" target="_blank">{{ person.otherinfo1text }}</a>
-                </div>
-              </div>
-              {% if person.otherinfo2link %}
-                <div class="col s12 m6 l6">
-                  <div class="row center">
-                    <a href="{{ person.otherinfo2link }}" target="_blank">{{ person.otherinfo2text }}</a>
-                  </div>
-                </div>
-              {% endif %}
-            </div>
-          {% endif %}
-          {% if person.otherinfo3link %}
-            <div class="row">
-              <div class="col s12 m6 l6">
-                <div class="row center">
-                  <a href="{{ person.otherinfo3link }}" target="_blank">{{ person.otherinfo3text }}</a>
-                </div>
-              </div>
-              {% if person.otherinfo4link %}
-                <div class="col s12 m6 l6">
-                  <div class="row center">
-                    <a href="{{ person.otherinfo4link }}" target="_blank">{{ person.otherinfo4text }}</a>
-                  </div>
-                </div>
-              {% endif %}
-            </div>
-          {% endif %}
-        </div>
       </div>
       <div class="modal-footer">
         <a href="#!" class="modal-close waves-effect waves-green btn-flat">CERRAR</a>
