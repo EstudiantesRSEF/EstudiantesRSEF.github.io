@@ -67,6 +67,6 @@ permalink: /ENEF2025/programa/
 </div>
 
 
-{% include Modals/person_modals.html people=site.data.ENEF.2025.ponentes %}     
+<!-- {% include Modals/person_modals.html people=site.data.ENEF.2025.ponentes %}      -->
 
 
