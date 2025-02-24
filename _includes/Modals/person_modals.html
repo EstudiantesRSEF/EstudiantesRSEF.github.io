@@ -20,27 +20,26 @@
           </div>
         </div>
 
-      <!-- Biografía -->
-      <div class="row">
-        {% if person.charla %}
-          <p style="text-align: justify;">
-	          {{ person.charla }}
-          </p>
-        {% endif %}
-      </div>	    
-      <div class="row">
-        <h3 class="justify">Biografía</h3>
-        {% if person.bio %}
-          {% for bio_entry in page.bio %}
-            <p>{{ bio_entry[1] }}</p>
-          {% endfor %}
-        {% endif %}
+        <!-- Biografía -->
+        <div class="row">
+          {% if person.charla %}
+            <p style="text-align: justify;">
+              {{ person.charla }}
+            </p>
+          {% endif %}
+        </div>	    
+        <div class="row">
+          <h3 class="justify">Biografía</h3>
+          {% if person.bio %}
+            {% for bio_entry in page.bio %}
+              <p>{{ bio_entry[1] }}</p>
+            {% endfor %}
+          {% endif %}
+        </div>
       </div>
-
+    </div>  
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">CERRAR</a>
     </div>
-  
-  <div class="modal-footer">
-    <a href="#!" class="modal-close waves-effect waves-green btn-flat">CERRAR</a>
   </div>
-</div>
 {% endfor %}
