@@ -63,6 +63,5 @@ permalink: /ENEF2025/programa/
 </div>
 
 
-{% include Modals/person_modals.html%}     
-
+{% include Modals.person_modals.html%}     
 
