@@ -8,34 +8,35 @@ permalink: /ENEF2025/programa/
 <div class="no-pad-top" id="index-page">
   <div class="container">  
     <div class="section">
-<!-- BANNER -->
+      <!-- BANNER -->
       <img class="materialboxed" width="100%" src="/img/eventos/2024-ENEF/ENEF24_Banner.png">
-<!-- PROGRAMA -->
-      <div class="section">
-        <h4 id="programa">Programa</h4>
-    <p style="text-align: justify;">¡Ya está aquí el programa del ENEF! ¿Te lo vas a perder? Consulta el resto de información en la <a href="{{ site.url }}/ENEF2025">web del ENEF</a>.</p>
-      </div>
+    </div>
+      <!-- PROGRAMA -->
+    <div class="section">
+      <h4 id="programa">Programa</h4>
+      <p style="text-align: justify;">¡Ya está aquí el programa del ENEF! ¿Te lo vas a perder? Consulta el resto de información en la <a href="{{ site.url }}/ENEF2025">web del ENEF</a>.</p>
       <div class="section" id="content-desktop">
-    <h5>Haz clic en la imagen para ver el programa en tamaño completo</h5>  	
+        <h5>Haz clic en la imagen para ver el programa en tamaño completo</h5>  	
         <div class="row">
-             <img class="materialboxed" width="80%" src="/img/eventos/2024-ENEF/ENEF24_programav3.png">
+          <img class="materialboxed" width="80%" src="/img/eventos/2024-ENEF/ENEF24_programav3.png">
         </div>	 
       </div>
       <div class="section" id="content-mobile">
-    <div class="row">
+        <div class="row">
           <img class="materialboxed" width="100%" src="/img/eventos/2024-ENEF/ENEF24_programav3.png">
         </div>
       </div>
-      <div class="section">
-    <h3 id="ponentes">En el ENEF contaremos con...</h3>
-    <p style="text-align: justify;">¡Descubre los mejores ponentes que nos acompañarán durante el ENEF!</p>
-      </div>       
-<!-- PONENTES -->    
-      <div class="section">
-       <div class="col s12 m6">
-          <div class="row center">
-            {% assign people = site.data.ENEF.2025.ponentes}
-            {% for person in people %}
+    </div>
+    <!-- Ponentes-->
+    <div class="section">
+      <h3 id="ponentes">En el ENEF contaremos con...</h3>
+      <p style="text-align: justify;">¡Descubre los mejores ponentes que nos acompañarán durante el ENEF!</p>
+    </div>       
+    <div class="section">
+      <div class="col s12 m6">
+        <div class="row center">
+          {% assign people = site.data.ENEF.2025.ponentes}
+          {% for person in people %}
               <!-- <ul class="collection waves-effect waves-light" style="width: 33%">
                 <a href="#{{ person.id | remove: "/" }}-modal" class="collection-item modal-trigger waves-effect waves-light" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
                   <li class="collection-item avatar2">
@@ -51,15 +52,14 @@ permalink: /ENEF2025/programa/
                   </li>
                 </a>
               </ul> -->
-              {{person.nombre}}
-            {% endfor %}
-            <h5>...¡y muchos más!</h5>
-          </div>
+            {{person.nombre}}
+          {% endfor %}
+          <h5>...¡y muchos más!</h5>
         </div>
       </div>
+    </div>
 <!-- SPONSORS -->
-    {% include patrocinadores.html sponsors=site.data.ENEF.2025.patrocinadores %}     
-    </div>   
+    {% include patrocinadores.html sponsors=site.data.ENEF.2025.patrocinadores %}       
   </div>
 </div>
 
