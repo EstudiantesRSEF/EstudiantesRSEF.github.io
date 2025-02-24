@@ -1,6 +1,6 @@
 <!-- Modal PONENTES -->
-{% assign people = include.people}
-{% for person in people %}
+<!-- {% assign people = include.people} -->
+{% for person in site.data.ENEF.2025.ponentes %}
     <div id="{{ person.id | remove: "/" }}-modal" class="modal">
       <div class="modal-content">
         <div class="section" style="padding-left: 30px; padding-right: 30px;">
