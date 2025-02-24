@@ -19,6 +19,22 @@
             </div>
           </div>
         </div>
+
+      <!-- Biografía -->
+      <div class="row">
+        {% if person.charla %}
+          <p style="text-align: justify;">
+	          {{ person.charla }}
+          </p>
+        {% endif %}
+      </div>	    
+      <div class="row">
+        <h3 class="justify">Biografía</h3>
+        {% if person.bio %}
+          {{person.bio}}
+        {% endif %}
+      </div>
+      
     </div>
   </div>
   <div class="modal-footer">
