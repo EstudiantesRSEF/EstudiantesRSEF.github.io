@@ -1,0 +1,31 @@
+- name: "Organizador 1"
+  type: "Organizer"
+  image: "/img/iaps.png"
+
+- name: "Organizador 2"
+  type: "Organizer"
+  image: "/img/iaps.pngg"
+
+- name: "Patrocinador Oro 1"
+  type: "Gold"
+  image: "/img/iaps.png"
+
+- name: "Patrocinador Oro 2"
+  type: "Gold"
+  image: "/img/iaps.pngg"
+
+- name: "Patrocinador Plata 1"
+  type: "Silver"
+  image: "/img/iaps.png"
+
+- name: "Patrocinador Plata 2"
+  type: "Silver"
+  image: "/img/iaps.pngg"
+
+- name: "Patrocinador Bronce 1"
+  type: "Bronze"
+  image: "/img/iaps.png"
+
+- name: "Patrocinador Bronce 2"
+  type: "Bronze"
+  image: "/img/iaps.png"

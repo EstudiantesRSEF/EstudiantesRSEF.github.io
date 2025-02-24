@@ -1,0 +1,33 @@
+.patrocinadores-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+.patrocinadores-item {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Alturas específicas para cada categoría */
+.organizers img {
+    height: 20rem;
+    width: auto;
+    object-fit: contain;
+  }
+.gold-sponsors img {
+    height: 15rem;
+    width: auto;
+    object-fit: contain;
+  }
+.silver-sponsors img {
+    height: 10rem;
+    width: auto;
+    object-fit: contain;
+  }
+.bronze-sponsors img {
+    height: 5rem;
+    width: auto;
+    object-fit: contain;
+  }
