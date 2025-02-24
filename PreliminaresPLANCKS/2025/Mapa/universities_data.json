@@ -35,7 +35,7 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 17,
+        "teams": 19,
         "team_list": [
             "VDB",
             "Quartet Formació",
@@ -53,7 +53,9 @@
             "mi",
             "For",
             "guetes",
-            "Químics Infiltrats"
+            "Químics Infiltrats",
+            "Mus de pus",
+            "BAAAKATA LOMO YA"
         ]
     },
     {
@@ -153,9 +155,10 @@
         "university": "Universidad Politécnica de Cataluña (UPC)",
         "longitude": 2.1131,
         "latitude": 41.3891,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Tenemos un Planck"
+            "Tenemos un Planck",
+            "Espacio de JilBErT"
         ]
     },
     {
