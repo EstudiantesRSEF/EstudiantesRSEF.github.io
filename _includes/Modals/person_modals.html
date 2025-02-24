@@ -1,3 +1,4 @@
-<div class="row center">
-  <a href="#inscribete" id="boton-inscribete" class="btn-enef24 waves-effect waves-light">¡Inscríbete!</a> 	      
-</div>
+<!-- Modal PONENTES -->
+{% for person in site.data.ENEF.2025.ponentes %}
+    <div>{{person.nombre}}</div>
+{% endfor %}
