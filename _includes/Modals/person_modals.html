@@ -1,4 +1,5 @@
 <!-- Modal PONENTES -->
-{% for person in site.data.ENEF.2025.ponentes %}
+{% assign people = include.people}
+{% for person in people %}
     <div>{{person.nombre}}</div>
 {% endfor %}
