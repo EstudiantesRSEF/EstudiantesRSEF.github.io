@@ -17,7 +17,7 @@
       link: "https://ejemplo.com/libro2"
       img: "/img/libros/libro2.jpg"
 
-- id: "persona-1"
+- id: "persona-2"
   img: "/img/ponentes/persona1.jpg"
   nombre: "Juan Pérez"
   rol: "Ponente Principal"
