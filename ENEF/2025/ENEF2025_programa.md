@@ -61,7 +61,7 @@ permalink: /ENEF2025/programa/
        </div>
      </div>
 <!-- SPONSORS -->
-    {% include ENEF25_patrocinadores.html sponsors=site.data.ENEF.2025.patrocinadores %}     
+    {% include patrocinadores.html sponsors=site.data.ENEF.2025.patrocinadores %}     
     </div>   
   </div>
 </div>
