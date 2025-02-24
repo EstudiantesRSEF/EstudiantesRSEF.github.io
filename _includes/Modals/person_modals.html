@@ -31,10 +31,12 @@
       <div class="row">
         <h3 class="justify">Biografía</h3>
         {% if person.bio %}
-          {{person.bio}}
+          {% for key, paragraph in person.bio %}
+            <p style="text-align: justify;">{{ paragraph }}</p>
+          {% endfor %}
         {% endif %}
       </div>
-      
+
     </div>
   </div>
   <div class="modal-footer">
