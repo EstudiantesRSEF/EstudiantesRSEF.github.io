@@ -4,7 +4,7 @@
 
 - name: "Organizador 2"
   type: "Organizer"
-  image: "/img/iaps.pngg"
+  image: "/img/iaps.png"
 
 - name: "Patrocinador Oro 1"
   type: "Gold"
@@ -12,7 +12,7 @@
 
 - name: "Patrocinador Oro 2"
   type: "Gold"
-  image: "/img/iaps.pngg"
+  image: "/img/iaps.png"
 
 - name: "Patrocinador Plata 1"
   type: "Silver"
@@ -20,7 +20,7 @@
 
 - name: "Patrocinador Plata 2"
   type: "Silver"
-  image: "/img/iaps.pngg"
+  image: "/img/iaps.png"
 
 - name: "Patrocinador Bronce 1"
   type: "Bronze"

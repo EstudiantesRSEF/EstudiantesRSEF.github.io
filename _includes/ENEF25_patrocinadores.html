@@ -1,51 +1,51 @@
-  <!-- Sección Organizadores -->
-  <div class="section organizers">
-    <h2>Organizadores</h2>
-    <div class="patrocinadores-container">
-      {% assign organizers = site.data.ENEF.2025.patrocinadores | where: "type", "Organizer" %}
-      {% for sponsor in organizers %}
-        <div class="patrocinadores-item">
-          <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
-        </div>
-      {% endfor %}
-    </div>
+<!-- Sección Organizadores -->
+<div class="section organizers">
+	<h2>Organizadores</h2>
+	<div class="patrocinadores-container">
+	  {% assign organizers = include.sponsors | where: "type", "Organizer" %}
+	  {% for sponsor in organizers %}
+		<div class="patrocinadores-item">
+		  <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
+		</div>
+	  {% endfor %}
+	</div>
   </div>
-
+  
   <!-- Sección Patrocinadores Oro -->
   <div class="section gold-sponsors">
-    <h2>Patrocinadores Oro</h2>
-    <div class="patrocinadores-container">
-      {% assign goldSponsors = site.data.ENEF.2025.patrocinadores | where: "type", "Gold" %}
-      {% for sponsor in goldSponsors %}
-        <div class="patrocinadores-item">
-          <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
-        </div>
-      {% endfor %}
-    </div>
+	<h2>Patrocinadores Oro</h2>
+	<div class="patrocinadores-container">
+	  {% assign goldSponsors = include.sponsors | where: "type", "Gold" %}
+	  {% for sponsor in goldSponsors %}
+		<div class="patrocinadores-item">
+		  <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
+		</div>
+	  {% endfor %}
+	</div>
   </div>
-
+  
   <!-- Sección Patrocinadores Plata -->
   <div class="section silver-sponsors">
-    <h2>Patrocinadores Plata</h2>
-    <div class="patrocinadores-container">
-      {% assign silverSponsors = site.data.ENEF.2025.patrocinadores | where: "type", "Silver" %}
-      {% for sponsor in silverSponsors %}
-        <div class="patrocinadores-item">
-          <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
-        </div>
-      {% endfor %}
-    </div>
+	<h2>Patrocinadores Plata</h2>
+	<div class="patrocinadores-container">
+	  {% assign silverSponsors = include.sponsors | where: "type", "Silver" %}
+	  {% for sponsor in silverSponsors %}
+		<div class="patrocinadores-item">
+		  <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
+		</div>
+	  {% endfor %}
+	</div>
   </div>
-
+  
   <!-- Sección Patrocinadores Bronce -->
   <div class="section bronze-sponsors">
-    <h2>Patrocinadores Bronce</h2>
-    <div class="patrocinadores-container">
-      {% assign bronzeSponsors = site.data.ENEF.2025.patrocinadores | where: "type", "Bronze" %}
-      {% for sponsor in bronzeSponsors %}
-        <div class="patrocinadores-item">
-          <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
-        </div>
-      {% endfor %}
-    </div>
+	<h2>Patrocinadores Bronce</h2>
+	<div class="patrocinadores-container">
+	  {% assign bronzeSponsors = include.sponsors | where: "type", "Bronze" %}
+	  {% for sponsor in bronzeSponsors %}
+		<div class="patrocinadores-item">
+		  <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
+		</div>
+	  {% endfor %}
+	</div>
   </div>
