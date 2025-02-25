@@ -3,6 +3,7 @@
   nombre: "Eduardo Sáenz de Cabezón"
   rol: "Cabeza de cartel"
   charla: 
+  princ: True
   bio:
     - "Profesor, matemático y divulgador científico. Especializado en álgebra computacional."
     - "Reconocido por su labor de divulgación en diversos medios y eventos."
@@ -21,6 +22,7 @@
   nombre: "Pablo Jarillo-Herrero"
   rol: "Cabeza de cartel"
   charla: 
+  princ: True
   bio:
     - "Físico español, profesor en el MIT, pionero en el estudio del grafeno y materiales bidimensionales."
     - "Su trabajo sobre el 'ángulo mágico' en el grafeno retorcido supuso un gran avance en el campo de la superconductividad."
