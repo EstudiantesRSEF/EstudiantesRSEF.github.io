@@ -91,3 +91,61 @@
   border-radius: 0;
   will-change: bottom, opacity;
 }
+
+.ponente-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;              /* Space between items */
+  justify-content: center; 
+  margin: 1rem;
+}
+
+.ponente-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  box-sizing: border-box;
+  width: 200px;          /* Fixed width for consistency */
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.ponente-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.ponente-item img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.ponente-item span {
+  text-align: center;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+  .ponente-item {
+    width: 150px;
+  }
+  
+  .ponente-item img {
+    width: 90px;
+    height: 90px;
+  }
+  
+  .ponente-item span {
+    font-size: 1rem;
+  }
+}

@@ -1,6 +1,6 @@
 ---
 layout: enef
-title: Encuentro Nacional de Estudiantes de Física 2023
+title: Encuentro Nacional de Estudiantes de Física 2025
 hidden: true
 permalink: /ENEF2025/programa/
 ---
@@ -29,25 +29,21 @@ permalink: /ENEF2025/programa/
     </div>  
 
     <!-- Ponentes-->
-    <div class="section">
-      <h3 id="ponentes">En el ENEF contaremos con...</h3>
-      <p style="text-align: justify;">¡Descubre los mejores ponentes que nos acompañarán durante el ENEF!</p>
-    </div>       
-    <div class="section">
-      <div class="col s12 m6">
+      <div class="section">
+        <h3 id="ponentes">En el ENEF contaremos con...</h3>
+        <p style="text-align: justify;">¡Descubre los mejores ponentes que nos acompañarán durante el ENEF!</p>
+      </div>       
+      <div class="section">
         <div class="ponente-container">
           {% for person in site.data.ENEF.2025.ponentes %}
-            <a href="#{{ person.id | remove: "/" }}-modal" class="modal-trigger waves-effect waves-light ponente-item" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
-                  <img src="{{ person.img }}" alt="" class="circle">
-                  <span style="font-size: 1.5rem; text-align: center; margin:0.2vw">
-                     {{person.nombre}}
-                  </span>
+            <a href="#{{ person.id | remove: "/" }}-modal" class="modal-trigger ponente-item">
+              <img src="{{ person.img }}" alt="{{ person.nombre }}">
+              <span>{{person.nombre}}</span>
             </a>
           {% endfor %}
-          <h5>...¡y muchos más!</h5>
         </div>
+        <p>Y más por anunciar!</p>
       </div>
-    </div>
     {% include patrocinadores.html sponsors=site.data.ENEF.2025.patrocinadores %}  
   </div>
 </div>
