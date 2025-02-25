@@ -1,37 +1,34 @@
-- id: "persona-1"
-  img: "/img/ponentes/persona1.jpg"
-  nombre: "Juan Pérez"
-  rol: "Ponente Principal"
-  charla: "Charla sobre innovación y tecnología."
+- id: "eduardo-saenz-de-cabezon"
+  img: "/ENEF/2025/img/Ponentes/eduardo-saenz-de-cabezon.jpg"
+  nombre: "Eduardo Sáenz de Cabezón"
+  rol: "Cabeza de cartel"
+  charla: 
   bio:
-    bio1: "Este es el primer párrafo de la biografía de Juan."
-    bio2: "Aquí se explica su experiencia internacional."
-    # Puedes tener hasta bio20, según sea necesario.
-  books:
-    book1:
-      title: "Innovación 101"
-      link: "https://ejemplo.com/libro1"
-      img: "/img/libros/libro1.jpg"
-    book2:
-      title: "Tecnología y Futuro"
-      link: "https://ejemplo.com/libro2"
-      img: "/img/libros/libro2.jpg"
+    bio1: "Profesor, matemático y divulgador científico. Especializado en álgebra computacional."
+    bio2: "Reconocido por su labor de divulgación en diversos medios y eventos."
 
-- id: "persona-1"
-  img: "/img/ponentes/persona1.jpg"
-  nombre: "Juan Pérez"
-  rol: "Ponente Principal"
-  charla: "Charla sobre innovación y tecnología."
+- id: "roman-orus"
+  img: "/ENEF/2025/img/Ponentes/roman-orus.jpg"
+  nombre: "Román Orus"
+  rol: "Tipo 2"
+  charla: 
   bio:
-    bio1: "Este es el primer párrafo de la biografía de Juan."
-    bio2: "Aquí se explica su experiencia internacional."
-    # Puedes tener hasta bio20, según sea necesario.
-  books:
-    book1:
-      title: "Innovación 101"
-      link: "https://ejemplo.com/libro1"
-      img: "/img/libros/libro1.jpg"
-    book2:
-      title: "Tecnología y Futuro"
-      link: "https://ejemplo.com/libro2"
-      img: "/img/libros/libro2.jpg"
+    bio1: "Físico teórico especializado en computación cuántica y materia condensada."
+    bio2: "Ha contribuido significativamente al desarrollo de métodos de redes tensoriales para la simulación de sistemas cuánticos."
+
+- id: "pablo-jarillo-herrero"
+  img: "/ENEF/2025/img/Ponentes/pablo-jarillo-herrero.png"
+  nombre: "Pablo Jarillo-Herrero"
+  rol: "Cabeza de cartel"
+  charla: 
+  bio:
+    bio1: "Físico español, profesor en el MIT, pionero en el estudio del grafeno y materiales bidimensionales."
+    bio2: "Su trabajo sobre el 'ángulo mágico' en el grafeno retorcido supuso un gran avance en el campo de la superconductividad."
+
+- id: "jose-maria-senovilla"
+  img: "/ENEF/2025/img/Ponentes/jose-maria-senovilla.jpg"
+  nombre: "José María Senovilla"
+  rol: "Ponente"
+  charla: 
+  bio:
+    bio1: "Físico teórico especializado en relatividad general y cosmología. Profesor en la Universidad del País Vasco (UPV/EHU)."
