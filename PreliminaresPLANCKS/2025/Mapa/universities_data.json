@@ -3,13 +3,15 @@
         "university": "Universidad Complutense de Madrid (UCM)",
         "longitude": -3.7267,
         "latitude": 40.4531,
-        "teams": 5,
+        "teams": 7,
         "team_list": [
             "Los Catenarios",
             "Hasbulla Rockets",
             "Pandas",
             "Minutillos team",
-            "Inepton Gas"
+            "Inepton Gas",
+            "plankaje",
+            "Los chicos del papel"
         ]
     },
     {
@@ -25,17 +27,18 @@
         "university": "Universidad del País Vasco (UPV/EHU)",
         "longitude": -2.935,
         "latitude": 43.263,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "3 ondas y una partícula",
-            "Eskalada"
+            "Eskalada",
+            "Txistorra"
         ]
     },
     {
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 19,
+        "teams": 20,
         "team_list": [
             "VDB",
             "Quartet Formació",
@@ -55,7 +58,8 @@
             "guetes",
             "Químics Infiltrats",
             "Mus de pus",
-            "BAAAKATA LOMO YA"
+            "miaumiau",
+            "Qataners"
         ]
     },
     {
@@ -77,13 +81,24 @@
         ]
     },
     {
+        "university": "Universidad de Córdoba (UCo)",
+        "longitude": -4.7794,
+        "latitude": 37.8847,
+        "teams": 1,
+        "team_list": [
+            "Los polidemonios de Hermite"
+        ]
+    },
+    {
         "university": "Universidad de Barcelona (UB)",
         "longitude": 2.1662,
         "latitude": 41.3879,
-        "teams": 2,
+        "teams": 4,
         "team_list": [
             "SU(137)",
-            "4pbody"
+            "4pbody",
+            "SO(3)",
+            "Low S.A."
         ]
     },
     {
@@ -112,11 +127,12 @@
         "university": "Universidad de Valladolid (UVA)",
         "longitude": -4.7245,
         "latitude": 41.6521,
-        "teams": 3,
+        "teams": 4,
         "team_list": [
             "PSIsicos",
             "Cocido Inercial",
-            "Conjunto Vacío Ø"
+            "Conjunto Vacío Ø",
+            "Fisicoleguillas"
         ]
     },
     {
@@ -136,10 +152,11 @@
         "university": "Universidad de Granada (UGR)",
         "longitude": -3.602,
         "latitude": 37.1765,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "CCOC",
-            "Los neutrinos topacios"
+            "Los neutrinos topacios",
+            "Los Aceitunos"
         ]
     },
     {
@@ -185,11 +202,12 @@
         "university": "Universidad de Murcia (UMU)",
         "longitude": -1.1307,
         "latitude": 37.9922,
-        "teams": 3,
+        "teams": 4,
         "team_list": [
             "KFC",
             "Los gatos de Schrödinger",
-            "El ∆ de Lippman-Swinger "
+            "El ∆ de Lippman-Swinger ",
+            "Los Mesías de Vallecas"
         ]
     },
     {
@@ -228,6 +246,15 @@
         "teams": 1,
         "team_list": [
             "Los dados de Dios"
+        ]
+    },
+    {
+        "university": "Universidad Europea de Madrid (UEM)",
+        "longitude": -4.7164,
+        "latitude": 41.6264,
+        "teams": 1,
+        "team_list": [
+            "+catet@s"
         ]
     }
 ]

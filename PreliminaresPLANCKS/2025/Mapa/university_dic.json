@@ -128,5 +128,10 @@
         "university": "Universidad de Las Palmas de Gran Canaria (ULPGC)",
         "longitude": -15.41343,
         "latitude": 28.09973
+    },
+    "UEM": {
+        "university": "Universidad Europea de Madrid (UEM)",
+        "longitude": -4.7164,
+        "latitude": 41.6264
     }
 }
