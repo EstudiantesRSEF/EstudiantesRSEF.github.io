@@ -4,8 +4,8 @@
   rol: "Cabeza de cartel"
   charla: 
   bio:
-    bio1: "Profesor, matemático y divulgador científico. Especializado en álgebra computacional."
-    bio2: "Reconocido por su labor de divulgación en diversos medios y eventos."
+    - "Profesor, matemático y divulgador científico. Especializado en álgebra computacional."
+    - "Reconocido por su labor de divulgación en diversos medios y eventos."
 
 - id: "roman-orus"
   img: "/ENEF/2025/img/Ponentes/roman-orus.jpg"
@@ -13,8 +13,8 @@
   rol: "Tipo 2"
   charla: 
   bio:
-    bio1: "Físico teórico especializado en computación cuántica y materia condensada."
-    bio2: "Ha contribuido significativamente al desarrollo de métodos de redes tensoriales para la simulación de sistemas cuánticos."
+    - "Físico teórico especializado en computación cuántica y materia condensada."
+    - "Ha contribuido significativamente al desarrollo de métodos de redes tensoriales para la simulación de sistemas cuánticos."
 
 - id: "pablo-jarillo-herrero"
   img: "/ENEF/2025/img/Ponentes/pablo-jarillo-herrero.png"
@@ -22,8 +22,8 @@
   rol: "Cabeza de cartel"
   charla: 
   bio:
-    bio1: "Físico español, profesor en el MIT, pionero en el estudio del grafeno y materiales bidimensionales."
-    bio2: "Su trabajo sobre el 'ángulo mágico' en el grafeno retorcido supuso un gran avance en el campo de la superconductividad."
+    - "Físico español, profesor en el MIT, pionero en el estudio del grafeno y materiales bidimensionales."
+    - "Su trabajo sobre el 'ángulo mágico' en el grafeno retorcido supuso un gran avance en el campo de la superconductividad."
 
 - id: "jose-maria-senovilla"
   img: "/ENEF/2025/img/Ponentes/jose-maria-senovilla.jpg"
@@ -31,4 +31,4 @@
   rol: "Ponente"
   charla: 
   bio:
-    bio1: "Físico teórico especializado en relatividad general y cosmología. Profesor en la Universidad del País Vasco (UPV/EHU)."
+    - "Físico teórico especializado en relatividad general y cosmología. Profesor en la Universidad del País Vasco (UPV/EHU)."

@@ -31,8 +31,8 @@
         <div class="row">
           <h3 class="justify">Biografía</h3>
           {% if person.bio %}
-            {% for bio_entry in page.bio %}
-              <p>{{ bio_entry }}</p>
+            {% for paragraph in page.bio %}
+              <p style="text-align: justify;">{{ paragraph }}</p>
             {% endfor %}
           {% endif %}
         </div>
