@@ -142,7 +142,7 @@
   }
   
   .ponente-item {
-    width: calc(50% - 0.5rem); /* Exactly half width minus gap */
+    width: calc(45% - 0.5rem); /* Exactly half width minus gap */
     padding: 0.5rem;
     margin: 0;
   }
@@ -155,5 +155,48 @@
   .ponente-item span {
     font-size: 0.9rem;
     line-height: 1.2;
+  }
+}
+
+.modal {
+  .nombre-ponente {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+
+  .rol-ponente {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 5px 0;
+  }
+
+  .section-title {
+    font-size: 1.3rem;
+    color: #333;
+    margin: 15px 0 10px 0;
+    font-weight: 500;
+  }
+
+  .responsive-img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin: 10px auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .modal {
+    .nombre-ponente {
+      font-size: 1.5rem;
+    }
+
+    .rol-ponente {
+      font-size: 1rem;
+    }
+
+    .section-title {
+      font-size: 1.1rem;
+    }
   }
 }
