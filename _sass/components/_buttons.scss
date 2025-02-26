@@ -248,3 +248,19 @@ a.enef25-link {
     color: mix($enef25-blue, $enef25-pink, 50%);
   }
 }
+
+.indicator {
+    font-size: 36px;  
+    cursor: pointer;   
+    margin: 5px;       
+    color: gray;       
+    transition: color 0.3s ease; 
+    user-select: none; /* Evita que se pueda seleccionar el texto */
+    -webkit-user-select: none; /* Para navegadores basados en WebKit (Safari, Chrome) */
+    -moz-user-select: none; /* Para Firefox */
+    -ms-user-select: none; /* Para Edge */
+}
+
+.indicator.active {
+    color: blue; 
+}
