@@ -15,18 +15,21 @@ window.onload = function () {
     let currentIndex = 0;
     const desktopImg = document.getElementById("desktop-img");
     const mobileImg = document.getElementById("mobile-img");
-    const indicators = document.querySelectorAll(".indicator");
+    // const indicators = document.querySelectorAll(".indicator");
 
+    /*
     if (!desktopImg || !mobileImg || indicators.length < 2) {
         console.error("No se encontraron las imágenes o los indicadores. Revisa los IDs.");
         return;
     }
-
+    */
+    
     function updateImages(index) {
         currentIndex = index;
         desktopImg.src = images.desktop[currentIndex];
         mobileImg.src = images.mobile[currentIndex];
 
+    /*
         // Actualizar los indicadores visualmente
         indicators.forEach((dot, i) => {
             if (i === currentIndex) {
@@ -41,6 +44,7 @@ window.onload = function () {
     indicators.forEach((dot, i) => {
         dot.addEventListener("click", () => updateImages(i));
     });
+    */
 
     // Cambia imágenes automáticamente cada 5 segundos
     setInterval(() => {
@@ -48,3 +52,5 @@ window.onload = function () {
         updateImages(nextIndex);
     }, 5000);
 };
+
+    // Las líneas que están comentadas sirven para añadir indicadores/selectores a la rotación de imágenes. Se dejan comentadas por si fueran de utilidad más adelante.
