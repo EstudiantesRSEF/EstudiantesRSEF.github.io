@@ -264,32 +264,3 @@ a.enef25-link {
 .indicator.active {
     color: blue; 
 }
-
-.event-label {
-    font-size: 16px;
-    font-weight: bold;
-    color: black;
-    margin-top: 5px;
-    display: block; 
-    transition: opacity 0.3s ease-in-out; 
-}
-
-.scroll-container {
-    display: flex; 
-    overflow-x: auto; 
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-    gap: 5px;
-}
-
-.scroll-image {
-    flex: 0 0 100%;
-    scroll-snap-align: center; 
-}
-
-/* Ocultar indicadores en móviles */
-@media (max-width: 768px) {
-    .indicator {
-        display: none;
-    }
-}
