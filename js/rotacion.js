@@ -3,8 +3,8 @@ window.onload = function () {
 
     const images = {
         desktop: [
-            "/img/eventos/2024-ENEF/Galeria/ENEF23GaleriaBig.png",
-            "/img/eventos/2025-ENEF/Galeria/ENEF24GaleriaBig.png"
+            "/img/eventos/2025-ENEF/Galeria/ENEF25GaleriaBig_Oviedo.png",
+            "/img/eventos/2025-ENEF/Galeria/ENEF25GaleriaBig_Granada.png"
         ],
         mobile: [
             "/img/eventos/2024-ENEF/Galeria/ENEF23GaleriaSmall.png",
@@ -21,7 +21,7 @@ window.onload = function () {
         console.error("No se encontraron las imágenes o los indicadores. Revisa los IDs.");
         return;
     }
-
+    
     function updateImages(index) {
         currentIndex = index;
         desktopImg.src = images.desktop[currentIndex];
@@ -48,3 +48,5 @@ window.onload = function () {
         updateImages(nextIndex);
     }, 5000);
 };
+
+    // Las líneas que están comentadas sirven para añadir indicadores/selectores a la rotación de imágenes. Se dejan comentadas por si fueran de utilidad más adelante.
