@@ -248,3 +248,15 @@ a.enef25-link {
     color: mix($enef25-blue, $enef25-pink, 50%);
   }
 }
+
+.indicator {
+    font-size: 24px;  
+    cursor: pointer;   
+    margin: 5px;       
+    color: gray;       
+    transition: color 0.3s ease; 
+}
+
+.indicator.active {
+    color: blue; 
+}
