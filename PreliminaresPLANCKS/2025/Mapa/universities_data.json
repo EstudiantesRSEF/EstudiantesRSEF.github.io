@@ -93,12 +93,14 @@
         "university": "Universidad de Barcelona (UB)",
         "longitude": 2.1662,
         "latitude": 41.3879,
-        "teams": 4,
+        "teams": 6,
         "team_list": [
             "SU(137)",
             "4pbody",
             "SO(3)",
-            "Low S.A."
+            "Low S.A.",
+            "Grup de Poincaré",
+            "Boltzgang"
         ]
     },
     {
@@ -127,12 +129,13 @@
         "university": "Universidad de Valladolid (UVA)",
         "longitude": -4.7245,
         "latitude": 41.6521,
-        "teams": 4,
+        "teams": 5,
         "team_list": [
             "PSIsicos",
             "Cocido Inercial",
             "Conjunto Vacío Ø",
-            "Fisicoleguillas"
+            "Fisicoleguillas",
+            "NanoFisicos33"
         ]
     },
     {
