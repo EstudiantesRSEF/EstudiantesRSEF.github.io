@@ -1,0 +1,11 @@
+.indicator {
+    font-size: 24px;  
+    cursor: pointer;   
+    margin: 5px;       
+    color: gray;       
+    transition: color 0.3s ease; 
+}
+
+.indicator.active {
+    color: blue; 
+}
