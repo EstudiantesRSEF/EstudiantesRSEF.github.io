@@ -1,31 +1,18 @@
-- name: "Organizador 1"
+- name: "GdeE"
   type: "Organizer"
-  image: "/img/eventos/2024-ENEF/Patrocinadores/ElGlobo.png"
+  image: "/img/logos/gdee-rsef.png"
+  link: "https://estudiantes.rsef.es/"
 
-- name: "Organizador 2"
-  type: "Organizer"
-  image: "/img/eventos/2024-ENEF/Patrocinadores/FacCienciasGranada.png"
+# - name: "Patrocinador Oro 1"
+#   type: "Gold"
+#   image: "/img/eventos/2024-ENEF/Patrocinadores/Qurv.svg"
 
-- name: "Patrocinador Oro 1"
-  type: "Gold"
-  image: "/img/eventos/2024-ENEF/Patrocinadores/Qurv.svg"
-
-- name: "Patrocinador Oro 2"
-  type: "Gold"
-  image: "/img/eventos/2024-ENEF/Patrocinadores/Fujitsu.png"
-
-- name: "Patrocinador Plata 1"
+- name: "Multiverse Computing"
   type: "Silver"
-  image: "/img/iaps.png"
+  image: "/ENEF/2025/img/Sponsors/MultiverseComputing.png"
+  link: "https://multiversecomputing.com/"
 
-- name: "Patrocinador Plata 2"
-  type: "Silver"
-  image: "/img/eventos/2024-ENEF/Patrocinadores/LuxQuanta.png"
-
-- name: "Patrocinador Bronce 1"
+- name: "Jane Street"
   type: "Bronze"
-  image: "/img/eventos/2024-ENEF/Patrocinadores/ParqueDeLasCiencias.png"
-
-- name: "Patrocinador Bronce 2"
-  type: "Bronze"
-  image: "/img/eventos/2024-ENEF/Patrocinadores/LogoAndaluciaJunto.png"
+  image: "/ENEF/2025/img/Sponsors/JaneStreet.png"
+  link: "https://www.janestreet.com/"

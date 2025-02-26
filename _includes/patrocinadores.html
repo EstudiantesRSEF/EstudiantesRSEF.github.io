@@ -1,51 +1,83 @@
 <!-- Sección Organizadores -->
+{% assign organizers = include.sponsors | where: "type", "Organizer" %}
+{% if organizers.size > 0 %}
 <div class="section">
-	<h2>Organizadores</h2>
-	<div class="patrocinadores-container organizers">
-	  {% assign organizers = include.sponsors | where: "type", "Organizer" %}
-	  {% for sponsor in organizers %}
-		<div class="patrocinadores-item">
-		  <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" class="materialboxed">
-		</div>
-	  {% endfor %}
-	</div>
+  <h2>Organizadores</h2>
+  <div class="patrocinadores-container organizers">
+    {% for sponsor in organizers %}
+    <div class="patrocinadores-item">
+      {% if sponsor.link %}
+        <a href="{{ sponsor.link }}" target="_blank" rel="noopener">
+          <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" class="materialboxed">
+        </a>
+      {% else %}
+        <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" class="materialboxed">
+      {% endif %}
+    </div>
+    {% endfor %}
   </div>
-  
-  <!-- Sección Patrocinadores Oro -->
-  <div class="section">
-	<h2>Patrocinadores Oro</h2>
-	<div class="patrocinadores-container gold">
-	  {% assign goldSponsors = include.sponsors | where: "type", "Gold" %}
-	  {% for sponsor in goldSponsors %}
-		<div class="patrocinadores-item">
-		  <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" class="materialboxed">
-		</div>
-	  {% endfor %}
-	</div>
+</div>
+{% endif %}
+
+<!-- Sección Patrocinadores Oro -->
+{% assign goldSponsors = include.sponsors | where: "type", "Gold" %}
+{% if goldSponsors.size > 0 %}
+<div class="section">
+  <h2>Patrocinadores Oro</h2>
+  <div class="patrocinadores-container gold">
+    {% for sponsor in goldSponsors %}
+    <div class="patrocinadores-item">
+      {% if sponsor.link %}
+        <a href="{{ sponsor.link }}" target="_blank" rel="noopener">
+          <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" class="materialboxed">
+        </a>
+      {% else %}
+        <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" class="materialboxed">
+      {% endif %}
+    </div>
+    {% endfor %}
   </div>
-  
-  <!-- Sección Patrocinadores Plata -->
-  <div class="section">
-	<h2>Patrocinadores Plata</h2>
-	<div class="patrocinadores-container silver">
-	  {% assign silverSponsors = include.sponsors | where: "type", "Silver" %}
-	  {% for sponsor in silverSponsors %}
-		<div class="patrocinadores-item">
-		  <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" class="materialboxed">
-		</div>
-	  {% endfor %}
-	</div>
+</div>
+{% endif %}
+
+<!-- Sección Patrocinadores Plata -->
+{% assign silverSponsors = include.sponsors | where: "type", "Silver" %}
+{% if silverSponsors.size > 0 %}
+<div class="section">
+  <h2>Patrocinadores Plata</h2>
+  <div class="patrocinadores-container silver">
+    {% for sponsor in silverSponsors %}
+    <div class="patrocinadores-item">
+      {% if sponsor.link %}
+        <a href="{{ sponsor.link }}" target="_blank" rel="noopener">
+          <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" class="materialboxed">
+        </a>
+      {% else %}
+        <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" class="materialboxed">
+      {% endif %}
+    </div>
+    {% endfor %}
   </div>
-  
-  <!-- Sección Patrocinadores Bronce -->
-  <div class="section">
-	<h2>Patrocinadores Bronce</h2>
-	<div class="patrocinadores-container bronze">
-	  {% assign bronzeSponsors = include.sponsors | where: "type", "Bronze" %}
-	  {% for sponsor in bronzeSponsors %}
-		<div class="patrocinadores-item">
-		  <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" class="materialboxed">
-		</div>
-	  {% endfor %}
-	</div>
+</div>
+{% endif %}
+
+<!-- Sección Patrocinadores Bronce -->
+{% assign bronzeSponsors = include.sponsors | where: "type", "Bronze" %}
+{% if bronzeSponsors.size > 0 %}
+<div class="section">
+  <h2>Patrocinadores Bronce</h2>
+  <div class="patrocinadores-container bronze">
+    {% for sponsor in bronzeSponsors %}
+    <div class="patrocinadores-item">
+      {% if sponsor.link %}
+        <a href="{{ sponsor.link }}" target="_blank" rel="noopener">
+          <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" class="materialboxed">
+        </a>
+      {% else %}
+        <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" class="materialboxed">
+      {% endif %}
+    </div>
+    {% endfor %}
   </div>
+</div>
+{% endif %}
