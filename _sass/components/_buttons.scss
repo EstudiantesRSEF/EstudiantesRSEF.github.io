@@ -186,55 +186,79 @@ button.btn-floating {
 }
 
 
+// Variables
 $enef25-blue: #00589D;
 $enef25-pink: #EE4FA8;
-$enef25-hover: lighten($enef25-blue, 10%);
 
-.btn-enef25 {
+// Shape and Effects Classes
+.btn-rounded {
   @extend .btn-large;
-  color: $enef25-pink;
-  background-color: $enef25-blue;
-  font-weight: bold;
-  border-radius: 4px;
-  transform: scale(1);
-  transition: all 0.3s ease;
-
-  &:hover {
-    background-color: $enef25-hover;
-    transform: scale(1.05);
-  }
-}
-.btn-enef25-floating {
-  @extend .btn;
-  color: $enef25-pink;
-  background-color: $enef25-blue;
-  border-radius: 25px; // Makes corners rounded
-  padding: 0 25px;    // Horizontal padding for text
-  min-width: 120px;   // Ensures minimum width for text
-  height: 45px;       // Custom height
-  line-height: 45px;  // Matches height for vertical centering
+  border-radius: 25px;
+  padding: 0 25px;
+  min-width: 120px;
+  height: 45px;
+  line-height: 45px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  font-weight: bold;
+  transform: scale(1);
+  transition: all 0.3s ease;
   
   i {
-    margin-right: 8px; // Space between icon and text if needed
+    margin-right: 8px;
   }
 
   &:hover {
-    background-color: $enef25-hover;
     transform: translateY(-2px);
-    transition: all 0.3s ease;
   }
 }
-.btn-enef25-flat {
-  @extend .btn-flat;
-  color: $enef25-blue;
+
+.btn-square {
+  @extend .btn-large;
+  border-radius: 4px;
+  padding: 0 25px;
+  min-width: 120px;
+  height: 45px;
+  line-height: 45px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  transform: scale(1);
+  transition: all 0.3s ease;
+
+  i {
+    margin-right: 8px;
+  }
 
   &:hover {
-    color: $enef25-pink;
+    transform: scale(1.05);
   }
 }
+
+// Color Schemes
+.enef25-pink {
+  color: white;
+  background-color: $enef25-pink;
+  border: 2px solid $enef25-blue;
+
+  &:hover {
+    background-color: lighten($enef25-pink, 10%);
+  }
+}
+
+.enef25-blue {
+  color: white;
+  background-color: $enef25-blue;
+  border: 2px solid $enef25-pink;
+
+  &:hover {
+    background-color: lighten($enef25-blue, 10%);
+  }
+}
+
+// Link styles remain the same
 a.enef25-link {
   color: $enef25-blue;
   transition: color 0.3s ease;
