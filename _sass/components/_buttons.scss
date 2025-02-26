@@ -205,12 +205,26 @@ $enef25-hover: lighten($enef25-blue, 10%);
   }
 }
 .btn-enef25-floating {
-  @extend .btn-floating;
+  @extend .btn;
   color: $enef25-pink;
   background-color: $enef25-blue;
+  border-radius: 25px; // Makes corners rounded
+  padding: 0 25px;    // Horizontal padding for text
+  min-width: 120px;   // Ensures minimum width for text
+  height: 45px;       // Custom height
+  line-height: 45px;  // Matches height for vertical centering
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+  i {
+    margin-right: 8px; // Space between icon and text if needed
+  }
 
   &:hover {
     background-color: $enef25-hover;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
   }
 }
 .btn-enef25-flat {
