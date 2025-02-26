@@ -105,8 +105,7 @@ def generate_university_maps(university_data_path):
         teams=[item["teams"] for item in university_data],
         size=[math.log(item["teams"] + 1) * 8 for item in university_data],  # Logarithmic scaling for size
         university=[item["university"] for item in university_data],
-        team_list=["<ul style='column-count: {}; column-gap: 20px; list-style-position: inside; padding-left: 0;'>{}</ul>".format(        2 if len(item["team_list"]) > 10 else 1,"".join(f"<li style='margin-bottom: 5px; overflow-wrap: break-word;'>{team}</li>" 
-                for team in item["team_list"])
+        team_list=["<ul style='column-count: {}; column-gap: 20px; list-style-position: inside; padding-left: 0;'>{}</ul>".format(        2 if len(item["team_list"]) > 10 else 1,"".join(f"<li style='margin-bottom: 5px; overflow-wrap: break-word;'>{team}</li>" for team in item["team_list"])
     ) for item in university_data
 ]
     ))
