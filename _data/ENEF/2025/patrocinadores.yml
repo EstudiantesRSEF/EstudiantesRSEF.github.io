@@ -3,12 +3,13 @@
   image: "/img/logos/gdee-rsef.png"
   link: "https://estudiantes.rsef.es/"
 
-# - name: "Patrocinador Oro 1"
-#   type: "Gold"
-#   image: "/img/eventos/2024-ENEF/Patrocinadores/Qurv.svg"
+- name: "Bizkaia Lantik"
+  type: "Principal"
+  image: "/ENEF/2025/img/Sponsors/BizkaiaLantik.png"
+  link: "https://lantik.bizkaia.eus/es/inicio"
 
 - name: "Multiverse Computing"
-  type: "Silver"
+  type: "Gold"
   image: "/ENEF/2025/img/Sponsors/MultiverseComputing.png"
   link: "https://multiversecomputing.com/"
 

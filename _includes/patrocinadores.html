@@ -18,6 +18,24 @@
   </div>
 {% endif %}
 
+{% assign principals = include.sponsors | where: "type", "Principal" %}
+{% if principals.size > 0 %}
+  <h2>Patrocinadores Principales</h2>
+  <div class="patrocinadores-container organizers">
+    {% for sponsor in principales %}
+    <div class="patrocinadores-item">
+      {% if sponsor.link %}
+        <a href="{{ sponsor.link }}" target="_blank" rel="noopener">
+          <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
+        </a>
+      {% else %}
+        <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
 <!-- Sección Patrocinadores Oro -->
 {% assign goldSponsors = include.sponsors | where: "type", "Gold" %}
 {% if goldSponsors.size > 0 %}
