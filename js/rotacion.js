@@ -4,11 +4,11 @@ window.onload = function () {
     const images = {
         desktop: [
             "/img/eventos/2024-ENEF/Galeria/ENEF23GaleriaBig.png",
-            "/img/eventos/2024-ENEF/Galeria/ENEF24GaleriaBig.png"
+            "/img/eventos/2025-ENEF/Galeria/ENEF24GaleriaBig.png"
         ],
         mobile: [
             "/img/eventos/2024-ENEF/Galeria/ENEF23GaleriaSmall.png",
-            "/img/eventos/2024-ENEF/Galeria/ENEF24GaleriaSmall.png"
+            "/img/eventos/2025-ENEF/Galeria/ENEF24GaleriaSmall.png"
         ]
     };
 
