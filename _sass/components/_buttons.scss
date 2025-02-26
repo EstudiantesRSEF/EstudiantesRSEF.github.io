@@ -255,6 +255,10 @@ a.enef25-link {
     margin: 5px;       
     color: gray;       
     transition: color 0.3s ease; 
+    user-select: none; /* Evita que se pueda seleccionar el texto */
+    -webkit-user-select: none; /* Para navegadores basados en WebKit (Safari, Chrome) */
+    -moz-user-select: none; /* Para Firefox */
+    -ms-user-select: none; /* Para Edge */
 }
 
 .indicator.active {
