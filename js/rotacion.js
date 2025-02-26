@@ -4,7 +4,7 @@ window.onload = function () {
     const images = {
         desktop: [
             "/img/eventos/2025-ENEF/Galeria/ENEF25GaleriaBig_Oviedo.png",
-            "/img/eventos/2025-ENEF/Galeria/ENEF24GaleriaBig_Granada.png"
+            "/img/eventos/2025-ENEF/Galeria/ENEF25GaleriaBig_Granada.png"
         ],
         mobile: [
             "/img/eventos/2024-ENEF/Galeria/ENEF23GaleriaSmall.png",
