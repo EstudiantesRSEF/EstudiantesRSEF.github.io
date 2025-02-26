@@ -22,7 +22,7 @@
 {% if principals.size > 0 %}
   <h2>Patrocinadores Principales</h2>
   <div class="patrocinadores-container organizers">
-    {% for sponsor in principales %}
+    {% for sponsor in principals %}
     <div class="patrocinadores-item">
       {% if sponsor.link %}
         <a href="{{ sponsor.link }}" target="_blank" rel="noopener">
