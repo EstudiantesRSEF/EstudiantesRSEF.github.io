@@ -93,17 +93,7 @@
 
 // Variables
 $animation-speed: 20s;
-
-// Add this mixin at the top with other variables
-@mixin edge-gradient {
-  content: "";
-  position: absolute;
-  top: 0;
-  width: 50px;
-  height: 100%;
-  z-index: 2;
-}
-
+$max-height: 200px;
 
 @keyframes scroll {
   0% { transform: translateX(0); }
@@ -116,32 +106,14 @@ $animation-speed: 20s;
   position: relative;
   width: 100%;
   max-width: 1200px;
-
-// Add pseudo-elements for gradient edges
-  &::before {
-    @include edge-gradient;
-    left: 0;
-    background: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.2) 0%,  // Slightly transparent
-      rgba(0, 0, 0, 0) 100%   // Fully transparent
-    );
-  }
-
-  &::after {
-    @include edge-gradient;
-    right: 0;
-    background: linear-gradient(
-      to left,
-      rgba(0, 0, 0, 0.2) 0%,  // Slightly transparent
-      rgba(0, 0, 0, 0) 100%   // Fully transparent
-    );
-  }
-  
+  height: $max-height; // Set fixed height for container
+    
   .slide-track {
     animation: scroll $animation-speed linear infinite;
     display: flex;
     width: 200%;
+    height: 100%;
+    align-items: center; // Center items vertically
     
     &:hover {
       animation-play-state: paused;
@@ -152,13 +124,16 @@ $animation-speed: 20s;
     width: 40%;
     flex-shrink: 0;
     padding: 0 10px;
+    height: 100%;
+    display: flex;
+    align-items: center; // Center images vertically
     
     img {
       width: 100%;
-      height: auto; // This makes height follow aspect ratio
-      max-height: 200px;
+      height: auto;
+      max-height: $max-height;
       display: block;
-      object-fit: contain;
+      object-fit: cover; // Changed from contain to cover
       border-radius: 8px;
     }
   }
