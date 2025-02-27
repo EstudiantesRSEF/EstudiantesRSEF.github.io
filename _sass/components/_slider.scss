@@ -91,12 +91,15 @@
 
 }
 
+// Variables
 $animation-speed: 20s;
 $max-height: 200px;
+$visible-slides: 3;  // Number of slides visible at once
+$total-slides: 6;    // Total number of unique slides
 
 @keyframes scroll {
   0% { transform: translateX(0); }
-  100% { transform: translateX(-100%); }
+  100% { transform: translateX(calc(-100% / 2)); }
 }
 
 .slider-auto {
@@ -105,36 +108,39 @@ $max-height: 200px;
   position: relative;
   width: 100%;
   max-width: 1200px;
-  height: $max-height; // Fixed height for container
+  height: $max-height;
 
   .slide-track {
     animation: scroll $animation-speed linear infinite;
     display: flex;
-    width: 200%; // Contains two copies of the images
-    height: 100%;
-    align-items: center; // Vertically center the slides
-
+    width: calc((100% * $total-slides) / $visible-slides); // Total width for all slides
+    
     &:hover {
       animation-play-state: paused;
     }
   }
   
   .slide {
-    width: 40%;          // Adjust as needed to control spacing/number of images
+    width: calc(100% / $total-slides); // Each slide takes equal portion
     flex-shrink: 0;
     padding: 0 10px;
-    height: 100%;
     display: flex;
-    align-items: center;  // Center images vertically
-    justify-content: center; // Center images horizontally
-
+    align-items: center;
+    justify-content: center;
+    
     img {
-      max-height: 100%;   // Ensure image never exceeds container height
-      max-width: 100%;    // Prevent image from overflowing its slide
-      height: auto;
-      width: auto;
-      object-fit: contain; // Show the full image even if there are letterbox gaps
+      width: 100%;
+      height: $max-height;
+      object-fit: cover; // Changed to cover for consistent sizing
       border-radius: 8px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .slider-auto {
+    .slide {
+      width: calc(100% / ($total-slides - 1)); // Show fewer slides on mobile
     }
   }
 }
