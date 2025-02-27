@@ -1,18 +1,25 @@
 .carousel-container {
   position: relative;
   width: 100%;
+  max-width: 1200px; // Maximum width on large screens
+  margin: 0 auto;
   overflow: hidden;
-  padding: 40px 0;
+  padding: 20px 0;
 }
+
 .carousel {
   display: flex;
-  transition: transform 0.5s ease;  
+  transition: transform 0.5s ease;
+  width: 100%;
+  
   &-item {
-    min-width: 200px;
-    padding: 0 10px;
+    flex: 0 0 100%;
+    min-width: 100%;
+    padding: 0;
     transition: all 0.3s ease;
     opacity: 0.6;
-    transform: scale(0.8);    
+    transform: scale(0.8);
+    
     &.active {
       opacity: 1;
       transform: scale(1);
@@ -20,34 +27,75 @@
       img {
         box-shadow: 0 4px 8px rgba(0,0,0,0.2);
       }
-    }    
+    }
+    
     img {
       width: 100%;
+      height: auto;
       border-radius: 8px;
+      object-fit: cover;
     }
   }
 }
-.carousel-button {
+
+// Navigation buttons
+.carousel-nav {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(255,255,255,0.8);
-  border: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  z-index: 1;
+  width: 100%;
+  pointer-events: none; // Allow clicking through the container
   
-  &.prev { left: 10px; }
-  &.next { right: 10px; }
-  
-  &:hover {
-    background: rgba(255,255,255,1);
+  button {
+    position: absolute;
+    background: rgba(255,255,255,0.8);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    pointer-events: auto; // Re-enable clicking on buttons
+    transition: background 0.3s ease;
+    
+    &.prev { left: 20px; }
+    &.next { right: 20px; }
+    
+    &:hover {
+      background: rgba(255,255,255,1);
+    }
   }
 }
+
+// Indicators
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+  
+  .indicator {
+    width: 30px;
+    height: 3px;
+    background: rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+    &.active {
+      background: rgba(0,0,0,0.8);
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .carousel-container {
-    touch-action: pan-x;
+    padding: 0;
+  }
+  
+  .carousel-nav button {
+    display: none; // Hide navigation buttons on mobile
+  }
+  
+  .carousel-item {
+    padding: 0;
   }
 }
