@@ -76,15 +76,20 @@ permalink: /PLANCKS25/
         </div>
       </div> -->
 <!-- CARRUSEL DE FOTOS -->
-  <div class="carousel-container">
-    <div class="carousel">
-      {% for image in site.data.PLANCKS25.multiple.carousel_images %}
-        <div class="carousel-item{% if forloop.first %} active{% endif %}">
-          <img src="{{ image.src }}" alt="{{ image.alt }}">
-        </div>
-      {% endfor %}
-    </div>
+<div class="slider-auto">
+  <div class="slide-track">
+    {% for image in site.data.PLANCKS25.multiple.carousel_images %}
+      <div class="slide">
+        <img src="{{ image.src }}" alt="{{ image.alt }}">
+      </div>
+    {% endfor %}
+    {% for image in site.data.PLANCKS25.multiple.carousel_images %}
+      <div class="slide">
+        <img src="{{ image.src }}" alt="{{ image.alt }}">
+      </div>
+    {% endfor %}
   </div>
+</div>
 <!-- PROGRAMA
       <div class="section">
         <h4 id="programa">Programa</h4>
@@ -114,4 +119,4 @@ permalink: /PLANCKS25/
 </div>
 
 <!-- Carrousel functionality -->
-<script src="/assets/js/carousel.js"></script>
+<!-- <script src="/assets/js/carousel.js"></script> -->

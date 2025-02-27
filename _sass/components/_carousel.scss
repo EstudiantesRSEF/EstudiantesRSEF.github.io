@@ -1,113 +1,34 @@
-.carousel-container {
-  position: relative;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  overflow: hidden;
-  padding: 0; // Remove padding
-}
-
 .carousel {
-  display: flex;
-  transition: transform 0.5s ease;
-  width: 100%;
-  position: relative; // Add this
-  
-  &-item {
-    flex: 0 0 100%;
-    width: 100%; // Add explicit width
-    min-width: 100%;
-    padding: 0;
-    transition: all 0.3s ease;
-    position: relative; // Add this
-    
-    &.active {
-      z-index: 2; // Ensure active slide is on top
-      
-      img {
-        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-      }
-    }
-    
-    img {
-      width: 100%;
-      height: auto;
-      display: block; // Add this
-      max-width: 100%; // Add this
-      object-fit: contain; // Change to contain
-    }
-  }
-}
-
-// Navigation buttons
-.carousel-nav {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;
-  z-index: 3; // Ensure buttons are clickable
-  
-  button {
-    position: absolute;
-    background: rgba(255,255,255,0.8);
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-    
-    &.prev { left: 10px; }
-    &.next { right: 10px; }
-    
-    &:hover {
-      background: rgba(255,255,255,1);
-    }
-  }
-}
-
-// Indicators
-.carousel-indicators {
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-  margin-top: 10px;
+  overflow: hidden;
   position: relative;
-  z-index: 3;
-  
-  .indicator {
-    width: 30px;
-    height: 3px;
-    background: rgba(0,0,0,0.2);
-    cursor: pointer;
-    transition: all 0.3s ease;
-    
-    &.active {
-      background: rgba(0,0,0,0.8);
-    }
-  }
-}
+  width: 100%;
+  height: 400px;
+  perspective: 500px;
+  transform-style: preserve-3d;
+  transform-origin: 0% 50%;
 
-@media (max-width: 768px) {
-  .carousel-container {
-    margin: 0;
-    width: 100vw; // Full viewport width
-    max-width: none;
-  }
-  
-  .carousel {
-    width: 100%;
-    
-    &-item {
-      img {
-        width: 100%;
-        height: auto;
-        object-fit: contain;
-      }
+  .carousel-item {
+//    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    img {
+//      width: 100%;
     }
   }
-  
-  .carousel-nav {
-    display: none; // Hide navigation on mobile
+
+  &.carousel-slider {
+    top: 0;
+    left: 0;
+    height: 0;
+
+    .carousel-item {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
   }
 }

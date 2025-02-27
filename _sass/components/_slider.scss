@@ -90,3 +90,49 @@
   }
 
 }
+
+
+// Variables
+$slider-height: 400px;
+$slide-width: 800px;
+$animation-speed: 20s;
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }  // Only move half the distance
+}
+
+
+.slider-auto {
+  background: white;
+  height: $slider-height;
+  margin: 2rem auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  
+  .slide-track {
+    animation: scroll $animation-speed linear infinite;
+    display: flex;
+    width: calc(200%); // Double the width to fit two sets
+    
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
+  
+  .slide {
+    height: $slider-height;
+    width: $slide-width;
+    flex-shrink: 0; // Prevent slides from shrinking
+    padding: 0 10px;
+    
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  }
+}
