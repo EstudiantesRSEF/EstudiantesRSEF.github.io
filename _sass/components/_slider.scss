@@ -91,21 +91,16 @@
 
 }
 
-
 // Variables
-$slider-height: 400px;
-$slide-width: 800px;
 $animation-speed: 20s;
 
 @keyframes scroll {
   0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }  // Only move half the distance
+  100% { transform: translateX(-50%); }
 }
-
 
 .slider-auto {
   background: white;
-  height: $slider-height;
   margin: 2rem auto;
   overflow: hidden;
   position: relative;
@@ -115,7 +110,7 @@ $animation-speed: 20s;
   .slide-track {
     animation: scroll $animation-speed linear infinite;
     display: flex;
-    width: calc(200%); // Double the width to fit two sets
+    width: 200%;
     
     &:hover {
       animation-play-state: paused;
@@ -123,15 +118,15 @@ $animation-speed: 20s;
   }
   
   .slide {
-    height: $slider-height;
-    width: $slide-width;
-    flex-shrink: 0; // Prevent slides from shrinking
+    width: 100%;
+    flex-shrink: 0;
     padding: 0 10px;
     
     img {
-      height: 100%;
       width: 100%;
-      object-fit: cover;
+      height: auto; // This makes height follow aspect ratio
+      display: block;
+      object-fit: contain;
       border-radius: 8px;
     }
   }
