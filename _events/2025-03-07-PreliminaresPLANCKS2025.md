@@ -5,8 +5,8 @@ title:  "Preliminares de PLANCKS 2025"
 startingdate: 2025-03-07
 endingdate:
 place: Toda España
-locandina: /img/eventos/2025-PLANCKS/Logo.png
-cover: /img/eventos/2025-PLANCKS/Logo.png
+locandina: /img/eventos/2025-PrelisPLANCKS/Prelis25_Logo.png
+cover: /img/eventos/2025-PrelisPLANCKS/Prelis25_Logo.png
 gallery:
 site: /PreliminaresPLANCKS2025/
 ranking: 
