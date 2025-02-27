@@ -91,13 +91,12 @@
 
 }
 
-// Variables
 $animation-speed: 20s;
 $max-height: 200px;
 
 @keyframes scroll {
   0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  100% { transform: translateX(-100%); }
 }
 
 .slider-auto {
@@ -106,34 +105,35 @@ $max-height: 200px;
   position: relative;
   width: 100%;
   max-width: 1200px;
-  height: $max-height; // Set fixed height for container
-    
+  height: $max-height; // Fixed height for container
+
   .slide-track {
     animation: scroll $animation-speed linear infinite;
     display: flex;
-    width: 200%;
+    width: 200%; // Contains two copies of the images
     height: 100%;
-    align-items: center; // Center items vertically
-    
+    align-items: center; // Vertically center the slides
+
     &:hover {
       animation-play-state: paused;
     }
   }
   
   .slide {
-    width: 40%;
+    width: 40%;          // Adjust as needed to control spacing/number of images
     flex-shrink: 0;
     padding: 0 10px;
     height: 100%;
     display: flex;
-    align-items: center; // Center images vertically
-    
+    align-items: center;  // Center images vertically
+    justify-content: center; // Center images horizontally
+
     img {
-      width: 100%;
+      max-height: 100%;   // Ensure image never exceeds container height
+      max-width: 100%;    // Prevent image from overflowing its slide
       height: auto;
-      max-height: $max-height;
-      display: block;
-      object-fit: cover; // Changed from contain to cover
+      width: auto;
+      object-fit: contain; // Show the full image even if there are letterbox gaps
       border-radius: 8px;
     }
   }
