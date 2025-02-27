@@ -19,7 +19,6 @@ permalink: /PLANCKS25/
       <!-- <p style="text-align: justify;">Keep scrolling through the page to get more information about this year's edition!</p> -->
       <p style="text-align: justify;">Stay tuned to this website for the latest updates on the event!</p>
 <!-- BOTONES -->
-
 <!--
       <div class="section">
         <div class="row">
@@ -46,9 +45,7 @@ permalink: /PLANCKS25/
         </div>
       </div>
 -->
-
 <!--	<h4 id="objetivos">Objectives</h4>-->
-
 <!-- FOTOS 
       <div class="section" id="content-desktop">
         <div class="row">
@@ -69,18 +66,25 @@ permalink: /PLANCKS25/
         </div>
       </div>
 -->
-
 <!-- CARRUSEL DE FOTOS -->
-      <div class="carousel-container">
+      <!-- <div class="carousel-container">
         <div class="carousel">
           <div class="carousel-item active"><img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis1.jpg" alt="Imagen 1"></div>
           <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis2.jpg" alt="Imagen 2"></div>
           <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis3.jpg" alt="Imagen 3"></div>
 	  <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis4.jpeg" alt="Imagen 4"></div>
         </div>
-      </div>
-
-
+      </div> -->
+<!-- CARRUSEL DE FOTOS -->
+  <div class="carousel-container">
+    <div class="carousel">
+      {% for image in site.data.PLANCKS25.multiple.carousel_images %}
+        <div class="carousel-item{% if forloop.first %} active{% endif %}">
+          <img src="{{ image.src }}" alt="{{ image.alt }}">
+        </div>
+      {% endfor %}
+    </div>
+  </div>
 <!-- PROGRAMA
       <div class="section">
         <h4 id="programa">Programa</h4>
@@ -92,7 +96,6 @@ permalink: /PLANCKS25/
         </div>
       </div> 
 -->
-
 <!-- LEARN MORE -->
       <div class="section">
         <div class="row">
@@ -103,12 +106,12 @@ permalink: /PLANCKS25/
             <div class="row center"><a href="{{ site.url }}" target="_blank" id="boton-gdee" class="btn-plancks25 waves-effect waves-light">Learn more about TC Spain</a></div>
           </div>
         </div>
-      </div>
-      
-	  
+      </div>      	  
 <!-- SPONSORS -->
-      {% include PLANCKS25_patrocinadores.html %}
-	  
+      {% include PLANCKS25_patrocinadores.html %}	  
     </div>
   </div>
 </div>
+
+<!-- Carrousel functionality -->
+<script src="/assets/js/carousel.js"></script>
