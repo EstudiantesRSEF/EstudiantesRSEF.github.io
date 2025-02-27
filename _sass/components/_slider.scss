@@ -94,18 +94,49 @@
 // Variables
 $animation-speed: 20s;
 
+// Add this mixin at the top with other variables
+@mixin edge-gradient {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  z-index: 2;
+}
+
+
 @keyframes scroll {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
 
 .slider-auto {
-  background: white;
   margin: 2rem auto;
   overflow: hidden;
   position: relative;
   width: 100%;
   max-width: 1200px;
+
+// Add pseudo-elements for gradient edges
+  &::before {
+    @include edge-gradient;
+    left: 0;
+    background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.2) 0%,  // Slightly transparent
+      rgba(0, 0, 0, 0) 100%   // Fully transparent
+    );
+  }
+
+  &::after {
+    @include edge-gradient;
+    right: 0;
+    background: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.2) 0%,  // Slightly transparent
+      rgba(0, 0, 0, 0) 100%   // Fully transparent
+    );
+  }
   
   .slide-track {
     animation: scroll $animation-speed linear infinite;
@@ -125,6 +156,7 @@ $animation-speed: 20s;
     img {
       width: 100%;
       height: auto; // This makes height follow aspect ratio
+      max-height: 200px;
       display: block;
       object-fit: contain;
       border-radius: 8px;
