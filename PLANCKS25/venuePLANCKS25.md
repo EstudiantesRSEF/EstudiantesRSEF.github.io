@@ -69,22 +69,22 @@ permalink: /PLANCKS25/venue/
 <div class="section">
   <h4 id="accommodation">Accommodation: La Conreria de Tiana</h4>
   <p style="text-align: justify;">
-    La Conreria de Tiana is a meticulously restored old wine estate that combines historical charm 
-    with modern services to ensure a comfortable and relaxing stay. Located just a few kilometers 
-    from Barcelona, it offers a natural setting perfect for unwinding after each day of competition, 
-    while still providing convenient access to the city’s sports venues.
+    <strong>La Conreria de Tiana</strong> is a <strong>meticulously restored old wine estate</strong> that combines 
+    <strong>historical charm</strong> with <strong>modern services</strong> to ensure a comfortable and relaxing stay. Located 
+    just a few kilometers from Barcelona, it offers a <strong>natural setting</strong> perfect for unwinding after each 
+    day of competition, while still providing <strong>convenient access</strong> to the city’s sports venues.
   </p>
   <p style="text-align: justify;">
-    The spacious common areas encourage participants to share experiences and forge new friendships. 
-    In addition, its gastronomic offering, based on local products, ensures a healthy and delicious diet 
-    to stay energized throughout the competition.
+    The <strong>spacious common areas</strong> encourage participants to share experiences and forge new friendships. 
+    In addition, its <strong>gastronomic offering</strong>, based on local products, ensures a healthy and delicious 
+    diet to stay energized throughout the competition.
   </p>
   <h5 style="margin-top: 1em;">Why will you love it?</h5>
   <ul>
-    <li><strong>Privileged location:</strong> Only a short distance from Barcelona, yet surrounded by a natural setting that helps you relax.</li>
-    <li><strong>Comfort and authenticity:</strong> Cozy rooms in a historic estate that will make you feel in a truly unique place.</li>
-    <li><strong>Connection and networking:</strong> Common areas designed to exchange ideas, stories, and experiences with fellow competitors.</li>
-    <li><strong>Local flavor:</strong> A fresh, proximity-based cuisine to help you tackle each day with plenty of energy.</li>
+    <li>📍 <strong>Privileged location:</strong> Only a short distance from Barcelona, yet surrounded by a natural setting that helps you relax.</li>
+    <li>🏠 <strong>Comfort and authenticity:</strong> Cozy rooms in a historic estate that will make you feel in a truly unique place.</li>
+    <li>🤝 <strong>Connection and networking:</strong> Common areas designed to exchange ideas, stories, and experiences with fellow competitors.</li>
+    <li>🍽️ <strong>Local flavor:</strong> A fresh, proximity-based cuisine to help you tackle each day with plenty of energy.</li>
   </ul>
 </div>
 
