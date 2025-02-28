@@ -49,12 +49,12 @@ permalink: /PLANCKS25/venue/
 <!-- CARRUSEL DE FOTOS -->
 <div class="slider-auto">
   <div class="slide-track">
-    {% for image in site.data.PLANCKS25/venuePLANCKS25.multiple.carousel_images %}
+    {% for image in site.data.PLANCKS25/venmultiple.carousel_images %}
       <div class="slide">
         <img src="{{ image.src }}" alt="{{ image.alt }}">
       </div>
     {% endfor %}
-    {% for image in site.data.PLANCKS25/venuePLANCKS25.multiple.carousel_images %}
+    {% for image in site.data.PLANCKS25/venmultiple.carousel_images %}
       <div class="slide">
         <img src="{{ image.src }}" alt="{{ image.alt }}">
       </div>
