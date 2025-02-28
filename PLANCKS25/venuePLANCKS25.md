@@ -16,29 +16,52 @@ permalink: /PLANCKS25/venue/
 
 	
 <!-- VENUE -->
-      <div class="section">
-        <h4 id="program">Venue</h4>
- 	<p style="text-align: justify;"> Here is the program for PLANCKS 2025! Are you going to miss it? Check the rest of the information in the  <a href="{{ site.url }}/PLANCKS25">PLANCKS web</a>.</p>
-      </div>
+<div class="section">
+  <h4 id="venue">Venue: Faculty of Physics at UAB</h4>
+  <p style="text-align: justify;">
+    The competition will take place at the <strong>Faculty of Physics of the Autonomous University of Barcelona (UAB)</strong>, 
+    located on a bustling and modern campus. This venue offers contemporary lecture halls, cutting-edge laboratories, 
+    and dynamic learning environments that perfectly align with the spirit of an international physics competition.
+  </p>
+  <p style="text-align: justify;">
+    Renowned for its high academic standards and innovative research, the Faculty of Physics is a hub of scientific exploration, 
+    making it an ideal location for participants to immerse themselves in <strong>learning, collaboration, and camaraderie</strong>. 
+    With convenient connections to Barcelona and surrounding areas, getting to the venue is straightforward and hassle-free.
+  </p>
+  <h5 style="margin-top: 1em;">Reasons you'll enjoy this venue:</h5>
+  <ul>
+    <li>🔬 <strong>Academic excellence:</strong> A prestigious institution recognized for pioneering research and a commitment to advancing physics education.</li>
+    <li>🏢 <strong>Modern facilities:</strong> State-of-the-art lecture halls and labs designed for interactive presentations, experiments, and discussions.</li>
+    <li>🤝 <strong>Collaborative atmosphere:</strong> Welcoming spaces that encourage networking and exchanging ideas with fellow physics enthusiasts from around the globe.</li>
+    <li>🚆 <strong>Easy accessibility:</strong> Well-connected by public transport, allowing for a smooth commute to and from Barcelona.</li>
+  </ul>
+</div>
 
-      <div class="section" id="content-desktop">
- 	<h5> Click on the image to see the program on full size </h5>
-        <div class="row">
-             <img class="materialboxed" width="80%" src="/img/eventos/2024-ENEF/ENEF24_programav3.png">
-        </div>	 
-      </div>
-      <div class="section" id="content-mobile">
-	<div class="row">
-          <img class="materialboxed" width="100%" src="/img/eventos/2024-ENEF/ENEF24_programav3.png">
+<!-- CARRUSEL DE FOTOS -->
+      <!-- <div class="carousel-container">
+        <div class="carousel">
+          <div class="carousel-item active"><img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis1.jpg" alt="Imagen 1"></div>
+          <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis2.jpg" alt="Imagen 2"></div>
+          <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis3.jpg" alt="Imagen 3"></div>
+	  <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis4.jpeg" alt="Imagen 4"></div>
         </div>
+      </div> -->
+<!-- CARRUSEL DE FOTOS -->
+<div class="slider-auto">
+  <div class="slide-track">
+    {% for image in site.data.PLANCKS25.multiple.carousel_images %}
+      <div class="slide">
+        <img src="{{ image.src }}" alt="{{ image.alt }}">
       </div>
+    {% endfor %}
+    {% for image in site.data.PLANCKS25.multiple.carousel_images %}
+      <div class="slide">
+        <img src="{{ image.src }}" alt="{{ image.alt }}">
+      </div>
+    {% endfor %}
+  </div>
+</div>
 
-   
-      <div class="section">
-	<h3 id="ponentes">En el ENEF contaremos con...</h3>
-	<p style="text-align: justify;">¡Descubre los mejores ponentes que nos acompañarán durante el ENEF!</p>
-      </div>
-	    
 <!-- ACCOMODATION -->
 
 <div class="section">
@@ -257,9 +280,13 @@ permalink: /PLANCKS25/venue/
     </div>
   </div>
   <div class="modal-footer">
+
+
     <a href="#!" class="modal-close waves-effect waves-green btn-flat">CERRAR</a>
   </div>
 </div>
 
 {% endif %}
 {% endfor %}
+<!-- Carrousel functionality -->
+<!-- <script src="/assets/js/carousel.js"></script> -->
