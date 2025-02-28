@@ -18,7 +18,6 @@ permalink: /PLANCKS25/programa/
 <!-- PROGRAMA -->
       <div class="section">
         <h4 id="program">Program</h4>
-	<p style="text-align: justify;">¡Ya está aquí el programa del ENEF! ¿Te lo vas a perder? Consulta el resto de información en la <a href="{{ site.url }}/ENEF2024">web del ENEF</a>.</p>
  	<p style="text-align: justify;"> Here is the program for PLANCKS 2025! Are you going to miss it? Check the rest of the information in the  <a href="{{ site.url }}/PLANCKS25">PLANCKS web</a>.</p>
       </div>
 
