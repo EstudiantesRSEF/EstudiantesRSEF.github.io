@@ -40,21 +40,23 @@ permalink: /PLANCKS25/venue/
 <!-- CARRUSEL DE FOTOS -->
       <!-- <div class="carousel-container">
         <div class="carousel">
-          <div class="carousel-item active"><img src="/img/eventos/2025-PLANCKS/conreria/conreria1.jfif" alt="Imagen 1"></div>
-          <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/conreria/conreria2.jfif" alt="Imagen 2"></div>
-          <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/conreria/conreria3.jfif" alt="Imagen 3"></div>
-	  <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/conreria/conreria4.jfif" alt="Imagen 4"></div>
+          <div class="carousel-item active"><img src="/img/eventos/2025-PLANCKS/venue/uab1.jfif" alt="Imagen 1"></div>
+          <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/venue/uab2.jfif" alt="Imagen 2"></div>
+          <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/venue/uab3.jfif" alt="Imagen 3"></div>
+	  <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/venue/uab4.jfif" alt="Imagen 4"></div>
+   	  <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/venue/uab5.jfif" alt="Imagen 5"></div>
+      	  <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/venue/uab6.jfif" alt="Imagen 6"></div>
         </div>
       </div> -->
 <!-- CARRUSEL DE FOTOS -->
 <div class="slider-auto">
   <div class="slide-track">
-    {% for image in site.data.PLANCKS25/venmultiple.carousel_images %}
+    {% for image in site.data.PLANCKS25/venue_multiple.carousel_images %}
       <div class="slide">
         <img src="{{ image.src }}" alt="{{ image.alt }}">
       </div>
     {% endfor %}
-    {% for image in site.data.PLANCKS25/venmultiple.carousel_images %}
+    {% for image in site.data.PLANCKS25/venue_multiple.carousel_images %}
       <div class="slide">
         <img src="{{ image.src }}" alt="{{ image.alt }}">
       </div>
@@ -95,22 +97,31 @@ permalink: /PLANCKS25/venue/
 	  <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis4.jpeg" alt="Imagen 4"></div>
         </div>
       </div> -->
+      
+<!-- CARRUSEL DE FOTOS -->
+      <!-- <div class="carousel-container">
+        <div class="carousel">
+          <div class="carousel-item active"><img src="/img/eventos/2025-PLANCKS/conreria/conreria5.jfif" alt="Imagen 1"></div>
+          <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/conreria/conreria2.jfif" alt="Imagen 2"></div>
+          <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/conreria/conreria3.jfif" alt="Imagen 3"></div>
+	  <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/conreria/conreria4.jfif" alt="Imagen 4"></div>
+        </div>
+      </div> -->
 <!-- CARRUSEL DE FOTOS -->
 <div class="slider-auto">
   <div class="slide-track">
-    {% for image in site.data.PLANCKS25.multiple.carousel_images %}
+    {% for image in site.data.PLANCKS25/venmultiple.carousel_images %}
       <div class="slide">
         <img src="{{ image.src }}" alt="{{ image.alt }}">
       </div>
     {% endfor %}
-    {% for image in site.data.PLANCKS25.multiple.carousel_images %}
+    {% for image in site.data.PLANCKS25/venmultiple.carousel_images %}
       <div class="slide">
         <img src="{{ image.src }}" alt="{{ image.alt }}">
       </div>
     {% endfor %}
   </div>
 </div>
-
 
 <!-- LOCATIONS MANUAL -->    
 <!--        <div class="section">
