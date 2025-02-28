@@ -79,7 +79,7 @@ permalink: /PLANCKS25/venue/
        target="_blank" 
        rel="noopener noreferrer" 
        style="display: inline-block; margin: 10px;">
-      <img src="img/eventos/2025-PLANCKS/googlemaps.png" 
+      <img src="/img/eventos/2025-PLANCKS/googlemaps.png" 
            alt="Google Maps" 
            style="width: 40px; height: auto; vertical-align: middle;">
       <span style="display: inline-block; margin-left: 5px; vertical-align: middle;">
@@ -92,7 +92,7 @@ permalink: /PLANCKS25/venue/
        target="_blank" 
        rel="noopener noreferrer" 
        style="display: inline-block; margin: 10px;">
-      <img src="img/eventos/2025-PLANCKS/applemaps.png" 
+      <img src="/img/eventos/2025-PLANCKS/applemaps.png" 
            alt="Apple Maps" 
            style="width: 40px; height: auto; vertical-align: middle;">
       <span style="display: inline-block; margin-left: 5px; vertical-align: middle;">
