@@ -40,10 +40,10 @@ permalink: /PLANCKS25/venue/
 <!-- CARRUSEL DE FOTOS -->
       <!-- <div class="carousel-container">
         <div class="carousel">
-          <div class="carousel-item active"><img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis1.jpg" alt="Imagen 1"></div>
-          <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis2.jpg" alt="Imagen 2"></div>
-          <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis3.jpg" alt="Imagen 3"></div>
-	  <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis4.jpeg" alt="Imagen 4"></div>
+          <div class="carousel-item active"><img src="/img/eventos/2025-PLANCKS/conreria/conreria1.jfif" alt="Imagen 1"></div>
+          <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/conreria/conreria2.jfif" alt="Imagen 2"></div>
+          <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/conreria/conreria3.jfif" alt="Imagen 3"></div>
+	  <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/conreria/conreria4.jfif" alt="Imagen 4"></div>
         </div>
       </div> -->
 <!-- CARRUSEL DE FOTOS -->
