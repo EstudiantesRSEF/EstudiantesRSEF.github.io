@@ -10,6 +10,7 @@
   .carousel-item {
     width: 100%;
     height: auto;
+    position: relative;
     
     img {
       width: 100%;
@@ -17,28 +18,30 @@
       object-fit: cover;
     }
     
-  .carousel-caption {
+    .carousel-caption {
       position: absolute;
-      left: 50%;
-      top: 50%; // Center vertically
-      transform: translate(-50%, -50%); // Center both horizontally and vertically
-      text-align: center;
-      background-color: transparent;
-      padding: 10px;
+      left: 0;
+      bottom: 0; // Position at bottom of image
       width: 100%;
+      text-align: center;
+      padding: 15px 0;
+      margin-bottom: 40px; // Space between caption and indicators
+      background-color: transparent;
       
       h5 {
         margin: 0;
         text-transform: uppercase;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); // Add shadow for better visibility
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        display: inline-block; // Keeps text centered while container is full width
       }
     }
+  }
   }
 
   // New styles for controls and indicators
   .carousel-control-prev,
   .carousel-control-next {
-    &:active, &:hover {
+    &:active, &:hover, &:focus {
       background-color: rgba(0, 0, 0, 0.2); // Subtle dark transparent background on hover
     }
   }
