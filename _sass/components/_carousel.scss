@@ -10,7 +10,8 @@
   .carousel-item {
     width: 100%;
     height: auto;
-    position: relative;
+    display: flex;
+    flex-direction: column;
     
     img {
       width: 100%;
@@ -19,20 +20,17 @@
     }
     
     .carousel-caption {
-      position: absolute;
-      left: 0;
-      bottom: 0; // Position at bottom of image
+      position: relative; // Changed from absolute to relative
       width: 100%;
       text-align: center;
       padding: 15px 0;
-      margin-bottom: 40px; // Space between caption and indicators
       background-color: transparent;
+      margin: 10px 0 30px 0; // Space above and below caption
       
       h5 {
         margin: 0;
         text-transform: uppercase;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        display: inline-block; // Keeps text centered while container is full width
+        display: inline-block;
       }
     }
   }
