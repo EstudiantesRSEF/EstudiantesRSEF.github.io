@@ -1,5 +1,7 @@
 .carousel {
   height: auto;
+  position: relative;
+  margin-bottom: 50px; // Space for indicators below
   
   .carousel-inner {
     height: auto;
@@ -26,6 +28,22 @@
       h3 {
         margin: 0;
       }
+    }
+  }
+
+  // New styles for controls and indicators
+  .carousel-control-prev,
+  .carousel-control-next {
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.2); // Subtle dark transparent background on hover
+    }
+  }
+
+  .carousel-indicators {
+    bottom: -40px; // Move indicators below the carousel
+    
+    button {
+      background-color: rgba(0, 0, 0, 0.5); // Semi-transparent black
     }
   }
 }
