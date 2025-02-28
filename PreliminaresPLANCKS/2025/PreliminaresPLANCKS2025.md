@@ -382,7 +382,7 @@ permalink: /PreliminaresPLANCKS2025/
 <!-- TIMER SCRIPT -->
 <script>
   // Set the date we're counting down to
-  var countDownDate = new Date("Feb 28, 2025 23:59:59").getTime();
+  var countDownDate = new Date("Mar 02, 2025 23:59:59").getTime();
 
   // Update the count down every 1 second
   var x = setInterval(function() {
