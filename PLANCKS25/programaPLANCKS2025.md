@@ -17,12 +17,12 @@ permalink: /PLANCKS25/programa/
 	
 <!-- PROGRAMA -->
       <div class="section">
-        <h4 id="programa">Programa</h4>
-	<p style="text-align: justify;">¡Ya está aquí el programa del ENEF! ¿Te lo vas a perder? Consulta el resto de información en la <a href="{{ site.url }}/ENEF2024">web del ENEF</a>.</p>
+        <h4 id="program">Program</h4>
+ 	<p style="text-align: justify;"> Here is the program for PLANCKS 2025! Are you going to miss it? Check the rest of the information in the  <a href="{{ site.url }}/PLANCKS25">PLANCKS web</a>.</p>
       </div>
 
       <div class="section" id="content-desktop">
-	<h5>Haz clic en la imagen para ver el programa en tamaño completo</h5>  	
+ 	<h5> Click on the image to see the program on full size </h5>
         <div class="row">
              <img class="materialboxed" width="80%" src="/img/eventos/2024-ENEF/ENEF24_programav3.png">
         </div>	 
@@ -116,7 +116,7 @@ permalink: /PLANCKS25/programa/
 	    
   
 <!-- SPONSORS -->
-	{% include ENEF24_patrocinadores.html %}
+	{% include PLANCKS25_patrocinadores.html %}
 	  
     </div>
 	   
