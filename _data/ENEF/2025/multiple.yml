@@ -1,10 +1,10 @@
 enef_preveditions:
   - name: "ENEF 2024 Granada"
     img_mobile: "/img/eventos/2025-ENEF/Galeria/ENEF24GaleriaSmall.png"
-    img_desktop: "/img/eventos/2025-ENEF/Galeria/ENEF25GaleriaBig_Granada.png"
+    img_desktop: "/img/eventos/2025-ENEF/Galeria/ENEF24GaleriaBig.png"
     color: "#1a237e"
   - name: "ENEF 2023 Oviedo"
     img_mobile: "/img/eventos/2024-ENEF/Galeria/ENEF23GaleriaSmall.png"
-    img_desktop: "/img/eventos/2025-ENEF/Galeria/ENEF25GaleriaBig_Oviedo.png"
+    img_desktop: "/img/eventos/2024-ENEF/Galeria/ENEF23GaleriaBig.png"
     color: "#d81b60"
             
