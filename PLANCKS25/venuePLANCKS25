@@ -2,7 +2,7 @@
 layout: plancks25
 title: PLANCKS Barcelona 2025
 hidden: true
-permalink: /PLANCKS25/venue/
+permalink: /PLANCKS25/venue-accomodarion/
 ---
 
 <div class="no-pad-top" id="index-page">
@@ -18,7 +18,6 @@ permalink: /PLANCKS25/venue/
 <!-- VENUE -->
       <div class="section">
         <h4 id="program">Venue</h4>
-	<p style="text-align: justify;">¡Ya está aquí el programa del ENEF! ¿Te lo vas a perder? Consulta el resto de información en la <a href="{{ site.url }}/ENEF2024">web del ENEF</a>.</p>
  	<p style="text-align: justify;"> Here is the program for PLANCKS 2025! Are you going to miss it? Check the rest of the information in the  <a href="{{ site.url }}/PLANCKS25">PLANCKS web</a>.</p>
       </div>
 
@@ -40,40 +39,29 @@ permalink: /PLANCKS25/venue/
 	<p style="text-align: justify;">¡Descubre los mejores ponentes que nos acompañarán durante el ENEF!</p>
       </div>
 	    
-	    
-<!-- PONENTES -->    
-      <div class="section">
-       <div class="col s12 m6">
-         <div class="row center">
-	 {% assign sorted_persons = site.persons | sort: "position" %}
-         {% for person in sorted_persons %}
-         {% if person.evento contains "ENEF2024" %}
-         {% if person.visible contains "True" %}
-           <ul class="collection waves-effect waves-light" style="width: 33%">
-             <a href="#{{ person.id | remove: "/" }}-modal" class="collection-item modal-trigger waves-effect waves-light" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
-               <li class="collection-item avatar2">
-                 <img src="{{ person.img }}" alt="" class="circle">
-                 {% if person.nombredes %}
-                 <span class="title" style="padding-left: 10px">{{ person.nombredes }}</span>
-                 {% else %}
-                 <span class="title" style="padding-left: 10px">{{ person.nombre }}</span>
-                 {% endif %}
-                 <p style="padding-top: 10px">
-                   {{ person.horario }}
-                 </p>
-               </li>
-             </a>
-           </ul>
-         {% endif %}
-         {% endif %}
-         {% endfor %}
-         <h5>...¡y muchos más!</h5>
-         </div>
-       </div>
-     </div>
+<!-- ACCOMODATION -->
 
-
-
+<div class="section">
+  <h4 id="accommodation">Accommodation: La Conreria de Tiana</h4>
+  <p style="text-align: justify;">
+    La Conreria de Tiana is a meticulously restored old wine estate that combines historical charm 
+    with modern services to ensure a comfortable and relaxing stay. Located just a few kilometers 
+    from Barcelona, it offers a natural setting perfect for unwinding after each day of competition, 
+    while still providing convenient access to the city’s sports venues.
+  </p>
+  <p style="text-align: justify;">
+    The spacious common areas encourage participants to share experiences and forge new friendships. 
+    In addition, its gastronomic offering, based on local products, ensures a healthy and delicious diet 
+    to stay energized throughout the competition.
+  </p>
+  <h5 style="margin-top: 1em;">Why will you love it?</h5>
+  <ul>
+    <li><strong>Privileged location:</strong> Only a short distance from Barcelona, yet surrounded by a natural setting that helps you relax.</li>
+    <li><strong>Comfort and authenticity:</strong> Cozy rooms in a historic estate that will make you feel in a truly unique place.</li>
+    <li><strong>Connection and networking:</strong> Common areas designed to exchange ideas, stories, and experiences with fellow competitors.</li>
+    <li><strong>Local flavor:</strong> A fresh, proximity-based cuisine to help you tackle each day with plenty of energy.</li>
+  </ul>
+</div>
 
 
 <!-- LOCATIONS MANUAL -->    
