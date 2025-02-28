@@ -64,6 +64,35 @@ permalink: /PLANCKS25/venue/
   </div>
 </div>
 
+<div class="section">
+  <h4 id="how-to-get-here">How to Get Here</h4>
+  <p style="text-align: justify;">
+    The <strong>Faculty of Physics at UAB</strong> is conveniently located within the UAB campus. 
+    Whether you are coming by train, bus, or car, you’ll find easy routes that connect directly 
+    from Barcelona and its surroundings. For detailed directions, click on the links below:
+  </p>
+  <div style="text-align: center; margin-top: 1em;">
+    <!-- Botón de Google Maps -->
+    <a class="waves-effect waves-light btn" 
+       style="margin-right: 8px;" 
+       href="https://maps.app.goo.gl/9q7dpsmd4j52ew8y6" 
+       target="_blank" 
+       rel="noopener noreferrer">
+      <i class="material-icons left">map</i>
+      Open in Google Maps
+    </a>
+    <!-- Botón de Apple Maps -->
+    <a class="waves-effect waves-light btn" 
+       href="https://maps.apple.com/place?q=Biblioteca%20de%20Ci%C3%A8ncia%20i%20Tecnologia&ll=41.5000373%2C2.107549&auid=17537308165470826685&lsp=9902&address=08193%20Cerdanyola%20del%20Vall%C3%A8s%2C%20Barcelona%2C%20Espa%C3%B1a" 
+       target="_blank" 
+       rel="noopener noreferrer">
+      <i class="material-icons left">map</i>
+      Open in Apple Maps
+    </a>
+  </div>
+</div>
+
+
 <!-- ACCOMODATION -->
 
 <div class="section">
