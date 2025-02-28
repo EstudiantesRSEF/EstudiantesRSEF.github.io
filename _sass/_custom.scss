@@ -24,16 +24,6 @@ span {
     color: $secondary-color
 }
 
-.carousel {
-    height: 500px;
-    .carousel-item {
-	width: 500px;
-	img {
-	    width:100%;
-	}
-    }
-}
-
 @import "custom_c/events";
 @import "custom_c/article";
 @import "custom_c/blog";
