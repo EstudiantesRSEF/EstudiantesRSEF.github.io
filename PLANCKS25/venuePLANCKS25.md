@@ -63,6 +63,31 @@ permalink: /PLANCKS25/venue/
   </ul>
 </div>
 
+<!-- CARRUSEL DE FOTOS -->
+      <!-- <div class="carousel-container">
+        <div class="carousel">
+          <div class="carousel-item active"><img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis1.jpg" alt="Imagen 1"></div>
+          <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis2.jpg" alt="Imagen 2"></div>
+          <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis3.jpg" alt="Imagen 3"></div>
+	  <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis4.jpeg" alt="Imagen 4"></div>
+        </div>
+      </div> -->
+<!-- CARRUSEL DE FOTOS -->
+<div class="slider-auto">
+  <div class="slide-track">
+    {% for image in site.data.PLANCKS25.multiple.carousel_images %}
+      <div class="slide">
+        <img src="{{ image.src }}" alt="{{ image.alt }}">
+      </div>
+    {% endfor %}
+    {% for image in site.data.PLANCKS25.multiple.carousel_images %}
+      <div class="slide">
+        <img src="{{ image.src }}" alt="{{ image.alt }}">
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
 
 <!-- LOCATIONS MANUAL -->    
 <!--        <div class="section">
