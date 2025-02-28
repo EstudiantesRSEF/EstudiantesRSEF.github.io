@@ -18,15 +18,17 @@
     }
     
     .carousel-caption {
-      width: 100%;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      padding: 1rem;
-      background-color: rgba(0,0,0,0.5);
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 20px;
+      text-align: center;
+      background-color: transparent;
+      padding: 10px;
       
-      h3 {
+      h5 {
         margin: 0;
+        text-transform: uppercase;
       }
     }
   }
