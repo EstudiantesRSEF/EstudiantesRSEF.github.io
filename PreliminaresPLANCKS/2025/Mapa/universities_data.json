@@ -3,7 +3,7 @@
         "university": "Universidad Complutense de Madrid (UCM)",
         "longitude": -3.7267,
         "latitude": 40.4531,
-        "teams": 10,
+        "teams": 11,
         "team_list": [
             "Los Catenarios",
             "Hasbulla Rockets",
@@ -14,7 +14,8 @@
             "Los chicos del papel",
             "Los ponis mágicos",
             "novias",
-            "Gatillazo de Schrödinger"
+            "Gatillazo de Schrödinger",
+            "Variedades de Calabi-Miau"
         ]
     },
     {
@@ -31,7 +32,7 @@
         "university": "Universidad del País Vasco (UPV/EHU)",
         "longitude": -2.935,
         "latitude": 43.263,
-        "teams": 7,
+        "teams": 9,
         "team_list": [
             "3 ondas y una partícula",
             "Eskalada",
@@ -39,14 +40,16 @@
             "Entrelazados anónimos",
             "Bremsstrahlung",
             "Yakuzen",
-            "KIMIKAN'T"
+            "KIMIKAN'T",
+            "Marmitako",
+            "Jokoz kanpo"
         ]
     },
     {
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 24,
+        "teams": 30,
         "team_list": [
             "VDB",
             "Quartet Formació",
@@ -71,18 +74,26 @@
             "Shadows of Yharnam",
             "Lorem ipsu",
             "Oppenhomies Beta+",
-            "DroGauss"
+            "DroGauss",
+            "\\varepsilon \\gg \\epsilon",
+            "Xavineta Quàntica",
+            "C7-Capu",
+            "El Abismo de Helmholtz",
+            "La plancha",
+            "Les Venus"
         ]
     },
     {
         "university": "Universidad de Zaragoza (UNIZAR)",
         "longitude": -0.8891,
         "latitude": 41.6488,
-        "teams": 3,
+        "teams": 5,
         "team_list": [
             "1001 cúbits",
             "El Planck B",
-            "Manolitos"
+            "Manolitos",
+            "Los axiones: una mentira cómoda ",
+            "Fast&Fourier"
         ]
     },
     {
@@ -133,24 +144,26 @@
         "university": "Universidad Autónoma de Madrid (UAM)",
         "longitude": -3.6922,
         "latitude": 40.5496,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "Cohenistas",
-            "Plonck"
+            "Plonck",
+            "Caballeros de Marco"
         ]
     },
     {
         "university": "Universidad de Oviedo (UniOvi)",
         "longitude": -5.845,
         "latitude": 43.3619,
-        "teams": 6,
+        "teams": 7,
         "team_list": [
             "2blue2brown",
             "Z := Cuerpo",
             "Asturmenes",
             "los frailes",
             "Rompiendo el Techo de Cristal",
-            "Schwarz "
+            "Schwarz ",
+            "El Bosón de la Mon"
         ]
     },
     {
@@ -207,10 +220,11 @@
         "university": "Universidad Politécnica de Cataluña (UPC)",
         "longitude": 2.1131,
         "latitude": 41.3891,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "Tenemos un Planck",
-            "Espacio de JilBErT"
+            "Espacio de JilBErT",
+            "Los Máquinas Térmicas"
         ]
     },
     {
@@ -237,11 +251,12 @@
         "university": "Universidad Carlos III de Madrid (UC3M)",
         "longitude": -3.727,
         "latitude": 40.3259,
-        "teams": 3,
+        "teams": 4,
         "team_list": [
             "Las Pibitas de Rascón",
             "Pepelu's CF",
-            "UC3Minds"
+            "UC3Minds",
+            "Heisen-Birra"
         ]
     },
     {
@@ -301,10 +316,11 @@
         "university": "Universidad Europea de Madrid (UEM)",
         "longitude": -3.918953,
         "latitude": 40.371831,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "+catet@s",
-            "Mojón de Higgs"
+            "Mojón de Higgs",
+            "NayGiggers"
         ]
     },
     {
@@ -315,6 +331,15 @@
         "team_list": [
             "Los cuatro plancktásticos",
             "Pitot Enjoyers"
+        ]
+    },
+    {
+        "university": "Universidad de Santiago de Compostela (USC)",
+        "longitude": -8.5448,
+        "latitude": 42.8782,
+        "teams": 1,
+        "team_list": [
+            "Universidade Sen Calefacción"
         ]
     }
 ]

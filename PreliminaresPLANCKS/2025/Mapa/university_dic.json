@@ -138,5 +138,10 @@
         "university": "Universitat de les Illes Balears (UIB)",
         "longitude": 2.6426,
         "latitude": 39.6361
+    },
+    "USC": {
+        "university": "Universidad de Santiago de Compostela (USC)",
+        "longitude": -8.5448,
+        "latitude": 42.8782
     }
 }
