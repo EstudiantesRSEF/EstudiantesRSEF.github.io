@@ -32,7 +32,7 @@
         "university": "Universidad del País Vasco (UPV/EHU)",
         "longitude": -2.935,
         "latitude": 43.263,
-        "teams": 9,
+        "teams": 10,
         "team_list": [
             "3 ondas y una partícula",
             "Eskalada",
@@ -42,14 +42,15 @@
             "Yakuzen",
             "KIMIKAN'T",
             "Marmitako",
-            "Jokoz kanpo"
+            "Jokoz kanpo",
+            "centripetos"
         ]
     },
     {
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 30,
+        "teams": 31,
         "team_list": [
             "VDB",
             "Quartet Formació",
@@ -69,6 +70,7 @@
             "guetes",
             "Químics Infiltrats",
             "Mus de pus",
+            "BAAAKATA",
             "miaumiau",
             "Qataners",
             "Shadows of Yharnam",
@@ -87,13 +89,15 @@
         "university": "Universidad de Zaragoza (UNIZAR)",
         "longitude": -0.8891,
         "latitude": 41.6488,
-        "teams": 5,
+        "teams": 7,
         "team_list": [
             "1001 cúbits",
             "El Planck B",
             "Manolitos",
             "Los axiones: una mentira cómoda ",
-            "Fast&Fourier"
+            "Fast&Fourier",
+            "“Freaky ahh” Tensors",
+            "cazataquiones "
         ]
     },
     {
@@ -109,10 +113,11 @@
         "university": "Universidad de Alicante (UA)",
         "longitude": -0.4907,
         "latitude": 38.3452,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "BocataLomoYa",
-            "Chapeadores"
+            "Chapeadores",
+            "Deltas de Kronecker"
         ]
     },
     {
@@ -128,7 +133,7 @@
         "university": "Universidad de Barcelona (UB)",
         "longitude": 2.1662,
         "latitude": 41.3879,
-        "teams": 8,
+        "teams": 9,
         "team_list": [
             "SU(137)",
             "4pbody",
@@ -137,7 +142,8 @@
             "Grup de Poincaré",
             "Boltzgang",
             "Los Quentistas",
-            "DIVERagència"
+            "DIVERagència",
+            "Good Physicists "
         ]
     },
     {
@@ -235,6 +241,15 @@
         "team_list": [
             "Higgers Cuahnticos",
             "Hall of Feynman"
+        ]
+    },
+    {
+        "university": "Universidad de la Laguna (ULL)",
+        "longitude": -16.3159,
+        "latitude": 28.4698,
+        "teams": 1,
+        "team_list": [
+            "Entropic Warriors"
         ]
     },
     {

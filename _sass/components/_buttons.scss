@@ -237,6 +237,15 @@ $enef25-pink: #EE4FA8;
   }
 }
 
+.plancks25-color{
+  color: #ffffff;
+  background-color: #00a79d;
+  
+  &:hover {
+    background-color: #352F71;
+  }
+}
+
 // Color Schemes
 .enef25-pink {
   color: white;
