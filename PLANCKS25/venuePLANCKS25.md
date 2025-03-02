@@ -66,7 +66,7 @@ permalink: /PLANCKS25/venue/
 
 
 <div class="section">
-  <h4 id="how-to-get-here">How to Get Here</h4>
+  <h3 id="how-to-get-here">How to Get Here</h3>
   <p style="text-align: justify;">
     The <strong>Faculty of Physics at UAB</strong> is conveniently located within the UAB campus. 
     Whether you are coming by train, bus, or car, you’ll find easy routes connecting directly 
@@ -160,6 +160,44 @@ permalink: /PLANCKS25/venue/
         <img src="{{ image.src }}" alt="{{ image.alt }}">
       </div>
     {% endfor %}
+  </div>
+</div>
+
+<div class="section">
+  <h4 id="how-to-get-here">How to Get Here</h4>
+  <p style="text-align: justify;">
+   <strong>La Conreria de Tiana</strong> is located in a peaceful natural setting just a short distance from Barcelona. 
+    You can easily arrive by car, public transportation, or a combination of both. The estate’s unique location 
+    allows you to enjoy the tranquility of the countryside while remaining connected to the city’s main roads 
+    and transport networks. Check the links below for detailed directions:
+  </p>
+
+  <div class="maps-buttons" style="text-align: center; margin-top: 1em;">
+    <!-- Botón de Google Maps -->
+    <a href="https://maps.app.goo.gl/sFXVURBWLTPbjY9Z6" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       style="display: inline-block; margin: 10px;">
+      <img src="/img/eventos/2025-PLANCKS/googlemaps.png" 
+           alt="Google Maps" 
+           style="width: 40px; height: auto; vertical-align: middle;">
+      <span style="display: inline-block; margin-left: 5px; vertical-align: middle;">
+        <strong>Open in Google Maps</strong>
+      </span>
+    </a>
+
+    <!-- Botón de Apple Maps -->
+    <a href="https://maps.apple.com/place?q=La%20Conreria&ll=41.4739261%2C2.2681031&auid=12624925186159593361&lsp=9902&address=Carrer%20Josep%20Rossello%2C%206%2C%2008391%20Tiana%2C%20Barcelona%2C%20Espa%C3%B1a" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       style="display: inline-block; margin: 10px;">
+      <img src="/img/eventos/2025-PLANCKS/applemaps.png" 
+           alt="Apple Maps" 
+           style="width: 40px; height: auto; vertical-align: middle;">
+      <span style="display: inline-block; margin-left: 5px; vertical-align: middle;">
+        <strong>Open in Apple Maps</strong>
+      </span>
+    </a>
   </div>
 </div>
 
