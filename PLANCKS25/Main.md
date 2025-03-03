@@ -50,9 +50,9 @@ permalink: /PLANCKS25/
             <div class="row center"><a href="{{ site.url }}" target="_blank" id="boton-gdee" class="btn-plancks25 waves-effect waves-light">Learn more about TC Spain</a></div>
           </div>
         </div>
-      </div>      	  
+      </div>       	  
 <!-- SPONSORS -->
-      {% include patrocinadores.html sponsors=site.data.PLANCKS25.multiple.sponsors %}      
+      {% include PLANCKS25_patrocinadores.html %}      
     </div>
   </div>
 </div>
