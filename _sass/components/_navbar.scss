@@ -271,10 +271,11 @@
   }
   .plancks-logo {
     position: absolute;
-    left: 20px;
-    top: -15px; // Adjust this value to control how much the logo sticks out
-    width: 120px;
-    height: 120px;
+    left: 0;
+    transform: translateX(-50%); // Move half of its width to the left
+    top: -15px;
+    width: clamp(60px, 20vw, 100px); // Responsive width between 60px and 100px
+    height: clamp(60px, 20vw, 100px); // Keep aspect ratio
     border-radius: 50%;
     overflow: hidden;
     border: 3px solid #00a79d;
@@ -284,13 +285,14 @@
     img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain; // Changed to contain to prevent image distortion
+      padding: 5px; // Add some padding inside the circle
     }
   }
 
-  // Adjust brand position to accommodate logo
+  // Adjust brand position
   .navbar-brand {
-    margin-left: 150px; // Space for the logo
+    margin-left: max(80px, 10vw); // Responsive margin that scales with viewport
   }
 }
 
@@ -309,10 +311,9 @@
     }
 
     .plancks-logo {
-      width: 80px;
-      height: 80px;
-      top: -10px;
-      left: 10px;
+      transform: translateX(-40%); // Slightly different position for larger screens
+      width: clamp(80px, 20vw, 100px);
+      height: clamp(80px, 20vw, 100px);
     }
     
     .navbar-brand {
