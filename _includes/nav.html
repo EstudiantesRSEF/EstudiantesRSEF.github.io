@@ -1,4 +1,49 @@
-{% assign navurl = page.url | remove: 'index.html' %}
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <!-- Brand -->
+    <a class="navbar-brand" href="/"><strong>Grupo de Estudiantes RSEF</strong></a>
+    
+    <!-- Mobile toggle button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navigation items -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        {% for item in include.nav %}
+          {% if item.subitems %}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                {{ item.text }}
+              </a>
+              <ul class="dropdown-menu">
+                {% if item.url %}
+                  <li><a class="dropdown-item" href="{{ item.url }}">{{ item.text }}</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                {% endif %}
+                {% for subitem in item.subitems %}
+                  <li>
+                    <a class="dropdown-item" href="{{ subitem.url }}" {% if subitem.blank %}target="_blank"{% endif %}>
+                      {{ subitem.text }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ item.url }}">{{ item.text }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- {% assign navurl = page.url | remove: 'index.html' %}
 {% for item in include.nav %}
     {% if item.subitems %}
     <ul id="dropdown-{{ item.slug }}" class="dropdown-content">
@@ -72,4 +117,4 @@
           </ul>
       </div>
   </nav>
-</div>
+</div> -->
