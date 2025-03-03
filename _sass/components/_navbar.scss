@@ -255,6 +255,29 @@
       }
     }
   }
+  .plancks-logo {
+    position: absolute;
+    left: 20px;
+    top: -15px; // Adjust this value to control how much the logo sticks out
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #00a79d;
+    box-shadow: 0 2px 8px rgba(0, 167, 157, 0.3);
+    z-index: 999;
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  // Adjust brand position to accommodate logo
+  .navbar-brand {
+    margin-left: 150px; // Space for the logo
+  }
 }
 
 @media #{$medium-and-up} {
@@ -269,6 +292,17 @@
     
     .nav-link {
       line-height: 100px;
+    }
+
+    .plancks-logo {
+      width: 80px;
+      height: 80px;
+      top: -10px;
+      left: 10px;
+    }
+    
+    .navbar-brand {
+      margin-left: 100px;
     }
   }
 }
