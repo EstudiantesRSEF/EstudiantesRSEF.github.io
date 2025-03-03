@@ -2,8 +2,7 @@
    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
    <!-- Then Bootstrap Bundle with Popper -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-   <script src="{{ root_url }}/js/bin/materialize.min.js"></script>
-   <script src="{{ root_url }}/js/dropdown.js"></script>
+   <!-- <script src="{{ root_url }}/js/bin/materialize.min.js"></script> -->
 
 <script> // Slider
   $(document).ready(function(){
@@ -11,11 +10,13 @@
   });
 </script>
 <script> // Initialize collapse button
-  $(".button-collapse").sideNav();
-  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
-  $('.collapsible').collapsible();
+  $(document).ready(function(){
+    $(".button-collapse").sideNav();
+    // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+    $('.collapsible').collapsible();
+  });
 </script>
-<script>
+<script> // Initialize modal and dropdown
   $(document).ready(function(){
   // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
   $('.modal-trigger').leanModal();
