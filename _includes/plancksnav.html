@@ -1,108 +1,84 @@
-{% assign navurl = page.url | remove: 'index.html' %}
-{% for item in include.nav %}
-    {% if item.subitems %}
-     <ul id="dropdown-{{ item.slug }}" class="dropdown-content dd-plancks" style="border: 2px solid #333072; background-color: #00a79d;">
-      {% if item.url != nil %}
-      <li style="height: 100px"><a href="{{ item.url }}">{{ item.text }}</a></li>
-      {% endif %}
-      {% for subitem in item.subitems %}
-      <li style="height: 100px" class="dd-plancks"><a href="{{ subitem.url }}" {% if subitem.blank != nil %} target="_blank" {% endif %}>{{ subitem.text }}</a></li>
-      {% endfor %}
-     </ul>
-    {% endif %}
-{% endfor %}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-plancks">
+  <div class="container nav-container">
+    <!-- Brand -->
+    <a class="navbar-brand" href="/"><strong>Grupo de Estudiantes RSEF</strong></a>
+    
+    <!-- Mobile toggle button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-<!-- font-size: 1.2rem; -->
-
-<div id="content-desktop">
-  <nav class="navbar-plancks" style="background-color: #352F71;" >
-    <div class="nav-wrapper container" style="display: flex; justify-content: space-between; align-items: flex-start">
-
-      <div class = "hide-on-large-only" style="display: flex; align-items: flex-start; margin-left: -80px; flex: 2">               
-        <a id="logo-container" href="/PLANCKS25/" style="justify-content: space-between"> 
-          <img src="/img/eventos/2025-PLANCKS/Logo.png" alt="Logo" style="height: 100px; border-radius: 60%; margin-top: 0;">
-        </a>
-        <a href="/PLANCKS25/"  style="color: white; font-size: 20px; font-weight: bold;">
-          PLANCKS Barcelona 2025
-        </a> 
-      </div>
-
-      <div class = "hide-on-med-only" style="display: flex; align-items: flex-start; margin-left: -152px; flex:2">                 
-        <a id="logo-container" href="/PLANCKS25/" style="justify-content: space-between"> 
-          <img src="/img/eventos/2025-PLANCKS/Logo.png" alt="Logo" style="height: 152px; border-radius: 60%; margin-top: 0;">
-        </a>
-        <a href="/PLANCKS25/" style="color: white; font-size: 30px; font-weight: bold;">
-          PLANCKS Barcelona 2025
-        </a>
-      </div>
-
-      <!-- For Big Screens -->
-      <ul class="right hide-on-small-and-down" style="justify-content: flex-end; flex-wrap: nowrap; text-align: right;">
+    <!-- Desktop Navigation -->
+    <div class="collapse navbar-collapse d-none d-lg-block" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
         {% for item in include.nav %}
           {% if item.subitems %}
-            <li>
-              <a class="dropdown-button" href="{{ item.url }}" data-activates="dropdown-{{ item.slug }}" style = "display: flex; align-items: center; font-size: 40 px;">
-                {{ item.text }}  <i class="material-icons" style = "margin-left: 5px"> arrow_drop_down </i>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                {{ item.text }}
               </a>
+              <ul class="dropdown-menu">
+                {% if item.url %}
+                  <li><a class="dropdown-item" href="{{ item.url }}">{{ item.text }}</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                {% endif %}
+                {% for subitem in item.subitems %}
+                  <li>
+                    <a class="dropdown-item" href="{{ subitem.url }}" {% if subitem.blank %}target="_blank"{% endif %}>
+                      {{ subitem.text }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
             </li>
           {% else %}
-            <li>
-              <a href="{{ item.url }}" style="font-size: 40 px; font-weight: bold">
-                {% if item.url == navurl %}
-                  <b>{{ item.text }}</b>
-                {% else %}
-                  {{ item.text }}
-                {% endif %}
-              </a>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ item.url }}">{{ item.text }}</a>
             </li>
           {% endif %}
         {% endfor %}
       </ul>
     </div>
-  </nav>
-</div>
 
-<div id="content-mobile">
-  <nav class="navbar-plancks" style="background-color: #352F71;">
-    <div class="nav-wrapper container"style = "display: flex; align-items: center; font-size: 1.2rem;">
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>  
-      <a href="/PLANCKS25/" style="margin-left: 50px; color: white; font-size: 30px; font-weight: bold; line-height: 50px;">
-        PLANCKS 2025 Barcelona
-      </a>
-      <!-- For Small Screens -->
-      <ul id="nav-mobile" class="side-nav" style = "background-color: #352F71; color: #352F71;">
-        <li class="logo">
-          <a id="logo-container" href="/PLANCKS25/" style="display: flex; justify-content: center; align-items: flex-start;"> 
-            <img src="/img/eventos/2025-PLANCKS/Logo.png" alt="Logo" style="height: 100px; border-radius: 60%; margin-top: 0;">
-          </a>
-        </li>        
-        <li style="margin-top: 50px; background-color: #352F71">
+    <!-- Mobile Sidebar -->
+    <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="navbarOffcanvas" aria-labelledby="navbarOffcanvasLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="navbarOffcanvasLabel">
+          <a href="/" class="text-white text-decoration-none">GdeE</a>
+        </h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav">
           {% for item in include.nav %}
-            <ul class="collapsible collapsible-accordion" style="background-color: #352F71; width: 240px; ">              
-              {% if item.subitems %}
-                <li style = "width: 100%">
-                  <a class="collapsible-header" style = "font-size: 16px; color: white; margin: 0">{{ item.text }} <i class="material-icons" style="float:right"> arrow_drop_down </i></a>                                
-                  <div class="collapsible-body">
-                    <ul style="background-color: #00a79d; color: #00a79d">                  
-                      {% if item.url != nil %}
-                        <li style = "font-weight: bold;"><a href="{{ item.url }}" style = "color: white; font-size: 16px;">{{ item.text }}</a></li>
-                      {% endif %}                    
-                      {% for subitem in item.subitems %}
-                        <li><a href="{{ subitem.url }}" style = "color: white; font-size: 16px;">{{ subitem.text }}</a></li>
-                      {% endfor %}
-                    </ul>
-                  </div>
-                </li>  
-              {% else %}
-                <!-- <li style = "font-weight: bold; margin: 0; height: 80px"><a href="{{ item.url }}" style = "color: white; font-size: 16px; height: 100%; margin: 0; padding-left: 2rem; align-items: center;">{{ item.text }}</a></li>                   -->
-                <li style = "width: 100%">
-                  <a class="collapsible-header" href="{{ item.url }}" style = "font-size: 16px; color: white; margin: 0">{{ item.text }}</a>
-                </li>
-              {% endif %}   
-            </ul>
-          {% endfor %}  
-        </li>                
-      </ul>
+            {% if item.subitems %}
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" href="#collapse{{ forloop.index }}" role="button" aria-expanded="false">
+                  {{ item.text }}
+                </a>
+                <div class="collapse" id="collapse{{ forloop.index }}">
+                  <ul class="navbar-nav ms-3">
+                    {% if item.url %}
+                      <li><a class="nav-link" href="{{ item.url }}">{{ item.text }}</a></li>
+                    {% endif %}
+                    {% for subitem in item.subitems %}
+                      <li>
+                        <a class="nav-link" href="{{ subitem.url }}" {% if subitem.blank %}target="_blank"{% endif %}>
+                          {{ subitem.text }}
+                        </a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </li>
+            {% else %}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ item.url }}">{{ item.text }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
     </div>
-  </nav>
-</div>
+  </div>
+</nav>

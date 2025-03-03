@@ -1,165 +1,3 @@
-// NAV
-nav {
-  color: $navbar-font-color;
-  @extend .z-depth-1;
-  background-color: $primary-color;
-  width: 100%;
-  height: $navbar-height-mobile;
-  line-height: $navbar-height-mobile;
-
-  a { color: $navbar-font-color; }
-
-  .nav-wrapper {
-    position: relative;
-    height: 100%;
-
-    i {
-      display: block;
-      font-size: 2rem;
-    }
-  }
-
-  @media #{$large-and-up} {
-    a.button-collapse { display: none; }
-  }
-
-  // Collapse button
-  .button-collapse {
-    float: left;
-    position: relative;
-    z-index: 1;
-    height: $navbar-height-mobile;
-
-    i {
-      font-size: 2.7rem;
-      height: $navbar-height-mobile;
-      line-height: $navbar-height-mobile;
-    }
-  }
-
-
-  // Logo
-  .brand-logo {
-    position: absolute;
-    color: $navbar-font-color;
-    display: inline-block;
-    font-size: $navbar-brand-font-size;
-    padding: 0;
-    white-space: nowrap;
-
-    &.center {
-      left: 50%;
-      @include transform(translateX(-50%));
-    }
-
-    @media #{$medium-and-down} {
-      left: 50%;
-      @include transform(translateX(-50%));
-    }
-
-    &.right {
-      right: 0.5rem;
-      padding: 0;
-    }
-  }
-
-
-  // Navbar Links
-  ul {
-    margin: 0;
-
-    li {
-      @include transition(background-color .3s);
-      float: left;
-      padding: 0;
-
-      &:hover, &.active {
-        background-color: rgba(0,0,0,.1);
-      }
-    }
-    a {
-      font-size: 1rem;
-      color: $navbar-font-color;
-      display: block;
-      padding: 0 15px;
-    }
-
-    &.left {
-      float: left;
-    }
-  }
-
-  // Navbar Search Form
-  .input-field {
-    margin: 0;
-
-    input {
-      height: 100%;
-      font-size: 1.2rem;
-      border: none;
-      padding-left: 2rem;
-
-      &:focus, &[type=text]:valid, &[type=password]:valid,
-      &[type=email]:valid, &[type=url]:valid, &[type=date]:valid {
-        border: none;
-        box-shadow: none;
-      }
-    }
-    label {
-      top: 0;
-      left: 0;
-
-      i {
-        color: rgba(255,255,255,.7);
-        @include transition(color .3s);
-      }
-      &.active i { color: $navbar-font-color; }
-      &.active {
-        @include transform(translateY(0));
-      }
-    }
-
-  }
-
-}
-
-// height: $navbar-height-mobile
-// Fixed Navbar
-.navbar-fixed {
-  position: relative;
-  height: $navbar-height-mobile; //64px;
-  z-index: 998;
-
-  nav {
-    position: fixed;
-  }
-}
-
-// Navbar Plancks (solo cambia la altura)
-.navbar-plancks {
-  position: relative;
-  height: 100px;
-  z-index: 998;
-
-  nav {
-    position: fixed;
-  }
-}
-@media #{$medium-and-up} {
-  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: $navbar-height;
-    line-height: $navbar-height;
-  }
-  .navbar-fixed {
-    height: $navbar-height;
-  }
-  .navbar-plancks {
-    height: 100px;
-    line-height: 100px;
-  }
-}
-
-
 .navbar {
   background-color: $primary-color !important;
   height: $navbar-height-mobile;
@@ -344,11 +182,94 @@ nav {
   }
 }
 
-// Fixed navbar position
-.navbar-fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1030;
+.navbar-plancks {
+  @extend .navbar;
+  position: relative;
+  height: 100px;
+  z-index: 998;
+  background-color: #352F71 !important;
+  
+  nav {
+    position: fixed;
+  }
+  
+  .nav-container {
+    height: 100px;
+    line-height: 100px;
+  }
+  
+  .nav-link {
+    color: white !important;
+    line-height: 100px;
+    
+    &:hover, &:focus, &.active {
+      background-color: rgba(0, 167, 157, 0.1);
+      border-bottom: 2px solid #00a79d;
+    }
+  }
+
+  // Desktop dropdown styling
+  .dropdown-menu {
+    background-color: #352F71;
+    border: 1px solid #00a79d;
+    box-shadow: 0 2px 8px rgba(0, 167, 157, 0.2);
+    
+    .dropdown-item {
+      color: white;
+      
+      &:hover, &:focus {
+        background-color: rgba(0, 167, 157, 0.1);
+        border-left-color: #00a79d;
+        color: white;
+      }
+    }
+    
+    .dropdown-divider {
+      border-color: rgba(0, 167, 157, 0.2);
+    }
+  }
+
+  // Mobile sidebar
+  .offcanvas {
+    background-color: #352F71;
+    
+    .offcanvas-header {
+      border-bottom: 1px solid rgba(0, 167, 157, 0.2);
+      
+      .offcanvas-title a {
+        color: white;
+      }
+      
+      .btn-close {
+        &:focus {
+          box-shadow: 0 0 0 3px rgba(0, 167, 157, 0.4);
+        }
+      }
+    }
+
+    .collapse {
+      background-color: rgba(0, 167, 157, 0.05);
+      border-left: 3px solid #00a79d;
+      
+      .nav-link:hover {
+        background-color: rgba(0, 167, 157, 0.1);
+      }
+    }
+  }
+}
+
+@media #{$medium-and-up} {
+  .navbar-plancks {
+    height: 100px;
+    line-height: 100px;
+    
+    .nav-container {
+      height: 100px;
+      line-height: 100px;
+    }
+    
+    .nav-link {
+      line-height: 100px;
+    }
+  }
 }
