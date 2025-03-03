@@ -50,7 +50,7 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 31,
+        "teams": 32,
         "team_list": [
             "VDB",
             "Quartet Formació",
@@ -82,7 +82,8 @@
             "C7-Capu",
             "El Abismo de Helmholtz",
             "La plancha",
-            "Les Venus"
+            "Les Venus",
+            "Eric pesao "
         ]
     },
     {
@@ -133,7 +134,7 @@
         "university": "Universidad de Barcelona (UB)",
         "longitude": 2.1662,
         "latitude": 41.3879,
-        "teams": 9,
+        "teams": 11,
         "team_list": [
             "SU(137)",
             "4pbody",
@@ -143,7 +144,9 @@
             "Boltzgang",
             "Los Quentistas",
             "DIVERagència",
-            "Good Physicists "
+            "Good Physicists ",
+            "Wavefunction Warriors",
+            "Fans de Descartes"
         ]
     },
     {
@@ -176,7 +179,7 @@
         "university": "Universidad de Valladolid (UVA)",
         "longitude": -4.7245,
         "latitude": 41.6521,
-        "teams": 9,
+        "teams": 12,
         "team_list": [
             "PSIsicos",
             "Cocido Inercial",
@@ -186,7 +189,10 @@
             "Espiral de Eggman",
             "Black Hole Chilli Peppers",
             "La resisteΩcia",
-            "Venimos Bohrrachos"
+            "Venimos Bohrrachos",
+            "Chochones",
+            "Los Santacruceños",
+            "Uvas furiosas"
         ]
     },
     {
