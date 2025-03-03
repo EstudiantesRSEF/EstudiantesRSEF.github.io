@@ -198,3 +198,24 @@ nav {
     line-height: $navbar-height;
   }
 }
+  // Mobile sidebar styles
+  .offcanvas {
+    .offcanvas-header {
+      background-color: $primary-color;
+      color: $navbar-font-color;
+    }
+    
+    .nav-link {
+      padding: 0.5rem 1rem;
+      
+      &:hover {
+        background-color: rgba(0,0,0,.05);
+      }
+    }
+    
+    .collapse {
+      .nav-link {
+        padding-left: 2rem;
+      }
+    }
+  }
