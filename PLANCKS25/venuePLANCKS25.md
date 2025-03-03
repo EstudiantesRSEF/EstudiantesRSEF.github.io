@@ -244,7 +244,7 @@ permalink: /PLANCKS25/venue/
 <!-- SPONSORS -->
 <div class="section">
   <div class="row">
-	{% include patrocinadores.html sponsors=site.data.PLANCKS25.multiple.sponsors %} 
+	{% include PLANCKS25_patrocinadores.html %} 
   </div>
 </div>
 
