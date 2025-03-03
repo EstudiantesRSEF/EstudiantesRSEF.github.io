@@ -9,15 +9,18 @@
     </button>
 
     <!-- Desktop Navigation -->
+    <!-- Desktop Navigation -->
     <div class="collapse navbar-collapse d-none d-lg-block" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         {% for item in include.nav %}
           {% if item.subitems %}
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <!-- Add data-bs-toggle and aria attributes -->
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown{{ forloop.index }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 {{ item.text }}
               </a>
-              <ul class="dropdown-menu">
+              <!-- Add aria-labelledby to connect with button -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown{{ forloop.index }}">
                 {% if item.url %}
                   <li><a class="dropdown-item" href="{{ item.url }}">{{ item.text }}</a></li>
                   <li><hr class="dropdown-divider"></li>
