@@ -158,64 +158,90 @@ nav {
     line-height: 100px;
   }
 }
-
 .navbar {
-  box-shadow: 0 2px 4px rgba(0,0,0,.1);
-  background-color: $primary-color;
-  color: $navbar-font-color;
+  background-color: $primary-color !important;
   height: $navbar-height-mobile;
-  line-height: $navbar-height-mobile;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
   
+  .nav-container {
+    display: flex;
+    align-items: center;
+    min-height: $navbar-height-mobile;
+  }
+
+  // Brand styles
   .navbar-brand {
-    font-size: $navbar-brand-font-size;
-    padding: 0 1rem;
-    color: $navbar-font-color;
-    white-space: nowrap;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    color: $navbar-font-color !important;
+    margin-right: auto;
+    padding: 0.5rem 0;
+    line-height: 1.2;
+    white-space: normal;
+    display: flex;
+    align-items: center;
+    min-height: $navbar-height-mobile;
   }
-  
+
+  // Desktop nav items
   .nav-link {
-    font-size: 1rem;
-    color: $navbar-font-color;
-    padding: 0 15px;
-    transition: background-color .3s;
+    color: $navbar-font-color !important;
+    @include transition(background-color .3s);
+    padding: 0.5rem 1rem;
     
-    &:hover {
-      background-color: rgba(0,0,0,.1);
-    }
-    
-    &.dropdown-toggle::after {
-      margin-left: 0.5em;
+    &:hover, &:focus, &.active {
+      background-color: rgba(255,255,255,.1);
     }
   }
-  
+
+  // Dropdown styling
   .dropdown-menu {
-    border-radius: 0.25rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    background-color: $primary-color;
+    border: 1px solid rgba(255,255,255,0.2);
+    
+    .dropdown-item {
+      color: $navbar-font-color;
+      @include transition(background-color .3s);
+      
+      &:hover, &:focus {
+        background-color: rgba(255,255,255,.1);
+        color: $navbar-font-color;
+      }
+    }
+  }
+
+  // Mobile sidebar
+  .offcanvas {
+    background-color: $primary-color;
+    
+    .offcanvas-header {
+      min-height: $navbar-height-mobile;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      
+      .offcanvas-title {
+        color: $navbar-font-color;
+      }
+      
+      .btn-close {
+        filter: invert(1);
+      }
+    }
+
+    .nav-link {
+      &[data-bs-toggle="collapse"] {
+        position: relative;
+        
+        &::after {
+          border-top-color: $navbar-font-color;
+        }
+      }
+    }
   }
 
   @media #{$medium-and-up} {
     height: $navbar-height;
-    line-height: $navbar-height;
+    
+    .nav-container {
+      min-height: $navbar-height;
+    }
   }
 }
-  // Mobile sidebar styles
-  .offcanvas {
-    .offcanvas-header {
-      background-color: $primary-color;
-      color: $navbar-font-color;
-    }
-    
-    .nav-link {
-      padding: 0.5rem 1rem;
-      
-      &:hover {
-        background-color: rgba(0,0,0,.05);
-      }
-    }
-    
-    .collapse {
-      .nav-link {
-        padding-left: 2rem;
-      }
-    }
-  }
