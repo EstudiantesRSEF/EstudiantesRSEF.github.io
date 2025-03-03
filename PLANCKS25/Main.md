@@ -44,8 +44,10 @@ permalink: /PLANCKS25/
       <div class="section">
         <div class="row">
           <div class="col s12 m6 l6">
-            <a href="https://iaps.info/events/plancks/" target="_blank" id="boton-plancks" class="btn-plancks25 waves-effect waves-light">Learn more about PLANCKS</a>
-            <a href="{{ site.url }}" target="_blank" id="boton-gdee" class="btn-plancks25 waves-effect waves-light">Learn more about TC Spain</a>
+            <div class="row center">
+              <a href="https://iaps.info/events/plancks/" target="_blank" id="boton-plancks" class="btn-plancks25 waves-effect waves-light">Learn more about PLANCKS</a>
+              <a href="{{ site.url }}" target="_blank" id="boton-gdee" class="btn-plancks25 waves-effect waves-light">Learn more about TC Spain</a>
+            </div>
           </div>
         </div>
       </div>       	  
