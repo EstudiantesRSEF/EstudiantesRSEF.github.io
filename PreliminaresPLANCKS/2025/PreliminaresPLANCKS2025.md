@@ -66,7 +66,7 @@ permalink: /PreliminaresPLANCKS2025/
       <div class="section">  
         <div class="row center">
           <p style="text-align: justify;">¡Las inscripciones para las Preliminares de PLANCKS 2025 han sido un éxito! Hemos vuelto a superar el número de participantes, con un total de...</p>
-          <h3 style="text-align: center;">¡¡105 equipos en 19 sedes!!</h3>
+          <h3 style="text-align: center;">¡¡134 equipos en 28 sedes!!</h3>
           <p style="text-align: justify;">¡Gracias por ser parte de las Preliminares de PLANCKS 2025 y contribuir a su éxito!</p>
         </div>
       </div>
