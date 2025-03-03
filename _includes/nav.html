@@ -9,18 +9,15 @@
     </button>
 
     <!-- Desktop Navigation -->
-    <!-- Desktop Navigation -->
     <div class="collapse navbar-collapse d-none d-lg-block" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         {% for item in include.nav %}
           {% if item.subitems %}
             <li class="nav-item dropdown">
-              <!-- Add data-bs-toggle and aria attributes -->
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown{{ forloop.index }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 {{ item.text }}
               </a>
-              <!-- Add aria-labelledby to connect with button -->
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown{{ forloop.index }}">
+              <ul class="dropdown-menu">
                 {% if item.url %}
                   <li><a class="dropdown-item" href="{{ item.url }}">{{ item.text }}</a></li>
                   <li><hr class="dropdown-divider"></li>
@@ -46,9 +43,7 @@
     <!-- Mobile Sidebar -->
     <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="navbarOffcanvas" aria-labelledby="navbarOffcanvasLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="navbarOffcanvasLabel">
-          <a href="/" class="text-white text-decoration-none">GdeE</a>
-        </h5>
+        <h5 class="offcanvas-title" id="navbarOffcanvasLabel">GdeE</h5>
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
