@@ -271,22 +271,48 @@
   }
   .plancks-logo {
     position: absolute;
-    left: 0;
-    transform: translateX(-50%); // Move half of its width to the left
+    left: 15%; // Match container margin (container is 70% width, so 15% from left)
     top: -15px;
-    width: clamp(60px, 20vw, 100px); // Responsive width between 60px and 100px
-    height: clamp(60px, 20vw, 100px); // Keep aspect ratio
+    width: clamp(60px, 20vw, 100px);
+    height: clamp(60px, 20vw, 100px);
     border-radius: 50%;
     overflow: hidden;
     border: 3px solid #00a79d;
     box-shadow: 0 2px 8px rgba(0, 167, 157, 0.3);
     z-index: 999;
+    background-color: #352F71; // Match navbar background
     
     img {
       width: 100%;
       height: 100%;
-      object-fit: contain; // Changed to contain to prevent image distortion
-      padding: 5px; // Add some padding inside the circle
+      object-fit: contain;
+      padding: 5px;
+    }
+  }
+
+  // Adjust responsive behavior
+  @media #{$medium-and-up} {
+    .plancks-logo {
+      left: 15%;
+    }
+  }
+
+  @media #{$large-and-up} {
+    .plancks-logo {
+      left: 15%; // For larger screens
+    }
+  }
+
+  // Match container responsive widths
+  @media (max-width: 600px) {
+    .plancks-logo {
+      left: 5%; // For mobile (container is 90% width)
+    }
+  }
+
+  @media (min-width: 601px) and (max-width: 992px) {
+    .plancks-logo {
+      left: 7.5%; // For tablet (container is 85% width)
     }
   }
 
@@ -308,12 +334,6 @@
     
     .nav-link {
       line-height: 100px;
-    }
-
-    .plancks-logo {
-      transform: translateX(-40%); // Slightly different position for larger screens
-      width: clamp(80px, 20vw, 100px);
-      height: clamp(80px, 20vw, 100px);
     }
     
     .navbar-brand {
