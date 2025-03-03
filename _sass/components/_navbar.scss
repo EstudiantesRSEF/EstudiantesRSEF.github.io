@@ -4,25 +4,25 @@
   box-shadow: 0 2px 4px rgba(0,0,0,.1);
   
   // Container styles
-  .nav-container {
-    display: flex;
-    align-items: center;
-    height: $navbar-height-mobile; // Changed from min-height to height
-    overflow: hidden; // Prevent content from spilling out
+  // .nav-container {
+  //   display: flex;
+  //   align-items: center;
+  //   height: $navbar-height-mobile; // Changed from min-height to height
+  //   overflow: hidden; // Prevent content from spilling out
     
-    .navbar-nav {
-      height: 100%;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem; // Add space between nav items
-      // 
-      .nav-item {
-        height: 100%;
-        display: flex;
-        align-items: center;
-      }
-    }
-  }
+  //   .navbar-nav {
+  //     height: 100%;
+  //     display: flex;
+  //     align-items: center;
+  //     gap: 0.5rem; // Add space between nav items
+  //     // 
+  //     .nav-item {
+  //       height: 100%;
+  //       display: flex;
+  //       align-items: center;
+  //     }
+  //   }
+  // }
 
   // Desktop nav items
   // .nav-link {
