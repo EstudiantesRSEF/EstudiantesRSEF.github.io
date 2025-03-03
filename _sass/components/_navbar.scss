@@ -1,275 +1,275 @@
-// .navbar {
-//   background-color: $primary-color !important;
-//   height: $navbar-height-mobile;
-//   box-shadow: 0 2px 4px rgba(0,0,0,.1);
+.navbar {
+  background-color: $primary-color !important;
+  height: $navbar-height-mobile;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
   
-//   // Container styles
-//   .nav-container {
-//     display: flex;
-//     align-items: center;
-//     height: $navbar-height-mobile; // Changed from min-height to height
-//     overflow: hidden; // Prevent content from spilling out
+  // Container styles
+  // .nav-container {
+  //   display: flex;
+  //   align-items: center;
+  //   height: $navbar-height-mobile; // Changed from min-height to height
+  //   overflow: hidden; // Prevent content from spilling out
     
-//     .navbar-nav {
-//       height: 100%;
-//       display: flex;
-//       align-items: center;
-//       gap: 0.5rem; // Add space between nav items
-//       // 
-//       .nav-item {
-//         height: 100%;
-//         display: flex;
-//         align-items: center;
-//       }
-//     }
-//   }
+  //   .navbar-nav {
+  //     height: 100%;
+  //     display: flex;
+  //     align-items: center;
+  //     gap: 0.5rem; // Add space between nav items
+  //     // 
+  //     .nav-item {
+  //       height: 100%;
+  //       display: flex;
+  //       align-items: center;
+  //     }
+  //   }
+  // }
 
-//   // Desktop nav items
-//   .nav-link {
-//     color: $navbar-font-color !important;
-//     @include transition(all .3s); // Changed to all for smoother transitions
-//     padding: 0.75rem 1.25rem; // Increased horizontal padding
-//     margin: 0 0.25rem; // Added spacing between buttons
-//     border-radius: 4px; // Optional: adds subtle rounding
-//     height: 100%; // Make sure it fills navbar height
-//     display: flex;
-//     align-items: center;
+  // Desktop nav items
+  // .nav-link {
+  //   color: $navbar-font-color !important;
+  //   @include transition(all .3s); // Changed to all for smoother transitions
+  //   padding: 0.75rem 1.25rem; // Increased horizontal padding
+  //   margin: 0 0.25rem; // Added spacing between buttons
+  //   border-radius: 4px; // Optional: adds subtle rounding
+  //   height: 100%; // Make sure it fills navbar height
+  //   display: flex;
+  //   align-items: center;
     
-//     &:hover, &:focus, &.active {
-//       background-color: rgba(175, 225, 175, 0.1); // Light green background
-//       border-bottom: 2px solid #AFE1AF; // Green bottom border
-//     }
-//   }
-//   // Responsive adjustments
-//   @media #{$medium-and-up} {
-//     height: $navbar-height;
+  //   &:hover, &:focus, &.active {
+  //     background-color: rgba(175, 225, 175, 0.1); // Light green background
+  //     border-bottom: 2px solid #AFE1AF; // Green bottom border
+  //   }
+  // }
+  // // Responsive adjustments
+  // @media #{$medium-and-up} {
+  //   height: $navbar-height;
     
-//     .nav-container {
-//       height: $navbar-height; // Changed from min-height to height
-//     }
-//   }
-//   // Desktop dropdown styling
-//   .dropdown-menu {
-//     margin-top: 0.5rem; // Add some space between navbar and dropdown
-//     padding: 0.5rem 0;
-//     background-color: $primary-color;
-//     border: 1px solid #AFE1AF;
-//     box-shadow: 0 2px 8px rgba(175, 225, 175, 0.2);
+  //   .nav-container {
+  //     height: $navbar-height; // Changed from min-height to height
+  //   }
+  // }
+  // Desktop dropdown styling
+  .dropdown-menu {
+    margin-top: 0.5rem; // Add some space between navbar and dropdown
+    padding: 0.5rem 0;
+    background-color: $primary-color;
+    border: 1px solid #AFE1AF;
+    box-shadow: 0 2px 8px rgba(175, 225, 175, 0.2);
     
-//     .dropdown-item {
-//       color: $navbar-font-color;
-//       @include transition(all .3s);
-//       border-left: 3px solid transparent;
-//       padding: 0.75rem 1.25rem; // Match nav-link padding
+    .dropdown-item {
+      color: $navbar-font-color;
+      @include transition(all .3s);
+      border-left: 3px solid transparent;
+      padding: 0.75rem 1.25rem; // Match nav-link padding
       
-//       &:hover, &:focus {
-//         background-color: rgba(175, 225, 175, 0.1);
-//         border-left-color: #AFE1AF;
-//         color: $navbar-font-color;
-//       }
-//     }
-//     .dropdown-divider {
-//       border-color: rgba(255,255,255,0.1);
-//     }
-//   }
-//     // Container adjustment to prevent overflow
-//     .nav-container {
-//       display: flex;
-//       align-items: stretch; // Changed to stretch to fill height
-//       min-height: $navbar-height-mobile;
+      &:hover, &:focus {
+        background-color: rgba(175, 225, 175, 0.1);
+        border-left-color: #AFE1AF;
+        color: $navbar-font-color;
+      }
+    }
+    .dropdown-divider {
+      border-color: rgba(255,255,255,0.1);
+    }
+  }
+    // Container adjustment to prevent overflow
+    .nav-container {
+      display: flex;
+      align-items: stretch; // Changed to stretch to fill height
+      min-height: $navbar-height-mobile;
       
-//       .navbar-nav {
-//         display: flex;
-//         align-items: stretch; // Make items fill height
-//         height: 100%;
+      .navbar-nav {
+        display: flex;
+        align-items: stretch; // Make items fill height
+        height: 100%;
         
-//         .nav-item {
-//           display: flex;
-//           align-items: stretch; // Make items fill height
-//         }
-//       }
-//     }
+        .nav-item {
+          display: flex;
+          align-items: stretch; // Make items fill height
+        }
+      }
+    }
 
-//   // Mobile sidebar
-//   .offcanvas {
-//     background-color: $primary-color;
+  // Mobile sidebar
+  .offcanvas {
+    background-color: $primary-color;
     
-//     .offcanvas-header {
-//       min-height: $navbar-height-mobile;
-//       border-bottom: 1px solid rgba(255,255,255,0.2);
-//       padding: 1rem;
+    .offcanvas-header {
+      min-height: $navbar-height-mobile;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      padding: 1rem;
       
-//       .offcanvas-title {
-//         color: $navbar-font-color;
-//         cursor: pointer;
+      .offcanvas-title {
+        color: $navbar-font-color;
+        cursor: pointer;
         
-//         a {
-//           color: $navbar-font-color;
-//           text-decoration: none;
+        a {
+          color: $navbar-font-color;
+          text-decoration: none;
           
-//           &:hover {
-//             opacity: 0.8;
-//           }
-//         }
-//       }
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+      }
       
-//       .btn-close {
-//         filter: invert(1);
-//         transition: all 0.3s;
+      .btn-close {
+        filter: invert(1);
+        transition: all 0.3s;
         
-//         &:focus {
-//           box-shadow: 0 0 0 3px rgba(147, 112, 219, 0.4);
-//           opacity: 1;
-//         }
-//       }
-//     }
+        &:focus {
+          box-shadow: 0 0 0 3px rgba(147, 112, 219, 0.4);
+          opacity: 1;
+        }
+      }
+    }
 
-//     .offcanvas-body {
-//       padding: 1rem;
-//     }
+    .offcanvas-body {
+      padding: 1rem;
+    }
 
-//     // Mobile dropdown styling
-//     .collapse {
-//       background-color: rgba(255,255,255,.05);
-//       margin: 0.5rem 0;
-//       padding: 0.5rem 0;
-//       border-radius: 4px;
-//       border-left: 3px solid #AFE1AF;
+    // Mobile dropdown styling
+    .collapse {
+      background-color: rgba(255,255,255,.05);
+      margin: 0.5rem 0;
+      padding: 0.5rem 0;
+      border-radius: 4px;
+      border-left: 3px solid #AFE1AF;
       
-//       .nav-link {
-//         padding: 0.5rem 1.5rem;
+      .nav-link {
+        padding: 0.5rem 1.5rem;
         
-//         &:hover {
-//           background-color: rgba(255,255,255,.1);
-//         }
-//       }
-//     }
+        &:hover {
+          background-color: rgba(255,255,255,.1);
+        }
+      }
+    }
 
-//     // Mobile dropdown toggle
-//     .nav-link {
-//       &[data-bs-toggle="collapse"] {
-//         position: relative;
-//         display: flex;
-//         justify-content: space-between;
-//         align-items: center;
+    // Mobile dropdown toggle
+    .nav-link {
+      &[data-bs-toggle="collapse"] {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         
-//         &::after {
-//           content: '';
-//           border-top: 0.3em solid $navbar-font-color;
-//           border-right: 0.3em solid transparent;
-//           border-left: 0.3em solid transparent;
-//           transition: transform 0.3s;
-//         }
+        &::after {
+          content: '';
+          border-top: 0.3em solid $navbar-font-color;
+          border-right: 0.3em solid transparent;
+          border-left: 0.3em solid transparent;
+          transition: transform 0.3s;
+        }
         
-//         &[aria-expanded="true"]::after {
-//           transform: rotate(180deg);
-//         }
-//       }
-//     }
-//   }
+        &[aria-expanded="true"]::after {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
 
-//   // Responsive adjustments
-//   @media #{$medium-and-up} {
-//     height: $navbar-height;
+  // Responsive adjustments
+  @media #{$medium-and-up} {
+    height: $navbar-height;
     
-//     .nav-container {
-//       min-height: $navbar-height;
-//     }
+    .nav-container {
+      min-height: $navbar-height;
+    }
     
-//     .navbar-brand {
-//       min-height: $navbar-height;
-//     }
-//   }
-// }
+    .navbar-brand {
+      min-height: $navbar-height;
+    }
+  }
+}
 
-// .navbar-plancks {
-//   @extend .navbar;
-//   position: relative;
-//   height: 100px;
-//   z-index: 998;
-//   background-color: #352F71 !important;
+.navbar-plancks {
+  @extend .navbar;
+  position: relative;
+  height: 100px;
+  z-index: 998;
+  background-color: #352F71 !important;
   
-//   nav {
-//     position: fixed;
-//   }
+  nav {
+    position: fixed;
+  }
   
-//   .nav-container {
-//     height: 100px;
-//     line-height: 100px;
-//   }
+  .nav-container {
+    height: 100px;
+    line-height: 2em;
+  }
   
-//   .nav-link {
-//     color: white !important;
-//     line-height: 100px;
+  .nav-link {
+    color: white !important;
+    line-height: 2em;
     
-//     &:hover, &:focus, &.active {
-//       background-color: rgba(0, 167, 157, 0.1);
-//       border-bottom: 2px solid #00a79d;
-//     }
-//   }
+    &:hover, &:focus, &.active {
+      background-color: rgba(0, 167, 157, 0.1);
+      border-bottom: 2px solid #00a79d;
+    }
+  }
 
-//   // Desktop dropdown styling
-//   .dropdown-menu {
-//     background-color: #352F71;
-//     border: 1px solid #00a79d;
-//     box-shadow: 0 2px 8px rgba(0, 167, 157, 0.2);
+  // Desktop dropdown styling
+  .dropdown-menu {
+    background-color: #352F71;
+    border: 1px solid #00a79d;
+    box-shadow: 0 2px 8px rgba(0, 167, 157, 0.2);
     
-//     .dropdown-item {
-//       color: white;
+    .dropdown-item {
+      color: white;
       
-//       &:hover, &:focus {
-//         background-color: rgba(0, 167, 157, 0.1);
-//         border-left-color: #00a79d;
-//         color: white;
-//       }
-//     }
+      &:hover, &:focus {
+        background-color: rgba(0, 167, 157, 0.1);
+        border-left-color: #00a79d;
+        color: white;
+      }
+    }
     
-//     .dropdown-divider {
-//       border-color: rgba(0, 167, 157, 0.2);
-//     }
-//   }
+    .dropdown-divider {
+      border-color: rgba(0, 167, 157, 0.2);
+    }
+  }
 
-//   // Mobile sidebar
-//   .offcanvas {
-//     background-color: #352F71;
+  // Mobile sidebar
+  .offcanvas {
+    background-color: #352F71;
     
-//     .offcanvas-header {
-//       border-bottom: 1px solid rgba(0, 167, 157, 0.2);
+    .offcanvas-header {
+      border-bottom: 1px solid rgba(0, 167, 157, 0.2);
       
-//       .offcanvas-title a {
-//         color: white;
-//       }
+      .offcanvas-title a {
+        color: white;
+      }
       
-//       .btn-close {
-//         &:focus {
-//           box-shadow: 0 0 0 3px rgba(0, 167, 157, 0.4);
-//         }
-//       }
-//     }
+      .btn-close {
+        &:focus {
+          box-shadow: 0 0 0 3px rgba(0, 167, 157, 0.4);
+        }
+      }
+    }
 
-//     .collapse {
-//       background-color: rgba(0, 167, 157, 0.05);
-//       border-left: 3px solid #00a79d;
+    .collapse {
+      background-color: rgba(0, 167, 157, 0.05);
+      border-left: 3px solid #00a79d;
       
-//       .nav-link:hover {
-//         background-color: rgba(0, 167, 157, 0.1);
-//       }
-//     }
-//   }
-// }
+      .nav-link:hover {
+        background-color: rgba(0, 167, 157, 0.1);
+      }
+    }
+  }
+}
 
-// @media #{$medium-and-up} {
-//   .navbar-plancks {
-//     height: 100px;
-//     line-height: 100px;
+@media #{$medium-and-up} {
+  .navbar-plancks {
+    height: 100px;
+    line-height: 100px;
     
-//     .nav-container {
-//       height: 100px;
-//       line-height: 100px;
-//     }
+    .nav-container {
+      height: 100px;
+      line-height: 100px;
+    }
     
-//     .nav-link {
-//       line-height: 100px;
-//     }
-//   }
-// }
+    .nav-link {
+      line-height: 100px;
+    }
+  }
+}
