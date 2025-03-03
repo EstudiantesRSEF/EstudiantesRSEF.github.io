@@ -25,29 +25,29 @@
   // }
 
   // Desktop nav items
-  // .nav-link {
-  //   color: $navbar-font-color !important;
-  //   @include transition(all .3s); // Changed to all for smoother transitions
-  //   padding: 0.75rem 1.25rem; // Increased horizontal padding
-  //   margin: 0 0.25rem; // Added spacing between buttons
-  //   border-radius: 4px; // Optional: adds subtle rounding
-  //   height: 100%; // Make sure it fills navbar height
-  //   display: flex;
-  //   align-items: center;
+  .nav-link {
+    color: $navbar-font-color !important;
+    @include transition(all .3s); // Changed to all for smoother transitions
+    padding: 0.75rem 1.25rem; // Increased horizontal padding
+    margin: 0 0.25rem; // Added spacing between buttons
+    border-radius: 4px; // Optional: adds subtle rounding
+    height: 100%; // Make sure it fills navbar height
+    display: flex;
+    align-items: center;
     
-  //   &:hover, &:focus, &.active {
-  //     background-color: rgba(175, 225, 175, 0.1); // Light green background
-  //     border-bottom: 2px solid #AFE1AF; // Green bottom border
-  //   }
-  // }
-  // // Responsive adjustments
-  // @media #{$medium-and-up} {
-  //   height: $navbar-height;
+    &:hover, &:focus, &.active {
+      background-color: rgba(175, 225, 175, 0.1); // Light green background
+      border-bottom: 2px solid #AFE1AF; // Green bottom border
+    }
+  }
+  // Responsive adjustments
+  @media #{$medium-and-up} {
+    height: $navbar-height;
     
-  //   .nav-container {
-  //     height: $navbar-height; // Changed from min-height to height
-  //   }
-  // }
+    .nav-container {
+      height: $navbar-height; // Changed from min-height to height
+    }
+  }
   // Desktop dropdown styling
   .dropdown-menu {
     margin-top: 0.5rem; // Add some space between navbar and dropdown
