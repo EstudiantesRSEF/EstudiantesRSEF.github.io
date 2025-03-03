@@ -23,6 +23,20 @@
     }
   }
 
+  .navbar-brand {
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    color: $navbar-font-color !important;
+    padding: 0;  // Remove padding
+    margin: 0 auto 0 0;
+    height: 100%;  // Take full height
+    display: flex;
+    align-items: center;  // Center vertically
+    
+    strong {
+      display: inline-flex;  // Added to maintain alignment
+      align-items: center;
+    }
+  }
   // Desktop nav items
   .nav-link {
     color: $navbar-font-color !important;
