@@ -161,14 +161,27 @@ nav {
 
 .navbar {
   box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  background-color: $primary-color;
+  color: $navbar-font-color;
+  height: $navbar-height-mobile;
+  line-height: $navbar-height-mobile;
   
   .navbar-brand {
-    font-size: 1.5rem;
-    padding: 0.5rem 1rem;
+    font-size: $navbar-brand-font-size;
+    padding: 0 1rem;
+    color: $navbar-font-color;
+    white-space: nowrap;
   }
   
   .nav-link {
-    padding: 1rem;
+    font-size: 1rem;
+    color: $navbar-font-color;
+    padding: 0 15px;
+    transition: background-color .3s;
+    
+    &:hover {
+      background-color: rgba(0,0,0,.1);
+    }
     
     &.dropdown-toggle::after {
       margin-left: 0.5em;
@@ -178,5 +191,10 @@ nav {
   .dropdown-menu {
     border-radius: 0.25rem;
     box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  }
+
+  @media #{$medium-and-up} {
+    height: $navbar-height;
+    line-height: $navbar-height;
   }
 }

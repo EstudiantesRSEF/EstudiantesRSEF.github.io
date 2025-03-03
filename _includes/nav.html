@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
+  <div class="container">
     <!-- Brand -->
     <a class="navbar-brand" href="/"><strong>Grupo de Estudiantes RSEF</strong></a>
     
@@ -42,79 +42,3 @@
   </div>
 </nav>
 
-
-<!-- {% assign navurl = page.url | remove: 'index.html' %}
-{% for item in include.nav %}
-    {% if item.subitems %}
-    <ul id="dropdown-{{ item.slug }}" class="dropdown-content">
-      {% if item.url != nil %}
-      <li><a href="{{ item.url }}" style="font-size: 1rem">{{ item.text }}</a></li>
-      {% endif %}
-      {% for subitem in item.subitems %}
-      <li><a href="{{ subitem.url }}" {% if subitem.blank != nil %} target="_blank" {% endif %} style="font-size: 1rem">{{ subitem.text }}</a></li>
-      {% endfor %}
-    </ul>
-{% endif %}
-{% endfor %}
-
-<div class="navbar-fixed">
-  <nav class="EstudiantesRSEF" role="navigation">
-      <div class="nav-wrapper container">
-          <a href="#" data-activates="nav-mobile" class="button-collapse hide-on-large-only"><i class="material-icons">menu</i></a>
-          <a id="logo-container" href="/index.html"><strong>Grupo de Estudiantes RSEF</strong></a>
-
-          <ul class="right hide-on-med-and-down">
-            {% for item in include.nav %}
-            {% if item.subitems %}
-            <li>
-              <a class="dropdown-button" href="{{ item.url }}" data-activates="dropdown-{{ item.slug }}" style="font-size: 1rem">{{ item.text }}<i class="material-icons right">arrow_drop_down</i></a>
-            </li>
-            {% else %}
-              <li>
-                  <a href="{{ item.url }}" style="font-size: 1rem">
-                      {% if item.url == navurl %}
-                          <b>{{ item.text }}</b>
-                      {% else %}
-                          {{ item.text }}
-                      {% endif %}
-                  </a>
-              </li>
-              {% endif %}
-          {% endfor %}
-          </ul>
-
-          <ul id="nav-mobile" class="side-nav">
-              <li class="logo"><a id="mobile-logo-container" href="/"><object id="front-page-logo" type="image/png" style="width:100%; height:100%;" data="/img/logo_centered.jpg">Your browser does not support PNG</object></a></li>
-              {% for item in include.nav %}
-                  {% if item.subitems %}
-                  <li class="no-padding">
-                  <ul class="collapsible collapsible-accordion">
-                    <li>
-                        <a class="collapsible-header">{{ item.text }}</a>
-                      <div class="collapsible-body">
-                        <ul>
-                      {% if item.url != nil %}
-                          <li><a href="{{ item.url }}">{{ item.text }}</a></li>
-                      {% endif %}
-                      {% for subitem in item.subitems %}
-                          <li><a href="{{ subitem.url }}">{{ subitem.text }}</a></li>
-                      {% endfor %}
-                        </ul>
-                      </div>
-                    </li>
-                  </ul>
-                  </li>
-                  {% else %}
-                  <li><a href="{{ item.url }}">
-                    {% if item.url == navurl %}
-                    {{ item.text }}
-                    {% else %}
-                    {{ item.text }}
-                    {% endif %}
-                  </a></li>
-                  {% endif %}
-              {% endfor %}
-          </ul>
-      </div>
-  </nav>
-</div> -->
