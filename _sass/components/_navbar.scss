@@ -158,3 +158,25 @@ nav {
     line-height: 100px;
   }
 }
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-link {
+    padding: 1rem;
+    
+    &.dropdown-toggle::after {
+      margin-left: 0.5em;
+    }
+  }
+  
+  .dropdown-menu {
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  }
+}
