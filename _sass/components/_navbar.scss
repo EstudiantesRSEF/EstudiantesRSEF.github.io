@@ -198,10 +198,10 @@
 
   .plancks-logo {
     position: absolute;
-    left: 0;
-    top: -15px;
-    width: clamp(60px, 20vw, 100px);
-    height: clamp(60px, 20vw, 100px);
+    left: 20px;
+    top: 0px;
+    width: clamp(60px, 20vw, 150px);
+    height: clamp(60px, 20vw, 150px);
     border-radius: 50%;
     overflow: hidden;
     border: 3px solid #00a79d;
@@ -215,6 +215,10 @@
       object-fit: contain;
       padding: 5px;
     }
+  }
+
+  .plancks-logo-link {
+    display: inline-block;
   }
 
   // Brand position after logo
