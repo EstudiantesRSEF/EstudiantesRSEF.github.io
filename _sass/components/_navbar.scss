@@ -91,6 +91,7 @@
     
     &:focus {
       box-shadow: none;
+      background-color: lighten($primary-color, 10%);
     }
     
     .navbar-toggler-icon {
@@ -224,7 +225,12 @@
       border-bottom: 2px solid #00a79d;
     }
   }
-
+  // Toggle button
+  .navbar-toggler {      
+      &:focus {
+        background-color: lighten(#352F71, 10%);
+      }
+    }
   // Responsive adjustments
   @media #{$medium-and-up} {
     height: 100px;
