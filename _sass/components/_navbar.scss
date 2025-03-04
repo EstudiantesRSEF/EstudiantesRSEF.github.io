@@ -28,8 +28,6 @@
   .navbar-brand {
     font-size: clamp(1rem, 2.5vw, 1.25rem);
     color: $navbar-font-color !important;
-    padding: 0.5rem 0;
-    margin: 0 auto 0 0;
     height: 100%;
     display: flex;
     align-items: center;
@@ -197,9 +195,9 @@
   }
 
   .plancks-logo {
-    position: absolute;
-    left: 50px;;
-    top: 5px;
+    // position: absolute;
+    // left: 50px;;
+    // top: 5px;
     width: clamp(60px, 18vw, 165px);
     height: clamp(60px, 18vw, 165px);
     border-radius: 50%;
@@ -229,8 +227,6 @@
 
   // Brand position after logo
   .navbar-brand {
-    margin-left: calc(clamp(60px, 20vw, 100px) + 20px); // Logo width + spacing
-    padding-left: 0; // Remove padding to align text with edge
     line-height: 1.1em;
     text-align: left;
     max-width: calc(100% - (clamp(60px, 20vw, 100px) + 40px));
