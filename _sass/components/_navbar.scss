@@ -216,12 +216,19 @@
       padding: 5px;
     }
   }
+  
   @media (max-width: 768px) {
     .plancks-logo {
         left: 5px;
     }
+  }
 
-
+  @media (max-width: 1080px) {
+    .plancks-logo {
+        left: 20px;
+    }
+  }
+  
   .plancks-logo-link {
     display: inline-block;
   }
