@@ -198,7 +198,7 @@
 
   .plancks-logo {
     position: absolute;
-    left: 20px;
+    left: 60px;
     top: 5px;
     width: clamp(60px, 20vw, 180px);
     height: clamp(60px, 20vw, 180px);
@@ -220,11 +220,7 @@
     .plancks-logo {
         left: 5px;
     }
-  @media (min-width: 1080px) {
-    .plancks-logo {
-        left: 60px;
-    }
-}
+
 
   .plancks-logo-link {
     display: inline-block;
