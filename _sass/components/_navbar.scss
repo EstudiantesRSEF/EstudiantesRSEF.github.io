@@ -195,9 +195,6 @@
   }
 
   .plancks-logo {
-    // position: absolute;
-    // left: 50px;;
-    // top: 5px;
     width: clamp(60px, 18vw, 165px);
     height: auto;
     border-radius: 50%;
@@ -216,10 +213,6 @@
       padding: 5px;
     }
   }
-  
-  .plancks-logo-link {
-    display: inline-block;
-  }
 
   // Brand position after logo
   .navbar-brand {
@@ -231,13 +224,14 @@
       display: block; // Allow proper text wrapping
       text-align: left;
       padding-left: 4vw;
+      line-height: 2rem;
+      font-size: 2rem;
     }
   }
 
   // Container adjustments
   .nav-container {
     height: 100px;
-    padding-left: max(15%, calc(clamp(60px, 20vw, 100px) + 20px)); // Match container margin or logo width
   }
 
   .nav-link {
