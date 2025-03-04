@@ -199,25 +199,21 @@
     // left: 50px;;
     // top: 5px;
     width: clamp(60px, 18vw, 165px);
-    height: clamp(60px, 18vw, 165px);
+    height: auto;
     border-radius: 50%;
     overflow: hidden;
     border: 3px solid #00a79d;
     box-shadow: 0 2px 8px rgba(0, 167, 157, 0.3);
     z-index: 999;
     background-color: #352F71;
+    position: relative;
+    bottom:-3vw;
     
     img {
       width: 100%;
       height: 100%;
       object-fit: contain;
       padding: 5px;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .plancks-logo {
-        left: 5px;
     }
   }
   
@@ -234,6 +230,7 @@
     strong {
       display: block; // Allow proper text wrapping
       text-align: left;
+      padding-left: 4vw;
     }
   }
 
@@ -241,17 +238,6 @@
   .nav-container {
     height: 100px;
     padding-left: max(15%, calc(clamp(60px, 20vw, 100px) + 20px)); // Match container margin or logo width
-  }
-  
-  @media (max-width: 600px) {
-    .nav-container {
-      padding-left: calc(clamp(60px, 20vw, 100px) + 10px); // Tighter spacing on mobile
-    }
-      
-    .navbar-brand {
-      margin-left: calc(clamp(60px, 20vw, 100px) + 10px);
-      font-size: clamp(0.875rem, 2vw, 1rem); // Smaller font on mobile
-    }
   }
 
   .nav-link {
