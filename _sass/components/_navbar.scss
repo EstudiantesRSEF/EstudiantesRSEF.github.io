@@ -7,14 +7,15 @@
   .nav-container {
     display: flex;
     align-items: center;
-    height: $navbar-height-mobile; // Changed from min-height to height
+    height: $navbar-height-mobile;
+    padding-left: 0; // Remove left padding
     
     .navbar-nav {
       height: 100%;
       display: flex;
       align-items: center;
-      gap: 0.5rem; // Add space between nav items
-      // 
+      gap: 0.75rem; // Increased space between nav items
+      
       .nav-item {
         height: 100%;
         display: flex;
@@ -23,85 +24,80 @@
     }
   }
 
+  // Brand/Logo styles
   .navbar-brand {
     font-size: clamp(1rem, 2.5vw, 1.25rem);
     color: $navbar-font-color !important;
-    padding: 0;  // Remove padding
+    padding: 0.5rem 0;
     margin: 0 auto 0 0;
-    height: 100%;  // Take full height
+    height: 100%;
     display: flex;
-    align-items: center;  // Center vertically
+    align-items: center;
+    line-height: 1.1em;
+    white-space: normal; // Allow text wrapping
     
     strong {
-      display: inline-flex;  // Added to maintain alignment
+      display: inline-flex;
       align-items: center;
     }
   }
+
   // Desktop nav items
   .nav-link {
     color: $navbar-font-color !important;
-    @include transition(all .3s); // Changed to all for smoother transitions
-    padding: 0.75rem 1.25rem; // Increased horizontal padding
-    margin: 0 0.25rem; // Added spacing between buttons
-    border-radius: 4px; // Optional: adds subtle rounding
-    height: 100%; // Make sure it fills navbar height
+    @include transition(all .3s);
+    padding: 0.75rem 1.25rem;
+    margin: 0 0.25rem;
+    border-radius: 4px;
+    height: 100%;
     display: flex;
     align-items: center;
     
     &:hover, &:focus, &.active {
-      background-color: rgba(175, 225, 175, 0.1); // Light green background
-      border-bottom: 2px solid #AFE1AF; // Green bottom border
+      background-color: rgba(255,255,255,.1);
     }
   }
-  // Responsive adjustments
-  @media #{$medium-and-up} {
-    height: $navbar-height;
-    
-    .nav-container {
-      height: $navbar-height; // Changed from min-height to height
-    }
-  }
-  // Desktop dropdown styling
+
+  // Dropdown styling
   .dropdown-menu {
-    margin-top: 0.5rem; // Add some space between navbar and dropdown
-    padding: 0.5rem 0;
     background-color: $primary-color;
-    border: 1px solid #AFE1AF;
-    box-shadow: 0 2px 8px rgba(175, 225, 175, 0.2);
+    border: 1px solid #00a79d;
+    box-shadow: 0 2px 8px rgba(0, 167, 157, 0.2);
+    padding: 0.5rem 0;
     
     .dropdown-item {
       color: $navbar-font-color;
       @include transition(all .3s);
       border-left: 3px solid transparent;
-      padding: 0.75rem 1.25rem; // Match nav-link padding
+      padding: 0.75rem 1.25rem;
       
       &:hover, &:focus {
-        background-color: rgba(175, 225, 175, 0.1);
-        border-left-color: #AFE1AF;
+        background-color: rgba(0, 167, 157, 0.1);
+        border-left-color: #00a79d;
         color: $navbar-font-color;
       }
     }
+
     .dropdown-divider {
       border-color: rgba(255,255,255,0.1);
     }
   }
-    // Container adjustment to prevent overflow
-    .nav-container {
-      display: flex;
-      align-items: stretch; // Changed to stretch to fill height
-      min-height: $navbar-height-mobile;
-      
-      .navbar-nav {
-        display: flex;
-        align-items: stretch; // Make items fill height
-        height: 100%;
-        
-        .nav-item {
-          display: flex;
-          align-items: stretch; // Make items fill height
-        }
-      }
+
+  // Toggle button
+  .navbar-toggler {
+    padding: 0.375rem 0.75rem;
+    border: none;
+    height: auto;
+    
+    &:focus {
+      box-shadow: none;
     }
+    
+    .navbar-toggler-icon {
+      width: 1.5em;
+      height: 1.5em;
+    }
+  }
 
   // Mobile sidebar
   .offcanvas {
@@ -114,7 +110,6 @@
       
       .offcanvas-title {
         color: $navbar-font-color;
-        cursor: pointer;
         
         a {
           color: $navbar-font-color;
@@ -128,10 +123,10 @@
       
       .btn-close {
         filter: invert(1);
-        transition: all 0.3s;
+        opacity: 0.8;
         
         &:focus {
-          box-shadow: 0 0 0 3px rgba(147, 112, 219, 0.4);
+          box-shadow: none;
           opacity: 1;
         }
       }
@@ -147,10 +142,11 @@
       margin: 0.5rem 0;
       padding: 0.5rem 0;
       border-radius: 4px;
-      border-left: 3px solid #AFE1AF;
+      border-left: 3px solid #00a79d;
       
       .nav-link {
         padding: 0.5rem 1.5rem;
+        height: auto;
         
         &:hover {
           background-color: rgba(255,255,255,.1);
@@ -165,6 +161,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        height: auto;
         
         &::after {
           content: '';
@@ -180,98 +177,23 @@
       }
     }
   }
-
-  // Responsive adjustments
-  @media #{$medium-and-up} {
-    height: $navbar-height;
-    
-    .nav-container {
-      min-height: $navbar-height;
-    }
-    
-    .navbar-brand {
-      min-height: $navbar-height;
-    }
-  }
 }
 
+// PLANCKS specific styles
 .navbar-plancks {
   @extend .navbar;
   position: relative;
   height: 100px;
   z-index: 998;
   background-color: #352F71 !important;
-  
-  nav {
-    position: fixed;
-  }
-  
+
   .nav-container {
     height: 100px;
-    line-height: 2em;
-  }
-  
-  .nav-link {
-    color: white !important;
-    line-height: 2em;
-    
-    &:hover, &:focus, &.active {
-      background-color: rgba(0, 167, 157, 0.1);
-      border-bottom: 2px solid #00a79d;
-    }
   }
 
-  // Desktop dropdown styling
-  .dropdown-menu {
-    background-color: #352F71;
-    border: 1px solid #00a79d;
-    box-shadow: 0 2px 8px rgba(0, 167, 157, 0.2);
-    
-    .dropdown-item {
-      color: white;
-      
-      &:hover, &:focus {
-        background-color: rgba(0, 167, 157, 0.1);
-        border-left-color: #00a79d;
-        color: white;
-      }
-    }
-    
-    .dropdown-divider {
-      border-color: rgba(0, 167, 157, 0.2);
-    }
-  }
-
-  // Mobile sidebar
-  .offcanvas {
-    background-color: #352F71;
-    
-    .offcanvas-header {
-      border-bottom: 1px solid rgba(0, 167, 157, 0.2);
-      
-      .offcanvas-title a {
-        color: white;
-      }
-      
-      .btn-close {
-        &:focus {
-          box-shadow: 0 0 0 3px rgba(0, 167, 157, 0.4);
-        }
-      }
-    }
-
-    .collapse {
-      background-color: rgba(0, 167, 157, 0.05);
-      border-left: 3px solid #00a79d;
-      
-      .nav-link:hover {
-        background-color: rgba(0, 167, 157, 0.1);
-      }
-    }
-  }
   .plancks-logo {
     position: absolute;
-    left: 15%; // Match container margin (container is 70% width, so 15% from left)
+    left: 0;
     top: -15px;
     width: clamp(60px, 20vw, 100px);
     height: clamp(60px, 20vw, 100px);
@@ -280,7 +202,7 @@
     border: 3px solid #00a79d;
     box-shadow: 0 2px 8px rgba(0, 167, 157, 0.3);
     z-index: 999;
-    background-color: #352F71; // Match navbar background
+    background-color: #352F71;
     
     img {
       width: 100%;
@@ -290,54 +212,26 @@
     }
   }
 
-  // Adjust responsive behavior
-  @media #{$medium-and-up} {
-    .plancks-logo {
-      left: 15%;
-    }
-  }
-
-  @media #{$large-and-up} {
-    .plancks-logo {
-      left: 15%; // For larger screens
-    }
-  }
-
-  // Match container responsive widths
-  @media (max-width: 600px) {
-    .plancks-logo {
-      left: 5%; // For mobile (container is 90% width)
-    }
-  }
-
-  @media (min-width: 601px) and (max-width: 992px) {
-    .plancks-logo {
-      left: 7.5%; // For tablet (container is 85% width)
-    }
-  }
-
-  // Adjust brand position
+  // Brand position after logo
   .navbar-brand {
-    margin-left: max(80px, 10vw); // Responsive margin that scales with viewport
+    padding-left: max(70px, calc(20vw - 20px));
+    line-height: 1.1em;
   }
-}
 
-@media #{$medium-and-up} {
-  .navbar-plancks {
+  .nav-link {
+    &:hover, &:focus, &.active {
+      background-color: rgba(0, 167, 157, 0.1);
+      border-bottom: 2px solid #00a79d;
+    }
+  }
+
+  // Responsive adjustments
+  @media #{$medium-and-up} {
     height: 100px;
     line-height: 100px;
     
     .nav-container {
       height: 100px;
-      line-height: 100px;
-    }
-    
-    .nav-link {
-      line-height: 100px;
-    }
-    
-    .navbar-brand {
-      margin-left: 100px;
     }
   }
 }
