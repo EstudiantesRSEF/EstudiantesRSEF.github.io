@@ -200,8 +200,8 @@
     position: absolute;
     left: 60px;
     top: 5px;
-    width: clamp(60px, 20vw, 150px);
-    height: clamp(60px, 20vw, 150px);
+    width: clamp(60px, 20vw, 180px);
+    height: clamp(60px, 20vw, 180px);
     border-radius: 50%;
     overflow: hidden;
     border: 3px solid #00a79d;
@@ -219,6 +219,10 @@
   @media (max-width: 768px) {
     .plancks-logo {
         left: 5px;
+    }
+  @media (max-width: 1080px) {
+    .plancks-logo {
+        left: 20px;
     }
 }
 
