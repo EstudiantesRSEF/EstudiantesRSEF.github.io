@@ -215,7 +215,7 @@
 
   // Brand position after logo
   .navbar-brand {
-    padding-left: max(70px, calc(20vw - 20px));
+    // padding-left: max(70px, calc(20vw - 20px));
     line-height: 1.1em;
   }
 
@@ -238,6 +238,20 @@
     
     .nav-container {
       height: 100px;
+    }
+  }
+  .offcanvas {
+    background-color: #352F71;
+
+    .collapse {
+      background-color: #352F71;
+      border-left: 3px solid #00a79d;
+      
+      .nav-link {        
+        &:hover {
+          background-color: lighten(#352F71, 10%);
+        }
+      }
     }
   }
 }
