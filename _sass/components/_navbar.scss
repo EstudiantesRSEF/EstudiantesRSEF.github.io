@@ -198,10 +198,10 @@
 
   .plancks-logo {
     position: absolute;
-    left: 60px;
+    left: clamp(5px, 5vw, 70px);;
     top: 5px;
-    width: clamp(60px, 20vw, 180px);
-    height: clamp(60px, 20vw, 180px);
+    width: clamp(60px, 20vw, 165px);
+    height: clamp(60px, 20vw, 165px);
     border-radius: 50%;
     overflow: hidden;
     border: 3px solid #00a79d;
@@ -214,18 +214,6 @@
       height: 100%;
       object-fit: contain;
       padding: 5px;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .plancks-logo {
-        left: 5px;
-    }
-  }
-
-  @media (max-width: 1080px) {
-    .plancks-logo {
-        left: 20px;
     }
   }
   
