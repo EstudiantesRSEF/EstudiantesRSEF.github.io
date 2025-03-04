@@ -219,8 +219,33 @@
 
   // Brand position after logo
   .navbar-brand {
-    padding-left: max(70px, calc(20vw - 20px));
+    margin-left: calc(clamp(60px, 20vw, 100px) + 20px); // Logo width + spacing
+    padding-left: 0; // Remove padding to align text with edge
     line-height: 1.1em;
+    text-align: left;
+    max-width: calc(100% - (clamp(60px, 20vw, 100px) + 40px));
+
+    strong {
+      display: block; // Allow proper text wrapping
+      text-align: left;
+    }
+  }
+
+  // Container adjustments
+  .nav-container {
+    height: 100px;
+    padding-left: max(15%, calc(clamp(60px, 20vw, 100px) + 20px)); // Match container margin or logo width
+  }
+  
+  @media (max-width: 600px) {
+    .nav-container {
+      padding-left: calc(clamp(60px, 20vw, 100px) + 10px); // Tighter spacing on mobile
+    }
+      
+    .navbar-brand {
+      margin-left: calc(clamp(60px, 20vw, 100px) + 10px);
+      font-size: clamp(0.875rem, 2vw, 1rem); // Smaller font on mobile
+    }
   }
 
   .nav-link {
