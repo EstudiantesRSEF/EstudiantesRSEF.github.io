@@ -36,6 +36,25 @@
   </div>
 {% endif %}
 
+<!-- Sección Patrocinadores Platino -->
+{% assign platinumSponsors = include.sponsors | where: "type", "Platinum" %}
+{% if platinumSponsors.size > 0 %}
+  <h2>Patrocinadores Platino</h2>
+  <div class="patrocinadores-container platinum">
+    {% for sponsor in platinumSponsors %}
+    <div class="patrocinadores-item">
+      {% if sponsor.link %}
+        <a href="{{ sponsor.link }}" target="_blank" rel="noopener">
+          <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
+        </a>
+      {% else %}
+        <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
 <!-- Sección Patrocinadores Oro -->
 {% assign goldSponsors = include.sponsors | where: "type", "Gold" %}
 {% if goldSponsors.size > 0 %}
