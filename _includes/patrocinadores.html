@@ -2,7 +2,7 @@
 <!-- Sección Organizadores -->
 {% assign organizers = include.sponsors | where: "type", "Organizer" %}
 {% if organizers.size > 0 %}
-  <h2>Organizadores</h2>
+  <h4>Organizadores</h4>
   <div class="patrocinadores-container organizers">
     {% for sponsor in organizers %}
     <div class="patrocinadores-item">
@@ -20,7 +20,7 @@
 
 {% assign principals = include.sponsors | where: "type", "Principal" %}
 {% if principals.size > 0 %}
-  <h2>Patrocinadores Principales</h2>
+  <h4>Patrocinadores Principales</h4>
   <div class="patrocinadores-container organizers">
     {% for sponsor in principals %}
     <div class="patrocinadores-item">
@@ -77,7 +77,7 @@
 <!-- Sección Patrocinadores Plata -->
 {% assign silverSponsors = include.sponsors | where: "type", "Silver" %}
 {% if silverSponsors.size > 0 %}
-  <h4>Patrocinadores Plata</h4>
+  <h2>Patrocinadores Plata</h2>
   <div class="patrocinadores-container silver">
     {% for sponsor in silverSponsors %}
     <div class="patrocinadores-item">
@@ -96,7 +96,7 @@
 <!-- Sección Patrocinadores Bronce -->
 {% assign bronzeSponsors = include.sponsors | where: "type", "Bronze" %}
 {% if bronzeSponsors.size > 0 %}
-  <h4>Patrocinadores Bronce</h4>
+  <h2>Patrocinadores Bronce</h2>
   <div class="patrocinadores-container bronze">
     {% for sponsor in bronzeSponsors %}
     <div class="patrocinadores-item">
