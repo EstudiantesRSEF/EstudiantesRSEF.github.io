@@ -8,20 +8,20 @@
   image: "/ENEF/2025/img/Sponsors/BizkaiaLantik.png"
   link: "https://lantik.bizkaia.eus/es/inicio"
 
-- name: "Multiverse Computing"
-  type: "Platinum"
-  image: "/ENEF/2025/img/Sponsors/MultiverseComputing.png"
-  link: "https://multiversecomputing.com/"
-
 - name: "Gaia"
-  type: "Platinum"
+  type: "Principal"
   image: "/ENEF/2025/img/Sponsors/Gaia.jpg"
   link: "https://gaia.es/"
 
 - name: "Biqain"
-  type: "Platinum"
+  type: "Principal"
   image: "/ENEF/2025/img/Sponsors/Biqain.png"
-  url: "https://www.basquequantum.eus/es"
+  link: "https://www.basquequantum.eus/es"
+
+- name: "Multiverse Computing"
+  type: "Platinum"
+  image: "/ENEF/2025/img/Sponsors/MultiverseComputing.png"
+  link: "https://multiversecomputing.com/"
 
 - name: "Jane Street"
   type: "Bronze"
