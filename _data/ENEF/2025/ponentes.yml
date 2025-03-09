@@ -14,8 +14,8 @@
   rol: "Ponente"
   charla: 
   bio:
-    - "Físico teórico especializado en computación cuántica y materia condensada."
-    - "Ha contribuido significativamente al desarrollo de métodos de redes tensoriales para la simulación de sistemas cuánticos."
+    - "Destacado físico teórico y emprendedor español. Profesor de Investigación Ikerbasque en el Donostia International Physics Center, Orús ha realizado contribuciones fundamentales en tecnologías cuánticas, sistemas cuánticos complejos y computación cuántica aplicada. Su tesis doctoral fue pionera en España sobre algoritmos cuánticos. "
+    - "Ha trabajado en prestigiosas instituciones como la Universidad de Queensland y el Instituto Max Planck de Óptica Cuántica. Orús es cofundador y Director Científico de Multiverse Computing, una empresa que aplica la computación cuántica a las finanzas. Sus investigaciones abarcan desde redes tensoriales hasta la intersección entre física y lingüística."
 
 - id: "pablo-jarillo-herrero"
   img: "/ENEF/2025/img/Ponentes/pablo-jarillo-herrero.png"
@@ -24,8 +24,8 @@
   charla: 
   princ: True
   bio:
-    - "Físico español, profesor en el MIT, pionero en el estudio del grafeno y materiales bidimensionales."
-    - "Su trabajo sobre el 'ángulo mágico' en el grafeno retorcido supuso un gran avance en el campo de la superconductividad."
+    - "Físico español reconocido mundialmente por sus investigaciones sobre materiales bidimensionales, especialmente el grafeno. Catedrático en el MIT desde 2018, Jarillo-Herrero ha realizado contribuciones pioneras en la comprensión de las propiedades topológicas y superconductoras de materiales 2D."
+    - "Su descubrimiento más notable es que el grafeno se vuelve superconductor cuando sus láminas se apilan con con cierto ángulo. Formado en la Universidad de Valencia, se doctoró en la Universidad Técnica de Delft y realizó un postdoctorado en Columbia antes de unirse al MIT en 2008."
 
 - id: "jose-maria-senovilla"
   img: "/ENEF/2025/img/Ponentes/jose-maria-senovilla.jpg"
@@ -33,4 +33,4 @@
   rol: "Ponente"
   charla: 
   bio:
-    - "Físico teórico especializado en relatividad general y cosmología. Profesor en la Universidad del País Vasco (UPV/EHU)."
+    - "Se licenció y doctoró en Física Teórica en la Universidad de Salamanca en 1982 y 1986, respectivamente. Desde 1999, es catedrático de Física Teórica en la Universidad del País Vasco. Senovilla es conocido por su trabajo en Relatividad General y Cosmología, especialmente por su modelo que describe un universo sin Big Bang, conocido como la métrica de Senovilla. Ha publicado más de 130 artículos científicos. Su investigación abarca teoremas de singularidades y la posible desaparición del tiempo."
