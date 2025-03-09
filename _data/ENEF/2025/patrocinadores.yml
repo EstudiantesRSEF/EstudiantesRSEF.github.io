@@ -20,7 +20,8 @@
 
 - name: "Biqain"
   type: "Platinum"
-  image: "/ENEF/2025/img/Sponsors/Biqain.svg"
+  image: "/ENEF/2025/img/Sponsors/Biqain.png"
+  url: "https://www.basquequantum.eus/es"
 
 - name: "Jane Street"
   type: "Bronze"
