@@ -1,7 +1,7 @@
 - id: "eduardo-saenz-de-cabezon"
   img: "/ENEF/2025/img/Ponentes/eduardo-saenz-de-cabezon.jpg"
   nombre: "Eduardo Sáenz de Cabezón"
-  rol: "Cabeza de cartel"
+  rol: "Ponente"
   charla: 
   princ: True
   bio:
@@ -11,7 +11,7 @@
 - id: "roman-orus"
   img: "/ENEF/2025/img/Ponentes/roman-orus.jpg"
   nombre: "Román Orus"
-  rol: "Tipo 2"
+  rol: "Ponente"
   charla: 
   bio:
     - "Físico teórico especializado en computación cuántica y materia condensada."
@@ -20,7 +20,7 @@
 - id: "pablo-jarillo-herrero"
   img: "/ENEF/2025/img/Ponentes/pablo-jarillo-herrero.png"
   nombre: "Pablo Jarillo-Herrero"
-  rol: "Cabeza de cartel"
+  rol: "Ponente"
   charla: 
   princ: True
   bio:

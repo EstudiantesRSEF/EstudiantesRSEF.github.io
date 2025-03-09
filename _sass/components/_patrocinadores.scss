@@ -16,12 +16,12 @@
 }
 /* Altura de imagen según el tipo de contenedor */
 .patrocinadores-container.organizers img {
-    height: 15vw;
+    height: 12vw;
     width: auto;
     object-fit: contain;
 }
 .patrocinadores-container.platinum img {
-    height: 12vw;
+    height: 10vw;
     width: auto;
     object-fit: contain;
 }
@@ -31,12 +31,12 @@
     object-fit: contain;
 }
 .patrocinadores-container.silver img {
-    height: 5vw;
+    height: 6vw;
     width: auto;
     object-fit: contain;
 }
 .patrocinadores-container.bronze img {
-    height: 3vw;
+    height: 5vw;
     width: auto;
     object-fit: contain;
 }

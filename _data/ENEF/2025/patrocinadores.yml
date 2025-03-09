@@ -13,6 +13,15 @@
   image: "/ENEF/2025/img/Sponsors/MultiverseComputing.png"
   link: "https://multiversecomputing.com/"
 
+- name: "Gaia"
+  type: "Platinum"
+  image: "/ENEF/2025/img/Sponsors/Gaia.jpg"
+  link: "https://gaia.es/"
+
+- name: "Biqain"
+  type: "Platinum"
+  image: "/ENEF/2025/img/Sponsors/Biqain.svg"
+
 - name: "Jane Street"
   type: "Bronze"
   image: "/ENEF/2025/img/Sponsors/JaneStreet.png"
