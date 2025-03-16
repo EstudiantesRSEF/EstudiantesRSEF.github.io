@@ -1,19 +1,21 @@
-{% assign grouped_sponsors = include.sponsors | group_by: "section" %}
-{% assign sorted_groups = grouped_sponsors | sort: "first.level" %}
-{% for group in sorted_groups %}
-  {% assign first_sponsor = group.items | first %}
-  <h2 class="patrocinadores-title level-{{ first_sponsor.level }}">{{ group.name }}</h2>
-  <div class="patrocinadores-container level-{{ first_sponsor.level }}">
-    {% for sponsor in group.items %}
-      <div class="patrocinadores-item">
-        {% if sponsor.link %}
-          <a href="{{ sponsor.link }}" target="_blank" rel="noopener noreferrer">
+{% if include.sponsors %}
+  {% assign grouped_sponsors = include.sponsors | group_by: "section" %}
+  {% assign sorted_groups = grouped_sponsors | sort: "first.level" %}
+  {% for group in sorted_groups %}
+    {% assign first_sponsor = group.items | first %}
+    <h2 class="patrocinadores-title level-{{ first_sponsor.level }}">{{ group.name }}</h2>
+    <div class="patrocinadores-container level-{{ first_sponsor.level }}">
+      {% for sponsor in group.items %}
+        <div class="patrocinadores-item">
+          {% if sponsor.link %}
+            <a href="{{ sponsor.link }}" target="_blank" rel="noopener noreferrer">
+              <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}">
+            </a>
+          {% else %}
             <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}">
-          </a>
-        {% else %}
-          <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}">
-        {% endif %}
-      </div>
-    {% endfor %}
-  </div>
-{% endfor %}
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+{% endif %}
