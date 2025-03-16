@@ -1,5 +1,6 @@
 {% if include.sponsors %}
-  {% assign grouped_sponsors = include.sponsors | group_by: "section" %}
+<h2 class="patrocinadores-title level-1">Patrocinadores</h2>
+  <!-- {% assign grouped_sponsors = include.sponsors | group_by: "section" %}
   {% assign sorted_groups = grouped_sponsors | sort: "first.level" %}
   {% for group in sorted_groups %}
     {% assign first_sponsor = group.items | first %}
@@ -17,5 +18,5 @@
         </div>
       {% endfor %}
     </div>
-  {% endfor %}
-{% endif %}
+  {% endfor %}-->
+{% endif %} 
