@@ -7,6 +7,7 @@
     padding: 1vw;
     margin-bottom: 2vw;
 }
+
 /* Cada item se adapta a su contenido sin forzar un ancho completo */
 .patrocinadores-item {
     flex: 0 1 auto;
@@ -14,29 +15,55 @@
     justify-content: center;
     align-items: center;
 }
-/* Altura de imagen según el tipo de contenedor */
-.patrocinadores-container.organizers img {
+
+/* Altura de imagen según el nivel */
+.patrocinadores-container.level-1 img {
     height: 12vw;
     width: auto;
     object-fit: contain;
 }
-.patrocinadores-container.platinum img {
+
+.patrocinadores-container.level-2 img {
     height: 10vw;
     width: auto;
     object-fit: contain;
 }
-.patrocinadores-container.gold img {
+
+.patrocinadores-container.level-3 img {
     height: 8vw;
     width: auto;
     object-fit: contain;
 }
-.patrocinadores-container.silver img {
+
+.patrocinadores-container.level-4 img {
     height: 6vw;
     width: auto;
     object-fit: contain;
 }
-.patrocinadores-container.bronze img {
+
+.patrocinadores-container.level-5 img {
     height: 5vw;
     width: auto;
     object-fit: contain;
+}
+
+/* Estilos para los títulos según nivel */
+.patrocinadores-title.level-1 {
+    font-size: 2.5em;
+}
+
+.patrocinadores-title.level-2 {
+    font-size: 2.2em;
+}
+
+.patrocinadores-title.level-3 {
+    font-size: 1.9em;
+}
+
+.patrocinadores-title.level-4 {
+    font-size: 1.6em;
+}
+
+.patrocinadores-title.level-5 {
+    font-size: 1.3em;
 }

@@ -13,9 +13,10 @@ permalink: /PLANCKS25/
     <div class="section">
 <!-- BANNER -->
       <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
-      <!-- INTRODUCCIÓN -->
+<!-- INTRODUCCIÓN -->
       <p style="text-align: justify; margin-top: 1em"> Welcome to the official webpage of <strong>PLANCKS 2025 in Barcelona</strong>! </p>
-      <p style="text-align: justify;">   The <strong>Physics League Across Numerous Countries for Kick-ass Students (PLANCKS)</strong> is an exam-based physics competition for bachelor’s and master’s students. It is a <strong>four-day event</strong> filled to the brim with numerous excursions and social activities, alongside an opening symposium and the contest itself. Participants are encouraged to discover the research environment and culture of the hosting country. PLANCKS enables physics students from all over the world the opportunity to <strong>connect</strong> with each other. The aim of this event is to increase <strong>international collaboration</strong>, host social activities and stimulate the personal development of individual contestants. By bringing physics students from all over the world together, PLANCKS creates the perfect setting for participants to challenge each other, and exchange ideas and experiences. The first edition of PLANCKS took place in May 2014 in Utrecht and this will be the 12th edition. </p>
+      <p style="text-align: justify;">The <strong>Physics League Across Numerous Countries for Kick-ass Students (PLANCKS)</strong> is an international physics competition for bachelor's and master's students. Taking place over <strong>four exciting days</strong>, the event combines a challenging physics contest with a program full of social and scientific activities. Students from around the globe come together to compete, connect, and share their passion for physics while exploring the host country's research environment and culture.</p>
+      <p style="text-align: justify;">Since its first edition in Utrecht 2014, PLANCKS has become a cornerstone event for fostering <strong>international collaboration</strong> and creating lasting connections between physics students worldwide. PLANCKS Barcelona 2025 will mark the 12th edition of this competition.</p>
       <p style="text-align: justify;">
         <strong>Stay tuned</strong> to this website for the latest updates on the event!
       </p>
@@ -40,6 +41,15 @@ permalink: /PLANCKS25/
       <div class="row d-flex justify-content-center">
         <a href="https://estudiantes.rsef.es/PLANCKS25/venue/" id="boton-venue" class="btn-square plancks25-color" style="width: auto">Venue & Accomodations</a>
       </div> 
+<!-- FEES -->
+      <h2>Participation Fees</h2>
+      <p style="text-align: justify;">The registration fee for both participants and observers is <strong>100€</strong>. This fee includes:</p>
+      <ul style="text-align: justify;">
+        <li>Accommodation for the duration of the event</li>
+        <li>Transportation between accommodation and venue</li>
+        <li>Access to all scientific activities</li>
+        <li>Social events and excursions</li>
+      </ul>      
 <!-- LEARN MORE -->
       <div class="section">
         <div class="row">
