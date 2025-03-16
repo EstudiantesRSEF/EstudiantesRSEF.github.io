@@ -1,115 +1,16 @@
-<div class="section">
-<!-- Sección Organizadores -->
-{% assign organizers = include.sponsors | where: "type", "Organizer" %}
-{% if organizers.size > 0 %}
-  <h4>Organizadores</h4>
-  <div class="patrocinadores-container organizers">
-    {% for sponsor in organizers %}
-    <div class="patrocinadores-item">
-      {% if sponsor.link %}
-        <a href="{{ sponsor.link }}" target="_blank" rel="noopener">
-          <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
-        </a>
-      {% else %}
-        <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
-      {% endif %}
+{% if include.sponsors %}
+  {% for sponsor in include.sponsors %}
+    <h2 class="patrocinadores-title level-{{ sponsor.level }}">{{ sponsor.section }}</h2>
+    <div class="patrocinadores-container level-{{ sponsor.level }}">
+      <div class="patrocinadores-item">
+        {% if sponsor.link %}
+          <a href="{{ sponsor.link }}" target="_blank" rel="noopener noreferrer">
+            <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}">
+          </a>
+        {% else %}
+          <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}">
+        {% endif %}
+      </div>
     </div>
-    {% endfor %}
-  </div>
+  {% endfor %}
 {% endif %}
-
-{% assign principals = include.sponsors | where: "type", "Principal" %}
-{% if principals.size > 0 %}
-  <h4>Patrocinadores Principales</h4>
-  <div class="patrocinadores-container organizers">
-    {% for sponsor in principals %}
-    <div class="patrocinadores-item">
-      {% if sponsor.link %}
-        <a href="{{ sponsor.link }}" target="_blank" rel="noopener">
-          <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
-        </a>
-      {% else %}
-        <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
-      {% endif %}
-    </div>
-    {% endfor %}
-  </div>
-{% endif %}
-
-<!-- Sección Patrocinadores Platino -->
-{% assign platinumSponsors = include.sponsors | where: "type", "Platinum" %}
-{% if platinumSponsors.size > 0 %}
-  <h3>Patrocinadores Platino</h3>
-  <div class="patrocinadores-container platinum">
-    {% for sponsor in platinumSponsors %}
-    <div class="patrocinadores-item">
-      {% if sponsor.link %}
-        <a href="{{ sponsor.link }}" target="_blank" rel="noopener">
-          <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
-        </a>
-      {% else %}
-        <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
-      {% endif %}
-    </div>
-    {% endfor %}
-  </div>
-{% endif %}
-
-<!-- Sección Patrocinadores Oro -->
-{% assign goldSponsors = include.sponsors | where: "type", "Gold" %}
-{% if goldSponsors.size > 0 %}
-  <h3>Patrocinadores Oro</h3>
-  <div class="patrocinadores-container gold">
-    {% for sponsor in goldSponsors %}
-    <div class="patrocinadores-item">
-      {% if sponsor.link %}
-        <a href="{{ sponsor.link }}" target="_blank" rel="noopener">
-          <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
-        </a>
-      {% else %}
-        <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
-      {% endif %}
-    </div>
-    {% endfor %}
-  </div>
-{% endif %}
-
-<!-- Sección Patrocinadores Plata -->
-{% assign silverSponsors = include.sponsors | where: "type", "Silver" %}
-{% if silverSponsors.size > 0 %}
-  <h2>Patrocinadores Plata</h2>
-  <div class="patrocinadores-container silver">
-    {% for sponsor in silverSponsors %}
-    <div class="patrocinadores-item">
-      {% if sponsor.link %}
-        <a href="{{ sponsor.link }}" target="_blank" rel="noopener">
-          <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
-        </a>
-      {% else %}
-        <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
-      {% endif %}
-    </div>
-    {% endfor %}
-  </div>
-{% endif %}
-
-<!-- Sección Patrocinadores Bronce -->
-{% assign bronzeSponsors = include.sponsors | where: "type", "Bronze" %}
-{% if bronzeSponsors.size > 0 %}
-  <h2>Patrocinadores Bronce</h2>
-  <div class="patrocinadores-container bronze">
-    {% for sponsor in bronzeSponsors %}
-    <div class="patrocinadores-item">
-      {% if sponsor.link %}
-        <a href="{{ sponsor.link }}" target="_blank" rel="noopener">
-          <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
-        </a>
-      {% else %}
-        <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
-      {% endif %}
-    </div>
-    {% endfor %}
-  </div>
-{% endif %}
-
-</div>
