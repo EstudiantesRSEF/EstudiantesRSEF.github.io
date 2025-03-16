@@ -1,6 +1,5 @@
-{% assign grouped_sponsors = site.data.sponsors.sponsors | group_by: "section" %}
+{% assign grouped_sponsors = include.sponsors | group_by: "section" %}
 {% assign sorted_groups = grouped_sponsors | sort: "first.level" %}
-
 {% for group in sorted_groups %}
   {% assign first_sponsor = group.items | first %}
   <h2 class="patrocinadores-title level-{{ first_sponsor.level }}">{{ group.name }}</h2>
