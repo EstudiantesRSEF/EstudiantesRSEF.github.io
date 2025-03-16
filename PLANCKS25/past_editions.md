@@ -27,8 +27,7 @@ permalink: /PLANCKS25/pasteditions
       </div>
 	  
 <!-- SPONSORS -->
-      {% include PLANCKS25_patrocinadores.html %}
-	  
+      {% include patrocinadores.html sponsors=site.data.PLANCKS25.sponsors %}    
     </div>
   </div>
 </div>

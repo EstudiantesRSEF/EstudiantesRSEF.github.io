@@ -6,15 +6,11 @@ permalink: /PLANCKS25/venue/
 ---
 
 <div class="no-pad-top" id="index-page">
-  <div class="container">
-  
+  <div class="container">  
     <div class="section">
-
-
 <!-- BANNER -->
-      <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
-
-	
+      <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">	
+    </div>
 <!-- VENUE -->
 <div class="section">
   <h4 id="venue">Venue: Faculty of Physics at UAB</h4>
@@ -36,18 +32,6 @@ permalink: /PLANCKS25/venue/
     <li>🚆 <strong>Easy accessibility:</strong> Well-connected by public transport, allowing for a smooth commute to and from Barcelona.</li>
   </ul>
 </div>
-
-<!-- CARRUSEL DE FOTOS -->
-      <!-- <div class="carousel-container">
-        <div class="carousel">
-          <div class="carousel-item active"><img src="/img/eventos/2025-PLANCKS/venue/uab1.jfif" alt="Imagen 1"></div>
-          <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/venue/uab2.jfif" alt="Imagen 2"></div>
-          <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/venue/uab3.jfif" alt="Imagen 3"></div>
-	  <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/venue/uab4.jfif" alt="Imagen 4"></div>
-   	  <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/venue/uab5.jfif" alt="Imagen 5"></div>
-      	  <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/venue/uab6.jfif" alt="Imagen 6"></div>
-        </div>
-      </div> -->
 <!-- CARRUSEL DE FOTOS -->
 <div class="slider-auto">
   <div class="slide-track">
@@ -63,8 +47,6 @@ permalink: /PLANCKS25/venue/
     {% endfor %}
   </div>
 </div>
-
-
 <div class="section">
   <h3 id="how-to-get-here">How to Get Here</h3>
   <p style="text-align: justify;">
@@ -72,7 +54,6 @@ permalink: /PLANCKS25/venue/
     Whether you are coming by train, bus, or car, you’ll find easy routes connecting directly 
     from Barcelona and nearby towns. Check the links below for detailed directions:
   </p>
-
   <div class="maps-buttons" style="text-align: center; margin-top: 1em;">
     <!-- Botón de Google Maps -->
     <a href="https://maps.app.goo.gl/9q7dpsmd4j52ew8y6" 
@@ -86,7 +67,6 @@ permalink: /PLANCKS25/venue/
         <strong>Open in Google Maps</strong>
       </span>
     </a>
-
     <!-- Botón de Apple Maps -->
     <a href="https://maps.apple.com/place?q=Biblioteca%20de%20Ci%C3%A8ncia%20i%20Tecnologia&ll=41.5000373%2C2.107549&auid=17537308165470826685&lsp=9902&address=08193%20Cerdanyola%20del%20Vall%C3%A8s%2C%20Barcelona%2C%20Espa%C3%B1a" 
        target="_blank" 
@@ -101,11 +81,7 @@ permalink: /PLANCKS25/venue/
     </a>
   </div>
 </div>
-
-
-
 <!-- ACCOMODATION -->
-
 <div class="section">
   <h4 id="accommodation">Accommodation: La Conreria de Tiana</h4>
   <p style="text-align: justify;">
@@ -127,26 +103,6 @@ permalink: /PLANCKS25/venue/
     <li>🍽️ <strong>Local flavor:</strong> A fresh, proximity-based cuisine to help you tackle each day with plenty of energy.</li>
   </ul>
 </div>
-
-<!-- CARRUSEL DE FOTOS -->
-      <!-- <div class="carousel-container">
-        <div class="carousel">
-          <div class="carousel-item active"><img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis1.jpg" alt="Imagen 1"></div>
-          <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis2.jpg" alt="Imagen 2"></div>
-          <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis3.jpg" alt="Imagen 3"></div>
-	  <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/FotosPrelis/prelis4.jpeg" alt="Imagen 4"></div>
-        </div>
-      </div> -->
-      
-<!-- CARRUSEL DE FOTOS -->
-      <!-- <div class="carousel-container">
-        <div class="carousel">
-          <div class="carousel-item active"><img src="/img/eventos/2025-PLANCKS/conreria/conreria5.jfif" alt="Imagen 1"></div>
-          <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/conreria/conreria2.jfif" alt="Imagen 2"></div>
-          <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/conreria/conreria3.jfif" alt="Imagen 3"></div>
-	  <div class="carousel-item"><img src="/img/eventos/2025-PLANCKS/conreria/conreria4.jfif" alt="Imagen 4"></div>
-        </div>
-      </div> -->
 <!-- CARRUSEL DE FOTOS -->
 <div class="slider-auto">
   <div class="slide-track">
@@ -185,7 +141,6 @@ permalink: /PLANCKS25/venue/
         <strong>Open in Google Maps</strong>
       </span>
     </a>
-
     <!-- Botón de Apple Maps -->
     <a href="https://maps.apple.com/place?q=La%20Conreria&ll=41.4739261%2C2.2681031&auid=12624925186159593361&lsp=9902&address=Carrer%20Josep%20Rossello%2C%206%2C%2008391%20Tiana%2C%20Barcelona%2C%20Espa%C3%B1a" 
        target="_blank" 
@@ -200,13 +155,11 @@ permalink: /PLANCKS25/venue/
     </a>
   </div>
 </div>
-
 <!-- LOCATIONS MANUAL -->    
 <!--        <div class="section">
        <h3 id="espacios">Además visitaremos espacios como...</h3>
        <p style="text-align: justify;">Instalaciones de la Universidad de Oviedo y laboratorios de física de los alrededores.</p>
-     </div>
-     
+     </div>     
      <div class="section">
        <div class="col s12 m6">
          <div class="row center">
@@ -236,23 +189,14 @@ permalink: /PLANCKS25/venue/
          </div>
        </div>
      </div>
-
--->
-     
-	    
-  
+-->  
 <!-- SPONSORS -->
 <div class="section">
-  <div class="row">
-	{% include PLANCKS25_patrocinadores.html %} 
-  </div>
+	{% include patrocinadores.html sponsors=site.data.PLANCKS25.sponsors %}    
 </div>
-
 <!-- Modal PONENTES -->
-
 {% for person in site.persons %}
 {% if person.evento contains "ENEF2024" %}
-
 <div id="{{ person.id | remove: "/" }}-modal" class="modal">
   <div class="modal-content">
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
@@ -269,17 +213,14 @@ permalink: /PLANCKS25/venue/
           </div>
         </div>
       </div>
-
       <!-- Biografía -->
-
       <div class="row">
         {% if person.charla %}
           <p style="text-align: justify;">
 	    {{ person.charla }}
           </p>
         {% endif %}
-      </div>
-	    
+      </div>	    
       <div class="row">
         <h3 class="justify">Biografía</h3>
         {% if person.bio1 %}
@@ -297,9 +238,7 @@ permalink: /PLANCKS25/venue/
           {{ person.bio4 }}
         </p>{%- endif -%}
       </div>
-
       <!-- Recomendaciones -->
-
       <div class="row">
         {%- if person.book1title -%}
 	  <h3 class="justify" style="padding-bottom: 12px;">Contenido Recomendado</h3>
@@ -323,13 +262,11 @@ permalink: /PLANCKS25/venue/
           </div>
         {%- endif -%}
       </div>
-
       {%- if person.videotitle -%}
         <div class="row">
           <center><iframe width="642" height="361" src="{{- person.videolink -}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
         </div>
       {%- endif -%}
-
       {%- if person.otherinfo1link -%}
         <div class="row">
           <div class="col s12 m6 l6">
@@ -346,7 +283,6 @@ permalink: /PLANCKS25/venue/
           {%- endif -%}
         </div>
       {%- endif -%}
-
       {%- if person.otherinfo3link -%}
         <div class="row">
           <div class="col s12 m6 l6">
@@ -363,17 +299,11 @@ permalink: /PLANCKS25/venue/
           {%- endif -%}
         </div>
       {%- endif -%}
-
     </div>
   </div>
   <div class="modal-footer">
-
-
     <a href="#!" class="modal-close waves-effect waves-green btn-flat">CERRAR</a>
   </div>
 </div>
-
 {% endif %}
 {% endfor %}
-<!-- Carrousel functionality -->
-<!-- <script src="/assets/js/carousel.js"></script> -->

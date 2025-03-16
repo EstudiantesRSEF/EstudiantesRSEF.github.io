@@ -7,20 +7,14 @@ permalink: /PLANCKS25/programa/
 
 <div class="no-pad-top" id="index-page">
   <div class="container">
-  
-    <div class="section">
-
-
+      <div class="section">
 <!-- BANNER -->
-      <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
-
-	
+      <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">	
 <!-- PROGRAMA -->
       <div class="section">
         <h4 id="program">Program</h4>
  	<p style="text-align: justify;"> Here is the program for PLANCKS 2025! Are you going to miss it? Check the rest of the information in the  <a href="{{ site.url }}/PLANCKS25">PLANCKS web</a>.</p>
       </div>
-
       <div class="section" id="content-desktop">
  	<h5> Click on the image to see the program on full size </h5>
         <div class="row">
@@ -31,15 +25,11 @@ permalink: /PLANCKS25/programa/
 	<div class="row">
           <img class="materialboxed" width="100%" src="/img/eventos/2024-ENEF/ENEF24_programav3.png">
         </div>
-      </div>
-
-   
+      </div>   
       <div class="section">
 	<h3 id="ponentes">En el ENEF contaremos con...</h3>
 	<p style="text-align: justify;">¡Descubre los mejores ponentes que nos acompañarán durante el ENEF!</p>
-      </div>
-	    
-	    
+      </div>	    
 <!-- PONENTES -->    
       <div class="section">
        <div class="col s12 m6">
@@ -70,17 +60,11 @@ permalink: /PLANCKS25/programa/
          </div>
        </div>
      </div>
-
-
-
-
-
 <!-- LOCATIONS MANUAL -->    
 <!--        <div class="section">
        <h3 id="espacios">Además visitaremos espacios como...</h3>
        <p style="text-align: justify;">Instalaciones de la Universidad de Oviedo y laboratorios de física de los alrededores.</p>
-     </div>
-     
+     </div>     
      <div class="section">
        <div class="col s12 m6">
          <div class="row center">
@@ -110,25 +94,15 @@ permalink: /PLANCKS25/programa/
          </div>
        </div>
      </div>
-
--->
-     
-	    
-  
+-->  
 <!-- SPONSORS -->
-	{% include PLANCKS25_patrocinadores.html %}
-	  
-    </div>
-	   
-    
+	{% include patrocinadores.html sponsors=site.data.PLANCKS25.sponsors %}    	  
+    </div>    
   </div>
 </div>
-
 <!-- Modal PONENTES -->
-
 {% for person in site.persons %}
 {% if person.evento contains "ENEF2024" %}
-
 <div id="{{ person.id | remove: "/" }}-modal" class="modal">
   <div class="modal-content">
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
@@ -145,17 +119,14 @@ permalink: /PLANCKS25/programa/
           </div>
         </div>
       </div>
-
       <!-- Biografía -->
-
       <div class="row">
         {% if person.charla %}
           <p style="text-align: justify;">
 	    {{ person.charla }}
           </p>
         {% endif %}
-      </div>
-	    
+      </div>	    
       <div class="row">
         <h3 class="justify">Biografía</h3>
         {% if person.bio1 %}
@@ -173,9 +144,7 @@ permalink: /PLANCKS25/programa/
           {{ person.bio4 }}
         </p>{%- endif -%}
       </div>
-
       <!-- Recomendaciones -->
-
       <div class="row">
         {%- if person.book1title -%}
 	  <h3 class="justify" style="padding-bottom: 12px;">Contenido Recomendado</h3>
@@ -199,13 +168,11 @@ permalink: /PLANCKS25/programa/
           </div>
         {%- endif -%}
       </div>
-
       {%- if person.videotitle -%}
         <div class="row">
           <center><iframe width="642" height="361" src="{{- person.videolink -}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
         </div>
       {%- endif -%}
-
       {%- if person.otherinfo1link -%}
         <div class="row">
           <div class="col s12 m6 l6">
@@ -222,7 +189,6 @@ permalink: /PLANCKS25/programa/
           {%- endif -%}
         </div>
       {%- endif -%}
-
       {%- if person.otherinfo3link -%}
         <div class="row">
           <div class="col s12 m6 l6">
@@ -239,13 +205,11 @@ permalink: /PLANCKS25/programa/
           {%- endif -%}
         </div>
       {%- endif -%}
-
     </div>
   </div>
   <div class="modal-footer">
     <a href="#!" class="modal-close waves-effect waves-green btn-flat">CERRAR</a>
   </div>
 </div>
-
 {% endif %}
 {% endfor %}

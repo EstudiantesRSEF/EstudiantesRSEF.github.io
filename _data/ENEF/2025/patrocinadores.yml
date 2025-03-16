@@ -4,6 +4,12 @@
   link: "https://estudiantes.rsef.es/"
   level: "1"
 
+- name: "UPV-EHU"
+  section: "Instituciones Académicas"
+  logo: "/ENEF/2025/img/Sponsors/UPV_EHU.jpg"
+  link: "https://www.ehu.eus/es/"
+  level: "2"
+
 - name: "Bizkaia Lantik"
   section: "Patrocinadores Principales"
   logo: "/ENEF/2025/img/Sponsors/BizkaiaLantik.png"
@@ -26,7 +32,7 @@
   section: "Patrocinadores Platino"
   logo: "/ENEF/2025/img/Sponsors/MultiverseComputing.png"
   link: "https://multiversecomputing.com/"
-  level: "2"
+  level: "3"
 
 - name: "Jane Street"
   section: "Patrocinadores Bronce"
