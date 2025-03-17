@@ -14,9 +14,6 @@ permalink: /PLANCKS25/OC/
 
       <!-- ENCABEZADO O INTRO, si quieres -->
       <div class="row">
-        <div class="col s12 m4">
-          <img data-caption="Logo de Estudiantes RSEF." width="100%" src="{{ site.url }}/img/logos/gdee-rsef.png">
-        </div>
         <div class="col s12 m6 offset-m1">
           <p>
             This is the current team composition. Grouped by their role:
