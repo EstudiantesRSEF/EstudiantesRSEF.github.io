@@ -1,60 +1,60 @@
 personas:
   - nombre: "Manu Porrón"
     rol: "President"
-    img: "/img/junta/manu-porron.png"
+    img: "/img/junta/ManuelPorron.png"
 
   - nombre: "Eloi Casalé"
     rol: "Vicepresident"
-    img: "/img/junta/eloi-casale.jpg"
+    img: "/img/junta/EloiCasaleCabanes.jpg"
 
   - nombre: "Elena Martínez"
     rol: "Local Logistics"
-    img: "/img/junta/elena-martinez.jpg"
+    img: "/img/junta/ElenaMartinez.jpg"
 
   - nombre: "Joan Llobera"
     rol: "Participants Coordination"
-    img: "/img/junta/joan-llobera.jpg"
+    img: "/img/junta/JoanLlobera.jpg"
 
   - nombre: "Miguel Carrasco"
     rol: "Scientific Program"
-    img: "/img/junta/miguel-carrasco.jpg"
+    img: "/img/junta/MiguelCarrasco.jpg"
 
   - nombre: "Mario Martínez"
     rol: "Public Relations"
-    img: "/img/junta/mario-martinez.jpg"
+    img: "/img/junta/MarioMartinez.jpg"
 
   - nombre: "Misael Malqui"
     rol: "Public Relations"
-    img: "/img/junta/misael-malqui.jpg"
+    img: "/img/junta/MisaelSamirMalquiCruz.jpg"
 
   - nombre: "José Daniel Randazzo"
     rol: "Social Media"
-    img: "/img/junta/jose-randazzo.jpg"
+    img: "/img/junta/JoseRandazzo.jpg"
 
   - nombre: "Érika Dengra"
     rol: "Social Media"
-    img: "/img/junta/erika-dengra.jpg"
+    img: "/img/junta/ErikaDengra.jpg"
 
   - nombre: "Miguel Durán"
     rol: "IT"
-    img: "/img/junta/miguel-duran.jpg"
+    img: "/img/junta/MiguelDuranVera.jpg"
 
   - nombre: "Iván Villar"
     rol: "IT"
-    img: "/img/junta/ivan-villar.jpg"
+    img: "/img/junta/IvanVillarNaredo.jpg"
 
   - nombre: "Miguel Álvarez"
     rol: "IT"
-    img: "/img/junta/miguel-alvarez.jpg"
+    img: "/img/junta/MiguelAlvarez.jpg"
 
   - nombre: "Eric Jiménez"
     rol: "Academic"
-    img: "/img/junta/eric-jimenez.jpg"
+    img: "/img/junta/EricJimenezZurera.jpg"
 
   - nombre: "Guillermo Muñoz"
     rol: "Finances"
-    img: "/img/junta/guillermo-munoz.jpg"
+    img: "/img/junta/GuillermoMuñoz.jpg"
 
   - nombre: "Sonsoles Riscos"
     rol: "Finances"
-    img: "/img/junta/sonsoles-riscos.jpg"
+    img: "/img/junta/SonsolesRiscos.jpg"
