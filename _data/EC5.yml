@@ -1,64 +1,60 @@
-- anno: "2021-2023"
-  curso: "2023-2025"
-  dataCISF: ""
-  dataElecciones: "20 de octubre de 2023"
-  dataInicio: "23 de octubre de 2023"
-  dataFin:
-  nmiembros: "14"
-  miembros:
-    - nombre: "Manuel Porrón Álvarez"
-      img: 
-      rol: "Presidente"
-      linkedin: "https://www.linkedin.com/in/manuelporron/"
-    - nombre: "Victor Palma Cortés"
-      img: 
-      rol: "Vicepresidente"
-      linkedin: 
-    - nombre: "Joan Llobera Querol"
-      img: "/img/junta/joan-llobera.jpg"
-      rol: "Secretario-Tesorero"
-      linkedin: 
-    - nombre: "Adrián Marín Boyero"
-      img: 
-      rol: "Vocal"
-      linkedin: 
-    - nombre: "Ana Garrigues Navarro"
-      img: 
-      rol: "Vocal"
-      linkedin: 
-    - nombre: "Eloi Casalé Cabanes"
-      img: 
-      rol: "Vocal"
-      linkedin: 
-    - nombre: "Eric Jiménez Zurera"
-      img: 
-      rol: "Vocal"
-      linkedin: 
-    - nombre: "Irene Carrión López"
-      img: "/img/junta/irene-carrion.png"
-      rol: "Vocal"
-      linkedin: ""
-    - nombre: "Iván Villar Naredo"
-      img: 
-      rol: "Vocal"
-      linkedin: 
-    - nombre: "Juan Lorenzo Campos"
-      img: 
-      rol: "Vocal"
-      linkedin: 
-    - nombre: "Lucía Longo Balagué"
-      img: 
-      rol: "Vocal"
-      linkedin: 
-    - nombre: "María Sánchez Hernández"
-      img: 
-      rol: "Vocal"
-      linkedin: 
-    - nombre: "Miguel Durán Vera"
-      img: 
-      rol: "Vocal"
-      linkedin: 
-    - nombre: "Misael Malqui Cruz"
-      img: 
-      rol: "Vocal"
-      linkedin: 
+personas:
+  - nombre: "Manu Porrón"
+    rol: "President"
+    img: "/img/junta/manu-porron.png"
+
+  - nombre: "Eloi Casalé"
+    rol: "Vicepresident"
+    img: "/img/junta/eloi-casale.jpg"
+
+  - nombre: "Elena Martínez"
+    rol: "Local Logistics"
+    img: "/img/junta/elena-martinez.jpg"
+
+  - nombre: "Joan Llobera"
+    rol: "Participants Coordination"
+    img: "/img/junta/joan-llobera.jpg"
+
+  - nombre: "Miguel Carrasco"
+    rol: "Scientific Program"
+    img: "/img/junta/miguel-carrasco.jpg"
+
+  - nombre: "Mario Martínez"
+    rol: "Public Relations"
+    img: "/img/junta/mario-martinez.jpg"
+
+  - nombre: "Misael Malqui"
+    rol: "Public Relations"
+    img: "/img/junta/misael-malqui.jpg"
+
+  - nombre: "José Daniel Randazzo"
+    rol: "Social Media"
+    img: "/img/junta/jose-randazzo.jpg"
+
+  - nombre: "Érika Dengra"
+    rol: "Social Media"
+    img: "/img/junta/erika-dengra.jpg"
+
+  - nombre: "Miguel Durán"
+    rol: "IT"
+    img: "/img/junta/miguel-duran.jpg"
+
+  - nombre: "Iván Villar"
+    rol: "IT"
+    img: "/img/junta/ivan-villar.jpg"
+
+  - nombre: "Miguel Álvarez"
+    rol: "IT"
+    img: "/img/junta/miguel-alvarez.jpg"
+
+  - nombre: "Eric Jiménez"
+    rol: "Academic"
+    img: "/img/junta/eric-jimenez.jpg"
+
+  - nombre: "Guillermo Muñoz"
+    rol: "Finances"
+    img: "/img/junta/guillermo-munoz.jpg"
+
+  - nombre: "Sonsoles Riscos"
+    rol: "Finances"
+    img: "/img/junta/sonsoles-riscos.jpg"
