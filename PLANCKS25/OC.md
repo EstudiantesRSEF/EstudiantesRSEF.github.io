@@ -2,64 +2,65 @@
 layout: plancks25
 title: PLANCKS Barcelona 2025
 hidden: true
-permalink: /PLANCKS25/programa/
+permalink: /PLANCKS25/OC/
 ---
-
+{% for item in site.data.OCPlancks25 %}
 <div class="no-pad-top" id="index-page">
   <div class="container">
       <div class="section">
 <!-- BANNER -->
       <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">	
-<!-- PROGRAMA -->
-      <div class="section">
-        <h4 id="program">Program</h4>
- 	<p style="text-align: justify;"> Here is the program for PLANCKS 2025! Are you going to miss it? Check the rest of the information in the  <a href="{{ site.url }}/PLANCKS25">PLANCKS web</a>.</p>
-      </div>
-      <div class="section" id="content-desktop">
- 	<h5> Click on the image to see the program on full size </h5>
-        <div class="row">
-             <img class="materialboxed" width="80%" src="/img/eventos/2024-ENEF/ENEF24_programav3.png">
-        </div>	 
-      </div>
-      <div class="section" id="content-mobile">
-	<div class="row">
-          <img class="materialboxed" width="100%" src="/img/eventos/2024-ENEF/ENEF24_programav3.png">
-        </div>
-      </div>   
-      <div class="section">
-	<h3 id="ponentes">En el ENEF contaremos con...</h3>
-	<p style="text-align: justify;">¡Descubre los mejores ponentes que nos acompañarán durante el ENEF!</p>
-      </div>	    
-<!-- PONENTES -->    
-      <div class="section">
-       <div class="col s12 m6">
-         <div class="row center">
-	 {% assign sorted_persons = site.persons | sort: "position" %}
-         {% for person in sorted_persons %}
-         {% if person.evento contains "ENEF2024" %}
-         {% if person.visible contains "True" %}
-           <ul class="collection waves-effect waves-light" style="width: 33%">
-             <a href="#{{ person.id | remove: "/" }}-modal" class="collection-item modal-trigger waves-effect waves-light" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
-               <li class="collection-item avatar2">
-                 <img src="{{ person.img }}" alt="" class="circle">
-                 {% if person.nombredes %}
-                 <span class="title" style="padding-left: 10px">{{ person.nombredes }}</span>
-                 {% else %}
-                 <span class="title" style="padding-left: 10px">{{ person.nombre }}</span>
-                 {% endif %}
-                 <p style="padding-top: 10px">
-                   {{ person.horario }}
-                 </p>
-               </li>
-             </a>
-           </ul>
-         {% endif %}
-         {% endif %}
-         {% endfor %}
-         <h5>...¡y muchos más!</h5>
-         </div>
-       </div>
-     </div>
+<!-- SECCIÓN PERSONAS/EQUIPO -->
+<div class="section">
+  <h3 id="equipo">Nuestro Equipo</h3>
+  <p style="text-align: justify;">
+    ¡Conoce a las personas que forman parte del evento!
+  </p>
+</div>
+
+<div class="section">
+  <div class="col s12 m6">
+    <div class="row center">
+      {% comment %}
+        Asumiendo que usas una colección 'persons'. 
+        Si en lugar de `site.persons` lo tienes en `_data/persons.yml`, 
+        puedes usar `site.data.persons` en el for.
+      {% endcomment %}
+
+      {% assign sorted_persons = site.persons | sort: "puesto" %}
+      {% for person in sorted_persons %}
+        {% if person.evento contains "MiEvento2025" and person.visible contains "True" %}
+
+        <!-- Cada persona -->
+        <ul class="collection waves-effect waves-light" style="width: 33%">
+          <!-- Usamos el id para la referencia del modal, si quieres -->
+          <a href="#{{ person.id | remove: "/" }}-modal" 
+             class="collection-item modal-trigger waves-effect waves-light" 
+             style="color: rgba(0, 0, 0, 0.87); padding: 2px">
+
+            <li class="collection-item avatar2">
+              <!-- Foto -->
+              <img src="{{ person.img }}" alt="" class="circle">
+
+              <!-- Nombre -->
+              <span class="title" style="padding-left: 10px">
+                {{ person.nombre }}
+              </span>
+
+              <!-- Puesto o rol -->
+              <p style="padding-top: 10px">
+                {{ person.puesto }}
+              </p>
+            </li>
+          </a>
+        </ul>
+        {% endif %}
+      {% endfor %}
+      <h5>¡Y muchos más!</h5>
+    </div>
+  </div>
+</div>
+
 <!-- LOCATIONS MANUAL -->    
 <!--        <div class="section">
        <h3 id="espacios">Además visitaremos espacios como...</h3>
