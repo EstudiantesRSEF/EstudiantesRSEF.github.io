@@ -1,7 +1,7 @@
 personas:
   - nombre: "Manu Porrón"
     rol: "President"
-    img: "/img/junta/ManuelPorron.png"
+    img: "/img/junta/ManuelPorron.jpg"
 
   - nombre: "Eloi Casalé"
     rol: "Vicepresident"
@@ -45,7 +45,7 @@ personas:
 
   - nombre: "Miguel Álvarez"
     rol: "IT"
-    img: "/img/junta/MiguelAlvarez.jpg"
+    img: "/img/junta/MiguelAlvarezHernanz.jpg"
 
   - nombre: "Eric Jiménez"
     rol: "Academic"
