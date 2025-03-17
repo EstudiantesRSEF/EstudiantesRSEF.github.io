@@ -1,8 +1,8 @@
 ---
 layout: plancks25
-title: Miembros EC
+title: Miembros OC
 hidden: true
-permalink: /PLANCKS25/EC/
+permalink: /PLANCKS25/OC/
 ---
 
 <div class="container">
@@ -14,7 +14,7 @@ permalink: /PLANCKS25/EC/
       </div>
       <div class="col s12 m6 offset-m1">
         <p>
-          Esta es la composición actual del equipo, agrupado por su puesto.
+          This is the current team composition. Grouped by their role:
         </p>
       </div>
     </div>
@@ -39,7 +39,7 @@ permalink: /PLANCKS25/EC/
 
     {% for rol in rolesOrder %}
       {% assign currentRol = rol | strip %}
-      {% assign personsForRole = site.data.EC5.personas | where: "rol", currentRol %}
+      {% assign personsForRole = site.data.OCPlancks2025.personas | where: "rol", currentRol %}
 
       <!-- Solo mostramos la sección si hay personas con este rol -->
       {% if personsForRole.size > 0 %}
