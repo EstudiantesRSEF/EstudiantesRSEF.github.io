@@ -8,6 +8,9 @@ permalink: /PLANCKS25/EC/
 <!-- Envuélvelo todo en .container y .section para mayor espacio -->
 <div class="container">
   <div class="section">
+<!-- BANNER -->
+      <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">	
+  <div class="section">
     <!-- ENCABEZADO O INTRO -->
     <div class="row">
       <div class="col s12 m4">
@@ -47,19 +50,17 @@ permalink: /PLANCKS25/EC/
       <div class="row">
         {% for persona in site.data.EC5.personas %}
           {% if persona.rol == currentRol %}
-            <!-- Tarjeta sencilla -->
+            <!-- Tarjeta sencilla con class="avatar" para usar el estilo de Materialize -->
             <div class="col s12 m4">
               <ul class="collection" style="width: 100%">
-                <li class="collection-item avatar5">
+                <li class="collection-item avatar">
                   {% if persona.img %}
-                    <img src="{{ persona.img }}" alt="{{ persona.nombre }}" class="circle" />
+                    <!-- Agregamos margen a la derecha de la imagen -->
+                    <img src="{{ persona.img }}" alt="{{ persona.nombre }}" class="circle" style="margin-right: 20px;">
                   {% endif %}
-                  <p class="title" style="padding-left: 10px; padding-top: 15px;">
-                    {{ persona.nombre }}
-                  </p>
-                  <p class="rol" style="padding-left: 10px; padding-bottom: 25px;">
-                    {{ persona.rol }}
-                  </p>
+                  <!-- Título y párrafo para nombre y rol -->
+                  <span class="title" style="font-weight: 600;">{{ persona.nombre }}</span>
+                  <p>{{ persona.rol }}</p>
                 </li>
               </ul>
             </div>
