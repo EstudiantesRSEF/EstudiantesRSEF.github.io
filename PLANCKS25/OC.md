@@ -4,213 +4,359 @@ title: PLANCKS Barcelona 2025
 hidden: true
 permalink: /PLANCKS25/OC/
 ---
-{% for item in site.data.OCPlancks25 %}
-<div class="no-pad-top" id="index-page">
-  <div class="container">
-      <div class="section">
-<!-- BANNER -->
-      <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">	
-<!-- SECCIÓN PERSONAS/EQUIPO -->
-<div class="section">
-  <h3 id="equipo">Nuestro Equipo</h3>
-  <p style="text-align: justify;">
-    ¡Conoce a las personas que forman parte del evento!
-  </p>
+
+<!-- INTRO -->
+
+{% for item in site.data.EC4 %}
+
+<div class="row">
+  <div class="col s12 m4">
+    <img data-caption="Logo de Estudiantes RSEF." width="100%" src="{{ site.url }}/img/logos/gdee-rsef.png">
+  </div>
+    <div class="col s12 m6 offset-m1">
+      <p>La Junta de Gobierno es el órgano administrativo y ejecutivo del Grupo de Estudiantes de la RSEF, y está actualmente compuesta por {{ item.nmiembros }} miembros.</p>
+    </div>
 </div>
 
-<div class="section">
+## Junta de Gobierno actual
+
+Esta Junta de Gobierno fue elegida el {{ item.dataElecciones }}.
+{% if item.dataInicio != nil %}Sus miembros tomaron posesión de su cargo el {{ item.dataInicio }}.{% endif %}
+{% if item.dataFin != nil %}Sus miembros permanecieron en sus respectivos cargos hasta el {{ item.dataFin }}.{% endif %}
+
+<!--
+{% for person in item.miembros %}
+
+Miembro {{person.nombre}}
+
+{% endfor %}
+-->
+
+<div class="section" id="content-desktop">
   <div class="col s12 m6">
     <div class="row center">
-      {% comment %}
-        Asumiendo que usas una colección 'persons'. 
-        Si en lugar de `site.persons` lo tienes en `_data/persons.yml`, 
-        puedes usar `site.data.persons` en el for.
-      {% endcomment %}
-
-      {% assign sorted_persons = site.persons | sort: "puesto" %}
-      {% for person in sorted_persons %}
-        {% if person.evento contains "MiEvento2025" and person.visible contains "True" %}
-
-        <!-- Cada persona -->
-        <ul class="collection waves-effect waves-light" style="width: 33%">
-          <!-- Usamos el id para la referencia del modal, si quieres -->
-          <a href="#{{ person.id | remove: "/" }}-modal" 
-             class="collection-item modal-trigger waves-effect waves-light" 
-             style="color: rgba(0, 0, 0, 0.87); padding: 2px">
-
-            <li class="collection-item avatar2">
-              <!-- Foto -->
-              <img src="{{ person.img }}" alt="" class="circle">
-
-              <!-- Nombre -->
-              <span class="title" style="padding-left: 10px">
-                {{ person.nombre }}
-              </span>
-
-              <!-- Puesto o rol -->
-              <p style="padding-top: 10px">
-                {{ person.puesto }}
-              </p>
-            </li>
-          </a>
-        </ul>
-        {% endif %}
-      {% endfor %}
-      <h5>¡Y muchos más!</h5>
+	{% assign sorted_persons = site.persons | sort: 'Pos_EC4' %}
+    	{% for person in sorted_persons %}
+	    	{% if person.EC4 %}
+		      <ul class="collection waves-effect waves-light" style="width: 300px">
+		        <a href="#{{ person.id | remove: "/" }}-EC4" class="collection-item modal-trigger waves-effect waves-light" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
+		          <li class="collection-item avatar5">
+		            <img src="{{ person.img }}" style="margin-bottom: 10px;" alt="" class="circle">
+		            <p class="title" style="padding-left: 120px; padding-top: 15px">{{ person.nombre }}</p>
+		            <p class="rol" style="padding-left: 120px; padding-bottom: 25px">{{ person.EC4 }}</p>
+		          </li>
+		        </a>
+		      </ul>
+	   	 {% endif %}
+    	{% endfor %}    
     </div>
   </div>
 </div>
 
-<!-- LOCATIONS MANUAL -->    
-<!--        <div class="section">
-       <h3 id="espacios">Además visitaremos espacios como...</h3>
-       <p style="text-align: justify;">Instalaciones de la Universidad de Oviedo y laboratorios de física de los alrededores.</p>
-     </div>     
-     <div class="section">
-       <div class="col s12 m6">
-         <div class="row center">
-           <ul class="collection waves-effect waves-light" style="width: 33%">
-             <a href="#CINN-modal" class="collection-item modal-trigger waves-effect waves-light" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
-               <li class="collection-item avatar2">
-                 <img src="/img/eventos/2023-ENEF/locations/CINN_image.png" alt="" class="circle">
-                 <span class="title" style="padding-left: 10px">CINN</span>
-                 <p style="padding-top: 10px">
-                   Viernes 28 por la mañana.
-                 </p>
-               </li>
-             </a>
-           </ul>
-	   <ul class="collection waves-effect waves-light" style="width: 33%">
-             <a href="#SeveroOchoa-modal" class="collection-item modal-trigger waves-effect waves-light" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
-               <li class="collection-item avatar2">
-                 <img src="/img/eventos/2023-ENEF/locations/SeveroOchoa_image.png" alt="" class="circle">
-                 <span class="title" style="padding-left: 10px">Centro Científico-Tecnológico Severo Ochoa</span>
-                 <p style="padding-top: 10px">
-                   Viernes 28 por la mañana.
-                 </p>
-               </li>
-             </a>
-           </ul>
-         <h5>...¡y muchos más!</h5>
-         </div>
-       </div>
-     </div>
--->  
-<!-- SPONSORS -->
-	{% include patrocinadores.html sponsors=site.data.PLANCKS25.sponsors %}    	  
-    </div>    
+<div class="section" id="content-mobile">
+  <div class="col s12 m6">
+    <div class="row center">
+	{% assign sorted_persons = site.persons | sort: 'Pos_EC4' %}
+	{% for person in sorted_persons %}
+		{% if person.EC4 %}
+			<ul class="collection waves-effect waves-light" style="width: 90%">
+		        <a href="#{{ person.id | remove: "/" }}-EC4" class="collection-item modal-trigger waves-effect waves-light" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
+		          <li class="collection-item avatar5">
+		            <img src="{{ person.img }}" style="margin-bottom: 10px;" alt="" class="circle">
+		            <p class="title" style="padding-left: 120px; padding-top: 15px">{{ person.nombre }}</p>
+		            <p class="rol" style="padding-left: 120px">{{ person.EC4 }}</p>
+		          </li>
+		        </a>
+		      </ul>
+		{% endif %}
+	    {% endfor %}    
+    </div>
   </div>
 </div>
-<!-- Modal PONENTES -->
+{% endfor %}
+
+
+## Junta de Gobierno Anterior
+
+<div class="section" id="content-desktop">
+  <div class="col s12 m6">
+    <div class="row center">
+	{% assign sorted_persons = site.persons | sort: 'Pos_EC3' %}
+    	{% for person in sorted_persons%} 
+	    	{% if person.EC3 %}
+		      <ul class="collection waves-effect waves-light" style="width: 300px">
+		        <a href="#{{ person.id | remove: "/" }}-EC3" class="collection-item modal-trigger waves-effect waves-light" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
+		          <li class="collection-item avatar5">
+		            <img src="{{ person.img }}" style="margin-bottom: 10px;" alt="" class="circle">
+		            <p class="title" style="padding-left: 120px; padding-top: 15px">{{ person.nombre }}</p>
+		            <p class="rol" style="padding-left: 120px; padding-bottom: 25px">{{ person.EC3 }}</p>
+		          </li>
+		        </a>
+		      </ul>
+	   	 {% endif %}
+    	{% endfor %}    
+    </div>
+  </div>
+</div>
+
+<div class="section" id="content-mobile">
+  <div class="col s12 m6">
+    <div class="row center">
+	{% assign sorted_persons = site.persons | sort: 'Pos_EC3' %}
+	{% for person in sorted_persons %}
+		{% if person.EC3 "%}
+			<ul class="collection waves-effect waves-light" style="width: 90%">
+		        <a href="#{{ person.id | remove: "/" }}-EC3" class="collection-item modal-trigger waves-effect waves-light" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
+		          <li class="collection-item avatar5">
+		            <img src="{{ person.img }}" style="margin-bottom: 10px;" alt="" class="circle">
+		            <p class="title" style="padding-left: 120px; padding-top: 15px">{{ person.nombre }}</p>
+		            <p class="rol" style="padding-left: 120px">{{ person.EC3 }}</p>
+		          </li>
+		        </a>
+		      </ul>
+		{% endif %}
+	    {% endfor %}    
+    </div>
+  </div>
+</div>
+
+
+
+<!--              Modales            -->
+
 {% for person in site.persons %}
-{% if person.evento contains "ENEF2024" %}
-<div id="{{ person.id | remove: "/" }}-modal" class="modal">
+{% if person.EC4 %}
+
+<div id="{{ person.id | remove: "/" }}-EC4" class="modal">
   <div class="modal-content">
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row">
         <div class="col s12 m6 l6">
           <div class="row center">
-            <img src="{{ person.img }}" alt="" class="circle" width="70%">
+	    <img src="{{ person.header }}" width="80%">
           </div>
         </div>
         <div class="col s12 m6 l6">        
-          <div class="row center" style="padding-left: 30px; padding-top: 70px;">
-            <h2 class="justify">{{ person.nombre }}</h2>
-            <h5 class="justify">{{ person.roldes }}</h5>
+          <div class="row center" style="padding-top: 40px;">
+            <h3 class="justify">{{ person.nombre }}</h3>
+            <h5 class="justify">{{ person.EC4 }}</h5>
           </div>
         </div>
       </div>
+
       <!-- Biografía -->
+
       <div class="row">
-        {% if person.charla %}
+        <h5 class="justify">Biografía</h5>
+        {% if person.descr %}
           <p style="text-align: justify;">
-	    {{ person.charla }}
+            {{ person.descr }}
           </p>
         {% endif %}
-      </div>	    
+      </div>
+      
+      <!-- Responsabilidades -->
+
       <div class="row">
-        <h3 class="justify">Biografía</h3>
-        {% if person.bio1 %}
+        <h5 class="justify">¿Qué ha hecho en el GdeE?</h5>
+        <list class="a">
+          {% if person.part1 %}
+            {% if person.link1 %}
+              <li><a href="{{ person.link1 }}" target="_blank">{{ person.part1 }}</a></li>
+            {% else %}
+            <li>{{ person.part1 }}</li>
+            {% endif %}
+          {% endif %}
+          {% if person.part2 %}
+            {% if person.link2 %}
+              <li><a href="{{ person.link2 }}" target="_blank">{{ person.part2 }}</a></li>
+            {% else %}
+            <li>{{ person.part2 }}</li>
+            {% endif %}
+          {% endif %}
+          {% if person.part3 %}
+            {% if person.link3 %}
+              <li><a href="{{ person.link3 }}" target="_blank">{{ person.part3 }}</a></li>
+            {% else %}
+            <li>{{ person.part3 }}</li>
+            {% endif %}
+          {% endif %}
+          {% if person.part4 %}
+            {% if person.link4 %}
+              <li><a href="{{ person.link4 }}" target="_blank">{{ person.part4 }}</a></li>
+            {% else %}
+            <li>{{ person.part4 }}</li>
+            {% endif %}
+          {% endif %}
+        </list>
+      </div>
+      
+      <!-- Artículos -->
+      
+      {% if person.arti1 %}
+        <div class="row">
+          <h5 class="justify">Artículos del blog</h5>
+          <list class="a">
+            {% if person.arti1 %}
+              <li><a href="{{ person.lkar1 }}" target="_blank">{{ person.arti1 }}</a></li>
+            {% endif %}
+            {% if person.arti2 %}
+              <li><a href="{{ person.lkar2 }}" target="_blank">{{ person.arti2 }}</a></li>
+            {% endif %}
+            {% if person.arti3 %}
+              <li><a href="{{ person.lkar3 }}" target="_blank">{{ person.arti3 }}</a></li>
+            {% endif %}
+            {% if person.arti4 %}
+              <li><a href="{{ person.lkar4 }}" target="_blank">{{ person.arti4 }}</a></li>
+            {% endif %}
+            {% if person.arti5 %}
+              <li><a href="{{ person.lkar5 }}" target="_blank">{{ person.arti5 }}</a></li>
+            {% endif %}
+            {% if person.arti6 %}
+              <li><a href="{{ person.lkar6 }}" target="_blank">{{ person.arti6 }}</a></li>
+            {% endif %}
+            {% if person.arti7 %}
+              <li><a href="{{ person.lkar7 }}" target="_blank">{{ person.arti7 }}</a></li>
+            {% endif %}
+            {% if person.arti8 %}
+              <li><a href="{{ person.lkar8 }}" target="_blank">{{ person.arti8 }}</a></li>
+            {% endif %}
+            {% if person.arti9 %}
+              <li><a href="{{ person.lkar9 }}" target="_blank">{{ person.arti9 }}</a></li>
+            {% endif %}
+            {% if person.arti10 %}
+              <li><a href="{{ person.lkar10 }}" target="_blank">{{ person.arti10 }}</a></li>
+            {% endif %}
+          </list>
+        </div>
+      {% endif %}
+
+     </div>
+   </div>
+  
+   <div class="modal-footer">
+     <a href="#!" class="modal-close waves-effect waves-green btn-flat">CERRAR</a>
+   </div>
+ </div>
+
+ {% endif %}
+ {% endfor %}
+
+
+{% for person in site.persons %}
+{% if person.EC3%}
+
+<div id="{{ person.id | remove: "/" }}-EC3" class="modal">
+  <div class="modal-content">
+    <div class="section" style="padding-left: 30px; padding-right: 30px;">
+      <div class="row">
+        <div class="col s12 m6 l6">
+          <div class="row center">
+	    <img src="{{ person.header }}" width="80%">
+          </div>
+        </div>
+        <div class="col s12 m6 l6">        
+          <div class="row center" style="padding-top: 40px;">
+            <h3 class="justify">{{ person.nombre }}</h3>
+            <h5 class="justify">{{ person.EC3 }}</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Biografía -->
+
+      <div class="row">
+        <h5 class="justify">Biografía</h5>
+        {% if person.descr %}
           <p style="text-align: justify;">
-	    {{ person.bio1 }}
+            {{ person.descr }}
           </p>
         {% endif %}
-        {%- if person.bio2 -%}<p style="text-align: justify;">
-          {{ person.bio2 }}
-        </p>{%- endif -%}
-        {%- if person.bio3 -%}<p style="text-align: justify;">
-          {{ person.bio3 }}
-        </p>{%- endif -%}
-        {%- if person.bio4 -%}<p style="text-align: justify;">
-          {{ person.bio4 }}
-        </p>{%- endif -%}
       </div>
-      <!-- Recomendaciones -->
+      
+      <!-- Responsabilidades -->
+
       <div class="row">
-        {%- if person.book1title -%}
-	  <h3 class="justify" style="padding-bottom: 12px;">Contenido Recomendado</h3>
-          {%- if person.book2title -%}<div class="col s12 m6 l6">{%- endif -%}     
-            <div class="row center">
-              <a href="{{ person.book1link }}" target="_blank"><img class="responsive-img" style="width:50%; align: center;" src="{{ person.book1img }}"></a>
-              <p style="text-align: center; padding-right: 2px; padding-left: 2px;">
-                <a href="{{ person.book1link }}" target="_blank">{{ person.book1title }}</a>
-              </p>
-            </div>
-          {%- if person.book2title -%}</div>{%- endif -%}      
-          {%- endif -%}
-        {%- if person.book2title -%}
-          <div class="col s12 m6 l6">
-            <div class="row center">
-              <a href="{{ person.book2link }}" target="_blank"><img class="responsive-img" style="width:50%" src="{{ person.book2img }}"></a>
-              <p style="text-align: center; padding-right: 2px; padding-left: 2px;">
-                <a href="{{ person.book2link }}" target="_blank">{{ person.book2title }}</a>
-              </p>
-            </div>
-          </div>
-        {%- endif -%}
+        <h5 class="justify">¿Qué ha hecho en el GdeE?</h5>
+        <list class="a">
+          {% if person.part1 %}
+            {% if person.link1 %}
+              <li><a href="{{ person.link1 }}" target="_blank">{{ person.part1 }}</a></li>
+            {% else %}
+            <li>{{ person.part1 }}</li>
+            {% endif %}
+          {% endif %}
+          {% if person.part2 %}
+            {% if person.link2 %}
+              <li><a href="{{ person.link2 }}" target="_blank">{{ person.part2 }}</a></li>
+            {% else %}
+            <li>{{ person.part2 }}</li>
+            {% endif %}
+          {% endif %}
+          {% if person.part3 %}
+            {% if person.link3 %}
+              <li><a href="{{ person.link3 }}" target="_blank">{{ person.part3 }}</a></li>
+            {% else %}
+            <li>{{ person.part3 }}</li>
+            {% endif %}
+          {% endif %}
+          {% if person.part4 %}
+            {% if person.link4 %}
+              <li><a href="{{ person.link4 }}" target="_blank">{{ person.part4 }}</a></li>
+            {% else %}
+            <li>{{ person.part4 }}</li>
+            {% endif %}
+          {% endif %}
+        </list>
       </div>
-      {%- if person.videotitle -%}
+      
+      <!-- Artículos -->
+      
+      {% if person.arti1 %}
         <div class="row">
-          <center><iframe width="642" height="361" src="{{- person.videolink -}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+          <h5 class="justify">Artículos del blog</h5>
+          <list class="a">
+            {% if person.arti1 %}
+              <li><a href="{{ person.lkar1 }}" target="_blank">{{ person.arti1 }}</a></li>
+            {% endif %}
+            {% if person.arti2 %}
+              <li><a href="{{ person.lkar2 }}" target="_blank">{{ person.arti2 }}</a></li>
+            {% endif %}
+            {% if person.arti3 %}
+              <li><a href="{{ person.lkar3 }}" target="_blank">{{ person.arti3 }}</a></li>
+            {% endif %}
+            {% if person.arti4 %}
+              <li><a href="{{ person.lkar4 }}" target="_blank">{{ person.arti4 }}</a></li>
+            {% endif %}
+            {% if person.arti5 %}
+              <li><a href="{{ person.lkar5 }}" target="_blank">{{ person.arti5 }}</a></li>
+            {% endif %}
+            {% if person.arti6 %}
+              <li><a href="{{ person.lkar6 }}" target="_blank">{{ person.arti6 }}</a></li>
+            {% endif %}
+            {% if person.arti7 %}
+              <li><a href="{{ person.lkar7 }}" target="_blank">{{ person.arti7 }}</a></li>
+            {% endif %}
+            {% if person.arti8 %}
+              <li><a href="{{ person.lkar8 }}" target="_blank">{{ person.arti8 }}</a></li>
+            {% endif %}
+            {% if person.arti9 %}
+              <li><a href="{{ person.lkar9 }}" target="_blank">{{ person.arti9 }}</a></li>
+            {% endif %}
+            {% if person.arti10 %}
+              <li><a href="{{ person.lkar10 }}" target="_blank">{{ person.arti10 }}</a></li>
+            {% endif %}
+          </list>
         </div>
-      {%- endif -%}
-      {%- if person.otherinfo1link -%}
-        <div class="row">
-          <div class="col s12 m6 l6">
-            <div class="row center">
-              <a href="{{ person.otherinfo1link }}" target="_blank">{{ person.otherinfo1text }}</a>
-            </div>
-          </div>
-          {%- if person.otherinfo2link -%}
-            <div class="col s12 m6 l6">
-              <div class="row center">
-                <a href="{{ person.otherinfo2link }}" target="_blank">{{ person.otherinfo2text }}</a>
-              </div>
-            </div>
-          {%- endif -%}
-        </div>
-      {%- endif -%}
-      {%- if person.otherinfo3link -%}
-        <div class="row">
-          <div class="col s12 m6 l6">
-            <div class="row center">
-              <a href="{{ person.otherinfo3link }}" target="_blank">{{ person.otherinfo3text }}</a>
-            </div>
-          </div>
-          {%- if person.otherinfo4link -%}
-            <div class="col s12 m6 l6">
-              <div class="row center">
-                <a href="{{ person.otherinfo4link }}" target="_blank">{{ person.otherinfo4text }}</a>
-              </div>
-            </div>
-          {%- endif -%}
-        </div>
-      {%- endif -%}
-    </div>
-  </div>
-  <div class="modal-footer">
-    <a href="#!" class="modal-close waves-effect waves-green btn-flat">CERRAR</a>
-  </div>
-</div>
-{% endif %}
-{% endfor %}
+      {% endif %}
+
+     </div>
+   </div>
+  
+   <div class="modal-footer">
+     <a href="#!" class="modal-close waves-effect waves-green btn-flat">CERRAR</a>
+   </div>
+ </div>
+
+ {% endif %}
+ {% endfor %}  
