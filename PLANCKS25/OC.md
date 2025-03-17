@@ -13,13 +13,7 @@ permalink: /PLANCKS25/OC/
       <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
 
       <!-- ENCABEZADO O INTRO, si quieres -->
-      <div class="row">
-        <div class="col s12 m6 offset-m1">
-          <p>
-            This is the current team composition. Grouped by their role:
-          </p>
-        </div>
-      </div>
+      
 
       <hr>
 
