@@ -6,7 +6,7 @@ permalink: /PLANCKS25/EC/
 ---
 
 <!-- Un bucle sobre site.data.EC4 o cualquier dato que uses -->
-{% for item in site.data.EC4 %}
+{% for item in site.data.EC5 %}
 <div class="row">
   <div class="col s12 m4">
     <img data-caption="Logo de Estudiantes RSEF." width="100%" src="{{ site.url }}/img/logos/gdee-rsef.png">
@@ -26,9 +26,9 @@ Esta Junta de Gobierno fue elegida el {{ item.dataElecciones }}.
 <!-- Aquí empiezan las tarjetas de personas sin modal -->
 <div class="section" id="content-desktop">
   <div class="row center">
-    {% assign sorted_persons = site.persons | sort: 'Pos_EC4' %}
+    {% assign sorted_persons = site.persons | sort: 'Pos_EC5' %}
     {% for person in sorted_persons %}
-      {% if person.EC4 %}
+      {% if person.EC5 %}
         <ul class="collection" style="width: 300px">
           <li class="collection-item avatar5">
             <!-- Imagen circular -->
@@ -38,7 +38,7 @@ Esta Junta de Gobierno fue elegida el {{ item.dataElecciones }}.
               {{ person.nombre }}
             </p>
             <p class="rol" style="padding-left: 120px; padding-bottom: 25px;">
-              {{ person.EC4 }}
+              {{ person.EC5 }}
             </p>
           </li>
         </ul>
@@ -50,9 +50,9 @@ Esta Junta de Gobierno fue elegida el {{ item.dataElecciones }}.
 <!-- Versión para móvil (si mantienes doble contenido) -->
 <div class="section" id="content-mobile">
   <div class="row center">
-    {% assign sorted_persons = site.persons | sort: 'Pos_EC4' %}
+    {% assign sorted_persons = site.persons | sort: 'Pos_EC5' %}
     {% for person in sorted_persons %}
-      {% if person.EC4 %}
+      {% if person.EC5 %}
         <ul class="collection" style="width: 90%">
           <li class="collection-item avatar5">
             <img src="{{ person.img }}" alt="Foto de {{ person.nombre }}" class="circle" style="margin-bottom: 10px;">
@@ -60,7 +60,7 @@ Esta Junta de Gobierno fue elegida el {{ item.dataElecciones }}.
               {{ person.nombre }}
             </p>
             <p class="rol" style="padding-left: 120px; padding-bottom: 25px;">
-              {{ person.EC4 }}
+              {{ person.EC5 }}
             </p>
           </li>
         </ul>
