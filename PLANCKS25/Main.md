@@ -45,8 +45,8 @@ permalink: /PLANCKS25/
       <h2>Participation Fees</h2>
       <p style="text-align: justify;">The registration fee for both participants and observers is <strong>100€</strong>. This fee includes:</p>
       <ul style="text-align: justify; padding-left: 2rem; ">
-        <li style="list-style-type: disc">Accommodation for the duration of the event</li>
-        <li style="list-style-type: disc">Transportation between accommodation and venue</li>
+        <li style="list-style-type: disc">Accommodation for the duration of the event, from evening 1st May to morning 5th May</li>
+        <li style="list-style-type: disc">Transportation between accommodation and venue (but not from and to the airport)</li>
         <li style="list-style-type: disc">Access to all scientific activities</li>
         <li style="list-style-type: disc">Social events and excursions</li>
       </ul>      
