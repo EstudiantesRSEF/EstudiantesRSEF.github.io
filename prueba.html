@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Page</title>
+</head>
+<body>
+    <h2>Enter a query:</h2>
+    <input type="text" id="userInput" placeholder="Type something...">
+    <button onclick="processInput()">Submit</button>
+    
+    <p id="output"></p>
+
     <script>
         function processInput() {
             const input = document.getElementById("userInput").value.toLowerCase().trim();
@@ -22,3 +30,13 @@
                 
                 if (action.type === "redirect") {
                     window.location.href = action.value;
+                } else {
+                    document.getElementById("output").innerText = action.value;
+                }
+            } else {
+                document.getElementById("output").innerText = "No results found.";
+            }
+        }
+    </script>
+</body>
+</html>
