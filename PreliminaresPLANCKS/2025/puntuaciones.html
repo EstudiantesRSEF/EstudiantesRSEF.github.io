@@ -7,9 +7,9 @@
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
-    <h2>Enter a query:</h2>
-    <input type="text" id="userInput" placeholder="Type something...">
-    <button onclick="processInput()">Submit</button>
+    <h2>Introduce el nombre del equipo:</h2>
+    <input type="text" id="userInput" placeholder="Escribe aquí...">
+    <button onclick="processInput()">Consulta</button>
     
     <p id="output"></p>
 
@@ -28,8 +28,8 @@
             return `
                 <table border="1">
                     <tr>
-                        <th>Ránquing</th>
-                        <th>${numbers[0]}</th>
+                        <th>Problema</th>
+                        <th>Puntuación</th>
                     </tr>
                     <tr>
                         <td>Problema 1</td>
@@ -67,6 +67,10 @@
                         <th>Puntuación total</th>
                         <th>${numbers[1]}</th>
                     </tr>
+                    <tr>
+                        <th>Ránquing</th>
+                        <th>${numbers[0]}</th>
+                    </tr>
                 </table>
             `;
         }
@@ -77,7 +81,7 @@
             if (dataValues[input]) {
                 document.getElementById("output").innerHTML = generateTable(dataValues[input]);
             } else {
-                document.getElementById("output").innerText = "No results found.";
+                document.getElementById("output").innerText = "No se encontraron resultados.";
             }
         }
     </script>
