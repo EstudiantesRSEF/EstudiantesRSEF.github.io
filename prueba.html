@@ -16,9 +16,9 @@
     <script>
         // Store only the variable numbers for each key
         const dataValues = {
-            "entry1": [10, 20, 30],
-            "entry2": [5, 15, 25],
-            "entry3": [7, 14, 21],
+            "entry1": [0, 0, 1, 2, 3, 4, 5, 6, 7, 8],
+            "entry2": [0, 0, 5, 10, 15, 20, 25, 30, 35, 40],
+            "entry3": [0, 0, 7, 14, 21, 28, 35, 42, 49, 56],
             "entry100": [50, 100, 150]
             // Add up to 100+ entries here...
         };
@@ -28,20 +28,44 @@
             return `
                 <table border="1">
                     <tr>
-                        <th>Category</th>
-                        <th>Value</th>
+                        <th>Ránquing</th>
+                        <th>${numbers[0]}</th>
                     </tr>
                     <tr>
-                        <td>First</td>
-                        <td>${numbers[0]}</td>
-                    </tr>
-                    <tr>
-                        <td>Second</td>
-                        <td>${numbers[1]}</td>
-                    </tr>
-                    <tr>
-                        <td>Third</td>
+                        <td>Problema 1</td>
                         <td>${numbers[2]}</td>
+                    </tr>
+                    <tr>
+                        <td>Problema 2</td>
+                        <td>${numbers[3]}</td>
+                    </tr>
+                    <tr>
+                        <td>Problema 3</td>
+                        <td>${numbers[4]}</td>
+                    </tr>
+                    <tr>
+                        <td>Problema 4</td>
+                        <td>${numbers[5]}</td>
+                    </tr>
+                    <tr>
+                        <td>Problema 5</td>
+                        <td>${numbers[6]}</td>
+                    </tr>
+                    <tr>
+                        <td>Problema 6</td>
+                        <td>${numbers[7]}</td>
+                    </tr>
+                    <tr>
+                        <td>Problema 7</td>
+                        <td>${numbers[8]}</td>
+                    </tr>
+                    <tr>
+                        <td>Problema 8</td>
+                        <td>${numbers[9]}</td>
+                    </tr>
+                    <tr>
+                        <th>Puntuación total</th>
+                        <th>${numbers[1]}</th>
                     </tr>
                 </table>
             `;
