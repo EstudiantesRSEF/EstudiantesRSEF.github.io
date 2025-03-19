@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+    <script>
+        function processInput() {
+            const input = document.getElementById("userInput").value.toLowerCase().trim();
+            
+            // Define correspondences
+            const mappings = {
+                "prelis": { type: "redirect", value: "/PreliminaresPLANCKS2025/" },  // Jekyll-friendly URL
+                "enef": { type: "redirect", value: "/ENEF2025/" },
+                "rsef": { type: "redirect", value: "https://rsef.es/" },
+                "help": { type: "info", value: "For help, check out the FAQ section." }
+            };
+
+            // Check if input matches a key
+            if (mappings[input]) {
+                const action = mappings[input];
+                
+                if (action.type === "redirect") {
+                    window.location.href = action.value;
