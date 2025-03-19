@@ -36,11 +36,6 @@ permalink: /PreliminaresPLANCKS2025/
         <a href="{{ site.url}}/PreliminaresPLANCKS/2025/clasificacionprelis2025.pdf" target="_blank"><span><strong>CLASIFICACIÓN DE LAS PRELIMINARES DE PLANCKS 2025</strong></span></a>
       </h2>
       <hr> -->
-      <!-- SOLUCIONES -->
-      <!-- <h2 style="text-align: center;">
-        <a href="https://drive.google.com/drive/folders/1W5TApAH-R18FIYzg79aIk_bP2T36iI4F" target="_blank"><span><strong>SOLUCIONES DE LOS PROBLEMAS</strong></span></a>
-      </h2>
-      <hr> -->
       <!-- INTRODUCCIÓN -->
       <p style="text-align: justify; line-height: 1.5;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la octava edición de las <strong>Preliminares de PLANCKS</strong>! Y este año también ofrecemos <strong>1500€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces. Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p>       
       <!-- BOTONES -->
@@ -55,6 +50,14 @@ permalink: /PreliminaresPLANCKS2025/
           <a href="#inscripcion-modal" id="inscripcion-button" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">create</i><strong>Inscríbete</strong></a>
         </div>
       </div>
+      <!-- SOLUCIONES -->
+      <hr>
+      <p style="text-align: justify;">¡Ya están aquí las soluciones de las Preliminares de PLANCKS 2025! ¿Cómo os ha ido? Consultad las soluciones completas en el siguiente enlace:</p>
+      <h2 style="text-align: center;">
+      <h2 style="text-align: center;">
+        <a href="/PreliminaresPLANCKS/2025/PreliminaresPLANCKS25_Solutions.pdf" target="_blank"><span><strong>SOLUCIONES DE LOS PROBLEMAS</strong></span></a>
+      </h2>
+      <hr>
         <!-- COUNTDOWN -->
       <div class="row" style="margin-bottom: -10px">  
         <p style="text-align: justify;">Las inscripciones para las Preliminares de PLANCKS 2025 se cerrarán en...</p>
