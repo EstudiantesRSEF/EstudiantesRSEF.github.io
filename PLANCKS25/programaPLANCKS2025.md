@@ -10,56 +10,152 @@ permalink: /PLANCKS25/programa/
       <div class="section">
 <!-- BANNER -->
       <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">	
-<!-- PROGRAMA -->
-      <div class="section">
-        <h4 id="program">Program</h4>
- 	<p style="text-align: justify;"> Here is the program for PLANCKS 2025! Are you going to miss it? Check the rest of the information in the  <a href="{{ site.url }}/PLANCKS25">PLANCKS web</a>.</p>
-      </div>
-      <div class="section" id="content-desktop">
- 	<h5> Click on the image to see the program on full size </h5>
-        <div class="row">
-             <img class="materialboxed" width="80%" src="/img/eventos/2024-ENEF/ENEF24_programav3.png">
-        </div>	 
-      </div>
-      <div class="section" id="content-mobile">
-	<div class="row">
-          <img class="materialboxed" width="100%" src="/img/eventos/2024-ENEF/ENEF24_programav3.png">
-        </div>
-      </div>   
-      <div class="section">
-	<h3 id="ponentes">En el ENEF contaremos con...</h3>
-	<p style="text-align: justify;">¡Descubre los mejores ponentes que nos acompañarán durante el ENEF!</p>
-      </div>	    
-<!-- PONENTES -->    
-      <div class="section">
-       <div class="col s12 m6">
-         <div class="row center">
-	 {% assign sorted_persons = site.persons | sort: "position" %}
-         {% for person in sorted_persons %}
-         {% if person.evento contains "ENEF2024" %}
-         {% if person.visible contains "True" %}
-           <ul class="collection waves-effect waves-light" style="width: 33%">
-             <a href="#{{ person.id | remove: "/" }}-modal" class="collection-item modal-trigger waves-effect waves-light" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
-               <li class="collection-item avatar2">
-                 <img src="{{ person.img }}" alt="" class="circle">
-                 {% if person.nombredes %}
-                 <span class="title" style="padding-left: 10px">{{ person.nombredes }}</span>
-                 {% else %}
-                 <span class="title" style="padding-left: 10px">{{ person.nombre }}</span>
-                 {% endif %}
-                 <p style="padding-top: 10px">
-                   {{ person.horario }}
-                 </p>
-               </li>
-             </a>
-           </ul>
-         {% endif %}
-         {% endif %}
-         {% endfor %}
-         <h5>...¡y muchos más!</h5>
-         </div>
-       </div>
-     </div>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-0pky"></th>
+      <th class="tg-0pky">LEGEND</th>
+      <th class="tg-0pky">CONFIRMED</th>
+      <th class="tg-0pky"></th>
+      <th class="tg-0pky">PENDING</th>
+      <th class="tg-0pky"></th>
+      <th class="tg-0pky"></th>
+      <th class="tg-0pky"></th>
+      <th class="tg-0pky"></th>
+      <th class="tg-0pky"></th>
+      <th class="tg-0pky"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">Horas MUY orientativas!!!</td>
+      <td class="tg-0pky">Jueves 1</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">Viernes 2</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">Sábado 3</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">Domingo 4</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">Lunes 5</td>
+    </tr>
+    <tr>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+    </tr>
+    <tr>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">8:00</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">BREAKFAST</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">BREAKFAST</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">BREAKFAST</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">BREAKFAST</td>
+    </tr>
+    <tr>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">9:00</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">BUS Barcelona</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">BUS UAB</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">Relax</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">BUS a Barcelona</td>
+    </tr>
+    <tr>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">10:00</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">WELCOME AND REGISTRATION</td>
+      <td class="tg-0pky">LAB tour ALBA/ICFO/Qilimanjaro.</td>
+      <td class="tg-0pky">Test. Facultad de Ciencias UAB.</td>
+      <td class="tg-0pky">Observers Workshop</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">Career Fair. Atri facultat FiQ UB</td>
+    </tr>
+    <tr>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">11:00</td>
+      <td class="tg-0pky">WELCOME AND REGISTRATION.</td>
+      <td class="tg-0pky">Reception: UB Hall edificio Josep Carner 11-18h</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">BUS to UB</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+    </tr>
+    <tr>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">12:00</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">Talk ( Barbara Buades)</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+    </tr>
+    <tr>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">13:00</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">CLOSING. Aula magna Biologia UB</td>
+    </tr>
+    <tr>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">14:00</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">Lunch (Zona Sarria)</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">Lunch @ UAB.</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky">Lunch and Posters</td>
+      <td class="tg-0pky"></td>
+      <td class="tg-0pky"></td>
+    </tr>
+    <!-- More rows can be added similarly -->
+  </tbody>
+</table>
+
 <!-- LOCATIONS MANUAL -->    
 <!--        <div class="section">
        <h3 id="espacios">Además visitaremos espacios como...</h3>
