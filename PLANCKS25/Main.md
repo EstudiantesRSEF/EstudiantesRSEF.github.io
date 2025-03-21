@@ -41,6 +41,13 @@ permalink: /PLANCKS25/
       <div class="row d-flex justify-content-center">
         <a href="https://estudiantes.rsef.es/PLANCKS25/venue/" id="boton-venue" class="btn-square plancks25-color" style="width: auto">Venue & Accomodations</a>
       </div> 
+
+ <!-- Program -->
+      <h2> Program </h2>
+      <p style="text-align: justify;">The <strong>Provisional </strong> program for PLANCKS 25 is here! Check it out here!</p>
+      <div class="row d-flex justify-content-center">
+        <a href="https://estudiantes.rsef.es/PLANCKS25/programa/" id="boton-venue" class="btn-square plancks25-color" style="width: auto">Program</a>
+      </div> 
 <!-- FEES -->
       <h2>Participation Fees</h2>
       <p style="text-align: justify;">The registration fee for both participants and observers is <strong>100€</strong>. This fee includes:</p>
