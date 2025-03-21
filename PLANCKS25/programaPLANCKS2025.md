@@ -10,7 +10,7 @@ permalink: /PLANCKS25/programa/
       <div class="section">
 <!-- BANNER -->
       <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
-	      <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/Calendario.jpg">
+	      <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/Calendario_PLANCKS.png">
 	
 
 <!-- LOCATIONS MANUAL -->    
