@@ -3,25 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search Page</title>
+    <title>Consulta de Resultados</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
     <style>
-        /* Make <th> bold and left-aligned */
-        .bold-left-align {
-            font-weight: bold;    /* Make text bold */
-            text-align: left;      /* Align text to the left */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: white;
+            text-align: center;
+            padding: 50px;
         }
 
-        /* Center all <td> elements */
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            font-size: 18px;
+            border-radius: 5px;
+            border: none;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #2575fc;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #6a11cb;
+        }
+
+        table {
+            margin-top: 20px;
+            border-collapse: collapse;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px 20px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #2575fc;
+            color: white;
+            font-weight: bold;
+        }
+
         td {
-            text-align: center;    /* Align text to the center */
+            background-color: #1a2a6c;
+        }
+
+        .bold-left-align {
+            font-weight: bold;
+            text-align: left;
+        }
+
+        .message {
+            font-size: 18px;
+            margin-top: 20px;
+            color: #ff5252;
         }
     </style>
     
 </head>
 <body>
-    <h2>Introduce el nombre del equipo:</h2>
+    <h2>Introduce el DNI del capitán/na del equipo:</h2>
     <input type="text" id="userInput" placeholder="Escribe aquí...">
     <button onclick="processInput()">Consulta</button>
     
