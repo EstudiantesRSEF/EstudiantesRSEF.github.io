@@ -202,7 +202,7 @@
         }
 
         function processInput() {
-            const input = document.getElementById("userInput").value.toLowerCase().trim();
+            const input = document.getElementById("userInput").value.toUpperCase().trim();
 
             if (dataValues[input]) {
                 document.getElementById("output").innerHTML = generateTable(dataValues[input]);
