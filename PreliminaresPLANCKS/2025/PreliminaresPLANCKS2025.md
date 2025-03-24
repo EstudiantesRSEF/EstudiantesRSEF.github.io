@@ -64,7 +64,7 @@ permalink: /PreliminaresPLANCKS2025/
       <p style="text-align: justify;">Tras vuestro gran trabajo, ¡ya están disponibles las clasificiaciones de este año! Haciendo click en el siguiente botón y poniendo el DNI de vuestro capitán/na vereis el desglose de las puntuaciones</p>
       <div class="section" style="display: flex; flex-direction: column; justify-content: space-between">
         <div class="row center">
-          <a href="#https://estudiantes.rsef.es/PreliminaresPLANCKS/2025/puntuaciones.html" id="info-clasif" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light"><i class="material-icons" style="padding-right: 8px;">info</i><strong>Clasificación</strong></a>
+          <a href="https://estudiantes.rsef.es/PreliminaresPLANCKS/2025/puntuaciones.html" id="info-clasif" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light"><i class="material-icons" style="padding-right: 8px;">info</i><strong>Clasificación</strong></a>
         </div>
       </div>
       <hr>
