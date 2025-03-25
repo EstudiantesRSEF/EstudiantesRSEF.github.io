@@ -223,6 +223,14 @@
     border-radius: 8px;
   }
 
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
   .btn-plancks25 {
     background-color: #00a79d;
     color: white;
@@ -230,6 +238,11 @@
     border-radius: 4px;
     text-decoration: none;
     transition: transform 0.2s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 160px;
+    text-align: center;
 
     &:hover {
       transform: scale(1.05);

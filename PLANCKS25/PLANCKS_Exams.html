@@ -32,9 +32,14 @@ permalink: /PLANCKS25/Exams
               </div>
               <div class="backside">
                 <div class="card plancks25-card">
-                  <div class="card-body text-center mt-4">
+                  <div class="card-body text-center">
                     <h4 class="card-title">{{ item.name }}</h4>
-                    <a href="{{ item.link }}" class="btn-plancks25" target="_blank">Check the exam!</a>
+                    <div class="button-container">
+                      <a href="{{ item.link }}" class="btn-plancks25" target="_blank">Check the exam!</a>
+                      {% if item.solutions %}
+                        <a href="{{ item.solutions }}" class="btn-plancks25" target="_blank">View solutions!</a>
+                      {% endif %}
+                    </div>
                   </div>
                 </div>
               </div>
