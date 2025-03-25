@@ -192,8 +192,8 @@ permalink: /PLANCKS25/venue/
 -->  
 <!-- SPONSORS -->
 <div class="section">
-	{% include patrocinadores.html sponsors=site.data.PLANCKS25.sponsors %}    
-</div>
+  {% include patrocinadores.html sponsors=site.data.PLANCKS25.multiple.sponsors %}    
+</div> 
 <!-- Modal PONENTES -->
 {% for person in site.persons %}
 {% if person.evento contains "ENEF2024" %}
