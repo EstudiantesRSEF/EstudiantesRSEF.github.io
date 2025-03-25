@@ -11,8 +11,6 @@ permalink: /PLANCKS25/programa/
 <!-- BANNER -->
       <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
 	      <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/Calendario_PLANCKS.png">
-	
-
 <!-- LOCATIONS MANUAL -->    
 <!--        <div class="section">
        <h3 id="espacios">Además visitaremos espacios como...</h3>
@@ -48,8 +46,7 @@ permalink: /PLANCKS25/programa/
        </div>
      </div>
 -->  
-<!-- SPONSORS -->
-	{% include patrocinadores.html sponsors=site.data.PLANCKS25.sponsors %}    	  
+<!-- SPONSORS -->	  
     </div>    
   </div>
 </div>
@@ -166,3 +163,6 @@ permalink: /PLANCKS25/programa/
 </div>
 {% endif %}
 {% endfor %}
+<div class="section">
+  {% include patrocinadores.html sponsors=site.data.PLANCKS25.multiple.sponsors %}    
+</div>  

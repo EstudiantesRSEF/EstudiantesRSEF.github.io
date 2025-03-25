@@ -18,10 +18,8 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
       <p style="text-align: justify;">Since PLANCKS is a wide-spread international event, some countries hold preliminary events. Throughout these preliminaries, the best teams in each country are chosen as representation to PLANCKS international finals: Barcelona 2025.</p>
       <p style="text-align: justify;">Don’t miss out, check the PLANCKS Preliminaries venue in your country and come to Barcelona!</p>
       <p style="text-align: justify;">If your country is not listed below, then don’t wait and contact us on plancks25@rsef.es to arrange representing your country.</p>
-
 <!-- SEDES -->
-
-<div class="bubble-parent">
+      <div class="bubble-parent">
         {% for venue in site.data.PLANCKS25.info_venues %}
         <div class="bubble-container">
           <div class="info-bubble" >
@@ -38,8 +36,10 @@ permalink: /PLANCKS25/WorldwidePreliminaries/
         </div>
         {% endfor %}
       </div>
-<!-- SPONSORS -->
-      {% include patrocinadores.html sponsors=site.data.PLANCKS25.sponsors %}    	  
     </div>
+<!-- SPONSORS -->
+    <div class="section">
+      {% include patrocinadores.html sponsors=site.data.PLANCKS25.multiple.sponsors %}    
+    </div>  	      
   </div>
 </div>
