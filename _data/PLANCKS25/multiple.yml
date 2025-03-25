@@ -11,6 +11,27 @@ carousel_images:
 
 sponsors:
 - name: "GdeE"
-  type: "Organizer"
-  image: "/img/logos/gdee-rsef.png"
+  section: "Organizers"
+  logo: "/img/logos/gdee-rsef.png"
   link: "https://estudiantes.rsef.es/"
+  level: "1"
+
+- name: "Quside"
+  section: "Electrons"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/Quside.png"
+  link: "https://quside.com/"
+  level: "2"
+
+
+exams:
+- name: "Dublin 2024"
+  img: "/img/eventos/2025-PLANCKS/PrevEditionsLogos/2024Dublin.png"
+  link: "PreliminaresPLANCKS/2025/PreliminaresPLANCKS25_Solutions.pdf"
+
+- name: "Milan 2023"
+  img: "/img/eventos/2025-PLANCKS/PrevEditionsLogos/2023Milan.png"
+  link: "PreliminaresPLANCKS/2025/PreliminaresPLANCKS25_Solutions.pdf"
+
+- name: "Munich 2022"
+  img: "/img/eventos/2025-PLANCKS/PrevEditionsLogos/2022Munich.png"
+  link: "PreliminaresPLANCKS/2025/PreliminaresPLANCKS25_Solutions.pdf"

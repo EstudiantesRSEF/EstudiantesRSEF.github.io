@@ -1,0 +1,35 @@
+---
+layout: plancks25
+title: PLANCKS Barcelona 2025
+hidden: True
+permalink: /PLANCKS25/Exams
+---
+
+<div class="no-pad-top" id="index-page">
+  <div class="container">
+    <div class="section">
+      <!-- BANNER -->
+      <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
+
+      <h4>Practice with previous PLANCKS exams!</h4>
+      <p style="text-align: justify;">Want to prepare for PLANCKS? Check out the exams from previous editions. Click on any exam to download it!</p>
+
+      <!-- CARD GRID -->
+      <div class="card-grid">
+        {% for item in site.data.PLANCKS25.multiple.exams %}
+          <div class="card plancks25">
+            <div class="card-image" style="background-image: url('{{ item.img }}')">
+              <div class="card-overlay">
+                <a href="{{ item.link }}" class="card-button" target="_blank">Check the exam!</a>
+              </div>
+            </div>
+            <div class="card-title">{{ item.name }}</div>
+          </div>
+        {% endfor %}
+      </div>
+
+      <!-- SPONSORS -->
+      {% include patrocinadores.html sponsors=site.data.PLANCKS25.multiple.sponsors %}    
+    </div>
+  </div>
+</div>
