@@ -7,33 +7,34 @@ permalink: /PLANCKS25/Exams
 
 <div class="no-pad-top" id="index-page">
   <div class="container">
+    <!-- INTRODUCTION SECTION -->
     <div class="section">
       <!-- BANNER -->
       <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
 
       <h4>Practice with previous PLANCKS exams!</h4>
       <p style="text-align: justify;">Want to prepare for PLANCKS? Check out the exams from previous editions. Click on any exam to download it!</p>
+    </div>
 
-      <!-- EXAM GRID -->
-      <div class="row">
+    <!-- EXAMS SECTION -->
+    <div class="section">
+      <div class="exams-grid">
         {% for item in site.data.PLANCKS25.multiple.exams %}
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-              <div class="mainflip">
-                <div class="frontside">
-                  <div class="card">
-                    <div class="card-body text-center">
-                      <img class="img-fluid" src="{{ item.img }}" alt="{{ item.name }}">
-                      <h4 class="card-title">{{ item.name }}</h4>
-                    </div>
+          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+            <div class="mainflip">
+              <div class="frontside">
+                <div class="card plancks25-card">
+                  <div class="card-body text-center">
+                    <img class="img-fluid" src="{{ item.img }}" alt="{{ item.name }}">
+                    <h4 class="card-title">{{ item.name }}</h4>
                   </div>
                 </div>
-                <div class="backside">
-                  <div class="card">
-                    <div class="card-body text-center mt-4">
-                      <h4 class="card-title">{{ item.name }}</h4>
-                      <a href="{{ item.link }}" class="btn btn-plancks25" target="_blank">Check the exam!</a>
-                    </div>
+              </div>
+              <div class="backside">
+                <div class="card plancks25-card">
+                  <div class="card-body text-center mt-4">
+                    <h4 class="card-title">{{ item.name }}</h4>
+                    <a href="{{ item.link }}" class="btn btn-plancks25" target="_blank">Check the exam!</a>
                   </div>
                 </div>
               </div>
@@ -41,9 +42,9 @@ permalink: /PLANCKS25/Exams
           </div>
         {% endfor %}
       </div>
-
-      <!-- SPONSORS -->
-      {% include patrocinadores.html sponsors=site.data.PLANCKS25.multiple.sponsors %}    
     </div>
+
+    <!-- SPONSORS -->
+    {% include patrocinadores.html sponsors=site.data.PLANCKS25.multiple.sponsors %}    
   </div>
 </div>
