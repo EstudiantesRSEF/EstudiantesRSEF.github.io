@@ -150,3 +150,70 @@
 
   }
 }
+
+.image-flip {
+  margin: 15px 0;
+  perspective: 1000px;
+  &:hover .backside,
+  &.hover .backside {
+    transform: rotateY(0deg);
+  }
+  &:hover .frontside,
+  &.hover .frontside {
+    transform: rotateY(180deg);
+  }
+}
+
+.mainflip {
+  transition: 1s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.frontside, .backside {
+  backface-visibility: hidden;
+  transition: 1s;
+  transform-style: preserve-3d;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.frontside {
+  z-index: 2;
+  transform: rotateY(0deg);
+  .card {
+    min-height: 312px;
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  }
+}
+
+.backside {
+  transform: rotateY(-180deg);
+  .card {
+    min-height: 312px;
+    .btn-plancks25 {
+      background-color: var(--plancks25-color);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 4px;
+      text-decoration: none;
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+}
+
+.card {
+  border: none;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}

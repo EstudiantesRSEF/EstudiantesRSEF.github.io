@@ -14,16 +14,30 @@ permalink: /PLANCKS25/Exams
       <h4>Practice with previous PLANCKS exams!</h4>
       <p style="text-align: justify;">Want to prepare for PLANCKS? Check out the exams from previous editions. Click on any exam to download it!</p>
 
-      <!-- CARD GRID -->
-      <div class="card-grid">
+      <!-- EXAM GRID -->
+      <div class="row">
         {% for item in site.data.PLANCKS25.multiple.exams %}
-          <div class="card plancks25">
-            <div class="card-image" style="background-image: url('{{ item.img }}')">
-              <div class="card-overlay">
-                <a href="{{ item.link }}" class="card-button" target="_blank">Check the exam!</a>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+              <div class="mainflip">
+                <div class="frontside">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <img class="img-fluid" src="{{ item.img }}" alt="{{ item.name }}">
+                      <h4 class="card-title">{{ item.name }}</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="backside">
+                  <div class="card">
+                    <div class="card-body text-center mt-4">
+                      <h4 class="card-title">{{ item.name }}</h4>
+                      <a href="{{ item.link }}" class="btn btn-plancks25" target="_blank">Check the exam!</a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="card-title">{{ item.name }}</div>
           </div>
         {% endfor %}
       </div>
