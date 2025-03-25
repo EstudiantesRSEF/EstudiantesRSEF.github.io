@@ -157,21 +157,15 @@
   gap: 2rem;
   justify-content: center;
   padding: 2rem 0;
+  width: 100%; // Ensure full width
+  position: relative; // Create new stacking context
+  z-index: 1; // Ensure proper stacking
 }
 
 .image-flip {
-  perspective: 1000px;
-  width: 300px; // Fixed width
-  margin: 0;
-  
-  &:hover .backside,
-  &.hover .backside {
-    transform: rotateY(0deg);
-  }
-  &:hover .frontside,
-  &.hover .frontside {
-    transform: rotateY(180deg);
-  }
+  flex: 0 0 300px; // Fixed width, no grow, no shrink
+  max-width: 300px; // Maximum width
+  margin-bottom: 2rem; // Space between rows
 }
 
 .mainflip {
