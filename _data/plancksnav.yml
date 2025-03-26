@@ -4,8 +4,12 @@
    subitems:
     - text: Organising Committee
       url: /PLANCKS25/OC/
- - text: <strong>Documentation</strong>
-   url: /PLANCKS25/Documentation/
+ - text: <strong> Documentation </strong>
+   subitems:
+    - text: <strong> Rules </strong>
+      url: /PLANCKS25/Documentation/
+    - text: <strong> Exams </strong>
+      url: /PLANCKS25/Exams
  - text: <strong>Participate!</strong>
    url: /PLANCKS25/WorldwidePreliminaries/
 
