@@ -298,3 +298,22 @@ a.enef25-link {
 .indicator.active {
     color: blue; 
 }
+
+
+.btn-degradado {
+  @extend .btn-large; // o la clase base que prefieras, p. ej. .btn
+  border-radius: 4px; // Ajusta el radio que desees
+  padding: 1rem 2rem;
+  color: #fff;
+  cursor: pointer;
+  // Aplica el degradado inicial azul-centro → rosa-borde
+  background: radial-gradient(circle, $enef25-blue 0%, $enef25-pink 100%);
+  // Transición para suavizar el efecto
+  transition: background 0.5s ease;
+
+  &:hover {
+    // Cambiamos el orden de los colores: rosa-centro → azul-borde
+    background: radial-gradient(circle, $enef25-pink 0%, $enef25-blue 100%);
+  }
+}
+
