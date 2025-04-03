@@ -314,6 +314,53 @@ a.enef25-link {
   &:hover {
     // Cambiamos el orden de los colores: rosa-centro → azul-borde
     background: radial-gradient(circle, $enef25-pink 0%, $enef25-blue 100%);
+
+.btn-iluminado {
+  @extend .btn-large; // Usamos la clase base .btn-large o cualquier otra
+  border-radius: 4px; // Ajusta el radio
+  padding: 1rem 2rem;
+  color: #fff;
+  background-color: #333; // Gris oscuro (apagado)
+  border: 2px solid transparent; // Sin borde visible, para el efecto de la estela
+  position: relative; // Para posicionar la línea animada de la estela
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; // Transiciones suaves para el color y la sombra
+
+  // Efecto inicial de iluminación (gris oscuro pero legible)
+  background: #333;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2); // Sombra interna sutil para que parezca apagado
+
+  // Estilo de la estela de luz (la línea alrededor del borde)
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px; // Se adapta al borde del botón
+    border: 2px solid transparent; // El borde no es visible inicialmente
+    background: linear-gradient(0deg, transparent, transparent 50%, white 50%, transparent 100%); // Para crear la línea de la estela
+    z-index: -1;
+    pointer-events: none; // No afecta al clic
+    animation: rotateBorder 2s linear infinite; // Animación de la estela
+  }
+
+  &:hover {
+    background: radial-gradient(circle, #EE4FA8 0%, #00589D 100%); // Gradiente rosa a azul en el hover
+    box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.2), 0 0 15px rgba(255, 105, 180, 0.5); // Iluminación con sombra interna y externa
+  }
+
+  @keyframes rotateBorder {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg); // Gira la estela alrededor del botón
+    }
+  }
+}
+
   }
 }
 
