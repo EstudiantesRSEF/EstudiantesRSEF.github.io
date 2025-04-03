@@ -20,6 +20,7 @@ permalink: /PLANCKS25/OC/
         Participants Coordination,
         Scientific Program,
         Public Relations,
+        Desing,
         Social Media,
         IT,
         Academic,
