@@ -7,9 +7,21 @@ personas:
     rol: "Vicepresident"
     img: "/img/junta/EloiCasaleCabanes.jpg"
 
+  - nombre: "Adrián Marín"
+    rol: "Desing"
+    img: "/img/junta/AdrianMarinBoyero.jpg"
+
   - nombre: "Elena Martínez"
     rol: "Local Logistics"
     img: "/img/junta/ElenaMartinez.jpg"
+
+  - nombre: "Carla Caro"
+    rol: "Local Logistics"
+    img: "/img/junta/CarlaCaroVillanoba.jfif"
+
+  - nombre: "Juan Lorenzo"
+    rol: "Scientific Program"
+    img: "/img/junta/JuanLorenzoCampos.jpg"
 
   - nombre: "Joan Llobera"
     rol: "Participants Coordination"
