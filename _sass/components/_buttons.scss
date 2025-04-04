@@ -315,52 +315,82 @@ a.enef25-link {
     // Cambiamos el orden de los colores: rosa-centro → azul-borde
     background: radial-gradient(circle, $enef25-pink 0%, $enef25-blue 100%);
 
+
+
+  }
+}
 .btn-iluminado {
-  @extend .btn-large; // Usamos la clase base .btn-large o cualquier otra
-  border-radius: 4px; // Ajusta el radio
+  // Estilos mínimos para que sea un botón con display inline-block
+  display: inline-block;
   padding: 1rem 2rem;
-  color: #fff;
-  background-color: #333; // Gris oscuro (apagado)
-  border: 2px solid transparent; // Sin borde visible, para el efecto de la estela
-  position: relative; // Para posicionar la línea animada de la estela
+  margin: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease; // Transiciones suaves para el color y la sombra
-
-  // Efecto inicial de iluminación (gris oscuro pero legible)
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  
+  // Color inicial: gris oscuro
   background: #333;
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2); // Sombra interna sutil para que parezca apagado
+  color: #fff;
+  
+  // Sombra interna leve para simular "apagado"
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+  
+  // Transición suave de algunas propiedades
+  transition: background 0.3s ease, box-shadow 0.3s ease;
 
-  // Estilo de la estela de luz (la línea alrededor del borde)
-  &:before {
+  // Pseudoelemento para la estela luminosa animada alrededor del borde
+  &::before {
     content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 4px; // Se adapta al borde del botón
-    border: 2px solid transparent; // El borde no es visible inicialmente
-    background: linear-gradient(0deg, transparent, transparent 50%, white 50%, transparent 100%); // Para crear la línea de la estela
-    z-index: -1;
-    pointer-events: none; // No afecta al clic
-    animation: rotateBorder 2s linear infinite; // Animación de la estela
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0;
+    border-radius: 4px;
+    pointer-events: none; 
+    border: 2px solid transparent;
+    /* 
+      Aquí creamos una imagen lineal que es transparente hasta la mitad 
+      y blanca en la otra mitad. Luego, al rotarla, parece "dar vueltas".
+    */
+    background: linear-gradient(0deg, transparent 50%, white 50%, transparent 100%);
+    
+    /* 
+      IMPORTANTE: Para que se vea por encima del botón, 
+      necesitamos z-index mayor y que position: relative en el contenedor
+      o ajustamos la estrategia segun como queremos la "línea".
+    */
+    z-index: 1; 
+    /* Animación de giro continuo */
+    animation: girarBorde 2s linear infinite;
+    /* 
+      Ojo: si no ves la línea blanca, 
+      juega con la opacidad o con la parte "white 50%" del background 
+      para que sea más evidente.
+    */
   }
 
+  /* Es necesario que el botón sea position: relative para que el ::before
+     se posicione correctamente */
+  position: relative;
+
+  // Hover: iluminamos el degradado rosa→azul
   &:hover {
-    background: radial-gradient(circle, #EE4FA8 0%, #00589D 100%); // Gradiente rosa a azul en el hover
-    box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.2), 0 0 15px rgba(255, 105, 180, 0.5); // Iluminación con sombra interna y externa
-  }
-
-  @keyframes rotateBorder {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg); // Gira la estela alrededor del botón
-    }
+    background: radial-gradient(circle, #EE4FA8 0%, #00589D 100%);
+    box-shadow: 
+      inset 0 10px 30px rgba(0, 0, 0, 0.2), 
+      0 0 15px rgba(255, 105, 180, 0.5);
   }
 }
 
-  }
+// Animación que rota el pseudoelemento ::before
+@keyframes girarBorde {
+  0%   { transform: rotate(0deg);   }
+  100% { transform: rotate(360deg); }
 }
+
 
