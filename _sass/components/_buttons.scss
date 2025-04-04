@@ -320,77 +320,73 @@ a.enef25-link {
   }
 }
 .btn-iluminado {
-  // Estilos mínimos para que sea un botón con display inline-block
+  // Estilos básicos del botón
   display: inline-block;
+  position: relative; // Necesario para ubicar bien el pseudo
   padding: 1rem 2rem;
   margin: 1rem;
   border: none;
   outline: none;
-  border-radius: 4px;
+  border-radius: 6px;
   cursor: pointer;
-  text-align: center;
   font-size: 1rem;
   font-weight: bold;
-  
-  // Color inicial: gris oscuro
-  background: #333;
+  text-align: center;
   color: #fff;
-  
-  // Sombra interna leve para simular "apagado"
+
+  // Fondo inicial: gris oscuro y sombra interior sutil
+  background: #333;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
   
-  // Transición suave de algunas propiedades
+  // Transiciones suaves
   transition: background 0.3s ease, box-shadow 0.3s ease;
 
-  // Pseudoelemento para la estela luminosa animada alrededor del borde
+  // ---- Efecto de la "línea giratoria" ----
   &::before {
     content: '';
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    right: 0; 
-    bottom: 0;
-    border-radius: 4px;
-    pointer-events: none; 
-    border: 2px solid transparent;
-    /* 
-      Aquí creamos una imagen lineal que es transparente hasta la mitad 
-      y blanca en la otra mitad. Luego, al rotarla, parece "dar vueltas".
+    position: absolute;
+    // Hacemos que el pseudo sea ligeramente más grande que el botón
+    top: -2px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    border-radius: 6px; 
+    pointer-events: none;
+    z-index: 1;
+    /*
+      Conic gradient que pinta sólo un pequeño arco en blanco. 
+      El resto es transparente, 
+      así parece una sola “línea” dando vueltas.
     */
-    background: linear-gradient(0deg, transparent 50%, white 50%, transparent 100%);
+    background: conic-gradient(#fff 2%, transparent 2% 100%);
+    /*
+      Si quieres la línea un poco más gruesa, 
+      aumenta "2%" a "5%", por ejemplo. 
+      O si quieres que sea más larga, 
+      cambia 2%  a 10%, etc. 
+    */
     
-    /* 
-      IMPORTANTE: Para que se vea por encima del botón, 
-      necesitamos z-index mayor y que position: relative en el contenedor
-      o ajustamos la estrategia segun como queremos la "línea".
-    */
-    z-index: 1; 
-    /* Animación de giro continuo */
+    /* Animación de giro */
     animation: girarBorde 2s linear infinite;
-    /* 
-      Ojo: si no ves la línea blanca, 
-      juega con la opacidad o con la parte "white 50%" del background 
-      para que sea más evidente.
-    */
   }
 
-  /* Es necesario que el botón sea position: relative para que el ::before
-     se posicione correctamente */
-  position: relative;
-
-  // Hover: iluminamos el degradado rosa→azul
+  // Efecto al hacer hover
   &:hover {
+    // Radial gradient de rosa a azul
     background: radial-gradient(circle, #EE4FA8 0%, #00589D 100%);
+    // Sombra interna y externa para la "iluminación"
     box-shadow: 
-      inset 0 10px 30px rgba(0, 0, 0, 0.2), 
+      inset 0 10px 30px rgba(0, 0, 0, 0.2),
       0 0 15px rgba(255, 105, 180, 0.5);
   }
 }
 
-// Animación que rota el pseudoelemento ::before
+/* Definimos la animación de rotación */
 @keyframes girarBorde {
-  0%   { transform: rotate(0deg);   }
+  0%   { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
 }
 
 
