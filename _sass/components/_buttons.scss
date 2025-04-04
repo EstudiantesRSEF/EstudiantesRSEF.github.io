@@ -319,52 +319,54 @@ a.enef25-link {
 
   }
 }
+/* El contenedor principal del botón */
 .btn-iluminado {
   display: inline-block;
-  position: relative;
-  padding: 1rem 2rem;
-  margin: 1rem;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 1rem;
-  font-weight: bold;
-  text-align: center;
+  position: relative;       /* Necesario para ubicar el SVG encima */
+  background: #333;         /* Gris oscuro */
   color: #fff;
-  background: #333; 
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;      /* A juego con rx/ry del rect */
+  padding: 1rem 2rem;
+  text-decoration: none;    /* Si es un <a>, quita el subrayado */
+  overflow: hidden;         /* Para que el SVG no se salga del contenedor */
   transition: background 0.3s ease, box-shadow 0.3s ease;
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    border-radius: 8px;
-    pointer-events: none;
-    z-index: 1;
-    background: conic-gradient(#fff 5%, transparent 0 100%);
-    animation: girarLinea 2s linear infinite;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-
-  &:hover::before {
-    opacity: 1;
-  }
-
-  &:hover {
-    background: radial-gradient(circle, #EE4FA8 0%, #00589D 100%);
-    box-shadow:
-      inset 0 10px 30px rgba(0, 0, 0, 0.2),
-      0 0 15px rgba(255, 105, 180, 0.5);
-  }
 }
 
+/* El SVG que dibuja la línea */
+.btn-borde {
+  position: absolute;       
+  top: 0;                   
+  left: 0;                  
+  width: 100%;              
+  height: 100%;
+  pointer-events: none;     /* Que no interfiera con el clic */
+  opacity: 0;               /* Oculto por defecto */
+  transition: opacity 0.3s ease;
+}
+
+/* Al hacer hover en el botón */
+.btn-iluminado:hover {
+  /* Si quieres mantener el efecto de “iluminación” o gradiente: */
+  background: radial-gradient(circle, #EE4FA8 0%, #00589D 100%);
+  box-shadow:
+    inset 0 10px 30px rgba(0, 0, 0, 0.2),
+    0 0 15px rgba(255, 105, 180, 0.5);
+}
+
+/* Hacemos visible la línea y lanzamos la animación del trazo */
+.btn-iluminado:hover .btn-borde {
+  opacity: 1;
+  animation: girarLinea 2s linear infinite;
+}
+
+/* La animación gira el trazo desde dashoffset=400 (invisible) a 0 (completo) */
 @keyframes girarLinea {
-  0%   { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    stroke-dashoffset: 400;  
+  }
+  100% {
+    stroke-dashoffset: 0;    
+  }
 }
+
 
