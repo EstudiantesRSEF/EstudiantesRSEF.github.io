@@ -320,9 +320,8 @@ a.enef25-link {
   }
 }
 .btn-iluminado {
-  // Estilos básicos del botón
   display: inline-block;
-  position: relative; // Necesario para ubicar bien el pseudo
+  position: relative;
   padding: 1rem 2rem;
   margin: 1rem;
   border: none;
@@ -333,59 +332,36 @@ a.enef25-link {
   font-weight: bold;
   text-align: center;
   color: #fff;
-
-  // Fondo inicial: gris oscuro y sombra interior sutil
   background: #333;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
-  
-  // Transiciones suaves
   transition: background 0.3s ease, box-shadow 0.3s ease;
 
-  // ---- Efecto de la "línea giratoria" ----
   &::before {
     content: '';
     position: absolute;
-    // Hacemos que el pseudo sea ligeramente más grande que el botón
-    top: -2px;
-    left: -2px;
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    border-radius: 6px; 
+    top: -2px; left: -2px;
+    width: calc(100% + 4px); height: calc(100% + 4px);
+    border-radius: 6px;
     pointer-events: none;
     z-index: 1;
-    /*
-      Conic gradient que pinta sólo un pequeño arco en blanco. 
-      El resto es transparente, 
-      así parece una sola “línea” dando vueltas.
-    */
-    background: conic-gradient(#fff 2%, transparent 2% 100%);
-    /*
-      Si quieres la línea un poco más gruesa, 
-      aumenta "2%" a "5%", por ejemplo. 
-      O si quieres que sea más larga, 
-      cambia 2%  a 10%, etc. 
-    */
-    
-    /* Animación de giro */
+    /* Sustituimos el conic-gradient por un linear-gradient */
+    background: linear-gradient(to right, #fff 2%, transparent 2% 98%, #fff 98%);
     animation: girarBorde 2s linear infinite;
   }
 
-  // Efecto al hacer hover
   &:hover {
-    // Radial gradient de rosa a azul
     background: radial-gradient(circle, #EE4FA8 0%, #00589D 100%);
-    // Sombra interna y externa para la "iluminación"
     box-shadow: 
       inset 0 10px 30px rgba(0, 0, 0, 0.2),
       0 0 15px rgba(255, 105, 180, 0.5);
   }
 }
 
-/* Definimos la animación de rotación */
 @keyframes girarBorde {
   0%   { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
 
 }
 
