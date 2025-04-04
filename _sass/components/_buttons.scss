@@ -321,47 +321,79 @@ a.enef25-link {
 }
 .btn-iluminado {
   display: inline-block;
-  position: relative;
+  position: relative;        /* Para que el pseudo-elemento se ubique encima */
   padding: 1rem 2rem;
   margin: 1rem;
   border: none;
-  outline: none;
-  border-radius: 6px;
+  border-radius: 6px;        /* Ajusta la curvatura que desees */
   cursor: pointer;
   font-size: 1rem;
   font-weight: bold;
   text-align: center;
   color: #fff;
-  background: #333;
+  background: #333;          /* Gris oscuro de fondo */
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
   transition: background 0.3s ease, box-shadow 0.3s ease;
 
+  /* El pseudo-elemento que mostrará la línea alrededor */
   &::before {
-    content: '';
+    content: "";
     position: absolute;
-    top: -2px; left: -2px;
-    width: calc(100% + 4px); height: calc(100% + 4px);
-    border-radius: 6px;
+    /* Hacemos que sea un poco más grande para que quede “justo por fuera” */
+    top: -2px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+
+    /* Ajusta el radio para que rodee bien al botón */
+    border-radius: 8px; /* un pelín mayor que el botón (6px → 8px) */
+    
+    /* Por defecto, estará transparente (invisible) */
+    opacity: 0;
     pointer-events: none;
     z-index: 1;
-    /* Sustituimos el conic-gradient por un linear-gradient */
-    background: linear-gradient(to right, #fff 2%, transparent 2% 98%, #fff 98%);
+
+    /* 
+      El gradiente cónico pinta un segmento blanco 
+      y el resto transparente, simulando una “línea” 
+      que rota alrededor del borde.
+    */
+    background: conic-gradient(
+      #fff 5%,       /* Porcentaje de "grosor" de la línea */
+      transparent 5% 100%
+    );
+
+    /* Animación de giro continuo */
     animation: girarBorde 2s linear infinite;
+
+    /* 
+      Transición para que la opacidad (línea) aparezca 
+      gradualmente en el hover
+    */
+    transition: opacity 0.3s ease;
   }
 
+  /* Al hacer hover en el botón,:
+     1) Cambiamos el fondo a gradiente radial.
+     2) Mostramos la línea (opacity: 1). 
+  */
   &:hover {
     background: radial-gradient(circle, #EE4FA8 0%, #00589D 100%);
-    box-shadow: 
+    box-shadow:
       inset 0 10px 30px rgba(0, 0, 0, 0.2),
       0 0 15px rgba(255, 105, 180, 0.5);
+
+    &::before {
+      opacity: 1; /* La línea se hace visible en hover */
+    }
   }
 }
 
+/* Animación de rotación 360° */
 @keyframes girarBorde {
-  0%   { transform: rotate(0deg); }
+  0%   { transform: rotate(0deg);   }
   100% { transform: rotate(360deg); }
 }
-
 
 
 
