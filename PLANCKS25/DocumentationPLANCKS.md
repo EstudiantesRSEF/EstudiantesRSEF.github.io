@@ -20,6 +20,27 @@ permalink: /PLANCKS25/Documentation/
         To find more information about IAPS click <a href="https://iaps.info/" >here</a>.  
     </div>
     <div class="section">
+      <pre>
+1. Free Circulation of Scientists: The principle of the Universality of Science is fundamental to scientific progress. This 
+principle embodies freedom of movement, association, expression and communication for scientists, as well as equitable
+access to data, information and research materials. In pursuing its objectives with respect to the rights and responsibilities of
+scientists, the International Union of Pure and Applied Physics (IUPAP) actively upholds this principle, and, in so doing,
+opposes any discrimination on the basis of such factors as ethnic origin, religion, citizenship, language, political stance,
+gender, or age. IUPAP should only sponsor conferences and events at institutions and in countries that uphold this principle.
+If scientists are excluded from attending IUPAP-sponsored international conferences by a host institution or country on the
+basis of any of these factors, IUPAP should register its concern at the highest level of that institution or country, and should
+not sponsor any future events in that country until such exclusions have been eliminated. 
+[ Section 1. (<a href="http://iupap.org/sponsored-conferences/conference-policies/">http://iupap.org/sponsored-conferences/conference-policies/</a>)]
+
+2. Harassment at Conferences: It is the policy of the International Union of Pure and Applied Physics (IUPAP) that all
+participants at an IUPAP-supported Conference will enjoy a comfortable experience, and that they will treat each other with
+respect at all times. The conference organisers will appoint two advisors at the conference who will consult with those who
+have suffered from harassment and who will suggest ways of redressing their problems, and an advisor who will counsel
+those accused of harassment. 
+[Section 4 IUPAP Conference Policies, weblink (<a href="http://iupap.org/sponsored-conferences/conference-policies/">http://iupap.org/sponsored-conferences/conference-policies/</a>)].
+</pre>
+    </div>  
+    <div class="section">
       {% include patrocinadores.html sponsors=site.data.PLANCKS25.multiple.sponsors %}    
     </div> 
   </div>
