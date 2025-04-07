@@ -22,6 +22,24 @@ sponsors:
   link: "https://quside.com/"
   level: "2"
 
+- name: "Fundación Ramón Areces"
+  section: "Photons"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/FundacionRamonAreces.jpg"
+  link: "https://www.fundacionareces.es/fundacionareces/es/"
+  level: "3"
+
+- name: "BeBus"
+  section: "Photons"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/BeBus.png"
+  link: "https://bebus.es/"
+  level: "3"
+
+- name: "GMV"
+  section: "Photons"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/GMV.png"
+  link: "https://www.gmv.com/es-es"
+  level: "3"
+
 
 exams:
 - name: "Dublin 2024"
