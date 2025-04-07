@@ -98,26 +98,7 @@ permalink: /PLANCKS25/
       <div class="section">
         <div class="row">
           <div class="col s12 m6 l6">
-            <div class="row center">
-              <!-- Cambia <a> a <button> si lo prefieres -->
-                <a href="https://iaps.info/events/plancks/" target="_blank" id="boton-plancks" class="btn-iluminado">
-                  <span class="btn-texto">Learn more about PLANCKS</span>
-
-                <!-- SVG en línea con la forma de un rectángulo redondeado -->
-                  <svg class="btn-borde" viewBox="0 0 200 60" preserveAspectRatio="none">
-                    <!--
-                      rect con:
-                      - x="1" y="1": para dejar un pequeño margen
-                      - rx="10" ry="10": esquinas redondeadas
-                      - stroke-dasharray y stroke-dashoffset: para animar el trazo
-                    -->
-                    <rect x="1" y="1" width="198" height="58" rx="10" ry="10"
-                    fill="none" stroke="#fff" stroke-width="2"
-                    stroke-dasharray="400" stroke-dashoffset="400" />
-                  </svg>
-                </a>
-              </div>
-            </div>
+            <div class="row center"><a href="https://iaps.info/events/plancks/" target="_blank" id="boton-plancks" class="btn-plancks25 waves-effect waves-light">Learn more about PLANCKS</a></div>
           <div class="col s12 m6 l6">
             <div class="row center"><a href="{{ site.url }}" target="_blank" id="boton-gdee" class="btn-plancks25 waves-effect waves-light">Learn more about TC Spain</a></div>
           </div>
