@@ -16,6 +16,12 @@ sponsors:
   link: "https://estudiantes.rsef.es/"
   level: "1"
 
+- name: "IAPS"
+  section: "Organizers"
+  logo: "/img/logos/IAPS.png"
+  link: "https://iaps.info/"
+  level: "1"
+  
 - name: "IUPAP"
   section: "Muons"
   logo: "/img/eventos/2025-PLANCKS/sponsors/IUPAP.png"
@@ -30,7 +36,7 @@ sponsors:
 
 - name: "Fundación Ramón Areces"
   section: "Photons"
-  logo: "/img/eventos/2025-PLANCKS/sponsors/FundacionRamonAreces.jpg"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/FundacionRamonAreces.png"
   link: "https://www.fundacionareces.es/fundacionareces/es/"
   level: "4"
 
