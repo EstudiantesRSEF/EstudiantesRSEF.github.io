@@ -7,11 +7,14 @@ permalink: /PLANCKS25/programa/
 
 <div class="no-pad-top" id="index-page">
   <div class="container">
-      <div class="section">
+    <div class="section">
 <!-- BANNER -->
       <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
-	      <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Program.png">
+	    <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Program.png">
 <!-- SPONSORS -->	  
-    </div>    
+    </div>  
+    <div class="section">
+      {% include patrocinadores.html sponsors=site.data.PLANCKS25.multiple.sponsors %}    
+    </div>   
   </div>
 </div>
