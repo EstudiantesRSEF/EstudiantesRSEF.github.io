@@ -35,18 +35,25 @@ permalink: /PLANCKS25/
           {% endfor %}
         </div>
       </div>
- <!-- Venue -->
-      <h2> Venue </h2>
-      <p style="text-align: justify;">We’re excited to announce that our event’s venue and accommodations are set—check out all the details! </p>
-      <div class="row d-flex justify-content-center">
-        <a href="https://estudiantes.rsef.es/PLANCKS25/venue/" id="boton-venue" class="btn-square plancks25-color" style="width: auto">Venue & Accomodations</a>
-      </div> 
- <!-- Program -->
-      <h2> Program </h2>
-      <p style="text-align: justify;">The <strong>Provisional </strong> program for PLANCKS 25 is here! Check it out here!</p>
-      <div class="row d-flex justify-content-center">
-        <a href="https://estudiantes.rsef.es/PLANCKS25/programa/" id="boton-venue" class="btn-square plancks25-color" style="width: auto">Program</a>
-      </div> 
+      <!-- Venue & Program Section -->
+      <div class="row">
+        <!-- Venue Column -->
+        <div class="col s12 m6 l6">
+          <h2> Venue </h2>
+          <p style="text-align: justify;">We're excited to announce that our event's venue and accommodations are set—check out all the details! </p>
+          <div class="row d-flex justify-content-center">
+            <a href="https://estudiantes.rsef.es/PLANCKS25/venue/" id="boton-venue" class="btn-rounded plancks25-color">Venue & Accomodations</a>
+          </div>
+        </div>        
+        <!-- Program Column -->
+        <div class="col s12 m6 l6">
+          <h2> Program </h2>
+          <p style="text-align: justify;">The <strong>Provisional </strong> program for PLANCKS 25 is here! Check it out here!</p>
+          <div class="row d-flex justify-content-center">
+            <a href="https://estudiantes.rsef.es/PLANCKS25/programa/" id="boton-programa" class="btn-rounded plancks25-color">Program</a>
+          </div>
+        </div>
+      </div>
 <!-- FEES -->
       <h2>Participation Fees</h2>
       <p style="text-align: justify;">The registration fee for both participants and observers is <strong>100€</strong>. This fee includes:</p>
@@ -94,21 +101,21 @@ permalink: /PLANCKS25/
           </ul>
         </div>
       </div>
-<!-- LEARN MORE -->
+<!-- LEARN MORE section -->
       <div class="section">
         <div class="row">
           <div class="col s12 m6 l6">
             <div class="row center">
-              <a href="https://iaps.info/events/plancks/" target="_blank" id="boton-plancks" class="btn-plancks25 waves-effect waves-light">Learn more about PLANCKS</a>
+              <a href="https://iaps.info/events/plancks/" target="_blank" id="boton-plancks" class="btn-rounded plancks25-color">Learn more about PLANCKS</a>
             </div>
           </div>
           <div class="col s12 m6 l6">
             <div class="row center">
-              <a href="{{ site.url }}" target="_blank" id="boton-gdee" class="btn-plancks25 waves-effect waves-light">Learn more about TC Spain</a>
+              <a href="{{ site.url }}" target="_blank" id="boton-gdee" class="btn-rounded plancks25-color">Learn more about TC Spain</a>
             </div>
           </div>
         </div>
-      </div>       	  
+      </div>   	  
 <!-- SPONSORS -->
       <div class="section">
         {% include patrocinadores.html sponsors=site.data.PLANCKS25.multiple.sponsors %}    
