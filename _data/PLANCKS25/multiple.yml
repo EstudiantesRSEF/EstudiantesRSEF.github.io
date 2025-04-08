@@ -52,6 +52,42 @@ sponsors:
   link: "https://www.gmv.com/es-es"
   level: "4"
 
+- name: "Quantum Spain"
+  section: "Muons"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/QuantumSpain.svg"
+  link: "https://quantumspain-project.es/"
+  level: "2"
+
+- name: "Plan Recuperación, Transformación y Resiliencia"
+  section: "Other Colaborators"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/PlanRecuperacion.png"
+  link: "https://planderecuperacion.gob.es/"
+  level: "5"
+
+- name: "European Union"
+  section: "Other Colaborators"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/UE.jpg"
+  link: "https://next-generation-eu.europa.eu/index_en"
+  level: "5"
+
+- name: "Ministerio Transformación Digital"
+  section: "Other Colaborators"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/Ministerio.jpg"
+  link: "https://digital.gob.es/index.html"
+  level: "5"
+
+- name: "Red Española de Supercomputación"
+  section: "Other Colaborators"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/RedEspañoladeSupercomputacion.svg"
+  link: "https://www.res.es/es"
+  level: "5"
+
+- name: "España Digital"
+  section: "Other Colaborators"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/EspañaDigital.png"
+  link: "https://espanadigital.gob.es/explora"
+  level: "5"
+
 
 exams:
 - name: "Dublin 2024"
