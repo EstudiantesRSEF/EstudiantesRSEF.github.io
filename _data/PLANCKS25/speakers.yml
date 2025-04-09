@@ -1,0 +1,16 @@
+
+- name: "Dr. Jane Smith"
+  institution: "CERN"
+  role: "Senior Research Physicist"
+  bio: "Leading researcher in particle physics with over 15 years of experience in quantum field theory and experimental physics."
+  talk_title: "The Future of Particle Physics"
+  talk_time: "May 2nd, 14:00-15:00"
+  image: "/img/eventos/2025-PLANCKS/speakers/jane-smith.jpg"
+
+- name: "Prof. John Doe"
+  institution: "MIT"
+  role: "Professor of Theoretical Physics"
+  bio: "Pioneer in string theory and quantum gravity, recipient of multiple international awards in theoretical physics."
+  talk_title: "Understanding Quantum Gravity"
+  talk_time: "May 3rd, 10:00-11:00"
+  image: "/img/eventos/2025-PLANCKS/speakers/john-doe.jpg"

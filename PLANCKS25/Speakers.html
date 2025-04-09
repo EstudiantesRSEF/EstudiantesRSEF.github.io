@@ -1,0 +1,41 @@
+---
+layout: plancks25
+title: PLANCKS Barcelona 2025
+hidden: True
+permalink: /PLANCKS25/Speakers
+---
+<div class="no-pad-top" id="index-page">
+  <div class="container">
+    <div class="section">
+      <h2 class="center">Invited Speakers</h2>      
+      <div class="row">
+        {% for speaker in site.data.PLANCKS25.speakers.speakers %}
+        <div class="col s12 m6 l6">
+          <div class="card">
+            <div class="card-body">
+              <div class="row">
+                <div class="col s12 m4 center-align">
+                  <img src="{{ speaker.image }}" alt="{{ speaker.name }}" class="circle responsive-img" style="width: 150px; height: 150px; object-fit: cover;">
+                </div>
+                <div class="col s12 m8">
+                  <h4 class="card-title">{{ speaker.name }}</h4>
+                  <p class="grey-text">{{ speaker.institution }}</p>
+                  <p class="grey-text">{{ speaker.role }}</p>
+                  <p class="talk-info">
+                    <strong>Talk:</strong> {{ speaker.talk_title }}<br>
+                    <strong>When:</strong> {{ speaker.talk_time }}
+                  </p>
+                  <p class="bio">{{ speaker.bio }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>      
+    </div>
+    <div class="section">
+      {% include patrocinadores.html sponsors=site.data.PLANCKS25.multiple.sponsors %}    
+    </div> 
+  </div>
+</div>
