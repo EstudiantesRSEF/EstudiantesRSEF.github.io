@@ -290,35 +290,20 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
         white 0%,
         $plancks25-light-teal 100%
       );
-      
-      @media screen and (max-width: 600px) {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 1rem;
-      }
+      gap: 1.5rem;
     }
 
     .speaker-image {
-      flex: 0 0 auto;
-      margin-right: 1.5rem;
-
-      @media screen and (max-width: 600px) {
-        margin-right: 0;
-        margin-bottom: 1rem;
-      }
-
+      flex: 0 0 25%; // Takes exactly 25% of the card width
+      min-width: 120px; // Minimum width to prevent too small images
+      
       img.circle {
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1; // Keeps image perfectly circular
         object-fit: cover;
         border: 3px solid $plancks25-teal;
         transition: all 0.3s ease;
-
-        @media screen and (max-width: 600px) {
-          width: 150px;
-          height: 150px;
-        }
 
         &:hover {
           border-color: $plancks25-purple;
@@ -329,12 +314,18 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
 
     .speaker-info {
       flex: 1;
-      display: flex;
-      flex-direction: column;
-      min-width: 0; // Prevents text overflow
+      min-width: 0; // Prevents flex item from overflowing
+    }
 
-      @media screen and (max-width: 600px) {
-        width: 100%;
+    @media screen and (max-width: 600px) {
+      .card-top {
+        flex-direction: row; // Keep horizontal layout even on mobile
+        padding: 1rem;
+      }
+
+      .speaker-image {
+        flex: 0 0 35%; // Slightly larger on mobile for better visibility
+        min-width: 100px;
       }
     }
 
