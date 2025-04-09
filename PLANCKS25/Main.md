@@ -75,7 +75,7 @@ permalink: /PLANCKS25/
             <li>
               <div class="collapsible-header"><strong>When does PLANCKS start?</strong></div>
               <div class="collapsible-body">
-                <ul class="collection">
+                <ul class="collection" style="margin:0">
                   <li class="collection-item"><div style="text-align: left;">
                     <p style="padding: 0px; text-align: left;">As stated in our official communications, May 1 is an optional day for PLANCKS participants. The registration desk will be open in downtown Barcelona throughout the day, with cultural visits and activities planned for the afternoon. Accommodation in the official venue is available and included in the registration fee. Participants may also choose to arrive on the morning of May 2, as the Opening Ceremony will take place in the early afternoon of Friday 2. On the morning of May 2, the registration desk will remain open and attendees will have the opportunity to visit research facilities in the Barcelona area.</p>
                   </div></li>
@@ -85,7 +85,7 @@ permalink: /PLANCKS25/
             <li>
               <div class="collapsible-header"><strong>When does PLANCKS end?</strong></div>
               <div class="collapsible-body">
-                <ul class="collection">
+                <ul class="collection" style="margin:0">
                   <li class="collection-item"><div style="text-align: left;">
                     <p style="padding: 0px; text-align: left;">PLANCKS 2025 will conclude with the Closing ceremony and Prize Ceremony just before lunch on Monday, May 5, ending around 2:00 PM. Participants planning their departure should consider a travel time of approximately one hour to Barcelona Airport, making afternoon flights a suitable option.</p>
                   </div></li>
@@ -95,7 +95,7 @@ permalink: /PLANCKS25/
             <li>
               <div class="collapsible-header"><strong>Can I stay longer than the official dates?</strong></div>
               <div class="collapsible-body">
-                <ul class="collection">
+                <ul class="collection" style="margin:0">
                   <li class="collection-item"><div style="text-align: left;">
                     <p style="padding: 0px; text-align: left;">Accommodation before May 1 or after May 5 is not included in the registration and must be arranged by participants themselves. Staying at the official venue is not recommended, as it is outside Barcelona and far from public transportation. However, the Organizing Committee is happy to assist in finding a suitable accommodation in Barcelona for your extra days.</p>
                   </div></li>
