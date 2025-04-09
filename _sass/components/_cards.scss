@@ -264,6 +264,13 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
     line-height: 1.6;
   }
 
+  @media screen and (max-width: 1100px) {
+    .speaker-column {
+      width: 100% !important;
+    }
+  }
+  
+
   .speaker-card {
     display: flex;
     flex-direction: column;
