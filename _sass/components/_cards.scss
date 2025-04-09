@@ -255,6 +255,14 @@ $plancks25-purple: #352F71;
 $plancks25-light-teal: lighten($plancks25-teal, 45%);
 
 .plancks25-speakers {
+  .speakers-intro {
+    max-width: 800px;
+    margin: 2rem auto 3rem;
+    text-align: center;
+    color: $plancks25-purple;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
   .card {
     border: 2px solid $plancks25-purple;
     border-radius: 12px;
