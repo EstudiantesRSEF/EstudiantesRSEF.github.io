@@ -290,12 +290,23 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
         white 0%,
         $plancks25-light-teal 100%
       );
-      min-height: 250px;
+      
+      @media screen and (max-width: 600px) {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+      }
     }
 
     .speaker-image {
-      flex: 0 0 200px;
+      flex: 0 0 auto;
       margin-right: 1.5rem;
+
+      @media screen and (max-width: 600px) {
+        margin-right: 0;
+        margin-bottom: 1rem;
+      }
 
       img.circle {
         width: 200px;
@@ -303,6 +314,11 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
         object-fit: cover;
         border: 3px solid $plancks25-teal;
         transition: all 0.3s ease;
+
+        @media screen and (max-width: 600px) {
+          width: 150px;
+          height: 150px;
+        }
 
         &:hover {
           border-color: $plancks25-purple;
@@ -315,6 +331,11 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
       flex: 1;
       display: flex;
       flex-direction: column;
+      min-width: 0; // Prevents text overflow
+
+      @media screen and (max-width: 600px) {
+        width: 100%;
+      }
     }
 
     .card-title {
@@ -322,12 +343,18 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
       font-size: 1.5rem;
       margin: 0 0 0.5rem;
       font-weight: bold;
+      word-wrap: break-word;
+      
+      @media screen and (max-width: 600px) {
+        font-size: 1.25rem;
+      }
     }
 
     .grey-text {
       color: darken($plancks25-purple, 10%);
       font-size: 1rem;
       margin: 0.2rem 0;
+      word-wrap: break-word;
     }
 
     .talk-info {
@@ -336,6 +363,13 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
       border-radius: 8px;
       margin: 0.5rem 0;
       border-left: 4px solid $plancks25-teal;
+
+      @media screen and (max-width: 600px) {
+        padding: 0.75rem;
+        margin: 0.5rem 0;
+        border-left: none;
+        border-top: 4px solid $plancks25-teal;
+      }
 
       strong {
         color: $plancks25-purple;
@@ -346,6 +380,10 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
       padding: 1.5rem;
       border-top: 1px solid rgba($plancks25-purple, 0.1);
       background-color: white;
+
+      @media screen and (max-width: 600px) {
+        padding: 1rem;
+      }
     }
 
     .bio {
@@ -354,23 +392,6 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
       font-size: 0.95rem;
       text-align: justify;
       margin: 0;
-    }
-  }
-
-  // Make cards in the same row equal height
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    
-    // Make columns equal height
-    .col {
-      display: flex;
-      flex-direction: column;
-      
-      // Make cards fill the column height
-      .speaker-card {
-        flex: 1;
-      }
     }
   }
 }
