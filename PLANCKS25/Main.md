@@ -53,7 +53,7 @@ permalink: /PLANCKS25/
         <p style="text-align: justify;">The <strong>Provisional </strong> program for PLANCKS 25 is here! Check it out here!</p>
         <div class="mt-auto">
           <div class="row d-flex justify-content-center">
-            <a href="https://estudiantes.rsef.es/PLANCKS25/programa/" id="boton-programa" class="btn-rounded plancks25-color">Program</a>
+            <a href="https://estudiantes.rsef.es/PLANCKS25/Program/" id="boton-programa" class="btn-rounded plancks25-color">Program</a>
           </div>
         </div>
       </div>

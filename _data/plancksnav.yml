@@ -1,9 +1,11 @@
 - text: <strong> Event info </strong>
   subitems:
+    - text: <strong> Program </strong>
+      url: /PLANCKS25/Program/
     - text: <strong> Venues </strong>
       url: /PLANCKS25/venue/
-    - text: <strong> Speakers </strong>
-      url: /PLANCKS25
+    # - text: <strong> Speakers </strong>
+    #   url: /PLANCKS25
     - text: <strong> Sponsors </strong>
       url: /PLANCKS25/sponsors/
 
