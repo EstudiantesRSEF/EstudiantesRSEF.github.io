@@ -1,0 +1,116 @@
+$plancks25-teal: #00a79d;
+$plancks25-purple: #352F71;
+$plancks25-light-teal: lighten($plancks25-teal, 45%);
+
+.plancks25-program {
+  padding: 4rem 0;
+  background: #f9f9f9;
+
+  .section-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    
+    h2 {
+      color: $plancks25-purple;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .evt-tab-inner {
+    margin-bottom: 3rem;
+
+    ul {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      border: none;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
+
+      .nav-item {
+        flex: 1;
+        min-width: 150px;
+        max-width: 200px;
+
+        @media (max-width: 768px) {
+          max-width: 100%;
+        }
+      }
+
+      .nav-link {
+        text-align: center;
+        padding: 1rem;
+        border: 2px solid $plancks25-teal;
+        border-radius: 12px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        background: white;
+        transition: all 0.3s ease;
+
+        span {
+          font-weight: 700;
+          color: $plancks25-purple;
+          font-size: 1.2rem;
+        }
+
+        &.active, &:hover {
+          background: $plancks25-teal !important;
+          color: white !important;
+          border-color: $plancks25-teal;
+
+          span {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  .single-schedules-inner {
+    background: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 12px rgba($plancks25-purple, 0.1);
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      border-color: $plancks25-teal;
+      box-shadow: 0 8px 24px rgba($plancks25-purple, 0.15);
+    }
+
+    .date {
+      color: $plancks25-teal;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    h5 {
+      color: $plancks25-purple;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+
+    .location {
+      color: #666;
+      font-size: 0.9rem;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  }
+}
