@@ -97,30 +97,22 @@
         title: "Talk Alicia Sintes"
         place: "Faculty of Humanities Auditorium, UAB"
         suptitle:
-#       - hour: ""
-#         title:
-#         place:
-#         suptitle:
-#       - hour:
-#         title:
-#         place:
-#         suptitle:
-#       - hour:
-#         title:
-#         place:
-#         suptitle:
-#       - hour:
-#         title:
-#         place:
-#         suptitle:
-#       - hour:
-#         title:
-#         place:
-#         suptitle:
-#       - hour:
-#         title:
-#         place:
-#         suptitle:
+      - hour: "18:00 - 20:00"
+        title: "Talk / Workshop"
+        place:
+        suptitle:
+      - hour: "20:00 - 21:00"
+        title: "Bus to Tiana"
+        place: 
+        suptitle: 
+      - hour: "21:00 - 22:00"
+        title: "Dinner"
+        place:
+        suptitle:
+      - hour: "22:00 - Late"
+        title: "Organized social evening at the hostel"
+        place:
+        suptitle:
 
 # - day: "Sunday"
 #   date: "May 4"
@@ -129,27 +121,35 @@
 #         title: "Breakfast"
 #         place:
 #         suptitle:
-#       - hour: "08:00 - 09:00"
-#         title: "Bus to UAB"
-#         suptitle: ""
-#       - hour: "09:00 - 12:00"
-#         title: "Talk-Workshop"
-#         suptitle: "UAB"
-#       - hour: "12:00 - 13:00"
-#         title: "Lunch"
-#         suptitle: "UAB"
-#       - hour: "13:00 - 14:00"
-#         title: "Talk: Barbara Baudes"
-#         suptitle: "Auditori CosmoCaixa"
-#       - hour: "14:00 - 16:00"
-#         title: "Panel Discussion"
-#         suptitle: "Auditori CosmoCaixa"
-#       - hour: "17:00 - 19:00"
-#         title: "VIP Dinner"
-#         suptitle: "TBD"
-#       - hour: "19:00 - Late"
-#         title: "CosmoNits"
-#         suptitle: "CosmoCaixa"
+#       - hour: "09:00 - 11:00"
+#         title: "Talk / Workshop"
+#         place:
+#         suptitle: 
+#       - hour: "11:00 - 12:00"
+#         title: "Bus to UB"
+#         place:
+#         suptitle: 
+#       - hour: "12:00 - 14:00"
+#         title: "Talk Barbara Buades"
+#         place:
+#         suptitle:
+#       - hour: "14:00 - 15:00"
+#         title: "Lunch & Posters Session"
+#         place: 
+#         suptitle: 
+#       - hour: "14:00 - 15:00"
+#         title: "Lunch & Posters Session"
+#         place: 
+#         suptitle: 
+#       - hour: "14:00 - 15:00"
+#         title: "Lunch & Posters Session"
+#         place: 
+#         suptitle: 
+#       - hour: "14:00 - 15:00"
+#         title: "Lunch & Posters Session"
+#         place: 
+#         suptitle: 
+
 
 # - day: "Monday"
 #   date: "May 5"

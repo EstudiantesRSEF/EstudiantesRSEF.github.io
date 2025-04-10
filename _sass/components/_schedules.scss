@@ -23,36 +23,43 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
     ul.nav-tabs {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.5rem;
+      justify-content: center;
+      gap: 4px;
       border: none;
       padding: 0;
-      margin: 0;
+      margin: 0 auto;
       width: 100%;
+      max-width: 1200px;
 
       .nav-item {
-        flex: 1;
-        min-width: 200px; // Forces wrap when items get too narrow
+        flex: 0 1 calc(33.333% - 4px);
+        min-width: calc(50% - 4px);
+        max-width: calc(50% - 4px);
+
+        &:last-child:nth-child(5) {
+          flex: 0 1 calc(33.333% - 4px);
+        }
         
         .nav-link {
           width: 100%;
           height: 100%;
-          min-height: 100px;
+          min-height: 80px;
           padding: 1rem;
+          margin: 0;
           display: flex;
           flex-direction: column;
           align-items: center;
           justify-content: center;
           border: 2px solid $plancks25-teal;
           border-radius: 12px;
-          transition: all 0.3s ease;
           background: white;
+          transition: all 0.3s ease;
           
           span {
-            display: block;
             font-size: 1.4rem;
             font-weight: 700;
             color: $plancks25-purple;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.25rem;
           }
 
           &.active, &:hover {
@@ -67,12 +74,13 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
       }
     }
   }
-  // Responsive adjustments
-  @media (max-width: 1200px) {
+
+  @media (max-width: 768px) {
     .evt-tab-inner ul.nav-tabs {
       .nav-item {
-        flex: 1 1 calc(50% - 0.5rem); // Two columns
-        max-width: calc(50% - 0.5rem);
+        flex: 0 1 100%;
+        min-width: 100%;
+        max-width: 100%;
       }
     }
   }
