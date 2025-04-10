@@ -48,18 +48,25 @@ permalink: /PLANCKS25/Program/
                 {{ event.hour }}
               </div>
               <h5>{{ event.title }}</h5>
-              {% if event.suptitle != "" and event.suptitle != nil %}
-              <p class="location">
-                <i class="fa fa-map-marker"></i>
-                {% if event.map_link %}
-                  <a href="{{ event.map_link }}" target="_blank" class="location-link">
-                    {{ event.suptitle }}
-                    <i class="fa fa-external-link"></i>
-                  </a>
-                {% else %}
-                  {{ event.suptitle }}
+              {% if event.suptitle != "" and event.suptitle != nil or event.place != "" and event.place != nil %}
+              <div class="location-container">
+                {% if event.suptitle != "" and event.suptitle != nil %}
+                <p class="event-suptitle">{{ event.suptitle }}</p>
                 {% endif %}
-              </p>
+                {% if event.place != "" and event.place != nil %}
+                <p class="location">
+                  <i class="fa fa-map-marker"></i>
+                  {% if event.map_link %}
+                    <a href="{{ event.map_link }}" target="_blank" class="location-link">
+                      {{ event.place }}
+                      <i class="fa fa-external-link"></i>
+                    </a>
+                  {% else %}
+                    {{ event.place }}
+                  {% endif %}
+                </p>
+                {% endif %}
+              </div>
               {% endif %}
             </div>
           </div>

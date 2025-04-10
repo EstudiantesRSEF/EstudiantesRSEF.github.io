@@ -110,13 +110,24 @@ $plancks25-purple: #352F71;
       font-weight: 600;
     }
 
-    .location {
-      color: #666;
-      font-size: 0.9rem;
-      margin: 0;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
+    .location-container {
+      margin-top: 0.5rem;
+  
+      .event-suptitle {
+        color: $plancks25-purple;
+        font-size: 0.9rem;
+        margin: 0 0 0.2rem 0;
+        font-weight: 500;
+      }
+  
+      .location {
+        color: #666;
+        font-size: 0.9rem;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
     }
   }
 }
