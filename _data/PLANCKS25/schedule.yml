@@ -1,5 +1,5 @@
 - day: "Thursday"
-  date: "May 1"
+  date: "May 1st"
   events:
       - hour: "10:00 - 18:00"
         title: "Welcome and Registration"
@@ -24,7 +24,7 @@
         suptitle: 
         
 - day: "Friday"
-  date: "May 2"
+  date: "May 2nd"
   events:
       - hour: "08:00 - 09:00"
         title: "Breakfast"
@@ -74,7 +74,7 @@
         suptitle:
 
 - day: "Saturday"
-  date: "May 3"
+  date: "May 3th"
   events:
       - hour: "08:00 - 09:00"
         title: "Breakfast"
@@ -121,7 +121,7 @@
         suptitle:
 
 - day: "Sunday"
-  date: "May 4"
+  date: "May 4th"
   events:
       - hour: "08:00 - 09:00"
         title: "Breakfast"
@@ -166,7 +166,7 @@
         suptitle: 
 
 - day: "Monday"
-  date: "May 5"
+  date: "May 5th"
   events:
       - hour: "08:00 - 09:00"
         title: "Breakfast"
