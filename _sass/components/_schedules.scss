@@ -1,22 +1,7 @@
 $plancks25-teal: #00a79d;
 $plancks25-purple: #352F71;
-$plancks25-light-teal: lighten($plancks25-teal, 45%);
 
 .plancks25-program {
-  padding: 4rem 0;
-  background: #f9f9f9;
-
-  .section-title {
-    text-align: center;
-    margin-bottom: 3rem;
-    
-    h2 {
-      color: $plancks25-purple;
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-    }
-  }
-
   .evt-tab-inner {
     margin-bottom: 3rem;
 
@@ -28,17 +13,12 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
       border: none;
       padding: 0;
       margin: 0 auto;
-      width: 100%;
-      max-width: 1200px;
 
       .nav-item {
-        flex: 0 1 calc(33.333% - 4px);
+        // Default state (medium screens)
+        flex: 1 1 calc(33.33% - 4px);
         min-width: calc(50% - 4px);
         max-width: calc(50% - 4px);
-
-        &:last-child:nth-child(5) {
-          flex: 0 1 calc(33.333% - 4px);
-        }
         
         .nav-link {
           width: 100%;
@@ -59,7 +39,6 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
             font-size: 1.4rem;
             font-weight: 700;
             color: $plancks25-purple;
-            margin-bottom: 0.25rem;
           }
 
           &.active, &:hover {
@@ -75,12 +54,27 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
     }
   }
 
-  @media (max-width: 768px) {
+  // Large screens: all in one row
+  @media (min-width: 1200px) {
+    .evt-tab-inner ul.nav-tabs {
+      flex-wrap: nowrap;
+      
+      .nav-item {
+        flex: 1;
+        min-width: 0;
+        max-width: none;
+      }
+    }
+  }
+
+  // Medium screens: at least 2 per row
+  @media (max-width: 1199px) {
     .evt-tab-inner ul.nav-tabs {
       .nav-item {
-        flex: 0 1 100%;
-        min-width: 100%;
-        max-width: 100%;
+        &:last-child:nth-child(5) {
+          flex: 0 1 calc(33.33% - 4px);
+          margin: 0 auto;
+        }
       }
     }
   }

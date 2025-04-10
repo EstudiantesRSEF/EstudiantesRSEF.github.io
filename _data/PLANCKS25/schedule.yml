@@ -114,65 +114,73 @@
         place:
         suptitle:
 
-# - day: "Sunday"
-#   date: "May 4"
-#   events:
-#       - hour: "08:00 - 09:00"
-#         title: "Breakfast"
-#         place:
-#         suptitle:
-#       - hour: "09:00 - 11:00"
-#         title: "Talk / Workshop"
-#         place:
-#         suptitle: 
-#       - hour: "11:00 - 12:00"
-#         title: "Bus to UB"
-#         place:
-#         suptitle: 
-#       - hour: "12:00 - 14:00"
-#         title: "Talk Barbara Buades"
-#         place:
-#         suptitle:
-#       - hour: "14:00 - 15:00"
-#         title: "Lunch & Posters Session"
-#         place: 
-#         suptitle: 
-#       - hour: "14:00 - 15:00"
-#         title: "Lunch & Posters Session"
-#         place: 
-#         suptitle: 
-#       - hour: "14:00 - 15:00"
-#         title: "Lunch & Posters Session"
-#         place: 
-#         suptitle: 
-#       - hour: "14:00 - 15:00"
-#         title: "Lunch & Posters Session"
-#         place: 
-#         suptitle: 
+- day: "Sunday"
+  date: "May 4"
+  events:
+      - hour: "08:00 - 09:00"
+        title: "Breakfast"
+        place:
+        suptitle:
+      - hour: "09:00 - 11:00"
+        title: "Talk / Workshop"
+        place:
+        suptitle: 
+      - hour: "11:00 - 12:00"
+        title: "Bus to UB"
+        place:
+        suptitle: 
+      - hour: "12:00 - 14:00"
+        title: "Talk Barbara Buades"
+        place:
+        suptitle:
+      - hour: "14:00 - 16:00"
+        title: "Lunch & Posters Session"
+        place: 
+        suptitle: 
+      - hour: "16:00 - 17:00"
+        title: "Bus to CosmoCaixa"
+        place: 
+        suptitle: 
+      - hour: "17:00 - 20:00"
+        title: "Panel Discussion"
+        place: "Auditori CosmoCaixa"
+        suptitle: "Anna kubasiak, Alexandre Dauphin, Thibault Fredon"
+      - hour: "20:00 - 22:00"
+        title: "VIP Dinner"
+        place:
+        suptitle:
+      - hour: "22:00 - 00:00"
+        title: "CosmoNits"
+        place: 
+        suptitle:  
+      - hour: "00:00 - 01:00"
+        title: "Bus to Tiana"
+        place: 
+        suptitle: 
 
-
-# - day: "Monday"
-#   date: "May 5"
-#   events:
-#       - hour: "08:00 - 09:00"
-#         title: "Breakfast"
-#         place:
-#         suptitle:
-#       - hour: "08:00 - 09:00"
-#         title: "Bus to Tiana"
-#         suptitle: ""
-#       - hour: "09:00 - 11:00"
-#         title: "Talk"
-#         suptitle: "Speaker TBD"
-#       - hour: "11:00 - 12:00"
-#         title: "Closing Talk"
-#         suptitle: "Biology UB"
-#       - hour: "12:00 - 13:00"
-#         title: "Lunch"
-#         suptitle: ""
-#       - hour: "13:00 - 15:00"
-#         title: "Return Trip"
-#         suptitle: ""
-#       - hour: "15:00 - ???"
-#         title: "Free Time / Departures"
-#         suptitle: ""
+- day: "Monday"
+  date: "May 5"
+  events:
+      - hour: "08:00 - 09:00"
+        title: "Breakfast"
+        place:
+        suptitle:
+      - hour: "09:00 - 10:00"
+        title: "Bus to Barcelona"
+        suptitle: 
+      - hour: "10:00 - 11:00"
+        title: "Career Fair"
+        place: "Faculty of Chem&Phys, UB"
+        suptitle: 
+      - hour: "10:00 - 11:00"
+        title: "Talk"
+        place: 
+        suptitle: 
+      - hour: "13:00 - 15:00"
+        title: "Closing Talk"
+        place: "Main Hall, Faculty of Biology, UB"
+        suptitle: 
+      - hour: "15:00 - 16:00"
+        title: "Lunch"
+        place: "UB"
+        suptitle: 
