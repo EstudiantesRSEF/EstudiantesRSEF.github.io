@@ -43,7 +43,7 @@ permalink: /PLANCKS25/
         <p style="text-align: justify;">We're excited to announce that our event's venue and accommodations are set—check out all the details! </p>
         <div class="mt-auto">
           <div class="row d-flex justify-content-center">
-            <a href="https://estudiantes.rsef.es/PLANCKS25/venue/" id="boton-venue" class="btn-rounded plancks25-color">Venue & Accomodations</a>
+            <a href="https://estudiantes.rsef.es/PLANCKS25/Venue/" id="boton-venue" class="btn-rounded plancks25-color">Venue & Accomodations</a>
           </div>
         </div>
       </div>        

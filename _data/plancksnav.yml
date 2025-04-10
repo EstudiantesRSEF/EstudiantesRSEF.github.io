@@ -3,9 +3,9 @@
     - text: <strong> Program </strong>
       url: /PLANCKS25/Program/
     - text: <strong> Venues </strong>
-      url: /PLANCKS25/venue/
+      url: /PLANCKS25/Venue/
     - text: <strong> Speakers </strong>
-      url: /PLANCKS25
+      url: /PLANCKS25/Speakers/
     - text: <strong> Sponsors </strong>
       url: /PLANCKS25/sponsors/
 
