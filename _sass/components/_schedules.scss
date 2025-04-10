@@ -77,15 +77,6 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
     }
   }
 
-  @media (max-width: 768px) {
-    .evt-tab-inner ul.nav-tabs {
-      .nav-item {
-        flex: 1 1 100%; // Single column
-        max-width: 100%;
-      }
-    }
-  }
-
   .single-schedules-inner {
     background: white;
     padding: 1.5rem;

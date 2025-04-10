@@ -70,30 +70,34 @@
         place:
         suptitle:
 
-# - day: "Saturday"
-#   date: "May 3"
-#   events:
-#       - hour: "08:00 - 09:00"
-#         title: "Breakfast"
-#         place:
-#         suptitle:
-#       - hour:
-#         title:
-#         place:
-#         suptitle:
-#       - hour:
-#         title:
-#         place:
-#         suptitle:
-#       - hour:
-#         title:
-#         place:
-#         suptitle:
-#       - hour:
-#         title:
-#         place:
-#         suptitle:
-#       - hour:
+- day: "Saturday"
+  date: "May 3"
+  events:
+      - hour: "08:00 - 09:00"
+        title: "Breakfast"
+        place:
+        suptitle:
+      - hour: "09:00 - 10:00"
+        title: "Bus to UAB"
+        place:
+        suptitle: 
+      - hour: "10:00 - 14:00"
+        title: "PLANCKS Exam 2025"
+        place: "Faculty of Sciences, UAB"
+        suptitle:
+      - hour: "10:00 - 14:00"
+        title: "Observers Workshop"
+        place:
+        suptitle:
+      - hour: "14:00 - 16:00"
+        title: "Lunch"
+        place: "UAB"
+        suptitle:
+      - hour: "16:00 - 18:00"
+        title: "Talk Alicia Sintes"
+        place: "Faculty of Humanities Auditorium, UAB"
+        suptitle:
+#       - hour: ""
 #         title:
 #         place:
 #         suptitle:
