@@ -1,17 +1,28 @@
- - text: <strong>Get to know us!</strong>
-   url: /about/
-   slug: about
-   subitems:
-    - text: Organising Committee
-      url: /PLANCKS25/OC/
- - text: <strong> Documentation </strong>
-   subitems:
+- text: <strong> Event info </strong>
+  subitems:
+    - text: <strong> Venues </strong>
+      url: /PLANCKS25/venue/
+    - text: <strong> Speakers </strong>
+      url: /PLANCKS25
+    - text: <strong> Sponsors </strong>
+      url: /PLANCKS25
+
+- text: <strong> Documentation </strong>
+  subitems:
     - text: <strong> Rules </strong>
       url: /PLANCKS25/Documentation/
     - text: <strong> Exams </strong>
       url: /PLANCKS25/Exams
- - text: <strong>Participate!</strong>
-   url: /PLANCKS25/WorldwidePreliminaries/
+ 
+- text: <strong>Participate!</strong>
+  url: /PLANCKS25/WorldwidePreliminaries/
+
+- text: <strong>Get to know us!</strong>
+  url: /about/
+  slug: about
+  subitems:
+    - text: Organising Committee
+      url: /PLANCKS25/OC/
 
  #   - text: Documentation
  #     url: /
