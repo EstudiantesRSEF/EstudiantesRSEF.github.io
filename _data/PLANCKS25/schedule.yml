@@ -10,20 +10,33 @@
         place: "UB Hall (Josep Carner Building)"
         suptitle: 
       - hour: "15:00 - 18:00"
-        title: Optional Cultural Activities"
+        title: "Optional Cultural Activities"
+        place: 
+        suptitle: 
+      - hour: "19:00 - 21:00"
+        title: "Free time"
+        place: 
+        suptitle: 
+      - hour: "21:00 - 22:00"
+        title: "Bus to Tiana"
         place: 
         suptitle: 
         
-
 - day: "Friday"
   date: "May 2"
   events:
       - hour: "08:00 - 09:00"
-        title: "Bus to Barcelona"
-        suptitle: ""
+        title: "Breakfast"
+        place:
+        suptitle:
       - hour: "09:00 - 10:00"
-        title: "Registration at UB"
-        suptitle: "Facultat de Física (TBD)"
+        title: "Bus to Barcelona"
+        place:
+        suptitle: 
+      - hour: "10:00 - 11:00"
+        title: "Welcome and Registration"
+        place:
+        suptitle: 
       - hour: "10:00 - 10:30"
         title: "Welcome"
         suptitle: "UB"
@@ -71,7 +84,8 @@
         title: "Organized Social Evening"
         suptitle: "Tiana (details TBA)"
 
-- day: "Sunday, May 4"
+- day: "Sunday"
+  date: "May 4"
   events:
       - hour: "08:00 - 09:00"
         title: "Bus to UAB"
@@ -95,7 +109,8 @@
         title: "CosmoNits"
         suptitle: "CosmoCaixa"
 
-- day: "Monday, May 5"
+- day: "Monday"
+  date: "May 5"
   events:
       - hour: "08:00 - 09:00"
         title: "Bus to Tiana"

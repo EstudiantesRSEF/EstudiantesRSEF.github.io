@@ -20,55 +20,68 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
   .evt-tab-inner {
     margin-bottom: 3rem;
 
-    ul {
+    ul.nav-tabs {
       display: flex;
-      justify-content: center;
-      gap: 1rem;
       flex-wrap: wrap;
+      gap: 0.5rem;
       border: none;
-
-      @media (max-width: 768px) {
-        flex-direction: column;
-      }
+      padding: 0;
+      margin: 0;
+      width: 100%;
 
       .nav-item {
         flex: 1;
-        min-width: 150px;
-        max-width: 200px;
-
-        @media (max-width: 768px) {
-          max-width: 100%;
-        }
-      }
-
-      .nav-link {
-        text-align: center;
-        padding: 1rem;
-        border: 2px solid $plancks25-teal;
-        border-radius: 12px;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
-        background: white;
-        transition: all 0.3s ease;
-
-        span {
-          font-weight: 700;
-          color: $plancks25-purple;
-          font-size: 1.2rem;
-        }
-
-        &.active, &:hover {
-          background: $plancks25-teal !important;
-          color: white !important;
-          border-color: $plancks25-teal;
-
+        min-width: 200px; // Forces wrap when items get too narrow
+        
+        .nav-link {
+          width: 100%;
+          height: 100%;
+          min-height: 100px;
+          padding: 1rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border: 2px solid $plancks25-teal;
+          border-radius: 12px;
+          transition: all 0.3s ease;
+          background: white;
+          
           span {
-            color: white;
+            display: block;
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: $plancks25-purple;
+            margin-bottom: 0.5rem;
+          }
+
+          &.active, &:hover {
+            background: $plancks25-teal !important;
+            color: white !important;
+            
+            span {
+              color: white;
+            }
           }
         }
+      }
+    }
+  }
+  // Responsive adjustments
+  @media (max-width: 1200px) {
+    .evt-tab-inner ul.nav-tabs {
+      .nav-item {
+        flex: 1 1 calc(50% - 0.5rem); // Two columns
+        max-width: calc(50% - 0.5rem);
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .evt-tab-inner ul.nav-tabs {
+      .nav-item {
+        flex: 1 1 100%; // Single column
+        max-width: 100%;
       }
     }
   }
