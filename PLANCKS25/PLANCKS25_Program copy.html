@@ -15,15 +15,18 @@ permalink: /PLANCKS25/Program/
     <div class="evt-tab-inner">
       <ul class="nav nav-tabs" id="programTabs" role="tablist">
         {% for day in site.data.PLANCKS25.schedule.schedule %}
-        <li class="nav-item">
-          <a class="nav-link {% if forloop.first %}active{% endif %}" 
+        <li class="nav-item" role="presentation">
+          <button class="nav-link {% if forloop.first %}active{% endif %}" 
              id="day{{ forloop.index }}-tab" 
-             data-toggle="tab" 
-             href="#day{{ forloop.index }}" 
-             role="tab">
+             data-bs-toggle="tab" 
+             data-bs-target="#day{{ forloop.index }}" 
+             type="button"
+             role="tab" 
+             aria-controls="day{{ forloop.index }}"
+             aria-selected="{% if forloop.first %}true{% else %}false{% endif %}">
             <span>Day {{ forloop.index }}</span>
             {{ day.day | split: ", " | last }}
-          </a>
+          </button>
         </li>
         {% endfor %}
       </ul>
@@ -33,7 +36,8 @@ permalink: /PLANCKS25/Program/
       {% for day in site.data.PLANCKS25.schedule.schedule %}
       <div class="tab-pane fade {% if forloop.first %}show active{% endif %}" 
            id="day{{ forloop.index }}" 
-           role="tabpanel">
+           role="tabpanel"
+           aria-labelledby="day{{ forloop.index }}-tab">
         <div class="row">
           {% for event in day.events %}
           <div class="col-lg-4 col-md-6">
