@@ -193,6 +193,7 @@ $enef25-pink: #EE4FA8;
 // Shape and Effects Classes
 .btn-rounded {
   @extend .btn-large;
+  max-width: 90%;  
   border-radius: 25px;
   padding: 0 25px;
   min-width: 120px;

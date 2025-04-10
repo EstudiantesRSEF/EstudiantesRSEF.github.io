@@ -57,6 +57,16 @@ permalink: /PLANCKS25/
           </div>
         </div>
       </div>
+            <!-- Speakers Column -->
+      <div class="col s12 m6 l6 d-flex flex-column">
+        <h2>Speakers</h2>
+        <p style="text-align: justify;">Meet our distinguished speakers, including Nobel laureate Anne L'Huillier and leading experts in physics!</p>
+        <div class="mt-auto">
+          <div class="row d-flex justify-content-center">
+            <a href="https://estudiantes.rsef.es/PLANCKS25/Speakers/" id="boton-speakers" class="btn-rounded plancks25-color">Meet the Speakers</a>
+          </div>
+        </div>
+      </div>
     </div>
 <!-- FEES -->
       <h2>Participation Fees</h2>
