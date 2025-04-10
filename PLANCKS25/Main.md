@@ -60,14 +60,12 @@ permalink: /PLANCKS25/
       </div>
     </div>
     <!-- Speakers Section -->
-    <div class="row">
-      <div class="col s12 m8 offset-m2 l6 offset-l3 d-flex flex-column">
-        <h2 class="center">Speakers</h2>
+    <div class="row" style="display: flex; justify-content: center;">
+      <div style="width: 50%; text-align: center;">
+        <h2>Speakers</h2>
         <p style="text-align: justify;">Meet our distinguished speakers, including Nobel laureate Anne L'Huillier and leading experts in physics!</p>
-        <div class="mt-auto">
-          <div class="row d-flex justify-content-center">
-            <a href="https://estudiantes.rsef.es/PLANCKS25/Speakers/" id="boton-speakers" class="btn-rounded plancks25-color">Meet the Speakers</a>
-          </div>
+        <div style="margin-top: auto;">
+          <a href="https://estudiantes.rsef.es/PLANCKS25/Speakers/" id="boton-speakers" class="btn-rounded plancks25-color">Meet the Speakers</a>
         </div>
       </div>
     </div>
