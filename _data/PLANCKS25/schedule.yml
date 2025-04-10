@@ -8,6 +8,7 @@
       - hour: "11:00 - 14:00"
         title: "Reception"
         place: "UB Hall (Josep Carner Building)"
+        map_link: "https://goo.gl/maps/rmLt2kwt86K2"
         suptitle: 
       - hour: "15:00 - 18:00"
         title: "Optional Cultural Activities"
@@ -52,10 +53,12 @@
       - hour: "16:00 - 17:30"
         title: "Opening"
         place: "Auditori CosmoCaixa"
+        map_link: "https://maps.app.goo.gl/BAPXEHxN6cL4rVQN7"
         suptitle:
       - hour: "17:30 - 20:00"
         title: "Talk Anne L'Huillier"
         place: "Auditori CosmoCaixa"
+        map_link: "https://maps.app.goo.gl/BAPXEHxN6cL4rVQN7"
         suptitle: 
       - hour: "20:00 - 21:00"
         title: "Bus to Tiana"
@@ -84,6 +87,7 @@
       - hour: "10:00 - 14:00"
         title: "PLANCKS Exam 2025"
         place: "Faculty of Sciences, UAB"
+        map_link: "https://maps.app.goo.gl/aJq8rUb5RoQtfLPP6"
         suptitle:
       - hour: "10:00 - 14:00"
         title: "Observers Workshop"
@@ -92,10 +96,12 @@
       - hour: "14:00 - 16:00"
         title: "Lunch"
         place: "UAB"
+        map_link: "https://maps.app.goo.gl/mpsbcKDtznoSKVUf9"
         suptitle:
       - hour: "16:00 - 18:00"
         title: "Talk Alicia Sintes"
         place: "Faculty of Humanities Auditorium, UAB"
+        map_link: "https://maps.app.goo.gl/Gk6hWvaQizyJJHjX6"
         suptitle:
       - hour: "18:00 - 20:00"
         title: "Talk / Workshop"
@@ -144,6 +150,7 @@
       - hour: "17:00 - 20:00"
         title: "Panel Discussion"
         place: "Auditori CosmoCaixa"
+        map_link: "https://maps.app.goo.gl/BAPXEHxN6cL4rVQN7"
         suptitle: "Anna kubasiak, Alexandre Dauphin, Thibault Fredon"
       - hour: "20:00 - 22:00"
         title: "VIP Dinner"
@@ -171,6 +178,7 @@
       - hour: "10:00 - 11:00"
         title: "Career Fair"
         place: "Faculty of Chem&Phys, UB"
+        map_link: "https://maps.app.goo.gl/BaKFUUSftxj3wQDc7"
         suptitle: 
       - hour: "10:00 - 11:00"
         title: "Talk"
@@ -179,8 +187,10 @@
       - hour: "13:00 - 15:00"
         title: "Closing Talk"
         place: "Main Hall, Faculty of Biology, UB"
+        map_link: "https://maps.app.goo.gl/5m4ML2hmnGCGZ4YTA"
         suptitle: 
       - hour: "15:00 - 16:00"
         title: "Lunch"
         place: "UB"
+        map_link: "https://maps.app.goo.gl/5m4ML2hmnGCGZ4YTA"
         suptitle: 

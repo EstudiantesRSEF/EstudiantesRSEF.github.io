@@ -119,11 +119,10 @@ permalink: /PLANCKS25/
             </div>
           </div>
         </div>
-      </div>   	  
-<!-- SPONSORS -->
-      <div class="section">
+      </div>   	        
+    </div>
+    <div class="section">
         {% include patrocinadores.html sponsors=site.data.PLANCKS25.multiple.sponsors %}    
-      </div> 
     </div>
   </div>
 </div>

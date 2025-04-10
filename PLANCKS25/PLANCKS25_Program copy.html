@@ -51,7 +51,14 @@ permalink: /PLANCKS25/Program/
               {% if event.suptitle != "" and event.suptitle != nil %}
               <p class="location">
                 <i class="fa fa-map-marker"></i>
-                {{ event.suptitle }}
+                {% if event.map_link %}
+                  <a href="{{ event.map_link }}" target="_blank" class="location-link">
+                    {{ event.suptitle }}
+                    <i class="fa fa-external-link"></i>
+                  </a>
+                {% else %}
+                  {{ event.suptitle }}
+                {% endif %}
               </p>
               {% endif %}
             </div>
