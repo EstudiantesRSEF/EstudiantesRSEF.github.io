@@ -7,6 +7,7 @@ permalink: /PLANCKS25/Program/
 
 <div class="plancks25-program">
   <div class="container">
+    <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
     <div class="section-title">
       <h2>Event Schedule</h2>
       <p>Join us for five exciting days of physics competitions, talks, and social activities in Barcelona!</p>
@@ -14,7 +15,7 @@ permalink: /PLANCKS25/Program/
 
     <div class="evt-tab-inner">
       <ul class="nav nav-tabs" id="programTabs" role="tablist">
-        {% for day in site.data.PLANCKS25.schedule.schedule %}
+        {% for day in site.data.PLANCKS25.schedule %}
         <li class="nav-item" role="presentation">
           <button class="nav-link {% if forloop.first %}active{% endif %}" 
              id="day{{ forloop.index }}-tab" 
@@ -24,8 +25,8 @@ permalink: /PLANCKS25/Program/
              role="tab" 
              aria-controls="day{{ forloop.index }}"
              aria-selected="{% if forloop.first %}true{% else %}false{% endif %}">
-            <span>Day {{ forloop.index }}</span>
-            {{ day.day | split: ", " | last }}
+            <span>{{ day.day | split: "," | first }}</span>
+            {{ day.date }}
           </button>
         </li>
         {% endfor %}

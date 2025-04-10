@@ -1,18 +1,23 @@
-schedule:
-  - day: "Thursday, May 1"
-    events:
-      - hour: "08:00 - 18:00"
+- day: "Thursday"
+  date: "May 1"
+  events:
+      - hour: "10:00 - 18:00"
         title: "Welcome and Registration"
-        suptitle: "Residència UAB"
-      - hour: "18:00 - 20:00"
+        place: ""
+        suptitle: 
+      - hour: "11:00 - 14:00"
         title: "Reception"
-        suptitle: "Campus Foyer (TBD)"
-      - hour: "20:00 - Late"
-        title: "Free Time / Dinner"
-        suptitle: ""
+        place: "UB Hall (Josep Carner Building)"
+        suptitle: 
+      - hour: "15:00 - 18:00"
+        title: Optional Cultural Activities"
+        place: 
+        suptitle: 
+        
 
-  - day: "Friday, May 2"
-    events:
+- day: "Friday"
+  date: "May 2"
+  events:
       - hour: "08:00 - 09:00"
         title: "Bus to Barcelona"
         suptitle: ""
@@ -41,8 +46,9 @@ schedule:
         title: "Dinner & Social"
         suptitle: "City Center"
 
-  - day: "Saturday, May 3"
-    events:
+- day: "Saturday"
+  date: "May 3"
+  events:
       - hour: "09:00 - 13:00"
         title: "PLANCKS 2025 Competition"
         suptitle: "UAB"
@@ -65,8 +71,8 @@ schedule:
         title: "Organized Social Evening"
         suptitle: "Tiana (details TBA)"
 
-  - day: "Sunday, May 4"
-    events:
+- day: "Sunday, May 4"
+  events:
       - hour: "08:00 - 09:00"
         title: "Bus to UAB"
         suptitle: ""
@@ -89,8 +95,8 @@ schedule:
         title: "CosmoNits"
         suptitle: "CosmoCaixa"
 
-  - day: "Monday, May 5"
-    events:
+- day: "Monday, May 5"
+  events:
       - hour: "08:00 - 09:00"
         title: "Bus to Tiana"
         suptitle: ""
