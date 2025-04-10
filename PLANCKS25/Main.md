@@ -36,11 +36,12 @@ permalink: /PLANCKS25/
         </div>
       </div>
       <!-- Venue & Program Section -->
+<!-- Venue & Program Section -->
     <div class="row">
       <!-- Venue Column -->
       <div class="col s12 m6 l6 d-flex flex-column">
-        <h2> Venue </h2>
-        <p style="text-align: justify;">We're excited to announce that our event's venue and accommodations are set—check out all the details! </p>
+        <h2>Venue</h2>
+        <p style="text-align: justify;">We're excited to announce that our event's venue and accommodations are set—check out all the details!</p>
         <div class="mt-auto">
           <div class="row d-flex justify-content-center">
             <a href="https://estudiantes.rsef.es/PLANCKS25/Venue/" id="boton-venue" class="btn-rounded plancks25-color">Venue & Accomodations</a>
@@ -49,17 +50,19 @@ permalink: /PLANCKS25/
       </div>        
       <!-- Program Column -->
       <div class="col s12 m6 l6 d-flex flex-column">
-        <h2> Program </h2>
-        <p style="text-align: justify;">The <strong>Provisional </strong> program for PLANCKS 25 is here! Check it out here!</p>
+        <h2>Program</h2>
+        <p style="text-align: justify;">The <strong>Provisional</strong> program for PLANCKS 25 is here! Check it out here!</p>
         <div class="mt-auto">
           <div class="row d-flex justify-content-center">
             <a href="https://estudiantes.rsef.es/PLANCKS25/Program/" id="boton-programa" class="btn-rounded plancks25-color">Program</a>
           </div>
         </div>
       </div>
-            <!-- Speakers Column -->
-      <div class="col s12 m6 l6 d-flex flex-column">
-        <h2>Speakers</h2>
+    </div>
+    <!-- Speakers Section -->
+    <div class="row">
+      <div class="col s12 m8 offset-m2 l6 offset-l3 d-flex flex-column">
+        <h2 class="center">Speakers</h2>
         <p style="text-align: justify;">Meet our distinguished speakers, including Nobel laureate Anne L'Huillier and leading experts in physics!</p>
         <div class="mt-auto">
           <div class="row d-flex justify-content-center">
