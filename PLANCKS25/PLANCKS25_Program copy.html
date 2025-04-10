@@ -34,7 +34,7 @@ permalink: /PLANCKS25/Program/
     </div>
 
     <div class="tab-content" id="programTabContent">
-      {% for day in site.data.PLANCKS25.schedule.schedule %}
+      {% for day in site.data.PLANCKS25.schedule %}
       <div class="tab-pane fade {% if forloop.first %}show active{% endif %}" 
            id="day{{ forloop.index }}" 
            role="tabpanel"
@@ -48,7 +48,7 @@ permalink: /PLANCKS25/Program/
                 {{ event.hour }}
               </div>
               <h5>{{ event.title }}</h5>
-              {% if event.suptitle != "" %}
+              {% if event.suptitle != "" and event.suptitle != nil %}
               <p class="location">
                 <i class="fa fa-map-marker"></i>
                 {{ event.suptitle }}

@@ -33,100 +33,142 @@
         title: "Bus to Barcelona"
         place:
         suptitle: 
-      - hour: "10:00 - 11:00"
+      - hour: "10:00 - 13:00"
         title: "Welcome and Registration"
         place:
         suptitle: 
-      - hour: "10:00 - 10:30"
-        title: "Welcome"
-        suptitle: "UB"
-      - hour: "10:30 - 12:00"
-        title: "Talk: Marie-Anne L'Huillier"
-        suptitle: "Auditori CosmoCaixa"
-      - hour: "12:00 - 13:00"
+      - hour: "10:00 - 14:00"
+        title: "Lab Tour"
+        place:
+        suptitle: "ALBA / ICFO / Qilimanjaro"
+      - hour: "14:00 - 15:00"
         title: "Lunch"
-        suptitle: "Near UB"
-      - hour: "13:00 - 14:00"
+        place:
+        suptitle:
+      - hour: "15:00 - 16:00"
         title: "Bus to CosmoCaixa"
-        suptitle: ""
-      - hour: "14:00 - 18:00"
-        title: "Visit CosmoCaixa / Free Time"
-        suptitle: "Barcelona"
-      - hour: "18:00 - 20:00"
-        title: "Talk or Workshop (TBD)"
-        suptitle: "Auditori CosmoCaixa"
-      - hour: "20:00 - Late"
-        title: "Dinner & Social"
-        suptitle: "City Center"
-
-- day: "Saturday"
-  date: "May 3"
-  events:
-      - hour: "09:00 - 13:00"
-        title: "PLANCKS 2025 Competition"
-        suptitle: "UAB"
-      - hour: "09:00 - 13:00"
-        title: "PLANCKS 2025 Observers Workshop"
-        suptitle: "Parallel Session"
-      - hour: "13:00 - 14:00"
-        title: "Lunch"
-        suptitle: "UAB"
-      - hour: "14:00 - 16:00"
-        title: "Talk: Alícia Stites"
-        suptitle: "Auditori CosmoCaixa"
-      - hour: "16:00 - 18:00"
-        title: "Talk/Workshop"
-        suptitle: "Auditori CosmoCaixa"
-      - hour: "18:00 - 19:00"
-        title: "Free Time"
-        suptitle: ""
-      - hour: "19:00 - Late"
-        title: "Organized Social Evening"
-        suptitle: "Tiana (details TBA)"
-
-- day: "Sunday"
-  date: "May 4"
-  events:
-      - hour: "08:00 - 09:00"
-        title: "Bus to UAB"
-        suptitle: ""
-      - hour: "09:00 - 12:00"
-        title: "Talk-Workshop"
-        suptitle: "UAB"
-      - hour: "12:00 - 13:00"
-        title: "Lunch"
-        suptitle: "UAB"
-      - hour: "13:00 - 14:00"
-        title: "Talk: Barbara Baudes"
-        suptitle: "Auditori CosmoCaixa"
-      - hour: "14:00 - 16:00"
-        title: "Panel Discussion"
-        suptitle: "Auditori CosmoCaixa"
-      - hour: "17:00 - 19:00"
-        title: "VIP Dinner"
-        suptitle: "TBD"
-      - hour: "19:00 - Late"
-        title: "CosmoNits"
-        suptitle: "CosmoCaixa"
-
-- day: "Monday"
-  date: "May 5"
-  events:
-      - hour: "08:00 - 09:00"
+        place:
+        suptitle:
+      - hour: "16:00 - 17:30"
+        title: "Opening"
+        place: "Auditori CosmoCaixa"
+        suptitle:
+      - hour: "17:30 - 20:00"
+        title: "Talk Anne L'Huillier"
+        place: "Auditori CosmoCaixa"
+        suptitle: 
+      - hour: "20:00 - 21:00"
         title: "Bus to Tiana"
-        suptitle: ""
-      - hour: "09:00 - 11:00"
-        title: "Talk"
-        suptitle: "Speaker TBD"
-      - hour: "11:00 - 12:00"
-        title: "Closing Talk"
-        suptitle: "Biology UB"
-      - hour: "12:00 - 13:00"
-        title: "Lunch"
-        suptitle: ""
-      - hour: "13:00 - 15:00"
-        title: "Return Trip"
-        suptitle: ""
-      - hour: "15:00 - ???"
-        title: "Free Time / Departures"
-        suptitle: ""
+        place: 
+        suptitle: 
+      - hour: "21:00 - 22:00"
+        title: "Dinner"
+        place:
+        suptitle:
+      - hour: "22:00 - Late"
+        title: "Last revision for the exam!"
+        place:
+        suptitle:
+
+# - day: "Saturday"
+#   date: "May 3"
+#   events:
+#       - hour: "08:00 - 09:00"
+#         title: "Breakfast"
+#         place:
+#         suptitle:
+#       - hour:
+#         title:
+#         place:
+#         suptitle:
+#       - hour:
+#         title:
+#         place:
+#         suptitle:
+#       - hour:
+#         title:
+#         place:
+#         suptitle:
+#       - hour:
+#         title:
+#         place:
+#         suptitle:
+#       - hour:
+#         title:
+#         place:
+#         suptitle:
+#       - hour:
+#         title:
+#         place:
+#         suptitle:
+#       - hour:
+#         title:
+#         place:
+#         suptitle:
+#       - hour:
+#         title:
+#         place:
+#         suptitle:
+#       - hour:
+#         title:
+#         place:
+#         suptitle:
+#       - hour:
+#         title:
+#         place:
+#         suptitle:
+
+# - day: "Sunday"
+#   date: "May 4"
+#   events:
+#       - hour: "08:00 - 09:00"
+#         title: "Breakfast"
+#         place:
+#         suptitle:
+#       - hour: "08:00 - 09:00"
+#         title: "Bus to UAB"
+#         suptitle: ""
+#       - hour: "09:00 - 12:00"
+#         title: "Talk-Workshop"
+#         suptitle: "UAB"
+#       - hour: "12:00 - 13:00"
+#         title: "Lunch"
+#         suptitle: "UAB"
+#       - hour: "13:00 - 14:00"
+#         title: "Talk: Barbara Baudes"
+#         suptitle: "Auditori CosmoCaixa"
+#       - hour: "14:00 - 16:00"
+#         title: "Panel Discussion"
+#         suptitle: "Auditori CosmoCaixa"
+#       - hour: "17:00 - 19:00"
+#         title: "VIP Dinner"
+#         suptitle: "TBD"
+#       - hour: "19:00 - Late"
+#         title: "CosmoNits"
+#         suptitle: "CosmoCaixa"
+
+# - day: "Monday"
+#   date: "May 5"
+#   events:
+#       - hour: "08:00 - 09:00"
+#         title: "Breakfast"
+#         place:
+#         suptitle:
+#       - hour: "08:00 - 09:00"
+#         title: "Bus to Tiana"
+#         suptitle: ""
+#       - hour: "09:00 - 11:00"
+#         title: "Talk"
+#         suptitle: "Speaker TBD"
+#       - hour: "11:00 - 12:00"
+#         title: "Closing Talk"
+#         suptitle: "Biology UB"
+#       - hour: "12:00 - 13:00"
+#         title: "Lunch"
+#         suptitle: ""
+#       - hour: "13:00 - 15:00"
+#         title: "Return Trip"
+#         suptitle: ""
+#       - hour: "15:00 - ???"
+#         title: "Free Time / Departures"
+#         suptitle: ""
