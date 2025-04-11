@@ -52,6 +52,12 @@ sponsors:
   link: "https://www.gmv.com/es-es"
   level: "4"
 
+- name: "Catalonia Quantum Academy"
+  section: "Quark"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/CatalonianQuantumAcademy.png"
+  link: "https://cataloniaquantum.eu/es/inicio/"
+  level: "1"
+
 - name: "Quantum Spain"
   section: "Collaborators"
   logo: "/img/eventos/2025-PLANCKS/sponsors/QuantumSpain.svg"
