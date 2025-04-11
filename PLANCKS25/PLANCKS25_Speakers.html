@@ -21,7 +21,7 @@ permalink: /PLANCKS25/Speakers/
               </div>
               <div class="speaker-info">
                 <h4 class="card-title">{{ speaker.name }}</h4>
-                <p class="grey-text">{{ speaker.institution }}</p>
+                <p class="grey-text">{{ speaker.institution | markdownify }}</p>
                 <p class="grey-text">{{ speaker.role }}</p>
                 <div class="talk-info">
                   <strong>Talk:</strong> {{ speaker.talk_title }}<br>
@@ -30,7 +30,7 @@ permalink: /PLANCKS25/Speakers/
               </div>
             </div>
             <div class="card-bottom">
-              <p class="bio">{{ speaker.bio }}</p>
+              <p class="bio">{{ speaker.bio | markdownify }}</p>
             </div>
           </div>
         </div>
