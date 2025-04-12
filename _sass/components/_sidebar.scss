@@ -226,52 +226,49 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
   @media (max-width: 599px) {
     padding: 1.5rem;
   }
-    .sidebar-title {
+  .sidebar-title {
+    color: $plancks25-purple;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 3px solid $plancks25-teal;
+    padding-bottom: 0.5rem;
+  }
+
+  .publicaciones-row {
+    gap: 1.5rem;
+  }
+
+  .publicacion {
+    .news-card {
+      background: rgba($plancks25-purple, 0.05);
+      border-radius: 8px;
+      padding: 1.5rem;
+      border: 2px solid $plancks25-teal;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: translateY(-5px);
+      }
+    }
+
+    .news-outlet {
+      color: $plancks25-teal;
+      font-size: 1.2rem;
+      margin: 0 0 0.5rem 0;
+      font-weight: bold;
+    }
+
+    .news-title {
       color: $plancks25-purple;
-      text-align: center;
-      font-size: 2rem;
-      margin-bottom: 1.5rem;
-      border-bottom: 3px solid $plancks25-teal;
-      padding-bottom: 0.5rem;
+      font-size: 1rem;
+      margin: 0.5rem 0 1rem 0;
+      line-height: 1.3;
     }
 
-    .publicaciones-row {
-      display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
+    img, video {
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba($plancks25-purple, 0.1);
     }
-
-    .publicacion {
-      .news-card {
-        background: rgba($plancks25-purple, 0.05);
-        border-radius: 8px;
-        padding: 1.5rem;
-        border: 2px solid $plancks25-teal;
-        transition: transform 0.3s ease;
-
-        &:hover {
-          transform: translateY(-5px);
-        }
-      }
-
-      .news-outlet {
-        color: $plancks25-teal;
-        font-size: 1.2rem;
-        margin: 0 0 0.5rem 0;
-        font-weight: bold;
-      }
-
-      .news-title {
-        color: $plancks25-purple;
-        font-size: 1rem;
-        margin: 0.5rem 0 1rem 0;
-        line-height: 1.3;
-      }
-
-      img, video {
-        width: 100%;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba($plancks25-purple, 0.1);
-      }
-    }
+  }
 }
