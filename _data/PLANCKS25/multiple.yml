@@ -94,6 +94,13 @@ sponsors:
   link: "https://espanadigital.gob.es/explora"
   level: "5"
 
+- name: "UAB"
+  section: "Collaborators"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/UAB.png"
+  link: "https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html"
+  level: "5"
+
+
 
 exams:
 - name: "Dublin 2024"
