@@ -26,7 +26,7 @@ permalink: /PLANCKS25/Venue/
         {% endfor %}
       </ul>
     </div>
-    <div class="main-content">
+    <div class="plancks25-content">
       <div class="section">
   <!-- BANNER -->
         <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">	
