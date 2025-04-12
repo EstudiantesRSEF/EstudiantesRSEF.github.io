@@ -220,6 +220,7 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
 }
 
 // PLANCKS25 specific mobile publications
+// SCSS modifications
 .plancks25-publicaciones-movil {
   @extend .publicaciones-movil;
 
@@ -243,13 +244,25 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
-    padding-bottom: 1rem; // Add padding for scrollbar
+    padding-bottom: 1rem;
   }
 
+  // Force all publicacion elements to have identical styling
   .publicacion {
-    flex: 0 0 auto; // Prevents items from growing or shrinking
-    width: 250px; // Fixed width for each card
+    flex: 0 0 auto;
+    width: 250px;
     scroll-snap-align: start;
+    
+    // Reset any potential inherited styles
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    a {
+      display: block;
+      height: 100%;
+      text-decoration: none;  // Remove link underlines
+    }
     
     .news-card {
       background: rgba($plancks25-purple, 0.05);
@@ -257,9 +270,10 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
       padding: 1.5rem;
       border: 2px solid $plancks25-teal;
       transition: transform 0.3s ease;
-      height: 100%; // Full height
+      height: 100%;
       display: flex;
       flex-direction: column;
+      box-sizing: border-box;
       
       &:hover {
         transform: translateY(-5px);
@@ -278,19 +292,40 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
       font-size: 1rem;
       margin: 0.5rem 0 1rem 0;
       line-height: 1.3;
-      flex-grow: 1; // Allow this to grow to fill available space
+      flex-grow: 1;
     }
 
     img, video {
       border-radius: 8px;
       box-shadow: 0 2px 4px rgba($plancks25-purple, 0.1);
       width: 100%;
-      object-fit: cover; // Ensures consistent image display
-      margin-top: auto; // Pushes image to bottom if there's extra space
+      object-fit: cover;
+      max-height: 150px; // Ensure consistent height for media
+      margin-top: auto;
     }
   }
   
-  // Add this to ensure consistent card heights regardless of content
+  // Force uniformity by applying styles to first-child explicitly
+  .publicacion:first-child {
+    flex: 0 0 auto;
+    width: 250px;
+    
+    .news-card {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .news-title {
+      flex-grow: 1;
+    }
+    
+    img, video {
+      margin-top: auto;
+    }
+  }
+  
+  // Add spacing at the end of scrollable area
   .publicaciones-row::after {
     content: '';
     display: block;
