@@ -33,6 +33,26 @@ permalink: /PLANCKS25/Venue/
   <!-- BANNER -->
         <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">	
       </div>
+        <!-- PUBLICACIONES MÓVILES -->
+      <div class="publicaciones-movil">
+        <div class="publicaciones-row">
+          {% for item in site.data.PLANCKS25.multiple.news %}
+            <div class="publicacion">
+              <a href="{{ item.url }}">
+                <p>{{ item.text }}</p>
+                {% if item.video %}
+                  <video width="100%" height="auto" autoplay muted loop>
+                    <source src="{{ item.image }}" type="video/mp4">
+                    Tu navegador no soporta videos.
+                  </video>
+                {% else %}
+                <img src="{{ item.image }}" alt="{{ item.text }}">
+                {% endif %}
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
       <!-- VENUE -->
       <div class="section">
         <h4 id="venue">Venue: Faculty of Physics at UAB</h4>
