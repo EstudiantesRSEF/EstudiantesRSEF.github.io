@@ -7,7 +7,6 @@ permalink: /PreliminaresPLANCKS2025/
 <div class="no-pad-top" id="index-page">
   <div class="prelis25-container">
     <div class="prelis25-sidebar">
-      <div class="sidebar">
         <ul>
           {% for item in site.data.Prelis.PostsList limit:3 %}
           <li>
@@ -25,7 +24,6 @@ permalink: /PreliminaresPLANCKS2025/
           </li>
           {% endfor %}
         </ul>
-      </div>
     </div>
     <div class="prelis25-content">
       <!-- BANNER -->
