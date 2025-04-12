@@ -146,15 +146,14 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
   
   .news-outlet {
     color: $plancks25-teal;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 0 0 0.5rem 0;
     font-weight: bold;
-    text-transform: uppercase;
   }
   
   .news-title {
     color: $plancks25-purple;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin: 0.5rem 0 1rem 0;
     line-height: 1.3;
   }

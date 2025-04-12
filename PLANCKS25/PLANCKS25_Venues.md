@@ -13,7 +13,7 @@ permalink: /PLANCKS25/Venue/
         {% for item in site.data.PLANCKS25.multiple.news %}
         <li>
           <a href="{{ item.url }}">
-            <h4 class="news-outlet">{{ item.outlet }}</h4>
+            <p class="news-outlet">{{ item.outlet }}</p>
             <p class="news-title">{{ item.text }}</p>
             {% if item.video %}
             <video width="100%" height="auto" autoplay muted loop>
