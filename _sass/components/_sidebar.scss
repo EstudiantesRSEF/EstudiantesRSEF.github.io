@@ -225,21 +225,21 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
 
   @media (max-width: 599px) {
     padding: 1.5rem;
+  }
+    .sidebar-title {
+      color: $plancks25-purple;
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      border-bottom: 3px solid $plancks25-teal;
+      padding-bottom: 0.5rem;
+    }
 
-    // .sidebar-title {
-    //   color: $plancks25-purple;
-    //   text-align: center;
-    //   font-size: 2rem;
-    //   margin-bottom: 1.5rem;
-    //   border-bottom: 3px solid $plancks25-teal;
-    //   padding-bottom: 0.5rem;
-    // }
-
-    // .publicaciones-row {
-    //   display: flex;
-    //   flex-direction: column;
-    //   gap: 1.5rem;
-    // }
+    .publicaciones-row {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
 
     // .publicacion {
     //   .news-card {
@@ -274,5 +274,4 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
     //     box-shadow: 0 2px 4px rgba($plancks25-purple, 0.1);
     //   }
     // }
-  }
 }
