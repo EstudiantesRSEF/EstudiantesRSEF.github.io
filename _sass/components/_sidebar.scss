@@ -1,11 +1,16 @@
-.prelis25-container {
+// Variables for plancks25
+$plancks25-teal: #00a79d;
+$plancks25-purple: #352F71;
+$plancks25-light-teal: lighten($plancks25-teal, 45%);
+
+// General container and sidebar classes
+.sb-container {
   display: flex;
   flex-direction: row-reverse;
   width: 90%; // Default for small screens
   margin: 0 auto;
-  
   justify-content: left;
-
+  
   @media (min-width: 600px) {
     width: 95%; // Medium screens
   }
@@ -23,8 +28,7 @@
   }
 }
 
-.prelis25-sidebar {
-  // width: 10%;
+.sb-sidebar {
   display: none; // Hide on small screens
   margin-left: 1%;
 
@@ -36,82 +40,91 @@
   @media (min-width: 992px) {
     width: 15%; // Large screens
   }
+  
   li {
-      margin-bottom: 15px;
-      border-bottom: 2px solid #352F71; // Línea separatoria con el color secundario
-      padding-bottom: 10px;
-      text-align: center; // Centra todo el contenido dentro del <li>
-    }
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  
   img, video {
-      width: 100%; // Ancho máximo para imágenes y videos
-      height: auto; // Mantén las proporciones
-      border-radius: 5px;
-      transition: transform 0.3s; // Efecto al pasar el mouse
-      margin: 0 auto; // Centra la imagen o video horizontalmente
-    }
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s;
+    margin: 0 auto;
+  }
+  
   a:hover img, a:hover video {
-      transform: scale(1.1); // Efecto de zoom al pasar el mouse
-    }  
+    transform: scale(1.1);
+  }
+  
   p {
-      margin: 10px 0 0; // Espaciado encima del texto
-      font-size: 20px;
-      color: #352F71; // Color texto
-      font-weight: bold; // Texto en negrita
-      text-align: center; // Asegura que el texto esté centrado
-    }
+    margin: 10px 0 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
 }
 
-.prelis25-content {
+.sb-content {
   width: 100%;
 
   @media (min-width: 600px) {
-    width: 80%; // Adjust width for medium screens
+    width: 80%;
   }
 
   @media (min-width: 992px) {
-    width: 85%; // Adjust width for large screens
-    // margin-right: 15%;
-  }
-
-  a:not(.btn-plancks25), span {
-    color: #352F71; // Purple color for standard links and spans
-  }
-
-  a:not(.btn-plancks25):visited {
-    color: #00a79d; // Turquoise color for clicked links
-  }
-
-  a:not(.btn-plancks25):hover {
-    color: #352F71; // Purple color for hovered links
-  }
-
-  .btn-plancks25 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        line-height: 1.1;
-      }
-}
-
-.prelis25{
-  a:not(.btn-plancks25), span {
-    color: #352F71; // Purple color for standard links and spans
-  }
-
-  a:not(.btn-plancks25):visited {
-    color: #00a79d; // Turquoise color for clicked links
-  }
-
-  a:not(.btn-plancks25):hover {
-    color: #352F71; // Purple color for hovered links
-  }
-  .btn-plancks25 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 1.1;
+    width: 85%;
   }
 }
+
+// prelis25 specific styles
+.prelis25-container {
+  @extend .sb-container;
+  // Any specific modifications for prelis25 container
+}
+
+.prelis25-sidebar {
+  @extend .sb-sidebar;
+  
+  li {
+    border-bottom: 2px solid #352F71;
+  }
+  
+  p {
+    color: #352F71;
+  }
+}
+
+.prelis25-content {
+  @extend .sb-content;
+  // Any specific modifications for prelis25 content
+}
+
+// plancks25 specific styles
+.plancks25-container {
+  @extend .sb-container;
+  // Any specific modifications for plancks25 container
+}
+
+.plancks25-sidebar {
+  @extend .sb-sidebar;
+  
+  li {
+    border-bottom: 2px solid $plancks25-teal;
+  }
+  
+  p {
+    color: $plancks25-purple;
+  }
+}
+
+.plancks25-content {
+  @extend .sb-content;
+  background-color: $plancks25-light-teal;
+}
+
 
 .publicaciones-movil {
   display: none; // Hide on larger screens

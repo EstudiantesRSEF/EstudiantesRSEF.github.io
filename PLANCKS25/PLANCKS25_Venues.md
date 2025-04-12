@@ -8,25 +8,23 @@ permalink: /PLANCKS25/Venue/
 <div class="no-pad-top" id="index-page">
   <div class="plancks25-container">
     <div class="plancks25-sidebar">
-      <div class="sidebar">
-        <ul>
-          {% for item in site.data.PLANCKS25.multiple.news %}
-          <li>
-            <a href="{{ item.url }}">
-              <p>{{ item.text }}</p>
-              {% if item.video %}
-              <video width="100%" height="auto" autoplay muted loop>
-                <source src="{{ item.image }}" type="video/mp4">
-                Tu navegador no soporta videos.
-              </video>
-              {% else %}
-              <img src="{{ item.image }}" alt="{{ item.text }}">
-              {% endif %}
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
+      <ul>
+        {% for item in site.data.PLANCKS25.multiple.news %}
+        <li>
+          <a href="{{ item.url }}">
+            <p>{{ item.text }}</p>
+            {% if item.video %}
+            <video width="100%" height="auto" autoplay muted loop>
+              <source src="{{ item.image }}" type="video/mp4">
+              Tu navegador no soporta videos.
+            </video>
+            {% else %}
+            <img src="{{ item.image }}" alt="{{ item.text }}">
+            {% endif %}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
     </div>
     <div class="main-content">
       <div class="section">
