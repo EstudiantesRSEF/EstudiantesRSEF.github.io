@@ -66,8 +66,7 @@ permalink: /PreliminaresPLANCKS2025/
           <a href="https://estudiantes.rsef.es/PreliminaresPLANCKS/2025/puntuaciones.html" id="info-clasif" class="collection-item modal-trigger btn-plancks25 waves-effect waves-light"><i class="material-icons" style="padding-right: 8px;">info</i><strong>Clasificación</strong></a>
         </div>
       </div>
-      <hr>
-      
+      <hr>      
         <!-- COUNTDOWN -->
       <div class="row" style="margin-bottom: -10px">  
         <p style="text-align: justify;">Las inscripciones para las Preliminares de PLANCKS 2025 se cerrarán en...</p>
