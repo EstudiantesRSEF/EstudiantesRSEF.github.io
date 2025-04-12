@@ -58,7 +58,6 @@ permalink: /PreliminaresPLANCKS2025/
         <a href="/PreliminaresPLANCKS/2025/PreliminaresPLANCKS25_Solutions.pdf" target="_blank"><span><strong>SOLUCIONES DE LOS PROBLEMAS</strong></span></a>
       </h2>
       <hr>
-
       <!-- CLASIFICACIÓN -->
       <hr>
       <p style="text-align: justify;">Tras vuestro gran trabajo, ¡ya están disponibles las clasificiaciones de este año! Haciendo click en el siguiente botón y poniendo el DNI de vuestro capitán/na vereis el desglose de las puntuaciones</p>

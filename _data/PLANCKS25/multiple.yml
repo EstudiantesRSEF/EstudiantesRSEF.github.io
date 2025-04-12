@@ -100,8 +100,6 @@ sponsors:
   link: "https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html"
   level: "5"
 
-
-
 exams:
 - name: "Dublin 2024"
   img: "/img/eventos/2025-PLANCKS/PrevEditionsLogos/2024Dublin.png"
@@ -157,3 +155,8 @@ exams:
   img: "/img/eventos/2025-PLANCKS/PrevEditionsLogos/2014Utrecht.jpg"
   link: "/PLANCKS25/PrevEditionsExams/PLANCKS2014_Problems.pdf"
   solutions: "/PLANCKS25/PrevEditionsExams/PLANCKS2014_Solutions.pdf"
+
+news:
+- text: "La Vanguardia"
+  image: "/img/eventos/2025-PLANCKS/news/PLANCKS25_LaVanguardia.jpeg"
+  url: "https://www.lavanguardia.com/ciencia/20250311/10457336/mejores-alumnos-fisica-mundo-reuniran-mayo-barcelona.html"
