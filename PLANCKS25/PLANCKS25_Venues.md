@@ -8,11 +8,13 @@ permalink: /PLANCKS25/Venue/
 <div class="no-pad-top" id="index-page">
   <div class="plancks25-container">
     <div class="plancks25-sidebar">
+      <h3 class="sidebar-title">News!</h3>
       <ul>
         {% for item in site.data.PLANCKS25.multiple.news %}
         <li>
           <a href="{{ item.url }}">
-            <p>{{ item.text }}</p>
+            <h4 class="news-outlet">{{ item.outlet }}</h4>
+            <p class="news-title">{{ item.text }}</p>
             {% if item.video %}
             <video width="100%" height="auto" autoplay muted loop>
               <source src="{{ item.image }}" type="video/mp4">
