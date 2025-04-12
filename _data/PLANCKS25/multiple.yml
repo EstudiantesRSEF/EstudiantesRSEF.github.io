@@ -157,6 +157,7 @@ exams:
   solutions: "/PLANCKS25/PrevEditionsExams/PLANCKS2014_Solutions.pdf"
 
 news:
-- text: "La Vanguardia"
+- outlet: "La Vanguardia"
+  text: "Los mejores estudiantes de física del mundo ..."
   image: "/img/eventos/2025-PLANCKS/news/PLANCKS25_LaVanguardia.jpeg"
   url: "https://www.lavanguardia.com/ciencia/20250311/10457336/mejores-alumnos-fisica-mundo-reuniran-mayo-barcelona.html"
