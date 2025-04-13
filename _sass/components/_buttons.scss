@@ -240,11 +240,11 @@ $enef25-pink: #EE4FA8;
 }
 
 .plancks25-color{
-  color: #ffffff;
-  background-color: #00a79d;
+  color: #ffffff !important; 
+  background-color: #00a79d !important;
 
   &:hover {
-    background-color: #352F71;
+    background-color: #352F71 !important;
   }
 }
 
