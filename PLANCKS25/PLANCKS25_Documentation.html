@@ -20,10 +20,11 @@ permalink: /PLANCKS25/Documentation/
         To find more information about IAPS click <a href="https://iaps.info/" >here</a>.  
     </div>
     <div class="section">
+      {{ "
       ## IUPAP Conference Policies
       
       As PLANCKS 2025 follows the guidelines and principles established by the International Union of Pure and Applied Physics (IUPAP), we want to highlight two fundamental policies that shape our event's commitment to inclusivity and respect.
-      
+
       ### 1. Free Circulation of Scientists
 
       The principle of the Universality of Science is fundamental to scientific progress. This principle embodies freedom of movement, association, expression and communication for scientists, as well as equitable access to data, information and research materials.
@@ -41,7 +42,7 @@ permalink: /PLANCKS25/Documentation/
       The conference organisers will appoint two advisors at the conference who will consult with those who have suffered from harassment and who will suggest ways of redressing their problems, and an advisor who will counsel those accused of harassment.
 
       [Section 4 IUPAP Conference Policies](http://iupap.org/sponsored-conferences/conference-policies/)
-
+        " | markdownify }}
     </div>  
     <div class="section">
       {% include patrocinadores.html sponsors=site.data.PLANCKS25.multiple.sponsors %}    
