@@ -1,8 +1,9 @@
 ---
 layout: plancks25
-title: PLANCKS Barcelona 2025
-hidden: True
+title: "PLANCKS Barcelona 2025"
 permalink: /PLANCKS25/
+description: "Discover the official webpage of PLANCKS 2'25 in Barcelona"
+thumbnail: "/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png"
 ---
 
 <!-- Enlazamos el archivo CSS del carrusel -->
