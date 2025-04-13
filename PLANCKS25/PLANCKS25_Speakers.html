@@ -5,40 +5,63 @@ hidden: True
 permalink: /PLANCKS25/Speakers/
 ---
 <div class="no-pad-top plancks25-speakers" id="index-page">
-  <div class="container">
-    <div class="section">
-      <h2 class="center">Invited Speakers</h2>      
-      <div class="speakers-intro">
-        <p>Hey everyone, join us at PLANCKS 2025! Distinguished physicists from around the world will share their innovative research on modern physics. It’s a great chance to explore fresh ideas in a relaxed, engaging setting.</p>
-      </div>
-      <div class="row">
-        {% for speaker in site.data.PLANCKS25.speakers %}
-        <div class="responsive-column">
-          <div class="card speaker-card">
-            <div class="card-top">
-              <div class="speaker-image">
-                <img src="{{ speaker.image }}" alt="{{ speaker.name }}" class="circle responsive-img">
-              </div>
-              <div class="speaker-info">
-                <h4 class="card-title">{{ speaker.name }}</h4>
-                <p class="grey-text">{{ speaker.institution | markdownify }}</p>
-                <p class="grey-text">{{ speaker.role }}</p>
-                <div class="talk-info">
-                  <strong>Talk:</strong> {{ speaker.talk_title }}<br>
-                  <strong>When:</strong> {{ speaker.talk_time }}
+  <div class="plancks25-container">
+    <div class="plancks25-sidebar">
+      <h3 class="sidebar-title">News!</h3>
+      <ul>
+        {% for item in site.data.PLANCKS25.multiple.news %}
+        <li>
+          <a href="{{ item.url }}">
+            <p class="news-outlet">{{ item.outlet }}</p>
+            <p class="news-title">{{ item.text }}</p>
+            {% if item.video %}
+            <video width="100%" height="auto" autoplay muted loop>
+              <source src="{{ item.image }}" type="video/mp4">
+              Tu navegador no soporta videos.
+            </video>
+            {% else %}
+            <img src="{{ item.image }}" alt="{{ item.text }}">
+            {% endif %}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="plancks25-content">
+      <div class="section">
+        <h2 class="center">Invited Speakers</h2>      
+        <div class="speakers-intro">
+          <p>Hey everyone, join us at PLANCKS 2025! Distinguished physicists from around the world will share their innovative research on modern physics. It’s a great chance to explore fresh ideas in a relaxed, engaging setting.</p>
+        </div>
+        <div class="row">
+          {% for speaker in site.data.PLANCKS25.speakers %}
+          <div class="responsive-column">
+            <div class="card speaker-card">
+              <div class="card-top">
+                <div class="speaker-image">
+                  <img src="{{ speaker.image }}" alt="{{ speaker.name }}" class="circle responsive-img">
+                </div>
+                <div class="speaker-info">
+                  <h4 class="card-title">{{ speaker.name }}</h4>
+                  <p class="grey-text">{{ speaker.institution | markdownify }}</p>
+                  <p class="grey-text">{{ speaker.role }}</p>
+                  <div class="talk-info">
+                    <strong>Talk:</strong> {{ speaker.talk_title }}<br>
+                    <strong>When:</strong> {{ speaker.talk_time }}
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="card-bottom">
-              <p class="bio">{{ speaker.bio | markdownify }}</p>
+              <div class="card-bottom">
+                <p class="bio">{{ speaker.bio | markdownify }}</p>
+              </div>
             </div>
           </div>
+          {% endfor %}
         </div>
-        {% endfor %}
       </div>
+      <div class="section">
+        {% include patrocinadores.html sponsors=site.data.PLANCKS25.multiple.sponsors %}    
+      </div> 
     </div>
-    <div class="section">
-      {% include patrocinadores.html sponsors=site.data.PLANCKS25.multiple.sponsors %}    
-    </div> 
   </div>
 </div>

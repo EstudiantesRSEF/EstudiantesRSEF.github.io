@@ -6,78 +6,99 @@ permalink: /PLANCKS25/Program/
 ---
 
 <div class="plancks25-program">
-  <div class="container">
-    <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
-    <div class="section-title">
-      <h2>Event Schedule</h2>
-      <p>Join us for five exciting days of physics competitions, talks, and social activities in Barcelona!</p>
-    </div>
-
-    <div class="evt-tab-inner">
-      <ul class="nav nav-tabs" id="programTabs" role="tablist">
-        {% for day in site.data.PLANCKS25.schedule %}
-        <li class="nav-item" role="presentation">
-          <button class="nav-link {% if forloop.first %}active{% endif %}" 
-             id="day{{ forloop.index }}-tab" 
-             data-bs-toggle="tab" 
-             data-bs-target="#day{{ forloop.index }}" 
-             type="button"
-             role="tab" 
-             aria-controls="day{{ forloop.index }}"
-             aria-selected="{% if forloop.first %}true{% else %}false{% endif %}">
-            <span>{{ day.day | split: "," | first }}</span>
-            {{ day.date }}
-          </button>
+  <div class="plancks25-container">
+    <div class="plancks25-sidebar">
+      <h3 class="sidebar-title">News!</h3>
+      <ul>
+        {% for item in site.data.PLANCKS25.multiple.news %}
+        <li>
+          <a href="{{ item.url }}">
+            <p class="news-outlet">{{ item.outlet }}</p>
+            <p class="news-title">{{ item.text }}</p>
+            {% if item.video %}
+            <video width="100%" height="auto" autoplay muted loop>
+              <source src="{{ item.image }}" type="video/mp4">
+              Tu navegador no soporta videos.
+            </video>
+            {% else %}
+            <img src="{{ item.image }}" alt="{{ item.text }}">
+            {% endif %}
+          </a>
         </li>
         {% endfor %}
       </ul>
     </div>
-
-    <div class="tab-content" id="programTabContent">
-      {% for day in site.data.PLANCKS25.schedule %}
-      <div class="tab-pane fade {% if forloop.first %}show active{% endif %}" 
-           id="day{{ forloop.index }}" 
-           role="tabpanel"
-           aria-labelledby="day{{ forloop.index }}-tab">
-        <div class="row">
-          {% for event in day.events %}
-          <div class="col-lg-4 col-md-6">
-            <div class="single-schedules-inner">
-              <div class="date">
-                <i class="fa fa-clock-o"></i>
-                {{ event.hour }}
-              </div>
-              <h5>{{ event.title }}</h5>
-              {% if event.suptitle != "" and event.suptitle != nil or event.place != "" and event.place != nil %}
-              <div class="location-container">
-                {% if event.suptitle != "" and event.suptitle != nil %}
-                <p class="event-suptitle">{{ event.suptitle }}</p>
-                {% endif %}
-                {% if event.place != "" and event.place != nil %}
-                <p class="location">
-                  <i class="fa fa-map-marker"></i>
-                  {% if event.map_link %}
-                    <a href="{{ event.map_link }}" target="_blank" class="location-link">
-                      {{ event.place }}
-                      <i class="fa fa-external-link"></i>
-                    </a>
-                  {% else %}
-                    {{ event.place }}
-                  {% endif %}
-                </p>
-                {% endif %}
-              </div>
-              {% endif %}
-            </div>
-          </div>
-          {% endfor %}
-        </div>
+    <div class="plancks25-content">
+      <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
+      <div class="section-title">
+        <h2>Event Schedule</h2>
+        <p>Join us for five exciting days of physics competitions, talks, and social activities in Barcelona!</p>
       </div>
-      {% endfor %}
-    </div>
-    <!-- SPONSORS -->
-    <div class="section">
-      {% include patrocinadores.html sponsors=site.data.PLANCKS25.multiple.sponsors %}    
+      <div class="evt-tab-inner">
+        <ul class="nav nav-tabs" id="programTabs" role="tablist">
+          {% for day in site.data.PLANCKS25.schedule %}
+          <li class="nav-item" role="presentation">
+            <button class="nav-link {% if forloop.first %}active{% endif %}" 
+              id="day{{ forloop.index }}-tab" 
+              data-bs-toggle="tab" 
+              data-bs-target="#day{{ forloop.index }}" 
+              type="button"
+              role="tab" 
+              aria-controls="day{{ forloop.index }}"
+              aria-selected="{% if forloop.first %}true{% else %}false{% endif %}">
+              <span>{{ day.day | split: "," | first }}</span>
+              {{ day.date }}
+            </button>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="tab-content" id="programTabContent">
+        {% for day in site.data.PLANCKS25.schedule %}
+        <div class="tab-pane fade {% if forloop.first %}show active{% endif %}" 
+            id="day{{ forloop.index }}" 
+            role="tabpanel"
+            aria-labelledby="day{{ forloop.index }}-tab">
+          <div class="row">
+            {% for event in day.events %}
+            <div class="col-lg-4 col-md-6">
+              <div class="single-schedules-inner">
+                <div class="date">
+                  <i class="fa fa-clock-o"></i>
+                  {{ event.hour }}
+                </div>
+                <h5>{{ event.title }}</h5>
+                {% if event.suptitle != "" and event.suptitle != nil or event.place != "" and event.place != nil %}
+                <div class="location-container">
+                  {% if event.suptitle != "" and event.suptitle != nil %}
+                  <p class="event-suptitle">{{ event.suptitle }}</p>
+                  {% endif %}
+                  {% if event.place != "" and event.place != nil %}
+                  <p class="location">
+                    <i class="fa fa-map-marker"></i>
+                    {% if event.map_link %}
+                      <a href="{{ event.map_link }}" target="_blank" class="location-link">
+                        {{ event.place }}
+                        <i class="fa fa-external-link"></i>
+                      </a>
+                    {% else %}
+                      {{ event.place }}
+                    {% endif %}
+                  </p>
+                  {% endif %}
+                </div>
+                {% endif %}
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <!-- SPONSORS -->
+      <div class="section">
+        {% include patrocinadores.html sponsors=site.data.PLANCKS25.multiple.sponsors %}    
+      </div>
     </div>
   </div>
 </div>
