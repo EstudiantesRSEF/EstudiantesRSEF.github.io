@@ -1,8 +1,9 @@
 ---
 layout: plancks25
-title: PLANCKS Barcelona 2025
-hidden: true
+title: Sponsors - PLANCKS25
 permalink: /PLANCKS25/sponsors/
+description: "Big thank you to all our sponsors!"
+thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
 ---
 
 <div class="no-pad-top" id="index-page">

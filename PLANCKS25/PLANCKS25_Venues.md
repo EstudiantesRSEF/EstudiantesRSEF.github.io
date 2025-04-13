@@ -1,8 +1,9 @@
 ---
 layout: plancks25
-title: PLANCKS Barcelona 2025
-hidden: true
+title: Venues - PLANCKS25
 permalink: /PLANCKS25/Venue/
+description: "Find out where is PLANCKS25 taking place"
+thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
 ---
 
 <div class="no-pad-top" id="index-page">

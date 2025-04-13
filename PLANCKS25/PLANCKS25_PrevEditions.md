@@ -1,8 +1,9 @@
 ---
 layout: plancks25
-title: PLANCKS Barcelona 2025
-hidden: True
+title: Past Editions - PLANCKS25
 permalink: /PLANCKS25/pasteditions
+description: "Scroll through the past editions of PLANCKS!"
+thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
 ---
 
 <!-- Enlazamos el archivo CSS del carrusel -->

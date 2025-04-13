@@ -2,7 +2,7 @@
 layout: plancks25
 title: "PLANCKS Barcelona 2025"
 permalink: /PLANCKS25/
-description: "Discover the official webpage of PLANCKS 2025 in Barcelona"
+description: "Discover the official webpage of PLANCKS 2025 Barcelona"
 thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
 ---
 

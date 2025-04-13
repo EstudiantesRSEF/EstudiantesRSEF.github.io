@@ -1,8 +1,9 @@
 ---
 layout: plancks25
-title: PLANCKS Barcelona 2025
-hidden: True
+title: Worlwide Preliminaries - PLANCKS25
 permalink: /PLANCKS25/WorldwidePreliminaries/
+description: "Discover all the countries participating in PLANCKS25!"
+thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
 ---
 
 <link rel="stylesheet" href="/css/bubbles.css">

@@ -1,8 +1,9 @@
 ---
 layout: plancks25
-title:  OC Members
-hidden: true
+title:  OC Members - PLANCKS25
 permalink: /PLANCKS25/OC/
+description: "Find out who is behind PLANCKS25"
+thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
 ---
 
 <div class="no-pad-top" id="index-page">
