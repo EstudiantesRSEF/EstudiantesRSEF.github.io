@@ -1,0 +1,36 @@
+---
+layout: plancks25
+title: Documentation
+hidden: True
+permalink: /PLANCKS25/ActualEvent/
+---
+<div class="no-pad-top" id="index-page">
+  <div class="container">
+    <div class="section">
+        <img class="materialboxed" style="width:100%; padding-bottom: 8px" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
+        <h1>What's Happening Now</h1>
+        <div class="current-time" id="current-time"></div>
+        <div id="current-event-display"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Make the schedule data available to our script
+  window.scheduleData = {{ site.data.PLANCKS25.schedule | jsonify }};
+</script>
+
+<!-- Include our custom script -->
+<script src="{{ '/js/current-event-display.js' | relative_url }}"></script>
+
+<script>
+  // Update current time display
+  function updateCurrentTime() {
+    const now = new Date();
+    document.getElementById('current-time').textContent = now.toLocaleString();
+  }
+  
+  // Call it initially and then every second
+  updateCurrentTime();
+  setInterval(updateCurrentTime, 1000);
+</script>
