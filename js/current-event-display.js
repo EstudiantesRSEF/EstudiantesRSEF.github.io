@@ -49,71 +49,47 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   // Function to find current and next events
-  function findCurrentAndNextEvents() {
-    // Get the current date and time
-    const now = new Date(); // Use this in production
-    // const now = new Date("2023-05-01T16:30:00"); // For testing specific times
+  // Function to find current and next events
+function findCurrentAndNextEvents() {
+  // Get the current date and time
+  const now = new Date();
+  
+  const currentDayOfWeek = getDayOfWeek(now);
+  const currentFormattedDate = formatDate(now);
+  
+  // Add this: Parse the actual event date based on the day and date strings
+  function getEventDate(dayData) {
+    // Try to extract a year, month, and day from the date string
+    const dateStr = dayData.date;
+    const currentYear = now.getFullYear();
     
-    const currentDayOfWeek = getDayOfWeek(now);
-    const currentFormattedDate = formatDate(now);
-    
-    // Find the schedule for the current day
-    const todaySchedule = window.scheduleData.find(day => 
-      day.day.includes(currentDayOfWeek) || day.date.includes(currentFormattedDate)
-    );
-    
-    if (!todaySchedule) {
-      return { currentEvent: null, nextEvent: null, message: "No events scheduled for today" };
-    }
-    
-    let currentEvent = null;
-    let nextEvent = null;
-    
-    // Loop through events to find current and next events
-    for (let i = 0; i < todaySchedule.events.length; i++) {
-      const event = todaySchedule.events[i];
-      const { start, end } = parseTimeRange(event.hour, now);
-      
-      // Check if the current time is within this event's time range
-      if (now >= start && now <= end) {
-        currentEvent = event;
-      }
-      
-      // Check for the next event
-      if (now < start && (!nextEvent || start < parseTimeRange(nextEvent.hour, now).start)) {
-        nextEvent = event;
+    // Parse month name
+    let month;
+    const monthNames = ["January", "February", "March", "April", "May", "June", 
+                        "July", "August", "September", "October", "November", "December"];
+    for (let i = 0; i < monthNames.length; i++) {
+      if (dateStr.includes(monthNames[i])) {
+        month = i; // 0-based index
+        break;
       }
     }
     
-    // If no current event was found but we have a next event
-    if (!currentEvent && nextEvent) {
-      return { 
-        currentEvent: null, 
-        nextEvent, 
-        message: "No event is currently happening"
-      };
-    }
+    // Parse day number (remove any ordinal indicators like "st", "nd", "rd", "th")
+    const dayMatch = dateStr.match(/(\d+)(st|nd|rd|th)/);
+    const day = dayMatch ? parseInt(dayMatch[1]) : 1;
     
-    // If current event was found but no next event on the same day
-    if (currentEvent && !nextEvent) {
-      // Try to find the first event of the next day
-      const currentDayIndex = window.scheduleData.findIndex(day => 
-        day.day.includes(currentDayOfWeek) || day.date.includes(currentFormattedDate)
-      );
-      
-      if (currentDayIndex < window.scheduleData.length - 1) {
-        const nextDay = window.scheduleData[currentDayIndex + 1];
-        if (nextDay.events.length > 0) {
-          nextEvent = nextDay.events[0];
-          nextEvent.nextDay = true; // Mark as being on the next day
-          nextEvent.dayInfo = nextDay; // Store day info for display
-        }
-      }
-    }
-    
-    return { currentEvent, nextEvent, message: "Events found" };
+    // Create a proper date object for the event day
+    return new Date(currentYear, month, day);
   }
   
+  // Find the schedule for the current day - filter by actual date, not just day name
+  const todaySchedule = window.scheduleData.find(day => {
+    const eventDate = getEventDate(day);
+    return eventDate.getDate() === now.getDate() && 
+           eventDate.getMonth() === now.getMonth() && 
+           eventDate.getFullYear() === now.getFullYear();
+  });
+
   // Function to create an event card
   function createEventCard(event, isCurrentEvent = false) {
     if (!event) return "";
@@ -151,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function() {
         ` : ''}
       </div>
     `;
-  }
+  }}
   
   // Function to update the display
   function updateEventDisplay() {
