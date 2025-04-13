@@ -9,7 +9,7 @@ permalink: /PLANCKS25/
 <link rel="stylesheet" href="/css/carousel.css">
 
 <div class="no-pad-top" id="index-page">
-  <div class="container">
+  <div class="plancks25-container">
      <div class="plancks25-sidebar">
       <h3 class="sidebar-title">News!</h3>
       <ul>
