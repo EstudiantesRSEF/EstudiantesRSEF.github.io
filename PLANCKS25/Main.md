@@ -124,7 +124,24 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
         <li style="list-style-type: disc">Transportation between accommodation and venue (but not from and to the airport)</li>
         <li style="list-style-type: disc">Access to all scientific activities</li>
         <li style="list-style-type: disc">Social events and excursions</li>
-      </ul>      
+      </ul>
+
+        
+<!-- FAQ -->
+<div class="donation-box">
+  <h3>Support PLANCKS with a Donation!</h3>
+  <p>We greatly appreciate your support! You can donate any amount you wish, and if you'd like your name to be acknowledged, please send us the donation receipt via the contact form.</p>
+  <p>Donating also comes with tax benefits. To learn more, please visit the link below:</p>
+  <a href="https://rsef.playoffinformatica.com/preinscripcion/5/Donacion/" target="_blank" class="donation-link">
+    Learn more about tax benefits
+  </a>
+
+  <div class="donation-button-container">
+    <a href="https://rsef.playoffinformatica.com/preinscripcion/5/Donacion/" target="_blank" class="donation-button">
+      Make a Donation
+    </a>
+  </div>
+</div>
 <!-- FAQ -->
       <div class="section">
         <div class="row">
