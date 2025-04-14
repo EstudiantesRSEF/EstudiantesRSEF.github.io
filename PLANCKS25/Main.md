@@ -127,15 +127,12 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
       </ul>
 
         
-<!-- FAQ -->
+<!-- DONATION -->
+<h2>Donations</h2>
 <div class="donation-box">
   <h3>Support PLANCKS with a Donation!</h3>
   <p>We greatly appreciate your support! You can donate any amount you wish, and if you'd like your name to be acknowledged, please send us the donation receipt via the contact form.</p>
-  <p>Donating also comes with tax benefits. To learn more, please visit the link below:</p>
-  <a href="https://rsef.playoffinformatica.com/preinscripcion/5/Donacion/" target="_blank" class="donation-link">
-    Learn more about tax benefits
-  </a>
-
+  <p>Donating also comes with tax benefits. To learn more, you can check all the information under the form:</p>
   <div class="donation-button-container">
     <a href="https://rsef.playoffinformatica.com/preinscripcion/5/Donacion/" target="_blank" class="donation-button">
       Make a Donation
