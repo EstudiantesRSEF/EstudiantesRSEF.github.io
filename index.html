@@ -171,6 +171,7 @@ layout: default
         <div class="col s12 m12">
           <h3>Lo último del Blog</h3>
           <div class="blog-index">
+            <ul class="post-list">
             {% assign maxCountBlog = 3 %}
             {% assign countBlog = 0 %}
             {% for post in site.categories.blog %}
@@ -211,13 +212,19 @@ layout: default
                   <div class="entry-content">
                     {{ post.excerpt | strip_html }}
                   </div>
+                  <div class="row">
+                    <div class="right">
+                    <a class="btn waves-effect waves-light" href="{{ root_url }}{{ post.url }}" name="action">Continúa
+                      <i class="material-icons right">send</i>
+                    </a>
+                  </div>
                   <br>
                   </li>
                   <div class="divider">
                   </div>
               {% endif %}
             {% endfor %}
-            <div class="divider"></div>
+            </ul>
           </div>
         </div>
       </div>
