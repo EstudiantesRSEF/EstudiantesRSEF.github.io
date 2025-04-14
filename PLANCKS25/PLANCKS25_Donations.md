@@ -72,7 +72,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
   </div>
 </div>
     <div class="donation-image">
-  <img src="/img/eventos/2025-PLANCKS/PrelisDonaciones.png" alt="Donation Image" class="img-fluid">
+  <img src="/img/eventos/2025-PLANCKS/PrelisDonaciones.jpg" alt="Donation Image" class="img-fluid">
 </div>
       <!-- SPONSORS -->
       <div class="section">
