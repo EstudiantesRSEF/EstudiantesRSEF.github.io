@@ -179,7 +179,7 @@ layout: default
                 {% assign countBlog = countBlog | plus: 1 %}
                 <li>
                   <h2>
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="padding:10px">
                       {{ post.title }}
                     </a>
                     {% if post.date %}
@@ -213,7 +213,7 @@ layout: default
                     {{ post.excerpt | strip_html }}
                   </div>
                   <div class="row">
-                    <div class="right">
+                    <div class="right" style="margin-top: 10px; text-align: end;">
                     <a class="btn waves-effect waves-light" href="{{ root_url }}{{ post.url }}" name="action">Continúa
                       <i class="material-icons right">send</i>
                     </a>
