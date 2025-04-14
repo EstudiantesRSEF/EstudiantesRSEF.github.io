@@ -100,6 +100,12 @@ sponsors:
   link: "https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html"
   level: "5"
 
+- name: "Societat Catalana de Física"
+  section: "Collaborators"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/SocietatCatalanaFisica.png"
+  link: "https://scfis.iec.cat/"
+  level: "5"
+
 exams:
 - name: "Dublin 2024"
   img: "/img/eventos/2025-PLANCKS/PrevEditionsLogos/2024Dublin.png"
