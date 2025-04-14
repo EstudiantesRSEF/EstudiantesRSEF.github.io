@@ -173,12 +173,48 @@ layout: default
           <div class="blog-index">
             {% assign maxCountBlog = 3 %}
             {% assign countBlog = 0 %}
-            {% for post in site.categories['blog'] %}
+            {% for post in site.categories.blog %}
               {% if post.hidden != true and countBlog < maxCountBlog %}
                 {% assign countBlog = countBlog | plus: 1 %}
-                {% assign post = site.posts.first %}
-                {% assign content = post.excerpt %}
-                {% include post_detail.html %}
+                <li>
+                  <h2>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                      {{ post.title }}
+                    </a>
+                    {% if post.date %}
+                      <div class="chip">
+                        <span class="post-meta">
+                          {{ post.date | date: "%-d %b %Y" }}
+                        </span>
+                      </div>
+                    {% endif %}
+                    {% if post.author %}
+                      <div class="chip">
+                        <span class="post-meta">
+                          {{ post.author }}
+                        </span>
+                      </div>
+                    {% endif %}
+                    {% if post.categories %}
+                      {% for category in post.categories %}
+                        {% if category == 'blog' %}
+                          {% else %}
+                            <div class="chip">
+                              <span class="post-meta">
+                                {{ category }}
+                              </span>
+                            </div>
+                        {% endif %}
+                      {% endfor %}
+                    {% endif %}
+                  </h2>
+                  <div class="entry-content">
+                    {{ post.excerpt | strip_html }}
+                  </div>
+                  <br>
+                  </li>
+                  <div class="divider">
+                  </div>
               {% endif %}
             {% endfor %}
             <div class="divider"></div>
