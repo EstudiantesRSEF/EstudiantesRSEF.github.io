@@ -439,5 +439,11 @@ a.enef25-link {
 .donation-button:hover {
   background-color: #2ecc71;
 }
+.donation-image img {
+  width: 100%;    /* Hace que la imagen ocupe todo el ancho disponible */
+  height: auto;   /* Mantiene la relación de aspecto de la imagen */
+  border-radius: 8px;  /* Opcional, redondea las esquinas de la imagen */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Agrega sombra para dar un toque elegante */
+}
 
 
