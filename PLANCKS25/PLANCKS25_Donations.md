@@ -62,7 +62,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
 
 <div class="donation-box">
   <h3>Support PLANCKS with a Donation!</h3>
-  <p>We greatly appreciate your support! You can donate any amount you wish, and if you'd like your name to be acknowledged, please send us the donation receipt via the contact form.</p>
+  <p>We greatly appreciate your support! You can donate any amount you wish, and if you'd like your name to be acknowledged, please send us the donation receipt  at plancks25@rsef.es.</p>
   <p><b>IMPORTANT:</b> Please make sure to specify <b>PLANCKS25</b> in the donation concept to help us track your donation!</p>
   <p>Donating also comes with tax benefits. To learn more, you can check all the information under the form:</p>
   <div class="donation-button-container">
