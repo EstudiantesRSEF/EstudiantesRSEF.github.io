@@ -127,7 +127,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
       </ul>
 
         
-<!-- FAQ -->
+<!-- Donations -->
 <div class="donation-box">
   <h3>Support PLANCKS with a Donation!</h3>
   <p>We greatly appreciate your support! You can donate any amount you wish, and if you'd like your name to be acknowledged, please send us the donation receipt via the contact form.</p>
@@ -173,6 +173,26 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
                 <ul class="collection" style="margin:0">
                   <li class="collection-item"><div style="text-align: left;">
                     <p style="padding: 0px; text-align: left;">Accommodation before May 1 or after May 5 is not included in the registration and must be arranged by participants themselves. Staying at the official venue is not recommended, as it is outside Barcelona and far from public transportation. However, the Organizing Committee is happy to assist in finding a suitable accommodation in Barcelona for your extra days.</p>
+                  </div></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header"><strong>How do I know my team number?</strong></div>
+              <div class="collapsible-body">
+                <ul class="collection" style="margin:0">
+                  <li class="collection-item"><div style="text-align: left;">
+                    <p style="padding: 0px; text-align: left;">It is in the proof of payment form.</p>
+                  </div></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header"><strong>Is the optional night covered by the participation fee?</strong></div>
+              <div class="collapsible-body">
+                <ul class="collection" style="margin:0">
+                  <li class="collection-item"><div style="text-align: left;">
+                    <p style="padding: 0px; text-align: left;">Yes! Accommodation from May 1 until May 5 is included in the registration.</p>
                   </div></li>
                 </ul>
               </div>

@@ -106,6 +106,18 @@ sponsors:
   link: "https://scfis.iec.cat/"
   level: "5"
 
+- name: "EPS"
+  section: "Collaborators"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/EPS.png"
+  link: "https://www.eps.org/"
+  level: "5"
+
+- name: "IYQST"
+  section: "Collaborators"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/IYQST.svg"
+  link: "https://quantum2025.org/"
+  level: "5"
+
 exams:
 - name: "Dublin 2024"
   img: "/img/eventos/2025-PLANCKS/PrevEditionsLogos/2024Dublin.png"
