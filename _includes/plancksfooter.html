@@ -6,9 +6,9 @@
       {% assign grouped_sponsors = sorted_sponsors | group_by: "section" %}
       {% for group in grouped_sponsors %}
         {% assign first_sponsor = group.items | first %}
-        <div class="patrocinadores-container level-{{ first_sponsor.level }}">
+        <div class="colaboradores-container level">
           {% for sponsor in group.items %}
-            <div class="patrocinadores-item">
+            <div class="colaboradores-item">
               {% if sponsor.link %}
                 <a href="{{ sponsor.link }}" target="_blank" rel="noopener noreferrer">
                   <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}">
