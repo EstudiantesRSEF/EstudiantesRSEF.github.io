@@ -1,8 +1,8 @@
 ---
 layout: plancks25
-title: Sponsors - PLANCKS25
-permalink: /PLANCKS25/sponsors/
-description: "Big thank you to all our sponsors!"
+title: Partners - PLANCKS25
+permalink: /PLANCKS25/partners/
+description: "Big thank you to all our partners!"
 thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
 ---
 
