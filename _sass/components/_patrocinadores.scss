@@ -41,9 +41,6 @@
     object-fit: contain;
 }
 
-.patrocinadores-container.level-5 {
-  text-align: center;
-}
 .patrocinadores-container.level-5 img {
     height: 5vw;
     width: auto;
@@ -71,3 +68,32 @@
 .patrocinadores-title.level-5 {
     font-size: 1.3em;
 }
+
+
+// COLABORADORES (inside footer)
+.colaboradores-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1vw;
+  padding: 1vw;
+  margin-bottom: 2vw;
+  width: 100%;
+}
+
+.colaboradores-item {
+  flex: 1 1 150px;
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colaboradores-container.level img {
+  height: 5vw;
+  width: auto;
+  object-fit: contain;
+  display: inline-block;
+}
+
