@@ -20,9 +20,9 @@
   url: /PLANCKS25/WorldwidePreliminaries/
 
 - text: <strong>Get to know us!</strong>
-  url: /about/
-  slug: about
   subitems:
+    - text: GdeE RSEF
+      url: /about/
     - text: Organising Committee
       url: /PLANCKS25/OC/
 
