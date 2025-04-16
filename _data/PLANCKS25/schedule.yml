@@ -10,18 +10,18 @@
         place: "UB Hall (Josep Carner Building)"
         map_link: "https://goo.gl/maps/rmLt2kwt86K2"
         suptitle: 
-      - hour: "15:00 - 18:00"
-        title: "Optional Cultural Activities"
+      - hour: "15:00 - 20:00"
+        title: "Optional Cultural Activities / Free time at Barcelona"
         place: 
         suptitle: 
-      - hour: "19:00 - 21:00"
-        title: "Free time"
-        place: 
-        suptitle: 
-      - hour: "21:00 - 22:00"
+      - hour: "20:00 - 20:30"
         title: "Bus to Tiana"
         place: 
         suptitle: 
+      - hour: "20:30 - 22:00"
+        title: "Pizza Time"
+        place: 
+        suptitle: "Dinner by Telepizza"
         
 - day: "Friday"
   date: "May 2nd"
@@ -38,16 +38,16 @@
         title: "Welcome and Registration"
         place:
         suptitle: 
-      - hour: "10:00 - 14:00"
+      - hour: "10:00 - 13:00"
         title: "Lab Tour"
         place:
-        suptitle: "ALBA / ICFO / Qilimanjaro"
-      - hour: "14:00 - 15:00"
-        title: "Lunch"
+        suptitle: "ALBA / ICFO / Qilimanjaro / BSC"
+      - hour: "13:00 - 14:00"
+        title: "Bus to CosmoCaixa"
         place:
         suptitle:
-      - hour: "15:00 - 16:00"
-        title: "Bus to CosmoCaixa"
+      - hour: "14:00 - 16:00"
+        title: "Lunch by Tort"
         place:
         suptitle:
       - hour: "16:00 - 17:30"
@@ -56,7 +56,7 @@
         map_link: "https://maps.app.goo.gl/BAPXEHxN6cL4rVQN7"
         suptitle:
       - hour: "17:30 - 20:00"
-        title: "Talk Anne L'Huillier"
+        title: "Talk by Anne L'Huillier"
         place: "Auditori CosmoCaixa"
         map_link: "https://maps.app.goo.gl/BAPXEHxN6cL4rVQN7"
         suptitle: 
@@ -127,40 +127,42 @@
         title: "Breakfast"
         place:
         suptitle:
-      - hour: "09:00 - 11:00"
+      - hour: "9:00 - 10:00"
+        title: "Bus to UPC"
+        place:
+        suptitle: 
+      - hour: "10:00 - 12:00"
         title: "Talk / Workshop"
-        place:
+        place: "ETSAB - Escola Tècnica Superior d'Arquitectura de Barcelona"
         suptitle: 
-      - hour: "11:00 - 12:00"
-        title: "Bus to UB"
-        place:
-        suptitle: 
+        map_link: "https://maps.app.goo.gl/RV1QYBMue67Rod22A"
       - hour: "12:00 - 14:00"
-        title: "Talk Barbara Buades"
+        title: "Talk by Barbara Buades"
         place:
         suptitle:
       - hour: "14:00 - 16:00"
-        title: "Lunch & Posters Session"
+        title: "Pizza & Posters Session"
         place: 
-        suptitle: 
+        suptitle: "Lunch by Telepizza"
       - hour: "16:00 - 17:00"
         title: "Bus to CosmoCaixa"
         place: 
         suptitle: 
-      - hour: "17:00 - 20:00"
+      - hour: "17:00 - 19:00"
         title: "Panel Discussion"
         place: "Auditori CosmoCaixa"
         map_link: "https://maps.app.goo.gl/BAPXEHxN6cL4rVQN7"
         suptitle: "Anna Kubasiak, Alexandre Dauphin, Thibault Fredon"
-      - hour: "20:00 - 22:00"
+      - hour: "19:00 - 21:00"
         title: "VIP Dinner"
         place:
         suptitle:
-      - hour: "22:00 - 00:00"
+      - hour: "21:00 - 23:00"
         title: "CosmoNits"
-        place: 
+        place: "Auditori CosmoCaixa"
+        map_link: "https://maps.app.goo.gl/BAPXEHxN6cL4rVQN7"
         suptitle:  
-      - hour: "00:00 - 01:00"
+      - hour: "23:00 - 00:00"
         title: "Bus to Tiana"
         place: 
         suptitle: 
@@ -173,24 +175,15 @@
         place:
         suptitle:
       - hour: "09:00 - 10:00"
-        title: "Bus to Barcelona"
+        title: "Bus to UPC"
         suptitle: 
-      - hour: "10:00 - 11:00"
+      - hour: "10:00 - 13:00"
         title: "Career Fair"
-        place: "Faculty of Chem&Phys, UB"
-        map_link: "https://maps.app.goo.gl/BaKFUUSftxj3wQDc7"
-        suptitle: 
-      - hour: "10:00 - 11:00"
-        title: "Talk"
-        place: 
+        place: "Faculty of Maths&Statistics, UPC"
+        map_link: "https://maps.app.goo.gl/TzwkxQM7GZC5hQcFA"
         suptitle: 
       - hour: "13:00 - 15:00"
-        title: "Closing Talk"
+        title: "Closing & Awards Ceremony"
         place: "Main Hall, Faculty of Biology, UB"
-        map_link: "https://maps.app.goo.gl/5m4ML2hmnGCGZ4YTA"
-        suptitle: 
-      - hour: "15:00 - 16:00"
-        title: "Lunch"
-        place: "UB"
         map_link: "https://maps.app.goo.gl/5m4ML2hmnGCGZ4YTA"
         suptitle: 
