@@ -410,3 +410,85 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
     }
   }
 }
+
+// SPONSORS
+
+.sponsor-flip-wrapper {
+  perspective: 1000px;
+  width: 300px;
+  height: 180px;
+  margin: 1rem;
+}
+
+.sponsor-card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+
+  &.flipped {
+    transform: rotateY(180deg);
+  }
+}
+
+.sponsor-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+}
+
+.sponsor-front {
+  background-color: #352F71;
+  flex-direction: column;
+
+  img {
+    max-height: 60px;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    color: white;
+    font-size: 1.1rem;
+    margin: 0;
+  }
+}
+
+.sponsor-back {
+  background-color: #00a79d;
+  color: #ffffff;
+  transform: rotateY(180deg);
+  flex-direction: column;
+  justify-content: space-between;
+
+  p {
+    font-size: 0.95rem;
+    margin: 0.5rem 0;
+  }
+
+  a.button {
+    margin-top: 1rem;
+    background-color: #ffffff;
+    color: #00a79d;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #e0f7f6;
+    }
+  }
+}
+
