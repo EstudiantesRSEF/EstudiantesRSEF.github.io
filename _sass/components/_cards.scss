@@ -413,6 +413,29 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
 
 // SPONSORS
 
+.sponsor-parent {
+  display: grid;
+  grid-template-columns: auto; 
+  gap: 20px; 
+  margin: 0 auto; 
+  padding: 10px; 
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  /* border: 2px dashed red; for debugging */
+}
+
+@media (min-width: 768px) {
+  .bubble-parent {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px; 
+    width: 100%;
+    justify-content: center;
+    align-content: start;
+  }
+} 
+
 .sponsor-flip-wrapper {
   perspective: 1000px;
   width: clamp(200px, 40vw, 500px);
