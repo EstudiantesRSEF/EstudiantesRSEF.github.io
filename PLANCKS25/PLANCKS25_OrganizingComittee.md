@@ -25,7 +25,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
         Social Media,
         IT,
         Academic,
-        Finances
+        Funding
       " | split: "," %}
       {% for rol in rolesOrder %}
         {% assign currentRol = rol | strip %}
