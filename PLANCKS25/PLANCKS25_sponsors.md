@@ -21,10 +21,12 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
           </div>
           <!-- Back side -->
           <div class="sponsor-face sponsor-back">
-            <p>{{sponsor.info}}</p>
-            <a class="button" href="{{sponsor.web}}" target="_blank" rel="noopener noreferrer">
-              Visit Website
-            </a>
+            <div class="back-scroll">
+              <p>{{sponsor.info}}</p>
+              <a class="button" href="{{sponsor.web}}" target="_blank" rel="noopener noreferrer">
+                Visit Website
+              </a>
+            </div>
           </div>
         </div>
       </div>
