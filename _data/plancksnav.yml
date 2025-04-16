@@ -6,8 +6,8 @@
       url: /PLANCKS25/Venue/
     - text: <strong> Speakers </strong>
       url: /PLANCKS25/Speakers/
-    - text: <strong> Sponsors </strong>
-      url: /PLANCKS25/sponsors/
+    - text: <strong> Partners </strong>
+      url: /PLANCKS25/partners/
 
 - text: <strong> Documentation </strong>
   subitems:
