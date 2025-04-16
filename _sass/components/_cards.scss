@@ -415,9 +415,14 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
 
 .sponsor-flip-wrapper {
   perspective: 1000px;
-  width: 300px;
-  height: 180px;
+  width: clamp(200px, 30vw, 320px);
+  aspect-ratio: 5 / 3;
   margin: 1rem;
+}
+@media (max-width: 500px) {
+  .sponsor-flip-wrapper {
+    width: 90vw;
+  }
 }
 
 .sponsor-card {
