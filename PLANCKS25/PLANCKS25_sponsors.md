@@ -12,7 +12,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
 <!-- BANNER -->
       <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
 <!-- FLIPCARDS -->
-      {% for sponsor in sponsors_info %}
+      {% for sponsor in site.data.PLANCKS25.sponsors_info %}
       <div class="sponsor-flip-wrapper" onclick="this.querySelector('.sponsor-card').classList.toggle('flipped')">
         <div class="sponsor-card">
           <!-- Front side -->
@@ -28,6 +28,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
           </div>
         </div>
       </div>
+      {% endfor %}
 <!-- SPONSORS -->	  
     </div>  
     <div class="section">
