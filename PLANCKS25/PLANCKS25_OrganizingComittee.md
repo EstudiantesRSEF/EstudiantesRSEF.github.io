@@ -29,7 +29,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
       " | split: "," %}
       {% for rol in rolesOrder %}
         {% assign currentRol = rol | strip %}
-        {% assign personsForRole = site.data.OCPlancks2025.personas | where: "rol", currentRol %}
+        {% assign personsForRole = site.data.PLANCKS25.OC.personas | where: "rol", currentRol %}
         <!-- Solo mostramos la subsección si hay personas con este rol -->
         {% if personsForRole.size > 0 %}
           <h4>{{ currentRol }}</h4>

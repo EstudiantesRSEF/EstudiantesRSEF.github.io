@@ -78,22 +78,22 @@ personas:
     img: "/img/junta/erik_putero.jpeg"
 
   - nombre: "Guillermo Muñoz"
-    rol: "Finances"
+    rol: "Funding"
     img: "/img/junta/GuillermoMuñoz.jpg"
 
   - nombre: "Sonsoles Riscos"
-    rol: "Finances"
+    rol: "Funding"
     img: "/img/junta/SonsolesRiscos.jpg"
 
   - nombre: "Manuel Peralta"
-    rol: "Finances"
+    rol: "Funding"
     img: "/img/eventos/2025-PLANCKS/OC/ManuelPeraltaFuentes.jpg"
 
   - nombre: "Michel Verdú"
-    rol: "Finances"
+    rol: "Funding"
     img: "/img/eventos/2025-PLANCKS/OC/MichelVerduAlvarez.jpg"
 
   - nombre: "Silvia Rodríguez"
-    rol: "Finances"
+    rol: "Funding"
     img: "/img/eventos/2025-PLANCKS/OC/SilviaRodriguezdelAmo.jpg"
   
