@@ -1,25 +1,22 @@
 <meta charset="UTF-8">
 <footer class="page-footer" style="background-color: #352F71;">
-  <div class="patrocinadores-container">
-    {% for sponsor in site.data.PLANCKS25.collaborators %}
-      <div class="patrocinadores-item">
-        {% if sponsor.link %}
-          <a href="{{ sponsor.link }}" target="_blank" rel="noopener noreferrer">
-            <img 
-              class="sponsor-logo"
-              src="{{ sponsor.logo }}" 
-              alt="{{ sponsor.name }}"
-              style="width: {{ sponsor.width | default: '150px' }};"
-            >
-          </a>
-        {% else %}
-          <img 
-            class="sponsor-logo"
-            src="{{ sponsor.logo }}" 
-            alt="{{ sponsor.name }}"
-            style="width: {{ sponsor.width | default: '150px' }};"
-          >
-        {% endif %}
+  <div class="section">
+    {% assign sorted_sponsors = include.site.data.PLANCKS25.collaborators | sort: "level" %}
+    {% assign grouped_sponsors = sorted_sponsors | group_by: "section" %}
+    {% for group in grouped_sponsors %}
+      {% assign first_sponsor = group.items | first %}
+      <div class="patrocinadores-container level-{{ first_sponsor.level }}">
+        {% for sponsor in group.items %}
+          <div class="patrocinadores-item">
+            {% if sponsor.link %}
+              <a href="{{ sponsor.link }}" target="_blank" rel="noopener noreferrer">
+                <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}">
+              </a>
+            {% else %}
+              <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}">
+            {% endif %}
+          </div>
+        {% endfor %}
       </div>
     {% endfor %}
   </div>
