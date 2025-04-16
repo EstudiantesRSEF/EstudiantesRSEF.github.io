@@ -218,11 +218,13 @@
   .navbar-brand {
     line-height: 1.1em;
     text-align: left;
+    align-items: center;
     max-width: calc(100% - (clamp(60px, 20vw, 100px) + 40px));
 
     strong {
       display: block; // Allow proper text wrapping
       text-align: left;
+      align-items: center;
       padding-left: 4vw;
       line-height: 2rem;
       font-size: 2rem;
