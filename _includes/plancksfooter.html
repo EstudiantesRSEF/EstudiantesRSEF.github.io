@@ -1,7 +1,7 @@
 <meta charset="UTF-8">
 <footer class="page-footer" style="background-color: #352F71;">
-  <div class="row" style="display: flex; justify-content: space-between;">
-    <div class="section">
+  <div class="container">
+    <div class="row" style="display: flex; justify-content: space-between;">
       {% assign sorted_sponsors = site.data.PLANCKS25.collaborators | sort: "level" %}
       {% assign grouped_sponsors = sorted_sponsors | group_by: "section" %}
       {% for group in grouped_sponsors %}
