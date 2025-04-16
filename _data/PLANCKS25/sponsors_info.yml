@@ -1,11 +1,11 @@
 - name: "IUPAP"
   logo: "/img/eventos/2025-PLANCKS/sponsors/IUPAP.png"
-  web: "https://iupap.org/"
+  web: "https://iupap.org"
   info: "IUPAP is the only global organization covering all areas of physics. Its mission is to assist in the worldwide development of physics, to foster cooperation in physics and to help in the applications of physics towards solving problems of concern to humanity."
   
 - name: "Quantum Spain"
   logo: "/img/eventos/2025-PLANCKS/sponsors/QuantumSpain_negativo.png"
-  web: "https://quantumspain-project.es/"
+  web: "https://quantumspain-project.es"
   info: "Quantum Spain aims to promote and fund a comprehensive and competitive quantum computing infrastructure in Spain. This project seeks to equip the current national quantum ecosystem with the essential tools to develop a robust scientific and technological foundation around quantum computing and its applications in Artificial Intelligence."
   
 - name: "Catalonia Quantum Academy"
