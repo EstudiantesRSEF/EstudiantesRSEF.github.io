@@ -17,7 +17,6 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
           <!-- Front side -->
           <div class="sponsor-face sponsor-front">
             <img src="/img/eventos/2025-PLANCKS/sponsors/IUPAP.png" alt="IUPAP">
-            <h3>IUPAP</h3>
           </div>
           <!-- Back side -->
           <div class="sponsor-face sponsor-back">
