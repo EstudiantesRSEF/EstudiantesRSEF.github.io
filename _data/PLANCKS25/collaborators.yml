@@ -14,14 +14,14 @@
 
 - name: "EPS"
   section: "Collaborators"
-  logo: "/img/eventos/2025-PLANCKS/sponsors/EPS.png"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/EPS_negativo.png"
   link: "https://www.eps.org/"
   width: "20%"
   level: "5"
 
 - name: "IYQST"
   section: "Collaborators"
-  logo: "/img/eventos/2025-PLANCKS/sponsors/IYQST.svg"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/IYQST_negativo.png"
   link: "https://quantum2025.org/"
   width: "20%"
   level: "5"
