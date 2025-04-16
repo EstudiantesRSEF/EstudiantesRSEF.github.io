@@ -438,7 +438,7 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
 
 .sponsor-flip-wrapper {
   perspective: 1000px;
-  width: clamp(200px, 40vw, 500px);
+  width: clamp(200px, 25vw, 500px);
   aspect-ratio: 5 / 3;
   margin: 1rem auto;
 }
