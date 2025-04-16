@@ -470,7 +470,15 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
   color: #ffffff;
   transform: rotateY(180deg);
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.back-scroll {
+  padding: 1rem;
+  overflow-y: auto;
+  max-height: 100%; // key for scrollability
+  width: 100%;
 
   p {
     font-size: 0.95rem;
@@ -485,6 +493,7 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
     padding: 0.5rem 1rem;
     border-radius: 8px;
     font-weight: bold;
+    display: inline-block;
     transition: background-color 0.3s ease;
 
     &:hover {
@@ -492,4 +501,3 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
     }
   }
 }
-
