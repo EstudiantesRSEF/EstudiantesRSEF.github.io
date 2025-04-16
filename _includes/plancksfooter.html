@@ -1,5 +1,18 @@
 <meta charset="UTF-8">
 <footer class="page-footer" style="background-color: #352F71;">
+  <div class="patrocinadores-container">
+    {% for sponsor in site.data.PLANCKS25.collaborators %}
+      <div class="patrocinadores-item">
+        {% if sponsor.link %}
+          <a href="{{ sponsor.link }}" target="_blank" rel="noopener noreferrer">
+            <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}">
+          </a>
+        {% else %}
+          <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}">
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
   <div class="container">
     <div class="row" style="display: flex; justify-content: space-between;">
       <div class="col l4 s12" style="text-align: left;">
