@@ -1,3 +1,10 @@
+- name: "RSEF"
+  section: "Collaborators"
+  logo: "/img/logos/gdee-rsef-white-background.png"
+  link: "https://rsef.es/"
+  width: "20%"
+  level: "5"
+
 - name: "UAB"
   section: "Collaborators"
   logo: "/img/eventos/2025-PLANCKS/sponsors/UAB_negativo.png"
