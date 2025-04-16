@@ -11,6 +11,23 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
     <div class="section">
 <!-- BANNER -->
       <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
+<!-- FLIPCARDS -->
+      <div class="sponsor-flip-wrapper" onclick="this.querySelector('.sponsor-card').classList.toggle('flipped')">
+        <div class="sponsor-card">
+          <!-- Front side -->
+          <div class="sponsor-face sponsor-front">
+            <img src="img/eventos/2025-PLANCKS/sponsors/IUPAP.png" alt="IUPAP">
+            <h3>IUPAP</h3>
+          </div>
+          <!-- Back side -->
+          <div class="sponsor-face sponsor-back">
+            <p>IUPAP is the only global organization covering all areas of physics. It contributes through physics to general international understanding. Its mission is to assist in the worldwide development of physics, to foster cooperation in physics and to help in                 the applications of physics towards solving problems of concern to humanity.</p>
+            <a class="button" href="[https://sponsor-website.com](https://iupap.org/)" target="_blank" rel="noopener noreferrer">
+              Visit Website
+            </a>
+          </div>
+        </div>
+      </div>
 <!-- SPONSORS -->	  
     </div>  
     <div class="section">
