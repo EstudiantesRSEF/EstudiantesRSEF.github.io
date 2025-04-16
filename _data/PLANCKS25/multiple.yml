@@ -1,13 +1,17 @@
 #All the yml files that are small for PLANCKS25, add to this file
 carousel_images:
-- src: "/img/eventos/2025-PLANCKS/FotosPrelis/prelis1.jpg"
-  alt: "Prelis1"
-- src: "/img/eventos/2025-PLANCKS/FotosPrelis/prelis2.jpg"
-  alt: "Prelis2"
-- src: "/img/eventos/2025-PLANCKS/FotosPrelis/prelis3.jpg"
-  alt: "Prelis3"
-- src: "/img/eventos/2025-PLANCKS/FotosPrelis/prelis4.jpeg"
-  alt: "Prelis4"
+- src: "/img/eventos/2025-PLANCKS/Carrousel/Carrusel_01.jpg"
+  alt: "Carrusel_01"
+- src: "/img/eventos/2025-PLANCKS/Carrousel/Carrusel_02.HEIC"
+  alt: "Carrusel_02"
+- src: "/img/eventos/2025-PLANCKS/Carrousel/Carrusel_03.png"
+  alt: "Carrusel_03"
+- src: "/img/eventos/2025-PLANCKS/Carrousel/Carrusel_04.png"
+  alt: "Carrusel_04"
+- src: "/img/eventos/2025-PLANCKS/Carrousel/Carrusel_05.png"
+  alt: "Carrusel_05"
+- src: "/img/eventos/2025-PLANCKS/Carrousel/Carrusel_06.png"
+  alt: "Carrusel_06"
 
 sponsors:
 - name: "GdeE"
