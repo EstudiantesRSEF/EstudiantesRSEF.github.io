@@ -19,6 +19,12 @@ personas:
     rol: "Local Logistics"
     img: "/img/junta/CarlaCaroVillanoba.jfif"
 
+  - nombre: "David Doblas"
+    rol: "Local Logistics"
+    img: "/img/eventos/2025-PLANCKS/OC/DavidDoblasHernandez.png"
+
+#
+
   - nombre: "Juan Lorenzo"
     rol: "Scientific Program"
     img: "/img/junta/JuanLorenzoCampos.jpg"
@@ -26,6 +32,10 @@ personas:
   - nombre: "Joan Llobera"
     rol: "Participants Coordination"
     img: "/img/junta/JoanLlobera.jpg"
+
+  - nombre: "Irene Carrión"
+    rol: "Participants Coordination"
+    img: "/img/junta/Irene Carrión López.jpg"
 
   - nombre: "Miguel Carrasco"
     rol: "Scientific Program"
@@ -38,6 +48,10 @@ personas:
   - nombre: "Misael Malqui"
     rol: "Public Relations"
     img: "/img/junta/MisaelSamirMalquiCruz.jpg"
+
+  - nombre: "Javier Rodríguez"
+    rol: "Public Relations"
+    img: "/img/eventos/2025-PLANCKS/OC/JavierRodriguezJimenez.jpg"
 
   - nombre: "José Daniel Randazzo"
     rol: "Social Media"
@@ -70,4 +84,16 @@ personas:
   - nombre: "Sonsoles Riscos"
     rol: "Finances"
     img: "/img/junta/SonsolesRiscos.jpg"
+
+  - nombre: "Manuel Peralta"
+    rol: "Finances"
+    img: "/img/eventos/2025-PLANCKS/OC/ManuelPeraltaFuentes.jpg"
+
+  - nombre: "Michel Verdú"
+    rol: "Finances"
+    img: "/img/eventos/2025-PLANCKS/OC/MichelVerduAlvarez.jpg"
+
+  - nombre: "Silvia Rodríguez"
+    rol: "Finances"
+    img: "/img/eventos/2025-PLANCKS/OC/SilviaRodriguezdelAmo.jpg"
   
