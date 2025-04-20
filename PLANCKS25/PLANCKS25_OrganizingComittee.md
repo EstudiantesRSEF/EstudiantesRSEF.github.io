@@ -45,13 +45,12 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
                       margin: 0;">            
             <!-- Recorremos todas las personas de este rol -->
             {% for persona in personsForRole %}
+            {% assign link_url = persona.linkedin | default: '#' %}
+            <a href="{{ link_url }}" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
               <div style="width: 250px; margin: 10px;">
                 <ul class="collection" style="width: 100%;">
-                  <li class="collection-item" style="padding: 15px; text-align: center;">
-                    <div style="display: flex; 
-                                flex-direction: column; 
-                                align-items: center;">                      
-                      <!-- Imagen circular -->
+                  <li class="collection-item hoverable" style="padding: 15px; text-align: center; cursor: pointer;">
+                    <div style="display: flex; flex-direction: column; align-items: center;">
                       {% if persona.img %}
                         <img 
                           src="{{ persona.img }}" 
@@ -63,8 +62,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
                             object-fit: cover; 
                             margin-bottom: 10px;
                           ">
-                      {% endif %}                      
-                      <!-- Nombre y rol -->
+                      {% endif %}
                       <span style="font-weight: 600;">
                         {{ persona.nombre }}
                       </span>
@@ -75,6 +73,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
                   </li>
                 </ul>
               </div>
+            </a>
             {% endfor %}
           </div>
         {% endif %}
