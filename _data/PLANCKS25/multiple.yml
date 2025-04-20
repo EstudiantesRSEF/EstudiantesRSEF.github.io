@@ -129,6 +129,11 @@ news:
   image: "/img/eventos/2025-PLANCKS/news/LaVanguardia.jpg"
   url: "https://www.elnortedecastilla.es/valladolid/cuatro-alumnos-uva-elite-mundial-fisica-20250413082501-nt.html"
 
+- outlet: "3cat"
+  text: "La UAB reunirà els millors estudiants de física del món..."
+  image: "/img/eventos/2025-PLANCKS/news/3cat.jpg"
+  url: "https://www.3cat.cat/324/la-uab-reunira-els-millors-estudiants-de-fisica-del-mon-en-una-competicio-internacional/noticia/3347030/"
+
 - outlet: "UAB Barcelona"
   text: "Celebració de les proves Preliminars de Plancks 2025 de la UAB"
   image: "/img/eventos/2025-PLANCKS/news/Prelis_UAB.jpg"
