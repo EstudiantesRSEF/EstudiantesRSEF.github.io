@@ -2,102 +2,126 @@ personas:
   - nombre: "Manu Porrón"
     rol: "President"
     img: "/img/junta/ManuelPorron.jpg"
+    linkedin: "https://www.linkedin.com/in/manuelporron/"
 
   - nombre: "Eloi Casalé"
     rol: "Vicepresident"
     img: "/img/junta/EloiCasaleCabanes.jpg"
+    linkedin: "https://www.linkedin.com/in/eloi-casal%C3%A9-cabanes-497468271/"
 
   - nombre: "Adrián Marín"
     rol: "Design"
     img: "/img/junta/AdrianMarinBoyero.jpg"
+    linkedin: "https://www.linkedin.com/in/adrian-marin-boyero/"
 
   - nombre: "Elena Martínez"
     rol: "Local Logistics"
     img: "/img/junta/ElenaMartinez.jpg"
+    linkedin: "https://www.linkedin.com/in/elena-mart%C3%ADnez-barcel%C3%B3-021619243/"
 
   - nombre: "Carla Caro"
     rol: "Local Logistics"
     img: "/img/junta/CarlaCaroVillanoba.jfif"
+    linkedin: "https://www.linkedin.com/in/carla-caro-villanova-47b7b51a1/"
 
   - nombre: "David Doblas"
     rol: "Local Logistics"
     img: "/img/eventos/2025-PLANCKS/OC/DavidDoblasHernandez.png"
+# No Linkedin
 
   - nombre: "Maia Fuentes"
     rol: "Local Logistics"
     img: "/img/eventos/2025-PLANCKS/OC/MaiaFuentes.jpg"
+# No Linkedin
 
 #
 
   - nombre: "Juan Lorenzo"
     rol: "Scientific Program"
     img: "/img/junta/JuanLorenzoCampos.jpg"
+    linkedin: "https://www.linkedin.com/in/juan-lorenzo-campos-3b10ab252/"
 
   - nombre: "Joan Llobera"
     rol: "Participants Coordination"
     img: "/img/junta/JoanLlobera.jpg"
+    linkedin: "https://www.linkedin.com/in/joan-llobera-querol/"
 
   - nombre: "Irene Carrión"
     rol: "Participants Coordination"
     img: "/img/junta/Irene Carrión López.jpg"
+    linkedin: "https://www.linkedin.com/in/irenecarrionlopez/"
 
   - nombre: "Miguel Carrasco"
     rol: "Scientific Program"
     img: "/img/junta/MiguelCarrasco.jpg"
+    linkedin: "https://www.linkedin.com/in/miguel-carrasco-arango-914871224/"
 
   - nombre: "Mario Martínez"
     rol: "Public Relations"
     img: "/img/junta/MarioMartinez.jpg"
+    linkedin: "https://www.linkedin.com/in/mariomartinezan/"
 
   - nombre: "Misael Malqui"
     rol: "Public Relations"
     img: "/img/junta/MisaelSamirMalquiCruz.jpg"
+    linkedin: "https://www.linkedin.com/in/misael-samir-malqui-cruz-538a8a216/"
 
   - nombre: "Javier Rodríguez"
     rol: "Public Relations"
     img: "/img/eventos/2025-PLANCKS/OC/JavierRodriguezJimenez.jpg"
+    linkedin: "https://www.linkedin.com/in/javier-rodr%C3%ADguez-jim%C3%A9nez/"
 
   - nombre: "José Daniel Randazzo"
     rol: "Social Media"
     img: "/img/junta/JoseRandazzo.jpg"
+    linkedin: "https://www.linkedin.com/in/jos%C3%A9-daniel-randazzo-543752306/"
 
   - nombre: "Érika Dengra"
     rol: "Social Media"
     img: "/img/junta/ErikaDengra.jpg"
+    linkedin: "https://www.linkedin.com/in/%C3%A9rika-luc%C3%ADa-dengra-blanco-96738517b/"
 
   - nombre: "Miguel Durán"
     rol: "IT"
     img: "/img/junta/MiguelDuranVera.jpg"
+    linkedin: "https://www.linkedin.com/in/miguelduranvera/"
 
   - nombre: "Iván Villar"
     rol: "IT"
     img: "/img/junta/IvanVillarNaredo.jpg"
+    linkedin: "https://www.linkedin.com/in/ivan-villar-naredo/"
 
   - nombre: "Miguel Álvarez"
     rol: "IT"
     img: "/img/junta/MiguelAlvarezHernanz.jpg"
+    linkedin: "https://www.linkedin.com/in/miguel-alvarez-hernanz/"
 
   - nombre: "Eric Jiménez"
     rol: "Academic"
     img: "/img/junta/erik_putero.jpeg"
+    linkedin: "https://www.linkedin.com/in/eric-jim%C3%A9nez-zurera-b90049287/"
 
   - nombre: "Guillermo Muñoz"
     rol: "Funding"
     img: "/img/junta/GuillermoMuñoz.jpg"
+    linkedin: "https://www.linkedin.com/in/guillermomunozhernandez146/"
 
   - nombre: "Sonsoles Riscos"
     rol: "Funding"
     img: "/img/junta/SonsolesRiscos.jpg"
+    linkedin: "https://www.linkedin.com/in/sonsoles-riscos-mart%C3%ADnez-615766198/"
 
   - nombre: "Manuel Peralta"
     rol: "Funding"
     img: "/img/eventos/2025-PLANCKS/OC/ManuelPeraltaFuentes.jpg"
+    linkedin: "https://www.linkedin.com/in/mperaltaf/"
 
   - nombre: "Michel Verdú"
     rol: "Funding"
     img: "/img/eventos/2025-PLANCKS/OC/MichelVerduAlvarez.jpg"
+    linkedin: "https://www.linkedin.com/in/m%C3%ADchel-verd%C3%BA-%C3%A1lvarez-b5a912240/"
 
   - nombre: "Silvia Rodríguez"
     rol: "Funding"
     img: "/img/eventos/2025-PLANCKS/OC/SilviaRodriguezdelAmo.jpg"
-  
+    linkedin: "https://www.linkedin.com/in/silvia-rodr%C3%ADguez-del-amo-6649a2285/"  
