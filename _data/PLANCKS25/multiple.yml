@@ -134,7 +134,7 @@ news:
   image: "/img/eventos/2025-PLANCKS/news/Prelis_UAB.jpg"
   url: "https://www.uab.cat/web/detall-de-noticia/celebracio-de-les-proves-preliminars-de-plancks-2025-de-la-uab-1345722997310.html?noticiaid=1345947547474"
 
-- outlet: "UAB Barcelona"
-  text: "Los mejores estudiantes de física del mundo..."
-  image: "/img/eventos/2025-PLANCKS/news/UAB_news.png"
-  url: "https://www.uab.cat/es/fisica/noticias/20250311/notimp110325vanguardiaplanck2025"
+#- outlet: "UAB Barcelona"
+#  text: "Los mejores estudiantes de física del mundo..."
+#  image: "/img/eventos/2025-PLANCKS/news/UAB_news.png"
+#  url: "https://www.uab.cat/es/fisica/noticias/20250311/notimp110325vanguardiaplanck2025"
