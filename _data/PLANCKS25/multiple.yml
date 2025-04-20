@@ -120,11 +120,21 @@ exams:
 
 news:
 - outlet: "La Vanguardia"
-  text: "Los mejores estudiantes de física del mundo ..."
+  text: "Los mejores estudiantes de física del mundo..."
   image: "/img/eventos/2025-PLANCKS/news/PLANCKS25_LaVanguardia.jpeg"
   url: "https://www.lavanguardia.com/ciencia/20250311/10457336/mejores-alumnos-fisica-mundo-reuniran-mayo-barcelona.html"
 
 - outlet: "El Norte de Castilla"
-  text: "Cuatro Alumnos de la UVa ..."
+  text: "Cuatro Alumnos de la UVa..."
   image: "/img/eventos/2025-PLANCKS/news/LaVanguardia.jpg"
   url: "https://www.elnortedecastilla.es/valladolid/cuatro-alumnos-uva-elite-mundial-fisica-20250413082501-nt.html"
+
+- outlet: "UAB Barcelona"
+  text: "Celebració de les proves Preliminars de Plancks 2025 de la UAB"
+  image: "/img/eventos/2025-PLANCKS/news/Prelis_UAB.jpg"
+  url: "https://www.uab.cat/web/detall-de-noticia/celebracio-de-les-proves-preliminars-de-plancks-2025-de-la-uab-1345722997310.html?noticiaid=1345947547474"
+
+- outlet: "UAB Barcelona"
+  text: "Los mejores estudiantes de física del mundo..."
+  image: "/img/eventos/2025-PLANCKS/news/UAB_news.png"
+  url: "https://www.uab.cat/es/fisica/noticias/20250311/notimp110325vanguardiaplanck2025"
