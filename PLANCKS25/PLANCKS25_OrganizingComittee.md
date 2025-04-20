@@ -46,10 +46,14 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
             <!-- Recorremos todas las personas de este rol -->
             {% for persona in personsForRole %}
             {% assign link_url = persona.linkedin | default: '#' %}
-            <a href="{{ link_url }}" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
-              <div style="width: 250px; margin: 10px;">
+            <div style="width: 250px; margin: 10px;">
+              <a href="{{ persona.linkedin | default: '#' }}" 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 style="display: block; text-decoration: none; color: inherit;">                 
                 <ul class="collection" style="width: 100%;">
-                  <li class="collection-item hoverable" style="padding: 15px; text-align: center; cursor: pointer;">
+                  <li class="collection-item hoverable" 
+                      style="padding: 15px; text-align: center; cursor: pointer;">
                     <div style="display: flex; flex-direction: column; align-items: center;">
                       {% if persona.img %}
                         <img 
@@ -63,17 +67,13 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
                             margin-bottom: 10px;
                           ">
                       {% endif %}
-                      <span style="font-weight: 600;">
-                        {{ persona.nombre }}
-                      </span>
-                      <span>
-                        {{ persona.rol }}
-                      </span>
+                      <span style="font-weight: 600;">{{ persona.nombre }}</span>
+                      <span>{{ persona.rol }}</span>
                     </div>
                   </li>
                 </ul>
-              </div>
-            </a>
+              </a>
+            </div>
             {% endfor %}
           </div>
         {% endif %}
