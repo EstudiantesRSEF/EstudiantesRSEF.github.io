@@ -12,6 +12,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
       <!-- BANNER -->
       <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
       <!-- ENCABEZADO O INTRO, si quieres -->
+      <hr>
       <p style="text-align: justify;">PLANCKS 25 is organised by the Students Group of the Spanish Royal Physics Society 
         (<em>Grupo de Estudiantes de la Real Sociedad Española de Física</em>).<br>
         Meet the members of the Organising Committee below!</p>
