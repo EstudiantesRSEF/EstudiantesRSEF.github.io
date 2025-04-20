@@ -74,7 +74,7 @@
         suptitle:
 
 - day: "Saturday"
-  date: "May 3th"
+  date: "May 3th - Official PLANCKS25 T-shirt day"
   events:
       - hour: "08:00 - 09:00"
         title: "Breakfast"
@@ -91,6 +91,10 @@
         suptitle:
       - hour: "10:00 - 14:00"
         title: "Observers Workshop"
+        place:
+        suptitle:
+      - hour: "14:00 - 14:15"
+        title: "Official PLANCKS 25 Group Picture"
         place:
         suptitle:
       - hour: "14:00 - 16:00"
