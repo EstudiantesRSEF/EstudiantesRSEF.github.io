@@ -139,6 +139,11 @@ news:
   image: "/img/eventos/2025-PLANCKS/news/Prelis_UAB.jpg"
   url: "https://www.uab.cat/web/detall-de-noticia/celebracio-de-les-proves-preliminars-de-plancks-2025-de-la-uab-1345722997310.html?noticiaid=1345947547474"
 
+- outlet: "Europa Press"
+  text: "Cuatro alumnos de Valladolid participarán..."
+  image: "/img/eventos/2025-PLANCKS/news/europa_press.jpg"
+  url: "https://www.europapress.es/castilla-y-leon/noticia-cuatro-alumnos-valladolid-participaran-barcelona-final-prestigioso-concurso-internacional-fisica-20250422143747.html"
+
 #- outlet: "UAB Barcelona"
 #  text: "Los mejores estudiantes de física del mundo..."
 #  image: "/img/eventos/2025-PLANCKS/news/UAB_news.png"
