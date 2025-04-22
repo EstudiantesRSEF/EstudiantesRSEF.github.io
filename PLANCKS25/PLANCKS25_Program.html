@@ -89,11 +89,17 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
             {% for event in day.events %}
  <!--            <div class="col-lg-4 col-md-6"> -->
               <div class="single-schedules-inner">
+                {% if event.hour != "" and event.hour != nil %}
                 <div class="date">
                   <i class="fa fa-clock-o"></i>
                   {{ event.hour }}
                 </div>
+                {% endif %}
+                {% if event.hour == "" or event.hour == nil %}
+                <h5 style="text-align: center;">{{ event.title }}</h5>
+                {% else %}
                 <h5>{{ event.title }}</h5>
+                {% endif %}
                 {% if event.suptitle != "" and event.suptitle != nil or event.place != "" and event.place != nil %}
                 <div class="location-container">
                   {% if event.suptitle != "" and event.suptitle != nil %}
