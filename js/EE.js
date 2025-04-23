@@ -33,7 +33,7 @@ logo.addEventListener('click', (event) => {
     // Cambiar un estilo visual del logo (si es necesario)
     // logo.classList.add('changed');  // Añadir una clase si quieres agregar algún estilo
 
-    window.open(logoLink.href, '_blank');
+    // window.open(logoLink.href, '_blank');
 
     // Opcional: Restablecer después de unos segundos
     setTimeout(() => {
