@@ -35,7 +35,6 @@ logo.addEventListener('click', (event) => {
 
     // window.open(logoLink.href, '_blank');
 
-    // Opcional: Restablecer después de unos segundos
     setTimeout(() => {
       logo.src = '/img/eventos/2025-PLANCKS/Logo.png';  // Restablece la imagen original
       logo.alt = "PLANCKS 2025 Logo";  // Restablece el texto alt
@@ -43,6 +42,9 @@ logo.addEventListener('click', (event) => {
       // logo.classList.remove('changed');
       clickCount = 0;  // Reinicia el contador de clics
       firstClickTime = null;  // Reinicia el temporizador
-    }, 5000);  // Restablece después de 3 segundos, por ejemplo
+    }, 5000);  // Restablece después de 5 segundos
+
+  } else {
+  event.preventDefault();
   }
 });
