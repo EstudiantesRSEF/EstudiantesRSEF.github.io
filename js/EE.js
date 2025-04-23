@@ -6,6 +6,7 @@ const logo = document.getElementById('special-logo');
 const logoLink = document.querySelector('.navbar-brand'); 
 
 logo.addEventListener('click', (event) => {
+  event.preventDefault();
   const currentTime = new Date().getTime();
 
   // Si es el primer clic, guardamos el tiempo
