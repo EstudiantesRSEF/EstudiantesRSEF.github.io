@@ -61,6 +61,13 @@
   width: "20%"
   level: "5"
 
+- name: "Fundació 'la Caixa'"
+  section: "Collaborators"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/laCaixa.png"
+  link: "https://fundacionlacaixa.org/es/"
+  width: "20%"
+  level: "5"
+
 - name: "Red Española de Supercomputación"
   section: "Collaborators"
   logo: "/img/eventos/2025-PLANCKS/sponsors/RES_negativo.png"
