@@ -130,6 +130,7 @@ body {
   {% elsif cat == 'enef' %}
   {% elsif cat == 'ENEF' %}
   {% elsif cat == '2023' %}
+  {% elsif cat == 'enef2023' %}
   {% else %}
   <button class="chip_button" id="{{ cat }}" onclick="filterUsingCategory(this.id)">
     {{ cat }}
