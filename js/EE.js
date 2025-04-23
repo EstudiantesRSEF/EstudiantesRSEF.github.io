@@ -42,8 +42,8 @@ logo.addEventListener('click', (event) => {
       clickCount = 0;  // Reinicia el contador de clics
       firstClickTime = null;  // Reinicia el temporizador
     }, 5000);  // Restablece después de 5 segundos
-
-  } else {
+  } 
+  if (clickCount <= maxClicks+1) {
   event.preventDefault();
   }
 });
