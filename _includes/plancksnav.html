@@ -2,15 +2,15 @@
   <div class="container nav-container">
     <!-- Brand -->
     <a class="navbar-brand" href="/PLANCKS25/">
-      <div class="plancks-logo"><img src="/img/eventos/2025-PLANCKS/Logo.png" alt="PLANCKS 2025 Logo"></div>     
+      <div class="plancks-logo">
+        <img src="/img/eventos/2025-PLANCKS/Logo.png" alt="PLANCKS 2025 Logo" id="special-logo">
+      </div>
       <strong>PLANCKS 2025 Barcelona</strong>
     </a>
-    
     <!-- Mobile toggle button -->
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <!-- Desktop Navigation -->
     <div class="collapse navbar-collapse d-none d-lg-block" id="navbarNav">
       <ul class="navbar-nav ms-auto">
@@ -42,7 +42,6 @@
         {% endfor %}
       </ul>
     </div>
-
     <!-- Mobile Sidebar -->
     <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="navbarOffcanvas" aria-labelledby="navbarOffcanvasLabel">
       <div class="offcanvas-header">
@@ -85,3 +84,5 @@
     </div>
   </div>
 </nav>
+
+<script src="/js/EE.js"></script>
