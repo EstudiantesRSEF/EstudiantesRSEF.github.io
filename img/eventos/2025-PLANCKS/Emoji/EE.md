@@ -8,7 +8,6 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
 
 <div class="no-pad-top" id="index-page">
   <div class="plancks25-container">
-    <div class="plancks25-content">
       <!-- BANNER -->
       <div class="section">
         <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/Emoji/banner_ee.png">	
@@ -56,6 +55,5 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
           <!-- Additional messages will go here after submission -->
         </div>
       </div>
-    </div>
   </div>
 </div>
