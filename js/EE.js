@@ -27,7 +27,7 @@ logo.addEventListener('click', (event) => {
     // Cambiar el logo
     logo.src = '/img/eventos/2025-PLANCKS/Emoji/logo_ee.png';  // Cambia la imagen
     logo.alt = "EE Logo";  // Cambia el texto alt
-    logoLink.href = 'https://www.youtube.com/watch?v=xvFZjo5PgG0&t=1s';  // Cambia el enlace
+    logoLink.href = 'https://estudiantes.rsef.es/PLANCKS25/secret/';  // Cambia el enlace old -> https://www.youtube.com/watch?v=xvFZjo5PgG0&t=1s
 
     // Cambiar un estilo visual del logo (si es necesario)
     // logo.classList.add('changed');  // Añadir una clase si quieres agregar algún estilo
