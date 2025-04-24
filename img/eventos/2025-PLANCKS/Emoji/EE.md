@@ -21,14 +21,15 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
         </p>
         <!-- Message Box for User Input -->
         <form id="messageForm" method="POST" action="https://script.google.com/macros/s/AKfycbxNO9YRKuyGzEuKZJbrrpfTp8Rxygw_6nKJJpkpY8oG5EjtIl5fpUiJ2C4NsWuzG5OR8A/exec">
-          <textarea name="mensaje" rows="4" cols="50" placeholder="Escribe tu mensaje aquí"></textarea><br><br>
+          <textarea name="mensaje" rows="4" cols="50" placeholder="Write your message here"></textarea><br><br>
           <!-- Botón de Submit -->
-          <button type="button" onclick="submitMessage()">Enviar</button>
+          <button id="submitButton" type="button" onclick="submitMessage()">Submit</button>
         </form> 
         <script>
           function submitMessage() {
             var form = document.getElementById("messageForm");
             var message = form.elements["mensaje"].value;
+            var submitButton = document.getElementById("submitButton"); // Define the button here
             if (message.trim() !== "") {
               // Realizar la petición POST
               fetch(form.action, {
@@ -39,20 +40,24 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
               })
               .then(response => response.json())
               .then(data => {
-                console.log("Mensaje enviado con éxito:", data);
-                alert("¡Mensaje enviado!");
-                form.reset(); // Resetear el formulario después de enviar
-                document.getElementById('message').value = '';
+                console.log("Message sent successfully:", data);
+                alert("¡Message sent!");
+                // Reset the form after submission
+                form.reset(); // Reset all form fields
+                // Optionally, clear the message field manually if needed
+                // form.elements["mensaje"].value = '';
+                // Hide the submit button after 3 seconds
                 setTimeout(function() {
-                submitButton.style.display = 'none';
+                  submitButton.style.display = 'none'; // Hide the button
                 }, 3000);
               })
               .catch(error => {
                 console.error("Error al enviar el mensaje:", error);
-                //alert("Hubo un error al enviar el mensaje.");
+                // Optional: Alert for error handling
+                // alert("Hubo un error al enviar el mensaje.");
               });
             } else {
-              alert("Por favor, escribe un mensaje.");
+              alert("Please write a message before submitting.");
             }
           }
         </script>
