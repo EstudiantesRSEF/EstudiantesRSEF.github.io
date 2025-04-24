@@ -72,7 +72,10 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
         <!-- Wall of Messages -->
         <div id="message-wall" style="border-top: 1px solid #ddd; padding-top: 20px;">
           <div class="message" style="margin-bottom: 15px;">
-            <p><strong>Anonymous:</strong> "Mieres looks like a fantastic choice for ICPS 2025. Can’t wait to see the event in action!"</p>
+            <p><strong>Anonymous:</strong> Mieres looks like a fantastic choice for ICPS 2025. Can’t wait to see the event in action!</p>
+          </div>
+          <div class="message" style="margin-bottom: 15px;">
+            <p><strong>Maik:</strong> Hey there! @maik here, one of the developers behind this site and the creator of this little surprise. It would be awesome if you could leave your name/nickname along with a message, even if it's something silly. Just to keep track of those who somehow manage to find their way here! 😄</p>
           </div>
           <!-- Additional messages will go here after submission -->
         </div>
