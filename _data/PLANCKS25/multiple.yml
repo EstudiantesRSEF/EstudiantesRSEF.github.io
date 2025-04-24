@@ -141,7 +141,7 @@ news:
   url: "https://www.3cat.cat/324/la-uab-reunira-els-millors-estudiants-de-fisica-del-mon-en-una-competicio-internacional/noticia/3347030/"
 
 - outlet: "UAB Barcelona"
-  text: "Celebració de les proves Preliminars de Plancks 2025 de la UAB"
+  text: "Celebració de les proves Preliminars de PLANCKS 2025 de la UAB"
   image: "/img/eventos/2025-PLANCKS/news/Prelis_UAB.jpg"
   url: "https://www.uab.cat/web/detall-de-noticia/celebracio-de-les-proves-preliminars-de-plancks-2025-de-la-uab-1345722997310.html?noticiaid=1345947547474"
 
@@ -149,6 +149,11 @@ news:
   text: "Cuatro alumnos de Valladolid participarán..."
   image: "/img/eventos/2025-PLANCKS/news/europa_press.jpg"
   url: "https://www.europapress.es/castilla-y-leon/noticia-cuatro-alumnos-valladolid-participaran-barcelona-final-prestigioso-concurso-internacional-fisica-20250422143747.html"
+
+- outlet: "Tribuna Valladolid"
+  text: "La final de PLANCKS de física contará con..."
+  image: "/img/eventos/2025-PLANCKS/news/tribuna_valladolid.jpg"
+  url: "https://www.tribunavalladolid.com/noticias/402775/la-final-de-plancks-de-fisica-contara-con-cuatro-estudiantes-de-la-uva"
 
 #- outlet: "UAB Barcelona"
 #  text: "Los mejores estudiantes de física del mundo..."
