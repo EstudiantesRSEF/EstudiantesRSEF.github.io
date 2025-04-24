@@ -7,7 +7,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
 ---
 
 <div class="no-pad-top" id="index-page">
-  <div class="plancks25-content">
+  <div class="container">
       <!-- BANNER -->
       <div class="section">
         <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/Emoji/banner_ee.png">	
