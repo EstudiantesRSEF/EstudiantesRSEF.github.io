@@ -61,6 +61,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
                 setTimeout(function() {
                   submitButton.style.display = 'none'; // Hide the button
                 }, 3000);
+                alert("¡Message sent!");
               });
             } else {
               alert("Please write a message before submitting.");
