@@ -43,6 +43,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
                 alert("¡Mensaje enviado!");
                 form.reset(); // Resetear el formulario después de enviar
               })
+              document.getElementById('message').value = '';
               .catch(error => {
                 console.error("Error al enviar el mensaje:", error);
                 //alert("Hubo un error al enviar el mensaje.");
