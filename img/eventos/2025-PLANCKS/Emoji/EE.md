@@ -20,32 +20,38 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
           Now that you’ve discovered this little Easter Egg, we’d love to hear from you! What do you think about Mieres’ bid for ICPS 2025? Got any fun messages for other curious souls? Feel free to leave your thoughts below:
         </p>
         <!-- Message Box for User Input -->
-        <form id="messageForm">
-          <textarea name="message" rows="4" cols="50" placeholder="Share your secret thoughts here..." required></textarea>
-          <br>
-          <button type="submit">Send your secret!</button>
-        </form>
-        <div id="responseMessage"></div>
-<script>
-  document.getElementById("messageForm").onsubmit = function(event) {
-    event.preventDefault();  // Evita que la página se recargue
-    // Obtener el valor del mensaje
-    var message = document.getElementById("message").value;
-    // Enviar el mensaje a la API de Google Apps Script
-    fetch('https://script.google.com/macros/s/AKfycbxNO9YRKuyGzEuKZJbrrpfTp8Rxygw_6nKJJpkpY8oG5EjtIl5fpUiJ2C4NsWuzG5OR8A/exec', {
-      method: 'POST',
-      body: new URLSearchParams({ 'message': message })
-    })
-    .then(response => response.text())
-    .then(data => {
-      // Mostrar un mensaje de éxito o error
-      document.getElementById("responseMessage").textContent = data;
-    })
-    .catch(error => {
-      document.getElementById("responseMessage").textContent = 'Error al guardar el mensaje.';
-    });
-  };
-</script>
+        <form id="messageForm" method="POST" action="YOUR_WEB_APP_URL">
+          <textarea name="mensaje" rows="4" cols="50" placeholder="Escribe tu mensaje aquí"></textarea><br><br>
+          <!-- Botón de Submit -->
+          <button type="button" onclick="submitMessage()">Enviar</button>
+        </form> 
+        <script>
+          function submitMessage() {
+            var form = document.getElementById("messageForm");
+            var message = form.elements["mensaje"].value;
+            if (message.trim() !== "") {
+              // Realizar la petición POST
+              fetch(form.action, {
+                method: "POST",
+                body: new URLSearchParams({
+                  mensaje: message
+                })
+              })
+              .then(response => response.json())
+              .then(data => {
+                console.log("Mensaje enviado con éxito:", data);
+                alert("¡Mensaje enviado!");
+                form.reset(); // Resetear el formulario después de enviar
+              })
+              .catch(error => {
+                console.error("Error al enviar el mensaje:", error);
+                alert("Hubo un error al enviar el mensaje.");
+              });
+            } else {
+              alert("Por favor, escribe un mensaje.");
+            }
+          }
+        </script>
         <h5 style="margin-top: 2em;">Messages from the curious discoverers before you:</h5>
         <!-- Wall of Messages -->
         <div id="message-wall" style="border-top: 1px solid #ddd; padding-top: 20px;">
