@@ -45,7 +45,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
               })
               .catch(error => {
                 console.error("Error al enviar el mensaje:", error);
-                alert("Hubo un error al enviar el mensaje.");
+                //alert("Hubo un error al enviar el mensaje.");
               });
             } else {
               alert("Por favor, escribe un mensaje.");
