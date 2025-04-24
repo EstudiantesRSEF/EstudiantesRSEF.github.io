@@ -20,7 +20,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
           Now that you’ve discovered this little Easter Egg, we’d love to hear from you! What do you think about Mieres’ bid for ICPS 2025? Got any fun messages for other curious souls? Feel free to leave your thoughts below:
         </p>
         <!-- Message Box for User Input -->
-        <form id="messageForm" method="POST" action="YOUR_WEB_APP_URL">
+        <form id="messageForm" method="POST" action="https://script.google.com/macros/s/AKfycbxNO9YRKuyGzEuKZJbrrpfTp8Rxygw_6nKJJpkpY8oG5EjtIl5fpUiJ2C4NsWuzG5OR8A/exec">
           <textarea name="mensaje" rows="4" cols="50" placeholder="Escribe tu mensaje aquí"></textarea><br><br>
           <!-- Botón de Submit -->
           <button type="button" onclick="submitMessage()">Enviar</button>
