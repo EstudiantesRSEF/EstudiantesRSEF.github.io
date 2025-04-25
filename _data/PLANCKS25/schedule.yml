@@ -43,19 +43,19 @@
         place:
         suptitle: "ALBA / ICFO / Qilimanjaro / BSC"
       - hour: "13:00 - 14:00"
-        title: "Bus to CosmoCaixa"
+        title: "Bus to Plaça Catalunya"
         place:
         suptitle:
-      - hour: "14:00 - 16:00"
-        title: "Lunch by Tort"
-        place:
+      - hour: "14:00 - 17:30"
+        title: "Free Lunch & Time"
+        place: "Barcelona city center"
         suptitle:
-      - hour: "16:00 - 17:30"
+      - hour: "17:30 - 19:00"
         title: "Opening"
         place: "Auditori CosmoCaixa"
         map_link: "https://maps.app.goo.gl/BAPXEHxN6cL4rVQN7"
         suptitle:
-      - hour: "17:30 - 20:00"
+      - hour: "19:00 - 20:00"
         title: "Talk by Anne L'Huillier"
         place: "Auditori CosmoCaixa"
         map_link: "https://maps.app.goo.gl/BAPXEHxN6cL4rVQN7"
