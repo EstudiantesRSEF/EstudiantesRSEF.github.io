@@ -529,12 +529,13 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
 
 .plancks25-news-panel {
   .responsive-column {
-    width: 50%; /* Ensure two columns per row */
+    width: 50%;
     padding: 0 0.75rem;
+    float: left;
     box-sizing: border-box;
 
     @media screen and (max-width: 1100px) {
-      width: 100%; /* For small screens, make the cards full width */
+      width: 100%;
     }
   }
 
@@ -568,10 +569,10 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
     overflow: hidden;
     transition: all 0.3s ease;
     background-color: white;
-    margin: 1rem 0; /* Added vertical margin to space out the cards */
+    margin: 1rem 0;
     height: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 2rem; /* Added specific bottom margin to cards */
+    margin-bottom: 2rem;
 
     &:hover {
       transform: translateY(-5px);
@@ -591,13 +592,13 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
     }
 
     .news-image {
-      flex: 0 0 25%; /* Takes exactly 25% of the card width */
-      min-width: 120px; /* Minimum width to prevent too small images */
+      flex: 0 0 25%; // Takes exactly 25% of the card width
+      min-width: 120px; // Minimum width to prevent too small images
 
       img.circle {
         width: 100%;
         height: auto;
-        aspect-ratio: 1; /* Keeps image perfectly circular */
+        aspect-ratio: 1; // Keeps image perfectly circular
         object-fit: cover;
         border: 3px solid $plancks25-teal;
         transition: all 0.3s ease;
@@ -611,7 +612,7 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
 
     .news-info {
       flex: 1;
-      min-width: 0; /* Prevents flex item from overflowing */
+      min-width: 0; // Prevents flex item from overflowing
     }
 
     .card-title {
@@ -669,24 +670,4 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
       margin-top: 1rem;
     }
   }
-
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem; /* Controls the gap between cards in the same row */
-  }
-
-  /* Make sure we are placing two cards per row */
-  .news-column {
-    width: 50%; /* Two cards per row */
-    padding: 0 1rem; /* Add padding to columns */
-  }
-
-  @media screen and (max-width: 768px) {
-    /* On small screens, make it 1 card per row */
-    .news-column {
-      width: 100%;
-    }
-  }
 }
-
