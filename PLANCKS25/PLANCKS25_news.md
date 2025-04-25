@@ -39,7 +39,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
                 </div>
                 <!-- Bottom Section -->
                 <div class="card-bottom">
-                  <img src="{{ article.image }}" alt="{{ article.outlet }}" class="news-image-large">
+                  <img src="{{ article.image }}" alt="{{ article.text }}" class="news-image-large">
                 </div>
               </a>
             </div>
