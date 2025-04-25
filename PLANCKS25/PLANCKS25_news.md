@@ -16,9 +16,9 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
     <div class="section">
       <div class="plancks25-news-panel">
         <div class="row">
-          {% for article in site.data.PLANCKS25.multiple.news %}
           <!-- News Panel Item -->
           <div class="responsive-column">
+            {% for article in site.data.PLANCKS25.multiple.news %}
             <div class="news-card">
               <a href="{{ article.url }}">
                 <!-- Card Top Section with Image and Title -->
@@ -35,15 +35,15 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
                 </div>
                 <!-- Headline section -->
                 <div class="news-headline">
-                  <h4><strong>{{ article.text}}</h4>
+                  <h4><strong>{{ article.text}}<strong></h4>
                 </div>
                 <!-- Bottom Section -->
                 <div class="card-bottom">
                   <img src="{{ article.image }}" alt="{{ article.outlet }}" class="news-image-large">
                 </div>
               </a>
+              {% endfor %}
             </div>
-            {% endfor %}
           </div>
         </div>
       </div>
