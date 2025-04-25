@@ -131,17 +131,23 @@ news:
   url: "https://www.lavanguardia.com/ciencia/20250311/10457336/mejores-alumnos-fisica-mundo-reuniran-mayo-barcelona.html"
   logo: "/img/eventos/2025-PLANCKS/news/lavanguardia.jpg"
 
-- outlet: "El Norte de Castilla"
-  text: "Cuatro Alumnos de la UVa..."
-  image: "/img/eventos/2025-PLANCKS/news/LaVanguardia.jpg"
-  url: "https://www.elnortedecastilla.es/valladolid/cuatro-alumnos-uva-elite-mundial-fisica-20250413082501-nt.html"
-  logo: "/img/eventos/2025-PLANCKS/news/el_norte_de_castilla_logo.jpg"
+- outlet: "UAB Barcelona"
+  text: "La competición internacional PLANCKS reunirá a los mejores..."
+  image: "/img/eventos/2025-PLANCKS/news/uab_news.jpg"
+  url: "https://www.uab.cat/web/sala-de-prensa/detalle-noticia/la-competicion-internacional-plancks-reunira-a-los-mejores-estudiantes-de-fisica-del-mundo-en-la-uab-1345830290069.html?detid=1345952275172"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/UAB.png"
 
 - outlet: "3cat"
   text: "La UAB reunirà els millors estudiants de física del món..."
   image: "/img/eventos/2025-PLANCKS/news/3cat.jpg"
   url: "https://www.3cat.cat/324/la-uab-reunira-els-millors-estudiants-de-fisica-del-mon-en-una-competicio-internacional/noticia/3347030/"
   logo: "/img/eventos/2025-PLANCKS/news/3cat.png"
+
+- outlet: "El Norte de Castilla"
+  text: "Cuatro Alumnos de la UVa..."
+  image: "/img/eventos/2025-PLANCKS/news/LaVanguardia.jpg"
+  url: "https://www.elnortedecastilla.es/valladolid/cuatro-alumnos-uva-elite-mundial-fisica-20250413082501-nt.html"
+  logo: "/img/eventos/2025-PLANCKS/news/el_norte_de_castilla_logo.jpg"
 
 - outlet: "UAB Barcelona"
   text: "Celebració de les proves Preliminars de PLANCKS 2025 de la UAB"
