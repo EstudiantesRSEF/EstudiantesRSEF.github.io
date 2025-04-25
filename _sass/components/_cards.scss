@@ -569,9 +569,11 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
     overflow: hidden;
     transition: all 0.3s ease;
     background-color: white;
-    margin: 1rem 0;
+    margin: 1rem 0; /* Added vertical margin to space out the cards */
     height: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Ensure the margin creates space between rows */
+    margin-bottom: 2rem; /* Added specific bottom margin to cards */
 
     &:hover {
       transform: translateY(-5px);
@@ -633,6 +635,7 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
       word-wrap: break-word;
     }
 
+    /* Removed the 'talk' and 'when' part */
     .news-headline {
       background-color: rgba($plancks25-teal, 0.1);
       padding: 1rem;
@@ -662,11 +665,19 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
       }
     }
 
+    /* Removed bio, added image for news */
     .news-image-large {
       width: 100%;
       height: auto;
       border-radius: 8px;
       margin-top: 1rem;
     }
+  }
+
+  /* Adding gap for the rows */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem; /* Controls the gap between cards in the same row */
   }
 }
