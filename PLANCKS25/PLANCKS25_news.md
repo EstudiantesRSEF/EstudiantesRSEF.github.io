@@ -43,6 +43,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
                 </div>
               </a>
             </div>
+            {% endfor %}
           </div>
         </div>
       </div>
