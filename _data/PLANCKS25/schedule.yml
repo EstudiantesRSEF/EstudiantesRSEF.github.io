@@ -182,10 +182,15 @@
       - hour: "09:00 - 10:00"
         title: "Bus to UPC"
         suptitle: 
-      - hour: "10:00 - 13:00"
+      - hour: "10:00 - 12:30"
         title: "Career Fair"
         place: "Faculty of Maths&Statistics, UPC"
         map_link: "https://maps.app.goo.gl/TzwkxQM7GZC5hQcFA"
+        suptitle: 
+      - hour: "12:30 - 13:00"
+        title: "Quside Session"
+        place: "Main Hall, Faculty of Biology, UB"
+        map_link: "https://maps.app.goo.gl/5m4ML2hmnGCGZ4YTA"
         suptitle: 
       - hour: "13:00 - 15:00"
         title: "Closing & Awards Ceremony"
