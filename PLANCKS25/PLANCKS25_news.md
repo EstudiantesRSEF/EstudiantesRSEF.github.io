@@ -42,13 +42,13 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
                   <img src="{{ article.image }}" alt="{{ article.outlet }}" class="news-image-large">
                 </div>
               </a>
-              {% endfor %}
             </div>
+            {% endfor %}
           </div>
         </div>
       </div>
-<!-- SPONSORS -->	  
     </div>  
+    <!-- SPONSORS -->
     <div class="section">
       {% include patrocinadores.html sponsors=site.data.PLANCKS25.multiple.sponsors %}    
     </div>   
