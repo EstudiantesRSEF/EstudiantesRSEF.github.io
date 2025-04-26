@@ -1,17 +1,13 @@
 - day: "Thursday"
   date: "May 1st"
   events:
-      - hour: "10:00 - 18:00"
+      - hour: "10:00 - 14:00"
         title: "Welcome and Registration"
-        place: ""
-        suptitle: 
-      - hour: "11:00 - 14:00"
-        title: "Reception"
         place: "UB Hall (Josep Carner Building)"
         map_link: "https://goo.gl/maps/rmLt2kwt86K2"
         suptitle: 
       - hour: "15:00 - 20:00"
-        title: "Optional Cultural Activities / Free time at Barcelona"
+        title: "Optional Barcelona Tours / Free time at Barcelona"
         place: 
         suptitle: 
       - hour: "20:00 - 20:30"
@@ -31,12 +27,13 @@
         place:
         suptitle:
       - hour: "09:00 - 10:00"
-        title: "Bus to Barcelona"
+        title: "Bus to Lab Tours"
         place:
         suptitle: 
       - hour: "10:00 - 13:00"
         title: "Welcome and Registration"
-        place:
+        place: "Auditori CosmoCaixa"
+        map_link: "https://maps.app.goo.gl/BAPXEHxN6cL4rVQN7"
         suptitle: 
       - hour: "10:00 - 13:00"
         title: "Lab Tour"
@@ -56,7 +53,7 @@
         map_link: "https://maps.app.goo.gl/BAPXEHxN6cL4rVQN7"
         suptitle:
       - hour: "19:00 - 20:00"
-        title: "Talk by Anne L'Huillier"
+        title: "Keynote Speaker: Anne L'Huillier"
         place: "Auditori CosmoCaixa"
         map_link: "https://maps.app.goo.gl/BAPXEHxN6cL4rVQN7"
         suptitle: 
@@ -104,7 +101,7 @@
         map_link: "https://maps.app.goo.gl/mpsbcKDtznoSKVUf9"
         suptitle:
       - hour: "16:00 - 18:00"
-        title: "Talk Alicia Sintes"
+        title: "Talk by Alicia Sintes"
         place: "Faculty of Humanities Auditorium, UAB"
         map_link: "https://maps.app.goo.gl/Gk6hWvaQizyJJHjX6"
         suptitle:
@@ -143,8 +140,9 @@
         map_link: "https://maps.app.goo.gl/RV1QYBMue67Rod22A"
       - hour: "12:00 - 14:00"
         title: "Talk by Barbara Buades"
-        place:
+        place: "ETSAB - Escola Tècnica Superior d'Arquitectura de Barcelona"
         suptitle:
+        map_link: "https://maps.app.goo.gl/RV1QYBMue67Rod22A"
       - hour: "14:00 - 16:00"
         title: "Pizza & Posters Session"
         place: 
