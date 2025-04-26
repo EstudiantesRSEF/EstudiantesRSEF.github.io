@@ -27,7 +27,7 @@ personas:
   - nombre: "David Doblas"
     rol: "Local Logistics"
     img: "/img/eventos/2025-PLANCKS/OC/DavidDoblasHernandez.png"
-# No Linkedin
+    # No Linkedin
 
   - nombre: "Maia Fuentes"
     rol: "Local Logistics"
@@ -37,14 +37,17 @@ personas:
   - nombre: "Jordi Freixa"
     rol: "Local Logistics"
     img: "/img/eventos/2025-PLANCKS/OC/JordiFreixaMartinez.jpg"
-# No Linkedin
+    # No Linkedin
 
   - nombre: "Àlex Guitart"
     rol: "Local Logistics"
     img: "/img/eventos/2025-PLANCKS/OC/AlexGuitart.jpg"
     linkedin: "https://www.linkedin.com/in/%C3%A0lex-guitart-i-manuel-064822290/"
-
-#
+    
+  - nombre: "Mar García"
+    rol: "Local Logistics"
+    img: "/img/eventos/2025-PLANCKS/OC/MarGarcia.jpg"
+    # No Linkedin
 
   - nombre: "Juan Lorenzo"
     rol: "Scientific Program"
