@@ -62,6 +62,12 @@ sponsors:
   link: "https://www.qilimanjaro.tech/"
   level: "4"
 
+- name: "CoFis"
+  section: "Photons"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/logo_cofis.png"
+  link: "https://www.cofis.es/"
+  level: "4"
+
 - name: "Catalonia Quantum Academy"
   section: "Quark"
   logo: "/img/eventos/2025-PLANCKS/sponsors/CatalonianQuantumAcademy.png"
