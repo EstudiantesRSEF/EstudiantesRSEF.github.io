@@ -106,7 +106,7 @@
         map_link: "https://maps.app.goo.gl/Gk6hWvaQizyJJHjX6"
         suptitle:
       - hour: "18:00 - 20:00"
-        title: "Talk / Workshop"
+        title: "Leisure Activity"
         place:
         suptitle:
       - hour: "20:00 - 21:00"
@@ -159,7 +159,7 @@
       - hour: "19:00 - 21:00"
         title: "Dinner"
         place:
-        suptitle:
+        suptitle: "Dinner by Tort"
       - hour: "21:00 - 23:00"
         title: "CosmoNits"
         place: "Auditori CosmoCaixa"
@@ -190,7 +190,7 @@
         place: "Main Hall, Faculty of Biology, UB"
         map_link: "https://maps.app.goo.gl/5m4ML2hmnGCGZ4YTA"
         suptitle: 
-      - hour: "13:00 - 15:00"
+      - hour: "13:00 - 14:00"
         title: "Closing & Awards Ceremony"
         place: "Main Hall, Faculty of Biology, UB"
         map_link: "https://maps.app.goo.gl/5m4ML2hmnGCGZ4YTA"
