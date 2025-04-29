@@ -44,7 +44,7 @@
         place:
         suptitle:
       - hour: "14:00 - 17:30"
-        title: "Free Lunch & Time"
+        title: "Free Time"
         place: "Barcelona city center"
         suptitle:
       - hour: "17:30 - 19:00"
@@ -57,7 +57,7 @@
         place: "Auditori CosmoCaixa"
         map_link: "https://maps.app.goo.gl/BAPXEHxN6cL4rVQN7"
         suptitle: 
-      - hour: "20:00 - 21:00"
+      - hour: "20:30 - 21:00"
         title: "Bus to Tiana"
         place: 
         suptitle: 
