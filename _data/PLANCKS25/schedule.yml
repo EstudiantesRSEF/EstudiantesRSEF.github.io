@@ -1,20 +1,27 @@
 - day: "Thursday"
   date: "May 1st"
   events:
-      - hour: "10:00 - 14:00"
+      - hour: "11:30 - 18:00"
         title: "Welcome and Registration"
         place: "UB Hall (Josep Carner Building)"
         map_link: "https://goo.gl/maps/rmLt2kwt86K2"
         suptitle: 
       - hour: "15:00 - 20:00"
         title: "Optional Barcelona Tours / Free time at Barcelona"
-        place: 
+        place: "UB Hall (Josep Carner Building)"
+        map_link: "https://goo.gl/maps/rmLt2kwt86K2"
         suptitle: 
       - hour: "20:00 - 20:30"
         title: "Bus to Tiana"
-        place: 
+        place: "UB Hall (Josep Carner Building)"
+        map_link: "https://goo.gl/maps/rmLt2kwt86K2"
         suptitle: 
-      - hour: "20:30 - 22:00"
+      - hour: "20:30 - 21:00"
+        title: "Hostel Check-In"
+        place: "Alberg La Conreria"
+        map_link: "https://maps.app.goo.gl/GPDaoCJVfkJix3xh6"
+        suptitle:
+      - hour: "21:00 - 22:30"
         title: "Pizza Time"
         place: 
         suptitle: "Dinner by Telepizza"
@@ -22,28 +29,26 @@
 - day: "Friday"
   date: "May 2nd"
   events:
-      - hour: "08:00 - 09:00"
+      - hour: "07:30 - 08:30"
         title: "Breakfast"
-        place:
+        place: "Alberg La Conreria"
+        map_link: "https://maps.app.goo.gl/GPDaoCJVfkJix3xh6"
         suptitle:
-      - hour: "09:00 - 10:00"
+      - hour: "08:30 - 9:30"
         title: "Bus to Lab Tours"
-        place:
+        place: "Alberg La Conreria"
+        map_link: "https://maps.app.goo.gl/GPDaoCJVfkJix3xh6"
         suptitle: 
+      - hour: "09:30 - 13:00"
+        title: "Lab Tour"
+        place:
+        suptitle: "ALBA / ICFO / Qilimanjaro / BSC"
       - hour: "10:00 - 13:00"
         title: "Welcome and Registration"
         place: "Auditori CosmoCaixa"
         map_link: "https://maps.app.goo.gl/BAPXEHxN6cL4rVQN7"
         suptitle: 
-      - hour: "10:00 - 13:00"
-        title: "Lab Tour"
-        place:
-        suptitle: "ALBA / ICFO / Qilimanjaro / BSC"
-      - hour: "13:00 - 14:00"
-        title: "Bus to Plaça Catalunya"
-        place:
-        suptitle:
-      - hour: "14:00 - 17:30"
+      - hour: "13:00 - 17:30"
         title: "Free Time"
         place: "Barcelona city center"
         suptitle:
@@ -59,28 +64,38 @@
         suptitle: 
       - hour: "20:30 - 21:00"
         title: "Bus to Tiana"
-        place: 
+        place: "Auditori CosmoCaixa"
+        map_link: "https://maps.app.goo.gl/BAPXEHxN6cL4rVQN7"
         suptitle: 
       - hour: "21:00 - 22:00"
         title: "Dinner"
-        place:
+        place: "Alberg La Conreria"
+        map_link: "https://maps.app.goo.gl/GPDaoCJVfkJix3xh6"
         suptitle:
       - hour: "22:00 - Late"
         title: "Last revision for the exam!"
-        place:
+        place: "Alberg La Conreria"
+        map_link: "https://maps.app.goo.gl/GPDaoCJVfkJix3xh6"
         suptitle:
 
 - day: "Saturday"
   date: "May 3th"
   events:
       - title: "Official PLANCKS25 T-shirt day"
-      - hour: "08:00 - 09:00"
+      - hour: "07:30 - 08:30"
         title: "Breakfast"
-        place:
+        place: "Alberg La Conreria"
+        map_link: "https://maps.app.goo.gl/GPDaoCJVfkJix3xh6"
         suptitle:
-      - hour: "09:00 - 10:00"
+      - hour: "08:30 - 09:00"
         title: "Bus to UAB"
-        place:
+        place: "Alberg La Conreria"
+        map_link: "https://maps.app.goo.gl/GPDaoCJVfkJix3xh6"
+        suptitle: 
+      - hour: "09:00 - 10:00"
+        title: "Instructions for the exam"
+        place: "Faculty of Sciences, UAB"
+        map_link: "https://maps.app.goo.gl/aJq8rUb5RoQtfLPP6"
         suptitle: 
       - hour: "10:00 - 14:00"
         title: "PLANCKS Exam 2025"
@@ -89,85 +104,101 @@
         suptitle:
       - hour: "10:00 - 14:00"
         title: "Observers Workshop"
-        place:
+        place: "Faculty of Sciences, UAB"
+        map_link: "https://maps.app.goo.gl/aJq8rUb5RoQtfLPP6"
         suptitle:
-      - hour: "14:00 - 14:15"
+      - hour: "14:00 - 14:30"
         title: "Official PLANCKS 25 Group Picture"
-        place:
+        place: "Faculty of Sciences, UAB"
+        map_link: "https://maps.app.goo.gl/aJq8rUb5RoQtfLPP6"
         suptitle:
-      - hour: "14:00 - 16:00"
+      - hour: "14:30 - 16:30"
         title: "Lunch"
-        place: "UAB"
-        map_link: "https://maps.app.goo.gl/mpsbcKDtznoSKVUf9"
+        place: "Faculty of Sciences, UAB"
+        map_link: "https://maps.app.goo.gl/aJq8rUb5RoQtfLPP6"
         suptitle:
-      - hour: "16:00 - 18:00"
+      - hour: "16:30 - 18:00"
         title: "Talk by Alicia Sintes"
         place: "Faculty of Humanities Auditorium, UAB"
         map_link: "https://maps.app.goo.gl/Gk6hWvaQizyJJHjX6"
         suptitle:
       - hour: "18:00 - 20:00"
-        title: "Leisure Activity"
-        place:
+        title: "Catalan Gymnkhana"
+        place: "UAB"
+        map_link: "https://maps.app.goo.gl/neNvxsneeiARdu898"
         suptitle:
-      - hour: "20:00 - 21:00"
+      - hour: "20:00 - 20:30"
         title: "Bus to Tiana"
-        place: 
+        place: "UAB"
+        map_link: "https://maps.app.goo.gl/neNvxsneeiARdu898"
         suptitle: 
       - hour: "21:00 - 22:00"
         title: "Dinner"
-        place:
+        place: "Alberg La Conreria"
+        map_link: "https://maps.app.goo.gl/GPDaoCJVfkJix3xh6"
         suptitle:
       - hour: "22:00 - Late"
         title: "Organized social evening at the hostel"
-        place:
+        place: "Alberg La Conreria"
+        map_link: "https://maps.app.goo.gl/GPDaoCJVfkJix3xh6"
         suptitle:
 
 - day: "Sunday"
   date: "May 4th"
   events:
-      - hour: "08:00 - 09:00"
+      - hour: "08:30 - 09:30"
         title: "Breakfast"
-        place:
+        place: "Alberg La Conreria"
+        map_link: "https://maps.app.goo.gl/GPDaoCJVfkJix3xh6"
         suptitle:
-      - hour: "9:00 - 10:00"
+      - hour: "9:30 - 10:00"
         title: "Bus to UPC"
-        place:
+        place: "Alberg La Conreria"
+        map_link: "https://maps.app.goo.gl/GPDaoCJVfkJix3xh6"
         suptitle: 
-      - hour: "10:00 - 12:00"
-        title: "Talk / Workshop"
-        place: "ETSAB - Escola Tècnica Superior d'Arquitectura de Barcelona"
-        suptitle: 
-        map_link: "https://maps.app.goo.gl/RV1QYBMue67Rod22A"
-      - hour: "12:00 - 14:00"
+      - hour: "10:30 - 12:00"
         title: "Talk by Barbara Buades"
         place: "ETSAB - Escola Tècnica Superior d'Arquitectura de Barcelona"
+        suptitle: 
+        map_link: "https://maps.app.goo.gl/RV1QYBMue67Rod22A"
+      - hour: "12:00 - 13:00"
+        title: "Photon Delta Networking Hub"
+        place: "ETSAB - Escola Tècnica Superior d'Arquitectura de Barcelona"
         suptitle:
         map_link: "https://maps.app.goo.gl/RV1QYBMue67Rod22A"
-      - hour: "14:00 - 16:00"
-        title: "Pizza & Posters Session"
-        place: 
-        suptitle: "Lunch by Telepizza"
-      - hour: "16:00 - 17:00"
-        title: "Bus to CosmoCaixa"
-        place: 
+      - hour: "13:00 - 14:00"
+        title: "Posters Session"
+        place: "ETSAB - Escola Tècnica Superior d'Arquitectura de Barcelona"
+        map_link: "https://maps.app.goo.gl/RV1QYBMue67Rod22A"
         suptitle: 
-      - hour: "17:00 - 19:00"
+      - hour: "14:00 - 16:00"
+        title: "Pizza Time"
+        place: "ETSAB - Escola Tècnica Superior d'Arquitectura de Barcelona"
+        map_link: "https://maps.app.goo.gl/RV1QYBMue67Rod22A" 
+        suptitle: "Lunch by Telepizza"
+      - hour: "16:00 - 16:30"
+        title: "Bus to CosmoCaixa"
+        place: "ETSAB - Escola Tècnica Superior d'Arquitectura de Barcelona"
+        map_link: "https://maps.app.goo.gl/RV1QYBMue67Rod22A"
+        suptitle: 
+      - hour: "17:00 - 18:30"
         title: "Panel Discussion"
         place: "Auditori CosmoCaixa"
         map_link: "https://maps.app.goo.gl/BAPXEHxN6cL4rVQN7"
         suptitle: "Anna Kubasiak, Alexandre Dauphin, Raul Conchello, Artur Garcia" # Thibault Fredon
-      - hour: "19:00 - 21:00"
+      - hour: "18:30 - 19:30"
         title: "Dinner"
         place:
         suptitle: "Dinner by Tort"
-      - hour: "21:00 - 23:00"
+      - hour: "20:00 - 22:00"
         title: "CosmoNits"
-        place: "Auditori CosmoCaixa"
+        place: "Museo CosmoCaixa"
         map_link: "https://maps.app.goo.gl/BAPXEHxN6cL4rVQN7"
         suptitle:  
-      - hour: "23:00 - 00:00"
+      - hour: "22:00 - 22:30"
         title: "Bus to Tiana"
-        place: 
+        place: "Museo CosmoCaixa"
+        map_link: "https://maps.app.goo.gl/BAPXEHxN6cL4rVQN7"
         suptitle: 
 
 - day: "Monday"
@@ -175,10 +206,13 @@
   events:
       - hour: "08:00 - 09:00"
         title: "Breakfast"
-        place:
+        place: "Alberg La Conreria"
+        map_link: "https://maps.app.goo.gl/GPDaoCJVfkJix3xh6"
         suptitle:
       - hour: "09:00 - 10:00"
         title: "Bus to UPC"
+        place: "Alberg La Conreria"
+        map_link: "https://maps.app.goo.gl/GPDaoCJVfkJix3xh6"
         suptitle: 
       - hour: "10:00 - 12:30"
         title: "Career Fair"
@@ -190,7 +224,7 @@
         place: "Main Hall, Faculty of Biology, UB"
         map_link: "https://maps.app.goo.gl/5m4ML2hmnGCGZ4YTA"
         suptitle: 
-      - hour: "13:00 - 14:00"
+      - hour: "13:00 - 14:30"
         title: "Closing & Awards Ceremony"
         place: "Main Hall, Faculty of Biology, UB"
         map_link: "https://maps.app.goo.gl/5m4ML2hmnGCGZ4YTA"
