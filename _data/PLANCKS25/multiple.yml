@@ -62,6 +62,18 @@ sponsors:
   link: "https://www.qilimanjaro.tech/"
   level: "4"
 
+- name: "Jane Street"
+  section: "Photons"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/jane_street.png"
+  link: "https://www.janestreet.com/"
+  level: "4"
+
+- name: "Onyx Solar"
+  section: "Photons"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/logo_onix.png"
+  link: "https://onyxsolar.es/"
+  level: "4"
+
 - name: "CoFis"
   section: "Photons"
   logo: "/img/eventos/2025-PLANCKS/sponsors/logo_cofis.png"
