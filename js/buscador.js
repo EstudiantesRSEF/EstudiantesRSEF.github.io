@@ -7,6 +7,7 @@ function buscarGrupo() {
     resultado.textContent = `You're in the group named: ${codigos[codigo]}`;
     groupCard.style.display = "block";
   } else {
-    resultado.textContent = "Code not found. Please verify that it is correctly written.";
+    // resultado.textContent = "Code not found. Please verify that it is correctly written.";
+    alert("Code not found. Please verify that it is correctly written.")
   }
 }
