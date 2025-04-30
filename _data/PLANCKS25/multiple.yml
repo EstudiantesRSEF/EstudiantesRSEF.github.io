@@ -38,6 +38,12 @@ sponsors:
   link: "https://quside.com/"
   level: "3"
 
+- name: "Telepizza"
+  section: "Electrons"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/telepizza.png"
+  link: "https://www.telepizza.es/"
+  level: "3"
+
 - name: "Fundación Ramón Areces"
   section: "Photons"
   logo: "/img/eventos/2025-PLANCKS/sponsors/FundacionRamonAreces.png"
@@ -72,6 +78,12 @@ sponsors:
   section: "Photons"
   logo: "/img/eventos/2025-PLANCKS/sponsors/logo_onix.png"
   link: "https://onyxsolar.es/"
+  level: "4"
+
+- name: "Tort"
+  section: "Photons"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/tort.jpeg"
+  link: "https://www.prefierotort.com/"
   level: "4"
 
 - name: "CoFis"
