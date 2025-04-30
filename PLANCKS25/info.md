@@ -16,8 +16,8 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
     <div class="section">
       <h3>Find your group for Saturday's Catalan Activities!</h3>
       <p>Enter your 3-character code (e.g., <code>01a</code>, <code>O22</code>, etc.) to see which group you're in:</p>
-      <input type="text" id="codigo" maxlength="3" placeholder="Tu código">
-      <button onclick="buscarGrupo()">Buscar</button>
+      <input type="text" id="codigo" maxlength="3" placeholder="Enter your code.">
+      <button class="btn-rounded plancks25-color" onclick="buscarGrupo()">Search</button>
       <div id="resultado"></div>
     </div>
     <script src="/js/codigos_grupo.js"></script>
