@@ -3,8 +3,8 @@ function buscarGrupo() {
   const codigo = input.toUpperCase();
   const resultado = document.getElementById("resultado");
   if (codigos[codigo]) {
-    resultado.textContent = `Tu grupo es: ${codigos[codigo]}`;
+    resultado.textContent = `You're in the group named: ${codigos[codigo]}`;
   } else {
-    resultado.textContent = "Código no encontrado. Verifica que esté bien escrito.";
+    resultado.textContent = "Code not found. Please verify that it is correctly written.";
   }
 }
