@@ -22,6 +22,13 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
         <div class="sponsor-card">
           <!-- Front side -->
           <div class="sponsor-face sponsor-front">
+            <style>
+              #resultado {
+                color: white; /* Set text color to white */
+                font-size: 1.5rem; /* Make the text larger */
+                font-weight: bold; /* Optional: Makes the text bold */
+              }
+            </style>
             <div id="resultado"></div>
           </div>
           <!-- Back side -->
