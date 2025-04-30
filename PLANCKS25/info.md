@@ -21,7 +21,9 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
       <div class="sponsor-flip-wrapper" onclick="this.querySelector('.sponsor-card').classList.toggle('flipped')">
         <div class="sponsor-card">
           <!-- Front side -->
-          <div id="resultado"></div>
+          <div class="sponsor-face sponsor-front">
+            <div id="resultado"></div>
+          </div>
           <!-- Back side -->
           <div class="sponsor-face sponsor-back">
             <div class="back-scroll">
