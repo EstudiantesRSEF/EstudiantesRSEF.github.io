@@ -18,7 +18,18 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
       <p>Enter your 3-character code (e.g., <code>01a</code>, <code>O22</code>, etc.) to see which group you're in:</p>
       <input type="text" id="codigo" maxlength="3" placeholder="Enter your code.">
       <button class="btn-rounded plancks25-color" onclick="buscarGrupo()">Search</button>
-      <div id="resultado"></div>
+      <div class="sponsor-flip-wrapper" onclick="this.querySelector('.sponsor-card').classList.toggle('flipped')">
+        <div class="sponsor-card">
+          <!-- Front side -->
+          <div id="resultado"></div>
+          <!-- Back side -->
+          <div class="sponsor-face sponsor-back">
+            <div class="back-scroll">
+              <p>Information about this activities will be updated in the future.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="/js/codigos_grupo.js"></script>
     <script src="/js/buscador.js"></script>
