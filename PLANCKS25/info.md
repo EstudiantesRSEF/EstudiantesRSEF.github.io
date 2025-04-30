@@ -34,7 +34,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
           <!-- Back side -->
           <div class="sponsor-face sponsor-back">
             <div class="back-scroll">
-              <p>Information about this activities will be updated in the future.</p>
+              <p>Information about these activities will be updated in the future.</p>
             </div>
           </div>
         </div>
