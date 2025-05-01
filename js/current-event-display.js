@@ -152,48 +152,48 @@ function updateEventDisplay() {
     }
 
     // Next Event Display
-    if (results.nextEvent) {
-        console.log("Rendering next event:", results.nextEvent);
-        nextDisplay.innerHTML = `
-            <div class="single-schedules-inner">
-                ${results.nextEvent.hour ? `
-                    <div class="date">
-                        <i class="fa fa-clock-o"></i>
-                        ${results.nextEvent.hour}
-                        ${results.nextEvent.dayInfo ? `
-                            <span style="color: ${results.nextEvent.dayInfo.day !== results.currentEvent?.dayInfo?.day ? '#00a79d' : 'inherit'}">
-                                (${results.nextEvent.dayInfo.day})
-                            </span>
-                        ` : ''}
-                    </div>
-                    <h5>${results.nextEvent.title}</h5>
-                ` : `
-                    <h5 style="text-align: center;">${results.nextEvent.title}</h5>
-                `}
-                ${(results.nextEvent.suptitle || results.nextEvent.place) ? `
-                    <div class="location-container">
-                        ${results.nextEvent.suptitle ? `
-                            <p class="event-suptitle">${results.nextEvent.suptitle}</p>
-                        ` : ''}
-                        ${results.nextEvent.place ? `
-                            <p class="location">
-                                <i class="fa fa-map-marker"></i>
-                                ${results.nextEvent.map_link ? `
-                                    <a href="${results.nextEvent.map_link}" target="_blank" class="location-link">
-                                        ${results.nextEvent.place}
-                                        <i class="fa fa-external-link"></i>
-                                    </a>
-                                ` : results.nextEvent.place}
-                            </p>
-                        ` : ''}
-                    </div>
-                ` : ''}
-            </div>
-        `;
-      } else {
-          nextDisplay.innerHTML = '<div class="single-schedules-inner"><h5 style="text-align: center;">No upcoming events</h5></div>';
-      }
+    if (nextEvent) {  // Changed from results.nextEvent
+      console.log("Rendering next event:", nextEvent);
+      nextDisplay.innerHTML = `
+          <div class="single-schedules-inner">
+              ${nextEvent.hour ? `
+                  <div class="date">
+                      <i class="fa fa-clock-o"></i>
+                      ${nextEvent.hour}
+                      ${nextEvent.dayInfo ? `
+                          <span style="color: ${nextEvent.dayInfo.day !== currentEvents[0]?.dayInfo?.day ? '#00a79d' : 'inherit'}">
+                              (${nextEvent.dayInfo.day})
+                          </span>
+                      ` : ''}
+                  </div>
+                  <h5>${nextEvent.title}</h5>
+              ` : `
+                  <h5 style="text-align: center;">${nextEvent.title}</h5>
+              `}
+              ${(nextEvent.suptitle || nextEvent.place) ? `
+                  <div class="location-container">
+                      ${nextEvent.suptitle ? `
+                          <p class="event-suptitle">${nextEvent.suptitle}</p>
+                      ` : ''}
+                      ${nextEvent.place ? `
+                          <p class="location">
+                              <i class="fa fa-map-marker"></i>
+                              ${nextEvent.map_link ? `
+                                  <a href="${nextEvent.map_link}" target="_blank" class="location-link">
+                                      ${nextEvent.place}
+                                      <i class="fa fa-external-link"></i>
+                                  </a>
+                              ` : nextEvent.place}
+                          </p>
+                      ` : ''}
+                  </div>
+              ` : ''}
+          </div>
+      `;
+  } else {
+      nextDisplay.innerHTML = '<div class="single-schedules-inner"><h5 style="text-align: center;">No upcoming events</h5></div>';
   }
+}
   
   // Initial update
   updateEventDisplay();
