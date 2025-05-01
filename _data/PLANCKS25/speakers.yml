@@ -21,3 +21,11 @@
   talk_title: ""
   talk_time: "Sunday May 4th, 12:00"
   image: "/img/eventos/2025-PLANCKS/Speakers/BarbaraBuades.jpeg"
+
+- name: "Alexandre Dauphin"
+  institution: "VP Quantum Simulation @ [Pasqal](https://www.pasqal.com/)"
+  role: "Vice President of Quantum Simulation"
+  bio: "Alexandre Dauphin is the Vice President of Quantum Simulation at Pasqal. With over a decade of experience in quantum physics, HPC, and machine learning, he leads a team developing cutting-edge quantum solutions, bridging theory and industry to tackle real-world challenges through innovative, data-driven approaches."
+  talk_title: "Panel Discussion"
+  talk_time: "Sunday May 4th, 17:00"
+  image: "/img/eventos/2025-PLANCKS/Speakers/AlexandreDauphin.jpg"
