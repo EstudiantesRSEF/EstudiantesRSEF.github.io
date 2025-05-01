@@ -88,18 +88,18 @@ document.addEventListener('DOMContentLoaded', function() {
   function findCurrentAndNextEvents() {
     const now = new Date();
     console.log("Current time:", now.toLocaleString());
+    
+    let currentEvent = null;
+    let nextEvent = null;
 
-    // Debug dates being checked
     for (let dayIndex = 0; dayIndex < window.scheduleData.length; dayIndex++) {
         const dayData = window.scheduleData[dayIndex];
         if (!dayData.events || !dayData.date) continue;
         
-        // Parse the event date
         const eventDate = parseEventDate(dayData.date);
         console.log(`\nChecking ${dayData.day}, ${dayData.date}`);
         console.log("Event date parsed as:", eventDate.toLocaleString());
         
-        // Process events for this day
         for (let i = 0; i < dayData.events.length; i++) {
             const event = dayData.events[i];
             if (!event.hour || event.hour.indexOf(" - ") === -1) continue;
@@ -110,12 +110,33 @@ document.addEventListener('DOMContentLoaded', function() {
             console.log(`\nEvent: ${event.title}`);
             console.log(`Time range: ${timeRange.start.toLocaleString()} - ${timeRange.end.toLocaleString()}`);
             console.log(`Is current? ${now >= timeRange.start && now <= timeRange.end}`);
-            console.log(`Is future? ${timeRange.start > now}`);
+            
+            if (now >= timeRange.start && now <= timeRange.end) {
+                currentEvent = {
+                    ...event,
+                    dayInfo: {
+                        day: dayData.day,
+                        date: dayData.date
+                    }
+                };
+            } else if (timeRange.start > now && !nextEvent) {
+                nextEvent = {
+                    ...event,
+                    dayInfo: {
+                        day: dayData.day,
+                        date: dayData.date
+                    },
+                    nextDay: dayIndex > 0
+                };
+            }
         }
     }
+
+    console.log("Current event found:", currentEvent);
+    console.log("Next event found:", nextEvent);
     
     return { currentEvent, nextEvent };
-  }
+}
   
   // Function to create an event card
   function createEventCard(event, isCurrentEvent = false) {
