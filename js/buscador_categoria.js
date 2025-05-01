@@ -1,29 +1,20 @@
 function buscarGrupo() {
   const input = document.getElementById("codigo").value.trim().toLowerCase();
   var groupCard = document.getElementById("group-card");
-  const codigo = input.toUpperCase();
   const resultado = document.getElementById("resultado");
-  const labtour = document.getElementById("labtour");
 
-  let foundLabGroup = null;
+  let foundGroup = null;
   for (let group in lab_codes) {
     if (lab_codes[group].includes(input)) {
-      foundLabGroup = group;
+      foundGroup = group;
       break;
     }
   }
-  
-  if (codigos[codigo]) {
-    resultado.textContent = `You're in the group named: ${codigos[codigo]}`;
-    if(foundLabGroup) {
-      labtour.textContent = `You're in the lab tour to ${foundLabGroup}`;
-    } else {
-      labtour.textContent = `No lab tour assigned`;
-    }
+  if (foundGroup) {
+    resultado.textContent = `You're in the lab tour to ${codigos[codigo]}`;
     groupCard.style.display = "block";
   } else {
-    // resultado.textContent = "Code not found. Please verify that it is correctly written.";
-    alert("Code not found. Please verify that it is correctly written.")
+    resultado.textContent = "No lab tour assigned.";
   }
 }
 
