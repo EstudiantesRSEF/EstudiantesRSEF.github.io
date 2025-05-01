@@ -11,7 +11,7 @@ function buscarGrupo() {
     }
   }
   if (foundGroup) {
-    resultado.textContent = `You're in the lab tour to ${codigos[codigo]}`;
+    resultado.textContent = `You're in the lab tour to ${foundGroup}`;
     groupCard.style.display = "block";
   } else {
     resultado.textContent = "No lab tour assigned.";
