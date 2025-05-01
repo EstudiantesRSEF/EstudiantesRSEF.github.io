@@ -16,32 +16,78 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
     <!-- CURRENT EVENT -->
     <div class="section">
       <div class="plancks25-program">
-        <h1>What's Happening Now?</h1>
+        <h3>What's Happening Now?</h3>
         <div id="current-event-display"></div>
-        <h4>Coming Up Next</h4>
+        <h5>Coming Up Next</h5>
         <div id="next-event-display"></div>
       </div>
     </div>
 
-  <!-- GROUPS FOR CATALAN ACTIVITIES -->
-  <!--  <div class="section">
+  <!-- PARTICIPANT INFO -->
+    <div class="section">
+      <h3>Find here the key info for PLANCKS!</h3>
+      <p>Enter your 3-character code (e.g., <code>01a</code>, <code>O22</code>, etc.) below:</p>
+      <input type="text" id="codigo" maxlength="3" placeholder="Enter your code.">
+      <button class="btn-rounded plancks25-color" onclick="buscarCategoria()">Search</button>
+      <div class="sponsor-flip-wrapper" id="group-card" style="display: none;" onclick="this.querySelector('.sponsor-card').classList.toggle('flipped')">
+        <div class="sponsor-card">
+          <!-- Front side -->
+          <div class="sponsor-face sponsor-front">
+            <style>
+              #room {
+                color: white; 
+                font-size: 1.5rem; 
+                font-weight: bold; 
+              }
+              #lab_group {
+                color: white; 
+                font-size: 1.5rem; 
+                font-weight: bold; 
+              }
+              #cat_group {
+                color: white; 
+                font-size: 1.5rem; 
+                font-weight: bold; 
+              }
+            </style>
+            <!-- <div id="room"></div> -->
+            <div id="lab_group"></div>
+            <div id="cat_group"></div>
+          </div>
+          <!-- Back side -->
+          <div class="sponsor-face sponsor-back">
+            <div class="back-scroll">
+              <p>Please take a screenshot of this info as it will be important throughout the event.</p> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <script src="/js/plancks_rooms.js"></script> -->
+    <script src="/js/lab_groups.js"></script>
+    <script src="/js/codigos_grupo.js"></script>
+    <script src="/js/buscador_categoria.js"></script>
+
+
+  <!-- GROUPS FOR CATALAN ACTIVITIES
+    <div class="section">
       <h3>Find your group for Saturday's Catalan Activities!</h3>
       <p>Enter your 3-character code (e.g., <code>01a</code>, <code>O22</code>, etc.) to see which group you're in:</p>
       <input type="text" id="codigo" maxlength="3" placeholder="Enter your code.">
       <button class="btn-rounded plancks25-color" onclick="buscarGrupo()">Search</button>
       <div class="sponsor-flip-wrapper" id="group-card" style="display: none;" onclick="this.querySelector('.sponsor-card').classList.toggle('flipped')">
-        <div class="sponsor-card"> -->
+        <div class="sponsor-card">
           <!-- Front side 
           <div class="sponsor-face sponsor-front">
             <style>
               #resultado {
-                color: white; /* Set text color to white */
-                font-size: 1.5rem; /* Make the text larger */
-                font-weight: bold; /* Optional: Makes the text bold */
+                color: white; 
+                font-size: 1.5rem; 
+                font-weight: bold; 
               }
             </style>
             <div id="resultado"></div>
-          </div> -->
+          </div>
           <!-- Back side 
           <div class="sponsor-face sponsor-back">
             <div class="back-scroll">
@@ -52,7 +98,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
       </div>
     </div>
     <script src="/js/codigos_grupo.js"></script>
-    <script src="/js/buscador.js"></script> -->
+    <script src="/js/buscador.js"></script>
 
     <!-- SPONSORS -->	  
     <div class="section">
