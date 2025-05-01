@@ -5,19 +5,13 @@
  */
 
 document.addEventListener('DOMContentLoaded', function() {
-  // Schedule data will be loaded from Jekyll in the HTML template
-  // We expect scheduleData to be populated with the site.data.PLANCKS25.schedule content
-  
-  // Function to parse time strings like "10:00 - 18:00" into Date objects
   function parseTimeRange(timeString, dateObj) {
     if (!timeString || timeString.indexOf(" - ") === -1) return null;
     
     const [startTime, endTime] = timeString.split(" - ");
     
-    // Create date objects for start and end times
     let startHour, startMinute, endHour, endMinute;
     
-    // Handle special cases like "Late"
     if (startTime === "Late") {
       startHour = 23; 
       startMinute = 0;
@@ -40,32 +34,11 @@ document.addEventListener('DOMContentLoaded', function() {
     startDate.setHours(startHour, startMinute, 0);
     
     const endDate = new Date(dateObj);
-    endDate.setHours(endHour, endMinute, 59); // Add 59 seconds to include the entire minute
+    endDate.setHours(endHour, endMinute, 59);
     
     return { start: startDate, end: endDate };
   }
   
-  // Function to get day of week as a string
-  function getDayOfWeek(date) {
-    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    return days[date.getDay()];
-  }
-  
-  // Function to format date as "Month Day" (e.g., "May 1st")
-  function formatDate(date) {
-    const month = date.toLocaleString('default', { month: 'long' });
-    const day = date.getDate();
-    
-    // Add ordinal suffix
-    let suffix = "th";
-    if (day === 1 || day === 21 || day === 31) suffix = "st";
-    else if (day === 2 || day === 22) suffix = "nd";
-    else if (day === 3 || day === 23) suffix = "rd";
-    
-    return `${month} ${day}${suffix}`;
-  }
-  
-  // Function to parse event date from string format (e.g., "May 1st")
   function parseEventDate(dateStr) {
     const monthNames = ["January", "February", "March", "April", "May", "June", 
                       "July", "August", "September", "October", "November", "December"];
@@ -80,11 +53,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const dayMatch = dateStr.match(/(\d+)(st|nd|rd|th)?/);
     const day = dayMatch ? parseInt(dayMatch[1], 10) : 1;
     
-    // Use 2025 instead of current year
     return new Date(2025, month, day);
   }
   
-  // Function to find current and next events
   function findCurrentAndNextEvents() {
     const now = new Date();
     console.log("Current time:", now.toLocaleString());
@@ -136,50 +107,8 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log("Next event found:", nextEvent);
     
     return { currentEvent, nextEvent };
-}
-  
-  // Function to create an event card
-  function createEventCard(event, isCurrentEvent = false) {
-    if (!event) return "";
-    
-    const cardClass = isCurrentEvent ? "current-event" : "next-event";
-    
-    let nextDayInfo = '';
-    if (event.nextDay && event.dayInfo) {
-      nextDayInfo = `<div class="next-day-info">${event.dayInfo.day}, ${event.dayInfo.date}</div>`;
-    }
-    
-    return `
-      <div class="single-schedules-inner ${cardClass}">
-        ${event.hour ? `
-          <div class="date">
-            <i class="fa fa-clock-o"></i>
-            ${event.hour}
-          </div>
-        ` : ''}
-        ${event.hour ? `<h5>${event.title}</h5>` : `<h5 style="text-align: center;">${event.title}</h5>`}
-        ${(event.suptitle || event.place) ? `
-          <div class="location-container">
-            ${event.suptitle ? `<p class="event-suptitle">${event.suptitle}</p>` : ''}
-            ${event.place ? `
-              <p class="location">
-                <i class="fa fa-map-marker"></i>
-                ${event.map_link ? `
-                  <a href="${event.map_link}" target="_blank" class="location-link">
-                    ${event.place}
-                    <i class="fa fa-external-link"></i>
-                  </a>
-                ` : event.place}
-              </p>
-            ` : ''}
-          </div>
-        ` : ''}
-        ${nextDayInfo}
-      </div>
-    `;
   }
-  
-  // Function to update the display
+
   function updateEventDisplay() {
     const { currentEvent, nextEvent } = findCurrentAndNextEvents();
     
@@ -189,78 +118,47 @@ document.addEventListener('DOMContentLoaded', function() {
     let htmlContent = '';
     
     if (currentEvent) {
-      htmlContent += `
-        <div class="event-status-section">
-          <h3>HAPPENING NOW</h3>
-          ${createEventCard(currentEvent, true)}
+      htmlContent = `
+        <div class="single-schedules-inner">
+          ${currentEvent.hour ? `
+              <div class="date">
+                  <i class="fa fa-clock-o"></i>
+                  ${currentEvent.hour}
+              </div>
+              <h5>${currentEvent.title}</h5>
+          ` : `
+              <h5 style="text-align: center;">${currentEvent.title}</h5>
+          `}
+          ${(currentEvent.suptitle || currentEvent.place) ? `
+              <div class="location-container">
+                  ${currentEvent.suptitle ? `
+                      <p class="event-suptitle">${currentEvent.suptitle}</p>
+                  ` : ''}
+                  ${currentEvent.place ? `
+                      <p class="location">
+                          <i class="fa fa-map-marker"></i>
+                          ${currentEvent.map_link ? `
+                              <a href="${currentEvent.map_link}" target="_blank" class="location-link">
+                                  ${currentEvent.place}
+                                  <i class="fa fa-external-link"></i>
+                              </a>
+                          ` : currentEvent.place}
+                      </p>
+                  ` : ''}
+              </div>
+          ` : ''}
         </div>
       `;
     } else {
-      htmlContent += `
-        <div class="event-status-section">
-          <h3>NO CURRENT EVENT</h3>
-          <p>There is no event happening right now.</p>
-        </div>
-      `;
-    }
-    
-    if (nextEvent) {
-      htmlContent += `
-        <div class="event-status-section">
-          <h3>COMING UP NEXT</h3>
-          ${createEventCard(nextEvent)}
-        </div>
-      `;
+      htmlContent = '<div class="single-schedules-inner"><h5 style="text-align: center;">No events happening right now</h5></div>';
     }
     
     displayElement.innerHTML = htmlContent;
   }
   
-  // Add custom CSS for highlighting current events
-  const style = document.createElement('style');
-  style.innerHTML = `
-    .current-event {
-      background-color: rgba(76, 175, 80, 0.1);
-      border-left: 4px solid #4CAF50;
-      padding: 15px;
-      margin-bottom: 15px;
-      border-radius: 4px;
-    }
-    
-    .next-event {
-      background-color: rgba(33, 150, 243, 0.1);
-      border-left: 4px solid #2196F3;
-      padding: 15px;
-      margin-bottom: 15px;
-      border-radius: 4px;
-    }
-    
-    .event-status-section {
-      margin-bottom: 30px;
-    }
-    
-    .event-status-section h3 {
-      font-size: 1.2rem;
-      font-weight: bold;
-      margin-bottom: 15px;
-      color: #333;
-    }
-    
-    .next-day-info {
-      font-size: 0.9rem;
-      font-style: italic;
-      color: #666;
-      margin-top: 5px;
-    }
-  `;
-  document.head.appendChild(style);
-  
-  // For testing: Log the schedule data to console
-  console.log("Schedule data:", window.scheduleData);
-  
-  // Update the display initially
+  // Initial update
   updateEventDisplay();
   
-  // Update the display every minute
+  // Update every minute
   setInterval(updateEventDisplay, 60000);
 });
