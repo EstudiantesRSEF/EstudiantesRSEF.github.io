@@ -1,4 +1,4 @@
-function buscarGrupo() {
+function buscarLab() {
   const input = document.getElementById("codigo").value.trim().toLowerCase();
   var groupCard = document.getElementById("group-card");
   const resultado = document.getElementById("resultado");
