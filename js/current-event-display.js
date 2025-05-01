@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const now = new Date();
     console.log("Current time:", now.toLocaleString());
     
-    let currentEvent = null;
+    let currentEvents = [];
     let nextEvent = null;
 
     for (let dayIndex = 0; dayIndex < window.scheduleData.length; dayIndex++) {
@@ -80,16 +80,15 @@ document.addEventListener('DOMContentLoaded', function() {
             
             console.log(`\nEvent: ${event.title}`);
             console.log(`Time range: ${timeRange.start.toLocaleString()} - ${timeRange.end.toLocaleString()}`);
-            console.log(`Is current? ${now >= timeRange.start && now <= timeRange.end}`);
             
             if (now >= timeRange.start && now <= timeRange.end) {
-                currentEvent = {
+                currentEvents.push({
                     ...event,
                     dayInfo: {
                         day: dayData.day,
                         date: dayData.date
                     }
-                };
+                });
             } else if (timeRange.start > now && !nextEvent) {
                 nextEvent = {
                     ...event,
@@ -103,52 +102,51 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    console.log("Current event found:", currentEvent);
+    console.log("Current events found:", currentEvents);
     console.log("Next event found:", nextEvent);
     
-    return { currentEvent, nextEvent };
-  }
+    return { currentEvents, nextEvent };
+}
 
-  function updateEventDisplay() {
-    const results = findCurrentAndNextEvents();
-    console.log("Update results:", results);
+function updateEventDisplay() {
+    const { currentEvents, nextEvent } = findCurrentAndNextEvents();
     
     const currentDisplay = document.getElementById('current-event-display');
     const nextDisplay = document.getElementById('next-event-display');
     
-    // Current Event Display
-    if (results.currentEvent) {
-        currentDisplay.innerHTML = `
+    // Current Events Display
+    if (currentEvents.length > 0) {
+        currentDisplay.innerHTML = currentEvents.map(event => `
             <div class="single-schedules-inner">
-                ${results.currentEvent.hour ? `
+                ${event.hour ? `
                     <div class="date">
                         <i class="fa fa-clock-o"></i>
-                        ${results.currentEvent.hour}
+                        ${event.hour}
                     </div>
-                    <h5>${results.currentEvent.title}</h5>
+                    <h5>${event.title}</h5>
                 ` : `
-                    <h5 style="text-align: center;">${results.currentEvent.title}</h5>
+                    <h5 style="text-align: center;">${event.title}</h5>
                 `}
-                ${(results.currentEvent.suptitle || results.currentEvent.place) ? `
+                ${(event.suptitle || event.place) ? `
                     <div class="location-container">
-                        ${results.currentEvent.suptitle ? `
-                            <p class="event-suptitle">${results.currentEvent.suptitle}</p>
+                        ${event.suptitle ? `
+                            <p class="event-suptitle">${event.suptitle}</p>
                         ` : ''}
-                        ${results.currentEvent.place ? `
+                        ${event.place ? `
                             <p class="location">
                                 <i class="fa fa-map-marker"></i>
-                                ${results.currentEvent.map_link ? `
-                                    <a href="${results.currentEvent.map_link}" target="_blank" class="location-link">
-                                        ${results.currentEvent.place}
+                                ${event.map_link ? `
+                                    <a href="${event.map_link}" target="_blank" class="location-link">
+                                        ${event.place}
                                         <i class="fa fa-external-link"></i>
                                     </a>
-                                ` : results.currentEvent.place}
+                                ` : event.place}
                             </p>
                         ` : ''}
                     </div>
                 ` : ''}
             </div>
-        `;
+        `).join('');
     } else {
         currentDisplay.innerHTML = '<div class="single-schedules-inner"><h5 style="text-align: center;">No events happening right now</h5></div>';
     }
