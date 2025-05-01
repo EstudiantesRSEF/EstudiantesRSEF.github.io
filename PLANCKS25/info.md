@@ -6,13 +6,15 @@ description: "Real time info for participants"
 thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
 ---
 
+<meta http-equiv="refresh" content="0; url=https://estudiantes.rsef.es/PLANCKS25/Program/"/>
+
 <div class="no-pad-top" id="index-page">
   <div class="container">
 <!-- BANNER -->
     <div class="section">
       <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
     </div>
-<!-- GROUPS FOR CATALAN ACTIVITIES -->
+<!-- GROUPS FOR CATALAN ACTIVITIES 
     <div class="section">
       <h3>Find your group for Saturday's Catalan Activities!</h3>
       <p>Enter your 3-character code (e.g., <code>01a</code>, <code>O22</code>, etc.) to see which group you're in:</p>
@@ -20,7 +22,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
       <button class="btn-rounded plancks25-color" onclick="buscarGrupo()">Search</button>
       <div class="sponsor-flip-wrapper" id="group-card" style="display: none;" onclick="this.querySelector('.sponsor-card').classList.toggle('flipped')">
         <div class="sponsor-card">
-          <!-- Front side -->
+          <!-- Front side 
           <div class="sponsor-face sponsor-front">
             <style>
               #resultado {
@@ -31,7 +33,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
             </style>
             <div id="resultado"></div>
           </div>
-          <!-- Back side -->
+          <!-- Back side 
           <div class="sponsor-face sponsor-back">
             <div class="back-scroll">
               <p>Information about these activities will be updated in the future.</p>
