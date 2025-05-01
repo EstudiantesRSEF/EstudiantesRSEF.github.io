@@ -67,82 +67,51 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Function to parse event date from string format (e.g., "May 1st")
   function parseEventDate(dateStr) {
-    // Extract month name
     const monthNames = ["January", "February", "March", "April", "May", "June", 
                       "July", "August", "September", "October", "November", "December"];
     let month = -1;
     for (let i = 0; i < monthNames.length; i++) {
-      if (dateStr.includes(monthNames[i])) {
-        month = i; // 0-based index
-        break;
-      }
+        if (dateStr.includes(monthNames[i])) {
+            month = i;
+            break;
+        }
     }
     
-    // Parse day number (remove any ordinal indicators like "st", "nd", "rd", "th")
     const dayMatch = dateStr.match(/(\d+)(st|nd|rd|th)?/);
     const day = dayMatch ? parseInt(dayMatch[1], 10) : 1;
     
-    // Create a proper date object for the event day
-    return new Date(new Date().getFullYear(), month, day);
+    // Use 2025 instead of current year
+    return new Date(2025, month, day);
   }
   
   // Function to find current and next events
   function findCurrentAndNextEvents() {
-    // Get the current date and time
     const now = new Date();
-    
-    let currentEvent = null;
-    let nextEvent = null;
-    let nextEventTime = Infinity;
-    
-    // Loop through each day in the schedule
+    console.log("Current time:", now.toLocaleString());
+
+    // Debug dates being checked
     for (let dayIndex = 0; dayIndex < window.scheduleData.length; dayIndex++) {
-      const dayData = window.scheduleData[dayIndex];
-      if (!dayData.events || !dayData.date) continue;
-      
-      // Parse the event date
-      const eventDate = parseEventDate(dayData.date);
-      
-      // Skip days before today
-      if (eventDate < new Date(now.getFullYear(), now.getMonth(), now.getDate())) {
-        continue;
-      }
-      
-      // Process events for this day
-      for (let i = 0; i < dayData.events.length; i++) {
-        const event = dayData.events[i];
+        const dayData = window.scheduleData[dayIndex];
+        if (!dayData.events || !dayData.date) continue;
         
-        // Skip events without time information
-        if (!event.hour || event.hour.indexOf(" - ") === -1) continue;
+        // Parse the event date
+        const eventDate = parseEventDate(dayData.date);
+        console.log(`\nChecking ${dayData.day}, ${dayData.date}`);
+        console.log("Event date parsed as:", eventDate.toLocaleString());
         
-        // Parse the time range
-        const timeRange = parseTimeRange(event.hour, eventDate);
-        if (!timeRange) continue;
-        
-        // Check if this event is happening now
-        if (now >= timeRange.start && now <= timeRange.end) {
-          if (!currentEvent) {
-            currentEvent = { ...event, dayInfo: { day: dayData.day, date: dayData.date } };
-          }
+        // Process events for this day
+        for (let i = 0; i < dayData.events.length; i++) {
+            const event = dayData.events[i];
+            if (!event.hour || event.hour.indexOf(" - ") === -1) continue;
+            
+            const timeRange = parseTimeRange(event.hour, eventDate);
+            if (!timeRange) continue;
+            
+            console.log(`\nEvent: ${event.title}`);
+            console.log(`Time range: ${timeRange.start.toLocaleString()} - ${timeRange.end.toLocaleString()}`);
+            console.log(`Is current? ${now >= timeRange.start && now <= timeRange.end}`);
+            console.log(`Is future? ${timeRange.start > now}`);
         }
-        // Check if this event is in the future and is the next upcoming event
-        else if (timeRange.start > now && timeRange.start.getTime() < nextEventTime) {
-          nextEvent = { ...event, dayInfo: { day: dayData.day, date: dayData.date } };
-          nextEventTime = timeRange.start.getTime();
-          
-          // Mark if this event is on a different day than today
-          if (eventDate.getDate() !== now.getDate() || 
-              eventDate.getMonth() !== now.getMonth()) {
-            nextEvent.nextDay = true;
-          }
-        }
-      }
-      
-      // If we found a current event but no next event yet, keep looking in future days
-      if (currentEvent && !nextEvent) continue;
-      
-      // If we found both current and next events, we can stop searching
-      if (currentEvent && nextEvent) break;
     }
     
     return { currentEvent, nextEvent };
