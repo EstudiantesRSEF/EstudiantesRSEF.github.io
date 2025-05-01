@@ -30,17 +30,17 @@
 - day: "Friday"
   date: "May 2nd"
   events:
-      - hour: "07:30 - 08:30"
+      - hour: "08:00 - 09:00"
         title: "Breakfast"
         place: "Alberg La Conreria"
         map_link: "https://maps.app.goo.gl/GPDaoCJVfkJix3xh6"
         suptitle:
-      - hour: "08:30 - 9:30"
+      - hour: "08:30 - 09:30"
         title: "Bus to Lab Tours"
         place: "Alberg La Conreria"
         map_link: "https://maps.app.goo.gl/GPDaoCJVfkJix3xh6"
         suptitle: 
-      - hour: "09:30 - 13:00"
+      - hour: "09:00 - 13:00"
         title: "Lab Tour"
         place:
         suptitle: "ALBA / ICFO / Qilimanjaro / BSC"
@@ -83,12 +83,12 @@
   date: "May 3th"
   events:
       - title: "Official PLANCKS25 T-shirt day"
-      - hour: "07:30 - 08:30"
+      - hour: "08:00 - 08:30"
         title: "Breakfast"
         place: "Alberg La Conreria"
         map_link: "https://maps.app.goo.gl/GPDaoCJVfkJix3xh6"
         suptitle:
-      - hour: "08:30 - 09:00"
+      - hour: "08: - 09:00"
         title: "Bus to UAB"
         place: "Alberg La Conreria"
         map_link: "https://maps.app.goo.gl/GPDaoCJVfkJix3xh6"
@@ -152,7 +152,7 @@
         place: "Alberg La Conreria"
         map_link: "https://maps.app.goo.gl/GPDaoCJVfkJix3xh6"
         suptitle:
-      - hour: "9:30 - 10:00"
+      - hour: "09:30 - 10:00"
         title: "Bus to UPC"
         place: "Alberg La Conreria"
         map_link: "https://maps.app.goo.gl/GPDaoCJVfkJix3xh6"
@@ -167,7 +167,7 @@
         place: "ETSAB - Escola Tècnica Superior d'Arquitectura de Barcelona"
         suptitle:
         map_link: "https://maps.app.goo.gl/RV1QYBMue67Rod22A"
-      - hour: "13:00 - 14:00"
+      - hour: "13:00 - 16:00"
         title: "Posters Session"
         place: "ETSAB - Escola Tècnica Superior d'Arquitectura de Barcelona"
         map_link: "https://maps.app.goo.gl/RV1QYBMue67Rod22A"
