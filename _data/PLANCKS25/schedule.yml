@@ -25,6 +25,7 @@
         title: "Pizza Time"
         place: 
         suptitle: "Dinner by Telepizza"
+        sponsor: "/img/eventos/2025-PLANCKS/sponsors/telepizza.png"
         
 - day: "Friday"
   date: "May 2nd"
@@ -176,6 +177,7 @@
         place: "ETSAB - Escola Tècnica Superior d'Arquitectura de Barcelona"
         map_link: "https://maps.app.goo.gl/RV1QYBMue67Rod22A" 
         suptitle: "Lunch by Telepizza"
+        sponsor: "/img/eventos/2025-PLANCKS/sponsors/telepizza.png"
       - hour: "16:00 - 16:30"
         title: "Bus to CosmoCaixa"
         place: "ETSAB - Escola Tècnica Superior d'Arquitectura de Barcelona"
@@ -190,6 +192,7 @@
         title: "Dinner"
         place:
         suptitle: "Dinner by Tort"
+        sponsor: "/img/eventos/2025-PLANCKS/sponsors/tort.jpeg"
       - hour: "20:00 - 22:00"
         title: "CosmoNits"
         place: "Museo CosmoCaixa"
