@@ -1,5 +1,6 @@
 function buscarCategoria() {
   const input = document.getElementById("codigo").value.trim().toLowerCase();
+  const codigo = input.toUpperCase();
   
   var groupCard = document.getElementById("group-card");
   // const room = document.getElementById("room");
@@ -14,7 +15,7 @@ function buscarCategoria() {
     }
   }
 
-  if (codigos[input]) {
+  if (codigos[codigo]) {
     // room.textContent = `You're in the room: ${foundRoom}`;
     cat_group.textContent = `You're in the gymkhana group: ${codigos[codigo]}`;
     groupCard.style.display = "block";
