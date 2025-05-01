@@ -6,22 +6,31 @@ description: "Real time info for participants"
 thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
 ---
 
-<meta http-equiv="refresh" content="0; url=https://estudiantes.rsef.es/PLANCKS25/Program/"/>
-
 <div class="no-pad-top" id="index-page">
   <div class="container">
-<!-- BANNER -->
+    <!-- BANNER -->
     <div class="section">
       <img class="materialboxed" width="100%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png">
     </div>
-<!-- GROUPS FOR CATALAN ACTIVITIES 
+
+    <!-- CURRENT EVENT -->
     <div class="section">
+      <div class="plancks25-program">
+        <h1>What's Happening Now?</h1>
+        <div id="current-event-display"></div>
+        <h4>Coming Up Next</h4>
+        <div id="next-event-display"></div>
+      </div>
+    </div>
+
+  <!-- GROUPS FOR CATALAN ACTIVITIES -->
+  <!--  <div class="section">
       <h3>Find your group for Saturday's Catalan Activities!</h3>
       <p>Enter your 3-character code (e.g., <code>01a</code>, <code>O22</code>, etc.) to see which group you're in:</p>
       <input type="text" id="codigo" maxlength="3" placeholder="Enter your code.">
       <button class="btn-rounded plancks25-color" onclick="buscarGrupo()">Search</button>
       <div class="sponsor-flip-wrapper" id="group-card" style="display: none;" onclick="this.querySelector('.sponsor-card').classList.toggle('flipped')">
-        <div class="sponsor-card">
+        <div class="sponsor-card"> -->
           <!-- Front side 
           <div class="sponsor-face sponsor-front">
             <style>
@@ -32,7 +41,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
               }
             </style>
             <div id="resultado"></div>
-          </div>
+          </div> -->
           <!-- Back side 
           <div class="sponsor-face sponsor-back">
             <div class="back-scroll">
@@ -43,10 +52,19 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
       </div>
     </div>
     <script src="/js/codigos_grupo.js"></script>
-    <script src="/js/buscador.js"></script>
-<!-- SPONSORS -->	  
+    <script src="/js/buscador.js"></script> -->
+
+    <!-- SPONSORS -->	  
     <div class="section">
       {% include patrocinadores.html sponsors=site.data.PLANCKS25.multiple.sponsors %}    
     </div>   
   </div>
 </div>
+
+<script>
+  // Make the schedule data available to our script
+  window.scheduleData = {{ site.data.PLANCKS25.schedule | jsonify }};
+</script>
+
+<!-- Include our custom script -->
+<script src="{{ '/js/current-event-display.js' | relative_url }}"></script>
