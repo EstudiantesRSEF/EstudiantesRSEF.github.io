@@ -1,5 +1,5 @@
 function buscarCategoria() {
-  const input = document.getElementById("codigo").value.trim().toUpperCase();
+  const input = document.getElementById("codigo").value.trim().toLowerCase();
   
   var groupCard = document.getElementById("group-card");
   // const room = document.getElementById("room");
