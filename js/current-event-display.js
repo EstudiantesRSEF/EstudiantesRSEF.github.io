@@ -9,21 +9,38 @@ document.addEventListener('DOMContentLoaded', function() {
   // We expect scheduleData to be populated with the site.data.PLANCKS25.schedule content
   
   // Function to parse time strings like "10:00 - 18:00" into Date objects
-  function parseTimeRange(timeString, currentDate) {
+  function parseTimeRange(timeString, dateObj) {
+    if (!timeString || timeString.indexOf(" - ") === -1) return null;
+    
     const [startTime, endTime] = timeString.split(" - ");
     
     // Create date objects for start and end times
-    const startHour = parseInt(startTime.split(":")[0]);
-    const startMinute = parseInt(startTime.split(":")[1]);
+    let startHour, startMinute, endHour, endMinute;
     
-    const endHour = parseInt(endTime.split(":")[0]);
-    const endMinute = parseInt(endTime.split(":")[1]);
+    // Handle special cases like "Late"
+    if (startTime === "Late") {
+      startHour = 23; 
+      startMinute = 0;
+    } else {
+      const startParts = startTime.split(":");
+      startHour = parseInt(startParts[0], 10);
+      startMinute = parseInt(startParts[1], 10);
+    }
     
-    const startDate = new Date(currentDate);
+    if (endTime === "Late") {
+      endHour = 23;
+      endMinute = 59;
+    } else {
+      const endParts = endTime.split(":");
+      endHour = parseInt(endParts[0], 10);
+      endMinute = parseInt(endParts[1], 10);
+    }
+    
+    const startDate = new Date(dateObj);
     startDate.setHours(startHour, startMinute, 0);
     
-    const endDate = new Date(currentDate);
-    endDate.setHours(endHour, endMinute, 0);
+    const endDate = new Date(dateObj);
+    endDate.setHours(endHour, endMinute, 59); // Add 59 seconds to include the entire minute
     
     return { start: startDate, end: endDate };
   }
@@ -48,25 +65,12 @@ document.addEventListener('DOMContentLoaded', function() {
     return `${month} ${day}${suffix}`;
   }
   
-  // Function to find current and next events
-  // Function to find current and next events
-function findCurrentAndNextEvents() {
-  // Get the current date and time
-  const now = new Date();
-  
-  const currentDayOfWeek = getDayOfWeek(now);
-  const currentFormattedDate = formatDate(now);
-  
-  // Add this: Parse the actual event date based on the day and date strings
-  function getEventDate(dayData) {
-    // Try to extract a year, month, and day from the date string
-    const dateStr = dayData.date;
-    const currentYear = now.getFullYear();
-    
-    // Parse month name
-    let month;
+  // Function to parse event date from string format (e.g., "May 1st")
+  function parseEventDate(dateStr) {
+    // Extract month name
     const monthNames = ["January", "February", "March", "April", "May", "June", 
-                        "July", "August", "September", "October", "November", "December"];
+                      "July", "August", "September", "October", "November", "December"];
+    let month = -1;
     for (let i = 0; i < monthNames.length; i++) {
       if (dateStr.includes(monthNames[i])) {
         month = i; // 0-based index
@@ -75,21 +79,75 @@ function findCurrentAndNextEvents() {
     }
     
     // Parse day number (remove any ordinal indicators like "st", "nd", "rd", "th")
-    const dayMatch = dateStr.match(/(\d+)(st|nd|rd|th)/);
-    const day = dayMatch ? parseInt(dayMatch[1]) : 1;
+    const dayMatch = dateStr.match(/(\d+)(st|nd|rd|th)?/);
+    const day = dayMatch ? parseInt(dayMatch[1], 10) : 1;
     
     // Create a proper date object for the event day
-    return new Date(currentYear, month, day);
+    return new Date(new Date().getFullYear(), month, day);
   }
   
-  // Find the schedule for the current day - filter by actual date, not just day name
-  const todaySchedule = window.scheduleData.find(day => {
-    const eventDate = getEventDate(day);
-    return eventDate.getDate() === now.getDate() && 
-           eventDate.getMonth() === now.getMonth() && 
-           eventDate.getFullYear() === now.getFullYear();
-  });
-
+  // Function to find current and next events
+  function findCurrentAndNextEvents() {
+    // Get the current date and time
+    const now = new Date();
+    
+    let currentEvent = null;
+    let nextEvent = null;
+    let nextEventTime = Infinity;
+    
+    // Loop through each day in the schedule
+    for (let dayIndex = 0; dayIndex < window.scheduleData.length; dayIndex++) {
+      const dayData = window.scheduleData[dayIndex];
+      if (!dayData.events || !dayData.date) continue;
+      
+      // Parse the event date
+      const eventDate = parseEventDate(dayData.date);
+      
+      // Skip days before today
+      if (eventDate < new Date(now.getFullYear(), now.getMonth(), now.getDate())) {
+        continue;
+      }
+      
+      // Process events for this day
+      for (let i = 0; i < dayData.events.length; i++) {
+        const event = dayData.events[i];
+        
+        // Skip events without time information
+        if (!event.hour || event.hour.indexOf(" - ") === -1) continue;
+        
+        // Parse the time range
+        const timeRange = parseTimeRange(event.hour, eventDate);
+        if (!timeRange) continue;
+        
+        // Check if this event is happening now
+        if (now >= timeRange.start && now <= timeRange.end) {
+          if (!currentEvent) {
+            currentEvent = { ...event, dayInfo: { day: dayData.day, date: dayData.date } };
+          }
+        }
+        // Check if this event is in the future and is the next upcoming event
+        else if (timeRange.start > now && timeRange.start.getTime() < nextEventTime) {
+          nextEvent = { ...event, dayInfo: { day: dayData.day, date: dayData.date } };
+          nextEventTime = timeRange.start.getTime();
+          
+          // Mark if this event is on a different day than today
+          if (eventDate.getDate() !== now.getDate() || 
+              eventDate.getMonth() !== now.getMonth()) {
+            nextEvent.nextDay = true;
+          }
+        }
+      }
+      
+      // If we found a current event but no next event yet, keep looking in future days
+      if (currentEvent && !nextEvent) continue;
+      
+      // If we found both current and next events, we can stop searching
+      if (currentEvent && nextEvent) break;
+    }
+    
+    return { currentEvent, nextEvent };
+  }
+  
   // Function to create an event card
   function createEventCard(event, isCurrentEvent = false) {
     if (!event) return "";
@@ -103,12 +161,13 @@ function findCurrentAndNextEvents() {
     
     return `
       <div class="single-schedules-inner ${cardClass}">
-        <div class="date">
-          <i class="fa fa-clock-o"></i>
-          ${event.hour}
-          ${nextDayInfo}
-        </div>
-        <h5>${event.title}</h5>
+        ${event.hour ? `
+          <div class="date">
+            <i class="fa fa-clock-o"></i>
+            ${event.hour}
+          </div>
+        ` : ''}
+        ${event.hour ? `<h5>${event.title}</h5>` : `<h5 style="text-align: center;">${event.title}</h5>`}
         ${(event.suptitle || event.place) ? `
           <div class="location-container">
             ${event.suptitle ? `<p class="event-suptitle">${event.suptitle}</p>` : ''}
@@ -125,13 +184,14 @@ function findCurrentAndNextEvents() {
             ` : ''}
           </div>
         ` : ''}
+        ${nextDayInfo}
       </div>
     `;
-  }}
+  }
   
   // Function to update the display
   function updateEventDisplay() {
-    const { currentEvent, nextEvent, message } = findCurrentAndNextEvents();
+    const { currentEvent, nextEvent } = findCurrentAndNextEvents();
     
     const displayElement = document.getElementById('current-event-display');
     if (!displayElement) return;
@@ -149,7 +209,7 @@ function findCurrentAndNextEvents() {
       htmlContent += `
         <div class="event-status-section">
           <h3>NO CURRENT EVENT</h3>
-          <p>There is no event happening right now</p>
+          <p>There is no event happening right now.</p>
         </div>
       `;
     }
@@ -172,11 +232,17 @@ function findCurrentAndNextEvents() {
     .current-event {
       background-color: rgba(76, 175, 80, 0.1);
       border-left: 4px solid #4CAF50;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 4px;
     }
     
     .next-event {
       background-color: rgba(33, 150, 243, 0.1);
       border-left: 4px solid #2196F3;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 4px;
     }
     
     .event-status-section {
@@ -198,6 +264,9 @@ function findCurrentAndNextEvents() {
     }
   `;
   document.head.appendChild(style);
+  
+  // For testing: Log the schedule data to console
+  console.log("Schedule data:", window.scheduleData);
   
   // Update the display initially
   updateEventDisplay();
