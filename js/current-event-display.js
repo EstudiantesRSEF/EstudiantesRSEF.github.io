@@ -112,48 +112,88 @@ document.addEventListener('DOMContentLoaded', function() {
   function updateEventDisplay() {
     const { currentEvent, nextEvent } = findCurrentAndNextEvents();
     
-    const displayElement = document.getElementById('current-event-display');
-    if (!displayElement) return;
+    const currentDisplay = document.getElementById('current-event-display');
+    const nextDisplay = document.getElementById('next-event-display');
+    if (!currentDisplay || !nextDisplay) return;
     
-    let htmlContent = '';
-    
+    // Current Event
     if (currentEvent) {
-      htmlContent = `
-        <div class="single-schedules-inner">
-          ${currentEvent.hour ? `
-              <div class="date">
-                  <i class="fa fa-clock-o"></i>
-                  ${currentEvent.hour}
-              </div>
-              <h5>${currentEvent.title}</h5>
-          ` : `
-              <h5 style="text-align: center;">${currentEvent.title}</h5>
-          `}
-          ${(currentEvent.suptitle || currentEvent.place) ? `
-              <div class="location-container">
-                  ${currentEvent.suptitle ? `
-                      <p class="event-suptitle">${currentEvent.suptitle}</p>
-                  ` : ''}
-                  ${currentEvent.place ? `
-                      <p class="location">
-                          <i class="fa fa-map-marker"></i>
-                          ${currentEvent.map_link ? `
-                              <a href="${currentEvent.map_link}" target="_blank" class="location-link">
-                                  ${currentEvent.place}
-                                  <i class="fa fa-external-link"></i>
-                              </a>
-                          ` : currentEvent.place}
-                      </p>
-                  ` : ''}
-              </div>
-          ` : ''}
-        </div>
-      `;
+        currentDisplay.innerHTML = `
+            <div class="single-schedules-inner">
+                ${currentEvent.hour ? `
+                    <div class="date">
+                        <i class="fa fa-clock-o"></i>
+                        ${currentEvent.hour}
+                    </div>
+                    <h5>${currentEvent.title}</h5>
+                ` : `
+                    <h5 style="text-align: center;">${currentEvent.title}</h5>
+                `}
+                ${(currentEvent.suptitle || currentEvent.place) ? `
+                    <div class="location-container">
+                        ${currentEvent.suptitle ? `
+                            <p class="event-suptitle">${currentEvent.suptitle}</p>
+                        ` : ''}
+                        ${currentEvent.place ? `
+                            <p class="location">
+                                <i class="fa fa-map-marker"></i>
+                                ${currentEvent.map_link ? `
+                                    <a href="${currentEvent.map_link}" target="_blank" class="location-link">
+                                        ${currentEvent.place}
+                                        <i class="fa fa-external-link"></i>
+                                    </a>
+                                ` : currentEvent.place}
+                            </p>
+                        ` : ''}
+                    </div>
+                ` : ''}
+            </div>
+        `;
     } else {
-      htmlContent = '<div class="single-schedules-inner"><h5 style="text-align: center;">No events happening right now</h5></div>';
+        currentDisplay.innerHTML = '<div class="single-schedules-inner"><h5 style="text-align: center;">No events happening right now</h5></div>';
     }
-    
-    displayElement.innerHTML = htmlContent;
+
+    // Next Event
+    if (nextEvent) {
+        nextDisplay.innerHTML = `
+            <div class="single-schedules-inner">
+                ${nextEvent.hour ? `
+                    <div class="date">
+                        <i class="fa fa-clock-o"></i>
+                        ${nextEvent.hour}
+                        ${nextEvent.dayInfo ? `
+                            <span style="color: ${nextEvent.dayInfo.day !== currentEvent?.dayInfo?.day ? '#00a79d' : 'inherit'}">
+                                (${nextEvent.dayInfo.day})
+                            </span>
+                        ` : ''}
+                    </div>
+                    <h5>${nextEvent.title}</h5>
+                ` : `
+                    <h5 style="text-align: center;">${nextEvent.title}</h5>
+                `}
+                ${(nextEvent.suptitle || nextEvent.place) ? `
+                    <div class="location-container">
+                        ${nextEvent.suptitle ? `
+                            <p class="event-suptitle">${nextEvent.suptitle}</p>
+                        ` : ''}
+                        ${nextEvent.place ? `
+                            <p class="location">
+                                <i class="fa fa-map-marker"></i>
+                                ${nextEvent.map_link ? `
+                                    <a href="${nextEvent.map_link}" target="_blank" class="location-link">
+                                        ${nextEvent.place}
+                                        <i class="fa fa-external-link"></i>
+                                    </a>
+                                ` : nextEvent.place}
+                            </p>
+                        ` : ''}
+                    </div>
+                ` : ''}
+            </div>
+        `;
+    } else {
+        nextDisplay.innerHTML = '<div class="single-schedules-inner"><h5 style="text-align: center;">No upcoming events</h5></div>';
+    }
   }
   
   // Initial update
