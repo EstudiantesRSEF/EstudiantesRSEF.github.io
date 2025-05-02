@@ -77,6 +77,9 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
           <div class="message" style="margin-bottom: 15px;">
             <p><strong>Maik:</strong> Hey there! @maik here, one of the developers behind this site and the creator of this little surprise. It would be awesome if you could leave your name/nickname along with a message, even if it's something silly. Just to keep track of those who somehow manage to find their way here! 😄</p>
           </div>
+          <div class="message" style="margin-bottom: 15px;">
+            <p><strong>Anonymous: Soy solo yo, o el Secret Game no furrula? :(</strong></p>
+          </div>
           <!-- Additional messages will go here after submission -->
         </div>
       </div>
