@@ -99,6 +99,21 @@ personas:
     img: "/img/junta/ErikaDengra.jpg"
     linkedin: "https://www.linkedin.com/in/%C3%A9rika-luc%C3%ADa-dengra-blanco-96738517b/"
 
+  - nombre: "Lucía Barroso"
+    rol: "Social Media"
+    img: "/img/eventos/2025-PLANCKS/OC/LuciaBarroso.png"
+    linkedin: "https://www.linkedin.com/in/luc%C3%ADa-barroso-garc%C3%ADa-1b0376332/"
+
+  - nombre: "Clara Rodríguez"
+    rol: "Social Media"
+    img: "/img/eventos/2025-PLANCKS/OC/ClaraRodriguez.png"
+    linkedin: "https://www.linkedin.com/in/clara-rodr%C3%ADguez-marinero-a27326332/"
+
+  - nombre: "Javier de la Parra"
+    rol: "Social Media"
+    img: "/img/eventos/2025-PLANCKS/OC/JavierParra.jpg"
+    linkedin: "https://www.linkedin.com/in/javierdelaparramart%C3%ADn/"
+
   - nombre: "Miguel Durán"
     rol: "IT"
     img: "/img/junta/MiguelDuranVera.jpg"
