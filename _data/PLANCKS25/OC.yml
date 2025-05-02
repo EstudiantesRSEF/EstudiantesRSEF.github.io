@@ -49,10 +49,10 @@ personas:
     img: "/img/eventos/2025-PLANCKS/OC/MarGarcia.jpg"
     # No Linkedin
 
-  #- nombre: "Gisela Aranega"
-  #  rol: "Local Logistics"
-  #  img: "/img/eventos/2025-PLANCKS/OC/GiselaAranega.jpg"
-    # No Linkedin
+  - nombre: "Gisela Aranega"
+    rol: "Local Logistics"
+    img: "/img/eventos/2025-PLANCKS/OC/GiselaAranega.jpg"
+    linkedin: "https://www.linkedin.com/in/gisela-aranega-gonz%C3%A0lez-62a513360/"
 
   - nombre: "Juan Lorenzo"
     rol: "Scientific Program"
