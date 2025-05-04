@@ -207,7 +207,7 @@
 - day: "Monday"
   date: "May 5th"
   events:
-      - hour: "08:00 - 09:00"
+      - hour: "08:30 - 09:00"
         title: "Breakfast"
         place: "Alberg La Conreria"
         map_link: "https://maps.app.goo.gl/GPDaoCJVfkJix3xh6"
@@ -223,11 +223,16 @@
         map_link: "https://maps.app.goo.gl/TzwkxQM7GZC5hQcFA"
         suptitle: 
       - hour: "12:30 - 13:00"
+        title: "Walk to UB"
+        place: "Faculty of Maths&Statistics, UPC"
+        map_link: "https://maps.app.goo.gl/TzwkxQM7GZC5hQcFA"
+        suptitle: 
+      - hour: "13:00 - 13:30"
         title: "Quside Session"
         place: "Main Hall, Faculty of Biology, UB"
         map_link: "https://maps.app.goo.gl/5m4ML2hmnGCGZ4YTA"
         suptitle: 
-      - hour: "13:00 - 14:30"
+      - hour: "13:30 - 14:30"
         title: "Closing & Awards Ceremony"
         place: "Main Hall, Faculty of Biology, UB"
         map_link: "https://maps.app.goo.gl/5m4ML2hmnGCGZ4YTA"
