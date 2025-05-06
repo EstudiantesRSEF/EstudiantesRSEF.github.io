@@ -59,7 +59,7 @@
   // Dropdown styling
   .dropdown-menu {
     background-color: $primary-color;
-    border: 1px solid #00a79d;
+    border: 1px solid $secondary-color;
     box-shadow: 0 2px 8px rgba(0, 167, 157, 0.2);
     padding: 0.5rem 0;
     
@@ -71,7 +71,7 @@
       
       &:hover, &:focus {
         background-color: rgba(0, 167, 157, 0.1);
-        border-left-color: #00a79d;
+        border-left-color: $secondary-color;
         color: $navbar-font-color;
       }
     }
@@ -192,6 +192,26 @@
 
   .dropdown-menu {
     background-color: #352F71;
+    border: 1px solid #00a79d;
+    box-shadow: 0 2px 8px rgba(0, 167, 157, 0.2);
+    padding: 0.5rem 0;
+    
+    .dropdown-item {
+      color: $navbar-font-color;
+      @include transition(all .3s);
+      border-left: 3px solid transparent;
+      padding: 0.75rem 1.25rem;
+      
+      &:hover, &:focus {
+        background-color: rgba(0, 167, 157, 0.1);
+        border-left-color: #00a79d;
+        color: $navbar-font-color;
+      }
+    }
+
+    .dropdown-divider {
+      border-color: rgba(255,255,255,0.1);
+    }
   }
 
   .plancks-logo {
