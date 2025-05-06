@@ -1,5 +1,5 @@
 /*** Colors ***/
-$primary-color: color("GdeE", "base");
+$primary-color: color("GdeE", "base") !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
@@ -137,7 +137,7 @@ $h5-fontsize: 1.64rem !default;
 $h6-fontsize: 1rem !default;
 
 // Footer
-$footer-bg-color: $primary-color !default;
+$footer-bg-color: color("GdeE", "base") !default;
 
 // Flowtext
 $range : $large-screen - $small-screen !default;
