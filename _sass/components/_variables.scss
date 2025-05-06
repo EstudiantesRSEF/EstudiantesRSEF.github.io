@@ -1,5 +1,5 @@
 /*** Colors ***/
-$primary-color: color("GdeE", "base") !default;
+$primary-color: color("GdeE", "base");
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
