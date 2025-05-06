@@ -37,7 +37,15 @@
     strong {
       display: inline-flex;
       align-items: center;
+      margin-right: 0.75rem;
     }
+
+    img {
+      width: auto;
+      height: 80%;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      object-fit: cover;
   }
 
   // Desktop nav items
