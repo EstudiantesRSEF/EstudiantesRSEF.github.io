@@ -156,6 +156,17 @@ button.btn-floating {
   background-color: #B91828;
   font-weight: bold;
 }
+.btn-gdee {
+  @extend .btn-large;
+  color: #ffffff;
+  background-color: $secondary-color;
+  font-weight: bold;
+  border-radius: 50px !important; 
+
+  &:hover {
+    background-color: $primary-color;
+  }
+}
 .btn-plancks25 {
   @extend .btn-large; 
   color: #ffffff;
