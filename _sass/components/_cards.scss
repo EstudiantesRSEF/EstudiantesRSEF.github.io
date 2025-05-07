@@ -17,6 +17,17 @@
   }
 }
 
+.video-block {
+  max-width: 600px;
+  margin: 2rem auto;
+  text-align: center;
+  
+  video {
+    width: 100%;
+    outline: none;
+  }
+}
+
 .card-panel {
   transition: box-shadow .25s;
   padding: $card-padding;
