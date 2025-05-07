@@ -14,7 +14,7 @@
       height: 100%;
       display: flex;
       align-items: center;
-      gap: 0.75rem; // Increased space between nav items
+      gap: 0.75rem;
       
       .nav-item {
         height: 100%;
@@ -37,7 +37,6 @@
     strong {
       display: inline-flex;
       align-items: center;
-      margin-right: 0.75rem;
     }
 
     img {
@@ -46,6 +45,7 @@
       aspect-ratio: 1;
       border-radius: 50%;
       object-fit: cover;
+      margin-right: 0.75rem;
     }
   }
 
