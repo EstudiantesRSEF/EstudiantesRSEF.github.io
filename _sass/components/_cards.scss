@@ -1,4 +1,21 @@
+.audio-block {
+  max-width: 600px;
+  margin: 2rem auto;
+  text-align: center;
 
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+
+  audio {
+    width: 100%;
+    outline: none;
+  }
+}
 
 .card-panel {
   transition: box-shadow .25s;
