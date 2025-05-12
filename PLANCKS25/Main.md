@@ -39,8 +39,11 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
       </div>
 <!-- LINK TO /INFO -->
       <div class="section">
-        <div class="row d-flex justify-content-center">
+        <!-- <div class="row d-flex justify-content-center">
           <a href="https://estudiantes.rsef.es/PLANCKS25/info/" class="btn-rounded plancks25-color">What is happening now?</a>
+        </div> -->
+        <div class="row d-flex justify-content-center">
+          <a href="/PLANCKS25/PLANCKS25_Soluciones.pdf" class="btn-rounded plancks25-color">Check out the solutions of PLANCKS25!</a>
         </div>
 <!-- INTRODUCCIÓN -->
         <p style="text-align: justify; margin-top: 1em"> Welcome to the official webpage of <strong>PLANCKS 2025 in Barcelona</strong>! </p>
