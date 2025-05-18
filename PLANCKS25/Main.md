@@ -45,7 +45,7 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
         <div class="row">
           <div class="col s12 m6 l6 d-flex flex-column">
             <div class="row d-flex justify-content-center">
-              <a href="/PLANCKS25/PLANCKS25_Soluciones.pdf" class="btn-rounded plancks25-color">Check out the solutions of PLANCKS25!</a>
+              <a href="/PLANCKS25/PLANCKS25_Soluciones.pdf" class="btn-rounded plancks25-color">Check out the solutions!</a>
             </div>
           </div>
           <div class="col s12 m6 l6 d-flex flex-column">
