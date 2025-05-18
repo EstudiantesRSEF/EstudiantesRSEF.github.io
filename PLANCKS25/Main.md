@@ -42,9 +42,17 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
         <!-- <div class="row d-flex justify-content-center">
           <a href="https://estudiantes.rsef.es/PLANCKS25/info/" class="btn-rounded plancks25-color">What is happening now?</a>
         </div> -->
-        <div class="row d-flex justify-content-center">
-          <a href="/PLANCKS25/PLANCKS25_Soluciones.pdf" class="btn-rounded plancks25-color">Check out the solutions of PLANCKS25!</a>
-        </div>
+        <div class="row">
+          <div class="col s12 m6 l6 d-flex flex-column">
+            <div class="row d-flex justify-content-center">
+              <a href="/PLANCKS25/PLANCKS25_Soluciones.pdf" class="btn-rounded plancks25-color">Check out the solutions of PLANCKS25!</a>
+            </div>
+          </div>
+          <div class="col s12 m6 l6 d-flex flex-column">
+            <div class="row d-flex justify-content-center">
+              <a href="https://drive.google.com/drive/folders/1WdojvhP3fFhvP4f5pxcZ0K7qY4cCcQ85?usp=sharing" class="btn-rounded plancks25-color">Download event photos!</a>
+            </div>
+          </div>
 <!-- INTRODUCCIÓN -->
         <p style="text-align: justify; margin-top: 1em"> Welcome to the official webpage of <strong>PLANCKS 2025 in Barcelona</strong>! </p>
         <p style="text-align: justify;">The <strong>Physics League Across Numerous Countries for Kick-ass Students (PLANCKS)</strong> is an international physics competition for bachelor's and master's students. Taking place over <strong>four exciting days</strong>, the event combines a challenging physics contest with a program full of social and scientific activities. Students from around the globe come together to compete, connect, and share their passion for physics while exploring the host country's research environment and culture.</p>
