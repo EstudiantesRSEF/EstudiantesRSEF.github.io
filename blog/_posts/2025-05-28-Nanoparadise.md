@@ -5,6 +5,7 @@ title:  "NanoParadise 2025: El primer evento internacional presencial en la hist
 date: 2025-05-28 11:00
 author: Enrique Rodríguez Ramos
 redirect-from:
+excerpt: "Oviedo se ha convertido de nuevo el escenario de un acontecimiento histórico para el Grupo de Estudiantes de la RSEF: por primera vez, hemos conseguido reunir a estudiantes de todo el mundo en un mismo lugar para compartir 5 intensas jornadas llenas de física, networking y muucha sidra. ¿Que sí? Te lo contamos."
 ---
 <section class="blog">
 
