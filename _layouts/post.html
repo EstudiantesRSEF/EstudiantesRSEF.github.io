@@ -9,7 +9,7 @@ layout: default
         <p class="post-meta"> <time datetime="{{ page.date | date: '%Y-%m-%d' }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author">{{ page.author }}</span>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
       </header>
       <article class="post-content" itemprop="articleBody">
-          {{ page.content | replace:'<img ','<img class="materialboxed" ' }}
+          {{ page.content }}
       </article>
       {% if page.gallery != nil %}
         <h4>Imágenes de la publicación</h4>
