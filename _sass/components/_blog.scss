@@ -1,17 +1,22 @@
 
 .blog {
+    .img-left, .img-right {
+    height: auto;
+    width: auto;
+    max-width: 45%;
+    max-height: 250px; // Adjust this value based on typical text block height
+    object-fit: contain;
+    margin: 0.5em;
+  }
+
   .img-left {
     float: left;
-    margin: 0 1em 1em 0;
-    width: 230px;
-    max-width: 45%;
+    margin-right: 1.5em;
   }
 
   .img-right {
     float: right;
-    margin: 0 0 1em 1em;
-    width: 40%;
-    max-width: 350px;
+    margin-left: 1.5em;
   }
 
   .img-center {
