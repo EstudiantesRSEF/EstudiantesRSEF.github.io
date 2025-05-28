@@ -26,7 +26,7 @@ redirect-from:
 </head>
 <body>
     
-    <p>En junio de 1924, en la Universidad de Berlín, Albert Einstein recibió una carta por parte de un físico de India. Aun
+<p>En junio de 1924, en la Universidad de Berlín, Albert Einstein recibió una carta por parte de un físico de India. Aun
 siendo un completo desconocido para el popular científico, el físico Satyendra Nath Bose quería conocer la opinión
 directa de Einstein sobre un artículo adjunto en dicha carta. Compuesto por 5 páginas, la publicación demostraba
 solucionar un pequeño error dentro de la teoría de la Física Cuántica por el cual Einstein había dedicado tiempo

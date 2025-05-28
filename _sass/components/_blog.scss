@@ -1,0 +1,39 @@
+/* Agrupa todo en .blog para aislar los estilos del resto del sitio */
+.blog {
+  .img-left {
+    float: left;
+    margin: 0 1em 1em 0;
+    width: 230px;
+    max-width: 45%;
+  }
+
+  .img-right {
+    float: right;
+    margin: 0 0 1em 1em;
+    width: 40%;
+    max-width: 350px;
+  }
+
+  .img-center {
+    display: block;
+    margin: 1em auto;
+    width: 60%;
+    max-width: 600px;
+  }
+
+  .img-center-large {
+    display: block;
+    margin: 1em auto;
+    width: 80%;
+    max-width: 800px;
+  }
+
+  /* Utilidad para limpiar floats */
+  .clearfix {
+    &::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+  }
+}
