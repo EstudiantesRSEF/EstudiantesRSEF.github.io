@@ -7,10 +7,9 @@ author: Enrique Rodríguez Ramos
 redirect-from:
 ---
 <section class="blog">
-<h1>NanoParadise 2025: El primer evento internacional presencial en la historia del GdeE</h1>
 
 <p class="clearfix">
-  <img src="NanoPLOGO.jpg" alt="Logo de NanoParadise 2025" class="img-left">
+  <img src="/img/blog/2025-05-28-Nanoparadise/Nanoparadise_Logo.jpg" alt="Logo de NanoParadise 2025" class="img-left">
   Oviedo se ha convertido de nuevo el escenario de un acontecimiento histórico para el Grupo de Estudiantes de la RSEF: por primera vez, hemos conseguido reunir a estudiantes de todo el mundo en un mismo lugar para compartir 5 intensas jornadas llenas de física, networking y muucha sidra. ¿Que sí? Te lo contamos.
 </p>
 
@@ -31,7 +30,7 @@ redirect-from:
 </p>
 
 <p class="clearfix">
-  <img src="fotorector.jpg" alt="Participantes con el Rector de la Universidad de Oviedo" class="img-right">
+  <img src="/img/blog/2025-05-28-Nanoparadise/Nanoparadise_Rector.jpg" alt="Participantes con el Rector de la Universidad de Oviedo" class="img-right">
   El evento comenzó el 1 de abril con una charla inaugural en la que Míchel y Silvia, junto con Ignacio Villaverde, Rector de la Universidad de Oviedo, Adolfo Fernández, director del CINN, y Pedro Gorria, director del Departamento de Física de la Universidad de Oviedo, nos dieron la bienvenida a Asturias y nos explicaron la importancia cada vez mayor que tiene la investigación en Física en esta región.
 </p>
 
@@ -39,7 +38,7 @@ redirect-from:
   Durante las 5 jornadas que duró el evento, los participantes adquirimos una visión bastante amplia de la nanociencia y de cómo se está investigando en los diferentes centros de investigación que tuvimos el placer de visitar. El primer día fue dedicado a una extensa serie de charlas donde diferentes ponentes nos explicaron tanto los fundamentos teóricos de aquello que investigaban, como los principales experimentos en los que estaban trabajando. Aprendimos sobre física del estado sólido, tecnologías cuánticas, aplicaciones del grafeno, tintas imprimibles para dispositivos electrónicos, nanomagnetismo… ¡muchísimas cosas que nunca habíamos oído antes y que pudimos descubrir por primera vez gracias a estas charlas y a los magníficos ponentes que tuvimos el placer de escuchar, y que desde el Blog queremos darles las gracias por ello! Además, el penúltimo día tuvimos la oportunidad de asistir a una charla del director general de la Fundación ICAMCyL (International Center of Advanced Materials and raw materials of Castilla y León) sobre los desafíos de la comunidad internacional de cara al uso y distribución de materias primas; un tema muy de actualidad y que despertó un gran interés, sobre todo en plena guerra comercial.
 </p>
 
-<img src="Imagen_charla.jpg" alt="Sesión de charlas dentro del aula" class="img-center">
+<img src="/img/blog/2025-05-28-Nanoparadise/Nanoparadise_Charla.jpg" alt="Sesión de charlas dentro del aula" class="img-center">
 
 <p>
   Los dos días posteriores fueron dedicados a visitar centros de investigación y laboratorios de Asturias. Pudimos conocer de primera mano los trabajos de los mejores investigadores en nanociencia de Asturias y aprender sobre los métodos que utilizan para descubrir nuevas propiedades de la naturaleza y buscar aplicaciones en la tecnología del futuro. Visitamos los laboratorios Severo Ochoa de la Universidad de Oviedo, el Centro de Investigación en Nanomateriales y Nanotecnología (CINN) en El Entrego, el Instituto de Ciencia y Tecnología del Carbono (INCAR) del CSIC y una serie de laboratorios en Gijón y Mieres. Ciertamente sorprende el nivel de sofisticación que se está consiguiendo en dichos centros y, para los estudiantes españoles, es un signo de esperanza descubrir que en nuestro país se está avanzando hacia una apuesta seria por la investigación gracias al trabajo de nuestros científicos.
@@ -53,7 +52,7 @@ redirect-from:
   Con resaca emocional escribo estas últimas líneas, y es que, si en algo destacan eventos como NanoParadise, es en las conexiones personales que uno tiene el placer de hacer en ellos y las experiencias que uno se lleva en el recuerdo. En los 5 días que duró el evento aprendimos muchísimo de ciencia y descubrimos muchas cosas nuevas, pero si por algo recordaremos esos días es por las amistades que se forjaron en ellos. Es por ello por lo que motivamos a todo estudiante a que participe en eventos como estos y se involucre en actividades del Grupo de Estudiantes, pues la cantidad de personas con las que uno conecta es increíble y eso, queridos lectores, es lo que más fuerza le da a uno para avanzar y crecer tanto profesional como personalmente.
 </p>
 
-<img src="Imagen_final.jpeg" alt="Foto oficial de participantes de NanoParadise 2025" class="img-center-large">
+<img src="/img/blog/2025-05-28-Nanoparadise/Nanoparadise_Final.jpeg" alt="Foto oficial de participantes de NanoParadise 2025" class="img-center-large">
 
 <h2>Enlaces recomendados</h2>
 <ul>
