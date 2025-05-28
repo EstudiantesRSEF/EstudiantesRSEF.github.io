@@ -12,6 +12,9 @@ excerpt: "Oviedo se ha convertido de nuevo el escenario de un acontecimiento his
 <p class="clearfix">
   <img class="img-left" src="/img/blog/2025-05-28-Nanoparadise/Nanoparadise_Logo.jpg" alt="Logo de NanoParadise 2025">
   Oviedo se ha convertido de nuevo el escenario de un acontecimiento histórico para el Grupo de Estudiantes de la RSEF: por primera vez, hemos conseguido reunir a estudiantes de todo el mundo en un mismo lugar para compartir 5 intensas jornadas llenas de física, networking y muucha sidra. ¿Que sí? Te lo contamos.
+  <p>
+  El GdeE no para de crecer, y ello se refleja en la cantidad de iniciativas que nuestros miembros están continuamente llevando a cabo. La Delegación UniOvi ha dado de nuevo un paso de gigante en la dinámica del Grupo al organizar NanoParadise: un evento internacional de Nanofísica y Nanomateriales para estudiantes, en el que los 24 asistentes (70% internacional) hemos tenido la oportunidad de aprender mucha física, conocer las investigaciones más punteras que se están llevando a cabo en el campo de la Nanociencia en Asturias y conectar con gente de todo el mundo con nuestras mismas pasiones e inquietudes.
+</p>
 </p>
 
 <p>
