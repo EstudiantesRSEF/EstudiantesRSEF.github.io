@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: blog Divulgación
+categories: blog Eventos
 title:  "NanoParadise 2025: El primer evento internacional presencial en la historia del GdeE"
 date: 2025-05-28 11:00
 author: Enrique Rodríguez Ramos
