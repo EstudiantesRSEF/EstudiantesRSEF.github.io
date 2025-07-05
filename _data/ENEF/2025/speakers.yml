@@ -1,10 +1,10 @@
 - name: "Clara Cuesta"
   institution: "CIEMAT"
   role: "Física de astropartículas y materia oscura"
-  bio: "Investigadora en el CIEMAT, especializada en física de astropartículas y materia oscura. Ha trabajado en experimentos internacionales como XENON y NEXT y ha recibido el premio L’Oréal-UNESCO For Women in Science España por su investigación en física fundamental."
+  bio: "Investigadora en el CIEMAT, especializada en física de astropartículas y materia oscura. Ha trabajado en experimentos internacionales como XENON y NEXT y ha recibido el premio L'Oréal-UNESCO For Women in Science España por su investigación en física fundamental."
   talk_title: ""
   talk_time: ""
-  image: ""
+  image: "/img/eventos/2025-ENEF/Ponentes/ClaraCuesta.jpeg"
 
 - name: "José María Martín Senovilla"
   institution: "UPV/EHU"
@@ -12,7 +12,7 @@
   bio: "Profesor en la UPV/EHU, experto en relatividad general y cosmología. Su investigación se centra en la estructura del espacio-tiempo y las singularidades. Ha participado en numerosas publicaciones científicas y congresos internacionales."
   talk_title: ""
   talk_time: ""
-  image: ""
+  image: "/img/eventos/2025-ENEF/Ponentes/JoseMariaSenovilla.jpg"
 
 - name: "Lorena Fernández"
   institution: "Universidad de Deusto"
@@ -20,7 +20,7 @@
   bio: "Ingeniera informática y Directora de Identidad Digital en la Universidad de Deusto. Su trayectoria está vinculada a la tecnología, la ciberseguridad y la divulgación sobre igualdad y sesgos algorítmicos. Ha sido incluida en varias ediciones de las Top 100 Mujeres Líderes en España."
   talk_title: ""
   talk_time: ""
-  image: ""
+  image: "/img/eventos/2025-ENEF/Ponentes/LorenaFernandez.jpeg"
 
 - name: "Román Orús"
   institution: "DIPC & Multiverse Computing"
@@ -28,7 +28,7 @@
   bio: "Físico teórico e Ikerbasque Research Professor en el DIPC. CTO y cofundador de Multiverse Computing, dedicada a algoritmos cuánticos aplicados a la industria. Ha trabajado en el Max Planck Institute y ha recibido una ERC Starting Grant del European Research Council."
   talk_title: ""
   talk_time: ""
-  image: ""
+  image: "/img/eventos/2025-ENEF/Ponentes/RomanOrus.jpg"
 
 - name: "Eduardo Sáenz de Cabezón"
   institution: "Universidad de La Rioja"
@@ -36,7 +36,7 @@
   bio: "Matemático y profesor en la Universidad de La Rioja, especializado en álgebra computacional. Divulgador científico y creador del canal de YouTube Derivando. Ha recibido premios como el Prisma de la Casa de las Ciencias por su labor de divulgación."
   talk_title: ""
   talk_time: ""
-  image: ""
+  image: "/img/eventos/2025-ENEF/Ponentes/EduardoSaenzdeCabezon.jpg"
 
 - name: "Anna Morales"
   institution: "Divulgadora científica independiente"
@@ -44,7 +44,7 @@
   bio: "Química y divulgadora científica. Ha trabajado en investigación académica e industria química, dedicándose actualmente a la divulgación en redes sociales y medios digitales, donde comparte contenido científico sobre química y materiales."
   talk_title: ""
   talk_time: ""
-  image: ""
+  image: "/img/eventos/2025-ENEF/Ponentes/AnnaMorales.jpg"
 
 - name: "Rubén Sierra"
   institution: "Fisicomic / 20 Minutos"
@@ -52,7 +52,7 @@
   bio: "Físico e ingeniero electrónico con un máster en ciencia y tecnología espacial. A través de su proyecto Fisicomic comparte ciencia en redes sociales, ofreciendo análisis, curiosidades y teorías sobre series populares y clásicos del género. Escribe la sección «La ciencia de lo friki» en el diario 20 Minutos y recorre escenarios y teatros de todo el país con sus espectáculos «Destruyendo tu infancia» y «No es una pregunta estúpida». "
   talk_title: ""
   talk_time: ""
-  image: ""
+  image: "/img/eventos/2025-ENEF/Ponentes/RubenSierra.jpeg"
 
 - name: "Andrea Peralta"
   institution: "Spin-Orbit Communications"
@@ -60,7 +60,7 @@
   bio: "Doctora en Física y divulgadora científica, especializada en nanomateriales. Crea contenido en redes sociales y YouTube bajo el nombre Andrea espín-órbita, donde habla de física de materiales, nanotecnología y otras ramas de la física aplicada. Fundadora de Spin-Orbit Communications, agencia de divulgación científica para grupos de investigación y universidades."
   talk_title: ""
   talk_time: ""
-  image: ""
+  image: "/img/eventos/2025-ENEF/Ponentes/AndreaPeralta.jpg"
 
 - name: "Pablo Jarillo-Herrero"
   institution: "MIT"
@@ -68,4 +68,4 @@
   bio: "Físico y profesor en el MIT. Conocido mundialmente por el descubrimiento de la superconductividad en grafeno a ángulos mágicos. Ha trabajado en Harvard y ha recibido premios como el Wolf Prize in Physics y el Oliver E. Buckley Prize."
   talk_title: ""
   talk_time: ""
-  image: ""
+  image: "/img/eventos/2025-ENEF/Ponentes/PabloJarilloHerrero.jpg"
