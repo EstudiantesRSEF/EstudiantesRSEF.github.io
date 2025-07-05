@@ -732,8 +732,8 @@ $enef25-light-pink: lighten($enef25-pink, 40%);
       padding: 1.5rem;
       background: linear-gradient(
         135deg,
-        white 0%,
-        $enef25-light-blue 100%
+        $enef25-dark-pink 0%,
+        darken($enef25-pink, 10%) 100%
       );
       gap: 1.5rem;
     }
