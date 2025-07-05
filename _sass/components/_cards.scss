@@ -627,10 +627,10 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
 }
 
 // ENEF25 SPEAKERS
-$enef25-blue: #2196F3;
-$enef25-dark-blue: #1976D2;
-$enef25-pink: #E91E63;
-$enef25-light-blue: lighten($enef25-blue, 45%);
+$enef25-pink: #EE4FA8;
+$enef25-blue: #00589D;
+$enef25-dark-pink: darken($enef25-pink, 15%);
+$enef25-light-pink: lighten($enef25-pink, 40%);
 
 .enef25-speakers {
   @extend .speakers-base;
@@ -640,23 +640,23 @@ $enef25-light-blue: lighten($enef25-blue, 45%);
   }
   
   .speaker-card {
-    border: 2px solid $enef25-dark-blue;
+    border: 2px solid $enef25-blue;
 
     &:hover {
-      box-shadow: 0 8px 16px rgba($enef25-blue, 0.2);
+      box-shadow: 0 8px 16px rgba($enef25-pink, 0.2);
       border-color: $enef25-pink;
     }
 
     .card-top {
       background: linear-gradient(
         135deg,
-        $enef25-dark-blue 0%,
-        darken($enef25-blue, 5%) 100%
+        $enef25-dark-pink 0%,
+        darken($enef25-pink, 10%) 100%
       );
     }
 
     .card-title {
-      color: white;
+      color: $enef25-blue;
     }
 
     .grey-text {
@@ -673,7 +673,7 @@ $enef25-light-blue: lighten($enef25-blue, 45%);
     }
 
     .card-bottom {
-      border-top: 2px solid $enef25-dark-blue;
+      border-top: none;
     }
   }
   .responsive-column {
@@ -747,7 +747,7 @@ $enef25-light-blue: lighten($enef25-blue, 45%);
         height: auto;
         aspect-ratio: 1; // Keeps image perfectly circular
         object-fit: cover;
-        border: 3px solid $enef25-pink;
+        border: 3px solid $enef25-blue;
         transition: all 0.3s ease;
 
         &:hover {
@@ -785,7 +785,7 @@ $enef25-light-blue: lighten($enef25-blue, 45%);
     }
 
     .card-title {
-      color: white;
+      color: $enef25-blue;
       font-size: 1.5rem;
       margin: 0 0 0.5rem;
       font-weight: bold;
@@ -821,7 +821,7 @@ $enef25-light-blue: lighten($enef25-blue, 45%);
 
     .card-bottom {
       padding: 1.5rem;
-      border-top: 2px solid $enef25-dark-blue;
+      border-top: none;
       background-color: white;
 
       @media screen and (max-width: 600px) {
