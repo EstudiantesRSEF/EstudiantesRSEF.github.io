@@ -650,8 +650,8 @@ $enef25-light-pink: lighten($enef25-pink, 40%);
     .card-top {
       background: linear-gradient(
         135deg,
-        $enef25-dark-pink 0%,
-        darken($enef25-pink, 10%) 100%
+        rgba($enef25-pink, 0.1) 0%,
+        rgba($enef25-pink, 0.05) 100%
       );
     }
 
@@ -732,8 +732,8 @@ $enef25-light-pink: lighten($enef25-pink, 40%);
       padding: 1.5rem;
       background: linear-gradient(
         135deg,
-        $enef25-dark-pink 0%,
-        darken($enef25-pink, 10%) 100%
+        rgba($enef25-pink, 0.1) 0%,
+        rgba($enef25-pink, 0.05) 100%
       );
       gap: 1.5rem;
     }
@@ -747,7 +747,7 @@ $enef25-light-pink: lighten($enef25-pink, 40%);
         height: auto;
         aspect-ratio: 1; // Keeps image perfectly circular
         object-fit: cover;
-        border: 3px solid $enef25-blue;
+        border: 3px solid $enef25-pink;
         transition: all 0.3s ease;
 
         &:hover {
@@ -797,7 +797,7 @@ $enef25-light-pink: lighten($enef25-pink, 40%);
     }
 
     .grey-text {
-      color: rgba(255, 255, 255, 0.9);
+      color: #666;
       font-size: 1rem;
       margin: 0.2rem 0;
       word-wrap: break-word;
