@@ -18,7 +18,7 @@ excerpt: "Hemos tenido la maravillosa oportunidad de conversar íntimamente con 
   El pasado mes de mayo tuvo lugar uno de los acontecimientos más importantes en la historia del Grupo de Estudiantes de la RSEF: Barcelona acogió PLANCKS y fue todo un éxito. Este evento de tales dimensiones consiguió reunir a estudiantes de Física de todo el mundo para compartir unos días inolvidables, y también ofreció la posibilidad de conocer figuras muy influyentes en el mundo actual de la Física, como lo es nuestra protagonista de hoy: <b> Anne L’Huillier </b>.
 </p>  
 
-<p><img class="img-left" src="/img/blog/2025-05-28-Nanoparadise/Nanoparadise_Logo.jpg" alt="Logo de NanoParadise 2025"> Anne fue galardonada en 2023 con el Premio Nobel de Física, por sus contribuciones a la consecución de pulsos láseres de attosegundos de duración y el surgimiento de una nueva rama de la Física: la Attofísica. Para entender el trabajo tan monumental que Anne realizó, tenemos en este blog una entrada dedicada a ello y que recomendamos encarecidamente su lectura. 
+<p><img class="img-left" src="/img/blog/anne.webp"> Anne fue galardonada en 2023 con el Premio Nobel de Física, por sus contribuciones a la consecución de pulsos láseres de attosegundos de duración y el surgimiento de una nueva rama de la Física: la Attofísica. Para entender el trabajo tan monumental que Anne realizó, tenemos en este blog una entrada dedicada a ello y que recomendamos encarecidamente su lectura. 
 </p>
 
 <p>
