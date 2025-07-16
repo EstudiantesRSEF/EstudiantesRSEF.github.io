@@ -5,13 +5,13 @@ title:  "Entrevista a Anne L’Huillier, Premio Nobel de Física 2023"
 date: 2025-05-28 11:00
 author: Jordi Freixa & Enrique Rodríguez Ramos
 redirect-from:
-excerpt: "Hemos tenido la maravillosa oportunidad de conversar íntimamente con Anne L’Huillier, permitiéndonos conocerla un poco más personalmente y que nos cuente de primera mano detalles de su influyente trabajo. Y lLo hemos transcrito en esta entrada para que tú también lo puedas vivir."
+excerpt: "Hemos tenido la maravillosa oportunidad de conversar íntimamente con Anne L’Huillier, permitiéndonos conocerla un poco más personalmente y que nos cuente de primera mano detalles de su influyente trabajo. Y lo hemos transcrito en esta entrada para que tú también lo puedas vivir."
 ---
 
 <section class="blog">
 
 <p class="clearfix">
-   Hemos tenido la maravillosa oportunidad de conversar íntimamente con Anne L’Huillier, permitiéndonos conocerla un poco más personalmente y que nos cuente de primera mano detalles de su influyente trabajo. Y lLo hemos transcrito en esta entrada para que tú también lo puedas vivir.
+   Hemos tenido la maravillosa oportunidad de conversar íntimamente con Anne L’Huillier, permitiéndonos conocerla un poco más personalmente y que nos cuente de primera mano detalles de su influyente trabajo. Y lo hemos transcrito en esta entrada para que tú también lo puedas vivir.
 </p>
 
 <p>
