@@ -278,11 +278,198 @@
   }
 }
 
+// SPEAKERS BASE CLASS
+.speakers-base {
+  .responsive-column {
+    width: 50%;
+    padding: 0 0.75rem;
+    float: left;
+    box-sizing: border-box;
+  
+    @media screen and (max-width: 1100px) {
+      width: 100%;
+    }
+  }
+  
+  // Clear the float after the row
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .speakers-intro {
+    max-width: 800px;
+    margin: 2rem auto 3rem;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  @media screen and (max-width: 1100px) {
+    .speaker-column {
+      width: 100% !important;
+    }
+  }
+  
+  .speaker-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background-color: white;
+    margin: 1rem 0;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-top {
+      display: flex;
+      padding: 1.5rem;
+      gap: 1.5rem;
+    }
+
+    .speaker-image {
+      flex: 0 0 25%;
+      min-width: 120px;
+      
+      img.circle, .placeholder-image {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1;
+        object-fit: cover;
+      }
+      
+      .placeholder-image {
+        background-color: #f5f5f5;
+        border: 2px dashed #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+      }
+    }
+
+    .speaker-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    @media screen and (max-width: 600px) {
+      .card-top {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+      }
+
+      .speaker-image {
+        flex: none;
+        width: 150px;
+        margin: 0 auto;
+      }
+    }
+
+    .card-title {
+      font-size: 1.5rem;
+      margin: 0 0 0.5rem;
+      font-weight: bold;
+      word-wrap: break-word;
+      
+      @media screen and (max-width: 600px) {
+        font-size: 1.3rem;
+      }
+    }
+
+    .grey-text {
+      font-size: 1rem;
+      margin: 0.2rem 0;
+      word-wrap: break-word;
+    }
+
+    .talk-info {
+      padding: 1rem;
+      border-radius: 8px;
+      margin: 0.5rem 0;
+      border-left: 4px solid;
+
+      @media screen and (max-width: 600px) {
+        padding: 0.75rem;
+      }
+    }
+
+    .card-bottom {
+      padding: 1.5rem;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      background-color: white;
+
+      @media screen and (max-width: 600px) {
+        padding: 1rem;
+      }
+    }
+
+    .bio {
+      color: #333;
+      line-height: 1.6;
+      font-size: 0.95rem;
+      text-align: justify;
+      margin: 0;
+    }
+  }
+}
+
+// PLANCKS25 SPEAKERS - Inherits from base
 $plancks25-teal: #00a79d;
 $plancks25-purple: #352F71;
 $plancks25-light-teal: lighten($plancks25-teal, 45%);
 
 .plancks25-speakers {
+  @extend .speakers-base;
+  
+  .speakers-intro {
+    color: $plancks25-purple;
+  }
+  
+  .speaker-card {
+    border: 2px solid $plancks25-purple;
+
+    &:hover {
+      box-shadow: 0 8px 16px rgba($plancks25-purple, 0.2);
+      border-color: $plancks25-teal;
+    }
+
+    .card-top {
+      background: linear-gradient(
+        135deg,
+        white 0%,
+        $plancks25-light-teal 100%
+      );
+    }
+
+    .card-title {
+      color: $plancks25-purple;
+    }
+
+    .grey-text {
+      color: darken($plancks25-purple, 10%);
+    }
+
+    .talk-info {
+      background-color: rgba($plancks25-teal, 0.1);
+      border-left-color: $plancks25-teal;
+
+      strong {
+        color: $plancks25-purple;
+      }
+    }
+
+    .card-bottom {
+      border-top-color: rgba($plancks25-purple, 0.1);
+    }
+  }
   .responsive-column {
     width: 50%;
     padding: 0 0.75rem;
@@ -422,6 +609,219 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
     .card-bottom {
       padding: 1.5rem;
       border-top: 1px solid rgba($plancks25-purple, 0.1);
+      background-color: white;
+
+      @media screen and (max-width: 600px) {
+        padding: 1rem;
+      }
+    }
+
+    .bio {
+      color: #333;
+      line-height: 1.6;
+      font-size: 0.95rem;
+      text-align: justify;
+      margin: 0;
+    }
+  }
+}
+
+// ENEF25 SPEAKERS
+$enef25-pink: #EE4FA8;
+$enef25-blue: #00589D;
+$enef25-dark-pink: darken($enef25-pink, 15%);
+$enef25-light-pink: lighten($enef25-pink, 40%);
+
+.enef25-speakers {
+  @extend .speakers-base;
+  
+  .speakers-intro {
+    color: $enef25-blue;
+  }
+  
+  .speaker-card {
+    border: 2px solid $enef25-blue;
+
+    &:hover {
+      box-shadow: 0 8px 16px rgba($enef25-pink, 0.2);
+      border-color: $enef25-pink;
+    }
+
+    .card-top {
+      background: linear-gradient(
+        135deg,
+        rgba($enef25-pink, 0.1) 0%,
+        rgba($enef25-pink, 0.05) 100%
+      );
+    }
+
+    .card-title {
+      color: $enef25-blue;
+    }
+
+    .grey-text {
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .talk-info {
+      background-color: rgba($enef25-pink, 0.1);
+      border-left-color: $enef25-pink;
+
+      strong {
+        color: $enef25-pink;
+      }
+    }
+
+    .card-bottom {
+      border-top: none;
+    }
+  }
+  .responsive-column {
+    width: 50%;
+    padding: 0 0.75rem;
+    float: left;
+    box-sizing: border-box;
+  
+    @media screen and (max-width: 1100px) {
+      width: 100%;
+    }
+  }
+  
+  // Clear the float after the row
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .speakers-intro {
+    max-width: 800px;
+    margin: 2rem auto 3rem;
+    text-align: center;
+    color: $enef25-blue;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  @media screen and (max-width: 1100px) {
+    .speaker-column {
+      width: 100% !important;
+    }
+  }
+  
+  .speaker-card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $enef25-blue;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background-color: white;
+    margin: 1rem 0;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba($enef25-blue, 0.2);
+      border-color: $enef25-pink;
+    }
+
+    .card-top {
+      display: flex;
+      padding: 1.5rem;
+      background: linear-gradient(
+        135deg,
+        rgba($enef25-pink, 0.1) 0%,
+        rgba($enef25-pink, 0.05) 100%
+      );
+      gap: 1.5rem;
+    }
+
+    .speaker-image {
+      flex: 0 0 25%; // Takes exactly 25% of the card width
+      min-width: 120px; // Minimum width to prevent too small images
+      
+      img.circle, .placeholder-image {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1; // Keeps image perfectly circular
+        object-fit: cover;
+        border: 3px solid $enef25-pink;
+        transition: all 0.3s ease;
+
+        &:hover {
+          border-color: white;
+          transform: scale(1.05);
+        }
+      }
+      
+      .placeholder-image {
+        background-color: #f5f5f5;
+        border: 2px dashed #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+      }
+    }
+
+    .speaker-info {
+      flex: 1;
+      min-width: 0; // Prevents flex item from overflowing
+    }
+
+    @media screen and (max-width: 600px) {
+      .card-top {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .speaker-image {
+        flex: none;
+        width: 150px;
+        margin: 0 auto;
+      }
+    }
+
+    .card-title {
+      color: $enef25-blue;
+      font-size: 1.5rem;
+      margin: 0 0 0.5rem;
+      font-weight: bold;
+      word-wrap: break-word;
+      
+      @media screen and (max-width: 600px) {
+        font-size: 1.3rem;
+      }
+    }
+
+    .grey-text {
+      color: #666;
+      font-size: 1rem;
+      margin: 0.2rem 0;
+      word-wrap: break-word;
+    }
+
+    .talk-info {
+      background-color: rgba($enef25-pink, 0.1);
+      padding: 1rem;
+      border-radius: 8px;
+      margin: 0.5rem 0;
+      border-left: 4px solid $enef25-pink;
+
+      @media screen and (max-width: 600px) {
+        padding: 0.75rem;
+      }
+
+      strong {
+        color: $enef25-pink;
+      }
+    }
+
+    .card-bottom {
+      padding: 1.5rem;
+      border-top: none;
       background-color: white;
 
       @media screen and (max-width: 600px) {

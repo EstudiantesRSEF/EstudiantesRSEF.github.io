@@ -134,6 +134,50 @@ thumbnail: "/img/eventos/2025-PLANCKS/Logo.png"
       <div class="section">
         {% include patrocinadores.html sponsors=site.data.PLANCKS25.multiple.sponsors %}    
       </div>
+      
+      <!-- SPEAKERS SECTION (COMMENTED OUT FOR NOW) -->
+      <!--
+      <div class="section plancks25-speakers">
+        <h2 class="center">Invited Speakers</h2>      
+        <div class="speakers-intro">
+          <p>Join us at PLANCKS 2025! Renowned physicists and researchers will share their cutting-edge research and experiences. It's a great opportunity to explore new ideas in a relaxed and enriching environment.</p>
+        </div>
+        
+        <div class="row">
+          {% for speaker in site.data.PLANCKS25.speakers %}
+          <div class="responsive-column">
+            <div class="card speaker-card">
+              <div class="card-top">
+                <div class="speaker-image">
+                  {% if speaker.image and speaker.image != "" %}
+                    <img src="{{ speaker.image }}" alt="{{ speaker.name }}" class="circle responsive-img">
+                  {% else %}
+                    <div class="placeholder-image circle">
+                      <i class="fa fa-user" style="font-size: 3rem; color: #666;"></i>
+                    </div>
+                  {% endif %}
+                </div>
+                <div class="speaker-info">
+                  <h4 class="card-title">{{ speaker.name }}</h4>
+                  <p class="grey-text">{{ speaker.institution | markdownify }}</p>
+                  <p class="grey-text">{{ speaker.role }}</p>
+                  {% if speaker.talk_title != "" or speaker.talk_time != "" %}
+                  <div class="talk-info">
+                    {% if speaker.talk_title != "" %}<strong>Talk:</strong> {{ speaker.talk_title }}<br>{% endif %}
+                    {% if speaker.talk_time != "" %}<strong>When:</strong> {{ speaker.talk_time }}{% endif %}
+                  </div>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="card-bottom">
+                <p class="bio">{{ speaker.bio | markdownify }}</p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      -->
     </div>
   </div>
 </div>
