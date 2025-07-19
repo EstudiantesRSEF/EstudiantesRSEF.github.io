@@ -153,7 +153,7 @@ body {
           {% if post.date %}
             <div class="chip">
               <span class="post-meta">
-                {{ post.date | date: "% -d %b %Y" }}
+                {{ post.date | date: "%-d %b %Y" }}
               </span>
             </div>
           {% endif %}
@@ -200,6 +200,8 @@ body {
         var cats = {{ post.categories | jsonify }};
         var catSlugs = cats.map(function(cat) { return slugify(cat); });
         var postDiv = document.getElementById(++id);
+        // Debug: log the categories and slugs
+        console.log('Post', {{ post.title | jsonify }}, 'cats:', cats, 'catSlugs:', catSlugs, 'selected:', selectedCategory);
         postDiv.style.display =
           (selectedCategory == 'All' || catSlugs.includes(selectedCategory))
             ? 'unset'
