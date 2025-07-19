@@ -132,7 +132,7 @@ body {
   {% elsif cat == '2023' %}
   {% elsif cat == 'enef2023' %}
   {% else %}
-  <button class="chip_button" id="{{ cat | slugify }}" onclick="filterUsingCategory(this.id)">
+  <button class="chip_button" id="{{ cat }}" onclick="filterUsingCategory(this.id)">
     {{ cat }}
   </button>
   {% endif %}
@@ -190,20 +190,16 @@ body {
 </ul>
 
 <script type="text/javascript">
-  function slugify(str) {
-    return str.toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu, '').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-  }
   function filterUsingCategory(selectedCategory) {
     var id = 0;
     {% for post in site.posts %}
       {% if post.categories contains 'blog' and post.hidden != true %}
         var cats = {{ post.categories | jsonify }};
-        var catSlugs = cats.map(function(cat) { return slugify(cat); });
         var postDiv = document.getElementById(++id);
-        // Debug: log the categories and slugs
-        console.log('Post', {{ post.title | jsonify }}, 'cats:', cats, 'catSlugs:', catSlugs, 'selected:', selectedCategory);
+        // Debug: log the categories
+        console.log('Post', {{ post.title | jsonify }}, 'cats:', cats, 'selected:', selectedCategory);
         postDiv.style.display =
-          (selectedCategory == 'All' || catSlugs.includes(selectedCategory))
+          (selectedCategory == 'All' || cats.includes(selectedCategory))
             ? 'unset'
             : 'none';
       {% endif %}
