@@ -141,8 +141,8 @@ body {
 
 <ul class="post-list">
   {% assign id = 0 %}
-  {% for post in site.categories.blog %}
-    {% if post.hidden != true %}
+  {% for post in site.posts %}
+    {% if post.hidden != true and post.categories contains 'blog' %}
       {% assign id = id | plus:1 %}
       <div  id="{{id}}">
       <li>
@@ -153,7 +153,7 @@ body {
           {% if post.date %}
             <div class="chip">
               <span class="post-meta">
-                {{ post.date | date: "%-d %b %Y" }}
+                {{ post.date | date: "% -d %b %Y" }}
               </span>
             </div>
           {% endif %}
@@ -195,14 +195,16 @@ body {
   }
   function filterUsingCategory(selectedCategory) {
     var id = 0;
-    {% for post in site.categories.blog %}
-      var cats = {{ post.categories | jsonify }};
-      var catSlugs = cats.map(function(cat) { return slugify(cat); });
-      var postDiv = document.getElementById(++id);
-      postDiv.style.display =
-        (selectedCategory == 'All' || catSlugs.includes(selectedCategory))
-          ? 'unset'
-          : 'none';
+    {% for post in site.posts %}
+      {% if post.categories contains 'blog' and post.hidden != true %}
+        var cats = {{ post.categories | jsonify }};
+        var catSlugs = cats.map(function(cat) { return slugify(cat); });
+        var postDiv = document.getElementById(++id);
+        postDiv.style.display =
+          (selectedCategory == 'All' || catSlugs.includes(selectedCategory))
+            ? 'unset'
+            : 'none';
+      {% endif %}
     {% endfor %}
   }
 </script>
