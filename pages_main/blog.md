@@ -132,7 +132,7 @@ body {
   {% elsif cat == '2023' %}
   {% elsif cat == 'enef2023' %}
   {% else %}
-  <button class="chip_button" id="{{ cat }}" onclick="filterUsingCategory(this.id)">
+  <button class="chip_button" id="{{ cat | slugify }}" onclick="filterUsingCategory(this.id)">
     {{ cat }}
   </button>
   {% endif %}
@@ -190,15 +190,18 @@ body {
 </ul>
 
 <script type="text/javascript">
+  function slugify(str) {
+    return str.toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu, '').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  }
   function filterUsingCategory(selectedCategory) {
     var id = 0;
     {% for post in site.categories.blog %}
-      var cats = {{ post.categories | jsonify }}
-
+      var cats = {{ post.categories | jsonify }};
+      var catSlugs = cats.map(function(cat) { return slugify(cat); });
       var postDiv = document.getElementById(++id);
       postDiv.style.display =
-        (selectedCategory == 'All' || cats.includes(selectedCategory)) 
-          ? 'unset' 
+        (selectedCategory == 'All' || catSlugs.includes(selectedCategory))
+          ? 'unset'
           : 'none';
     {% endfor %}
   }
