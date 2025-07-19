@@ -1,0 +1,71 @@
+---
+layout: post
+categories: blog Divulgación Diario de un Friki
+title:  "Diario de un Friki I: Las nubes de Lord Kelvin"
+date: 2025-07-19 11:00
+author: Enrique Rodríguez Ramos
+redirect-from:
+excerpt: "Empezamos una nueva sección en El Blog en la que discutiremos temas interesantes de la Física con humor en un formato un poco peculiar. La persona más friki que jamás pisó el GdeE nos contará cómo ve el mundo en su día a día, y en el camino nos explicará muchos conceptos de la Física que nos rodea."
+---
+
+<section class="blog">
+
+<p class="clearfix">
+   Empezamos una nueva sección en El Blog en la que discutiremos temas interesantes de la Física con humor en un formato un poco peculiar. La persona más friki que jamás pisó el GdeE nos contará cómo ve el mundo en su día a día, y en el camino nos explicará muchos conceptos de la Física que nos rodea.
+</p>
+
+<p>
+Querido Diario:
+</p>
+
+<p>
+<img class="img-left" src="/img/blog/Cumulonimbus.jpg">Hoy estaba un poco nervioso con la idea de empezar esta nueva sección, así que me fui al campo a caminar un poco para desfogarme y tranquilizarme antes de comenzar a escribir. No fui descalzo, ni mucho menos, pues no creo en que el <i>grounding</i> sea una práctica que funcione. Yo solo creo en la Física, y la idea de que por andar descalzo mis energías negativas se transfieran al núcleo terrestre no es digno de alguien como yo.
+</p>
+
+<p>
+El caso es que ahí estaba yo caminando por los senderos entre las montañas, disfrutando de una soleada mañana de verano, divagando en cuestiones relativas al paso del tiempo y su relación con la entropía; entreteniéndome en cómo sentía la hierba rozando mis piernas a pesar de que nuestros átomos jamás se tocarán; atendiendo a cómo los pájaros perturbaban el aire generando ondas de presión que mi cerebro transformaba en una encantadora melodía; cuando, de repente, una nube  interrumpió mis vagos pensamientos al interponerse entre el sol y yo. Despegué entonces la mirada del suelo y la alcé hacia el cielo y vi aquel inmenso <i>Cumulonimbus</i>, con sus exuberantes formaciones de apariencia esponjosa y los relámpagos naciendo y muriendo en su parte alta, eclipsando el sol. Ante aquella maravillosa vista me quedé paralizado mirándola mientras la tormenta se acercaba y de mis pensamientos surgió un único y natural pensamiento: Las nubes de Lord Kelvin que encapotaban la Física del siglo XIX.
+</p>
+
+<p>
+Era 1900 y la Física estaba a punto de vivir el periodo de mayor explosión de su historia, pero eso nadie lo sabía. Tan solo había frustración por el hecho de que parecía que ya estaba todo entendido, salvo dos molestas nubes en el horizonte del conocimiento. Lord Kelvin dio entonces una clase, publicada en [1], donde identificaba estas nubes con las siguientes cuestiones: el problema del <b>éter</b>, y el problema de la <b>equipartición de la energía</b>. 
+</p>
+
+<p>
+<img class="img-right" src="/img/blog/Kelvin.png">El éter había sido postulado como una sustancia que permeaba todo el universo y cuyas ondulaciones se identificaban con la luz y las ondas electromagnéticas. Sin embargo, había importantes problemas para conciliar esta hipótesis con fenómenos como la aberración de la luz y experimentos como el de Michelson y Morley. [2] Kelvin se dedicaba entonces a discutir el problema y repasando las diferentes propuestas para resolverlo. Incluso se atreve a considerar la hipótesis de rechazar el axioma escolástico, que establece que un punto espacial solo puede estar ocupado por una única partícula en un instante determinado, para salvar el problema que suponía que un sólido elástico como el éter tuviera que atravesar los poros y huecos de la materia, lo que implicaría una laceración excesiva del éter. Esta idea la rechazaría por otros motivos. [1] Entre ellos, que entonces el éter no interactuaría con los cuerpos ponderables, lo que dificultaría una explicación del experimento de Michelson y Morley.
+</p>
+
+<p>
+La segunda nube la relacionó Lord Kelvin con el problema de la equipartición de la energía. Años atrás, la teoría cinética de los gases había estado desarrollándose para explicar teóricamente los resultados de la Termodinámica. En este contexto, Maxwell propuso en 1860 que la energía de un sistema debe distribuirse por igual, en promedio, entre todas sus partes, es decir, que todo grado de libertad tiene la misma energía. [2] Con esta idea considerada, la teoría cinética de los gases no lograba explicar los resultados experimentales de los calores específicos. Es más, cuantas más correcciones se tenían en cuenta en las consideraciones de los grados de libertad de los átomos que formaban el sistema, más se alejaba la predicción teórica de la experimental. Esta catástrofe llevó al propio Maxwell a dudar de la hipótesis de que la materia estuviera formada por átomos, que era el fundamento de la teoría cinética de los gases, aunque todavía no estaba asentada en toda la comunidad científica. A Lord Kelvin le preocupaba especialmente esta nube, aunque no se imaginaba la tormenta que ella causaría.
+</p>
+
+<p>
+Estas dos nubes, discrepancias aparentemente inofensivas en la Física de entonces, que ahora conocemos como Física Clásica, dieron lugar a dos revoluciones en la Física: la primera descargó su potencial en 1905 con la Teoría de la Relatividad Especial de Einstein y culminó con la construcción y desarrollo de la Teoría de la Relatividad General. La segunda, por su parte, fue aún más dramática: de ella surgió la Mecánica Cuántica, una rama que ha cambiado para siempre la forma en la que vemos el mundo.
+</p>
+
+<p>
+Fascinado como estaba yo divagando sobre las nubes de Lord Kelvin, no me percaté de que la tormenta había descargado su ira y que se acercaba impasiblemente hacia donde me encontraba parado mirando hacia ella. Así que no me quedó otra que correr hacia mi casa, tratando de huir (sin éxito) del agua y empezar a escribir esta entrada de mi Diario.
+</p>
+
+<p>
+El caso de las nubes de Kelvin es un gran ejemplo de cómo los fracasos en la Física a veces son más importantes que los avances, pues recogen en ellos un gran potencial para explotar en revoluciones que cambien de manera radical nuestro entendimiento del mundo que nos rodean. Así que la próxima vez que no me salga un problema de mecánica pensaré en Lord Kelvin y sus nubes, querido Diario, para no frustrarme y seguir esforzándome para entender este Universo.
+</p>
+
+
+<p>
+Atte.
+</p>
+
+<p>
+Un Friki
+</p>
+
+
+<p>
+Referencias:
+</p>
+<p>
+[1] Right. Hon. Lord Kelvin G.C.V.O. D.C.L. LL.D. F.R.S. M.R.I. (1901) I. Nineteenth century clouds over the dynamical theory of heat and light , Philosophical Magazine Series 6, 2:7, 1-40, DOI: 10.1080/14786440109462664
+</p>
+<p>
+[2] Sánchez Ron, José Manuel, <i>Historia de la Física Cuántica</i>, Vol I, Crítica, (2025)
+</p>
