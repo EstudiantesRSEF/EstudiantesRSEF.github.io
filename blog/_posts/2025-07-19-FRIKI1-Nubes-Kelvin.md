@@ -1,6 +1,9 @@
 ---
 layout: post
-categories: blog Divulgación "Diario de un Friki"
+categories: 
+   - blog 
+   - Divulgación 
+   - "Diario de un Friki"
 title:  "Diario de un Friki I: Las nubes de Lord Kelvin"
 date: 2025-07-19 11:00
 author: Enrique Rodríguez Ramos
