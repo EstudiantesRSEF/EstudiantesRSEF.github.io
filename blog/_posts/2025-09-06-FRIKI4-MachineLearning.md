@@ -26,7 +26,9 @@ Querido Diario:
 <br>
 
 <p>
-Ayer, domingo, le echaron agua en la cabeza a mi primo pequeño Roberto. Todavía sigo sin entender por qué lo hacían y por qué todo el mundo estaba tan expectante por ello. Que sí, que el bautismo es el primer sacramento de la fe cristiana y todo eso, pero para uno que sabe, como yo, que el mundo no es más que leyes físicas rigiendo el comportamiento de materia y energía, todo aquello parecía más un rito de iniciación a una secta que cualquier otra cosa. Además, no sé por qué se hace esto cuando el primo Roberto es prácticamente un bebé y para él ese episodio supone casi más una ducha en condiciones extraordinarias con un cura que no conoce, en un edificio que no es su cuarto de baño, y con muchos ojos más que los de sus padres que le vigilan mientras. Normal que el niño no parase de llorar… 
+<figure><img class="img-left" src="/img/blog/2025-09-06-FRIKI4-MachineLearning/bautizo.png"><figcaption>
+    bautizo.
+  </figcaption></figure>Ayer, domingo, le echaron agua en la cabeza a mi primo pequeño Roberto. Todavía sigo sin entender por qué lo hacían y por qué todo el mundo estaba tan expectante por ello. Que sí, que el bautismo es el primer sacramento de la fe cristiana y todo eso, pero para uno que sabe, como yo, que el mundo no es más que leyes físicas rigiendo el comportamiento de materia y energía, todo aquello parecía más un rito de iniciación a una secta que cualquier otra cosa. Además, no sé por qué se hace esto cuando el primo Roberto es prácticamente un bebé y para él ese episodio supone casi más una ducha en condiciones extraordinarias con un cura que no conoce, en un edificio que no es su cuarto de baño, y con muchos ojos más que los de sus padres que le vigilan mientras. Normal que el niño no parase de llorar… 
 </p>
 
 <p>
