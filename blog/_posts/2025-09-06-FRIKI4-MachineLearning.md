@@ -85,7 +85,8 @@ Es más, la frase &laquo <i>más sabe el diablo por viejo que por diablo</i> &ra
 <p>
 <figure>
   <img
-    src="img/blog/2025-09-06-FRIKI4-MachineLearning/supervised.png"
+     class = "img-left"
+     src="img/blog/2025-09-06-FRIKI4-MachineLearning/supervised.png"
     />
 
   <figcaption>
@@ -98,14 +99,32 @@ Es más, la frase &laquo <i>más sabe el diablo por viejo que por diablo</i> &ra
   -	Mi hijo es el más listo de todos, el otro día le estuve enseñando diferentes manzanas que hube comprado, y al día siguiente le dije que escogiera una manzana de entre una serie de frutas… ¡Y supo cuál era la manzana! Y eso que todavía no sabe hablar.
 </p>
 <p>
-  -	Pues mi hijo es aún más listo, le puse en la cama toda la fruta que compré un día: manzanas, naranjas, peras y melocotones, y sin decirle nombres ni ninguna información extra, le dije que los agrupara… ¡Y lo hizo solito! 
+  <figure>
+  <img
+     class = "img-right"
+     src="img/blog/2025-09-06-FRIKI4-MachineLearning/nosupervised.png"
+    />
+
+  <figcaption>
+    Sistema de aprendizaje no supervisado.
+  </figcaption>
+</figure>-	Pues mi hijo es aún más listo, le puse en la cama toda la fruta que compré un día: manzanas, naranjas, peras y melocotones, y sin decirle nombres ni ninguna información extra, le dije que los agrupara… ¡Y lo hizo solito! 
 </p>
 <p>
   -	Qué exageradas sois las dos. Comparado con ellos, mi perro es un premio Nobel. Ya ha aprendido a distinguir entre su hueso de juguete y mi dildo. Cada vez que se ponía a morder el dildo le daba una patada, y cada vez que mordía el hueso, le daba una chuche. Ya nunca se equivoca. Menos mal…
 </p>
 
 <p>
-Estos tres ejemplos son los tres tipos de aprendizaje que hay atendiendo a <b>la supervisión</b> a la que se somete al sujeto en cuestión. En esos casos, los bebés o el perro. Pero un sistema de Machine Learning también puede funcionar de la misma manera. Respectivamente, los tipos de algoritmos correspondientes a cada caso se denominan: <b>supervisado, no supervisado, y aprendizaje de reforzamiento</b>. En el primero, el algoritmo se entrena con casos en los que se le dice qué es cada cosa, para que luego sepa identificar eso con ejemplos nuevos. En el segundo, al algoritmo se le muestran muchos datos con sus características y él solito tiene que encontrar los patrones necesarios para agruparlos. Y en el tercero, se le da una recompensa o se le castiga al algoritmo respectivamente cuando hace lo que queremos que haga o no.
+<figure>
+  <img
+     class = "img-left"
+     src="img/blog/2025-09-06-FRIKI4-MachineLearning/reinforcement.png"
+    />
+
+  <figcaption>
+    Sistema de aprendizaje de reforzamiento.
+  </figcaption>
+</figure>Estos tres ejemplos son los tres tipos de aprendizaje que hay atendiendo a <b>la supervisión</b> a la que se somete al sujeto en cuestión. En esos casos, los bebés o el perro. Pero un sistema de Machine Learning también puede funcionar de la misma manera. Respectivamente, los tipos de algoritmos correspondientes a cada caso se denominan: <b>supervisado, no supervisado, y aprendizaje de reforzamiento</b>. En el primero, el algoritmo se entrena con casos en los que se le dice qué es cada cosa, para que luego sepa identificar eso con ejemplos nuevos. En el segundo, al algoritmo se le muestran muchos datos con sus características y él solito tiene que encontrar los patrones necesarios para agruparlos. Y en el tercero, se le da una recompensa o se le castiga al algoritmo respectivamente cuando hace lo que queremos que haga o no.
 </p>
 
 <p>
@@ -129,10 +148,30 @@ Mi otro primo Sergio, que ahora está entrando en la pubertad y tiene arrebatos 
 </p>
 
 <p>
+   <figure>
+  <img
+     class = "img-right"
+     src="img/blog/2025-09-06-FRIKI4-MachineLearning/instances.png"
+    />
+
+  <figcaption>
+    Sistema de aprendizaje instance-based.
+  </figcaption>
+</figure>
 Pues bien, ambos tipos de aprendizaje resultan muy útiles para según qué problemas un algoritmo de Machine Learning quiera solucionar. Si un sistema tiene por objetivo encontrar algún caso extraño de entre muchos similares, lo mejor es que sea buenísimo en comparar los casos que ha visto y ha memorizado ya con los nuevos a los que se enfrentan para que sea capaz de detectar algo extraño. Estos son los algoritmos <b><i>instance-based</i></b>. Sin embargo, si queremos que un algoritmo sea capaz de &laquo entender &raquo la dependencia de una serie de datos en función de sus características, lo mejor es que sea capaz de desarrollar un modelo que describa esa dependencia y que sirva para generalizarse correctamente a nuevos casos; de esa forma entendiendo los datos con los que trabaja. Este tipo de algoritmos se denominan <b>model-based</b>.
 </p>
 
 <p>
+<figure>
+  <img
+     class = "img-right"
+     src="img/blog/2025-09-06-FRIKI4-MachineLearning/model.png"
+    />
+
+  <figcaption>
+    Sistema de aprendizaje model-based.
+  </figcaption>
+</figure>
 Ni que decir tiene, que, al igual que una persona puede aprender de manera supervisada, mientras que va haciendo y memorizando las cosas, por ejemplo, una máquina también puede aprender según un algoritmo que sea clasificable según los tres criterios, siendo un algoritmo supervisado, online, e instance-based. O solo ser de 2 o de una única clase.
 </p>
  
