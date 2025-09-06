@@ -144,9 +144,14 @@ Atte.
 Un Friki
 </p>
 
-Referencias:
+<p>
+<h2>Referencias:</h2>
+</p>
 
+<p>
 [1] A. Géron. O’Reilly Book Club. Aurélien Géron on hands-on machine learning with Scikit-Learn, Keras, and TensorFlow., (2023).
+</p>
+<p>
 [2] Peter Norvig et al., “The Unreasonable Effectiveness of Data,” IEEE Intelligent Systems 24, no. 2 (2009): 8–12.
-
+</p>
 </section>
