@@ -82,49 +82,58 @@ Es más, la frase &laquo <i>más sabe el diablo por viejo que por diablo</i> &ra
 -	¡Paco! – gritó mi madre, llegando a mi rescate - ¡Deja a tu sobrino ya, que él aprende a su manera! ¿No sabes que acaso hay diferentes tipos de aprendizajes? Cada persona que aprenda lo que quiera, y a su manera.
 </p>
 
-<p>
-<figure>
-  <img
-     class = "img-left"
+<br>
+
+<img
+     class = "img-center"
      src="/img/blog/2025-09-06-FRIKI4-MachineLearning/supervised.png"
     />
+   <p>
+      <i>Sistema de aprendizaje supervisado. El algoritmo, en base a los ejemplos que ha visto en la fase de entrenamiento, dirá que el caso nuevo será bueno (tick verde) o spam.</i>
+   </p>
 
-  <figcaption >
-    Sistema de aprendizaje supervisado.
-  </figcaption>
-</figure>Como siempre mamá, tan oportuna, no solo me salvó de la chapa del tío, sino que la afirmación que anunció también es cierta para el Machine Learning. Hay diferentes tipos de problemas (analizar cantidades ingentes de datos, reconocimiento de patrones en problemas complejos, etc.) para los cuales las soluciones clásicas son o muy engorrosas o directamente imposibles, pero para los cuales se pueden idear algoritmos de Machine Learning que los solucionen, y de estilos muy diferentes. Para entender estos estilos, voy a apoyarme en frases que llegaron a mis oídos desde la acalorada discusión de las amigas de mi tía, la madre de Roberto, sobre qué bebé era el más listo de todos.
+<br>
+
+<p>
+Como siempre mamá, tan oportuna, no solo me salvó de la chapa del tío, sino que la afirmación que anunció también es cierta para el Machine Learning. Hay diferentes tipos de problemas (analizar cantidades ingentes de datos, reconocimiento de patrones en problemas complejos, etc.) para los cuales las soluciones clásicas son o muy engorrosas o directamente imposibles, pero para los cuales se pueden idear algoritmos de Machine Learning que los solucionen, y de estilos muy diferentes. Para entender estos estilos, voy a apoyarme en frases que llegaron a mis oídos desde la acalorada discusión de las amigas de mi tía, la madre de Roberto, sobre qué bebé era el más listo de todos.
 </p>
 
 <p>
   -	Mi hijo es el más listo de todos, el otro día le estuve enseñando diferentes manzanas que hube comprado, y al día siguiente le dije que escogiera una manzana de entre una serie de frutas… ¡Y supo cuál era la manzana! Y eso que todavía no sabe hablar.
 </p>
-<p>
-  <figure>
-  <img
-     class = "img-right"
+
+<br>
+
+<img
+     class = "img-center"
      src="/img/blog/2025-09-06-FRIKI4-MachineLearning/nosupervised.png"
     />
+   <p>
+      <i>Sistema de aprendizaje no supervisado. El algoritmo detecta que el nuevo caso se comporta diferente que el resto de ejemplos que ya ha estudiado y marca que es una anomalía.</i>
+   </p>
 
-  <figcaption>
-    Sistema de aprendizaje no supervisado.
-  </figcaption>
-</figure>-	Pues mi hijo es aún más listo, le puse en la cama toda la fruta que compré un día: manzanas, naranjas, peras y melocotones, y sin decirle nombres ni ninguna información extra, le dije que los agrupara… ¡Y lo hizo solito! 
+<br>
+
+<p>
+ -	Pues mi hijo es aún más listo, le puse en la cama toda la fruta que compré un día: manzanas, naranjas, peras y melocotones, y sin decirle nombres ni ninguna información extra, le dije que los agrupara… ¡Y lo hizo solito! 
 </p>
 <p>
   -	Qué exageradas sois las dos. Comparado con ellos, mi perro es un premio Nobel. Ya ha aprendido a distinguir entre su hueso de juguete y mi dildo. Cada vez que se ponía a morder el dildo le daba una patada, y cada vez que mordía el hueso, le daba una chuche. Ya nunca se equivoca. Menos mal…
 </p>
 
-<p>
-<figure>
-  <img
-     class = "img-left"
+<br>
+
+<img
+     class = "img-center"
      src="/img/blog/2025-09-06-FRIKI4-MachineLearning/reinforcement.png"
     />
+   <p>
+      <i>Sistema de aprendizaje de reforzamiento. El algoritmo crea una manera de comportarse. Si recibe un castigo, detecta que no debe hacerlo y cambia su rutina para conseguir una recompensa.</i>
+   </p>
 
-  <figcaption>
-    Sistema de aprendizaje de reforzamiento.
-  </figcaption>
-</figure>Estos tres ejemplos son los tres tipos de aprendizaje que hay atendiendo a <b>la supervisión</b> a la que se somete al sujeto en cuestión. En esos casos, los bebés o el perro. Pero un sistema de Machine Learning también puede funcionar de la misma manera. Respectivamente, los tipos de algoritmos correspondientes a cada caso se denominan: <b>supervisado, no supervisado, y aprendizaje de reforzamiento</b>. En el primero, el algoritmo se entrena con casos en los que se le dice qué es cada cosa, para que luego sepa identificar eso con ejemplos nuevos. En el segundo, al algoritmo se le muestran muchos datos con sus características y él solito tiene que encontrar los patrones necesarios para agruparlos. Y en el tercero, se le da una recompensa o se le castiga al algoritmo respectivamente cuando hace lo que queremos que haga o no.
+<br>
+<p>
+Estos tres ejemplos son los tres tipos de aprendizaje que hay atendiendo a <b>la supervisión</b> a la que se somete al sujeto en cuestión. En esos casos, los bebés o el perro. Pero un sistema de Machine Learning también puede funcionar de la misma manera. Respectivamente, los tipos de algoritmos correspondientes a cada caso se denominan: <b>supervisado, no supervisado, y aprendizaje de reforzamiento</b>. En el primero, el algoritmo se entrena con casos en los que se le dice qué es cada cosa, para que luego sepa identificar eso con ejemplos nuevos. En el segundo, al algoritmo se le muestran muchos datos con sus características y él solito tiene que encontrar los patrones necesarios para agruparlos. Y en el tercero, se le da una recompensa o se le castiga al algoritmo respectivamente cuando hace lo que queremos que haga o no.
 </p>
 
 <p>
@@ -147,31 +156,35 @@ Mi otro primo Sergio, que ahora está entrando en la pubertad y tiene arrebatos 
   -	Yo quiero que me enseñen a comprender, no a repetir como un papagayo – se quejaba.
 </p>
 
-<p>
-   <figure>
-  <img
-     class = "img-right"
+<br>
+
+<img
+     class = "img-center"
      src="/img/blog/2025-09-06-FRIKI4-MachineLearning/instances.png"
     />
+   <p>
+      <i>Sistema de aprendizaje instance-based. El algoritmo detecta que el nuevo caso está más cerca de los triángulos (se parece más), y lo calificará como tal. Realmente no entiende que es un triángulo o un cuadrado, solo compara.</i>
+   </p>
 
-  <figcaption>
-    Sistema de aprendizaje instance-based.
-  </figcaption>
-</figure>
+<br>
+
+<p>
 Pues bien, ambos tipos de aprendizaje resultan muy útiles para según qué problemas un algoritmo de Machine Learning quiera solucionar. Si un sistema tiene por objetivo encontrar algún caso extraño de entre muchos similares, lo mejor es que sea buenísimo en comparar los casos que ha visto y ha memorizado ya con los nuevos a los que se enfrentan para que sea capaz de detectar algo extraño. Estos son los algoritmos <b><i>instance-based</i></b>. Sin embargo, si queremos que un algoritmo sea capaz de &laquo entender &raquo la dependencia de una serie de datos en función de sus características, lo mejor es que sea capaz de desarrollar un modelo que describa esa dependencia y que sirva para generalizarse correctamente a nuevos casos; de esa forma entendiendo los datos con los que trabaja. Este tipo de algoritmos se denominan <b>model-based</b>.
 </p>
 
-<p>
-<figure>
-  <img
-     class = "img-right"
+<br>
+
+<img
+     class = "img-center"
      src="/img/blog/2025-09-06-FRIKI4-MachineLearning/model.png"
     />
+   <p>
+      <i>Sistema de aprendizaje model-based. El algoritmo crea un modelo según el cual el caso nuevo corresponde a un triángulo.</i>
+   </p>
 
-  <figcaption>
-    Sistema de aprendizaje model-based.
-  </figcaption>
-</figure>
+<br>
+
+<p>
 Ni que decir tiene, que, al igual que una persona puede aprender de manera supervisada, mientras que va haciendo y memorizando las cosas, por ejemplo, una máquina también puede aprender según un algoritmo que sea clasificable según los tres criterios, siendo un algoritmo supervisado, online, e instance-based. O solo ser de 2 o de una única clase.
 </p>
  
