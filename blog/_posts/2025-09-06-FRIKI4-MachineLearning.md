@@ -26,7 +26,7 @@ Querido Diario:
 <br>
 
 <p>
-<img class="img-left" src="img/blog/2025-09-06-FRIKI4-MachineLearning/6 sept 2025, 13_26_03.png">
+<img class="img-left" src="/img/blog/2025-09-06-FRIKI4-MachineLearning/6 sept 2025, 13_26_03.png">
 Ayer, domingo, le echaron agua en la cabeza a mi primo pequeño Roberto. Todavía sigo sin entender por qué lo hacían y por qué todo el mundo estaba tan expectante por ello. Que sí, que el bautismo es el primer sacramento de la fe cristiana y todo eso, pero para uno que sabe, como yo, que el mundo no es más que leyes físicas rigiendo el comportamiento de materia y energía, todo aquello parecía más un rito de iniciación a una secta que cualquier otra cosa. Además, no sé por qué se hace esto cuando el primo Roberto es prácticamente un bebé y para él ese episodio supone casi más una ducha en condiciones extraordinarias con un cura que no conoce, en un edificio que no es su cuarto de baño, y con muchos ojos más que los de sus padres que le vigilan mientras. Normal que el niño no parase de llorar… 
 </p>
 
@@ -63,7 +63,7 @@ La última pregunta era vital para responder la primera. Pues no creo que por de
 </p>
 
 <p>
-<img class="img-left" src="img/blog/2025-09-06-FRIKI4-MachineLearning/ChatGPT Image 6 sept 2025, 13_19_41.png">Cuando ya llegamos donde mi tío Paco quería llevarme, paró de comerme la oreja y me dijo:
+<img class="img-left" src="/img/blog/2025-09-06-FRIKI4-MachineLearning/ChatGPT Image 6 sept 2025, 13_19_41.png">Cuando ya llegamos donde mi tío Paco quería llevarme, paró de comerme la oreja y me dijo:
 </p>
 
 <p>
@@ -86,7 +86,7 @@ Es más, la frase &laquo <i>más sabe el diablo por viejo que por diablo</i> &ra
 <figure>
   <img
      class = "img-left"
-     src="img/blog/2025-09-06-FRIKI4-MachineLearning/supervised.png"
+     src="/img/blog/2025-09-06-FRIKI4-MachineLearning/supervised.png"
     />
 
   <figcaption>
@@ -102,7 +102,7 @@ Es más, la frase &laquo <i>más sabe el diablo por viejo que por diablo</i> &ra
   <figure>
   <img
      class = "img-right"
-     src="img/blog/2025-09-06-FRIKI4-MachineLearning/nosupervised.png"
+     src="/img/blog/2025-09-06-FRIKI4-MachineLearning/nosupervised.png"
     />
 
   <figcaption>
@@ -118,7 +118,7 @@ Es más, la frase &laquo <i>más sabe el diablo por viejo que por diablo</i> &ra
 <figure>
   <img
      class = "img-left"
-     src="img/blog/2025-09-06-FRIKI4-MachineLearning/reinforcement.png"
+     src="/img/blog/2025-09-06-FRIKI4-MachineLearning/reinforcement.png"
     />
 
   <figcaption>
@@ -151,7 +151,7 @@ Mi otro primo Sergio, que ahora está entrando en la pubertad y tiene arrebatos 
    <figure>
   <img
      class = "img-right"
-     src="img/blog/2025-09-06-FRIKI4-MachineLearning/instances.png"
+     src="/img/blog/2025-09-06-FRIKI4-MachineLearning/instances.png"
     />
 
   <figcaption>
@@ -165,7 +165,7 @@ Pues bien, ambos tipos de aprendizaje resultan muy útiles para según qué prob
 <figure>
   <img
      class = "img-right"
-     src="img/blog/2025-09-06-FRIKI4-MachineLearning/model.png"
+     src="/img/blog/2025-09-06-FRIKI4-MachineLearning/model.png"
     />
 
   <figcaption>
