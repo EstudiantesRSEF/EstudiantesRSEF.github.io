@@ -89,7 +89,7 @@ Es más, la frase &laquo <i>más sabe el diablo por viejo que por diablo</i> &ra
      src="/img/blog/2025-09-06-FRIKI4-MachineLearning/supervised.png"
     />
 
-  <figcaption>
+  <figcaption >
     Sistema de aprendizaje supervisado.
   </figcaption>
 </figure>Como siempre mamá, tan oportuna, no solo me salvó de la chapa del tío, sino que la afirmación que anunció también es cierta para el Machine Learning. Hay diferentes tipos de problemas (analizar cantidades ingentes de datos, reconocimiento de patrones en problemas complejos, etc.) para los cuales las soluciones clásicas son o muy engorrosas o directamente imposibles, pero para los cuales se pueden idear algoritmos de Machine Learning que los solucionen, y de estilos muy diferentes. Para entender estos estilos, voy a apoyarme en frases que llegaron a mis oídos desde la acalorada discusión de las amigas de mi tía, la madre de Roberto, sobre qué bebé era el más listo de todos.
