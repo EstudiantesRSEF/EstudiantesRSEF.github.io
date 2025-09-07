@@ -32,12 +32,6 @@
     width: 80%;
     max-width: 800px;
   }
- .figcaption {
-      margin-top: 0.5rem;
-      font-size: 0.9rem;
-      font-style: italic;
-      color: #555;
-    }
   /* Utilidad para limpiar floats */
   .clearfix {
     &::after {
@@ -47,5 +41,6 @@
     }
   }
 }
+
 
 
