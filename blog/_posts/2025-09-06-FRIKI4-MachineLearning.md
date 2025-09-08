@@ -35,7 +35,7 @@ Digo yo que eso tendría más sentido hacerlo cuando el niño desarrollara conci
 </p>
 
 <p>
-El caso es que después de todo el rollo, se organizó una celebración con todos los familiares. Y ya sabes lo que implica eso, Querido Diario, que aparecen aquellos tíos tan peculiares y pintorescos, enunciando las ideas y frases que les hacen característicos en todo el país, y que idolatran más a su vasito de la única rubia que nunca miente que a la santísima Trinidad por cuya fe están tomándosela.
+El caso es que después de todo el rollo, se organizó una celebración con todos los familiares. Y ya sabes lo que implica eso, Querido Diario, que aparecen aquellos tíos tan peculiares y pintorescos, enunciando las ideas y frases que les hacen característicos en todo el país, y que idolatran más a su vasito de la <i>única rubia que nunca miente</i> que a la santísima Trinidad por cuya fe están tomándosela.
 </p>
 
 <p>
@@ -47,7 +47,7 @@ En una de ellas, estaba yo mirando el cielo y recordando por qué se ve azul (ta
 </p>
 
 <p>
-  &laquo ¿Aprender? – Pensé – ¿Qué será aprender para él? Si de hecho estaba aprendiendo muchísimo mirando al cielo… &raquo Iba a responder, pero no me dio tiempo pues me cogió del hombro y mientras íbamos con los demás, me comía la oreja mientras me decía: Si me pongo pesao’ me lo dices. Si pudiera hablar siquiera…
+«¿Aprender? – Pensé – ¿Qué será aprender para él? Si de hecho estaba aprendiendo muchísimo mirando al cielo…» Iba a responder, pero no me dio tiempo pues me cogió del hombro y mientras íbamos con los demás, me comía la oreja mientras me decía: <i>Si me pongo pesao’ me lo dices</i>. Si pudiera hablar siquiera…
  </p>
 
  <p>
@@ -75,7 +75,7 @@ Se me iluminó la cara, pues eso es exactamente el principio detrás del <b>Mach
 </p>
 
 <p>
-Es más, la frase &laquo <i>más sabe el diablo por viejo que por diablo</i> &raquo  es aún más adecuada para nuestro propósito, pues se ha comprobado que da igual el algoritmo que la máquina esté utilizando, que si hay un numero suficientemente grande de datos, todos harán que la máquina aprenda y sea capaz de desempeñar la tarea con la misma efectividad. Este hecho se conoce como <b>la irrazonable efectividad de los datos</b> [2]. Parece ser que el tío Paco sabe cosas.
+Es más, la frase «<i>más sabe el diablo por viejo que por diablo</i>»  es aún más adecuada para nuestro propósito, pues se ha comprobado que da igual el algoritmo que la máquina esté utilizando, que si hay un numero suficientemente grande de datos, todos harán que la máquina aprenda y sea capaz de desempeñar la tarea con la misma efectividad. Este hecho se conoce como <b>la irrazonable efectividad de los datos</b> [2]. Parece ser que el tío Paco sabe cosas.
 </p>
 
 <p>
@@ -169,7 +169,7 @@ Mi otro primo Sergio, que ahora está entrando en la pubertad y tiene arrebatos 
 <br>
 
 <p>
-Pues bien, ambos tipos de aprendizaje resultan muy útiles para según qué problemas un algoritmo de Machine Learning quiera solucionar. Si un sistema tiene por objetivo encontrar algún caso extraño de entre muchos similares, lo mejor es que sea buenísimo en comparar los casos que ha visto y ha memorizado ya con los nuevos a los que se enfrentan para que sea capaz de detectar algo extraño. Estos son los algoritmos <b><i>instance-based</i></b>. Sin embargo, si queremos que un algoritmo sea capaz de &laquo entender &raquo la dependencia de una serie de datos en función de sus características, lo mejor es que sea capaz de desarrollar un modelo que describa esa dependencia y que sirva para generalizarse correctamente a nuevos casos; de esa forma entendiendo los datos con los que trabaja. Este tipo de algoritmos se denominan <b>model-based</b>.
+Pues bien, ambos tipos de aprendizaje resultan muy útiles para según qué problemas un algoritmo de Machine Learning quiera solucionar. Si un sistema tiene por objetivo encontrar algún caso extraño de entre muchos similares, lo mejor es que sea buenísimo en comparar los casos que ha visto y ha memorizado ya con los nuevos a los que se enfrentan para que sea capaz de detectar algo extraño. Estos son los algoritmos <b><i>instance-based</i></b>. Sin embargo, si queremos que un algoritmo sea capaz de «entender» la dependencia de una serie de datos en función de sus características, lo mejor es que sea capaz de desarrollar un modelo que describa esa dependencia y que sirva para generalizarse correctamente a nuevos casos; de esa forma entendiendo los datos con los que trabaja. Este tipo de algoritmos se denominan <b>model-based</b>.
 </p>
 
 <br>
