@@ -35,7 +35,7 @@ Digo yo que eso tendría más sentido hacerlo cuando el niño desarrollara conci
 </p>
 
 <p>
-El caso es que después de todo el rollo, se organizó una celebración con todos los familiares. Y ya sabes lo que implica eso, Querido Diario, que aparecen aquellos tíos tan peculiares y pintorescos, enunciando las ideas y frases que les hacen característicos en todo el país, y que idolatran más a su vasito de la única rubia que nunca miente que a la santísima Trinidad por cuya fe están tomándosela.
+El caso es que después de todo el rollo, se organizó una celebración con todos los familiares. Y ya sabes lo que implica eso, Querido Diario, que aparecen aquellos tíos tan peculiares y pintorescos, enunciando las ideas y frases que les hacen característicos en todo el país, y que idolatran más a su vasito de la <i>única rubia que nunca miente</i> que a la santísima Trinidad por cuya fe están tomándosela.
 </p>
 
 <p>
@@ -47,7 +47,7 @@ En una de ellas, estaba yo mirando el cielo y recordando por qué se ve azul (ta
 </p>
 
 <p>
-«¿Aprender? – Pensé – ¿Qué será aprender para él? Si de hecho estaba aprendiendo muchísimo mirando al cielo…» Iba a responder, pero no me dio tiempo pues me cogió del hombro y mientras íbamos con los demás, me comía la oreja mientras me decía: Si me pongo pesao’ me lo dices. Si pudiera hablar siquiera…
+«¿Aprender? – Pensé – ¿Qué será aprender para él? Si de hecho estaba aprendiendo muchísimo mirando al cielo…» Iba a responder, pero no me dio tiempo pues me cogió del hombro y mientras íbamos con los demás, me comía la oreja mientras me decía: <i>Si me pongo pesao’ me lo dices</i>. Si pudiera hablar siquiera…
  </p>
 
  <p>
