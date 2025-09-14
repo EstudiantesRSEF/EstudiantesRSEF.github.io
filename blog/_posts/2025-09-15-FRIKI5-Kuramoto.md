@@ -18,7 +18,7 @@ excerpt: "Hay cosas en la vida que parecen ser resultado de algún proceso de ma
 </p>
 
 <br>
-«¿Aprender? – Pensé – ¿Qué será aprender para él? Si de hecho estaba aprendiendo muchísimo mirando al cielo…»
+
 <p>
 Querido Diario:
 </p>
@@ -34,12 +34,12 @@ Quede claro que no tengo nada en contra de ellas, eh, (tengo una madre y una her
 </p>
 
 <p>
-<img class="img-right" src="/img/blog/2025-09-06-FRIKI4-MachineLearning/6 sept 2025, 13_26_03.png">
+<img class="img-right" src="/img/blog/2025-09-06-FRIKI5-Kuramoto/reglasincro.png">
 Está claro ya que no las culpo, ahora permítanme quejarme de lo que tengo que aguantar cada vez que llega ese momento. Hasta ayer, era algo duro, pero aguantable: de vez en cuando una de mis amigas se ponía un poco irritable, pero me podía apoyar en mis otras amigas para pasar un día agradable. Y cuando a otra diferente le pasaba lo mismo, la de antes ya había salido de esa etapa. ¿¡Pero lo de hoy qué ha sido!?
 </p>
 
 <p>
-¿Cómo puede suceder que se sincronicen la regla de mis 5 amigas, cuando hace unos meses a cada una le bajaba en semanas distintas? Tras irme, no paraba de darle vueltas a por qué me habían dejado solo en el descanso para irse todas ellas a comprarse <<algo dulce>>. El camino de vuelta a casa, sin embargo, me sirvió para darme cuenta de que la sincronización es un fenómeno que se ha estudiado bastante gracias a, como no, la Física. 
+¿Cómo puede suceder que se sincronicen la regla de mis 5 amigas, cuando hace unos meses a cada una le bajaba en semanas distintas? Tras irme, no paraba de darle vueltas a por qué me habían dejado solo en el descanso para irse todas ellas a comprarse «algo dulce». El camino de vuelta a casa, sin embargo, me sirvió para darme cuenta de que la sincronización es un fenómeno que se ha estudiado bastante gracias a, como no, la Física. 
 </p>
 
 <p>
@@ -63,7 +63,7 @@ El modelo de Kuramoto establece que la diferencia entre las fases de los metrón
 </p>
 
 <p>
-<img class="img-left" src="/img/blog/2025-09-06-FRIKI4-MachineLearning/6 sept 2025, 13_26_03.png">
+<img class="img-left" src="/img/blog/2025-09-06-FRIKI5-Kuramoto/columpios.png">
 El proceso es exactamente como cuando tu primo y tú os subíais a un columpio, cada uno en una silla. Al principio cada uno se columpia a un ritmo y está en un lugar diferente en cada instante, pero cada vez que tu primo iba hacia adelante, el travesaño del columpio se movía un poco con él, haciendo que tú, que, en ese momento, digamos, estabas en tu punto más alto, tardases un poco más en empezar a bajar. Así, sucesivamente acercando vuestras posiciones y modificando el ritmo de vuestro balanceo, hasta que, de repente, os estabais columpiando de manera sincronizada mirándoos como si fuerais los más felices del mundo (ciertamente lo erais), mientras vuestras madres os gritaban que ibais a caeros y a haceros daño. Prefiero mil veces esos gritos a los de esta mañana, sinceramente.
 </p>
 
@@ -86,7 +86,7 @@ Si no tuviera relaciones de ningún tipo y tu amiga estuviera encerrada toda su 
 
 <img
      class = "img-center"
-     src="/img/blog/2025-09-06-FRIKI4-MachineLearning/model.png"
+     src="/img/blog/2025-09-06-FRIKI5-Kuramoto/nosincro.png"
     />
    <p>
       <i><h6>Simulación del modelo de Kuramoto para el caso de 5000 osciladores acoplados con una interacción demasiado débil, con una distribución lorentziana de frecuencias naturales, con media nula. IZQ: evolución de las fases de los osciladores para el caso de una interacción demasiado débil (se ve que cada uno va evolucionando a su bola, sin ningún tipo de sincronización). DCHA: evolución del ritmo de oscilación de cada oscilador (se ve que no se ven prácticamente alterados).</h6></i>
@@ -131,7 +131,7 @@ Y este es, Queridos Lectores, el modelo de Kuramoto. Las diferencias de fase ent
 
 <img
      class = "img-center"
-     src="/img/blog/2025-09-06-FRIKI4-MachineLearning/model.png"
+     src="/img/blog/2025-09-06-FRIKI5-Kuramoto/sincro.png"
     />
    <p>
       <i><h6>Simulación del modelo de Kuramoto para el caso de 5000 osciladores acoplados con una interacción suficientemente fuerte para que aparezca la sincronización, con una distribución lorentziana de frecuencias naturales, con media nula. IZQ: evolución de las fases de los osciladores (se ve que cada uno va evolucionando a su bola hasta que de repente convergen en un intervalo estrecho de fases). DCHA: evolución del ritmo de oscilación de cada oscilador (de nuevo, cada uno empieza a su ritmo para luego converger todos y sincronizarse a un ritmo cercano a la media de la distribución inicial de frecuencias (cero))</h6></i>
@@ -142,10 +142,6 @@ Y este es, Queridos Lectores, el modelo de Kuramoto. Las diferencias de fase ent
 <p>
 Esta ha sido intensa, eh Querido Diario. Pero hemos podido comprobar que, al contrario de lo que pueda parecer, se puede llegar a entender bastante bien un suceso de primeras tan inverosímil como es la sincronización de la regla en mujeres. Al final parece que sí que voy a poder entenderlas un poco al menos…
 </p>
-
-
-
-
 
 <br>
 
