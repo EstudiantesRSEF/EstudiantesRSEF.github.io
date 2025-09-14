@@ -34,7 +34,7 @@ Quede claro que no tengo nada en contra de ellas, eh, (tengo una madre y una her
 </p>
 
 <p>
-<img class="img-right" src="/img/blog/2025-09-06-FRIKI5-Kuramoto/reglasincro.png">
+<img class="img-right" src="/img/blog/2025-09-15-FRIKI5-Kuramoto/reglasincro.png">
 Está claro ya que no las culpo, ahora permítanme quejarme de lo que tengo que aguantar cada vez que llega ese momento. Hasta ayer, era algo duro, pero aguantable: de vez en cuando una de mis amigas se ponía un poco irritable, pero me podía apoyar en mis otras amigas para pasar un día agradable. Y cuando a otra diferente le pasaba lo mismo, la de antes ya había salido de esa etapa. ¿¡Pero lo de hoy qué ha sido!?
 </p>
 
@@ -43,7 +43,7 @@ Está claro ya que no las culpo, ahora permítanme quejarme de lo que tengo que 
 </p>
 
 <p>
-Los <b>fenómenos de sincronización</b> ocurren cuando un conjunto de objetos de una misma clase que tienen un comportamiento cíclico pasan de evolucionar de manera independiente a comportarse todos al unísono. Tienen la particularidad de que el paso del estado inicial (aleatorio) al estado síncrono sucede <b>de forma repentina</b> y, muchas veces, con consecuencias <b>catastróficas</b>, como lo que ha sucedido hoy en clase con mis amigas, o como otros muchos ejemplos que se comentan en el siguiente [vídeo] (https://youtu.be/t-_VPRCtiUg?si=xlNx_I-BmnagHsiT "aquí").
+Los <b>fenómenos de sincronización</b> ocurren cuando un conjunto de objetos de una misma clase que tienen un comportamiento cíclico pasan de evolucionar de manera independiente a comportarse todos al unísono. Tienen la particularidad de que el paso del estado inicial (aleatorio) al estado síncrono sucede <b>de forma repentina</b> y, muchas veces, con consecuencias <b>catastróficas</b>, como lo que ha sucedido hoy en clase con mis amigas, o como otros muchos ejemplos que se comentan en el siguiente [vídeo de Veritasium](https://youtu.be/t-_VPRCtiUg?si=xlNx_I-BmnagHsiT).
 </p>
 
 <p>
@@ -63,12 +63,12 @@ El modelo de Kuramoto establece que la <b>diferencia entre las fases</b> de los 
 </p>
 
 <p>
-<img class="img-left" src="/img/blog/2025-09-06-FRIKI5-Kuramoto/columpios.png">
+<img class="img-left" src="/img/blog/2025-09-15-FRIKI5-Kuramoto/columpios.png">
 El proceso es exactamente como cuando tu primo y tú os subíais a un columpio, cada uno en una silla. Al principio cada uno se columpia a un ritmo y está en un lugar diferente en cada instante, pero cada vez que tu primo iba hacia adelante, el travesaño del columpio se movía un poco con él, haciendo que tú, que, en ese momento, digamos, estabas en tu punto más alto, tardases un poco más en empezar a bajar. Así, sucesivamente acercando vuestras posiciones y modificando el ritmo de vuestro balanceo, hasta que, de repente, os estabais columpiando de manera sincronizada mirándoos como si fuerais los más felices del mundo (ciertamente lo erais), mientras vuestras madres os gritaban que ibais a caeros y a haceros daño. Prefiero mil veces esos gritos a los de esta mañana, sinceramente.
 </p>
 
 <p>
-Vale, con los columpios es fácil entender por qué se han sincronizado, al final la diferencia de movimiento de cada uno hacía que el travesaño que los unía (que los acoplaba el uno al otro) ejerciera una pequeña fuerza en ambos, modificando sus balanceos hasta columpiarse de manera síncrona. ¿Pero y en el caso de los metrónomos qué pasa? ¿Y en el caso de la sincronización de la regla? Para la primera pregunta es sencillo, la clave está en que están sobre una misma base que se puede mover (la tabla de madera flotando en el estanque), lo que la convierte en análogo al travesaño del columpio. Para la segunda pregunta, sin embargo, no tengo ni idea; no entiendo a las mujeres.^1 
+Vale, con los columpios es fácil entender por qué se han sincronizado, al final la diferencia de movimiento de cada uno hacía que el travesaño que los unía (que los acoplaba el uno al otro) ejerciera una pequeña fuerza en ambos, modificando sus balanceos hasta columpiarse de manera síncrona. ¿Pero y en el caso de los metrónomos qué pasa? ¿Y en el caso de la sincronización de la regla? Para la primera pregunta es sencillo, la clave está en que están sobre una misma base que se puede mover (la tabla de madera flotando en el estanque), lo que la convierte en análogo al travesaño del columpio. Para la segunda pregunta, sin embargo, no tengo ni idea; no entiendo a las mujeres. $^1$ 
 </p>
 
 <p>
@@ -80,19 +80,19 @@ Si no tuviera relaciones de ningún tipo y tu amiga estuviera encerrada toda su 
 </p>
 
 $$
-
+\begin{equation}
 \frac{d\theta_i}{dt} = \omega_i
-
+\end{equation}
 $$
 
 <br>
 
 <img
      class = "img-center"
-     src="/img/blog/2025-09-06-FRIKI5-Kuramoto/nosincro.png"
+     src="/img/blog/2025-09-15-FRIKI5-Kuramoto/nosincro.png"
     />
    <p>
-      <i><h6>Simulación del modelo de Kuramoto para el caso de 5000 osciladores acoplados con una interacción demasiado débil, con una distribución lorentziana de frecuencias naturales, con media nula. IZQ: evolución de las fases de los osciladores para el caso de una interacción demasiado débil (se ve que cada uno va evolucionando a su bola, sin ningún tipo de sincronización). DCHA: evolución del ritmo de oscilación de cada oscilador (se ve que no se ven prácticamente alterados).</h6></i>
+      <i><h6>Simulación del modelo de Kuramoto para el caso de 5000 osciladores acoplados con una interacción (de campo medio) demasiado débil, con una distribución lorentziana de frecuencias naturales, con media nula. IZQ: evolución de las fases de los osciladores para el caso de una interacción demasiado débil (se ve que cada uno va evolucionando a su bola, sin ningún tipo de sincronización). DCHA: evolución del ritmo de oscilación de cada oscilador (se ve que no se ven prácticamente alterados).</h6></i>
    </p>
 
 <br>
@@ -106,7 +106,7 @@ Sin embargo, si juntamos a tu amiga Alicia con tu amiga Blanca en la torre, sus 
 </p>
 
 <p>
-Vamos a suponer que el efecto neto es el mismo si a Alicia le baja antes que a Blanca o si a Blanca le baja antes que Alicia. Lo único que cambia es que la regla de Alicia se retrasará un poco en el primer caso o se adelantará en el segundo, es decir, $d\theta/dt$ será menor o mayor, respectivamente. Es decir, el termino que añadamos a la función estará restando o sumando en función de si $\theta_A - \theta_B$ es negativo o positivo. Por lo que necesitamos una función de $\theta_B -\theta_A$ que tenga <b>simetría impar</b> ($f(-x) = -f(x)$).
+Vamos a suponer que el efecto neto es el mismo si a Alicia le baja antes que a Blanca o si a Blanca le baja antes que Alicia. Lo único que cambia es que la regla de Alicia se retrasará un poco en el primer caso o se adelantará en el segundo, es decir, $d\theta/dt$ será menor o mayor, respectivamente. Es decir, el termino que añadamos a la función estará restando o sumando en función de si $\theta_A - \theta_B$ es negativo o positivo. Por lo que necesitamos una función de $\theta_B -\theta_A$ que tenga <b>simetría impar</b> ( $f(-x)=-f(x)$ ).
 </p>
 
 <p>
@@ -114,7 +114,7 @@ Además, necesitamos que esa función sea <b>periódica</b>, pues la influencia 
 </p>
 
 <p>
-¿Qué función sencilla es impar y es periódica con periodo 2\pi? El <b>seno</b>.
+¿Qué función sencilla es impar y es periódica con periodo $2\pi$? El <b>seno</b>.
 </p>
 
 <p>
@@ -122,9 +122,9 @@ Por tanto, la velocidad de cambio de fase de un oscilador $A$ en un sistema de 2
 </p>
 
 $$
-
+\begin{equation}
 \frac{d\theta_A}{dt} = \omega_A + K_{AB}sen(\theta_B - \theta_A)
-
+\end{equation}
 $$
  
 <p>
@@ -132,9 +132,9 @@ Si tenemos muchos osciladores ($N$), la velocidad de cambio de fase del oscilado
 </p>
 
 $$
-
-\frac{d\theta_i}{dt} = \omega_i + \sum_{j \neq i}^N K_{ij}sen(\theta_j - \theta_i)
-
+\begin{equation}
+\frac{d\theta_i}{dt} = \omega_i + \sum_{j = 1}^N K_{ij}sen(\theta_j - \theta_i)
+\end{equation}
 $$
   
 <p>
@@ -146,10 +146,10 @@ Y este es, Queridos Lectores, el modelo de Kuramoto. Las diferencias de fase ent
 
 <img
      class = "img-center"
-     src="/img/blog/2025-09-06-FRIKI5-Kuramoto/sincro.png"
+     src="/img/blog/2025-09-15-FRIKI5-Kuramoto/sincro.png"
     />
    <p>
-      <i><h6>Simulación del modelo de Kuramoto para el caso de 5000 osciladores acoplados con una interacción suficientemente fuerte para que aparezca la sincronización, con una distribución lorentziana de frecuencias naturales, con media nula. IZQ: evolución de las fases de los osciladores (se ve que cada uno va evolucionando a su bola hasta que de repente convergen en un intervalo estrecho de fases). DCHA: evolución del ritmo de oscilación de cada oscilador (de nuevo, cada uno empieza a su ritmo para luego converger todos y sincronizarse a un ritmo cercano a la media de la distribución inicial de frecuencias (cero))</h6></i>
+      <i><h6>Simulación del modelo de Kuramoto para el caso de 5000 osciladores acoplados con una interacción (de campo medio) suficientemente fuerte para que aparezca la sincronización, con una distribución lorentziana de frecuencias naturales, con media nula. IZQ: evolución de las fases de los osciladores (se ve que cada uno va evolucionando a su bola hasta que de repente convergen en un intervalo estrecho de fases). DCHA: evolución del ritmo de oscilación de cada oscilador (de nuevo, cada uno empieza a su ritmo para luego converger todos y sincronizarse a un ritmo cercano a la media de la distribución inicial de frecuencias (cero))</h6></i>
    </p>
 
 <br>
@@ -167,14 +167,24 @@ Atte.
 Un Friki
 </p>
 
+$^1$ <i><sub>: Si realmente te quedas con la duda, el modelo de Kuramoto dice que, cuando están de-sincronizados, es gracias a la interacción entre los sujetos en cuestión lo que provoca que se dé esa serie de ajustes que desembocan en la sincronización. El tipo de interacción dependerá del sistema que estamos estudiando. En el caso de la regla de las mujeres, se sabe que los estados de ánimo, las sugestiones mentales, y las vivencias de ellas influyen en que la regla se retrase o se adelante unos días. El hecho de que a tu amiga le baje la regla puede producir en tu otra amiga que piense que a ella le queda poco, y se ponga nerviosa, adelantando un poco cada vez la llegada, hasta que a ambas le bajen a la vez. (Sí, magia negra). </sub></i>
+
 <p>
 <h2>Referencias:</h2>
 </p>
 
 <p>
-[1] A. Géron. O’Reilly Book Club. Aurélien Géron on hands-on machine learning with Scikit-Learn, Keras, and TensorFlow., (2023).
+- M. G. Salazar and E. R. Ramos, "Kuramoto's model and synchronization", 2025 (no publicado)
 </p>
 <p>
-[2] Peter Norvig et al., “The Unreasonable Effectiveness of Data,” IEEE Intelligent Systems 24, no. 2 (2009): 8–12.
+- J. A. Acebrón et al., Rev. Mod. Phys. 77, 137 (2005).
+</p>
+<p>
+- H. Zhou, Renormalization group analysis of kuramoto’s model, 2015.
+<p>
+- M. Sarkar and N. Gupte, Phys. Rev. E 103, 032204 (2021).
+</p>
+<p>
+- O. Kogan et al., Physical Review E 80 (2009).
 </p>
 </section>
