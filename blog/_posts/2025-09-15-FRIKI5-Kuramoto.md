@@ -55,7 +55,7 @@ Como tratar con mujeres es algo demasiado complicado, para explicar cómo funcio
 </p>
 
 <p>
-Pues bien, digamos que cada metrónomo va a un ritmo distinto: tienen una <b>frecuencia natural</b> diferente cada uno, que vamos a llamar $\omega_1$ y $\omega_2$. Y van a empezar a marchar en posiciones distintas: van a tener <b>fases</b> iniciales diferentes, $\theta_01$ y $\theta_02$. Si dejas al par de metrónomos marchar libremente, en poco tiempo te sorprenderás al ver que, de la nada, se han sincronizado <b>ellos solos</b>. ¡Cómo mis amigas con la regla! Un proceso igual de inesperado, aunque menos traumático. ¿Cómo puede ser? (Ver video anterior)
+Pues bien, digamos que cada metrónomo va a un ritmo distinto: tienen una <b>frecuencia natural</b> diferente cada uno, que vamos a llamar $\omega_1$ y $\omega_2$. Y van a empezar a marchar en posiciones distintas: van a tener <b>fases</b> iniciales diferentes, $\theta_{01}$ y $\theta_{02}$. Si dejas al par de metrónomos marchar libremente, en poco tiempo te sorprenderás al ver que, de la nada, se han sincronizado <b>ellos solos</b>. ¡Cómo mis amigas con la regla! Un proceso igual de inesperado, aunque menos traumático. ¿Cómo puede ser? (Ver video anterior)
 </p>
 
 <p>  
