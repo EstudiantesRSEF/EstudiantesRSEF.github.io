@@ -8,13 +8,13 @@ title:  "Diario de un Friki V: ¿Lo de que a las tías se les sincronice la regl
 date: 2025-09-15 11:00
 author: Enrique Rodríguez Ramos
 redirect-from:
-excerpt: "Hay cosas en la vida que parecen ser resultado de algún proceso de magia negra. El caso que nos ataña hoy es una de esas cosas. La sincronización de la regla en mujeres es, primero, inverosímil a priori y, segundo, para los que conviven con las sincronizadas, catastrófico. Nuestro Friki nos va a contar cómo ha vivido este fenómeno, y nos deducirá paso a paso un modelo que puede explicar este tipo de sucesos paranormales."
+excerpt: "Hay cosas en la vida que parecen ser resultado de algún proceso de magia negra. El caso que nos ataña hoy es una de esas cosas. La sincronización de la regla en mujeres es, primero, a priori inverosímil y, segundo, para los que conviven con las sincronizadas, catastrófico. Nuestro Friki nos va a contar cómo ha vivido este fenómeno, y nos deducirá paso a paso un modelo que puede explicar este tipo de sucesos paranormales."
 ---
 
 <section class="blog">
 
 <p class="clearfix">
-  Hay cosas en la vida que parecen ser resultado de algún proceso de magia negra. El caso que nos ataña hoy es una de esas cosas. La sincronización de la regla en mujeres es, primero, inverosímil <i>a priori</i> y, segundo, para los que conviven con las sincronizadas, catastrófico. Nuestro Friki nos va a contar cómo ha vivido este fenómeno, y nos deducirá paso a paso un modelo que puede explicar este tipo de sucesos paranormales.
+  Hay cosas en la vida que parecen ser resultado de algún proceso de magia negra. El caso que nos ataña hoy es una de esas cosas. La sincronización de la regla en mujeres es, primero, <i>a priori</i> inverosímil y, segundo, para los que conviven con las sincronizadas, catastrófico. Nuestro Friki nos va a contar cómo ha vivido este fenómeno, y nos deducirá paso a paso un modelo que puede explicar este tipo de sucesos paranormales.
 </p>
 
 <br>
@@ -43,7 +43,7 @@ Está claro ya que no las culpo, ahora permítanme quejarme de lo que tengo que 
 </p>
 
 <p>
-Los <b>fenómenos de sincronización</b> ocurren cuando un conjunto de objetos de una misma clase que tienen un comportamiento cíclico pasan de evolucionar de manera independiente a comportarse todos al unísono. Tienen la particularidad de que el paso del estado inicial (aleatorio) al estado síncrono sucede <b>de forma repentina</b> y, muchas veces, con consecuencias <b>catastróficas</b>, como lo que ha sucedido hoy en clase con mis amigas, o como otros muchos ejemplos que se comentan en el siguiente [vídeo de Veritasium](https://youtu.be/t-_VPRCtiUg?si=xlNx_I-BmnagHsiT).
+Los <b>fenómenos de sincronización</b> ocurren cuando un conjunto de objetos de una misma clase que tienen un comportamiento cíclico pasan de evolucionar de manera independiente a comportarse todos al unísono. Tienen la particularidad de que el paso del estado inicial (aleatorio) al estado síncrono sucede <b>de forma repentina</b> y, muchas veces, con consecuencias <b>catastróficas</b>, como lo que ha sucedido hoy en clase con mis amigas, o como otros muchos ejemplos que se comentan en el siguiente <a href="https://youtu.be/t-_VPRCtiUg?si=xlNx_I-BmnagHsiT">vídeo de Veritasium</a>.
 </p>
 
 <p>
@@ -55,7 +55,7 @@ Como tratar con mujeres es algo demasiado complicado, para explicar cómo funcio
 </p>
 
 <p>
-Pues bien, digamos que cada metrónomo va a un ritmo distinto: tienen una <b>frecuencia natural</b> diferente cada uno, que vamos a llamar $\omega_1$ y $\omega_2$. Y van a empezar a marchar en posiciones distintas: van a tener <b>fases</b> iniciales diferentes, >$\theta_01$ y $\theta_02$. Si dejas al par de metrónomos marchar libremente, en poco tiempo te sorprenderás al ver que, de la nada, se han sincronizado <b>ellos solos</b>. ¡Cómo mis amigas con la regla! Un proceso igual de inesperado, aunque menos traumático. ¿Cómo puede ser? (Ver video anterior)
+Pues bien, digamos que cada metrónomo va a un ritmo distinto: tienen una <b>frecuencia natural</b> diferente cada uno, que vamos a llamar $\omega_1$ y $\omega_2$. Y van a empezar a marchar en posiciones distintas: van a tener <b>fases</b> iniciales diferentes, $\theta_01$ y $\theta_02$. Si dejas al par de metrónomos marchar libremente, en poco tiempo te sorprenderás al ver que, de la nada, se han sincronizado <b>ellos solos</b>. ¡Cómo mis amigas con la regla! Un proceso igual de inesperado, aunque menos traumático. ¿Cómo puede ser? (Ver video anterior)
 </p>
 
 <p>  
