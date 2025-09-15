@@ -8,13 +8,13 @@ title:  "Diario de un Friki V: ¿Lo de que a las tías se les sincronice la regl
 date: 2025-09-15 11:00
 author: Enrique Rodríguez Ramos
 redirect-from:
-excerpt: "Hay cosas en la vida que parecen ser resultado de algún proceso de magia negra. El caso que nos ataña hoy es una de esas cosas. La sincronización de la regla en mujeres es, primero, inverosímil a priori y, segundo, para los que conviven con las sincronizadas, catastrófico. Nuestro Friki nos va a contar cómo ha vivido este fenómeno, y nos deducirá paso a paso un modelo que puede explicar este tipo de sucesos paranormales."
+excerpt: "Hay cosas en la vida que parecen ser resultado de algún proceso de magia negra. El caso que nos ataña hoy es una de esas cosas. La sincronización de la regla en mujeres es, primero, a priori inverosímil y, segundo, para los que conviven con las sincronizadas, catastrófico. Nuestro Friki nos va a contar cómo ha vivido este fenómeno, y nos deducirá paso a paso un modelo que puede explicar este tipo de sucesos paranormales."
 ---
 
 <section class="blog">
 
 <p class="clearfix">
-  Hay cosas en la vida que parecen ser resultado de algún proceso de magia negra. El caso que nos ataña hoy es una de esas cosas. La sincronización de la regla en mujeres es, primero, inverosímil <i>a priori</i> y, segundo, para los que conviven con las sincronizadas, catastrófico. Nuestro Friki nos va a contar cómo ha vivido este fenómeno, y nos deducirá paso a paso un modelo que puede explicar este tipo de sucesos paranormales.
+  Hay cosas en la vida que parecen ser resultado de algún proceso de magia negra. El caso que nos ataña hoy es una de esas cosas. La sincronización de la regla en mujeres es, primero, <i>a priori</i> inverosímil  y, segundo, para los que conviven con las sincronizadas, catastrófico. Nuestro Friki nos va a contar cómo ha vivido este fenómeno, y nos deducirá paso a paso un modelo que puede explicar este tipo de sucesos paranormales.
 </p>
 
 <br>
