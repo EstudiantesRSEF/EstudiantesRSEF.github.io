@@ -56,7 +56,7 @@ Como tratar con mujeres es algo demasiado complicado, para explicar cómo funcio
 </p>
 
 <p>
-Pues bien, digamos que cada metrónomo va a un ritmo distinto: tienen una <b>frecuencia natural</b> diferente cada uno, que vamos a llamar <i>ω<sub>1</sub></i> y <i>ω<sub>2</sub></i>. Y van a empezar a marchar en posiciones distintas: van a tener <b>fases</b> iniciales diferentes, <i>θ<sub>01</sub></i> y <i>θ<sub>02</sub></i>. Si dejas al par de metrónomos marchar libremente, en poco tiempo te sorprenderás al ver que, de la nada, se han sincronizado <b>ellos solos</b>. ¡Cómo mis amigas con la regla! Un proceso igual de inesperado, aunque menos traumático. ¿Cómo puede ser? (Ver video anterior)
+Pues bien, digamos que cada metrónomo va a un ritmo distinto: tienen una <b>frecuencia natural</b> diferente cada uno, que vamos a llamar \(\omega_1\) y \(\omega_2\). Y van a empezar a marchar en posiciones distintas: van a tener <b>fases</b> iniciales diferentes, \(\theta_{01}\) y \(\theta_{02}\). Si dejas al par de metrónomos marchar libremente, en poco tiempo te sorprenderás al ver que, de la nada, se han sincronizado <b>ellos solos</b>. ¡Cómo mis amigas con la regla! Un proceso igual de inesperado, aunque menos traumático. ¿Cómo puede ser? (Ver video anterior)
 </p>
 
 <p>  
@@ -69,15 +69,15 @@ El proceso es exactamente como cuando tu primo y tú os subíais a un columpio, 
 </p>
 
 <p>
-Vale, con los columpios es fácil entender por qué se han sincronizado, al final la diferencia de movimiento de cada uno hacía que el travesaño que los unía (que los acoplaba el uno al otro) ejerciera una pequeña fuerza en ambos, modificando sus balanceos hasta columpiarse de manera síncrona. ¿Pero y en el caso de los metrónomos qué pasa? ¿Y en el caso de la sincronización de la regla? Para la primera pregunta es sencillo, la clave está en que están sobre una misma base que se puede mover (la tabla de madera flotando en el estanque), lo que la convierte en análogo al travesaño del columpio. Para la segunda pregunta, sin embargo, no tengo ni idea; no entiendo a las mujeres. <i><sup>1</sup></i>
+Vale, con los columpios es fácil entender por qué se han sincronizado, al final la diferencia de movimiento de cada uno hacía que el travesaño que los unía (que los acoplaba el uno al otro) ejerciera una pequeña fuerza en ambos, modificando sus balanceos hasta columpiarse de manera síncrona. ¿Pero y en el caso de los metrónomos qué pasa? ¿Y en el caso de la sincronización de la regla? Para la primera pregunta es sencillo, la clave está en que están sobre una misma base que se puede mover (la tabla de madera flotando en el estanque), lo que la convierte en análogo al travesaño del columpio. Para la segunda pregunta, sin embargo, no tengo ni idea; no entiendo a las mujeres. \(^!\)
 </p>
 
 <p>
-Parece entonces que, si queremos estudiar el proceso de sincronización, tenemos que buscar una expresión matemática que relacione cómo cambia la fase del objeto en cuestión con el tiempo. Así que vamos con ello. La velocidad de cambio de fase de un oscilador viene dada por el tiempo <i>dt</i> que tarda el oscilador en recorrer una diferencia de fase <i>dθ</i>: buscamos, pues, <i>dθ/dt</i>.
+Parece entonces que, si queremos estudiar el proceso de sincronización, tenemos que buscar una expresión matemática que relacione cómo cambia la fase del objeto en cuestión con el tiempo. Así que vamos con ello. La velocidad de cambio de fase de un oscilador viene dada por el tiempo \(dt\) que tarda el oscilador en recorrer una diferencia de fase \(dθ\): buscamos, pues, \(d\theta/dt\).
 </p>
 
 <p>
-Si no tuviera relaciones de ningún tipo y tu amiga estuviera encerrada toda su vida en una torre sola, a lo Fiona, su regla bajaría cuando le tocase. Asimismo, si no hay interacción entre osciladores, su ritmo de oscilación sería igual a su frecuencia natural y no cambiaría nunca. Por tanto, en ese caso nuestra expresión matemática se vería así (para cada oscilador <i>i</i>):
+Si no tuviera relaciones de ningún tipo y tu amiga estuviera encerrada toda su vida en una torre sola, a lo Fiona, su regla bajaría cuando le tocase. Asimismo, si no hay interacción entre osciladores, su ritmo de oscilación sería igual a su frecuencia natural y no cambiaría nunca. Por tanto, en ese caso nuestra expresión matemática se vería así (para cada oscilador \(i\)):
 </p>
 
 <p>
