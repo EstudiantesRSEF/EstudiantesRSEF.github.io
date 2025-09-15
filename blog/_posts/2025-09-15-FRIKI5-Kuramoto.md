@@ -182,6 +182,7 @@ Un Friki
 </p>
 <p>
 - H. Zhou, Renormalization group analysis of kuramoto’s model, 2015.
+</p>
 <p>
 - M. Sarkar and N. Gupte, Phys. Rev. E 103, 032204 (2021).
 </p>
