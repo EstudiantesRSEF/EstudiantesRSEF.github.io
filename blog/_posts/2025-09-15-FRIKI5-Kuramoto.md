@@ -187,4 +187,6 @@ $^1$ <i><sub>: Si realmente te quedas con la duda, el modelo de Kuramoto dice qu
 <p>
 - O. Kogan et al., Physical Review E 80 (2009).
 </p>
+
+
 </section>
