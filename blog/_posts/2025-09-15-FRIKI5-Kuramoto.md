@@ -69,7 +69,7 @@ El proceso es exactamente como cuando tu primo y tú os subíais a un columpio, 
 </p>
 
 <p>
-Vale, con los columpios es fácil entender por qué se han sincronizado, al final la diferencia de movimiento de cada uno hacía que el travesaño que los unía (que los acoplaba el uno al otro) ejerciera una pequeña fuerza en ambos, modificando sus balanceos hasta columpiarse de manera síncrona. ¿Pero y en el caso de los metrónomos qué pasa? ¿Y en el caso de la sincronización de la regla? Para la primera pregunta es sencillo, la clave está en que están sobre una misma base que se puede mover (la tabla de madera flotando en el estanque), lo que la convierte en análogo al travesaño del columpio. Para la segunda pregunta, sin embargo, no tengo ni idea; no entiendo a las mujeres. \(^!\)
+Vale, con los columpios es fácil entender por qué se han sincronizado, al final la diferencia de movimiento de cada uno hacía que el travesaño que los unía (que los acoplaba el uno al otro) ejerciera una pequeña fuerza en ambos, modificando sus balanceos hasta columpiarse de manera síncrona. ¿Pero y en el caso de los metrónomos qué pasa? ¿Y en el caso de la sincronización de la regla? Para la primera pregunta es sencillo, la clave está en que están sobre una misma base que se puede mover (la tabla de madera flotando en el estanque), lo que la convierte en análogo al travesaño del columpio. Para la segunda pregunta, sin embargo, no tengo ni idea; no entiendo a las mujeres. \(^1\)
 </p>
 
 <p>
