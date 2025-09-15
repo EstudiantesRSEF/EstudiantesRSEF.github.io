@@ -31,7 +31,7 @@ Ayer, domingo, le echaron agua en la cabeza a mi primo pequeño Roberto. Todaví
 </p>
 
 <p>
-Digo yo que eso tendría más sentido hacerlo cuando el niño desarrollara conciencia para que sepa, al menos, dónde se está metiendo y por qué. Pero bueno de eso que se encarguen el que se tenga que encargar.
+Digo yo que eso tendría más sentido hacerlo cuando el niño desarrollara conciencia para que sepa, al menos, dónde se está metiendo y por qué. Pero bueno de eso que se encargue el que se tenga que encargar.
 </p>
 
 <p>
