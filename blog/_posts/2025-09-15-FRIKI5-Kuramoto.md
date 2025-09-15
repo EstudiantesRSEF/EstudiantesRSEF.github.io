@@ -43,7 +43,8 @@ Está claro ya que no las culpo, ahora permítanme quejarme de lo que tengo que 
 </p>
 
 <p>
-Los <b>fenómenos de sincronización</b> ocurren cuando un conjunto de objetos de una misma clase que tienen un comportamiento cíclico pasan de evolucionar de manera independiente a comportarse todos al unísono. Tienen la particularidad de que el paso del estado inicial (aleatorio) al estado síncrono sucede <b>de forma repentina</b> y, muchas veces, con consecuencias <b>catastróficas</b>, como lo que ha sucedido hoy en clase con mis amigas, o como otros muchos ejemplos que se comentan en el siguiente [vídeo de Veritasium](https://youtu.be/t-_VPRCtiUg?si=xlNx_I-BmnagHsiT).
+Los <b>fenómenos de sincronización</b> ocurren cuando un conjunto de objetos de una misma clase que tienen un comportamiento cíclico pasan de evolucionar de manera independiente a comportarse todos al unísono. Tienen la particularidad de que el paso del estado inicial (aleatorio) al estado síncrono sucede <b>de forma repentina</b> y, muchas veces, con consecuencias <b>catastróficas</b>, como lo que ha sucedido hoy en clase con mis amigas, o como otros muchos ejemplos que se comentan en el siguiente <a href="https://youtu.be/t-_VPRCtiUg?si=xlNx_I-BmnagHsiT">vídeo de Veritasium</a>
+.
 </p>
 
 <p>
@@ -55,7 +56,7 @@ Como tratar con mujeres es algo demasiado complicado, para explicar cómo funcio
 </p>
 
 <p>
-Pues bien, digamos que cada metrónomo va a un ritmo distinto: tienen una <b>frecuencia natural</b> diferente cada uno, que vamos a llamar $\omega_1$ y $\omega_2$. Y van a empezar a marchar en posiciones distintas: van a tener <b>fases</b> iniciales diferentes, >$\theta_01$ y $\theta_02$. Si dejas al par de metrónomos marchar libremente, en poco tiempo te sorprenderás al ver que, de la nada, se han sincronizado <b>ellos solos</b>. ¡Cómo mis amigas con la regla! Un proceso igual de inesperado, aunque menos traumático. ¿Cómo puede ser? (Ver video anterior)
+Pues bien, digamos que cada metrónomo va a un ritmo distinto: tienen una <b>frecuencia natural</b> diferente cada uno, que vamos a llamar <i>ω<sub>1</sub></i> y <i>ω<sub>2</sub></i>. Y van a empezar a marchar en posiciones distintas: van a tener <b>fases</b> iniciales diferentes, <i>θ<sub>01</sub></i> y <i>θ<sub>02</sub></i>. Si dejas al par de metrónomos marchar libremente, en poco tiempo te sorprenderás al ver que, de la nada, se han sincronizado <b>ellos solos</b>. ¡Cómo mis amigas con la regla! Un proceso igual de inesperado, aunque menos traumático. ¿Cómo puede ser? (Ver video anterior)
 </p>
 
 <p>  
@@ -68,22 +69,22 @@ El proceso es exactamente como cuando tu primo y tú os subíais a un columpio, 
 </p>
 
 <p>
-Vale, con los columpios es fácil entender por qué se han sincronizado, al final la diferencia de movimiento de cada uno hacía que el travesaño que los unía (que los acoplaba el uno al otro) ejerciera una pequeña fuerza en ambos, modificando sus balanceos hasta columpiarse de manera síncrona. ¿Pero y en el caso de los metrónomos qué pasa? ¿Y en el caso de la sincronización de la regla? Para la primera pregunta es sencillo, la clave está en que están sobre una misma base que se puede mover (la tabla de madera flotando en el estanque), lo que la convierte en análogo al travesaño del columpio. Para la segunda pregunta, sin embargo, no tengo ni idea; no entiendo a las mujeres. $^1$ 
+Vale, con los columpios es fácil entender por qué se han sincronizado, al final la diferencia de movimiento de cada uno hacía que el travesaño que los unía (que los acoplaba el uno al otro) ejerciera una pequeña fuerza en ambos, modificando sus balanceos hasta columpiarse de manera síncrona. ¿Pero y en el caso de los metrónomos qué pasa? ¿Y en el caso de la sincronización de la regla? Para la primera pregunta es sencillo, la clave está en que están sobre una misma base que se puede mover (la tabla de madera flotando en el estanque), lo que la convierte en análogo al travesaño del columpio. Para la segunda pregunta, sin embargo, no tengo ni idea; no entiendo a las mujeres. <i><sup>1</sup></i>
 </p>
 
 <p>
-Parece entonces que, si queremos estudiar el proceso de sincronización, tenemos que buscar una expresión matemática que relacione cómo cambia la fase del objeto en cuestión con el tiempo. Así que vamos con ello. La velocidad de cambio de fase de un oscilador viene dada por el tiempo $dt$ que tarda el oscilador en recorrer una diferencia de fase $d\theta$: buscamos, pues, $d\theta/dt$.
+Parece entonces que, si queremos estudiar el proceso de sincronización, tenemos que buscar una expresión matemática que relacione cómo cambia la fase del objeto en cuestión con el tiempo. Así que vamos con ello. La velocidad de cambio de fase de un oscilador viene dada por el tiempo <i>dt</i> que tarda el oscilador en recorrer una diferencia de fase <i>dθ</i>: buscamos, pues, <i>dθ/dt</i>.
 </p>
 
 <p>
-Si no tuviera relaciones de ningún tipo y tu amiga estuviera encerrada toda su vida en una torre sola, a lo Fiona, su regla bajaría cuando le tocase. Asimismo, si no hay interacción entre osciladores, su ritmo de oscilación sería igual a su frecuencia natural y no cambiaría nunca. Por tanto, en ese caso nuestra expresión matemática se vería así (para cada oscilador $i$):
+Si no tuviera relaciones de ningún tipo y tu amiga estuviera encerrada toda su vida en una torre sola, a lo Fiona, su regla bajaría cuando le tocase. Asimismo, si no hay interacción entre osciladores, su ritmo de oscilación sería igual a su frecuencia natural y no cambiaría nunca. Por tanto, en ese caso nuestra expresión matemática se vería así (para cada oscilador <i>i</i>):
 </p>
 
-$$
-\begin{equation}
-\frac{d\theta_i}{dt} = \omega_i
-\end{equation}
-$$
+<p>
+  \[
+    \frac{d\theta_i}{dt} = \omega_i
+  \]
+</p>
 
 <br>
 
@@ -98,7 +99,7 @@ $$
 <br>
 
 <p>
-Sin embargo, si juntamos a tu amiga Alicia con tu amiga Blanca en la torre, sus periodos empiezan a influenciarse el uno al otro con una intensidad que va a venir modulada por una constante $K_{AB}$, y que va a depender <b>únicamente</b> de la diferencia de las fases de sus periodos (esta es la clave del modelo de Kuramoto, lo que lo hace tan simple): $\theta_A$ y $\theta_B$. 
+Sin embargo, si juntamos a tu amiga Alicia con tu amiga Blanca en la torre, sus periodos empiezan a influenciarse el uno al otro con una intensidad que va a venir modulada por una constante \(K_{AB}\), y que va a depender <b>únicamente</b> de la diferencia de las fases de sus periodos (esta es la clave del modelo de Kuramoto, lo que lo hace tan simple): \(\theta_A\) y \(\theta_B\). 
 </p>
 
 <p>
@@ -106,36 +107,36 @@ Sin embargo, si juntamos a tu amiga Alicia con tu amiga Blanca en la torre, sus 
 </p>
 
 <p>
-Vamos a suponer que el efecto neto es el mismo si a Alicia le baja antes que a Blanca o si a Blanca le baja antes que Alicia. Lo único que cambia es que la regla de Alicia se retrasará un poco en el primer caso o se adelantará en el segundo, es decir, $d\theta/dt$ será menor o mayor, respectivamente. Es decir, el termino que añadamos a la función estará restando o sumando en función de si $\theta_A - \theta_B$ es negativo o positivo. Por lo que necesitamos una función de $\theta_B -\theta_A$ que tenga <b>simetría impar</b> ( $f(-x)=-f(x)$ ).
+Vamos a suponer que el efecto neto es el mismo si a Alicia le baja antes que a Blanca o si a Blanca le baja antes que Alicia. Lo único que cambia es que la regla de Alicia se retrasará un poco en el primer caso o se adelantará en el segundo, es decir, \(d\theta/dt\) será menor o mayor, respectivamente. Es decir, el termino que añadamos a la función estará restando o sumando en función de si \(\theta_A - \) es negativo o positivo. Por lo que necesitamos una función de \(\theta_B -\theta_A\) que tenga <b>simetría impar</b> ( \(f(-x)=-f(x)\) ).
 </p>
 
 <p>
-Además, necesitamos que esa función sea <b>periódica</b>, pues la influencia de tu primo en su columpio sobre el tuyo no dependerá (en este modelo) de si lleva 3 o 4 columpiadas más que tú, sino que depende de la diferencia de fase en ese instante, como si no hubiera pasado nada más anteriormente. Por ejemplo, imagina que tu primo se ha columpiado 2 veces completas, pero que en el instante en el que tú te montas, tu primo está justo abajo del todo, en la misma posición que tú. La influencia que sobre ti ejerce ahí será la misma que si tu primo se acabara de montar, pues no hay diferencia de posición. Por tanto, para parametrizar la interacción entre los dos osciladores en función de su diferencia de fase, necesitamos una función periódica, con el mismo periodo que las fases de los osciladores (como siempre $2\pi$ radianes). 
+Además, necesitamos que esa función sea <b>periódica</b>, pues la influencia de tu primo en su columpio sobre el tuyo no dependerá (en este modelo) de si lleva 3 o 4 columpiadas más que tú, sino que depende de la diferencia de fase en ese instante, como si no hubiera pasado nada más anteriormente. Por ejemplo, imagina que tu primo se ha columpiado 2 veces completas, pero que en el instante en el que tú te montas, tu primo está justo abajo del todo, en la misma posición que tú. La influencia que sobre ti ejerce ahí será la misma que si tu primo se acabara de montar, pues no hay diferencia de posición. Por tanto, para parametrizar la interacción entre los dos osciladores en función de su diferencia de fase, necesitamos una función periódica, con el mismo periodo que las fases de los osciladores (como siempre \(2\pi\) radianes). 
 </p>
 
 <p>
-¿Qué función sencilla es impar y es periódica con periodo $2\pi$? El <b>seno</b>.
+¿Qué función sencilla es impar y es periódica con periodo \(2\pi\)? El <b>seno</b>.
 </p>
 
 <p>
-Por tanto, la velocidad de cambio de fase de un oscilador $A$ en un sistema de 2 osciladores acoplados ($A$ y $B$), viene dada por:
+Por tanto, la velocidad de cambio de fase de un oscilador \(A\) en un sistema de 2 osciladores acoplados (\(A\) y \(B\)), viene dada por:
 </p>
 
-$$
-\begin{equation}
-\frac{d\theta_A}{dt} = \omega_A + K_{AB}sen(\theta_B - \theta_A)
-\end{equation}
-$$
+<p>
+    \[
+    \frac{d\theta_A}{dt} = \omega_A + K_{AB} \sin(\theta_B - \theta_A)
+    \]
+</p>
  
 <p>
-Si tenemos muchos osciladores ($N$), la velocidad de cambio de fase del oscilador $i$ vendrá dada por su frecuencia natural, que se verá modificada por cada interacción del oscilador $i$ con cualquier otro oscilador $j$, cuya intensidad estará modulada por la constante $K_{ij}$.
+Si tenemos muchos osciladores (\(N\)), la velocidad de cambio de fase del oscilador \(i\) vendrá dada por su frecuencia natural, que se verá modificada por cada interacción del oscilador \(i\) con cualquier otro oscilador \(j\), cuya intensidad estará modulada por la constante \(K_{ij}\).
 </p>
 
-$$
-\begin{equation}
-\frac{d\theta_i}{dt} = \omega_i + \sum_{j = 1}^N K_{ij}sen(\theta_j - \theta_i)
-\end{equation}
-$$
+  <p>
+    \[
+      \frac{d\theta_i}{dt} = \omega_i + \sum_{j=1}^N K_{ij} \sin(\theta_j - \theta_i)
+    \]
+  </p>
   
 <p>
 Y este es, Queridos Lectores, el modelo de Kuramoto. Las diferencias de fase entre cada par de osciladores harán que al final cada oscilador vaya modificando su velocidad de cambio de fase hasta que, de repente, todos estén oscilando al mismo tiempo. Esto se puede ver en la siguiente figura, en la que se muestra la velocidad de cambio de fase de muchos osciladores que interaccionan todos con todos de la misma manera a medida que pasa el tiempo, conspirando todos juntos para que llegue un momento que se dé el milagro.
@@ -167,7 +168,7 @@ Atte.
 Un Friki
 </p>
 
-$^1$ <i><sub>: Si realmente te quedas con la duda, el modelo de Kuramoto dice que, cuando están de-sincronizados, es gracias a la interacción entre los sujetos en cuestión lo que provoca que se dé esa serie de ajustes que desembocan en la sincronización. El tipo de interacción dependerá del sistema que estamos estudiando. En el caso de la regla de las mujeres, se sabe que los estados de ánimo, las sugestiones mentales, y las vivencias de ellas influyen en que la regla se retrase o se adelante unos días. El hecho de que a tu amiga le baje la regla puede producir en tu otra amiga que piense que a ella le queda poco, y se ponga nerviosa, adelantando un poco cada vez la llegada, hasta que a ambas le bajen a la vez. (Sí, magia negra). </sub></i>
+\(^1\) <i><sub>: Si realmente te quedas con la duda, el modelo de Kuramoto dice que, cuando están de-sincronizados, es gracias a la interacción entre los sujetos en cuestión lo que provoca que se dé esa serie de ajustes que desembocan en la sincronización. El tipo de interacción dependerá del sistema que estamos estudiando. En el caso de la regla de las mujeres, se sabe que los estados de ánimo, las sugestiones mentales, y las vivencias de ellas influyen en que la regla se retrase o se adelante unos días. El hecho de que a tu amiga le baje la regla puede producir en tu otra amiga que piense que a ella le queda poco, y se ponga nerviosa, adelantando un poco cada vez la llegada, hasta que a ambas le bajen a la vez. (Sí, magia negra). </sub></i>
 
 <p>
 <h2>Referencias:</h2>
