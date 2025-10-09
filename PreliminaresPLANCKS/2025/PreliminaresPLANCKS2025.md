@@ -107,7 +107,7 @@ permalink: /PreliminaresPLANCKS2025/
         {% for year in site.data.Prelis.autores %}
           {% for autor in year["2025"] %}
             <div style="flex:1 1 280px; max-width:340px;">
-              <div style="border:1px solid #e0e0e0; border-radius:6px; overflow:hidden; box-shadow:0 2px 4px rgba(0,0,0,0.06); background:#fff;">
+              <div style="border:1px solid #e0e0e0; border-radius:6px; overflow:hidden; box-shadow:0 2px 4px #e53935; background:#fff;">
                 <div style="background:#b71c1c; color:#fff; display:flex; gap:12px; align-items:center; padding:12px;">
                   <div style="width:72px; height:72px; flex:0 0 72px;">
                     <img src="{{ autor.imagen }}" alt="{{ autor.nombre }}" style="width:72px; height:72px; object-fit:cover; border-radius:50%;">
@@ -118,8 +118,8 @@ permalink: /PreliminaresPLANCKS2025/
                   </div>
                 </div>
                 <div style="padding:12px; color:#222;">
-                  <p style="margin:0 0 8px 0;">{{ autor["biografía"] | truncate: 220 }}</p>
-                  <a href="#{{ autor.nombre | slugify }}-modal" class="modal-trigger" style="color:#b71c1c; font-weight:600; text-decoration:none;">Leer biografía</a>
+                  <p style="margin:0 0 8px 0;">{{ autor["biografia"] | truncate: 220 }}</p>
+                  <a href="#{{ autor.nombre | slugify }}-modal" class="modal-trigger" style="color:#e53935; font-weight:600; text-decoration:none;">Leer biografía</a>
                 </div>
               </div>
             </div>
@@ -128,7 +128,7 @@ permalink: /PreliminaresPLANCKS2025/
               <div class="modal-content">
                 <h4>{{ autor.nombre }}</h4>
                 <h6><em>{{ autor.tema }}</em></h6>
-                <p style="text-align: justify;">{{ autor["biografía"] }}</p>
+                <p style="text-align: justify;">{{ autor["biografia"] }}</p>
               </div>
               <div class="modal-footer">
                 <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
