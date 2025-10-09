@@ -101,28 +101,38 @@ permalink: /PreliminaresPLANCKS2025/
         </div>
       </div>
       <!-- AUTORES -->
-      <!-- <div class="section">
-        <h3 id="Autores">¡Conoce a l@s autor@s de los problemas!</h3>
-        <p style="text-align: justify;">Los miembros del Comité Académico de las Preliminares PLANCKS 2025 son:</p>
-        <div class="col s12 m6">
-          <div class="row center">
-            {% for person in site.persons %}
-            {% if person.evento contains "Prelis2025" %}
+      <h3 id="Autores">¡Conoce a l@s autor@s de los problemas!</h3>
+      <p style="text-align: justify;">Los miembros del Comité Académico de las Preliminares PLANCKS 2025 son:</p>
+      <div class="col s12 m6">
+        <div class="row center">
+          {% for year in site.data.Prelis.autores %}
+            {% for autor in year["2025"] %}
               <ul class="collection waves-effect waves-light" style="width: 40%">
-                <a href="#{{ person.id | remove: "/" }}-modal" class="collection-item modal-trigger waves-effect waves-light" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
+                <a href="#{{ autor.nombre | slugify }}-modal" class="collection-item modal-trigger waves-effect waves-light" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
                   <li class="collection-item avatar2">
-                    <img src="{{ person.img }}" alt="" class="circle">
-                    <span class="title" style="padding-left: 10px">{{ person.nombre }}</span>
-                    <p style="padding-top: 10px">{{ person.rol }}</p>
+                    <!-- Si tienes imágenes asociadas, podrías usar algo como: /img/prelis/{{ autor.nombre | slugify }}.jpg -->
+                    <img src="/img/prelis/{{ autor.nombre | slugify }}.jpg" alt="{{ autor.nombre }}" class="circle">
+                    <span class="title" style="padding-left: 10px">{{ autor.nombre }}</span>
+                    <p style="padding-top: 10px">{{ autor.tema }}</p>
                   </li>
                 </a>
               </ul>
-            {% endif %}
-            {% endfor %}    
-          </div>
-       </div>
-      </div> -->
-        <!-- COMITÉS -->
+              <!-- Modal con la biografía -->
+              <div id="{{ autor.nombre | slugify }}-modal" class="modal">
+                <div class="modal-content">
+                  <h4>{{ autor.nombre }}</h4>
+                  <h6><em>{{ autor.tema }}</em></h6>
+                  <p style="text-align: justify;">{{ autor.biografía }}</p>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
+                </div>
+              </div>
+            {% endfor %}
+          {% endfor %}
+        </div>
+      </div>
+      <!-- COMITÉS -->
       <div class="row"> 
         <p style="text-align: justify;">Además, puedes <a href="#comites-modal" class="prelis25 modal-trigger">consultar aquí</a> los integrantes del Comité Organizador de las Preliminares de PLANCKS 2025.</p>
       </div>    
