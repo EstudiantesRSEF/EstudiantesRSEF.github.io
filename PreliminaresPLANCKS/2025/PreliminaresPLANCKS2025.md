@@ -110,8 +110,7 @@ permalink: /PreliminaresPLANCKS2025/
               <ul class="collection waves-effect waves-light" style="width: 40%">
                 <a href="#{{ autor.nombre | slugify }}-modal" class="collection-item modal-trigger waves-effect waves-light" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
                   <li class="collection-item avatar2">
-                    <!-- Si tienes imágenes asociadas, podrías usar algo como: /img/prelis/{{ autor.nombre | slugify }}.jpg -->
-                    <img src="/img/prelis/{{ autor.nombre | slugify }}.jpg" alt="{{ autor.nombre }}" class="circle">
+                    <img src="{{ autor.imagen }}" alt="{{ autor.nombre }}" class="circle">
                     <span class="title" style="padding-left: 10px">{{ autor.nombre }}</span>
                     <p style="padding-top: 10px">{{ autor.tema }}</p>
                   </li>
