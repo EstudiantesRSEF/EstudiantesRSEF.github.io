@@ -199,7 +199,7 @@ momentos muy muy estresantes.
 Uno tiene que estar compitiendo a muy alto nivel. Por supuesto, hay mucha gente que no hace 
 familia hasta que no está estable. Muchas veces eso significa que no hace la familia nunca, 
 ¿no? Es un tema muy muy complicado, especialmente para las mujeres, porque, al final, si 
-quieren tener hijos, la edad fértil… Los postdocs suelen extenderse ya muy habitualmente 
+quieren tener hijos, la edad fértil… Los <i>postdocs</i> suelen extenderse ya muy habitualmente 
 hasta casi los 40 años, con suerte (si es que no terminas antes quedándote fuera del sistema).
 </p>
 <p>
@@ -333,7 +333,7 @@ de Compostela.
 <p>
 Yo estuve medio a cargo de esa visita. Fue una semana de locura y de la cual yo salí 
 transformado. Entre otras cosas, porque esa semana fue… Yo acá era un extranjero: 
-investigando todo el día, mis amigos eran los postdocs o los miembros del grupo, y tenía muy 
+investigando todo el día, mis amigos eran los <i>postdocs</i> o los miembros del grupo, y tenía muy 
 poco vínculo realmente con la vida… 
 </p>
 <p>
@@ -379,7 +379,7 @@ Luego, el premio del CPAN, creo que, de las primeras seis ediciones, lo ganamos 
 nosotros. 
 </p>
 <p>
-Básicamente, habiendo un feedback extremadamente positivo de lo que escribía… Y empiezo a 
+Básicamente, habiendo un <i>feedback</i> extremadamente positivo de lo que escribía… Y empiezo a 
 dar charlas, pasa la misma historia. Entonces, empieza naturalmente a crecer esa parte de mi 
 actividad.  
 </p>
