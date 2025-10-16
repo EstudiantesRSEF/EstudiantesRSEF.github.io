@@ -32,14 +32,14 @@ algunas ciudades de España.
 
 
 <p>
-Damos la bienvenida al Blog del Grupo de Estudiantes al gran físico teórico argentino José 
+<img class="img-right" src="/img/blog/foto_los_tres.jpeg">Damos la bienvenida al Blog del Grupo de Estudiantes al gran físico teórico argentino José 
 Edelstein, muy conocido dentro del mundo popular hispanohablante gracias a su faceta de 
 comunicador científico, e investigador de renombre dentro de la Física Teórica de Altas 
 Energías.
 </p>
 
 <p>
-En esta primera parte de la entrevista, hablaremos sobre su carrera profesional y sobre cómo 
+<img class="img-left" src="/img/blog/edelstein_perfil.jpg">En esta primera parte de la entrevista, hablaremos sobre su carrera profesional y sobre cómo 
 lo ha vivido él desde su persona; y nos contará cómo ha podido sacar adelante dos proyectos 
 distintos y tan demandantes y con flamante éxito en ambas. Al final de este episodio, nos 
 anunciará su gira por España con su nuevo espectáculo <a href="https://universoentrecanciones.my.canva.site/"><b><i>Universo entre Canciones</i></b></a>, entre el 25 y el 31 de octubre. ¡Una experiencia única!
@@ -337,7 +337,7 @@ investigando todo el día, mis amigos eran los <i>postdocs</i> o los miembros de
 poco vínculo realmente con la vida… 
 </p>
 <p>
-La visita de Hawking fue una enorme exposición mediática y de todo tipo. Y cuando se fue, de 
+<img class="img-left" src="/img/blog/hawking.jpg">La visita de Hawking fue una enorme exposición mediática y de todo tipo. Y cuando se fue, de 
 repente tuve un montón de amistades; muchas en el mundo de la cultura gallega, ¿no? De la 
 música, de la literatura… 
 </p>
@@ -467,7 +467,7 @@ que he escrito canciones, he escrito textos de obra de teatro, he participado en
 ropa… Esas cosas muy muy locas y muy entretenidas.  
 </p>
 <p>
-Aprovecho para hacer ahora la publicidad. Con un par de músicas (una de ellas mi hermana) 
+<img class="img-right" src="/img/blog/universoentrecanciones.jpeg">Aprovecho para hacer ahora la publicidad. Con un par de músicas (una de ellas mi hermana) 
 tenemos un espectáculo que se llama <b><i>Universo Entre Canciones</i></b>, en el cual combinamos la 
 narración del Cosmos en el tono en el que yo escribo habitualmente, con canciones (todas 
 compuestas por nosotros) y vamos a estar de gira por España del 25 al 31 de octubre.  Vamos a 
