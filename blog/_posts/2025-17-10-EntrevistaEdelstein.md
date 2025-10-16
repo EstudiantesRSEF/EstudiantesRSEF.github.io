@@ -42,7 +42,7 @@ Energías.
 En esta primera parte de la entrevista, hablaremos sobre su carrera profesional y sobre cómo 
 lo ha vivido él desde su persona; y nos contará cómo ha podido sacar adelante dos proyectos 
 distintos y tan demandantes y con flamante éxito en ambas. Al final de este episodio, nos 
-anunciará su gira por España con su nuevo espectáculo <li><a href="https://universoentrecanciones.my.canva.site/"><b><i>Universo entre Canciones</i></b></a></li>, entre el 25 y el 31 de octubre. ¡Una experiencia única!
+anunciará su gira por España con su nuevo espectáculo <a href="https://universoentrecanciones.my.canva.site/"><b><i>Universo entre Canciones</i></b></a>, entre el 25 y el 31 de octubre. ¡Una experiencia única!
 </p>
 
 <p>
