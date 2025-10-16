@@ -5,7 +5,7 @@ categories:
    - Entrevistas 
 title:  "Entrevista a José Edelstein - Físico teórico, escritor y divulgador científico. Parte I"
 date: 2025-10-17 11:00
-author: Enrique Rodríguez Ramos
+author: Enrique Rodríguez Ramos & Álvaro Jacobo Iturbe Jabaloyes
 redirect-from:
 excerpt: "Hoy entrevistamos a José Edelstein, investigador en Física Teórica en el Instituto Galego de 
 Física de Altas Enerxías (IGFAE), muy conocido entre el público general gracias a su faceta 
