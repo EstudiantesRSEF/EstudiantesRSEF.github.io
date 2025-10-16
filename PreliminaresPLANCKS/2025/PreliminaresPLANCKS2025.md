@@ -101,28 +101,43 @@ permalink: /PreliminaresPLANCKS2025/
         </div>
       </div>
       <!-- AUTORES -->
-      <!-- <div class="section">
-        <h3 id="Autores">¡Conoce a l@s autor@s de los problemas!</h3>
-        <p style="text-align: justify;">Los miembros del Comité Académico de las Preliminares PLANCKS 2025 son:</p>
-        <div class="col s12 m6">
-          <div class="row center">
-            {% for person in site.persons %}
-            {% if person.evento contains "Prelis2025" %}
-              <ul class="collection waves-effect waves-light" style="width: 40%">
-                <a href="#{{ person.id | remove: "/" }}-modal" class="collection-item modal-trigger waves-effect waves-light" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
-                  <li class="collection-item avatar2">
-                    <img src="{{ person.img }}" alt="" class="circle">
-                    <span class="title" style="padding-left: 10px">{{ person.nombre }}</span>
-                    <p style="padding-top: 10px">{{ person.rol }}</p>
-                  </li>
-                </a>
-              </ul>
-            {% endif %}
-            {% endfor %}    
-          </div>
-       </div>
-      </div> -->
-        <!-- COMITÉS -->
+      <h3 id="Autores">¡Conoce a l@s autor@s de los problemas!</h3>
+      <p style="text-align:justify;">Los miembros del Comité Académico de las Preliminares PLANCKS 2025 son:</p>
+      <div style="display:flex; flex-wrap:wrap; gap:16px; justify-content:center;">
+        {% for year in site.data.Prelis.autores %}
+          {% for autor in year["2025"] %}
+            <div style="flex:1 1 280px; max-width:340px;">
+              <div style="border:1px solid #e0e0e0; border-radius:6px; overflow:hidden; box-shadow:0 2px 4px #e53935; background:#fff;">
+                <div style="background:#b71c1c; color:#fff; display:flex; gap:12px; align-items:center; padding:12px;">
+                  <div style="width:72px; height:72px; flex:0 0 72px;">
+                    <img src="{{ autor.imagen }}" alt="{{ autor.nombre }}" style="width:72px; height:72px; object-fit:cover; border-radius:50%;">
+                  </div>
+                  <div style="flex:1;">
+                    <h4 style="margin:0; font-size:1.05rem;">{{ autor.nombre }}</h4>
+                    <p style="margin:0; font-size:0.95rem; opacity:0.95;">{{ autor.tema }}</p>
+                  </div>
+                </div>
+                <div style="padding:12px; color:#222;">
+                  <p style="margin:0 0 8px 0;">{{ autor["biografia"] | truncate: 220 }}</p>
+                  <a href="#{{ autor.nombre | slugify }}-modal" class="modal-trigger" style="color:#e53935; font-weight:600; text-decoration:none;">Leer biografía</a>
+                </div>
+              </div>
+            </div>
+            <!-- Modal con la biografía -->
+            <div id="{{ autor.nombre | slugify }}-modal" class="modal">
+              <div class="modal-content">
+                <h4>{{ autor.nombre }}</h4>
+                <h6><em>{{ autor.tema }}</em></h6>
+                <p style="text-align: justify;">{{ autor["biografia"] }}</p>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
+              </div>
+            </div>
+          {% endfor %}
+        {% endfor %}
+      </div>
+      <!-- COMITÉS -->
       <div class="row"> 
         <p style="text-align: justify;">Además, puedes <a href="#comites-modal" class="prelis25 modal-trigger">consultar aquí</a> los integrantes del Comité Organizador de las Preliminares de PLANCKS 2025.</p>
       </div>    
