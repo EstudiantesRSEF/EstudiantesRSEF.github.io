@@ -42,8 +42,7 @@ Energías.
 En esta primera parte de la entrevista, hablaremos sobre su carrera profesional y sobre cómo 
 lo ha vivido él desde su persona; y nos contará cómo ha podido sacar adelante dos proyectos 
 distintos y tan demandantes y con flamante éxito en ambas. Al final de este episodio, nos 
-anunciará su gira por España con su nuevo espectáculo Universo entre canciones (HYPERLINK a 
-la web), entre el 25 y el 31 de octubre. ¡Una experiencia única!
+anunciará su gira por España con su nuevo espectáculo <li><a href="https://universoentrecanciones.my.canva.site/"><b><i>Universo entre Canciones</i></b></a></li>, entre el 25 y el 31 de octubre. ¡Una experiencia única!
 </p>
 
 <p>
@@ -469,7 +468,7 @@ ropa… Esas cosas muy muy locas y muy entretenidas.
 </p>
 <p>
 Aprovecho para hacer ahora la publicidad. Con un par de músicas (una de ellas mi hermana) 
-tenemos un espectáculo que se llama Universo Entre Canciones, en el cual combinamos la 
+tenemos un espectáculo que se llama <b><i>Universo Entre Canciones</i></b>, en el cual combinamos la 
 narración del Cosmos en el tono en el que yo escribo habitualmente, con canciones (todas 
 compuestas por nosotros) y vamos a estar de gira por España del 25 al 31 de octubre.  Vamos a 
 estar en Madrid el 25, en Mallorca el 27, Barcelona el 28, en Logroño el 30 y en A Coruña el 31 
@@ -496,3 +495,11 @@ Hasta aquí la primera parte de la entrevista. Próximamente, subiremos el resto
 conversación que tuvimos con José Edelstein y en la que tocamos temas filosóficos profundos 
 y nos asomamos un poquito a su trabajo de investigación actual. 
 </p>
+
+<h2>Enlaces recomendados</h2>
+<ul>
+  <li><a href="https://www.usc.gal/es/departamento/fisica-particulas/directorio/jose-daniel-edelstein-glaubach-143228"> Perfil de José Edelstein en la web de la Universidad de Santiago de Compostela</a></li>
+  <li><a href="https://www.plataformaeditorial.com/libro/10747-trece-maneras-de-mirar-el-cielo"> Libro <i>13 maneras de mirar el cielo</i></a></li>
+  <li><a href="https://universoentrecanciones.my.canva.site/">Web del espectáculo <i>Universo entre Canciones</i></a></li>
+</ul>
+</section>
