@@ -28,71 +28,120 @@ nosotros su nuevo libro y nos anunciará la nueva gira que realizará a finales 
 algunas ciudades de España.
 </p>
 
+<br>
 
 
+<p>
 Damos la bienvenida al Blog del Grupo de Estudiantes al gran físico teórico argentino José 
 Edelstein, muy conocido dentro del mundo popular hispanohablante gracias a su faceta de 
 comunicador científico, e investigador de renombre dentro de la Física Teórica de Altas 
-Energías. 
+Energías.
+</p>
+
+<p>
 En esta primera parte de la entrevista, hablaremos sobre su carrera profesional y sobre cómo 
 lo ha vivido él desde su persona; y nos contará cómo ha podido sacar adelante dos proyectos 
 distintos y tan demandantes y con flamante éxito en ambas. Al final de este episodio, nos 
 anunciará su gira por España con su nuevo espectáculo Universo entre canciones (HYPERLINK a 
-la web), entre el 25 y el 31 de octubre. ¡Una experiencia única! 
-¿Por qué decidiste dedicarte a la investigación? 
+la web), entre el 25 y el 31 de octubre. ¡Una experiencia única!
+</p>
+
+<p>
+<b>¿Por qué decidiste dedicarte a la investigación? </b>
+</p>
+
+<p>
 En la época de la dictadura argentina, mis padres vivieron en Venezuela, por lo que terminé allí 
 la escuela del Bachillerato y tenía que estudiar algo. Era muy bueno en Física y Matemática, así 
 que era evidente que por ahí iban los tiros; pero Venezuela, en ese momento, era un país que 
 tenía muy poca tradición científica: en mi instituto no se hablaba de la posibilidad de ser 
 científico (eso era algo que ocurría en Alemania, Estados Unidos…). Entonces, para mí estuvo 
 claro que tenía que ser ingeniero electrónico, que era lo que me parecía que tenía que hacer 
-una persona que sabía Física y Matemáticas para vivir una vida digna. 
+una persona que sabía Física y Matemáticas para vivir una vida digna.
+</p>
+
+<p>
 Me acuerdo que un compañero mío (que sí estudió química) me preguntó si yo iba a estudiar 
 Física o Matemáticas... me pareció que estaba loco y que de ninguna manera yo iba a hacer 
 algo así. 
+</p>
+
+<p>
 Así que hice un año de ingeniería electrónica en Venezuela. Luego volvimos a Argentina y allí 
 continué con la ingeniería. Cuando estaba en el cuarto año, que ya había cursado todas las 
 materias que eran casi las mismas que las de Física, me di cuenta de que no quería ser 
 ingeniero. 
+</p>
+
+<p>
 La materia me iba muy bien, pero ya empezaban algunos profesores a sugerir trabajos en 
 empresas en verano para ir sumando al currículum y yo decía: “pero a mí no me interesa 
 trabajar en ninguna empresa”. Entonces, me di cuenta de que lo que me gustaba a mí era las 
 materias de ingeniería, no la ingeniería en sí. Y, en particular, sentía cierto choque con el 
-espíritu pragmático que veía un poco en los profesores de ingeniería. 
+espíritu pragmático que veía un poco en los profesores de ingeniería.
+</p>
+
+<p>
 Hay un instituto de Física en el sur de Argentina, el Instituto Balseiro, en Bariloche, que en su 
 momento se creó para formar a la élite de lo que iba a ser la industria nuclear en Argentina. Se 
-entra en tercer año con un examen de ingreso, y todo el mundo entra becado. 
+entra en tercer año con un examen de ingreso, y todo el mundo entra becado.
+</p>
+
+<p>
 Bariloche es un lugar muy muy turístico y al cual todos los jóvenes argentinos suelen ir de viaje 
 de egresados, pero yo nunca en mi vida había estado allí. Y, de repente, di el examen, y de un 
 día para otro me encontré con que tenía una beca para irme allí a estudiar Física. 
+</p>
+
+<p>
 Lo que sí tuve claro (probablemente a partir de la experiencia en ingeniería, aunque también 
 creo que tiene que ver con cómo soy yo) es que quería ser teórico. De hecho, el instituto de 
 Bariloche es especialmente bueno en la parte experimental, porque, como depende de la 
 Comisión de Energía Atómica, está muy bien financiado.  
+</p>
+
+<p>
 Nunca he vuelto a ver en ningún lugar del mundo la cantidad de dispositivos y de aparatos que 
 teníamos. Yo hice experimentos de resonancia magnética nuclear, en un reactor nuclear… Hice 
 de todo. Era muy muy alucinante… pero siempre me sentí incómodo en el laboratorio; me 
 siento torpe e inseguro a la hora de tomar decisiones en laboratorio y, en cambio, me 
 apasionaba meterme en un libro y estudiar todo el contenido.  
+</p>
+
+<p>
 Entonces, me fui metiendo por la Física Teórica. Luego, naturalmente la investigación estaba 
 ahí, por supuesto, como una opción de futuro y a mí me gustaba la investigación. Por una 
 parte, me gusta aprender. También descubrir, por supuesto, si uno puede descubrir… Pero los 
 descubrimientos, casi siempre, son pequeñitos. Entonces a mí me da un poco igual si descubro 
 yo, o descubre otro y lo aprendo yo; o sea, lo que yo quiero es aprender cosas nuevas.  
+</p>
+
+<p>
 También yo tenía la sensación de que la vida de Físico tenía mucho que ver con lo que yo 
 buscaba. Muy diferente a la vida del ingeniero… por lo menos la del ingeniero que se me 
 presentaba a mí en Buenos Aires. Luego, cuando de postdoc estando en Harvard muchos años 
 después, cuando jugaba el fútbol con gente que hacía ingeniería en el MIT y me contaban lo 
 que hacían, decía: “¡ah! Esta ingeniería sí que podría haberme gustado”. Pero en un país como 
 Argentina, casi siempre en grandes dificultades para que haya proyectos realmente 
-desafiantes, un ingeniero hace mucho trabajo de oficina y a mí eso no me interesaba.  
-¿Has tenido algún momento Eureka en tu carrera como Físico Teórico? 
-Bueno, momentos de Eurekita. En la actividad actual de investigación, en general, está todo 
+desafiantes, un ingeniero hace mucho trabajo de oficina y a mí eso no me interesaba.
+</p>
+
+<p>
+<b>¿Has tenido algún momento <i>Eureka</i> en tu carrera como Físico Teórico? </b>
+
+</p>
+Bueno, momentos de <i>Eurekita</i>. En la actividad actual de investigación, en general, está todo 
 tan especializado que uno casi siempre está trabajando en cosas que son detalles o pies de 
 página…  
+</p>
+
+<p>
 Obviamente tengo algunos resultados en mi carrera que yo creo que son buenos, y me hacen 
 sentir orgulloso de lo que hice. Ahora, estos resultados siempre han sido en colaboraciones; 
-entonces han sido Eurekas colectivos (de al menos dos personas). 
+entonces han sido <i>Eurekas</i> colectivos (de al menos dos personas). 
+</p>
+
+<p>
 El trabajo, creo, más importante de mi carrera es un trabajo que escribí hace un poco más de 
 12 o 13 años con Juan Martín Maldacena, el líder mundial del campo y compañero mío en 
 Bariloche (tuve la enorme fortuna que me tocara de compañero de carrera). Tenemos un 
@@ -100,49 +149,74 @@ resultado que es, yo creo, la más fuerte demostración de que la teoría de cue
 probablemente correcta o que es al menos algo que uno debe atender. Por argumentos 
 teóricos, por supuesto, pero simplemente que si uno quiere buscarle las cosquillas a la 
 gravedad, la teoría de cuerdas parece como una respuesta casi obligatoria para que la teoría 
-sea bien comportada.  
+sea bien comportada.
+</p>
+
+<p>
 Hice trabajos también de los que estoy muy orgulloso, aunque son mucho más técnicos y más 
-complicados de explicar. En mi primer postdoc acá en Santiago de Compostela, en una época 
+complicados de explicar. En mi primer <i>postdoc</i> acá en Santiago de Compostela, en una época 
 en la cual las teorías de gauge supersimétricas estaban muy de moda (por resultados que 
 habían obtenido Seiberg y Witten poco tiempo antes, y que son bellísimos; de lo más lindo que 
 ha habido en la física teórica en las últimas décadas); con Javier Mas y con Marcos Mariño, 
 hicimos cosas muy muy lindas conectando esto con otro campo de la Física que se llama 
 integrabilidad. Luego, con Marcos Mariño y un estudiante de Javier, extendimos eso a teorías 
 topológicas; es decir, teorías, también gauge supersimétricas, pero a las que se les hace una 
-manipulación técnica (twisting) y se las convierte en teorías topológicas. 
-O sea, yo tengo trabajos ahí que… Incluso algunos que son trabajos muy técnicos y muy duros 
-y que muy poca gente trabaja en ellos, y que no son especialmente los más citados, pero son 
-trabajos bellísimos que están entre los más importantes de mi carrera.  
-¿Cuál dirías que fue el mayor reto al que te tuviste que enfrentar durante la carrera 
-investigadora? 
+manipulación técnica (<i>twisting</i>) y se las convierte en teorías topológicas.
+</p>
+<p>
+O sea, yo tengo trabajos ahí que… Algunos son trabajos muy técnicos y muy duros 
+y muy poca gente trabaja en ellos, y no son especialmente los más citados, pero son 
+trabajos bellísimos que están entre los más importantes de mi carrera.
+</p>
+
+<p>
+<b>¿Cuál dirías que fue el mayor reto al que te tuviste que enfrentar durante la carrera 
+investigadora? </b>
+</p>
+
+<p>
 Yo creo que, en la carrera investigadora en Física Teórica, la supervivencia es el principal reto, 
 porque realmente es muy muy dura la lucha por llegar a una posición estable; es muy muy 
-complicado. 
+complicado.
+</p>
+
+<p>
 Fue muy estresante. En mi caso, por ejemplo, yo no quería volver a Argentina; tenía claro que 
 quería quedarme fuera. Pero hubo un momento en el que tuve una posición permanente para 
 volver a Argentina, siendo afuera la situación inestable. Tenía dos hijos; entonces, terminé 
-volviendo a Argentina.  
+volviendo a Argentina.
+</p>
+<p>
 Dos meses antes de eso… Ustedes son muy jóvenes, pero en el año 2001, en diciembre, 
 Argentina estuvo al borde de desaparecer como país. Tuvo un colapso institucional y 
 económico total; tuvo cinco presidentes en 2 semanas (nadie quería coger la patata caliente, 
 como dirían aquí). Yo acababa de regresar con dos niños pequeños y mi salario pasó a 
 alcanzar, a duras penas, para pagar la gasolina para llevar a los niños al colegio. 
 Entonces empecé de vuelta a buscar irme y, bueno, hasta que logré conseguirlo por la plaza 
-Ramón Cajal aquí en Santiago (que terminó ahora en mi plaza de profesor actual), fueron 
-momentos muy muy estresantes.  
+Ramón y Cajal aquí en Santiago (que terminó ahora en mi plaza de profesor actual), fueron 
+momentos muy muy estresantes.
+</p>
+<p>
 Uno tiene que estar compitiendo a muy alto nivel. Por supuesto, hay mucha gente que no hace 
 familia hasta que no está estable. Muchas veces eso significa que no hace la familia nunca, 
 ¿no? Es un tema muy muy complicado, especialmente para las mujeres, porque, al final, si 
 quieren tener hijos, la edad fértil… Los postdocs suelen extenderse ya muy habitualmente 
-hasta casi los 40 años, con suerte (si es que no terminas antes quedándote fuera del sistema).  
+hasta casi los 40 años, con suerte (si es que no terminas antes quedándote fuera del sistema).
+</p>
+<p>
 Eso fue, desde luego, el mayor desafío. 
+</p>
+<p>
 Luego, los desafíos científicos siempre son más agradables, porque por más que te choques 
 contra la pared y no te salgan las cosas… En la investigación no suele ocurrir como con 
 Arquímedes, salvo en pocas ocasiones, en las que realmente en un momento Eureka todo se 
 acomodó; sino más bien se van sumando, uno va construyendo cosas… Por lo tanto, dos o tres 
 días de frustración hasta cuando un día salen bien las cosas, y así se va armando la escalera 
-que eventualmente llegará a algún resultado. 
-¿Cómo fue, entonces, que llegaste a Santiago de Compostela? 
+que eventualmente llegará a algún resultado.
+</p>
+<p>
+<b>¿Cómo fue, entonces, que llegaste a Santiago de Compostela? </b>
+</p>
 En realidad, fue un poco de casualidad. A pesar de que Galicia tiene una conexión 
 tremendamente fuerte con Argentina (Argentina es un país que tiene muchas nacionalidades, 
 y de parte de España, la comunidad más grande es la gallega), yo creo que soy el primero de 
