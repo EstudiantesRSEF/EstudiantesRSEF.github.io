@@ -208,3 +208,10 @@ Hasta aquí esta segunda parte de la conversación. La siguiente entrada contend
 última parte, en la que trataremos de la investigación que ha llevado a cabo a lo largo de su 
 carrera y sobre el futuro en Física Teórica. 
 </p> 
+<h2>Enlaces recomendados</h2>
+<ul>
+  <li><a href="https://www.usc.gal/es/departamento/fisica-particulas/directorio/jose-daniel-edelstein-glaubach-143228"> Perfil de José Edelstein en la web de la Universidad de Santiago de Compostela</a></li>
+  <li><a href="https://www.plataformaeditorial.com/libro/10747-trece-maneras-de-mirar-el-cielo"> Libro <i>13 maneras de mirar el cielo</i></a></li>
+  <li><a href="https://universoentrecanciones.my.canva.site/">Web del espectáculo <i>Universo entre Canciones</i></a></li>
+</ul>
+</section>
