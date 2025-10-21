@@ -33,7 +33,7 @@ argentino José Edelstein. Pudimos hablar sobre su trayectoria investigadora y s
 más difíciles que ha tenido en su carrera. 
 </p> 
 <p> 
-Ahora, en esta segunda parte (de tres) de la conversación que tuvimos el placer de mantener 
+<img class="img-left" src="/img/blog/edelstein_perfil.jpg">Ahora, en esta segunda parte (de tres) de la conversación que tuvimos el placer de mantener 
 con José Edelstein, pasamos a hablar sobre cuestiones filosóficas, que seguro forman parte de 
 las preocupaciones existenciales más frecuentes de los lectores. Esperamos que, tras leer sus 
 respuestas, reflexionéis vosotros mismos acerca de ellas. 
@@ -94,7 +94,7 @@ cantidad de tiempo absurda para calcular algo que no nos interesa: no nos intere
 Tierra está aquí o está desplazada un nanómetro en alguna dirección dada. 
 </p> 
 <p> 
-En el libro <i>Antimateria, magia y poesía</i>, hay un texto que se llama <i>Escatología de la 
+<img class="img-left" src="/img/blog/antimateria-magia-y-poesia.jpg">En el libro <i>Antimateria, magia y poesía</i>, hay un texto que se llama <i>Escatología de la 
 ciencia y viceversa</i>, que escribimos con Andrés Gomberoff hace ya muchísimo tiempo, con 
 nuestra tesis filosófica sobre la inexistencia de la de la ecuación final de la teoría del todo. La 
 escatología, además de referirse a la ciencia de los excrementos, en griego quiere decir “el 
@@ -139,7 +139,7 @@ era de gravedad cuántica, luego tenía elementos muy claros que parecían conec
 uno esperaría ver a bajas energías. Sin embargo, nunca se concretó esa promesa… 
 </p> 
 <p> 
-Empezó a complicarse. A pesar de que las teorías de cuerdas eran cinco y luego se unificaron 
+<img class="img-left" src="/img/blog/Mtheory.jpeg">Empezó a complicarse. A pesar de que las teorías de cuerdas eran cinco y luego se unificaron 
 (eso fue una mejora), luego, creo que en los primeros años 2000, se cambió el paradigma: en 
 lugar de buscar cuál era la compactificación exacta, como aparentemente había $10^500$ que 
 daban más o menos bien, empezó a hablarse del <i>landscape</i>.  
@@ -161,7 +161,7 @@ espectacular. En un mundo en el cual no logramos encontrar <i>la</i>  teoría cu
 gravedad, esta es una. Si es la teoría de nuestro universo, no lo sabemos; puede que no. 
 </p> 
 <p> 
-Pero, como comentaba antes del trabajo que yo escribí con Maldacena [ver entrada anterior], 
+<img class="img-left" src="/img/blog/maldacena y edelstein.jpg">Pero, como comentaba antes del trabajo que yo escribí con Maldacena [ver entrada anterior], 
 es probable que la teoría cuántica de la gravedad tenga ingredientes de la teoría de cuerdas. Y 
 Maldacena mismo es muy famoso, sobre todo, por haber descubierto la teoría cuántica de la 
 gravedad más bajo-control que tenemos: una teoría cuántica de la gravedad en un espacio con 
