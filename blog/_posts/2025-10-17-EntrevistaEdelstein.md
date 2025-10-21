@@ -128,7 +128,7 @@ desafiantes, un ingeniero hace mucho trabajo de oficina y a mí eso no me intere
 <p>
 <b>¿Has tenido algún momento <i>Eureka</i> en tu carrera como Físico Teórico? </b>
 
-</p>
+<p>
 Bueno, momentos de <i>Eurekita</i>. En la actividad actual de investigación, en general, está todo 
 tan especializado que uno casi siempre está trabajando en cosas que son detalles o pies de 
 página…  
