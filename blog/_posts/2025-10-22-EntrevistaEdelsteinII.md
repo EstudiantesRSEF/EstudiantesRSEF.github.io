@@ -28,7 +28,7 @@ teoría del todo.
 
 
 <p>
-<img class="img-right" src="/img/blog/foto_los_tres.jpeg">En la pasada entrada conocimos de primera mano al investigador y comunicador científico 
+<img class="img-left" src="/img/blog/foto_los_tres.jpeg">En la pasada entrada conocimos de primera mano al investigador y comunicador científico 
 argentino José Edelstein. Pudimos hablar sobre su trayectoria investigadora y sobre los retos 
 más difíciles que ha tenido en su carrera. 
 </p> 
