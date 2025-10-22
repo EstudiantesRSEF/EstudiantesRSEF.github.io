@@ -128,7 +128,7 @@ desafiantes, un ingeniero hace mucho trabajo de oficina y a mí eso no me intere
 <p>
 <b>¿Has tenido algún momento <i>Eureka</i> en tu carrera como Físico Teórico? </b>
 
-</p>
+<p>
 Bueno, momentos de <i>Eurekita</i>. En la actividad actual de investigación, en general, está todo 
 tan especializado que uno casi siempre está trabajando en cosas que son detalles o pies de 
 página…  
@@ -141,7 +141,7 @@ entonces han sido <i>Eurekas</i> colectivos (de al menos dos personas).
 </p>
 
 <p>
-El trabajo, creo, más importante de mi carrera es un trabajo que escribí hace un poco más de 
+<img class="img-left" src="/img/blog/maldacena y edelstein.jpg">El trabajo, creo, más importante de mi carrera es un trabajo que escribí hace un poco más de 
 12 o 13 años con Juan Martín Maldacena, el líder mundial del campo y compañero mío en 
 Bariloche (tuve la enorme fortuna que me tocara de compañero de carrera). Tenemos un 
 resultado que es, yo creo, la más fuerte demostración de que la teoría de cuerdas es 
@@ -349,7 +349,7 @@ entonces le dije: “bueno, dale, hagámoslo”.
 </p>
 
 <p>
-Escribimos un texto que titulamos Antimateria, magia y poesía, y lo publicamos en una revista 
+<img class="img-right" src="/img/blog/antimateria-magia-y-poesia.jpg">Escribimos un texto que titulamos Antimateria, magia y poesía, y lo publicamos en una revista 
 chilena en la que él publicaba regularmente. 
 </p>
 <p>
@@ -358,7 +358,7 @@ manzana de Adán y Eva; si yo probaba ese fruto, era mi perdición, porque sabí
 gustar. Entonces, bueno, por una parte, empezamos a escribir algún que otro artículo. En 
 principio no muy seguidos, una vez cada tanto. Pero luego justo acá se crea el CPAN (el Centro 
 Nacional de Física Partículas, Astroparticulas y Nuclear) que sacó un concurso de divulgación y 
-presento el texto (El de Antimateria, magia y poesía). 
+presento el texto (El de <i>Antimateria, magia y poesía</i>). 
 </p>
 <p>
 Ganamos.  
@@ -388,7 +388,7 @@ También, me estabilizo como profesor en la Universidad de Santiago. Sigo trabaj
 investigación, pero ya sin estar con el estrés de que me juego las habichuelas cada día.  
 </p>
 <p>
-Entonces, con Andrés Gomberoff, en un momento tenemos acumulados un montón de 
+<img class="img-left" src="/img/blog/gomberoff y edelstein.jpg">Entonces, con Andrés Gomberoff, en un momento tenemos acumulados un montón de 
 artículos. Y acá, en la editorial de Santiago, quieren sacar una colección de divulgación 
 científica y nos piden escribir el primer volumen a nosotros con una recopilación de artículos. 
 </p>
@@ -410,7 +410,7 @@ malabarismos con eso. Pero bueno, la vida es una sola y yo tengo claro que hay c
 quiero hacer. 
 </p>
 <p>
-Ahora mismo acabo de sacar un libro, la semana pasada aquí en España [a finales de 
+<img class="img-right" src="/img/blog/13maneras.jpg">Ahora mismo acabo de sacar un libro, la semana pasada aquí en España [a finales de 
 septiembre del 2025], mi primer libro solo, que se llama <b><i>13 maneras de mirar el cielo</i></b>. Espero 
 que todos los estudiantes de Física de España lo lean… Van a encontrarlo muy inspirador. Yo 
 creo que es un libro muy bonito y que gira en torno a la idea del cielo como palimpsesto.  
@@ -430,7 +430,7 @@ en el papel de las teorías.
 </p>
 
 <p>  
-Luego va a salir otro, creo que en diciembre aquí en España, <b><i>La tiranía del azar</i></b>, con 
+<img class="img-left" src="/img/blog/tiraniaAzar.jpg">Luego va a salir otro, creo que en diciembre aquí en España, <b><i>La tiranía del azar</i></b>, con 
 Gomberoff, el tercero que escribimos juntos; en este caso, por los 100 años de la mecánica 
 cuántica. Y bueno, súper contento con cómo quedó. También creo que es un libro que van a 
 disfrutar mucho. Es para el público general, pero creo que son libros que van a disfrutar mucho 
