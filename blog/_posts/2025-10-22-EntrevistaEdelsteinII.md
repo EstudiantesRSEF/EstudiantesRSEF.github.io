@@ -39,6 +39,7 @@ las preocupaciones existenciales más frecuentes de los lectores. Esperamos que,
 respuestas, reflexionéis vosotros mismos acerca de ellas. 
 </p> 
 <br> 
+<p>
 <b>¿Dirías que crees en Dios?</b> 
 </p> 
 <p> 
