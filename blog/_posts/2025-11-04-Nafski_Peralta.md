@@ -80,5 +80,5 @@ Manu Peralta.
 <br>
        
 
-\(^*\) <i><sub> N. del E.: De nada, crack. Que todo el mundo se anime a subir cositas, este es el Blog del Grupo ;) <sub></i>
+*<i><sub> N. del E.: De nada, crack. Que todo el mundo se anime a subir cositas, este es el Blog del Grupo ;) <sub></i>
 
