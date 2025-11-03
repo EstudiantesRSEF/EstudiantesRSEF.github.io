@@ -19,7 +19,7 @@ En este final del mes de octubre, una representación del Grupo de Estudiantes d
 
 <br>
 
-<p>
+<p><img class="img-right" src="/img/blog/2025-11-04-Nafski_Peralta/imagen1.jpg">
 El primer día de conferencia, la doctora Stefania Ciliberti nos habló sobre sistemas operacionales de observación y forecasting del océano, formando parte del consorcio NOWSystems presente en Madrid, Zaragoza y Santiago. El Servicio Marino Copernicus es una de las puntas de lanza de la Unión Europea en cuanto a investigación del cambio climático, conectando el espacio con el océano. La doctora comentó los principales retos en la actualidad y los avances en futuras misiones espaciales que pretenden impactar positivamente en la problemática. 
 </p>
 <p>
