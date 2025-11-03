@@ -1,5 +1,15 @@
 
 .blog {
+    .contenedor3{
+        margin-top: 55px;
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+    }
+    .imgen{
+        width: 350px;
+        margin: 0 10px;
+    }
     .contenedor{
         display: flex;
         justify-content: center;
@@ -53,6 +63,7 @@
     }
   }
 }
+
 
 
 
