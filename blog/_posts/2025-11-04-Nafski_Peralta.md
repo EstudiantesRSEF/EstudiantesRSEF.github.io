@@ -38,6 +38,10 @@ Otra atractiva aplicación consiste en la propulsión ecológica para naves en �
 Para acabar, un servidor presentó el primer estudio extensivo a todo el Sistema Solar (si hay otro, no lo he encontrado) sobre la transmisión láser de alta potencia en los planetas y principales satélites, haciendo balances entre las distintas atmósferas y las eficiencias fotovoltaicas que distintos materiales podrían ofrecer. Si queréis saber más, 20 “likes” y hago una entrada sobre esto JAJAJAJA.
 
 </p>
+<div class="contenedor">
+   <img class="img-1" src="2025-11-04-Nafski_Peralta/imagen3izq.jpg" alt="">
+   <img class="img-2" src="2025-11-04-Nafski_Peralta/imagen3dcha.jpg" alt="">
+</div>
 <p> 
 
 El día tuvo un cierre perfecto, con una cata de <i>zumos de cebada</i> búlgaros compartida con científicos de distintas nacionalidades. Hubo tiempo para comenzar a forjar alianzas y sinergias, algunas de las cuales acabarán en colaboraciones (irónicamente, es verdad eso de que el verdadero networking está más en los bares que en el propio congreso). Yo, por mi parte, hice spam de lo genial que es la RSEF y el GdeE. Perdón por la turra, investigadores italianos randoms :)
