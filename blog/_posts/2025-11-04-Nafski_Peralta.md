@@ -49,7 +49,7 @@ El día tuvo un cierre perfecto, con una cata de <i>zumos de cebada</i> búlgaro
 <p>
 La última jornada en Sofía estuvo más dedicada al turismo que a la ciencia, para qué nos vamos a engañar. Eso sí, no nos podíamos perder la ponencia de Amir Shahriyari, nuestro colega de la Universidad de Santiago de Compostela (¿para cuándo un ENEF allí? Porfa, lo necesito). Nos hizo un maravilloso repaso del estado del arte en transmisión de energía sin cables para la exploración espacial, tratando puntos como alineación de haces, escalabilidad y gestión térmica.  Tras esto, un <i>free tour</i> nos enseñó los lugares más bonitos y emblemáticos que escondía Sofía, una ciudad con una rocambolesca y movida historia en la que han convivido y conviven distintas culturas, nacionalidades y religiones, lo cual la hacen única y totalmente merecedora de una visita.
 </p>
-<div class="container3">
+<div class="contenedor3">
    <img class="imgen" src="/img/blog/2025-11-04-Nafski_Peralta/imagen4izq.jpg" alt="">
    <img class="imgen" src="/img/blog/2025-11-04-Nafski_Peralta/imagen4centro.jpg" alt="">
    <img class="imgen" src="/img/blog/2025-11-04-Nafski_Peralta/imagen4dcha.jpg" alt="">
