@@ -2,8 +2,8 @@
 layout: post
 categories: 
    - blog 
+   - "GdeE por el mundo"
    - Eventos
-   - "GdeE por el mundo" 
 title:  "GdeE por el mundo: Manu Peralta en el NaFSKI-VI en Bulgaria"
 date: 2025-11-04 11:00
 author: Manuel Peralta
