@@ -39,8 +39,8 @@ Para acabar, un servidor presentó el primer estudio extensivo a todo el Sistema
 
 </p>
 <div class="contenedor">
-   <img class="img-1" src="2025-11-04-Nafski_Peralta/imagen3izq.jpg" alt="">
-   <img class="img-2" src="2025-11-04-Nafski_Peralta/imagen3dcha.jpg" alt="">
+   <img class="img-1" src="/img/blog/2025-11-04-Nafski_Peralta/imagen3izq.jpg" alt="">
+   <img class="img-2" src="/img/blog/2025-11-04-Nafski_Peralta/imagen3dcha.jpg" alt="">
 </div>
 <p> 
 
