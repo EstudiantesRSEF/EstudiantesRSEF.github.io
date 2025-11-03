@@ -28,7 +28,7 @@ El día prosiguió con interesantes charlas bajo la temática de la observación
 <p>
 El segundo día, las sesiones fueron moderadas por la doctora Stella Tkatchova, gerente del Consejo Europeo de Innovación para sistemas y tecnologías espaciales. Los distintos paquetes de trabajo del Pathfinder de la Unión Europea para la captación de energía solar en el espacio fueron desgranando sus objetivos, avances y perspectivas de futuro.
 </p>
-<p>
+<p><img class="img-left" src="/img/blog/2025-11-04-Nafski_Peralta/imagen2.jpg">
 Entre ellos, una de las ponencias más interesantes fue la ofrecida por la profesora Francesca Brunetti, de la Universidad de Roma Tor Vergata. Se describieron tecnologías prometedoras y que rompen con los paradigmas tradicionales, tanto en innovación como en sostenibilidad. Un ejemplo es el Sunlight-Pumped Laser (SPL), proyectado para colocarse en satélites con células solares orgánicas, provenientes de fuentes renovables sin perder eficiencia fotovoltaica y acopladas con generadores biomiméticos de haces láser (casi nada). 
 </p>
 <p>
@@ -73,6 +73,10 @@ Os manda un abrazo y os quiere mucho,
 Manu Peralta.
 </p>
 
+<div class="contenedor">
+   <img class="img-1" src="/img/blog/2025-11-04-Nafski_Peralta/imagen5izq.jpg" alt="">
+   <img class="img-2" src="/img/blog/2025-11-04-Nafski_Peralta/imagen5dcha.jpg" alt="">
+</div>
 <br>
        
 
