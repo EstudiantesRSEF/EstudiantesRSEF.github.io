@@ -1,5 +1,17 @@
 
 .blog {
+    .contenedor{
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
+        padding: 35px;    
+    }
+    .img-1{
+        margin-right: 10px;
+    }
+    .img-2{
+        margin-left: 10px;
+    }
     .img-left, .img-right {
     height: auto;
     width: auto;
@@ -41,6 +53,7 @@
     }
   }
 }
+
 
 
 
