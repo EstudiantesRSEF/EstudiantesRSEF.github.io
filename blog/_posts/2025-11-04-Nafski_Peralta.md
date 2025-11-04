@@ -38,10 +38,12 @@ Otra atractiva aplicación consiste en la propulsión ecológica para naves en �
 Para acabar, un servidor presentó el primer estudio extensivo a todo el Sistema Solar (si hay otro, no lo he encontrado) sobre la transmisión láser de alta potencia en los planetas y principales satélites, haciendo balances entre las distintas atmósferas y las eficiencias fotovoltaicas que distintos materiales podrían ofrecer. Si queréis saber más, 20 “likes” y hago una entrada sobre esto JAJAJAJA.
 
 </p>
-<div class="contenedor">
-   <img class="img-1" src="/img/blog/2025-11-04-Nafski_Peralta/imagen3izq.jpg" alt="">
-   <img class="img-2" src="/img/blog/2025-11-04-Nafski_Peralta/imagen3dcha.jpg" alt="">
+
+<div style="display: flex; justify-content: space-around; align-items: flex-start;">
+  <img src="/img/blog/2025-11-04-Nafski_Peralta/imagen3izq.jpg" alt="" style="width: 48%; max-width: 400px;">
+  <img src="/img/blog/2025-11-04-Nafski_Peralta/imagen3dcha.jpg" alt="" style="width: 48%; max-width: 400px;">
 </div>
+
 <p> 
 
 El día tuvo un cierre perfecto, con una cata de <i>zumos de cebada</i> búlgaros compartida con científicos de distintas nacionalidades. Hubo tiempo para comenzar a forjar alianzas y sinergias, algunas de las cuales acabarán en colaboraciones (irónicamente, es verdad eso de que el verdadero networking está más en los bares que en el propio congreso). Yo, por mi parte, hice spam de lo genial que es la RSEF y el GdeE. Perdón por la turra, investigadores italianos randoms :)
@@ -49,10 +51,10 @@ El día tuvo un cierre perfecto, con una cata de <i>zumos de cebada</i> búlgaro
 <p>
 La última jornada en Sofía estuvo más dedicada al turismo que a la ciencia, para qué nos vamos a engañar. Eso sí, no nos podíamos perder la ponencia de Amir Shahriyari, nuestro colega de la Universidad de Santiago de Compostela (¿para cuándo un ENEF allí? Porfa, lo necesito). Nos hizo un maravilloso repaso del estado del arte en transmisión de energía sin cables para la exploración espacial, tratando puntos como alineación de haces, escalabilidad y gestión térmica.  Tras esto, un <i>free tour</i> nos enseñó los lugares más bonitos y emblemáticos que escondía Sofía, una ciudad con una rocambolesca y movida historia en la que han convivido y conviven distintas culturas, nacionalidades y religiones, lo cual la hacen única y totalmente merecedora de una visita.
 </p>
-<div class="contenedor3">
-   <img class="imgen" src="/img/blog/2025-11-04-Nafski_Peralta/imagen4izq.jpg" alt="">
-   <img class="imgen" src="/img/blog/2025-11-04-Nafski_Peralta/imagen4centro.jpg" alt="">
-   <img class="imgen" src="/img/blog/2025-11-04-Nafski_Peralta/imagen4dcha.jpg" alt="">
+<div style="display: flex; justify-content: space-around; align-items: flex-start;">
+  <img src="/img/blog/2025-11-04-Nafski_Peralta/imagen4izq.jpg" alt="" style="width: 32%; max-width: 300px;">
+  <img src="/img/blog/2025-11-04-Nafski_Peralta/imagen4centro.jpg" alt="" style="width: 32%; max-width: 300px;"> 
+  <img src="/img/blog/2025-11-04-Nafski_Peralta/imagen4dcha.jpg" alt="" style="width: 32%; max-width: 300px;">
 </div>
 <p>   
 La noche acabó con un poco de <i>wine tasting</i> (que no se pierdan las buenas costumbres), la visita a algún que otro antro típico de dudosa naturaleza, y la melancolía de estar tomando los últimos sorbos de una experiencia en un lugar nuevo justo cuando comenzabas a acostumbrarte. En todo caso, para que esto no acabe de forma triste, me quedo tres consejos/reflexiones positivas: 
@@ -67,7 +69,7 @@ La noche acabó con un poco de <i>wine tasting</i> (que no se pierdan las buenas
 -	El ENEF es lo mejor. Pese a ser un evento hecho por y para estudiantes, no tiene nada que envidiar a congresos más generales o con más repercusión. Gracias a haber ido a varios ENEFs, considero que he aprovechado esta experiencia muchísimo mejor. Id al ENEF. A <b>todos</b>. Y al ICPS también.
 </p>
 <p>
-Para los lectores que se queden con ganas de más, os dejo el enlace al <a href="https://bulgarianspace.online/wp-content/uploads/2025/10/NaFSKI-VI_Book_of_Abstracts.pdf"><b> libro de abstracts </b></a>. Muchas gracias, Enrique, por dejarme poner estas pinceladas en una ventana tan chula como el Blog*. 
+Para los lectores que se queden con ganas de más, os dejo el enlace al <a href="https://bulgarianspace.online/wp-content/uploads/2025/10/NaFSKI-VI_Book_of_Abstracts.pdf"><b> libro de abstracts</b></a>. Muchas gracias, Enrique, por dejarme poner estas pinceladas en una ventana tan chula como el Blog.* 
 </p>
 <br>
 <p>
@@ -77,13 +79,13 @@ Os manda un abrazo y os quiere mucho,
 <p>
 Manu Peralta.
 </p>
-
-<div class="contenedor">
-   <img class="img-1" src="/img/blog/2025-11-04-Nafski_Peralta/imagen5izq.jpg" alt="">
-   <img class="img-2" src="/img/blog/2025-11-04-Nafski_Peralta/imagen5dcha.jpg" alt="">
+<div style="display: flex; justify-content: space-around; align-items: flex-start;">
+  <img src="/img/blog/2025-11-04-Nafski_Peralta/imagen5izq.jpg" alt="" style="width: 48%; max-width: 400px;">
+  <img src="/img/blog/2025-11-04-Nafski_Peralta/imagen5dcha.jpg" alt="" style="width: 48%; max-width: 400px;">
 </div>
+
 <br>
        
 
-*<i><sub> N. del E.: De nada, crack. Que todo el mundo se anime a subir cositas, este es el Blog del Grupo ;) <sub></i>
+* <i> <sub> N. del E.: De nada, crack. Que todo el mundo se anime a subir cositas, este es el Blog del Grupo ;) </sub> </i>
 
