@@ -28,7 +28,7 @@ teoría del todo.
 
 
 <p>
-<img class="img-left" src="/img/blog/foto_los_tres.jpeg">En la pasada entrada conocimos de primera mano al investigador y comunicador científico 
+En la pasada entrada conocimos de primera mano al investigador y comunicador científico 
 argentino José Edelstein. Pudimos hablar sobre su trayectoria investigadora y sobre los retos 
 más difíciles que ha tenido en su carrera. 
 </p> 
@@ -64,7 +64,7 @@ capacidad de desarrollar el lenguaje en el cual la naturaleza se describe a sí 
 tanto, podremos tener un relato de ella... 
 </p> 
 <p> 
-Se está asumiendo, primero, la conjetura de que hay leyes de la naturaleza. Y, segundo, que 
+<img class="img-right" src="/img/blog/foto_los_tres.jpeg">Se está asumiendo, primero, la conjetura de que hay leyes de la naturaleza. Y, segundo, que 
 nosotros somos capaces de derivarlas.  
 </p> 
 <p> 
@@ -142,17 +142,17 @@ uno esperaría ver a bajas energías. Sin embargo, nunca se concretó esa promes
 <p> 
 <img class="img-left" src="/img/blog/Mtheory.jpeg">Empezó a complicarse. A pesar de que las teorías de cuerdas eran cinco y luego se unificaron 
 (eso fue una mejora), luego, creo que en los primeros años 2000, se cambió el paradigma: en 
-lugar de buscar cuál era la compactificación exacta, como aparentemente había $10^500$ que 
+lugar de buscar cuál era la compactificación exacta, como aparentemente había \10^500\ que 
 daban más o menos bien, empezó a hablarse del <i>landscape</i>.  
 </p> 
 <p> 
 La lógica es la siguiente (no digo que esté mal): si tú tienes una teoría que es el marco teórico 
-adecuado, pero que tiene $10^500$ vacíos, y tú vives en uno y no sabes por qué… la única 
+adecuado, pero que tiene \10^500\ vacíos, y tú vives en uno y no sabes por qué… la única 
 respuesta es porque sí. 
 </p> 
 <p> 
 Insisto en que es perfectamente posible. Por ejemplo: nosotros vivimos en uno de los, no sé, 
-$10^24$ planetas en el universo, ¿por qué vivimos en este y no en otro? Porque sí. Puede 
+\10^24\ planetas en el universo, ¿por qué vivimos en este y no en otro? Porque sí. Puede 
 ocurrir algo así con la teoría de cuerdas, pero creo que ponerle el nombre de “teoría del todo” 
 es hasta anticientífico, ¿no? 
 </p> 
