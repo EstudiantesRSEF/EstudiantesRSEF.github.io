@@ -493,4 +493,3 @@ mi familia, desde el Big Bang, que pisa Galicia.
     <li><a href="https://www.plataformaeditorial.com/libro/10747-trece-maneras-de-mirar-el-cielo"> Libro <i>13 maneras de mirar el cielo</i></a></li>
     <li><a href="https://universoentrecanciones.my.canva.site/">Web del espectáculo <i>Universo entre Canciones</i></a></li>
   </ul>
-</section>
