@@ -477,9 +477,7 @@ mi familia, desde el Big Bang, que pisa Galicia.
 
   <br>
 
-  <p>
-  ---
-  </p>
+  <hr />
 
   <br>
 
