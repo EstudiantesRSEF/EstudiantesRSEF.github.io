@@ -17,7 +17,7 @@ excerpt: "El pasado mes de octubre, aproximadamente 40 miembros del Grupo de Est
 El pasado mes de octubre, aproximadamente 40 miembros del Grupo de Estudiantes de la RSEF tuvimos el placer de asistir a la primera edición del SIPE (Spanish Italian Program Exchange), que se celebró en la acogedora ciudad de Bari, Italia.
 </p>
 
-<p>
+<p><img class="img-center" src="/img/blog/2025-11-14-SIPE25_Guitart/foto1.jpg">
 El primer día, después de que el comité organizador nos recibiera en el vestíbulo de la universidad y nos hiciera entrega de todos los obsequios (que incluían una camiseta y una moneda personalizadas del evento muy chulas), varios profesores de la universidad nos hicieron una exposición de los diferentes másters que ofrece la Universidad de Bari. A continuación, el comité organizador se presentó y nos explicó la “hoja de ruta” de todo el evento. Justo después disfrutamos de la charla de <b>Gaetano Scamarcio</b>: "At the Edge of Matter: Quantum Nanostructures and Functionalized Surfaces for Single-Molecule Detection". Tras un coffee break y algo de tiempo libre, llegó la primera actividad de cohesión: <b>"Drink and Derive"</b> 🍻➗, ideal para romper el hielo y empezar a conocernos entre nosotros (algunos se centraron más en el "Drink" que en el "Derive"... @Michel).
 </p>
 
