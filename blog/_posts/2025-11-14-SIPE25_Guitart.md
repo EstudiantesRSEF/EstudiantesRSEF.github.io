@@ -21,7 +21,12 @@ El pasado mes de octubre, aproximadamente 40 miembros del Grupo de Estudiantes d
 <p>
 El primer día, después de que el comité organizador nos recibiera en el vestíbulo de la universidad y nos hiciera entrega de todos los obsequios (que incluían una camiseta y una moneda personalizadas del evento muy chulas), varios profesores de la universidad nos hicieron una exposición de los diferentes másters que ofrece la Universidad de Bari. A continuación, el comité organizador se presentó y nos explicó la “hoja de ruta” de todo el evento. Justo después disfrutamos de la charla de <b>Gaetano Scamarcio</b>: "At the Edge of Matter: Quantum Nanostructures and Functionalized Surfaces for Single-Molecule Detection". Tras un coffee break y algo de tiempo libre, llegó la primera actividad de cohesión: <b>"Drink and Derive"</b> 🍻➗, ideal para romper el hielo y empezar a conocernos entre nosotros (algunos se centraron más en el "Drink" que en el "Derive"... @Michel).
 </p>
-
+<div class = "video-block">
+   <video autoplay muted controls playsinline width = "100%" style="max-width: 500px; display: block; margin: 0 auto;">
+      <source src="https://archive.org/download/videoSIPE" type="video/mp4"> ==$0
+      "Tu navegador no soporta vídeos. "
+   </video>
+</div>
 <p>
 El segundo día visitamos varios laboratorios de la universidad y luego nos llevaron en autobús a <b>Tecnópolis</b>. Allí asistimos a una charla fascinante de <b>Sebastiano Stramaglia</b> sobre la física del cerebro, y otra de <b>Patrick Fiorenza</b> sobre IA, consumo de energía y semiconductores. Después de disfrutar de la auténtica comida italiana, escuchamos las presentaciones de empresas como <b>Sfera S.r.l, QSENSATO, ICFO y Rotonium</b>, y participamos en un taller de empresas. Para cerrar el día, nos llevaron de vuelta a Bari, donde disfrutamos de un tour privado para conocer más a fondo su historia y cultura.
 </p>
