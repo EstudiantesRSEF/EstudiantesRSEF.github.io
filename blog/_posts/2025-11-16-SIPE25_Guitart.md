@@ -6,7 +6,7 @@ categories:
    - Eventos
 title:  "GdeE por el mundo: Y nos fuimos a Bari - El primer SIPE, por Àlex Guitart"
 date: 2025-11-16 11:00
-author: Alex Guitart
+author: Àlex Guitart
 redirect-from:
 excerpt: "El pasado mes de octubre, aproximadamente 40 miembros del Grupo de Estudiantes de la RSEF tuvimos el placer de asistir a la primera edición del SIPE (Spanish Italian Program Exchange), que se celebró en la acogedora ciudad de Bari, Italia."
 ---
