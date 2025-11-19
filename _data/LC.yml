@@ -133,7 +133,7 @@
   ins: "https://www.instagram.com/estudiantesrsef_uva/"
   tw: "https://x.com/estuRSEF_UVA"
   ex: 
-  logo: # "/img/banner/logo-banner-estrsef.jpg"
+  logo: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" # ORIGINAL: "/img/banner/logo-banner-estrsef.jpg"
   congelado: 
 
 - nombre: "Castilla La Mancha - UCLM"
@@ -211,5 +211,5 @@
   ins: 
   tw: 
   ex: 
-  logo: # "/img/banner/logo-banner-estrsef.jpg"
+  logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado: 
