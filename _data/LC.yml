@@ -71,7 +71,7 @@
   tw: "https://twitter.com/EstRSEF_UAB"
   ex: 
     - nombre_ex: "Elena Martínez Barceló"
-  logo: #"/img/banner/logo-banner-estrsef.jpg"
+  logo: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" # ORIGINAL:"/img/banner/logo-banner-estrsef.jpg"
   congelado:
   
 - nombre: "Valencia - UV"
@@ -118,7 +118,7 @@
   ins: "https://www.instagram.com/estudiantesrsef_us/"
   tw: "https://x.com/EstRSEF_US"
   ex: 
-  logo: # "/img/banner/logo-banner-estrsef.jpg"
+  logo: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" # ORIGINAL: "/img/banner/logo-banner-estrsef.jpg"
   congelado: 
 
 - nombre: "Valladolid - UVA"
@@ -166,7 +166,7 @@
   ins: 
   tw: 
   ex: 
-  logo: # "/img/banner/logo-banner-estrsef.jpg"
+  logo: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" # ORIGINAL: "/img/banner/logo-banner-estrsef.jpg"
   congelado: 
 
 - nombre: "La Laguna - ULL"
@@ -181,7 +181,7 @@
   ins: 
   tw: 
   ex: 
-  logo: # "/img/banner/logo-banner-estrsef.jpg"
+  logo: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" # ORIGINAL: "/img/banner/logo-banner-estrsef.jpg"
   congelado: 
 
 - nombre: "Alicante - UA"
@@ -196,7 +196,7 @@
   ins: 
   tw: 
   ex: 
-  logo: # "/img/banner/logo-banner-estrsef.jpg"
+  logo: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" # ORIGINAL: "/img/banner/logo-banner-estrsef.jpg"
   congelado: 
 
 - nombre: "Baleares - UIB"
