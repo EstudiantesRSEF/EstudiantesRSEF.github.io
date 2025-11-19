@@ -71,7 +71,7 @@
   tw: "https://twitter.com/EstRSEF_UAB"
   ex: 
     - nombre_ex: "Elena Martínez Barceló"
-  logo: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" # ORIGINAL:"/img/banner/logo-banner-estrsef.jpg"
+  logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4=" # ORIGINAL:"/img/banner/logo-banner-estrsef.jpg"
   congelado:
   
 - nombre: "Valencia - UV"
@@ -118,7 +118,7 @@
   ins: "https://www.instagram.com/estudiantesrsef_us/"
   tw: "https://x.com/EstRSEF_US"
   ex: 
-  logo: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" # ORIGINAL: "/img/banner/logo-banner-estrsef.jpg"
+  logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4=" # ORIGINAL: "/img/banner/logo-banner-estrsef.jpg"
   congelado: 
 
 - nombre: "Valladolid - UVA"
@@ -133,7 +133,7 @@
   ins: "https://www.instagram.com/estudiantesrsef_uva/"
   tw: "https://x.com/estuRSEF_UVA"
   ex: 
-  logo: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" # ORIGINAL: "/img/banner/logo-banner-estrsef.jpg"
+  logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4=" # ORIGINAL: "/img/banner/logo-banner-estrsef.jpg"
   congelado: 
 
 - nombre: "Castilla La Mancha - UCLM"
@@ -166,7 +166,7 @@
   ins: 
   tw: 
   ex: 
-  logo: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" # ORIGINAL: "/img/banner/logo-banner-estrsef.jpg"
+  logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4=" # ORIGINAL: "/img/banner/logo-banner-estrsef.jpg"
   congelado: 
 
 - nombre: "La Laguna - ULL"
@@ -181,7 +181,7 @@
   ins: 
   tw: 
   ex: 
-  logo: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" # ORIGINAL: "/img/banner/logo-banner-estrsef.jpg"
+  logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4=" # ORIGINAL: "/img/banner/logo-banner-estrsef.jpg"
   congelado: 
 
 - nombre: "Alicante - UA"
@@ -196,7 +196,7 @@
   ins: 
   tw: 
   ex: 
-  logo: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" # ORIGINAL: "/img/banner/logo-banner-estrsef.jpg"
+  logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4=" # ORIGINAL: "/img/banner/logo-banner-estrsef.jpg"
   congelado: 
 
 - nombre: "Baleares - UIB"
