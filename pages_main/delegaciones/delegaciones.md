@@ -16,7 +16,7 @@ Descubre con este vídeo todo lo que nuestras Delegaciones pueden ofrecerte:
 ## ¿Dónde están?
 
 {% assign n = 0 %}
-{% for item in site.data.LC_nuevo %}
+{% for item in site.data.LC %}
 	{% unless item.congelado %}
 		{% assign n = n | plus: 1 %}
  	{% endunless %}
@@ -25,7 +25,7 @@ Descubre con este vídeo todo lo que nuestras Delegaciones pueden ofrecerte:
 El Grupo de Estudiantes de la RSEF cuenta por el momento con {{ n }} Delegaciones en:
 
 <ul id="presidenti_LC" class="collection">
-	{% for item in site.data.LC_nuevo %}
+	{% for item in site.data.LC %}
 		{% unless item.congelado %}
 		        <a href="#{{item.id}}" class="modal-trigger" style="color: rgba(0, 0, 0, 0.87)">
 				<li class="collection-item avatar  waves-effect waves-light" id="{{ item.nombre }}">
