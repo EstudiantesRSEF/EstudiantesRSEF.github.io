@@ -85,7 +85,6 @@
   secretario: "Andrea Ion Trandafir"
   tesorero: "Mar Ferrer Jiménez"
   colaboradores:
-   # - nombre_col: "Alberto López Martín"
   fundacion: "09/2023"
   ins: "https://www.instagram.com/estudiantesrsef_uv/"
   tw: "https://twitter.com/EstRSEF_UV"
@@ -119,9 +118,6 @@
   secretario: "Jesús Ruiz Campano"
   tesorero: "Carmen María Cruz Moreno"´
   colaboradores:
-   # - nombre_col: "Mario Galán"
-   # - nombre_col: "Teresa Sánchez Iriarte"
-   # - nombre_col: "Inmaculada"
   fundacion: "03/2024"
   ins: "https://www.instagram.com/estudiantesrsef_us/"
   tw: "https://x.com/EstRSEF_US"
@@ -173,8 +169,6 @@
   secretario: "Ángela Mendez García"
   tesorero: "Tyler Scott Stapleton"
   colaboradores:
-    #- nombre_col: "Valeria Martínez Molina"
-    #- nombre_col: "Ana María Molina Miñarro"
   fundacion: "12/2024"
   ins: 
   tw: 
@@ -258,6 +252,7 @@
   ex: 
   logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado:
+
 
 
 
