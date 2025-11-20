@@ -6,16 +6,16 @@
   vicepresidente: "Oscar Naranjo López"
   secretario: "Alicia Iglesias Guerra"
   tesorero: "Javier Ruiz Morales"
-  colaboradores: []
+  colaboradores:
   fundacion: "07/2019"
   ins: "https://www.instagram.com/estudiantesrsef_ucm/"
-  tw: ""
+  tw:
   fb: "https://www.facebook.com/EstudiantesRSEF.UCM/"
   ex:
     - nombre_ex: "Tristán Ortiz Roset"
     - nombre_ex: "Víctor Álvarez Martínez"
   logo: "/img/delegaciones/DUCM/LogoDUCM.jpeg"
-  congelado: ""
+  congelado:
 
 - nombre: "Oviedo - UniOvi"
   id: "Oviedo"
@@ -25,7 +25,7 @@
   vicepresidente: "Sergio Suárez Rodríguez"
   secretario: "Javier Martínez Martínez"
   tesorero: "Samuel Rodríguez Díaz"
-  colaboradores: []
+  colaboradores:
   fundacion: "03/2022"
   ins: "https://www.instagram.com/estudiantesrsef_uniovi/"
   tw: "https://twitter.com/estRSEF_UniOvi"
@@ -34,7 +34,7 @@
     - nombre_ex: "Miguel Carrasco Arango"
     - nombre_ex: "Manuel Porrón Álvarez"
   logo: "/img/delegaciones/DUNIOVI/logoDUNIOVI_hor.png"
-  congelado: ""
+  congelado:
 
 - nombre: "Granada - UGR"
   id: "Granada"
@@ -56,7 +56,7 @@
     - nombre_ex: "Carlos Martínez Morales"
     - nombre_ex: "Víctor Palma Cortés"
   logo: "/img/delegaciones/DUGR/DUGR_logo.jpeg"
-  congelado: ""
+  congelado:
 
 - nombre: "Barcelona - UAB"
   id: "BarcelonaUAB"
@@ -66,7 +66,7 @@
   vicepresidente: "Maia Fuentes Insa"
   secretario: "Roser Jurado Montiel"
   tesorero: "Daniel González Galícia"
-  colaboradores: []
+  colaboradores:
   fundacion: "06/2023"
   ins: "https://www.instagram.com/estudiantsrsef_uab/"
   tw: "https://twitter.com/EstRSEF_UAB"
@@ -74,7 +74,7 @@
     - nombre_ex: "Eric Jiménez Zurera"
     - nombre_ex: "Elena Martínez Barceló"
   logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
-  congelado: ""
+  congelado:
 
 - nombre: "Valencia - UV"
   id: "ValenciaUV"
@@ -84,14 +84,14 @@
   vicepresidente: "Marta Iniesta Martínez"
   secretario: "Andrea Ion Trandafir"
   tesorero: "Mar Ferrer Jiménez"
-  colaboradores: []
+  colaboradores:
   fundacion: "09/2023"
   ins: "https://www.instagram.com/estudiantesrsef_uv/"
   tw: "https://twitter.com/EstRSEF_UV"
   ex:
     - nombre_ex: "Sonsoles Riscos Martínez"
   logo: "/img/banner/logo-banner-estrsef.jpg"
-  congelado: ""
+  congelado:
 
 - nombre: "País Vasco - EHU"
   id: "PaisVascoEUH"
@@ -107,7 +107,7 @@
   ex:
     - nombre_ex: "Leire Zufia Miguel"
   logo: "/img/banner/logo-banner-estrsef.jpg"
-  congelado: ""
+  congelado:
 
 - nombre: "Sevilla - US"
   id: "SevillaUS"
@@ -117,14 +117,14 @@
   vicepresidente: "Reyes Vargas Martínez"
   secretario: "Jesús Ruiz Campano"
   tesorero: "Carmen María Cruz Moreno"
-  colaboradores: []
+  colaboradores:
   fundacion: "03/2024"
   ins: "https://www.instagram.com/estudiantesrsef_us/"
   tw: "https://x.com/EstRSEF_US"
   ex:
     - nombre_ex: "Inés Mora Caro"
   logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
-  congelado: ""
+  congelado:
 
 - nombre: "Valladolid - UVA"
   id: "ValladolidUVA"
@@ -142,7 +142,7 @@
   ex:
     - nombre_ex: "Guillermo Muñoz Hernández"
   logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
-  congelado: ""
+  congelado:
 
 # No la borro por si acaso
 #- nombre: "Castilla La Mancha - UCLM"
@@ -155,10 +155,10 @@
 #  tesorero: ""
 #  fundacion: "11/2024"
 #  ins: "https://www.instagram.com/estudiantesrsef_uclm/"
-#  tw: ""
-#  ex: []
+#  tw:
+#  ex:
 #  logo: "/img/banner/logo-banner-estrsef.jpg"
-#  congelado: ""
+#  congelado:
 
 - nombre: "Murcia - UMU"
   id: "MurciaUMU"
@@ -168,28 +168,28 @@
   vicepresidente: "Sergio Mulero Moreno"
   secretario: "Ángela Mendez García"
   tesorero: "Tyler Scott Stapleton"
-  colaboradores: []
+  colaboradores:
   fundacion: "12/2024"
-  ins: ""
-  tw: ""
-  ex: []
+  ins:
+  tw:
+  ex:
   logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
-  congelado: ""
+  congelado:
 
 - nombre: "La Laguna - ULL"
   id: "LaLagunaULL"
   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
-  mail: ""
+  mail:
   presidente: "María Magdalena Rodríguez"
   vicepresidente: "Miguel Roldán Rodríguez"
   secretario: "Mar Sánchez Sicilia"
   tesorero: "Judit Álvarez Fernández"
   fundacion: "12/2024"
-  ins: ""
-  tw: ""
-  ex: []
+  ins:
+  tw:
+  ex:
   logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
-  congelado: ""
+  congelado:
 
 - nombre: "Alicante - UA"
   id: "AlicanteUA"
@@ -200,12 +200,12 @@
   secretario: "José García Vicente"
   tesorero: "Pablo Sorribes Córcoles"
   fundacion: "12/2024"
-  ins: ""
-  tw: ""
+  ins:
+  tw:
   ex:
     - nombre_ex: "Ernesto Tomás Riera"
   logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
-  congelado: ""
+  congelado:
 
 - nombre: "Baleares - UIB"
   id: "BalearesUIB"
@@ -216,43 +216,39 @@
   secretario: "Héctor Torio Mercado"
   tesorero: "Maria Antònia Boira Lladó"
   fundacion: "12/2024"
-  ins: ""
-  tw: ""
+  ins:
+  tw:
   ex:
     - nombre_ex: "Damià Vicens Ramis"
   logo: "/img/banner/logo-banner-estrsef.jpg"
-  congelado: ""
+  congelado:
 
 - nombre: "Barcelona - UB"
   id: "BarcelonaUB"
   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
-  mail: ""
+  mail:
   presidente: "Carla Caro Villanova"
   vicepresidente: "Helena Villares Santiago"
   secretario: "José Manuel Pérez Zegarra"
   tesorero: "Pablo Gómez Montañez"
-  fundacion: ""
-  ins: ""
-  tw: ""
-  ex: []
+  fundacion:
+  ins:
+  tw:
+  ex:
   logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
-  congelado: ""
+  congelado:
 
 - nombre: "Valencia - UPV"
   id: "ValenciaUPV"
   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
-  mail: ""
+  mail:
   presidente: "Lucas Miguel Conde Flores"
   vicepresidente: "Belén Carreres Chulilla"
   secretario: "Lucas Castelló Ferrando"
   tesorero: "Rocío Sánchez Climent"
-  fundacion: ""
-  ins: ""
-  tw: ""
-  ex: []
+  fundacion:
+  ins:
+  tw:
+  ex:
   logo: "/img/banner/logo-banner-estrsef.jpg"
-  congelado: ""
-
-
-
-
+  congelado:
