@@ -7,10 +7,6 @@
   secretario: "Alicia Iglesias Guerra"
   tesorero: "Javier Ruiz Morales"
   colaboradores:
-    #- nombre_col: "Alejandro Sanz Ramírez"
-    #- nombre_col: "Rodrigo Perucho"
-    #- nombre_col: "Javier Ruiz"
-    #- nombre_col: "Juan Pedretti"
   fundacion: "07/2019"
   ins: "https://www.instagram.com/estudiantesrsef_ucm/"
   tw:
@@ -262,4 +258,5 @@
   ex: 
   logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado:
+
 
