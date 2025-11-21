@@ -106,8 +106,9 @@ Un Friki
 </p>
 
 <p>
-[1] A. Géron. O’Reilly Book Club. Aurélien Géron on hands-on machine learning with Scikit-Learn, Keras, and TensorFlow., (2023).
+[1] S. Weinberg, Lectures on quantum mechanics, 2nd ed. Cambridge: Cambridge University Press, 2015.
 </p>
 <p>
-[2] Peter Norvig et al., “The Unreasonable Effectiveness of Data,” IEEE Intelligent Systems 24, no. 2 (2009): 8–12.
+[2] S. Weinberg, What is quantum field theory, and what did we think it is?, 1997, arXiv:hep -
+th/9702027 [hep-th].
 </p>
