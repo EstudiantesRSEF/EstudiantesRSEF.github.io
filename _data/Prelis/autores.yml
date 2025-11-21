@@ -1,4 +1,5 @@
 - "2025":
+
   - "nombre": "Fabio Revuelta Peña"
     "tema": "Mecánica Clásica"
     "biografia": "Fabio Revuelta Peña es Profesor Titular en el Grupo de Sistemas Complejos de la Universidad Politécnica de Madrid. Su investigación se centra en el estudio del caos y los efectos anharmónicos en sistemas atómicos y moleculares."
@@ -43,3 +44,8 @@
     "tema": "Ondas Gravitacionales"
     "biografia": "Joan Llobera Querol es investigador predoctoral en la Universitat de les Illes Balears. Trabaja en el desarrollo de modelos analíticos de ondas gravitacionales y es miembro de las colaboraciones LIGO y LISA. Combina su actividad investigadora con su labor dentro del capítulo estudiantil de la RSEF, donde ocupa el cargo de Secretario-Tesorero, mostrando también una gran pasión por la gestión y la educación científica."
     "imagen": "/img/eventos/2025-PrelisPLANCKS/autores/JoanLlobera-Querol.jpg"
+
+  - "nombre": "Ángel Sanz"
+    "tema": "Presidente del Comité Académico"
+    "biografia": "Ángel Sanz es Profesor Asociado en el Departamento de Óptica de la Universidad Complutense de Madrid."
+    "imagen": "/img/logos/gdee-rsef-logo-cuadrado.png"

@@ -2,56 +2,57 @@
   id: "MadridUCM"
   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
   mail: "estudiantesrsef.ucm@gmail.com"
-  presidente: "Tristán Ortiz Roset"
-  vicepresidente: "Alba Fernández Sánchez"
-  secretario: "Alejandro Pintado Blanco"
-  tesorero: "Jaime Pulido Romero"
+  presidente: "Alba Fernández Sánchez"
+  vicepresidente: "Oscar Naranjo López"
+  secretario: "Alicia Iglesias Guerra"
+  tesorero: "Javier Ruiz Morales"
   colaboradores:
-    - nombre_col: "Alejandro Sanz Ramírez"
-    - nombre_col: "Rodrigo Perucho"
-    - nombre_col: "Javier Ruiz"
-    - nombre_col: "Juan Pedretti"
   fundacion: "07/2019"
   ins: "https://www.instagram.com/estudiantesrsef_ucm/"
   tw:
   fb: "https://www.facebook.com/EstudiantesRSEF.UCM/"
-  ex: 
+  ex:
+    - nombre_ex: "Tristán Ortiz Roset"
     - nombre_ex: "Víctor Álvarez Martínez"
   logo: "/img/delegaciones/DUCM/LogoDUCM.jpeg"
-  congelado: 
+  congelado:
 
 - nombre: "Oviedo - UniOvi"
   id: "Oviedo"
-  img: "/img/delegaciones/DUNIOVI/DUNIOVI_junta2_avatar.jpg"
+  img: "/img/logos/gdee-rsef-logo-cuadrado.png"
   mail: "estudiantesrsef.uniovi@gmail.com"
-  presidente: "Silvia Rodríguez del Amo"
-  vicepresidente: "Covadonga Martínez Cueto"
-  secretario: "Irene Bernaldo de Quirós Bujanda"
-  tesorero: "Míchel Verdú Álvarez"
-  colaboradores: 
+  presidente: "Covadonga Martínez Cueto"
+  vicepresidente: "Sergio Suárez Rodríguez"
+  secretario: "Javier Martínez Martínez"
+  tesorero: "Samuel Rodríguez Díaz"
+  colaboradores:
   fundacion: "03/2022"
   ins: "https://www.instagram.com/estudiantesrsef_uniovi/"
   tw: "https://twitter.com/estRSEF_UniOvi"
-  ex: 
-    - nombre_ex: "Miguel Carrasco Arango"  
+  ex:
+    - nombre_ex: "Silvia Rodríguez del Amo"
+    - nombre_ex: "Miguel Carrasco Arango"
     - nombre_ex: "Manuel Porrón Álvarez"
   logo: "/img/delegaciones/DUNIOVI/logoDUNIOVI_hor.png"
   congelado:
 
 - nombre: "Granada - UGR"
   id: "Granada"
-  img: "/img/delegaciones/DUGR/DeleUGR_1024_mod.JPG"
+  img: "/img/logos/gdee-rsef-logo-cuadrado.png"
   mail: "estudiantesrsef.ugr@ugr.es"
-  presidente: "Ramón Moreno Salamanca"
-  vicepresidente: "Julia Díaz Canón"
-  secretario: "Victoria Dordyay Fedoruk"
+  presidente: "Laura Anguita Barranco"
+  vicepresidente: "Adrián Ocaña González"
+  secretario: "Jorge Luis Jiménez da Silva"
   tesorero: "Miryam Suárez Delgado"
   fundacion: "11/2022"
   ins: "https://www.instagram.com/estudiantesrsef.ugr/"
   tw: "https://twitter.com/estuRSEF_UGR"
   colaboradores:
-    - nombre_col: "Lola Castellón Ruiz"
-  ex: 
+    - nombre_col: "Cristina Sánchez Caldelas"
+    - nombre_col: "Enrique Rodríguez Ramos"
+    - nombre_col: "Andrés Estudillo Arce"
+  ex:
+    - nombre_ex: "Ramón Moreno Salamanca"
     - nombre_ex: "Carlos Martínez Morales"
     - nombre_ex: "Víctor Palma Cortés"
   logo: "/img/delegaciones/DUGR/DUGR_logo.jpeg"
@@ -59,35 +60,36 @@
 
 - nombre: "Barcelona - UAB"
   id: "BarcelonaUAB"
-  img: "/img/delegaciones/DUAB/DelUAB_ENEF_avatar.jpg"
+  img: "/img/logos/gdee-rsef-logo-cuadrado.png"
   mail: "estudiantes.rsef@uab.cat"
-  presidente: "Eric Jiménez Zurera"
-  vicepresidente: "Mario Martínez Angulo"
-  secretario: "Erika Lucía Dengra Blanco"
-  tesorero: "David Doblas Hernández"
+  presidente: "David Doblas Hernández"
+  vicepresidente: "Maia Fuentes Insa"
+  secretario: "Roser Jurado Montiel"
+  tesorero: "Daniel González Galícia"
   colaboradores:
   fundacion: "06/2023"
   ins: "https://www.instagram.com/estudiantsrsef_uab/"
   tw: "https://twitter.com/EstRSEF_UAB"
-  ex: 
+  ex:
+    - nombre_ex: "Eric Jiménez Zurera"
     - nombre_ex: "Elena Martínez Barceló"
-  logo: "/img/banner/logo-banner-estrsef.jpg"
+  logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
   congelado:
-  
+
 - nombre: "Valencia - UV"
   id: "ValenciaUV"
-  img: "/img/delegaciones/DUV/DUV_junta_avatar.jpg"
+  img: "/img/logos/gdee-rsef-logo-cuadrado.png"
   mail: "estudiantesrsef.uv@gmail.com"
-  presidente: "Sonsoles Riscos Martínez"
-  vicepresidente: "Laura Pérez Contreras"
-  secretario: "Javier Rodríguez Jiménez"
-  tesorero: "Guillermo Lagunas Gualda"
+  presidente: "David Camacho Castilla"
+  vicepresidente: "Marta Iniesta Martínez"
+  secretario: "Andrea Ion Trandafir"
+  tesorero: "Mar Ferrer Jiménez"
   colaboradores:
-    - nombre_col: "Alberto López Martín"
   fundacion: "09/2023"
   ins: "https://www.instagram.com/estudiantesrsef_uv/"
   tw: "https://twitter.com/EstRSEF_UV"
-  ex: 
+  ex:
+    - nombre_ex: "Sonsoles Riscos Martínez"
   logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado:
 
@@ -95,121 +97,158 @@
   id: "PaisVascoEUH"
   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
   mail: "estudiantesrsef.ehu@gmail.com"
-  presidente: "Leire Zufia Miguel"
-  vicepresidente: "Eneko Lekaroz Urriza"
-  secretario: "Josu Bayer Aguirre"
-  tesorero: "Ane Varela Etxeberria"
+  presidente: "Enara Tejido Sanz"
+  vicepresidente: "Unax Ruiz Diaz"
+  secretario: "Laura Fernández de Aránguiz Vidaurre"
+  tesorero: "Urko Aristondo Pérez"
   fundacion: "12/2023"
   ins: "https://www.instagram.com/estudiantesrsef_ehu/"
   tw: "https://twitter.com/EstRSEF_EHU"
-  ex: 
+  ex:
+    - nombre_ex: "Leire Zufia Miguel"
   logo: "/img/banner/logo-banner-estrsef.jpg"
-  congelado: 
+  congelado:
 
 - nombre: "Sevilla - US"
   id: "SevillaUS"
   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
   mail: "estudiantesrsef.us@gmail.com"
-  presidente: "Inés Mora Caro"
-  vicepresidente: "María José Balme Hidalgo"
-  secretario: "Álvaro González Manzano"
-  tesorero: "Miguel Hans Bernete"
+  presidente: "José Manuel Mendoza González"
+  vicepresidente: "Reyes Vargas Martínez"
+  secretario: "Jesús Ruiz Campano"
+  tesorero: "Carmen María Cruz Moreno"
+  colaboradores:
   fundacion: "03/2024"
   ins: "https://www.instagram.com/estudiantesrsef_us/"
   tw: "https://x.com/EstRSEF_US"
-  ex: 
-  logo: "/img/banner/logo-banner-estrsef.jpg"
-  congelado: 
+  ex:
+    - nombre_ex: "Inés Mora Caro"
+  logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
+  congelado:
 
 - nombre: "Valladolid - UVA"
   id: "ValladolidUVA"
   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
   mail: "estudiantesrsef.uva@gmail.com"
-  presidente: "Guillermo Muñoz Hernández"
-  vicepresidente: "Javier de la Parra Martín"
-  secretario: "Clara Rodríguez Marinero"
-  tesorero: "Lucía Barroso García"
+  presidente: "Víctor Cob Antolín"
+  vicepresidente: "Javier Gómez de Tejada Sanz"
+  secretario: "María Velasco Hernández"
+  tesorero: "Javier Hernández Blanco"
+  colaboradores:
+    - nombre_col: "Juan de Frutos Jiménez"
   fundacion: "09/2024"
   ins: "https://www.instagram.com/estudiantesrsef_uva/"
   tw: "https://x.com/estuRSEF_UVA"
-  ex: 
-  logo: "/img/banner/logo-banner-estrsef.jpg"
-  congelado: 
+  ex:
+    - nombre_ex: "Guillermo Muñoz Hernández"
+  logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
+  congelado:
 
-- nombre: "Castilla La Mancha - UCLM"
-  id: "CastillaLaManchaUCLM"
-  img: "/img/logos/gdee-rsef-logo-cuadrado.png"
-  mail: "estudiantesrsef.uclm@gmail.com"
-  presidente: "Ángel Francisco Martín Pérez"
-  vicepresidente: "Eduardo Truchado Iniesta"
-  secretario: "Carmen Marín"
-  tesorero: ""
-  fundacion: "11/2024"
-  ins: "https://www.instagram.com/estudiantesrsef_uclm/"
-  tw: 
-  ex: 
-  logo: "/img/banner/logo-banner-estrsef.jpg"
-  congelado: 
+# No la borro por si acaso
+#- nombre: "Castilla La Mancha - UCLM"
+#  id: "CastillaLaManchaUCLM"
+#  img: "/img/logos/gdee-rsef-logo-cuadrado.png"
+#  mail: "estudiantesrsef.uclm@gmail.com"
+#  presidente: "Ángel Francisco Martín Pérez"
+#  vicepresidente: "Eduardo Truchado Iniesta"
+#  secretario: "Carmen Marín"
+#  tesorero: ""
+#  fundacion: "11/2024"
+#  ins: "https://www.instagram.com/estudiantesrsef_uclm/"
+#  tw:
+#  ex:
+#  logo: "/img/banner/logo-banner-estrsef.jpg"
+#  congelado:
 
 - nombre: "Murcia - UMU"
   id: "MurciaUMU"
   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
   mail: "estudiantesrsef.um@gmail.com"
   presidente: "Francisco Javier Torroglosa Úbeda"
-  vicepresidente: "Cayetano Bayona Pacheco"
-  secretario: "Sergio Mulero Moreno"
+  vicepresidente: "Sergio Mulero Moreno"
+  secretario: "Ángela Mendez García"
   tesorero: "Tyler Scott Stapleton"
   colaboradores:
-    - nombre_col: "Valeria Martínez Molina"
-    - nombre_col: "Ana María Molina Miñarro"
   fundacion: "12/2024"
-  ins: 
-  tw: 
-  ex: 
-  logo: "/img/banner/logo-banner-estrsef.jpg"
-  congelado: 
+  ins:
+  tw:
+  ex:
+  logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
+  congelado:
 
 - nombre: "La Laguna - ULL"
   id: "LaLagunaULL"
   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
-  mail: 
+  mail:
   presidente: "María Magdalena Rodríguez"
-  vicepresidente: "Lucía González Pérez"
+  vicepresidente: "Miguel Roldán Rodríguez"
   secretario: "Mar Sánchez Sicilia"
-  tesorero: "Gareb Enoc Fernández Rodríguez"
+  tesorero: "Judit Álvarez Fernández"
   fundacion: "12/2024"
-  ins: 
-  tw: 
-  ex: 
-  logo: "/img/banner/logo-banner-estrsef.jpg"
-  congelado: 
+  ins:
+  tw:
+  ex:
+  logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
+  congelado:
 
 - nombre: "Alicante - UA"
   id: "AlicanteUA"
   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
   mail: "estudiantesrsef.ua@gmail.com"
-  presidente: "Ernesto Tomás Riera"
-  vicepresidente: "Álvaro Serrano Ruiz" 
-  secretario: "Said Tahmi"
+  presidente: "Álvaro Serrano Ruiz"
+  vicepresidente: "Said Tahmi"
+  secretario: "José García Vicente"
   tesorero: "Pablo Sorribes Córcoles"
   fundacion: "12/2024"
-  ins: 
-  tw: 
-  ex: 
-  logo: "/img/banner/logo-banner-estrsef.jpg"
-  congelado: 
+  ins:
+  tw:
+  ex:
+    - nombre_ex: "Ernesto Tomás Riera"
+  logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
+  congelado:
 
 - nombre: "Baleares - UIB"
   id: "BalearesUIB"
   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
   mail: "estudiantesrsef.uib@gmail.com"
-  presidente: "Damià Vicens Ramis"
-  vicepresidente: "Lucas Solé Silveira" 
-  secretario: "Guillem Riera LLinas"
-  tesorero: "Álvaro Benito Hernández"
+  presidente: "Irene Prohens Peteracova"
+  vicepresidente: "Guillem Riera LLinàs"
+  secretario: "Héctor Torio Mercado"
+  tesorero: "Maria Antònia Boira Lladó"
   fundacion: "12/2024"
-  ins: 
-  tw: 
-  ex: 
+  ins:
+  tw:
+  ex:
+    - nombre_ex: "Damià Vicens Ramis"
   logo: "/img/banner/logo-banner-estrsef.jpg"
-  congelado: 
+  congelado:
+
+- nombre: "Barcelona - UB"
+  id: "BarcelonaUB"
+  img: "/img/logos/gdee-rsef-logo-cuadrado.png"
+  mail: "estudiantesrsef.ub@gmail.com"
+  presidente: "Carla Caro Villanova"
+  vicepresidente: "Helena Villares Santiago"
+  secretario: "José Manuel Pérez Zegarra"
+  tesorero: "Pablo Gómez Montañez"
+  fundacion: "06/2025"
+  ins:
+  tw:
+  ex:
+  logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
+  congelado:
+
+- nombre: "Valencia - UPV"
+  id: "ValenciaUPV"
+  img: "/img/logos/gdee-rsef-logo-cuadrado.png"
+  mail: "g.estudiantesrsef.upv@gmail.com"
+  presidente: "Lucas Miguel Conde Flores"
+  vicepresidente: "Belén Carreres Chulilla"
+  secretario: "Lucas Castelló Ferrando"
+  tesorero: "Rocío Sánchez Climent"
+  fundacion: "06/2025"
+  ins:
+  tw:
+  ex:
+  logo: "/img/banner/logo-banner-estrsef.jpg"
+  congelado:
