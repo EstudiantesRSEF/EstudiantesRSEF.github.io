@@ -23,7 +23,7 @@ excerpt: "Vuelve nuestro Friki favorito con uno de esos episodios que nos hacen 
 Querido Diario:
 </p>
 <br>
-<p><img class="img-left" src="/img/blog/2025-11-23-FRIKI5-Interpretaciones/friki_peli.png">
+<p><img class="img-left" src="/img/blog/2025-11-23-FRIKI5-Interpretaciones/friki_abuela.png">
 Si hay alguien a quien quiera más en este mundo que a Erwin Schrödinger, esa es mi abuela. Todas las semanas voy a visitarla al menos una vez a su casa y siempre me dice: “tú, que no crees en Dios, me tienes que explicar qué hay entonces ahí arriba”. Y yo le digo: “pues yo no lo sé, abuela, pero los terraplanistas dicen que hay una cúpula de cristal ahí arriba…” - aunque realmente pienso que la pregunta no tiene sentido, pues de ahí arriba no podemos conocer nada, y aquello de lo que no podemos conocer nada, ¿existe? ¿Hace ruido un árbol que cae cuando nadie lo escucha? En fin, tampoco me quiero meter en ese fregao…
 </p>
 <p>
@@ -33,11 +33,11 @@ La historia de hoy es más graciosa. Mi madre y yo le dijimos la anterior vez qu
 Mi madre y yo no pudimos evitar reírnos y decirle que era una dramática y una exagerada, y que con esa historia bien le podían dar el Óscar al mejor guión. Cuando mi abuela repitió por decimotercera vez que gracias a Dios que no nos había pasado nada, que había estado muy preocupada, mi madre le dijo: <b>“Tú te montas unas películas…”</b> Y yo me reí muchísimo con ellas, pero, tras unos segundos, empecé a reflexionar lo rocambolescas que pueden llegar a ser nuestras interpretaciones de la realidad cuando vemos que algo no termina de encajarnos y, naturalmente, me vinieron a la mente las <b>interpretaciones de la Mecánica Cuántica</b>. Entonces le dije a mi abuela: “¡Abuela! ¿A que tú no sabes que los Físicos nos montamos películas aún mayores cuando encerramos a un gato en una caja?” 
 </p>
 <p>
-<img class="img-left" src="/img/blog/2025-11-23-FRIKI5-Interpretaciones/friki_abuela.png">
+
 Entonces empecé a contarle que existe un problema que lleva trayendo a los Físicos dolores de cabeza desde hace (justo) 100 años: ¿por qué el proceso de <b>medir</b> un sistema cuántico es tan profundamente distinto a la evolución libre de dicho sistema?
 </p>
 <p>
-
+<img class="img-left" src="/img/blog/2025-11-23-FRIKI5-Interpretaciones/friki_peli.png">
 Verás, Querido Diario, resulta que entre los postulados de la Mecánica Cuántica se establece que un sistema cuántico viene descrito enteramente por un vector (en un espacio de Hilbert). Este vector lo llamamos el <b>vector estado</b> de la partícula o del sistema, que puede estar expresado como una combinación lineal de los vectores de alguna base ortonormal, y si queremos conocer alguna magnitud física relacionada con el sistema debemos aplicar a este estado un operador correspondiente a este así-llamado <i>observable</i>. Cada observable se entiende, pues, por otro de estos postulados, como un operador en el espacio de Hilbert de nuestro vector estado, y los autovectores de dicho operador (representado como una matriz) asociados a cada uno de sus autovalores (que coinciden con cada uno de los distintos valores que puede tomar dicho observable) forman una base ortonormal. Pues bien, cuando decimos que un sistema cuántico está en una superposición de estados, solo estamos queriendo decir que el vector estado puede expresarse como combinación lineal de los autovectores de un observable dado.
 </p>
 <p>
