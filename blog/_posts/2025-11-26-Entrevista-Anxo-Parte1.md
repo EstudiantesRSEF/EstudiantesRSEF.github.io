@@ -16,7 +16,7 @@ investigadora, inquietudes, intereses y temas actuales de investigación. "
 
 <p class="clearfix">
   Hoy entrevistamos a Anxo Fariña Biasi, investigador en física matemática en el 
-Instituto Gallego de Física de Altas Energías (IGFAE), que nos hablará de su carrera 
+Instituto Galego de Física de Altas Enerxías (IGFAE), que nos hablará de su carrera 
 investigadora, inquietudes, intereses y temas actuales de investigación. 
 </p>
 
