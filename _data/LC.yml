@@ -128,7 +128,7 @@
 
 - nombre: "Valladolid - UVA"
   id: "ValladolidUVA"
-  img: "/img/logos/gdee-rsef-logo-cuadrado.png"
+  img: "img/delegaciones/DUVA/Dele-Uva.jpg"
   mail: "estudiantesrsef.uva@gmail.com"
   presidente: "Víctor Cob Antolín"
   vicepresidente: "Javier Gómez de Tejada Sanz"
@@ -252,3 +252,4 @@
   ex:
   logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado:
+
