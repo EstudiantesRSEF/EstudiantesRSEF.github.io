@@ -22,7 +22,7 @@ investigadora, inquietudes, intereses y temas actuales de investigación.
 
 <br>
 <p>
-Anxo se encuadra dentro del campo de la física matemática, una figura que, tras 
+<img class="img-left" src="/img/blog/2025-11-26-Entrevista-Anxo/anxo_solo.jpeg">Anxo se encuadra dentro del campo de la física matemática, una figura que, tras 
 estudiar física, ha desarrollado su carrera entre dos aguas, publicando tanto en 
 revistas de física como de matemáticas. Su trabajo se centra en un campo 
 fundamental pero sorprendentemente complejo: la dinámica no lineal. 
@@ -128,7 +128,7 @@ durante varios ciclos. Entonces esa parte también hay que tenerla en cuenta. Es
 la carrera académica tiene una componente solitaria.
   </p>
 <p>
-Por otro lado, tiene la componente también de que conoces a mucha gente en muchos 
+<img class="img-right" src="/img/blog/2025-11-26-Entrevista-Anxo/los_tres.jpeg">Por otro lado, tiene la componente también de que conoces a mucha gente en muchos 
 sitios, pero si la parte de la soledad es un tema crítico, supongo que tiene que ser 
 bastante duro. Sobre todo en un periodo de estrés. 
   </p>
