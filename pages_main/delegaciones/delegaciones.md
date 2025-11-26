@@ -36,7 +36,7 @@ El Grupo de Estudiantes de la RSEF cuenta por el momento con {{ n }} Delegacione
 					{% unless item.img == "" %}
 						{% assign image = item.img %}
 					{% endunless %}
-					<img src="{{ item.img }}" alt="" class="circle" style="object-fit: cover; width: 42px; height: 42px;">
+					<img src="{{ item.img }}" alt="" class="circle" style="object-fit: cover; width: 64px; height: 64px;">
 					Delegación de <b> {{ item.nombre }} </b>
 					<p>
 						{% if item.presidente != nil %}
