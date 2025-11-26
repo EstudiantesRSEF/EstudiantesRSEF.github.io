@@ -128,7 +128,7 @@
 
 - nombre: "Valladolid - UVA"
   id: "ValladolidUVA"
-  img: "/img/delegaciones/DUVA/Dele-Uva.jpg"
+  img: "/img/delegaciones/DeleUva.jpeg"
   mail: "estudiantesrsef.uva@gmail.com"
   presidente: "Víctor Cob Antolín"
   vicepresidente: "Javier Gómez de Tejada Sanz"
@@ -240,7 +240,7 @@
 
 - nombre: "Valencia - UPV"
   id: "ValenciaUPV"
-  img: "/img/logos/gdee-rsef-logo-cuadrado.png"
+  img: "/img/delegaciones/DUPV/Dele-Upv-Val.jpg"
   mail: "g.estudiantesrsef.upv@gmail.com"
   presidente: "Lucas Miguel Conde Flores"
   vicepresidente: "Belén Carreres Chulilla"
@@ -252,6 +252,7 @@
   ex:
   logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado:
+
 
 
 
