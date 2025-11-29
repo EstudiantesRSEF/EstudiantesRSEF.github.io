@@ -58,7 +58,7 @@ Los números primos tienen muchas aplicaciones en la tecnología actual, un ejem
 
 <p><h2>La demostración de Euclides</h2></p>
 <p>
-<img class="img-left" src="/img/blog/2025-11-30-Rafa-NumerosPrimos/losElementos.jpeg"> Vamos a ilustrar primero la idea de la prueba. Consideremos los números primos \(2\) y \(3\). Si hacemos su producto y le sumamos \(1\), obtenemos \(2·3+1 = 7\), otro número primo. Hacemos ahora \(2 · 3 · 7 + 1 = 43\), de nuevo obtenemos un primo. Si ahora hacemos \(2·3·7·43+1 = 1807 = 13·139\( obtenemos un número que no es primo, sin embargo, es producto de primos distintos de \(2,3,7,43\). Esto nos da un método para, dado un conjunto finito de números primos, encontrar otro número primo fuera de este.
+<img class="img-left" src="/img/blog/2025-11-30-Rafa-NumerosPrimos/losElementos.jpeg"> Vamos a ilustrar primero la idea de la prueba. Consideremos los números primos \(2\) y \(3\). Si hacemos su producto y le sumamos \(1\), obtenemos \(2·3+1 = 7\), otro número primo. Hacemos ahora \(2 · 3 · 7 + 1 = 43\), de nuevo obtenemos un primo. Si ahora hacemos \(2·3·7·43+1 = 1807 = 13·139\) obtenemos un número que no es primo, sin embargo, es producto de primos distintos de \(2,3,7,43\). Esto nos da un método para, dado un conjunto finito de números primos, encontrar otro número primo fuera de este.
     </p>
 <p>
  Consideremos entonces un conjunto finito de números primos \(p_1,...,p_n\) y consideremos el producto de todos estos números primos y sumémosle \(1\):
@@ -77,7 +77,7 @@ Hay dos opciones: que \(p\) sea otro número primo, distinto a todos los de nues
     </p>
 <p><blocknote>
 \[
-   p/p_i = p_1...p_{i−1}p_{i+1} ...p_n + 1/p_i.
+   \frac{p}/{p_i} = p_1...p_{i−1}p_{i+1} ...p_n + \frac{1}/{p_i}.
    \]
  </blocknote>
     </p>
@@ -88,24 +88,26 @@ Hay dos opciones: que \(p\) sea otro número primo, distinto a todos los de nues
 <h2>La demostración de Furstenberg</h2>
   </p>
 <p>
-<img class="img-left" src="/img/blog/2025-11-30-Rafa-NumerosPrimos/Furstenberg.jpeg">Hasta ahora, aunque no lo he especificado (por simplificar las cosas), hemos trabajado únicamente con números naturales. En esta sección vamos a considerar enteros, ya que es el tratamiento más moderno. Un entero p es primo si \(p ̸ =1,−1\( y si únicamente es divisible por \(±1\) y por \(±p\).
+<img class="img-left" src="/img/blog/2025-11-30-Rafa-NumerosPrimos/Furstenberg.jpeg">Hasta ahora, aunque no lo he especificado (por simplificar las cosas), hemos trabajado únicamente con números naturales. En esta sección vamos a considerar enteros, ya que es el tratamiento más moderno. Un entero p es primo si \(p ̸= 1,−1\) y si únicamente es divisible por \(±1\) y por \(±p\).
    </p>
 <p>
- Vamos a darle una topología a \(\mathbb{Z}\) de forma que las progresiones aritméticas \(S(a,b) = {a +bn : n ∈ \mathbb{Z}\), donde \(a,b ∈ \mathbb{Z]\) y \(b ⩾ 1\), sean una base para dicha topología. En concreto, \(U ⊆ \mathbb{Z}\) es abierto en esta topología si para todo \(a ∈ U\) existe \(b ∈ \mathbb{Z}\), con \(b ⩾ 1\) tal que \(S(a,b) = {a+bn : n ∈ \mathbb{Z}} ⊆ U\). Comprobar que esto es efectivamente una topología es un ejercicio relativamente sencillo. Hay dos observaciones esenciales que debemos hacer.
+ Vamos a darle una topología a \(\mathbb{Z}\) de forma que las progresiones aritméticas \(S(a,b) = {a +bn : n ∈ \mathbb{Z}}\), donde \(a,b ∈ \mathbb{Z]\) y \(b ⩾ 1\), sean una base para dicha topología. En concreto, \(U ⊆ \mathbb{Z}\) es abierto en esta topología si para todo \(a ∈ U\) existe \(b ∈ \mathbb{Z}\), con \(b ⩾ 1\) tal que \(S(a,b) = {a+bn : n ∈ \mathbb{Z}} ⊆ U\). Comprobar que esto es efectivamente una topología es un ejercicio relativamente sencillo. Hay dos observaciones esenciales que debemos hacer.
    </p>
 <ul>
 <p>
  <li>Cualquier abierto en esta topología debe tener una cantidad infinita de elementos, ya que cualquier abierto contiene, al menos, una sucesión aritmética.</li>
 </p>
   <p>
-    <li> Una sucesión aritmética \(S(a,b)\) es abierto y cerrado en esta topología. Que es abierto es claro por la propia definición de la topología. Es también muy intuitivo ver que \(S(a,b) = {a + bn : n ∈ \mathbb{Z}\) es cerrado. El complemento de este conjunto es la unión de las progresiones aritméticas \({r + bn : n ∈ \mathbb{Z}}\) con \(r ∈ {a +1,...,a + b − 1}\). Por tanto, el complemento de una sucesión aritmética es abierto al ser unión de \(b−1\) sucesiones aritméticas. Entonces \(S(a,b)\) es también un conjunto cerrado en esta topología para \(\mathbb{Z}\). La intuición de esto último se basa en considerar una sucesión aritmética, por ejemplo \(S(1,3) = {...,−2,1,4,7,10,...}\). El complemento de este conjunto es \({...,−1,2,5,8,11,...}\cup{...,−3,0,3,6,9,...}\) que es la unión de las dos sucesiones aritméticas \(S(2,3)) \y \(S(3,3)\).</li> 
+    <li> Una sucesión aritmética \(S(a,b)\) es abierto y cerrado en esta topología. Que es abierto es claro por la propia definición de la topología. Es también muy intuitivo ver que \(S(a,b) = {a + bn : n ∈ \mathbb{Z}}\) es cerrado. El complemento de este conjunto es la unión de las progresiones aritméticas \({r + bn : n ∈ \mathbb{Z}}\) con \(r ∈ {a +1,...,a + b − 1}\). Por tanto, el complemento de una sucesión aritmética es abierto al ser unión de \(b−1\) sucesiones aritméticas. Entonces \(S(a,b)\) es también un conjunto cerrado en esta topología para \(\mathbb{Z}\). La intuición de esto último se basa en considerar una sucesión aritmética, por ejemplo \(S(1,3) = {...,−2,1,4,7,10,...}\). El complemento de este conjunto es \({...,−1,2,5,8,11,...}\cup{...,−3,0,3,6,9,...}\) que es la unión de las dos sucesiones aritméticas \(S(2,3)\) y \(S(3,3)\).</li> 
   </p>
 </ul>
 <p>Con esto ya podemos dar la prueba. Consideramos \(\mathbb{Z}\) equipado con esta topología. Sea el conjunto
 </p>
 <p>
 <blocknote>
-   \(\bigcup_{{p \text{ primo}} p\mathbb{Z} = \bigcup_{{p \text{ primo}} S(0,p) = \mathbb{Z}−{−1,1}\),
+   \[
+   \bigcup_{p primo} p\mathbb{Z} = \bigcup_{p primo} S(0,p) = \mathbb{Z}−{−1,1},
+   \]
 </blocknote>
 </p>
 <p>
