@@ -6,59 +6,79 @@
   dataFin:
   nmiembros: "19"
   miembros:
-    - nombre: "Manuel Porrón Álvarez"
-      img: 
-      rol: "Presidente"
-      linkedin: "https://www.linkedin.com/in/manuelporron/"
-    - nombre: "Victor Palma Cortés"
-      img: 
-      rol: "Vicepresidente"
-      linkedin: 
-    - nombre: "Joan Llobera Querol"
-      img: "/img/junta/joan-llobera.jpg"
-      rol: "Secretario-Tesorero"
-      linkedin: 
-    - nombre: "Adrián Marín Boyero"
-      img: 
-      rol: "Vocal"
-      linkedin: 
-    - nombre: "Ana Garrigues Navarro"
-      img: 
-      rol: "Vocal"
-      linkedin: 
-    - nombre: "Eloi Casalé Cabanes"
-      img: 
-      rol: "Vocal"
-      linkedin: 
     - nombre: "Eric Jiménez Zurera"
       img: 
+      rol: "Presidente"
+      linkedin: 
+    - nombre: "Sonsoles Riscos Martínez"
+      img: 
+      rol: "Vicepresidenta"
+      linkedin: 
+    - nombre: "Ramón Moreno Salamanca"
+      img: 
+      rol: "Secretario-Tesorero"
+      linkedin: 
+
+    - nombre: "Álex Guitart i Manuel"
+      img: 
       rol: "Vocal"
       linkedin: 
-    - nombre: "Irene Carrión López"
+    - nombre: "Cristian Mendes Morata"
+      img: 
+      rol: "Vocal"
+      linkedin: 
+    - nombre: "Emma Rebollar Cuenca"
+      img: 
+      rol: "Vocal"
+      linkedin: 
+    - nombre: "Enrique Rodríguez Ramos"
+      img: 
+      rol: "Vocal"
+      linkedin: 
+
+    - nombre: "Francisco Javier Torroglosa Úbeda"
+      img: 
+      rol: "Vocal"
+      linkedin: 
+
+    - nombre: "Javier de la Parra Martín"
+      img: 
+      rol: "Vocal"
+      linkedin: 
+
+    - nombre: "Javier Rodríguez Jiménez"
+      img: 
+      rol: "Vocal"
+      linkedin: 
+    - nombre: "Jose Daniel Randazzo"
+      img: 
+      rol: "Vocal"
+      linkedin: 
+    - nombre: "Julia Díaz Canón"
+      img: 
+      rol: "Vocal"
+      linkedin: 
+    - nombre: "Lucía Barroso García"
+      img: 
+      rol: "Vocal"
+      linkedin: 
+    - nombre: "Michel Verdú Álvarez"
+      img: 
+      rol: "Vocal"
+      linkedin: 
+    - nombre: "Rodrigo Hoyuelos Manso"
+      img: 
+      rol: "Vocal"
+      linkedin: 
+    - nombre: "Tristán Ortiz Roset"
+      img: 
+      rol: "Vocal"
+      linkedin: 
+    - nombre: "Vega Jiménez Miñarro"
+      img: 
+      rol: "Vocal"
+      linkedin: 
+    - nombre: "Victoria Dordyay Fedoruk"
       img: "/img/junta/irene-carrion.png"
       rol: "Vocal"
       linkedin: ""
-    - nombre: "Iván Villar Naredo"
-      img: 
-      rol: "Vocal"
-      linkedin: 
-    - nombre: "Juan Lorenzo Campos"
-      img: 
-      rol: "Vocal"
-      linkedin: 
-    - nombre: "Lucía Longo Balagué"
-      img: 
-      rol: "Vocal"
-      linkedin: 
-    - nombre: "María Sánchez Hernández"
-      img: 
-      rol: "Vocal"
-      linkedin: 
-    - nombre: "Miguel Durán Vera"
-      img: 
-      rol: "Vocal"
-      linkedin: 
-    - nombre: "Misael Malqui Cruz"
-      img: 
-      rol: "Vocal"
-      linkedin: 
