@@ -3,7 +3,7 @@
   dataCISF: ""
   dataElecciones: "20 de octubre de 2023"
   dataInicio: "23 de octubre de 2023"
-  dataFin:
+  dataFin: "24 de octubre de 2025"
   nmiembros: "14"
   miembros:
     - nombre: "Manuel Porrón Álvarez"
