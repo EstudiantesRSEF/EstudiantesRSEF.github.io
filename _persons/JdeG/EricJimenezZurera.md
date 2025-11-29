@@ -7,7 +7,7 @@ EC4: "Vocal"
 Pos_EC4: "5"
 nombre: "Eric Jiménez Zurera"
 img: "/img/junta/EricJimenezZurera.png"
-header: "/img/logos/gdee-rsef-logo-cuadrado.png"
+header: "/img/junta25-27/Eric.JPG"
 rol: 
 descr: "Hola, soy Eric Jiménez Zurera, estudiante de tercer año del grado de Física por la Universidad Autónoma de Barcelona. Asumo mi papel como Vocal de la Junta de Gobierno del Grupo de Estudiantes con ilusión y entusiasmo por cumplir con mi labor y colaborar con este gran equipo. Además de ayudar a la logística de próximas actividades, creo que podría aportar con mi empuje por tomar el relevo de la coordinación de las Preliminares de las PLANCKS a nivel nacional ya que el proyecto me atrae mucho y siempre he tenido predisposición a la organización de actividades de este calibre."
 
