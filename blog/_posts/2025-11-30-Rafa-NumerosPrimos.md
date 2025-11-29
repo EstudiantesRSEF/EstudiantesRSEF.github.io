@@ -88,7 +88,7 @@ Hay dos opciones: que \(p\) sea otro número primo, distinto a todos los de nues
 <h2>La demostración de Furstenberg</h2>
   </p>
 <p>
-<img class="img-left" src="/img/blog/2025-11-30-Rafa-NumerosPrimos/Furstenberg.jpeg">Hasta ahora, aunque no lo he especificado (por simplificar las cosas), hemos trabajado únicamente con números naturales. En esta sección vamos a considerar enteros, ya que es el tratamiento más moderno. Un entero p es primo si \(p != 1,−1\) y si únicamente es divisible por \(±1\) y por \(±p\).
+<img class="img-left" src="/img/blog/2025-11-30-Rafa-NumerosPrimos/Furstenberg.jpeg">Hasta ahora, aunque no lo he especificado (por simplificar las cosas), hemos trabajado únicamente con números naturales. En esta sección vamos a considerar enteros, ya que es el tratamiento más moderno. Un entero p es primo si \(p /= 1,−1\) y si únicamente es divisible por \(±1\) y por \(±p\).
    </p>
 <p>
  Vamos a darle una topología a \(\mathbb{Z}\) de forma que las progresiones aritméticas \(S(a,b) = {a +bn : n ∈ \mathbb{Z}}\), donde \(a,b ∈ \mathbb{Z}\) y \(b ⩾ 1\), sean una base para dicha topología. En concreto, \(U ⊆ \mathbb{Z}\) es abierto en esta topología si para todo \(a ∈ U\) existe \(b ∈ \mathbb{Z}\), con \(b ⩾ 1\) tal que \(S(a,b) = {a+bn : n ∈ \mathbb{Z}} ⊆ U\). Comprobar que esto es efectivamente una topología es un ejercicio relativamente sencillo. Hay dos observaciones esenciales que debemos hacer.
@@ -106,12 +106,12 @@ Hay dos opciones: que \(p\) sea otro número primo, distinto a todos los de nues
 <p>
 <blocknote>
    \[
-   \bigcup_{p \ primo} p\mathbb{Z} = \bigcup_{p \ primo} S(0,p) = \mathbb{Z}−{{−1,1}},
+   \bigcup_{p \ primo} p\mathbb{Z} = \bigcup_{p \ primo} S(0,p) = \mathbb{Z}−{\(−1,1\)},
    \]
 </blocknote>
 </p>
 <p>
- donde la segunda igualdad se sigue de que cualquier entero, excepto \(1\) y \(−1\), se escribe como el producto de un entero por un primo. El conjunto \(\mathbb{Z}−\){\(−1,1\)} no puede ser cerrado, ya que {\(−1,1\)} no puede ser abierto al ser finito. Por otro lado \(\mathbb{Z}−{{−1,1}}\) es unión de cerrados, ya que los \(S(0,p)\) lo son, como acabamos de discutir. Esto implica que esta unión no puede ser finita, por tanto el conjunto de los números primos debe ser infinito.
+ donde la segunda igualdad se sigue de que cualquier entero, excepto \(1\) y \(−1\), se escribe como el producto de un entero por un primo. El conjunto \(\mathbb{Z}−\){\(−1,1\)} no puede ser cerrado, ya que {\(−1,1\)} no puede ser abierto al ser finito. Por otro lado \(\mathbb{Z}−\){\(−1,1\)} es unión de cerrados, ya que los \(S(0,p)\) lo son, como acabamos de discutir. Esto implica que esta unión no puede ser finita, por tanto el conjunto de los números primos debe ser infinito.
 </p>
 
 
