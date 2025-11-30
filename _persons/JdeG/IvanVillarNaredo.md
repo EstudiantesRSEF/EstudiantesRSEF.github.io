@@ -4,8 +4,8 @@ categories: junta
 evento: 
 EC3: 
 EC4: "Vocal"
-EC5: "IT"
-Pos_EC5: "5"
+EC5: 
+Pos_EC5: 
 Pos_EC4: "5"
 nombre: "Iván Villar Naredo"
 img: "/img/junta/IvanVillarNaredo.jpg"
