@@ -9,7 +9,7 @@ nombre: "Rodrigo Hoyuelos Manso"
 img: "/img/junta25-27/rodrigo.jpg"
 header: "/img/junta25-27/rodrigo.jpg"
 rol: 
-descr: "Hola, soy Rodrigo Hoyuelos Manso, estudiante de quinto año del doble grado de Física y Matemáticas en la Universidad de Valladolid."
+descr: "Doble Grado en Física y Matemáticas- Universidad de Valladolid"
 
 video:
 part1: 

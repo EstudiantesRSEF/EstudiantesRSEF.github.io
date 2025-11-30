@@ -9,7 +9,7 @@ nombre: "Ramón Moreno Salamanca"
 img: "/img/junta25-27/Ramon.png"
 header: "/img/junta25-27/Ramon.png"
 rol: 
-descr: 
+descr: "Máster en Física: Nanotecnología - Universidad de Granada"
 
 video:
 part1: 

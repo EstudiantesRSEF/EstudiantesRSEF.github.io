@@ -9,7 +9,7 @@ nombre: "Julia Díaz Canón"
 img: "/img/junta25-27/Julia.png"
 header: "/img/junta25-27/Julia.png"
 rol: 
-descr: 
+descr: "Grado en Física - Universidad de Granada"
 
 video:
 part1: 
