@@ -6,7 +6,7 @@ EC4:
 EC5: "Vicepresidenta"
 Pos_EC5: "2"
 nombre: "Sonsoles Riscos Martínez"
-img: "//img/junta25-27/Sonsoles.png"
+img: "/img/junta25-27/Sonsoles.png"
 header: "/img/junta25-27/Sonsoles.png"
 rol: 
 descr: "Doble Grado en Física y Matemáticas - Universitat de València"
