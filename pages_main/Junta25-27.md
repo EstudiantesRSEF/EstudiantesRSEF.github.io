@@ -121,12 +121,13 @@ Miembro {{person.nombre}}
 
 
 
-<!--              Modales            -->
+<!--              Modales  Junta Actual          -->
+
 
 {% for person in site.persons %}
-{% if person.EC4 %}
+{% if person.EC5 %}
 
-<div id="{{ person.id | remove: "/" }}-EC4" class="modal">
+<div id="{{ person.id | remove: "/" }}-EC5" class="modal">
   <div class="modal-content">
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row">
@@ -138,7 +139,7 @@ Miembro {{person.nombre}}
         <div class="col s12 m6 l6">        
           <div class="row center" style="padding-top: 40px;">
             <h3 class="justify">{{ person.nombre }}</h3>
-            <h5 class="justify">{{ person.EC4 }}</h5>
+            <h5 class="justify">{{ person.EC5 }}</h5>
           </div>
         </div>
       </div>
@@ -236,11 +237,12 @@ Miembro {{person.nombre}}
    <div class="modal-footer">
      <a href="#!" class="modal-close waves-effect waves-green btn-flat">CERRAR</a>
    </div>
- </div>
+</div>
 
  {% endif %}
  {% endfor %}
 
+<!--              Modales   Junta vieja         -->
 
 {% for person in site.persons %}
 {% if person.EC4%}
