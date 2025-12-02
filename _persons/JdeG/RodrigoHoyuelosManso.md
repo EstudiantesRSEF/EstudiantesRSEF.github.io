@@ -8,7 +8,7 @@ Pos_EC5: "5"
 nombre: "Rodrigo Hoyuelos Manso"
 img: "/img/junta25-27/rodrigo.jpg"
 header: "/img/junta25-27/rodrigo.jpg"
-rol: 
+rol: "Organizador comité de administración web"
 descr: "Doble Grado en Física y Matemáticas- Universidad de Valladolid"
 
 video:
