@@ -7,95 +7,129 @@ layout: null
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrera de Popularidad</title>
+    <!-- Estilos CSS (Tailwind) -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fuentes -->
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    
     <style>
-        body {
-            font-family: 'Nunito', sans-serif;
-            background-color: transparent;
-        }
+        /* CSS PURO */
+        body { font-family: 'Nunito', sans-serif; background-color: transparent; }
         h1, h2 { font-family: 'Fredoka One', cursive; }
-        
-        /* ESTILO PISTA ROJA */
         .track-surface {
-            background-color: #ef4444; /* Rojo Tailwind red-500 */
+            background-color: #ef4444;
             background-image: repeating-linear-gradient(90deg, transparent, transparent 99px, rgba(255,255,255,0.4) 100px);
-            border: 4px solid #b91c1c; /* Borde rojo oscuro */
+            border: 4px solid #b91c1c;
         }
-        
         .runner { transition: left 1.5s cubic-bezier(0.34, 1.56, 0.64, 1); }
         ::-webkit-scrollbar { display: none; }
     </style>
 </head>
 <body class="p-2">
 
+    <!-- 
+      ========================================
+      ZONA DE DATOS (JEKYLL / LIQUID)
+      ========================================
+      Jekyll escribe los datos aquí como atributos HTML invisibles.
+      JavaScript NO se mezcla aquí.
+      Ruta de datos: _data/PreliminaresPLANCKS/data2026/carrera.yml
+    -->
+    <div id="data-source" style="display: none;">
+        {% assign datos = site.data.PreliminaresPLANCKS.data2026.carrera %}
+        {% if datos %}
+            {% for equipo in datos %}
+                <!-- Cada equipo es un elemento HTML simple -->
+                <span class="team-data" 
+                      data-id="{{ equipo.id }}" 
+                      data-nombre="{{ equipo.nombre }}" 
+                      data-imagen="{{ equipo.imagen }}" 
+                      data-inscritos="{{ equipo.inscritos | default: 0 }}">
+                </span>
+            {% endfor %}
+        {% endif %}
+    </div>
+
+    <!-- 
+      ========================================
+      ZONA VISUAL (HTML PURO)
+      ========================================
+    -->
     <div class="max-w-4xl mx-auto">
         <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
             
-            <!-- COLUMNA 1: La Pista (Ocupa 3/4) -->
+            <!-- PISTA -->
             <div class="lg:col-span-3 shadow-xl rounded-xl overflow-hidden relative">
-                <!-- Header con el Total Global Calculado -->
                 <div class="bg-red-800 text-white p-2 flex justify-between items-center px-4 border-b-2 border-red-900 z-10 relative">
                     <span class="font-bold text-sm uppercase tracking-wider">🏁 Carrera de Equipos</span>
                     <span id="global-counter" class="bg-red-900 px-2 py-0.5 rounded text-xs font-mono text-yellow-300 border border-red-700">
-                        Total: 0
+                        Calculando...
                     </span>
                 </div>
 
-                <!-- Contenedor Pista Roja -->
-                <div id="track-surface" class="track-surface relative p-4 h-[350px] flex flex-col justify-center">
-                    
-                    <!-- Línea de Meta (Representa el 100% de los votos) -->
+                <div class="track-surface relative p-4 h-[350px] flex flex-col justify-center">
                     <div class="absolute right-8 top-0 bottom-0 w-4 border-r-4 border-white z-0 flex flex-col justify-center items-center">
                         <div class="h-full border-r-2 border-dashed border-white opacity-50"></div>
                         <span class="absolute -bottom-6 text-red-800 font-bold text-xs">TOTAL</span>
                     </div>
 
-                    <!-- Los corredores se generarán aquí mediante JavaScript -->
-                    <div id="runners-container" class="relative w-full h-full">
-                        <!-- JS inyectará el HTML aquí -->
-                    </div>
+                    <!-- Contenedor vacío donde JS pintará los corredores -->
+                    <div id="runners-container" class="relative w-full h-full"></div>
                 </div>
             </div>
 
-            <!-- COLUMNA 2: Panel de Clasificación (Ocupa 1/4) -->
+            <!-- CLASIFICACIÓN -->
             <div class="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden h-fit">
                 <div class="bg-gray-800 p-2 text-white font-bold text-center text-xs uppercase">
                     📊 Cuota de Equipo
                 </div>
                 <div class="p-2">
-                    <ul id="leaderboard" class="space-y-1 text-sm">
-                        <li class="text-center text-gray-500 text-xs italic">Cargando datos...</li>
-                    </ul>
-                </div>
-                <div class="bg-gray-50 p-2 text-[10px] text-gray-400 text-center border-t">
-                    % sobre el total acumulado
+                    <ul id="leaderboard" class="space-y-1 text-sm"></ul>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- 
+      ========================================
+      ZONA DE LÓGICA (JAVASCRIPT PURO)
+      ========================================
+      Aquí NO hay ningún código de Jekyll. Solo JavaScript estándar.
+    -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // 1. OBTENER DATOS DE JEKYLL
-            // NOTA: Tu editor puede marcar ERROR de sintaxis aquí por los corchetes {{ }}.
-            // IGNÓRALO: Al procesarse con Jekyll, esto se sustituye por JSON válido.
-            // El filtro "| default: '[]'" evita errores si el archivo no existe.
-            const raceData = {{ site.data.Prelis['2026'].carrera | jsonify | default: '[]' }};
-
-            if (!raceData || raceData.length === 0) {
+            // 1. LEER LOS DATOS DEL HTML
+            // Buscamos los elementos <span> ocultos que generó Jekyll arriba
+            const dataElements = document.querySelectorAll('.team-data');
+            
+            // Validación simple
+            if (dataElements.length === 0) {
                 document.getElementById('leaderboard').innerHTML = 
-                    '<li class="text-red-500 text-xs text-center p-2">⚠️ No se leyeron datos.<br>Revisa _data/Prelis/2026/carrera.yml</li>';
+                    '<li class="text-red-500 text-xs text-center p-2">⚠️ No se encontraron datos.<br>Revisar ruta: _data/PreliminaresPLANCKS/data2026/carrera.yml</li>';
                 return;
             }
 
-            // 2. CALCULAR EL GRAN TOTAL (SUMA DE TODOS LOS INSCRITOS)
-            // 'reduce' recorre el array sumando la propiedad 'inscritos' de cada equipo
-            const grandTotal = raceData.reduce((suma, equipo) => suma + (equipo.inscritos || 0), 0);
+            // 2. CONVERTIR HTML A OBJETOS JS
+            let raceData = [];
+            let grandTotal = 0;
 
-            // Mostrar el total en el header
+            dataElements.forEach(el => {
+                // Leemos los atributos 'data-' seguros
+                const inscritos = parseInt(el.getAttribute('data-inscritos')) || 0;
+                grandTotal += inscritos;
+                
+                raceData.push({
+                    id: el.getAttribute('data-id'),
+                    nombre: el.getAttribute('data-nombre'),
+                    imagen: el.getAttribute('data-imagen'),
+                    inscritos: inscritos
+                });
+            });
+
+            // Actualizar texto del total
             document.getElementById('global-counter').innerText = `Total Inscritos: ${grandTotal}`;
 
+            // 3. EJECUTAR LA ANIMACIÓN
             renderRace(raceData, grandTotal);
         });
 
@@ -106,65 +140,47 @@ layout: null
             let runnersHtml = '';
             let leaderboardData = [];
             
-            // Calculamos el espacio vertical disponible para distribuir los corredores
             const totalRunners = data.length;
-            const availableHeight = 85; // Dejamos margen arriba y abajo
+            const availableHeight = 85; 
             const step = totalRunners > 1 ? availableHeight / (totalRunners - 1) : 0;
 
             data.forEach((item, index) => {
-                // CÁLCULO DE POSICIÓN BASADO EN EL TOTAL GLOBAL
                 let percentage = 0;
                 let ratio = 0;
                 
-                // Evitamos división por cero si nadie se ha inscrito aún
                 if (totalGlobal > 0) {
-                    ratio = (item.inscritos || 0) / totalGlobal;
-                    // Multiplicamos por 92 para que el 100% visual no se salga de la pista (dejamos margen para la meta)
+                    ratio = item.inscritos / totalGlobal;
                     percentage = Math.min(ratio * 92, 92);
                 }
                 
-                // Posición vertical (top) para que no se superpongan
                 const topPos = 5 + (index * step);
 
-                // --- GENERAR HTML DEL CORREDOR ---
+                // Plantilla HTML del corredor (usando comillas invertidas de JS)
                 runnersHtml += `
                 <div id="runner-${item.id}" 
                      class="runner absolute left-0 flex flex-col items-center z-20 group" 
                      style="top: ${topPos}%; left: ${percentage}%;">
-                    
                     <img src="${item.imagen}" 
                          class="h-10 w-10 object-contain drop-shadow-md transform -scale-x-100 transition-transform hover:scale-110"
-                         alt="${item.nombre}"
                          onerror="this.src='https://img.icons8.com/emoji/48/000000/question-mark.png'">
-                    
-                    <!-- Tooltip al pasar el ratón -->
                     <div class="opacity-0 group-hover:opacity-100 absolute -top-8 bg-black text-white text-[10px] px-2 py-1 rounded transition-opacity whitespace-nowrap z-50 pointer-events-none">
                         ${item.nombre}: ${item.inscritos}
                     </div>
                 </div>`;
 
-                // Guardamos datos para la tabla de clasificación
-                leaderboardData.push({
-                    name: item.nombre,
-                    img: item.imagen,
-                    inscritos: item.inscritos || 0,
-                    ratio: ratio
-                });
+                leaderboardData.push({ ...item, ratio: ratio });
             });
 
             trackContainer.innerHTML = runnersHtml;
 
-            // --- GENERAR TABLA DE CLASIFICACIÓN ---
-            // Ordenar por quién tiene más inscritos (descendente)
+            // Ordenar y pintar tabla
             leaderboardData.sort((a, b) => b.inscritos - a.inscritos);
 
             let tableHtml = '';
             leaderboardData.forEach((item, index) => {
                 const rank = index + 1;
-                // Porcentaje redondeado para mostrar (ej: 25%)
                 const percentText = Math.round(item.ratio * 100);
                 
-                // Estilos para destacar al líder
                 let rowClass = "flex items-center justify-between p-1.5 rounded border-b border-gray-100 last:border-0 hover:bg-gray-50";
                 let badgeClass = "bg-gray-100 text-gray-600";
                 
@@ -173,25 +189,20 @@ layout: null
                     badgeClass = "bg-yellow-200 text-yellow-800 font-bold";
                 }
 
-                // Generamos la fila de la tabla con barra de progreso mini
                 tableHtml += `
                 <li class="${rowClass} flex-col items-stretch">
                     <div class="flex justify-between items-center mb-1">
                         <div class="flex items-center">
                             <span class="text-[10px] font-bold text-gray-400 w-4 text-center mr-1">${rank}º</span>
-                            <img src="${item.img}" class="w-4 h-4 mr-2 object-contain">
-                            <span class="text-xs font-semibold text-gray-700 truncate max-w-[80px]">${item.name}</span>
+                            <img src="${item.imagen}" class="w-4 h-4 mr-2 object-contain">
+                            <span class="text-xs font-semibold text-gray-700 truncate max-w-[80px]">${item.nombre}</span>
                         </div>
-                        <span class="text-[10px] px-1.5 rounded ${badgeClass}">
-                            ${percentText}%
-                        </span>
+                        <span class="text-[10px] px-1.5 rounded ${badgeClass}">${percentText}%</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-1">
                         <div class="bg-blue-500 h-1 rounded-full" style="width: ${percentText}%"></div>
                     </div>
-                    <div class="text-[9px] text-gray-400 text-right mt-0.5">
-                        ${item.inscritos} inscritos
-                    </div>
+                    <div class="text-[9px] text-gray-400 text-right mt-0.5">${item.inscritos} inscritos</div>
                 </li>`;
             });
 
