@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estado de Carrera</title>
+    <title>Carrera Olímpica Multitudinaria</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <style>
@@ -11,77 +11,97 @@
             font-family: 'Nunito', sans-serif;
             background-color: transparent;
         }
-        h1, h2, h3 {
-            font-family: 'Fredoka One', cursive;
+        h1, h2 { font-family: 'Fredoka One', cursive; }
+        
+        /* ESTILO PISTA ROJA */
+        .track-surface {
+            background-color: #ef4444; /* Rojo Tailwind red-500 */
+            background-image: repeating-linear-gradient(90deg, transparent, transparent 99px, rgba(255,255,255,0.4) 100px);
+            border: 4px solid #b91c1c; /* Borde rojo oscuro */
         }
-        .track-lane {
-            background-image: repeating-linear-gradient(90deg, transparent, transparent 49px, rgba(255,255,255,0.3) 50px);
-        }
-        .runner { transition: none; }
+        
+        /* Transición suave al cargar */
+        .runner { transition: left 1.5s cubic-bezier(0.34, 1.56, 0.64, 1); }
         ::-webkit-scrollbar { display: none; }
     </style>
 </head>
 <body class="p-2">
 
-    <div class="max-w-5xl mx-auto">
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+    <div class="max-w-4xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
             
-            <!-- COLUMNA 1: La Pista -->
-            <div class="lg:col-span-2 bg-white rounded-xl shadow border-2 border-green-600 overflow-hidden relative">
-                <div class="bg-green-600 text-white p-1 text-center font-bold text-sm relative z-10">
-                    🏁 Pista de Atletismo
+            <!-- COLUMNA 1: La Pista (Ocupa 3/4) -->
+            <div class="lg:col-span-3 shadow-xl rounded-xl overflow-hidden relative">
+                <div class="bg-red-800 text-white p-2 text-center font-bold text-sm uppercase tracking-wider relative z-10 border-b-2 border-red-900">
+                    🏁 Pista Central
                 </div>
 
-                <div id="track-container" class="relative bg-green-500 p-2 min-h-[250px] flex flex-col justify-center space-y-2">
-                    <!-- Línea de meta -->
-                    <div class="absolute right-6 top-0 bottom-0 w-1 bg-white bg-opacity-50 border-r border-dashed border-white z-0 flex flex-col justify-center items-center">
+                <!-- Contenedor Pista Roja -->
+                <div id="track-container" class="track-surface relative p-4 h-[350px] flex flex-col justify-center">
+                    
+                    <!-- Línea de Meta -->
+                    <div class="absolute right-8 top-0 bottom-0 w-4 border-r-4 border-white z-0 flex flex-col justify-center items-center">
+                        <div class="h-full border-r-2 border-dashed border-white opacity-50"></div>
+                        <span class="absolute -bottom-6 text-red-800 font-bold text-xs">META</span>
                     </div>
 
-                    <!-- PISTA 1: 4 Animales (Perro, Gato, Conejo, Tortuga) -->
-                    <!-- Aumentamos la altura (h-40) para que quepan cómodamente -->
-                    <div class="relative h-40 w-full track-lane border-b border-green-400">
+                    <!-- CARRIL ÚNICO CON 7 CORREDORES -->
+                    <!-- Distribución vertical ajustada manualmente para 7 elementos -->
+                    <div class="relative w-full h-full">
                         
-                        <!-- Perro (Posición 1: Arriba del todo) -->
-                        <div id="runner-perro" class="runner absolute top-2 left-0 flex items-center z-10">
-                            <span class="text-2xl transform -scale-x-100">🐕</span>
+                        <!-- Perro -->
+                        <div id="runner-perro" class="runner absolute left-0 top-[2%] flex flex-col items-center z-20 group">
+                            <span class="text-3xl transform -scale-x-100 filter drop-shadow-lg">🐕</span>
                         </div>
                         
-                        <!-- Gato (Posición 2: Un poco más abajo) -->
-                        <div id="runner-gato" class="runner absolute top-[28%] left-0 flex items-center z-10">
-                            <span class="text-2xl transform -scale-x-100">🐈</span>
+                        <!-- Gato -->
+                        <div id="runner-gato" class="runner absolute left-0 top-[16%] flex flex-col items-center z-19 group">
+                            <span class="text-3xl transform -scale-x-100 filter drop-shadow-lg">🐈</span>
                         </div>
 
-                        <!-- Conejo (Posición 3: Más abajo) -->
-                        <div id="runner-conejo" class="runner absolute top-[55%] left-0 flex items-center z-10">
-                            <span class="text-2xl transform -scale-x-100">🐇</span>
+                        <!-- Conejo -->
+                        <div id="runner-conejo" class="runner absolute left-0 top-[30%] flex flex-col items-center z-18 group">
+                            <span class="text-3xl transform -scale-x-100 filter drop-shadow-lg">🐇</span>
                         </div>
 
-                        <!-- Tortuga (Posición 4: Abajo del todo) -->
-                        <div id="runner-tortuga" class="runner absolute bottom-2 left-0 flex items-center z-10">
-                            <span class="text-2xl transform -scale-x-100">🐢</span>
+                        <!-- Tortuga -->
+                        <div id="runner-tortuga" class="runner absolute left-0 top-[44%] flex flex-col items-center z-17 group">
+                            <span class="text-3xl transform -scale-x-100 filter drop-shadow-lg">🐢</span>
                         </div>
-                    </div>
 
-                    <!-- PISTA 2: El resto (Zorro) -->
-                    <div class="relative h-20 w-full track-lane">
-                        <div id="runner-zorro" class="runner absolute top-1/2 transform -translate-y-1/2 left-0 flex items-center z-10">
+                        <!-- Zorro -->
+                        <div id="runner-zorro" class="runner absolute left-0 top-[58%] flex flex-col items-center z-16 group">
                             <img src="https://img.icons8.com/emoji/96/000000/fox.png" 
                                  class="h-8 w-8 object-contain drop-shadow-md transform -scale-x-100"
                                  onerror="this.style.display='none'">
                         </div>
+
+                        <!-- NUEVO: Hámster -->
+                        <div id="runner-hamster" class="runner absolute left-0 top-[72%] flex flex-col items-center z-15 group">
+                            <span class="text-3xl transform -scale-x-100 filter drop-shadow-lg">🐹</span>
+                        </div>
+
+                        <!-- NUEVO: Panda -->
+                        <div id="runner-panda" class="runner absolute left-0 top-[86%] flex flex-col items-center z-14 group">
+                            <span class="text-3xl transform -scale-x-100 filter drop-shadow-lg">🐼</span>
+                        </div>
+
                     </div>
                 </div>
             </div>
 
-            <!-- COLUMNA 2: Clasificación -->
-            <div class="bg-white rounded-xl shadow border border-gray-200 overflow-hidden h-fit">
-                <div class="bg-yellow-400 p-1 text-yellow-900 font-bold text-center border-b border-yellow-500 text-xs">
-                    📊 Clasificación
+            <!-- COLUMNA 2: Panel de Clasificación (Ocupa 1/4) -->
+            <div class="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden h-fit">
+                <div class="bg-gray-800 p-2 text-white font-bold text-center text-xs uppercase">
+                    🏆 Clasificación
                 </div>
                 <div class="p-2">
-                    <ul id="static-leaderboard" class="space-y-1 text-sm">
-                        <!-- Se llenará con JS -->
+                    <ul id="leaderboard" class="space-y-1 text-sm">
+                        <li class="text-center text-gray-500 text-xs italic">Calculando posiciones...</li>
                     </ul>
+                </div>
+                <div class="bg-gray-50 p-2 text-[10px] text-gray-400 text-center border-t">
+                    Controlado por URL
                 </div>
             </div>
         </div>
@@ -89,65 +109,82 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            const runners = ['perro', 'gato', 'conejo', 'tortuga', 'zorro'];
+            // Lista ampliada de corredores
+            const runners = ['perro', 'gato', 'conejo', 'tortuga', 'zorro', 'hamster', 'panda'];
             
-            // Valores por defecto
-            let posiciones = {
-                'perro': 0, 'gato': 0, 'conejo': 0, 'tortuga': 0, 'zorro': 0
-            };
+            // 1. Valores por defecto (todos en la salida)
+            let posiciones = {};
+            runners.forEach(r => posiciones[r] = 0);
 
-            // LEER DE LA URL
+            // 2. LEER DE LA URL
+            // Busca parámetros como ?perro=80&panda=90
             const urlParams = new URLSearchParams(window.location.search);
             
             runners.forEach(animal => {
                 if(urlParams.has(animal)) {
-                    posiciones[animal] = parseInt(urlParams.get(animal));
+                    // Leemos el valor y nos aseguramos de que sea un número
+                    let val = parseInt(urlParams.get(animal));
+                    if (!isNaN(val)) {
+                        posiciones[animal] = val;
+                    }
                 }
             });
 
-            // Dibujar
-            const leaderboardData = [];
-
-            runners.forEach(runner => {
-                const el = document.getElementById(`runner-${runner}`);
-                let pos = posiciones[runner] || 0;
-                let visualPos = Math.min(pos, 90);
-                el.style.left = `${visualPos}%`;
-
-                leaderboardData.push({ name: runner, score: pos });
-            });
-
-            updateLeaderboard(leaderboardData);
+            // 3. ACTUALIZAR INTERFAZ
+            updateRace(posiciones, runners);
         });
 
-        function updateLeaderboard(data) {
-            data.sort((a, b) => b.score - a.score);
-            const listContainer = document.getElementById('static-leaderboard');
-            let html = '';
+        function updateRace(posiciones, runners) {
+            const leaderboardContainer = document.getElementById('leaderboard');
+            let leaderboardData = [];
             
-            data.forEach((item, index) => {
+            runners.forEach(animal => {
+                const score = posiciones[animal];
+                
+                // 1. Mover mascota en la pista
+                const el = document.getElementById(`runner-${animal}`);
+                if (el) {
+                    // Limitamos visualmente al 92% para que no se corten en el borde derecho
+                    let visualPos = Math.min(score, 92); 
+                    el.style.left = `${visualPos}%`;
+                }
+
+                // Guardamos datos para la tabla
+                leaderboardData.push({ name: animal, score: score });
+            });
+
+            // Ordenar clasificación (Mayor puntaje primero)
+            leaderboardData.sort((a, b) => b.score - a.score);
+
+            // Generar HTML de la tabla
+            let html = '';
+            leaderboardData.forEach((item, index) => {
                 const rank = index + 1;
                 const icon = getIcon(item.name);
                 
-                let rowClass = "flex items-center justify-between p-1 rounded bg-gray-50 border border-gray-100";
-                let rankDisplay = `<span class="font-bold text-gray-500 w-5 text-right mr-1 text-[10px]">${rank}º</span>`;
+                // Estilos para el podio
+                let rowClass = "flex items-center justify-between p-1 rounded border-b border-gray-100 last:border-0";
+                let rankStyle = "text-gray-400 font-bold w-4 text-right mr-2 text-[10px]";
                 
-                if (rank === 1) {
-                    rowClass = "flex items-center justify-between p-1 rounded bg-yellow-50 border border-yellow-200 font-bold text-yellow-900";
-                    rankDisplay = `<span class="font-bold text-yellow-600 w-5 text-right mr-1 text-[10px]">1º</span>`;
+                if (rank === 1 && item.score > 0) {
+                    rowClass = "flex items-center justify-between p-1 rounded bg-yellow-50 border border-yellow-200 shadow-sm mb-1";
+                    rankStyle = "text-yellow-600 font-bold w-4 text-right mr-2 text-xs";
                 }
 
                 html += `
                 <li class="${rowClass}">
                     <div class="flex items-center">
-                        ${rankDisplay}
-                        <span class="mr-1 scale-75 origin-left">${icon}</span>
-                        <span class="capitalize text-xs leading-none">${item.name}</span>
+                        <span class="${rankStyle}">${rank}º</span>
+                        <span class="mr-2 text-base">${icon}</span>
+                        <span class="capitalize text-gray-700 text-xs font-semibold">${item.name}</span>
                     </div>
-                    <span class="font-mono text-[10px] bg-white px-1 rounded border">${item.score}m</span>
+                    <span class="text-[10px] font-mono bg-gray-100 text-gray-600 px-1.5 py-0.5 rounded">
+                        ${item.score}m
+                    </span>
                 </li>`;
             });
-            listContainer.innerHTML = html;
+
+            leaderboardContainer.innerHTML = html;
         }
 
         function getIcon(name) {
@@ -156,6 +193,8 @@
                 case 'gato': return '🐈';
                 case 'conejo': return '🐇';
                 case 'tortuga': return '🐢';
+                case 'hamster': return '🐹';
+                case 'panda': return '🐼';
                 case 'zorro': return '<img src="https://img.icons8.com/emoji/48/000000/fox.png" class="h-4 w-4 inline" alt="🦊">';
                 default: return '❓';
             }
