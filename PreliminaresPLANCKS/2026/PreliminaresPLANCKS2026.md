@@ -152,7 +152,8 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
       <iframe 
     src="/PreliminaresPLANCKS/2026/carrera.html" 
     style="width: 100%; height: 450px; border: none; overflow: hidden;" 
-    title="Carrera de Equipos"></iframe>
+    title="Carrera de Equipos">
+    </iframe>
       <!-- EDICIONES ANTERIORES -->
       <div class="section" id="ediciones-anteriores">
         <div class="row center">
