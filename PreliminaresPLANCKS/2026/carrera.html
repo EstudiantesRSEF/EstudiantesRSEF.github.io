@@ -7,103 +7,335 @@ layout: null
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrera de Popularidad</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     
     <style>
-        body { font-family: 'Nunito', sans-serif; background-color: transparent; }
-        h1, h2 { font-family: 'Fredoka One', cursive; }
-        .track-surface {
-            background-color: #ef4444;
+        /* --- ESTILOS GENERALES (Sin librerías externas) --- */
+        :root {
+            --track-bg: #991b1b; /* red-800 */
+            --track-border: #7f1d1d; /* red-900 */
+            --surface: #ef4444; /* red-500 */
+            --text-white: #ffffff;
+            --text-gray: #374151;
+            --accent-yellow: #fef08a; /* yellow-200 */
+            --accent-yellow-text: #854d0e; /* yellow-800 */
+        }
+
+        body {
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: transparent;
+            margin: 0;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        /* Layout Principal */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+        }
+
+        @media (min-width: 1024px) {
+            .container {
+                grid-template-columns: 3fr 1fr; /* 3 partes pista, 1 parte tabla */
+            }
+        }
+
+        /* --- PISTA DE CARRERAS --- */
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid #e5e7eb;
+        }
+
+        .header {
+            background-color: var(--track-bg);
+            color: var(--text-white);
+            padding: 12px 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid var(--track-border);
+        }
+
+        .title {
+            font-weight: 800;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 0.05em;
+        }
+
+        .counter {
+            background-color: var(--track-border);
+            color: #fde047; /* yellow-300 */
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-family: monospace;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .track-container {
+            position: relative;
+            background-color: var(--surface);
+            /* Patrón de suelo */
             background-image: repeating-linear-gradient(90deg, transparent, transparent 99px, rgba(255,255,255,0.4) 100px);
             border: 4px solid #b91c1c;
+            height: 350px;
+            padding: 16px;
+            box-sizing: border-box;
         }
-        /* Animación suave para el movimiento */
-        .runner { transition: left 1.5s cubic-bezier(0.34, 1.56, 0.64, 1); }
-        ::-webkit-scrollbar { display: none; }
+
+        .finish-line {
+            position: absolute;
+            right: 32px;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            border-right: 4px solid white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 0;
+        }
+        .finish-dashed {
+            height: 100%;
+            border-right: 2px dashed rgba(255,255,255,0.5);
+        }
+        .finish-text {
+            position: absolute;
+            bottom: -20px;
+            color: var(--track-border);
+            font-weight: bold;
+            font-size: 0.75rem;
+        }
+
+        /* --- CORREDORES --- */
+        .runner {
+            position: absolute;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 10;
+            transition: left 1.5s cubic-bezier(0.34, 1.56, 0.64, 1); /* Efecto rebote suave */
+            cursor: pointer;
+        }
+
+        .runner img {
+            height: 40px;
+            width: 40px;
+            object-fit: contain;
+            filter: drop-shadow(0 2px 2px rgba(0,0,0,0.3));
+            transform: scaleX(-1); /* Voltear para mirar a la derecha */
+            transition: transform 0.2s;
+        }
+
+        .runner:hover img {
+            transform: scaleX(-1) scale(1.2);
+        }
+
+        /* Tooltip simple */
+        .tooltip {
+            visibility: hidden;
+            background-color: black;
+            color: white;
+            text-align: center;
+            border-radius: 4px;
+            padding: 4px 8px;
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            white-space: nowrap;
+            font-size: 10px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            pointer-events: none;
+            margin-bottom: 5px;
+        }
+
+        .runner:hover .tooltip {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        /* --- TABLA DE CLASIFICACIÓN --- */
+        .leaderboard-container {
+            background: white;
+            border-radius: 12px;
+            border: 1px solid #e5e7eb;
+            overflow: hidden;
+            height: fit-content;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        
+        .leaderboard-header {
+            background-color: #1f2937; /* gray-800 */
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            padding: 8px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 8px;
+            margin: 0;
+        }
+
+        li.row {
+            display: flex;
+            flex-direction: column;
+            padding: 8px;
+            border-bottom: 1px solid #f3f4f6;
+            border-radius: 6px;
+        }
+        
+        li.row:last-child { border-bottom: none; }
+        li.row:hover { background-color: #f9fafb; }
+
+        /* Estilo especial para el líder */
+        li.row.leader {
+            background-color: #fffbeb; /* yellow-50 */
+            border: 1px solid #fde68a;
+            margin-bottom: 4px;
+        }
+        li.row.leader .badge {
+            background-color: var(--accent-yellow);
+            color: var(--accent-yellow-text);
+            font-weight: bold;
+        }
+
+        .row-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 4px;
+        }
+
+        .rank {
+            font-size: 10px;
+            font-weight: bold;
+            color: #9ca3af;
+            width: 20px;
+            text-align: center;
+            margin-right: 4px;
+        }
+
+        .team-name {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-gray);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 90px;
+        }
+
+        .badge {
+            font-size: 10px;
+            padding: 2px 6px;
+            border-radius: 999px;
+            background-color: #f3f4f6;
+            color: #4b5563;
+        }
+
+        .bar-bg {
+            width: 100%;
+            background-color: #e5e7eb;
+            border-radius: 999px;
+            height: 4px;
+            overflow: hidden;
+        }
+
+        .bar-fill {
+            background-color: #3b82f6; /* blue-500 */
+            height: 100%;
+            border-radius: 999px;
+            transition: width 1s ease-out;
+        }
     </style>
 </head>
-<body class="p-2">
+<body>
 
-    <div class="max-w-4xl mx-auto">
-        <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
-            
-            <!-- PISTA -->
-            <div class="lg:col-span-3 shadow-xl rounded-xl overflow-hidden relative">
-                <div class="bg-red-800 text-white p-2 flex justify-between items-center px-4 border-b-2 border-red-900 z-10 relative">
-                    <span class="font-bold text-sm uppercase tracking-wider">🏁 Carrera de Equipos</span>
-                    <span id="global-counter" class="bg-red-900 px-2 py-0.5 rounded text-xs font-mono text-yellow-300 border border-red-700">
-                        Cargando...
-                    </span>
-                </div>
-
-                <div class="track-surface relative p-4 h-[350px] flex flex-col justify-center">
-                    <!-- Línea de meta decorativa -->
-                    <div class="absolute right-8 top-0 bottom-0 w-4 border-r-4 border-white z-0 flex flex-col justify-center items-center">
-                        <div class="h-full border-r-2 border-dashed border-white opacity-50"></div>
-                        <span class="absolute -bottom-6 text-red-800 font-bold text-xs">META</span>
-                    </div>
-                    <!-- Contenedor de corredores -->
-                    <div id="runners-container" class="relative w-full h-full"></div>
-                </div>
+    <div class="container">
+        
+        <!-- PISTA -->
+        <div class="card">
+            <div class="header">
+                <span class="title">🏁 Carrera de Equipos</span>
+                <span id="global-counter" class="counter">Cargando...</span>
             </div>
 
-            <!-- CLASIFICACIÓN (Tabla derecha/abajo) -->
-            <div class="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden h-fit">
-                <div class="bg-gray-800 p-2 text-white font-bold text-center text-xs uppercase">
-                    📊 Clasificación
+            <div class="track-container">
+                <!-- Meta -->
+                <div class="finish-line">
+                    <div class="finish-dashed"></div>
+                    <span class="finish-text">META</span>
                 </div>
-                <div class="p-2">
-                    <ul id="leaderboard" class="space-y-1 text-sm">
-                        <li class="text-center text-gray-400 text-xs italic p-4">Esperando datos...</li>
-                    </ul>
-                </div>
+                <!-- Corredores -->
+                <div id="runners-container" style="position: relative; width: 100%; height: 100%;"></div>
+            </div>
+        </div>
+
+        <!-- CLASIFICACIÓN -->
+        <div class="leaderboard-container">
+            <div class="leaderboard-header">
+                📊 Clasificación
+            </div>
+            <div>
+                <ul id="leaderboard">
+                    <li style="text-align: center; color: #9ca3af; font-size: 12px; padding: 16px; font-style: italic;">
+                        Esperando datos...
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // --- CORRECCIÓN AQUÍ ---
-            // Usamos ruta relativa simple. Busca 'carrera.json' en la misma carpeta que este HTML.
-            const dataUrl = '/PreliminaresPLANCKS/data2026/carrera.json';
-
-            console.log("Iniciando carga de datos desde:", dataUrl);
+            // Ruta del JSON. Asegúrate de que carrera.json está en la misma carpeta.
+            const dataUrl = 'carrera.json';
 
             fetch(dataUrl)
                 .then(response => {
                     if (!response.ok) {
-                        throw new Error(`HTTP error! status: ${response.status}`);
+                        throw new Error(`Error ${response.status}`);
                     }
                     return response.json();
                 })
                 .then(data => {
-                    console.log("Datos cargados correctamente:", data);
                     procesarCarrera(data);
                 })
                 .catch(e => {
-                    console.error("Error crítico al cargar:", e);
-                    mostrarError(dataUrl, e.message);
+                    console.error("Error:", e);
+                    mostrarError(dataUrl);
                 });
         });
 
-        function mostrarError(url, detalle) {
+        function mostrarError(url) {
             document.getElementById('leaderboard').innerHTML = 
-                `<li class="text-red-500 text-xs text-center p-2 font-bold bg-red-50 rounded border border-red-200">
-                    ⚠️ Error de carga<br>
-                    <span class="font-normal text-[10px] text-gray-600">
-                        No se pudo leer el archivo de datos.<br>
-                        Asegúrate de que <code>${url}</code> existe en la misma carpeta.
+                `<li style="color: #ef4444; font-size: 12px; text-align: center; padding: 10px; background: #fef2f2; border: 1px solid #fecaca; border-radius: 4px;">
+                    ⚠️ <strong>Error de carga</strong><br>
+                    <span style="font-weight: normal; font-size: 10px; color: #666;">
+                        No encuentro: ${url}<br>Verifica la ubicación del archivo.
                     </span>
                 </li>`;
             document.getElementById('global-counter').innerText = "Error";
         }
 
         function procesarCarrera(raceData) {
-            // Calcular el total de inscritos sumando todos los equipos
             const grandTotal = raceData.reduce((suma, equipo) => suma + (equipo.inscritos || 0), 0);
-            
-            document.getElementById('global-counter').innerText = `Total Inscritos: ${grandTotal}`;
+            document.getElementById('global-counter').innerText = `Total: ${grandTotal}`;
             renderRace(raceData, grandTotal);
         }
 
@@ -115,45 +347,30 @@ layout: null
             let leaderboardData = [];
             
             const totalRunners = data.length;
-            // Espacio vertical disponible en porcentaje
             const availableHeight = 85; 
-            // Calcular el paso vertical entre corredores
             const step = totalRunners > 1 ? availableHeight / (totalRunners - 1) : 0;
 
             data.forEach((item, index) => {
                 let percentage = 0;
                 let ratio = 0;
                 
-                // Calculamos el porcentaje de avance basado en el total global
-                // (O puedes cambiar la lógica para que el líder siempre esté al 90%)
                 if (totalGlobal > 0) {
                     ratio = item.inscritos / totalGlobal;
-                    // Multiplicamos por un factor (ej: 400) para que se muevan visualmente, 
-                    // o lo hacemos relativo al líder.
-                    // Aquí asumo que queremos llenar la barra hasta el 92% máx.
-                    
-                    // OPCIÓN: Hacerlo relativo al LÍDER para que siempre haya alguien cerca de la meta
-                    // const maxInscritos = Math.max(...data.map(d => d.inscritos));
-                    // percentage = (item.inscritos / maxInscritos) * 90;
-
-                    // OPCIÓN ACTUAL: Relativo al 100% (si es porcentaje de votos)
-                     percentage = Math.min(ratio * 100 * 3, 92); // *3 es un factor arbitrario para que avancen más rápido visualmente
+                    // Límite visual al 92% para no salirse de la pista
+                    percentage = Math.min(ratio * 100 * 3, 92); 
                 }
                 
                 const topPos = 5 + (index * step);
 
-                // Renderizamos el corredor (emoji)
+                // HTML del corredor
                 runnersHtml += `
                 <div id="runner-${item.id}" 
-                     class="runner absolute left-0 flex flex-col items-center z-20 group" 
+                     class="runner" 
                      style="top: ${topPos}%; left: ${percentage}%;">
                     <img src="${item.imagen}" 
-                         class="h-10 w-10 object-contain drop-shadow-md transform -scale-x-100 transition-transform hover:scale-110"
                          alt="${item.nombre}"
                          onerror="this.src='https://img.icons8.com/emoji/48/000000/question-mark.png'">
-                    
-                    <!-- Tooltip al pasar el mouse -->
-                    <div class="opacity-0 group-hover:opacity-100 absolute -top-8 bg-black text-white text-[10px] px-2 py-1 rounded transition-opacity whitespace-nowrap z-50 pointer-events-none shadow-lg">
+                    <div class="tooltip">
                         ${item.nombre}: ${item.inscritos}
                     </div>
                 </div>`;
@@ -163,36 +380,32 @@ layout: null
 
             trackContainer.innerHTML = runnersHtml;
 
-            // Ordenar datos para la tabla de clasificación
+            // Ordenar y renderizar tabla
             leaderboardData.sort((a, b) => b.inscritos - a.inscritos);
             
             let tableHtml = '';
             leaderboardData.forEach((item, index) => {
                 const rank = index + 1;
-                // Calculamos porcentaje real para la barra
                 const percentText = totalGlobal > 0 ? Math.round((item.inscritos / totalGlobal) * 100) : 0;
                 
-                let rowClass = "flex items-center justify-between p-1.5 rounded border-b border-gray-100 last:border-0 hover:bg-gray-50";
-                let badgeClass = "bg-gray-100 text-gray-600";
-                
-                // Resaltar al líder (oro)
+                // Clases condicionales para el líder
+                let rowClass = "row";
                 if (index === 0 && item.inscritos > 0) {
-                    rowClass = "flex items-center justify-between p-1.5 rounded bg-yellow-50 border border-yellow-200 shadow-sm mb-1";
-                    badgeClass = "bg-yellow-200 text-yellow-800 font-bold";
+                    rowClass += " leader";
                 }
 
                 tableHtml += `
-                <li class="${rowClass} flex-col items-stretch">
-                    <div class="flex justify-between items-center mb-1">
-                        <div class="flex items-center">
-                            <span class="text-[10px] font-bold text-gray-400 w-4 text-center mr-1">${rank}º</span>
-                            <img src="${item.imagen}" class="w-4 h-4 mr-2 object-contain" onerror="this.style.display='none'">
-                            <span class="text-xs font-semibold text-gray-700 truncate max-w-[80px]" title="${item.nombre}">${item.nombre}</span>
+                <li class="${rowClass}">
+                    <div class="row-top">
+                        <div style="display:flex; align-items:center;">
+                            <span class="rank">${rank}º</span>
+                            <img src="${item.imagen}" style="width:16px; height:16px; margin-right:8px; object-fit:contain;" onerror="this.style.display='none'">
+                            <span class="team-name" title="${item.nombre}">${item.nombre}</span>
                         </div>
-                        <span class="text-[10px] px-1.5 rounded ${badgeClass}">${item.inscritos}</span>
+                        <span class="badge">${item.inscritos}</span>
                     </div>
-                    <div class="w-full bg-gray-200 rounded-full h-1 overflow-hidden">
-                        <div class="bg-blue-500 h-1 rounded-full transition-all duration-1000" style="width: ${percentText}%"></div>
+                    <div class="bar-bg">
+                        <div class="bar-fill" style="width: ${percentText}%"></div>
                     </div>
                 </li>`;
             });
