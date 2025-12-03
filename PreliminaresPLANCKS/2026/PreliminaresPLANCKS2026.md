@@ -150,10 +150,10 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
       </div> 
       <!-- CARRERA -->
       <iframe 
-    src="/PreliminaresPLANCKS/2026/carrera.html" 
+    src="{{ '/PreliminaresPLANCKS/2026/carrera.html' | relative_url }}" 
     style="width: 100%; height: 450px; border: none; overflow: hidden;" 
     title="Carrera de Equipos">
-    </iframe>
+</iframe>
       <!-- EDICIONES ANTERIORES -->
       <div class="section" id="ediciones-anteriores">
         <div class="row center">
