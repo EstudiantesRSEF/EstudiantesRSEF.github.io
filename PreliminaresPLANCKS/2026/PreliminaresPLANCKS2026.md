@@ -1,7 +1,7 @@
 ---
 layout: default
 title: #Preliminares PLANCKS 2026
-permalink: #/abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
+permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
 ---
 
 <div class="no-pad-top" id="index-page">
