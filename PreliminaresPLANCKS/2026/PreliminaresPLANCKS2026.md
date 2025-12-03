@@ -150,8 +150,9 @@ permalink: #/abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
       </div> 
       <!-- CARRERA -->
       <iframe 
-    src="/PreliminaresPLANCKS/2026/carrera.html?perro=90&zorro=80&gato=20&conejo=50&tortuga=10" 
-    style="width: 100%; height: 500px; border: none; overflow: hidden;"></iframe>
+    src="/carrera.html" 
+    style="width: 100%; height: 450px; border: none; overflow: hidden;" 
+    title="Carrera de Equipos"></iframe>
       <!-- EDICIONES ANTERIORES -->
       <div class="section" id="ediciones-anteriores">
         <div class="row center">

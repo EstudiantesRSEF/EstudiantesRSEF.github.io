@@ -1,9 +1,12 @@
+---
+layout: null
+---
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrera Olímpica Multitudinaria</title>
+    <title>Carrera de Popularidad</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <style>
@@ -20,7 +23,6 @@
             border: 4px solid #b91c1c; /* Borde rojo oscuro */
         }
         
-        /* Transición suave al cargar */
         .runner { transition: left 1.5s cubic-bezier(0.34, 1.56, 0.64, 1); }
         ::-webkit-scrollbar { display: none; }
     </style>
@@ -32,60 +34,26 @@
             
             <!-- COLUMNA 1: La Pista (Ocupa 3/4) -->
             <div class="lg:col-span-3 shadow-xl rounded-xl overflow-hidden relative">
-                <div class="bg-red-800 text-white p-2 text-center font-bold text-sm uppercase tracking-wider relative z-10 border-b-2 border-red-900">
-                    🏁 Pista Central
+                <!-- Header con el Total Global Calculado -->
+                <div class="bg-red-800 text-white p-2 flex justify-between items-center px-4 border-b-2 border-red-900 z-10 relative">
+                    <span class="font-bold text-sm uppercase tracking-wider">🏁 Carrera de Equipos</span>
+                    <span id="global-counter" class="bg-red-900 px-2 py-0.5 rounded text-xs font-mono text-yellow-300 border border-red-700">
+                        Total: 0
+                    </span>
                 </div>
 
                 <!-- Contenedor Pista Roja -->
-                <div id="track-container" class="track-surface relative p-4 h-[350px] flex flex-col justify-center">
+                <div id="track-surface" class="track-surface relative p-4 h-[350px] flex flex-col justify-center">
                     
-                    <!-- Línea de Meta -->
+                    <!-- Línea de Meta (Representa el 100% de los votos) -->
                     <div class="absolute right-8 top-0 bottom-0 w-4 border-r-4 border-white z-0 flex flex-col justify-center items-center">
                         <div class="h-full border-r-2 border-dashed border-white opacity-50"></div>
-                        <span class="absolute -bottom-6 text-red-800 font-bold text-xs">META</span>
+                        <span class="absolute -bottom-6 text-red-800 font-bold text-xs">TOTAL</span>
                     </div>
 
-                    <!-- CARRIL ÚNICO CON 7 CORREDORES -->
-                    <!-- Distribución vertical ajustada manualmente para 7 elementos -->
-                    <div class="relative w-full h-full">
-                        
-                        <!-- Perro -->
-                        <div id="runner-perro" class="runner absolute left-0 top-[2%] flex flex-col items-center z-20 group">
-                            <span class="text-3xl transform -scale-x-100 filter drop-shadow-lg">🐕</span>
-                        </div>
-                        
-                        <!-- Gato -->
-                        <div id="runner-gato" class="runner absolute left-0 top-[16%] flex flex-col items-center z-19 group">
-                            <span class="text-3xl transform -scale-x-100 filter drop-shadow-lg">🐈</span>
-                        </div>
-
-                        <!-- Conejo -->
-                        <div id="runner-conejo" class="runner absolute left-0 top-[30%] flex flex-col items-center z-18 group">
-                            <span class="text-3xl transform -scale-x-100 filter drop-shadow-lg">🐇</span>
-                        </div>
-
-                        <!-- Tortuga -->
-                        <div id="runner-tortuga" class="runner absolute left-0 top-[44%] flex flex-col items-center z-17 group">
-                            <span class="text-3xl transform -scale-x-100 filter drop-shadow-lg">🐢</span>
-                        </div>
-
-                        <!-- Zorro -->
-                        <div id="runner-zorro" class="runner absolute left-0 top-[58%] flex flex-col items-center z-16 group">
-                            <img src="https://img.icons8.com/emoji/96/000000/fox.png" 
-                                 class="h-8 w-8 object-contain drop-shadow-md transform -scale-x-100"
-                                 onerror="this.style.display='none'">
-                        </div>
-
-                        <!-- NUEVO: Hámster -->
-                        <div id="runner-hamster" class="runner absolute left-0 top-[72%] flex flex-col items-center z-15 group">
-                            <span class="text-3xl transform -scale-x-100 filter drop-shadow-lg">🐹</span>
-                        </div>
-
-                        <!-- NUEVO: Panda -->
-                        <div id="runner-panda" class="runner absolute left-0 top-[86%] flex flex-col items-center z-14 group">
-                            <span class="text-3xl transform -scale-x-100 filter drop-shadow-lg">🐼</span>
-                        </div>
-
+                    <!-- Los corredores se generarán aquí mediante JavaScript -->
+                    <div id="runners-container" class="relative w-full h-full">
+                        <!-- JS inyectará el HTML aquí -->
                     </div>
                 </div>
             </div>
@@ -93,15 +61,15 @@
             <!-- COLUMNA 2: Panel de Clasificación (Ocupa 1/4) -->
             <div class="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden h-fit">
                 <div class="bg-gray-800 p-2 text-white font-bold text-center text-xs uppercase">
-                    🏆 Clasificación
+                    📊 Cuota de Equipo
                 </div>
                 <div class="p-2">
                     <ul id="leaderboard" class="space-y-1 text-sm">
-                        <li class="text-center text-gray-500 text-xs italic">Calculando posiciones...</li>
+                        <li class="text-center text-gray-500 text-xs italic">Cargando datos...</li>
                     </ul>
                 </div>
                 <div class="bg-gray-50 p-2 text-[10px] text-gray-400 text-center border-t">
-                    Controlado por URL
+                    % sobre el total acumulado
                 </div>
             </div>
         </div>
@@ -109,95 +77,125 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // Lista ampliada de corredores
-            const runners = ['perro', 'gato', 'conejo', 'tortuga', 'zorro', 'hamster', 'panda'];
-            
-            // 1. Valores por defecto (todos en la salida)
-            let posiciones = {};
-            runners.forEach(r => posiciones[r] = 0);
+            // 1. OBTENER DATOS DE JEKYLL
+            // NOTA: Tu editor puede marcar ERROR de sintaxis aquí por los corchetes {{ }}.
+            // IGNÓRALO: Al procesarse con Jekyll, esto se sustituye por JSON válido.
+            // El filtro "| default: '[]'" evita errores si el archivo no existe.
+            const raceData = {{ site.data.Prelis['2026'].carrera | jsonify | default: '[]' }};
 
-            // 2. LEER DE LA URL
-            // Busca parámetros como ?perro=80&panda=90
-            const urlParams = new URLSearchParams(window.location.search);
-            
-            runners.forEach(animal => {
-                if(urlParams.has(animal)) {
-                    // Leemos el valor y nos aseguramos de que sea un número
-                    let val = parseInt(urlParams.get(animal));
-                    if (!isNaN(val)) {
-                        posiciones[animal] = val;
-                    }
-                }
-            });
+            if (!raceData || raceData.length === 0) {
+                document.getElementById('leaderboard').innerHTML = 
+                    '<li class="text-red-500 text-xs text-center p-2">⚠️ No se leyeron datos.<br>Revisa _data/Prelis/2026/carrera.yml</li>';
+                return;
+            }
 
-            // 3. ACTUALIZAR INTERFAZ
-            updateRace(posiciones, runners);
+            // 2. CALCULAR EL GRAN TOTAL (SUMA DE TODOS LOS INSCRITOS)
+            // 'reduce' recorre el array sumando la propiedad 'inscritos' de cada equipo
+            const grandTotal = raceData.reduce((suma, equipo) => suma + (equipo.inscritos || 0), 0);
+
+            // Mostrar el total en el header
+            document.getElementById('global-counter').innerText = `Total Inscritos: ${grandTotal}`;
+
+            renderRace(raceData, grandTotal);
         });
 
-        function updateRace(posiciones, runners) {
+        function renderRace(data, totalGlobal) {
+            const trackContainer = document.getElementById('runners-container');
             const leaderboardContainer = document.getElementById('leaderboard');
+            
+            let runnersHtml = '';
             let leaderboardData = [];
             
-            runners.forEach(animal => {
-                const score = posiciones[animal];
-                
-                // 1. Mover mascota en la pista
-                const el = document.getElementById(`runner-${animal}`);
-                if (el) {
-                    // Limitamos visualmente al 92% para que no se corten en el borde derecho
-                    let visualPos = Math.min(score, 92); 
-                    el.style.left = `${visualPos}%`;
-                }
+            // Calculamos el espacio vertical disponible para distribuir los corredores
+            const totalRunners = data.length;
+            const availableHeight = 85; // Dejamos margen arriba y abajo
+            const step = totalRunners > 1 ? availableHeight / (totalRunners - 1) : 0;
 
-                // Guardamos datos para la tabla
-                leaderboardData.push({ name: animal, score: score });
+            data.forEach((item, index) => {
+                // CÁLCULO DE POSICIÓN BASADO EN EL TOTAL GLOBAL
+                let percentage = 0;
+                let ratio = 0;
+                
+                // Evitamos división por cero si nadie se ha inscrito aún
+                if (totalGlobal > 0) {
+                    ratio = (item.inscritos || 0) / totalGlobal;
+                    // Multiplicamos por 92 para que el 100% visual no se salga de la pista (dejamos margen para la meta)
+                    percentage = Math.min(ratio * 92, 92);
+                }
+                
+                // Posición vertical (top) para que no se superpongan
+                const topPos = 5 + (index * step);
+
+                // --- GENERAR HTML DEL CORREDOR ---
+                runnersHtml += `
+                <div id="runner-${item.id}" 
+                     class="runner absolute left-0 flex flex-col items-center z-20 group" 
+                     style="top: ${topPos}%; left: ${percentage}%;">
+                    
+                    <img src="${item.imagen}" 
+                         class="h-10 w-10 object-contain drop-shadow-md transform -scale-x-100 transition-transform hover:scale-110"
+                         alt="${item.nombre}"
+                         onerror="this.src='https://img.icons8.com/emoji/48/000000/question-mark.png'">
+                    
+                    <!-- Tooltip al pasar el ratón -->
+                    <div class="opacity-0 group-hover:opacity-100 absolute -top-8 bg-black text-white text-[10px] px-2 py-1 rounded transition-opacity whitespace-nowrap z-50 pointer-events-none">
+                        ${item.nombre}: ${item.inscritos}
+                    </div>
+                </div>`;
+
+                // Guardamos datos para la tabla de clasificación
+                leaderboardData.push({
+                    name: item.nombre,
+                    img: item.imagen,
+                    inscritos: item.inscritos || 0,
+                    ratio: ratio
+                });
             });
 
-            // Ordenar clasificación (Mayor puntaje primero)
-            leaderboardData.sort((a, b) => b.score - a.score);
+            trackContainer.innerHTML = runnersHtml;
 
-            // Generar HTML de la tabla
-            let html = '';
+            // --- GENERAR TABLA DE CLASIFICACIÓN ---
+            // Ordenar por quién tiene más inscritos (descendente)
+            leaderboardData.sort((a, b) => b.inscritos - a.inscritos);
+
+            let tableHtml = '';
             leaderboardData.forEach((item, index) => {
                 const rank = index + 1;
-                const icon = getIcon(item.name);
+                // Porcentaje redondeado para mostrar (ej: 25%)
+                const percentText = Math.round(item.ratio * 100);
                 
-                // Estilos para el podio
-                let rowClass = "flex items-center justify-between p-1 rounded border-b border-gray-100 last:border-0";
-                let rankStyle = "text-gray-400 font-bold w-4 text-right mr-2 text-[10px]";
+                // Estilos para destacar al líder
+                let rowClass = "flex items-center justify-between p-1.5 rounded border-b border-gray-100 last:border-0 hover:bg-gray-50";
+                let badgeClass = "bg-gray-100 text-gray-600";
                 
-                if (rank === 1 && item.score > 0) {
-                    rowClass = "flex items-center justify-between p-1 rounded bg-yellow-50 border border-yellow-200 shadow-sm mb-1";
-                    rankStyle = "text-yellow-600 font-bold w-4 text-right mr-2 text-xs";
+                if (index === 0 && item.inscritos > 0) {
+                    rowClass = "flex items-center justify-between p-1.5 rounded bg-yellow-50 border border-yellow-200 shadow-sm mb-1";
+                    badgeClass = "bg-yellow-200 text-yellow-800 font-bold";
                 }
 
-                html += `
-                <li class="${rowClass}">
-                    <div class="flex items-center">
-                        <span class="${rankStyle}">${rank}º</span>
-                        <span class="mr-2 text-base">${icon}</span>
-                        <span class="capitalize text-gray-700 text-xs font-semibold">${item.name}</span>
+                // Generamos la fila de la tabla con barra de progreso mini
+                tableHtml += `
+                <li class="${rowClass} flex-col items-stretch">
+                    <div class="flex justify-between items-center mb-1">
+                        <div class="flex items-center">
+                            <span class="text-[10px] font-bold text-gray-400 w-4 text-center mr-1">${rank}º</span>
+                            <img src="${item.img}" class="w-4 h-4 mr-2 object-contain">
+                            <span class="text-xs font-semibold text-gray-700 truncate max-w-[80px]">${item.name}</span>
+                        </div>
+                        <span class="text-[10px] px-1.5 rounded ${badgeClass}">
+                            ${percentText}%
+                        </span>
                     </div>
-                    <span class="text-[10px] font-mono bg-gray-100 text-gray-600 px-1.5 py-0.5 rounded">
-                        ${item.score}m
-                    </span>
+                    <div class="w-full bg-gray-200 rounded-full h-1">
+                        <div class="bg-blue-500 h-1 rounded-full" style="width: ${percentText}%"></div>
+                    </div>
+                    <div class="text-[9px] text-gray-400 text-right mt-0.5">
+                        ${item.inscritos} inscritos
+                    </div>
                 </li>`;
             });
 
-            leaderboardContainer.innerHTML = html;
-        }
-
-        function getIcon(name) {
-            switch(name) {
-                case 'perro': return '🐕';
-                case 'gato': return '🐈';
-                case 'conejo': return '🐇';
-                case 'tortuga': return '🐢';
-                case 'hamster': return '🐹';
-                case 'panda': return '🐼';
-                case 'zorro': return '<img src="https://img.icons8.com/emoji/48/000000/fox.png" class="h-4 w-4 inline" alt="🦊">';
-                default: return '❓';
-            }
+            leaderboardContainer.innerHTML = tableHtml;
         }
     </script>
 </body>
