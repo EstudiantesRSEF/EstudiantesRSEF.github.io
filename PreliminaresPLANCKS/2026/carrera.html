@@ -18,6 +18,7 @@ layout: null
             background-image: repeating-linear-gradient(90deg, transparent, transparent 99px, rgba(255,255,255,0.4) 100px);
             border: 4px solid #b91c1c;
         }
+        /* Animación suave para el movimiento */
         .runner { transition: left 1.5s cubic-bezier(0.34, 1.56, 0.64, 1); }
         ::-webkit-scrollbar { display: none; }
     </style>
@@ -37,22 +38,24 @@ layout: null
                 </div>
 
                 <div class="track-surface relative p-4 h-[350px] flex flex-col justify-center">
+                    <!-- Línea de meta decorativa -->
                     <div class="absolute right-8 top-0 bottom-0 w-4 border-r-4 border-white z-0 flex flex-col justify-center items-center">
                         <div class="h-full border-r-2 border-dashed border-white opacity-50"></div>
-                        <span class="absolute -bottom-6 text-red-800 font-bold text-xs">TOTAL</span>
+                        <span class="absolute -bottom-6 text-red-800 font-bold text-xs">META</span>
                     </div>
+                    <!-- Contenedor de corredores -->
                     <div id="runners-container" class="relative w-full h-full"></div>
                 </div>
             </div>
 
-            <!-- CLASIFICACIÓN -->
+            <!-- CLASIFICACIÓN (Tabla derecha/abajo) -->
             <div class="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden h-fit">
                 <div class="bg-gray-800 p-2 text-white font-bold text-center text-xs uppercase">
-                    📊 Cuota de Equipo
+                    📊 Clasificación
                 </div>
                 <div class="p-2">
                     <ul id="leaderboard" class="space-y-1 text-sm">
-                        <li class="text-center text-gray-400 text-xs italic p-4">Iniciando sistema...</li>
+                        <li class="text-center text-gray-400 text-xs italic p-4">Esperando datos...</li>
                     </ul>
                 </div>
             </div>
@@ -61,8 +64,11 @@ layout: null
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // USAMOS FETCH PORQUE EL ARCHIVO NO ESTÁ EN _DATA, SINO EN UNA CARPETA PÚBLICA
+            // --- CORRECCIÓN AQUÍ ---
+            // Usamos ruta relativa simple. Busca 'carrera.json' en la misma carpeta que este HTML.
             const dataUrl = '/PreliminaresPLANCKS/data2026/carrera.json';
+
+            console.log("Iniciando carga de datos desde:", dataUrl);
 
             fetch(dataUrl)
                 .then(response => {
@@ -72,25 +78,29 @@ layout: null
                     return response.json();
                 })
                 .then(data => {
+                    console.log("Datos cargados correctamente:", data);
                     procesarCarrera(data);
                 })
                 .catch(e => {
-                    console.error("Error al cargar datos:", e);
-                    mostrarError(dataUrl);
+                    console.error("Error crítico al cargar:", e);
+                    mostrarError(dataUrl, e.message);
                 });
         });
 
-        function mostrarError(url) {
+        function mostrarError(url, detalle) {
             document.getElementById('leaderboard').innerHTML = 
-                `<li class="text-red-500 text-xs text-center p-2 font-bold">
+                `<li class="text-red-500 text-xs text-center p-2 font-bold bg-red-50 rounded border border-red-200">
                     ⚠️ Error de carga<br>
-                    <span class="font-normal text-[10px] text-gray-600">No encuentro el archivo:<br>${url}</span>
+                    <span class="font-normal text-[10px] text-gray-600">
+                        No se pudo leer el archivo de datos.<br>
+                        Asegúrate de que <code>${url}</code> existe en la misma carpeta.
+                    </span>
                 </li>`;
             document.getElementById('global-counter').innerText = "Error";
         }
 
         function procesarCarrera(raceData) {
-            // Calcular Gran Total
+            // Calcular el total de inscritos sumando todos los equipos
             const grandTotal = raceData.reduce((suma, equipo) => suma + (equipo.inscritos || 0), 0);
             
             document.getElementById('global-counter').innerText = `Total Inscritos: ${grandTotal}`;
@@ -105,28 +115,45 @@ layout: null
             let leaderboardData = [];
             
             const totalRunners = data.length;
+            // Espacio vertical disponible en porcentaje
             const availableHeight = 85; 
+            // Calcular el paso vertical entre corredores
             const step = totalRunners > 1 ? availableHeight / (totalRunners - 1) : 0;
 
             data.forEach((item, index) => {
                 let percentage = 0;
                 let ratio = 0;
                 
+                // Calculamos el porcentaje de avance basado en el total global
+                // (O puedes cambiar la lógica para que el líder siempre esté al 90%)
                 if (totalGlobal > 0) {
                     ratio = item.inscritos / totalGlobal;
-                    percentage = Math.min(ratio * 92, 92);
+                    // Multiplicamos por un factor (ej: 400) para que se muevan visualmente, 
+                    // o lo hacemos relativo al líder.
+                    // Aquí asumo que queremos llenar la barra hasta el 92% máx.
+                    
+                    // OPCIÓN: Hacerlo relativo al LÍDER para que siempre haya alguien cerca de la meta
+                    // const maxInscritos = Math.max(...data.map(d => d.inscritos));
+                    // percentage = (item.inscritos / maxInscritos) * 90;
+
+                    // OPCIÓN ACTUAL: Relativo al 100% (si es porcentaje de votos)
+                     percentage = Math.min(ratio * 100 * 3, 92); // *3 es un factor arbitrario para que avancen más rápido visualmente
                 }
                 
                 const topPos = 5 + (index * step);
 
+                // Renderizamos el corredor (emoji)
                 runnersHtml += `
                 <div id="runner-${item.id}" 
                      class="runner absolute left-0 flex flex-col items-center z-20 group" 
                      style="top: ${topPos}%; left: ${percentage}%;">
                     <img src="${item.imagen}" 
                          class="h-10 w-10 object-contain drop-shadow-md transform -scale-x-100 transition-transform hover:scale-110"
+                         alt="${item.nombre}"
                          onerror="this.src='https://img.icons8.com/emoji/48/000000/question-mark.png'">
-                    <div class="opacity-0 group-hover:opacity-100 absolute -top-8 bg-black text-white text-[10px] px-2 py-1 rounded transition-opacity whitespace-nowrap z-50 pointer-events-none">
+                    
+                    <!-- Tooltip al pasar el mouse -->
+                    <div class="opacity-0 group-hover:opacity-100 absolute -top-8 bg-black text-white text-[10px] px-2 py-1 rounded transition-opacity whitespace-nowrap z-50 pointer-events-none shadow-lg">
                         ${item.nombre}: ${item.inscritos}
                     </div>
                 </div>`;
@@ -136,16 +163,19 @@ layout: null
 
             trackContainer.innerHTML = runnersHtml;
 
+            // Ordenar datos para la tabla de clasificación
             leaderboardData.sort((a, b) => b.inscritos - a.inscritos);
             
             let tableHtml = '';
             leaderboardData.forEach((item, index) => {
                 const rank = index + 1;
-                const percentText = Math.round(item.ratio * 100);
+                // Calculamos porcentaje real para la barra
+                const percentText = totalGlobal > 0 ? Math.round((item.inscritos / totalGlobal) * 100) : 0;
                 
                 let rowClass = "flex items-center justify-between p-1.5 rounded border-b border-gray-100 last:border-0 hover:bg-gray-50";
                 let badgeClass = "bg-gray-100 text-gray-600";
                 
+                // Resaltar al líder (oro)
                 if (index === 0 && item.inscritos > 0) {
                     rowClass = "flex items-center justify-between p-1.5 rounded bg-yellow-50 border border-yellow-200 shadow-sm mb-1";
                     badgeClass = "bg-yellow-200 text-yellow-800 font-bold";
@@ -156,15 +186,14 @@ layout: null
                     <div class="flex justify-between items-center mb-1">
                         <div class="flex items-center">
                             <span class="text-[10px] font-bold text-gray-400 w-4 text-center mr-1">${rank}º</span>
-                            <img src="${item.imagen}" class="w-4 h-4 mr-2 object-contain">
-                            <span class="text-xs font-semibold text-gray-700 truncate max-w-[80px]">${item.nombre}</span>
+                            <img src="${item.imagen}" class="w-4 h-4 mr-2 object-contain" onerror="this.style.display='none'">
+                            <span class="text-xs font-semibold text-gray-700 truncate max-w-[80px]" title="${item.nombre}">${item.nombre}</span>
                         </div>
-                        <span class="text-[10px] px-1.5 rounded ${badgeClass}">${percentText}%</span>
+                        <span class="text-[10px] px-1.5 rounded ${badgeClass}">${item.inscritos}</span>
                     </div>
-                    <div class="w-full bg-gray-200 rounded-full h-1">
-                        <div class="bg-blue-500 h-1 rounded-full" style="width: ${percentText}%"></div>
+                    <div class="w-full bg-gray-200 rounded-full h-1 overflow-hidden">
+                        <div class="bg-blue-500 h-1 rounded-full transition-all duration-1000" style="width: ${percentText}%"></div>
                     </div>
-                    <div class="text-[9px] text-gray-400 text-right mt-0.5">${item.inscritos} inscritos</div>
                 </li>`;
             });
             leaderboardContainer.innerHTML = tableHtml;
