@@ -7,13 +7,10 @@ layout: null
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrera de Popularidad</title>
-    <!-- Estilos CSS (Tailwind) -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Fuentes -->
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     
     <style>
-        /* CSS PURO */
         body { font-family: 'Nunito', sans-serif; background-color: transparent; }
         h1, h2 { font-family: 'Fredoka One', cursive; }
         .track-surface {
@@ -27,34 +24,6 @@ layout: null
 </head>
 <body class="p-2">
 
-    <!-- 
-      ========================================
-      ZONA DE DATOS (JEKYLL / LIQUID)
-      ========================================
-      Jekyll escribe los datos aquí como atributos HTML invisibles.
-      JavaScript NO se mezcla aquí.
-      Ruta de datos: _data/PreliminaresPLANCKS/data2026/carrera.yml
-    -->
-    <div id="data-source" style="display: none;">
-        {% assign datos = site.PreliminaresPLANCKS.data2026.carrera %}
-        {% if datos %}
-            {% for equipo in datos %}
-                <!-- Cada equipo es un elemento HTML simple -->
-                <span class="team-data" 
-                      data-id="{{ equipo.id }}" 
-                      data-nombre="{{ equipo.nombre }}" 
-                      data-imagen="{{ equipo.imagen }}" 
-                      data-inscritos="{{ equipo.inscritos | default: 0 }}">
-                </span>
-            {% endfor %}
-        {% endif %}
-    </div>
-
-    <!-- 
-      ========================================
-      ZONA VISUAL (HTML PURO)
-      ========================================
-    -->
     <div class="max-w-4xl mx-auto">
         <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
             
@@ -63,7 +32,7 @@ layout: null
                 <div class="bg-red-800 text-white p-2 flex justify-between items-center px-4 border-b-2 border-red-900 z-10 relative">
                     <span class="font-bold text-sm uppercase tracking-wider">🏁 Carrera de Equipos</span>
                     <span id="global-counter" class="bg-red-900 px-2 py-0.5 rounded text-xs font-mono text-yellow-300 border border-red-700">
-                        Calculando...
+                        Cargando...
                     </span>
                 </div>
 
@@ -72,8 +41,6 @@ layout: null
                         <div class="h-full border-r-2 border-dashed border-white opacity-50"></div>
                         <span class="absolute -bottom-6 text-red-800 font-bold text-xs">TOTAL</span>
                     </div>
-
-                    <!-- Contenedor vacío donde JS pintará los corredores -->
                     <div id="runners-container" class="relative w-full h-full"></div>
                 </div>
             </div>
@@ -84,54 +51,51 @@ layout: null
                     📊 Cuota de Equipo
                 </div>
                 <div class="p-2">
-                    <ul id="leaderboard" class="space-y-1 text-sm"></ul>
+                    <ul id="leaderboard" class="space-y-1 text-sm">
+                        <li class="text-center text-gray-400 text-xs italic p-4">Iniciando sistema...</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- 
-      ========================================
-      ZONA DE LÓGICA (JAVASCRIPT PURO)
-      ========================================
-      Aquí NO hay ningún código de Jekyll. Solo JavaScript estándar.
-    -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // 1. LEER LOS DATOS DEL HTML
-            // Buscamos los elementos <span> ocultos que generó Jekyll arriba
-            const dataElements = document.querySelectorAll('.team-data');
-            
-            // Validación simple
-            if (dataElements.length === 0) {
-                document.getElementById('leaderboard').innerHTML = 
-                    '<li class="text-red-500 text-xs text-center p-2">⚠️ No se encontraron datos.<br>Revisar ruta: _data/PreliminaresPLANCKS/data2026/carrera.yml</li>';
-                return;
-            }
+            // USAMOS FETCH PORQUE EL ARCHIVO NO ESTÁ EN _DATA, SINO EN UNA CARPETA PÚBLICA
+            const dataUrl = '/PreliminaresPLANCKS/data2026/carrera.json';
 
-            // 2. CONVERTIR HTML A OBJETOS JS
-            let raceData = [];
-            let grandTotal = 0;
-
-            dataElements.forEach(el => {
-                // Leemos los atributos 'data-' seguros
-                const inscritos = parseInt(el.getAttribute('data-inscritos')) || 0;
-                grandTotal += inscritos;
-                
-                raceData.push({
-                    id: el.getAttribute('data-id'),
-                    nombre: el.getAttribute('data-nombre'),
-                    imagen: el.getAttribute('data-imagen'),
-                    inscritos: inscritos
+            fetch(dataUrl)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    procesarCarrera(data);
+                })
+                .catch(e => {
+                    console.error("Error al cargar datos:", e);
+                    mostrarError(dataUrl);
                 });
-            });
-
-            // Actualizar texto del total
-            document.getElementById('global-counter').innerText = `Total Inscritos: ${grandTotal}`;
-
-            // 3. EJECUTAR LA ANIMACIÓN
-            renderRace(raceData, grandTotal);
         });
+
+        function mostrarError(url) {
+            document.getElementById('leaderboard').innerHTML = 
+                `<li class="text-red-500 text-xs text-center p-2 font-bold">
+                    ⚠️ Error de carga<br>
+                    <span class="font-normal text-[10px] text-gray-600">No encuentro el archivo:<br>${url}</span>
+                </li>`;
+            document.getElementById('global-counter').innerText = "Error";
+        }
+
+        function procesarCarrera(raceData) {
+            // Calcular Gran Total
+            const grandTotal = raceData.reduce((suma, equipo) => suma + (equipo.inscritos || 0), 0);
+            
+            document.getElementById('global-counter').innerText = `Total Inscritos: ${grandTotal}`;
+            renderRace(raceData, grandTotal);
+        }
 
         function renderRace(data, totalGlobal) {
             const trackContainer = document.getElementById('runners-container');
@@ -155,7 +119,6 @@ layout: null
                 
                 const topPos = 5 + (index * step);
 
-                // Plantilla HTML del corredor (usando comillas invertidas de JS)
                 runnersHtml += `
                 <div id="runner-${item.id}" 
                      class="runner absolute left-0 flex flex-col items-center z-20 group" 
@@ -173,9 +136,8 @@ layout: null
 
             trackContainer.innerHTML = runnersHtml;
 
-            // Ordenar y pintar tabla
             leaderboardData.sort((a, b) => b.inscritos - a.inscritos);
-
+            
             let tableHtml = '';
             leaderboardData.forEach((item, index) => {
                 const rank = index + 1;
@@ -205,7 +167,6 @@ layout: null
                     <div class="text-[9px] text-gray-400 text-right mt-0.5">${item.inscritos} inscritos</div>
                 </li>`;
             });
-
             leaderboardContainer.innerHTML = tableHtml;
         }
     </script>
