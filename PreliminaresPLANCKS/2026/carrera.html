@@ -3,212 +3,264 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrera de Delegaciones</title>
+    <title>Inscripciones y Ranking</title>
     <style>
-        /* --- ESTILOS GENERALES Y FONDO --- */
+        /* --- ESTILOS GENERALES --- */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            /* Fondo de cielo degradado */
             background: linear-gradient(to bottom, #87CEEB 0%, #E0F6FF 100%);
             margin: 0;
             padding: 20px;
-            min-height: 100vh; /* Ocupar toda la altura */
             box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            color: #333;
         }
 
         h2 {
             text-align: center;
-            color: #333;
-            text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
-            margin-bottom: 30px;
+            color: #fff;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+            margin-top: 0;
         }
 
-        /* --- CONTENEDOR DE LA PISTA --- */
-        .pista-container {
-            width: 100%;
-            max-width: 900px;
-            background: transparent; /* Fondo transparente */
-            padding-top: 20px;
-            padding-bottom: 20px;
-            position: relative;
-            /* Sombra para dar efecto de elevación */
-            box-shadow: 0 15px 25px rgba(0,0,0,0.15);
-            border-radius: 12px;
-            overflow: hidden;
-        }
-
-        /* Línea de META a cuadros */
-        .pista-container::after {
-            content: '';
-            position: absolute;
-            right: 10px;
-            top: 0;
-            bottom: 0;
-            width: 15px;
-            background: repeating-linear-gradient(
-                45deg,
-                #fff,
-                #fff 5px,
-                #333 5px,
-                #333 10px
-            );
-            z-index: 1;
-            opacity: 0.7;
-        }
-
-        /* --- ESTILOS DEL CARRIL --- */
-        .carril {
+        /* --- LAYOUT PRINCIPAL (Dos columnas) --- */
+        .contenedor-general {
             display: flex;
-            align-items: center;
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            align-items: flex-start; /* Alinear arriba */
+        }
+
+        /* Panel de la Carrera (Ocupa el 65%) */
+        .panel-carrera {
+            flex: 2;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
             position: relative;
-            height: 80px; /* Más altura para los personajes */
-            /* Línea divisoria blanca gruesa */
-            border-bottom: 4px solid rgba(255, 255, 255, 0.8);
-            padding: 0 20px;
+        }
+
+        /* Panel de la Tabla (Ocupa el 35%) */
+        .panel-tabla {
+            flex: 1;
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            max-height: 400px; /* Altura máxima */
+            overflow-y: auto;  /* Scroll si hay muchos */
+        }
+
+        /* --- ESTILOS DE LA PISTA (Visual) --- */
+        .pista-container {
+            position: relative;
+            padding-right: 20px;
         }
         
-        /* Colores alternos para los carriles */
-        .carril:nth-child(4n+1) { background-color: #e74c3c; } /* Rojo */
-        .carril:nth-child(4n+2) { background-color: #2ecc71; } /* Verde */
-        .carril:nth-child(4n+3) { background-color: #3498db; } /* Azul */
-        .carril:nth-child(4n+4) { background-color: #f1c40f; } /* Amarillo */
-
-        .nombre-delegacion {
-            width: 130px;
-            font-weight: bold;
-            font-size: 16px;
-            color: white; /* Texto blanco */
-            text-shadow: 1px 1px 3px rgba(0,0,0,0.6); /* Sombra para contraste */
-            flex-shrink: 0;
-            z-index: 2;
-        }
-
-        .area-corrida {
-            flex-grow: 1;
-            position: relative;
-            height: 100%;
-            margin-right: 20px; /* Espacio antes de la meta */
-        }
-
-        /* --- EL CORREDOR QUE SE MUEVE --- */
-        .corredor {
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            transition: width 1.8s cubic-bezier(0.25, 0.1, 0.25, 1); /* Movimiento más suave */
-            width: 0%;
-        }
-
-        /* Contenedor del personaje y el contador */
-        .personaje-container {
+        .meta-linea {
             position: absolute;
             right: 0;
-            /* Centrar el punto medio del personaje en el final de la barra */
-            transform: translateX(50%); 
+            top: 0;
+            bottom: 0;
+            width: 10px;
+            background: repeating-linear-gradient(45deg, #fff, #fff 5px, #333 5px, #333 10px);
+            opacity: 0.8;
+            z-index: 1;
+        }
+
+        .carril {
+            position: relative;
+            height: 70px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+            width: 100%;
+        }
+        .carril:last-child { border-bottom: none; }
+        .carril-1 { background-color: #e74c3c; border-radius: 8px 8px 0 0; }
+        .carril-2 { background-color: #2ecc71; border-radius: 0 0 8px 8px; }
+
+        .corredor-wrapper {
+            position: absolute;
+            bottom: 5px;
+            transform: translateX(-50%);
             display: flex;
             flex-direction: column;
             align-items: center;
-            z-index: 5;
+            transition: left 1.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+            z-index: 10;
         }
 
-        /* --- ESTILO PARA EMOJIS --- */
-        .mascota-icono {
-            font-size: 45px;
-            line-height: 1;
-            /* Sombra para que destaque del suelo */
-            filter: drop-shadow(0 4px 4px rgba(0,0,0,0.3));
-            margin-bottom: 5px;
+        .mascota-icono { font-size: 35px; filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.4)); }
+        .etiqueta-info {
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 11px;
+            white-space: nowrap;
+            margin-top: -5px;
+        }
+
+        /* --- ESTILOS DE LA TABLA (Clasificación) --- */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
         }
         
-        /* --- ESTILO PARA IMÁGENES PNG (Para el futuro) --- */
-        .mascota-img {
-            width: 65px;
-            height: 65px;
-            object-fit: contain;
-            filter: drop-shadow(0 4px 4px rgba(0,0,0,0.3));
-            margin-bottom: 5px;
-        }
+        th { text-align: left; border-bottom: 2px solid #ddd; padding: 8px 4px; color: #555; }
+        td { border-bottom: 1px solid #eee; padding: 8px 4px; vertical-align: middle; }
+        
+        .fila-top1 { background-color: #FFF8E1; font-weight: bold; } /* Oro */
+        .fila-top2 { background-color: #F5F5F5; font-weight: bold; } /* Plata */
+        .fila-top3 { background-color: #FFF0E0; font-weight: bold; } /* Bronce */
 
-        /* --- CONTADOR DE EQUIPOS --- */
-        .contador {
+        .numero-puesto {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            border-radius: 50%;
+            background: #eee;
+            font-size: 11px;
             font-weight: bold;
-            color: white;
-            font-size: 14px;
-            text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
-            white-space: nowrap;
-            background-color: rgba(0,0,0,0.2); /* Pequeño fondo oscuro */
-            padding: 2px 6px;
-            border-radius: 10px;
         }
 
+        .fila-top1 .numero-puesto { background: #FFD700; color: #000; }
+        .fila-top2 .numero-puesto { background: #C0C0C0; color: #000; }
+        .fila-top3 .numero-puesto { background: #CD7F32; color: #fff; }
+
+        /* --- RESPONSIVE (Móvil) --- */
+        @media (max-width: 600px) {
+            .contenedor-general { flex-direction: column; }
+            .panel-carrera, .panel-tabla { width: 100%; box-sizing: border-box; }
+        }
     </style>
 </head>
 <body>
 
-    <h2>🏁 Estado de las Inscripciones 🏁</h2>
+    <h2>🏆 Estado de Inscripciones 🏆</h2>
 
-    <div class="pista-container" id="pista">
+    <div class="contenedor-general">
+        
+        <div class="panel-carrera">
+            <h3 style="text-align:center; margin-top:0;">Top 3 Líderes</h3>
+            <div class="pista-container">
+                <div class="meta-linea"></div>
+                <div class="carril carril-1" id="carril-superior"></div>
+                <div class="carril carril-2" id="carril-inferior"></div>
+            </div>
         </div>
 
+        <div class="panel-tabla">
+            <h3 style="text-align:center; margin-top:0;">Clasificación General</h3>
+            <table id="tabla-ranking">
+                <thead>
+                    <tr>
+                        <th width="10%">#</th>
+                        <th width="60%">Delegación</th>
+                        <th width="30%" style="text-align:center;">Equipos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    </tbody>
+            </table>
+        </div>
+
+    </div>
+
     <script>
-        // =================================================================
-        // ZONA DE DATOS: ¡Edita esto con tus delegaciones!
-        // =================================================================
-        // NOTA: En 'imagen' pon el nombre de tu archivo PNG (ej: "leon.png")
-        //       En 'icono' pon el emoji que quieras usar mientras tanto.
-        const datosCarrera = [
-          { "delegacion": "UAB",      "imagen": "cohete.png",    "icono": "🚀", "equipos": 18 },
-          { "delegacion": "UCM",      "imagen": "cisne.png",     "icono": "🦢", "equipos": 5 },
-          { "delegacion": "UV",       "imagen": "coche.png",     "icono": "🚗", "equipos": 5 },
-          { "delegacion": "UniOvi",   "imagen": "oso.png",       "icono": "🐻", "equipos": 4 },
-          { "delegacion": "UMU",      "imagen": "zanahoria.png", "icono": "🥕", "equipos": 3 },
-          { "delegacion": "UGR",      "imagen": "lobo.png",      "icono": "🐺", "equipos": 2 }
+        // =========================================================
+        // TUS DATOS (Añade todos aquí, la tabla los mostrará todos)
+        // =========================================================
+        const datosBrutos = [
+          { "delegacion": "UAB",    "icono": "🚀", "equipos": 18 },
+          { "delegacion": "UCM",    "icono": "🦢", "equipos": 12 },
+          { "delegacion": "UV",     "icono": "🚗", "equipos": 8 },
+          { "delegacion": "UniOvi", "icono": "🐻", "equipos": 4 },
+          { "delegacion": "UMU",    "icono": "🥕", "equipos": 3 },
+          { "delegacion": "UGR",    "icono": "🐺", "equipos": 2 },
+          { "delegacion": "US",     "icono": "💃", "equipos": 0 }, 
+          { "delegacion": "UPV",    "icono": "🍊", "equipos": 1 }
         ];
-        // =================================================================
+        // =========================================================
 
-
-        function dibujarCarrera() {
-            const contenedor = document.getElementById('pista');
+        function actualizarTodo() {
+            // 1. Ordenar datos de Mayor a Menor inscritos
+            let clasificacion = datosBrutos.sort((a, b) => b.equipos - a.equipos);
             
-            // 1. Encontrar el máximo de equipos para calcular el 100%
-            const maxEquipos = Math.max(...datosCarrera.map(d => d.equipos));
+            // 2. Dibujar la Tabla (Derecha)
+            dibujarTabla(clasificacion);
 
-            datosCarrera.forEach((dato, index) => {
-                // 2. Calcular porcentaje (Usamos 95% máximo para que no se monte en la meta)
-                let porcentaje = 0;
-                if(maxEquipos > 0) {
-                    porcentaje = (dato.equipos / maxEquipos) * 95;
-                }
+            // 3. Dibujar la Carrera (Izquierda) - Solo Top 3 con inscritos > 0
+            const top3 = clasificacion.filter(d => d.equipos > 0).slice(0, 3);
+            dibujarCarrera(top3);
+        }
 
-                // 3. Crear el HTML del carril
-                const htmlCarril = `
-                    <div class="carril" style="z-index: ${datosCarrera.length - index};">
-                        <div class="nombre-delegacion">${dato.delegacion}</div>
-                        <div class="area-corrida">
-                            <div class="corredor" style="width: ${porcentaje}%">
-                                <div class="personaje-container">
-                                    
-                                    <div class="mascota-icono">${dato.icono}</div>
-                                    <div class="contador">(${dato.equipos})</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                `;
+        function dibujarTabla(datos) {
+            const tbody = document.querySelector('#tabla-ranking tbody');
+            tbody.innerHTML = ""; // Limpiar
+
+            datos.forEach((dato, index) => {
+                const puesto = index + 1;
+                let claseFila = "";
                 
-                // Insertar el carril en la pista
-                contenedor.insertAdjacentHTML('beforeend', htmlCarril);
+                // Estilos especiales para el podio
+                if(puesto === 1) claseFila = "fila-top1";
+                else if(puesto === 2) claseFila = "fila-top2";
+                else if(puesto === 3) claseFila = "fila-top3";
+
+                const htmlFila = `
+                    <tr class="${claseFila}">
+                        <td><span class="numero-puesto">${puesto}</span></td>
+                        <td>${dato.icono} ${dato.delegacion}</td>
+                        <td style="text-align:center;"><strong>${dato.equipos}</strong></td>
+                    </tr>
+                `;
+                tbody.insertAdjacentHTML('beforeend', htmlFila);
             });
         }
 
-        // Ejecutar la función al cargar
-        dibujarCarrera();
+        function dibujarCarrera(top3) {
+            const carrilSup = document.getElementById('carril-superior');
+            const carrilInf = document.getElementById('carril-inferior');
+            
+            // Limpiamos los carriles antes de pintar
+            carrilSup.innerHTML = "";
+            carrilInf.innerHTML = "";
+
+            if (top3.length === 0) {
+                carrilSup.innerHTML = "<p style='text-align:center; color:white; padding-top:20px'>Esperando inscripciones...</p>";
+                return;
+            }
+
+            // El 1º define el 100% de la barra
+            const maxPuntos = top3[0].equipos;
+
+            top3.forEach((dato, indice) => {
+                const ranking = indice + 1; 
+                let posPorcentaje = (dato.equipos / maxPuntos) * 90; 
+
+                const htmlCorredor = `
+                    <div class="corredor-wrapper" style="left: ${posPorcentaje}%; z-index: ${10 - indice}">
+                        <div class="mascota-icono" title="${dato.delegacion}">${dato.icono}</div>
+                        <div class="etiqueta-info">
+                            ${dato.delegacion} <strong>(${dato.equipos})</strong>
+                        </div>
+                    </div>
+                `;
+
+                // Distribución visual: 2º abajo, 1º y 3º arriba
+                if (ranking === 2) {
+                    carrilInf.insertAdjacentHTML('beforeend', htmlCorredor);
+                } else {
+                    carrilSup.insertAdjacentHTML('beforeend', htmlCorredor);
+                }
+            });
+        }
+
+        actualizarTodo();
     </script>
 </body>
 </html>
