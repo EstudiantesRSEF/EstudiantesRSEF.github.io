@@ -1,416 +1,193 @@
----
-layout: null
----
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrera de Popularidad</title>
-    
+    <title>Carrera de Delegaciones</title>
     <style>
-        /* --- ESTILOS GENERALES (Sin librerías externas) --- */
-        :root {
-            --track-bg: #991b1b; /* red-800 */
-            --track-border: #7f1d1d; /* red-900 */
-            --surface: #ef4444; /* red-500 */
-            --text-white: #ffffff;
-            --text-gray: #374151;
-            --accent-yellow: #fef08a; /* yellow-200 */
-            --accent-yellow-text: #854d0e; /* yellow-800 */
-        }
-
         body {
-            font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: transparent;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
             margin: 0;
-            padding: 10px;
-            box-sizing: border-box;
+            padding: 20px;
+            overflow-x: hidden; /* Evitar scroll horizontal */
         }
 
-        /* Layout Principal */
-        .container {
-            max-width: 1000px;
+        h2 { text-align: center; color: #333; }
+
+        /* Contenedor de la pista */
+        .pista-container {
+            width: 100%;
+            max-width: 800px;
             margin: 0 auto;
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 16px;
-        }
-
-        @media (min-width: 1024px) {
-            .container {
-                grid-template-columns: 3fr 1fr; /* 3 partes pista, 1 parte tabla */
-            }
-        }
-
-        /* --- PISTA DE CARRERAS --- */
-        .card {
             background: white;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-            border: 1px solid #e5e7eb;
-        }
-
-        .header {
-            background-color: var(--track-bg);
-            color: var(--text-white);
-            padding: 12px 16px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 3px solid var(--track-border);
-        }
-
-        .title {
-            font-weight: 800;
-            text-transform: uppercase;
-            font-size: 0.9rem;
-            letter-spacing: 0.05em;
-        }
-
-        .counter {
-            background-color: var(--track-border);
-            color: #fde047; /* yellow-300 */
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-size: 0.75rem;
-            font-family: monospace;
-            border: 1px solid rgba(255,255,255,0.2);
-        }
-
-        .track-container {
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-right: 5px dashed #333; /* Línea de meta visual */
             position: relative;
-            background-color: var(--surface);
-            /* Patrón de suelo */
-            background-image: repeating-linear-gradient(90deg, transparent, transparent 99px, rgba(255,255,255,0.4) 100px);
-            border: 4px solid #b91c1c;
-            height: 350px;
-            padding: 16px;
-            box-sizing: border-box;
         }
 
-        .finish-line {
+        /* Etiqueta de META */
+        .meta-label {
             position: absolute;
-            right: 32px;
-            top: 0;
-            bottom: 0;
-            width: 4px;
-            border-right: 4px solid white;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            z-index: 0;
-        }
-        .finish-dashed {
-            height: 100%;
-            border-right: 2px dashed rgba(255,255,255,0.5);
-        }
-        .finish-text {
-            position: absolute;
-            bottom: -20px;
-            color: var(--track-border);
+            right: -35px;
+            top: 50%;
+            transform: translateY(-50%) rotate(90deg);
             font-weight: bold;
-            font-size: 0.75rem;
+            color: #333;
+            letter-spacing: 2px;
         }
 
-        /* --- CORREDORES --- */
-        .runner {
-            position: absolute;
-            left: 0;
+        /* Carril individual */
+        .carril {
             display: flex;
-            flex-direction: column;
             align-items: center;
-            z-index: 10;
-            transition: left 1.5s cubic-bezier(0.34, 1.56, 0.64, 1); /* Efecto rebote suave */
-            cursor: pointer;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            position: relative;
+            height: 50px; /* Altura del carril */
         }
 
-        .runner img {
-            height: 40px;
-            width: 40px;
-            object-fit: contain;
-            filter: drop-shadow(0 2px 2px rgba(0,0,0,0.3));
-            transform: scaleX(-1); /* Voltear para mirar a la derecha */
-            transition: transform 0.2s;
+        /* Nombre de la delegación a la izquierda */
+        .nombre-delegacion {
+            width: 100px;
+            font-weight: bold;
+            font-size: 14px;
+            color: #555;
+            flex-shrink: 0; /* No encoger */
         }
 
-        .runner:hover img {
-            transform: scaleX(-1) scale(1.2);
+        /* El área por donde corre el animal */
+        .area-corrida {
+            flex-grow: 1;
+            position: relative;
+            height: 100%;
         }
 
-        /* Tooltip simple */
-        .tooltip {
-            visibility: hidden;
-            background-color: black;
-            color: white;
-            text-align: center;
-            border-radius: 4px;
-            padding: 4px 8px;
+        /* El contenedor del animal que se mueve */
+        .corredor {
             position: absolute;
-            bottom: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            white-space: nowrap;
+            top: 0;
+            left: 0;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            transition: width 1.5s ease-out; /* Animación suave */
+            width: 0%; /* Empieza en 0 */
+        }
+
+        /* La imagen/mascota */
+        .mascota-img {
+            font-size: 30px; /* Tamaño si es emoji */
+            width: 40px;     /* Tamaño si es imagen real */
+            height: auto;
+            position: absolute;
+            right: 0; /* La imagen siempre al final de su barra */
+            transform: translateX(50%); /* Centrar la imagen sobre su punto */
+            z-index: 2;
+        }
+        
+        /* Si usas imágenes reales, descomenta esto:
+        img.mascota-img {
+            width: 40px; 
+            height: 40px;
+            object-fit: contain;
+        } 
+        */
+
+        /* Barra de progreso visual (opcional, detrás del animal) */
+        .barra {
+            height: 4px;
+            background: linear-gradient(90deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+            width: 100%;
+            border-radius: 2px;
+            position: relative;
+            top: 2px;
+        }
+
+        /* Contador de equipos */
+        .contador {
+            position: absolute;
+            right: -30px; /* Posición encima o al lado del animal */
+            top: -15px;
+            background: #333;
+            color: #fff;
             font-size: 10px;
+            padding: 2px 5px;
+            border-radius: 4px;
             opacity: 0;
             transition: opacity 0.3s;
-            pointer-events: none;
-            margin-bottom: 5px;
         }
 
-        .runner:hover .tooltip {
-            visibility: visible;
+        .corredor:hover .contador {
             opacity: 1;
         }
 
-        /* --- TABLA DE CLASIFICACIÓN --- */
-        .leaderboard-container {
-            background: white;
-            border-radius: 12px;
-            border: 1px solid #e5e7eb;
-            overflow: hidden;
-            height: fit-content;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-        }
-        
-        .leaderboard-header {
-            background-color: #1f2937; /* gray-800 */
-            color: white;
-            font-weight: bold;
-            text-align: center;
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            padding: 8px;
-        }
-
-        ul {
-            list-style: none;
-            padding: 8px;
-            margin: 0;
-        }
-
-        li.row {
-            display: flex;
-            flex-direction: column;
-            padding: 8px;
-            border-bottom: 1px solid #f3f4f6;
-            border-radius: 6px;
-        }
-        
-        li.row:last-child { border-bottom: none; }
-        li.row:hover { background-color: #f9fafb; }
-
-        /* Estilo especial para el líder */
-        li.row.leader {
-            background-color: #fffbeb; /* yellow-50 */
-            border: 1px solid #fde68a;
-            margin-bottom: 4px;
-        }
-        li.row.leader .badge {
-            background-color: var(--accent-yellow);
-            color: var(--accent-yellow-text);
-            font-weight: bold;
-        }
-
-        .row-top {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 4px;
-        }
-
-        .rank {
-            font-size: 10px;
-            font-weight: bold;
-            color: #9ca3af;
-            width: 20px;
-            text-align: center;
-            margin-right: 4px;
-        }
-
-        .team-name {
-            font-size: 12px;
-            font-weight: 600;
-            color: var(--text-gray);
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            max-width: 90px;
-        }
-
-        .badge {
-            font-size: 10px;
-            padding: 2px 6px;
-            border-radius: 999px;
-            background-color: #f3f4f6;
-            color: #4b5563;
-        }
-
-        .bar-bg {
-            width: 100%;
-            background-color: #e5e7eb;
-            border-radius: 999px;
-            height: 4px;
-            overflow: hidden;
-        }
-
-        .bar-fill {
-            background-color: #3b82f6; /* blue-500 */
-            height: 100%;
-            border-radius: 999px;
-            transition: width 1s ease-out;
-        }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        
-        <!-- PISTA -->
-        <div class="card">
-            <div class="header">
-                <span class="title">🏁 Carrera de Equipos</span>
-                <span id="global-counter" class="counter">Cargando...</span>
-            </div>
+    <h2>🏁 Estado de las Inscripciones 🏁</h2>
 
-            <div class="track-container">
-                <!-- Meta -->
-                <div class="finish-line">
-                    <div class="finish-dashed"></div>
-                    <span class="finish-text">META</span>
-                </div>
-                <!-- Corredores -->
-                <div id="runners-container" style="position: relative; width: 100%; height: 100%;"></div>
-            </div>
+    <div class="pista-container" id="pista">
+        <div class="meta-label">META</div>
         </div>
-
-        <!-- CLASIFICACIÓN -->
-        <div class="leaderboard-container">
-            <div class="leaderboard-header">
-                📊 Clasificación
-            </div>
-            <div>
-                <ul id="leaderboard">
-                    <li style="text-align: center; color: #9ca3af; font-size: 12px; padding: 16px; font-style: italic;">
-                        Esperando datos...
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            // Ruta del JSON. Asegúrate de que carrera.json está en la misma carpeta.
-            const dataUrl = 'carrera.json';
+        // Función principal
+        async function cargarCarrera() {
+            try {
+                // 1. Cargar los datos del archivo JSON
+                // IMPORTANTE: Para que esto funcione en local, necesitas un servidor local
+                // o subir los archivos a un hosting real debido a políticas de seguridad (CORS).
+                const respuesta = await fetch('carrera.json');
+                const datos = await respuesta.json();
 
-            fetch(dataUrl)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`Error ${response.status}`);
+                // 2. Encontrar el número máximo de equipos para calcular porcentajes
+                // El que tenga más equipos será el 100% (o 90% para dejar margen visual)
+                const maxEquipos = Math.max(...datos.map(d => d.equipos));
+                
+                const contenedor = document.getElementById('pista');
+
+                // 3. Crear los elementos HTML por cada delegación
+                datos.forEach(dato => {
+                    // Calcular porcentaje relativo al líder
+                    // Si el líder tiene 50, y este tiene 25, será el 50% del ancho
+                    // Usamos 90% como máximo para que no se pegue totalmente al borde derecho
+                    let porcentaje = 0;
+                    if(maxEquipos > 0) {
+                        porcentaje = (dato.equipos / maxEquipos) * 90;
                     }
-                    return response.json();
-                })
-                .then(data => {
-                    procesarCarrera(data);
-                })
-                .catch(e => {
-                    console.error("Error:", e);
-                    mostrarError(dataUrl);
-                });
-        });
 
-        function mostrarError(url) {
-            document.getElementById('leaderboard').innerHTML = 
-                `<li style="color: #ef4444; font-size: 12px; text-align: center; padding: 10px; background: #fef2f2; border: 1px solid #fecaca; border-radius: 4px;">
-                    ⚠️ <strong>Error de carga</strong><br>
-                    <span style="font-weight: normal; font-size: 10px; color: #666;">
-                        No encuentro: ${url}<br>Verifica la ubicación del archivo.
-                    </span>
-                </li>`;
-            document.getElementById('global-counter').innerText = "Error";
-        }
-
-        function procesarCarrera(raceData) {
-            const grandTotal = raceData.reduce((suma, equipo) => suma + (equipo.inscritos || 0), 0);
-            document.getElementById('global-counter').innerText = `Total: ${grandTotal}`;
-            renderRace(raceData, grandTotal);
-        }
-
-        function renderRace(data, totalGlobal) {
-            const trackContainer = document.getElementById('runners-container');
-            const leaderboardContainer = document.getElementById('leaderboard');
-            
-            let runnersHtml = '';
-            let leaderboardData = [];
-            
-            const totalRunners = data.length;
-            const availableHeight = 85; 
-            const step = totalRunners > 1 ? availableHeight / (totalRunners - 1) : 0;
-
-            data.forEach((item, index) => {
-                let percentage = 0;
-                let ratio = 0;
-                
-                if (totalGlobal > 0) {
-                    ratio = item.inscritos / totalGlobal;
-                    // Límite visual al 92% para no salirse de la pista
-                    percentage = Math.min(ratio * 100 * 3, 92); 
-                }
-                
-                const topPos = 5 + (index * step);
-
-                // HTML del corredor
-                runnersHtml += `
-                <div id="runner-${item.id}" 
-                     class="runner" 
-                     style="top: ${topPos}%; left: ${percentage}%;">
-                    <img src="${item.imagen}" 
-                         alt="${item.nombre}"
-                         onerror="this.src='https://img.icons8.com/emoji/48/000000/question-mark.png'">
-                    <div class="tooltip">
-                        ${item.nombre}: ${item.inscritos}
-                    </div>
-                </div>`;
-
-                leaderboardData.push({ ...item, ratio: ratio });
-            });
-
-            trackContainer.innerHTML = runnersHtml;
-
-            // Ordenar y renderizar tabla
-            leaderboardData.sort((a, b) => b.inscritos - a.inscritos);
-            
-            let tableHtml = '';
-            leaderboardData.forEach((item, index) => {
-                const rank = index + 1;
-                const percentText = totalGlobal > 0 ? Math.round((item.inscritos / totalGlobal) * 100) : 0;
-                
-                // Clases condicionales para el líder
-                let rowClass = "row";
-                if (index === 0 && item.inscritos > 0) {
-                    rowClass += " leader";
-                }
-
-                tableHtml += `
-                <li class="${rowClass}">
-                    <div class="row-top">
-                        <div style="display:flex; align-items:center;">
-                            <span class="rank">${rank}º</span>
-                            <img src="${item.imagen}" style="width:16px; height:16px; margin-right:8px; object-fit:contain;" onerror="this.style.display='none'">
-                            <span class="team-name" title="${item.nombre}">${item.nombre}</span>
+                    // Si es una imagen real, cambiar el tag dentro de .mascota-img
+                    // Ejemplo: <img src="${dato.imagen}" class="mascota-img">
+                    const htmlCarril = `
+                        <div class="carril">
+                            <div class="nombre-delegacion">${dato.delegacion}</div>
+                            <div class="area-corrida">
+                                <div class="corredor" style="width: ${porcentaje}%">
+                                    <div class="barra"></div>
+                                    <div class="mascota-img">${dato.imagen}</div> 
+                                    <div class="contador">${dato.equipos} equipos</div>
+                                </div>
+                            </div>
                         </div>
-                        <span class="badge">${item.inscritos}</span>
-                    </div>
-                    <div class="bar-bg">
-                        <div class="bar-fill" style="width: ${percentText}%"></div>
-                    </div>
-                </li>`;
-            });
-            leaderboardContainer.innerHTML = tableHtml;
+                    `;
+                    
+                    // Insertar en el HTML
+                    contenedor.insertAdjacentHTML('beforeend', htmlCarril);
+                });
+
+            } catch (error) {
+                console.error("Error al cargar los datos:", error);
+                document.getElementById('pista').innerHTML = "<p>Error cargando la carrera. Verifica que datos.json existe.</p>";
+            }
         }
+
+        // Ejecutar al cargar
+        cargarCarrera();
     </script>
 </body>
 </html>

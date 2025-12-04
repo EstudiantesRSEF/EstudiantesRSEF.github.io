@@ -1,0 +1,27 @@
+[
+  {
+    "delegacion": "Madrid",
+    "imagen": "🦁",
+    "equipos": 45
+  },
+  {
+    "delegacion": "Barcelona",
+    "imagen": "🐉",
+    "equipos": 32
+  },
+  {
+    "delegacion": "Valencia",
+    "imagen": "🦇",
+    "equipos": 50
+  },
+  {
+    "delegacion": "Sevilla",
+    "imagen": "💃",
+    "equipos": 12
+  },
+  {
+    "delegacion": "Bilbao",
+    "imagen": "⚓",
+    "equipos": 28
+  }
+]

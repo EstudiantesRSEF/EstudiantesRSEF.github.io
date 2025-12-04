@@ -149,11 +149,15 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
           <iframe id="content-mobile" src="/PreliminaresPLANCKS/2025/Mapa/universities_map_mobile.html" class="scalable-iframe" style="border:none; width: 100%"></iframe> 
       </div> 
       <!-- CARRERA -->
-      <iframe 
-    src="{{ '/PreliminaresPLANCKS/2026/carrera.html' | relative_url }}" 
-    style="width: 100%; height: 450px; border: none; overflow: hidden;" 
-    title="Carrera de Equipos">
-</iframe>
+     <h3>¡Sigue la carrera de inscripciones!</h3>
+     <iframe 
+        src="carrera.html" 
+        width="100%" 
+        height="500px" 
+        frameborder="0" 
+        scrolling="no"
+        style="border: 1px solid #ccc; border-radius: 8px;">
+     </iframe> 
       <!-- EDICIONES ANTERIORES -->
       <div class="section" id="ediciones-anteriores">
         <div class="row center">
