@@ -5,188 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrera de Delegaciones</title>
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-            overflow-x: hidden; /* Evitar scroll horizontal */
-        }
-
-        h2 { text-align: center; color: #333; }
-
-        /* Contenedor de la pista */
-        .pista-container {
-            width: 100%;
-            max-width: 800px;
-            margin: 0 auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            border-right: 5px dashed #333; /* Línea de meta visual */
-            position: relative;
-        }
-
-        /* Etiqueta de META */
-        .meta-label {
-            position: absolute;
-            right: -35px;
-            top: 50%;
-            transform: translateY(-50%) rotate(90deg);
-            font-weight: bold;
-            color: #333;
-            letter-spacing: 2px;
-        }
-
-        /* Carril individual */
-        .carril {
-            display: flex;
-            align-items: center;
-            margin-bottom: 15px;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 5px;
-            position: relative;
-            height: 50px; /* Altura del carril */
-        }
-
-        /* Nombre de la delegación a la izquierda */
-        .nombre-delegacion {
-            width: 100px;
-            font-weight: bold;
-            font-size: 14px;
-            color: #555;
-            flex-shrink: 0; /* No encoger */
-        }
-
-        /* El área por donde corre el animal */
-        .area-corrida {
-            flex-grow: 1;
-            position: relative;
-            height: 100%;
-        }
-
-        /* El contenedor del animal que se mueve */
-        .corredor {
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            transition: width 1.5s ease-out; /* Animación suave */
-            width: 0%; /* Empieza en 0 */
-        }
-
-        /* La imagen/mascota */
+        /* ESTILOS (Iguales que antes, pero ajustados para imagenes reales) */
+        body { font-family: 'Segoe UI', sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px; overflow-x: hidden; }
+        .pista-container { width: 100%; max-width: 800px; margin: 0 auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-right: 5px dashed #333; position: relative; }
+        .meta-label { position: absolute; right: -35px; top: 50%; transform: translateY(-50%) rotate(90deg); font-weight: bold; color: #333; letter-spacing: 2px; }
+        .carril { display: flex; align-items: center; margin-bottom: 15px; border-bottom: 1px solid #eee; padding-bottom: 5px; position: relative; height: 60px; }
+        .nombre-delegacion { width: 100px; font-weight: bold; font-size: 14px; color: #555; flex-shrink: 0; }
+        .area-corrida { flex-grow: 1; position: relative; height: 100%; }
+        .corredor { position: absolute; top: 0; left: 0; height: 100%; display: flex; align-items: center; transition: width 1.5s ease-out; width: 0%; }
+        .barra { height: 4px; background: linear-gradient(90deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%); width: 100%; border-radius: 2px; position: relative; top: 2px; }
+        
+        /* ESTILO PARA LAS IMÁGENES REALES */
         .mascota-img {
-            font-size: 30px; /* Tamaño si es emoji */
-            width: 40px;     /* Tamaño si es imagen real */
-            height: auto;
+            width: 50px;       /* Tamaño fijo */
+            height: 50px;      
+            object-fit: contain; /* Ajuste perfecto */
             position: absolute;
-            right: 0; /* La imagen siempre al final de su barra */
-            transform: translateX(50%); /* Centrar la imagen sobre su punto */
+            right: 0;
+            transform: translateX(50%); /* Centrado sobre el final de la barra */
             z-index: 2;
         }
-        
-        /* Si usas imágenes reales, descomenta esto:
-        img.mascota-img {
-            width: 40px; 
-            height: 40px;
-            object-fit: contain;
-        } 
-        */
 
-        /* Barra de progreso visual (opcional, detrás del animal) */
-        .barra {
-            height: 4px;
-            background: linear-gradient(90deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
-            width: 100%;
-            border-radius: 2px;
-            position: relative;
-            top: 2px;
-        }
-
-        /* Contador de equipos */
-        .contador {
-            position: absolute;
-            right: -30px; /* Posición encima o al lado del animal */
-            top: -15px;
-            background: #333;
-            color: #fff;
-            font-size: 10px;
-            padding: 2px 5px;
-            border-radius: 4px;
-            opacity: 0;
-            transition: opacity 0.3s;
-        }
-
-        .corredor:hover .contador {
-            opacity: 1;
-        }
-
+        .contador { position: absolute; right: -30px; top: -10px; background: #333; color: #fff; font-size: 10px; padding: 2px 5px; border-radius: 4px; opacity: 0; transition: opacity 0.3s; z-index: 3; }
+        .corredor:hover .contador { opacity: 1; }
     </style>
 </head>
 <body>
-
-    <h2>🏁 Estado de las Inscripciones 🏁</h2>
 
     <div class="pista-container" id="pista">
         <div class="meta-label">META</div>
         </div>
 
     <script>
-        // Función principal
-        async function cargarCarrera() {
-            try {
-                // 1. Cargar los datos del archivo JSON
-                // IMPORTANTE: Para que esto funcione en local, necesitas un servidor local
-                // o subir los archivos a un hosting real debido a políticas de seguridad (CORS).
-                const respuesta = await fetch('carrera.json');
-                const datos = await respuesta.json();
+        // --- ZONA DE EDICIÓN ---
+        // Edita esto directamente aquí en lugar de usar datos.json
+        // Asegurate de que el nombre de la imagen sea EXACTO al del archivo (incluyendo .png o .jpg)
+        const misDatos = [
+          { "delegacion": "Madrid",    "imagen": "leon.png",   "equipos": 45 },
+          { "delegacion": "Barcelona", "imagen": "dragon.png", "equipos": 32 },
+          { "delegacion": "Valencia",  "imagen": "murcielago.png", "equipos": 50 }
+        ];
+        // -----------------------
 
-                // 2. Encontrar el número máximo de equipos para calcular porcentajes
-                // El que tenga más equipos será el 100% (o 90% para dejar margen visual)
-                const maxEquipos = Math.max(...datos.map(d => d.equipos));
-                
-                const contenedor = document.getElementById('pista');
+        function cargarCarrera() {
+            const contenedor = document.getElementById('pista');
+            
+            // Calculamos el máximo para saber quién va al 100%
+            const maxEquipos = Math.max(...misDatos.map(d => d.equipos));
 
-                // 3. Crear los elementos HTML por cada delegación
-                datos.forEach(dato => {
-                    // Calcular porcentaje relativo al líder
-                    // Si el líder tiene 50, y este tiene 25, será el 50% del ancho
-                    // Usamos 90% como máximo para que no se pegue totalmente al borde derecho
-                    let porcentaje = 0;
-                    if(maxEquipos > 0) {
-                        porcentaje = (dato.equipos / maxEquipos) * 90;
-                    }
+            misDatos.forEach(dato => {
+                let porcentaje = 0;
+                if(maxEquipos > 0) {
+                    // Usamos 90% para dejar espacio a la imagen antes del borde
+                    porcentaje = (dato.equipos / maxEquipos) * 90;
+                }
 
-                    // Si es una imagen real, cambiar el tag dentro de .mascota-img
-                    // Ejemplo: <img src="${dato.imagen}" class="mascota-img">
-                    const htmlCarril = `
-                        <div class="carril">
-                            <div class="nombre-delegacion">${dato.delegacion}</div>
-                            <div class="area-corrida">
-                                <div class="corredor" style="width: ${porcentaje}%">
-                                    <div class="barra"></div>
-                                    <div class="mascota-img">${dato.imagen}</div> 
-                                    <div class="contador">${dato.equipos} equipos</div>
-                                </div>
+                const htmlCarril = `
+                    <div class="carril">
+                        <div class="nombre-delegacion">${dato.delegacion}</div>
+                        <div class="area-corrida">
+                            <div class="corredor" style="width: ${porcentaje}%">
+                                <div class="barra"></div>
+                                <img src="${dato.imagen}" class="mascota-img" alt="${dato.delegacion}" onerror="this.style.display='none'">
+                                <div class="contador">${dato.equipos} equipos</div>
                             </div>
                         </div>
-                    `;
-                    
-                    // Insertar en el HTML
-                    contenedor.insertAdjacentHTML('beforeend', htmlCarril);
-                });
-
-            } catch (error) {
-                console.error("Error al cargar los datos:", error);
-                document.getElementById('pista').innerHTML = "<p>Error cargando la carrera. Verifica que datos.json existe.</p>";
-            }
+                    </div>
+                `;
+                contenedor.insertAdjacentHTML('beforeend', htmlCarril);
+            });
         }
 
-        // Ejecutar al cargar
         cargarCarrera();
     </script>
 </body>

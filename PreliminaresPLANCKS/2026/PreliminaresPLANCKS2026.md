@@ -151,7 +151,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
       <!-- CARRERA -->
      <h3>¡Sigue la carrera de inscripciones!</h3>
      <iframe 
-        src="carrera.html" 
+        src="/PreliminaresPLANCKS/2026/carrera.html" 
         width="100%" 
         height="500px" 
         frameborder="0" 
