@@ -1,82 +1,209 @@
+---
+layout: null
+---
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrera de Delegaciones</title>
+    <title>Carrera de Popularidad</title>
+    <!-- Estilos CSS (Tailwind) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    
     <style>
-        /* ESTILOS (Iguales que antes, pero ajustados para imagenes reales) */
-        body { font-family: 'Segoe UI', sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px; overflow-x: hidden; }
-        .pista-container { width: 100%; max-width: 800px; margin: 0 auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-right: 5px dashed #333; position: relative; }
-        .meta-label { position: absolute; right: -35px; top: 50%; transform: translateY(-50%) rotate(90deg); font-weight: bold; color: #333; letter-spacing: 2px; }
-        .carril { display: flex; align-items: center; margin-bottom: 15px; border-bottom: 1px solid #eee; padding-bottom: 5px; position: relative; height: 60px; }
-        .nombre-delegacion { width: 100px; font-weight: bold; font-size: 14px; color: #555; flex-shrink: 0; }
-        .area-corrida { flex-grow: 1; position: relative; height: 100%; }
-        .corredor { position: absolute; top: 0; left: 0; height: 100%; display: flex; align-items: center; transition: width 1.5s ease-out; width: 0%; }
-        .barra { height: 4px; background: linear-gradient(90deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%); width: 100%; border-radius: 2px; position: relative; top: 2px; }
-        
-        /* ESTILO PARA LAS IMÁGENES REALES */
-        .mascota-img {
-            width: 50px;       /* Tamaño fijo */
-            height: 50px;      
-            object-fit: contain; /* Ajuste perfecto */
-            position: absolute;
-            right: 0;
-            transform: translateX(50%); /* Centrado sobre el final de la barra */
-            z-index: 2;
+        /* CSS PURO */
+        body { font-family: 'Nunito', sans-serif; background-color: transparent; }
+        h1, h2 { font-family: 'Fredoka One', cursive; }
+        .track-surface {
+            background-color: #ef4444;
+            background-image: repeating-linear-gradient(90deg, transparent, transparent 99px, rgba(255,255,255,0.4) 100px);
+            border: 4px solid #b91c1c;
         }
-
-        .contador { position: absolute; right: -30px; top: -10px; background: #333; color: #fff; font-size: 10px; padding: 2px 5px; border-radius: 4px; opacity: 0; transition: opacity 0.3s; z-index: 3; }
-        .corredor:hover .contador { opacity: 1; }
+        /* Animación suave */
+        .runner { transition: left 1.5s cubic-bezier(0.34, 1.56, 0.64, 1); }
+        ::-webkit-scrollbar { display: none; }
     </style>
 </head>
-<body>
+<body class="p-2">
 
-    <div class="pista-container" id="pista">
-        <div class="meta-label">META</div>
-        </div>
-
-    <script>
-        // --- ZONA DE EDICIÓN ---
-        // Edita esto directamente aquí en lugar de usar datos.json
-        // Asegurate de que el nombre de la imagen sea EXACTO al del archivo (incluyendo .png o .jpg)
-        const misDatos = [
-          { "delegacion": "Madrid",    "imagen": "leon.png",   "equipos": 45 },
-          { "delegacion": "Barcelona", "imagen": "dragon.png", "equipos": 32 },
-          { "delegacion": "Valencia",  "imagen": "murcielago.png", "equipos": 50 }
-        ];
-        // -----------------------
-
-        function cargarCarrera() {
-            const contenedor = document.getElementById('pista');
+    <div class="max-w-4xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
             
-            // Calculamos el máximo para saber quién va al 100%
-            const maxEquipos = Math.max(...misDatos.map(d => d.equipos));
+            <!-- PISTA -->
+            <div class="lg:col-span-3 shadow-xl rounded-xl overflow-hidden relative">
+                <div class="bg-red-800 text-white p-2 flex justify-between items-center px-4 border-b-2 border-red-900 z-10 relative">
+                    <span class="font-bold text-sm uppercase tracking-wider">🏁 Carrera de Equipos</span>
+                    <span id="global-counter" class="bg-red-900 px-2 py-0.5 rounded text-xs font-mono text-yellow-300 border border-red-700">
+                        Cargando...
+                    </span>
+                </div>
 
-            misDatos.forEach(dato => {
-                let porcentaje = 0;
-                if(maxEquipos > 0) {
-                    // Usamos 90% para dejar espacio a la imagen antes del borde
-                    porcentaje = (dato.equipos / maxEquipos) * 90;
-                }
-
-                const htmlCarril = `
-                    <div class="carril">
-                        <div class="nombre-delegacion">${dato.delegacion}</div>
-                        <div class="area-corrida">
-                            <div class="corredor" style="width: ${porcentaje}%">
-                                <div class="barra"></div>
-                                <img src="${dato.imagen}" class="mascota-img" alt="${dato.delegacion}" onerror="this.style.display='none'">
-                                <div class="contador">${dato.equipos} equipos</div>
-                            </div>
-                        </div>
+                <div class="track-surface relative p-4 h-[350px] flex flex-col justify-center">
+                    <!-- Línea de Meta -->
+                    <div class="absolute right-8 top-0 bottom-0 w-4 border-r-4 border-white z-0 flex flex-col justify-center items-center">
+                        <div class="h-full border-r-2 border-dashed border-white opacity-50"></div>
+                        <span class="absolute -bottom-6 text-red-800 font-bold text-xs">TOTAL</span>
                     </div>
-                `;
-                contenedor.insertAdjacentHTML('beforeend', htmlCarril);
-            });
+
+                    <!-- Contenedor de corredores -->
+                    <div id="runners-container" class="relative w-full h-full"></div>
+                </div>
+            </div>
+
+            <!-- CLASIFICACIÓN -->
+            <div class="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden h-fit">
+                <div class="bg-gray-800 p-2 text-white font-bold text-center text-xs uppercase">
+                    📊 Cuota de Equipo
+                </div>
+                <div class="p-2">
+                    <ul id="leaderboard" class="space-y-1 text-sm">
+                        <li class="text-center text-gray-400 text-xs italic p-4">Iniciando...</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 
+      ========================================
+      JAVASCRIPT Y DATOS (TODO EN UNO)
+      ========================================
+    -->
+    <script>
+        // ---------------------------------------------------------
+        // 1. ZONA DE EDICIÓN DE DATOS
+        // Cambia los números aquí directamente.
+        // ---------------------------------------------------------
+        const raceData = [
+          {
+            "id": "perro",
+            "nombre": "Equipo Guau",
+            "imagen": "https://img.icons8.com/emoji/96/000000/dog.png",
+            "inscritos": 45
+          },
+          {
+            "id": "gato",
+            "nombre": "Team Miau",
+            "imagen": "https://img.icons8.com/emoji/96/000000/cat.png",
+            "inscritos": 80
+          },
+          {
+            "id": "conejo",
+            "nombre": "Velociraptors",
+            "imagen": "https://img.icons8.com/emoji/96/000000/rabbit.png",
+            "inscritos": 15
+          },
+          {
+            "id": "tortuga",
+            "nombre": "Paso Lento",
+            "imagen": "https://img.icons8.com/emoji/96/000000/turtle.png",
+            "inscritos": 5
+          },
+          {
+            "id": "zorro",
+            "nombre": "Astutos FC",
+            "imagen": "https://img.icons8.com/emoji/96/000000/fox.png",
+            "inscritos": 70
+          },
+          {
+            "id": "panda",
+            "nombre": "Bambu Club",
+            "imagen": "https://img.icons8.com/emoji/96/000000/panda-face.png",
+            "inscritos": 95
+          }
+        ];
+
+        // ---------------------------------------------------------
+        // 2. LÓGICA (No hace falta tocar nada abajo)
+        // ---------------------------------------------------------
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            procesarCarrera(raceData);
+        });
+
+        function procesarCarrera(data) {
+            // Calcular Gran Total
+            const grandTotal = data.reduce((suma, equipo) => suma + (equipo.inscritos || 0), 0);
+            
+            document.getElementById('global-counter').innerText = `Total Inscritos: ${grandTotal}`;
+            renderRace(data, grandTotal);
         }
 
-        cargarCarrera();
+        function renderRace(data, totalGlobal) {
+            const trackContainer = document.getElementById('runners-container');
+            const leaderboardContainer = document.getElementById('leaderboard');
+            
+            let runnersHtml = '';
+            let leaderboardData = [];
+            
+            const totalRunners = data.length;
+            const availableHeight = 85; 
+            const step = totalRunners > 1 ? availableHeight / (totalRunners - 1) : 0;
+
+            data.forEach((item, index) => {
+                let percentage = 0;
+                let ratio = 0;
+                
+                if (totalGlobal > 0) {
+                    ratio = item.inscritos / totalGlobal;
+                    percentage = Math.min(ratio * 92, 92);
+                }
+                
+                const topPos = 5 + (index * step);
+
+                runnersHtml += `
+                <div id="runner-${item.id}" 
+                     class="runner absolute left-0 flex flex-col items-center z-20 group" 
+                     style="top: ${topPos}%; left: ${percentage}%;">
+                    <img src="${item.imagen}" 
+                         class="h-10 w-10 object-contain drop-shadow-md transform -scale-x-100 transition-transform hover:scale-110"
+                         onerror="this.src='https://img.icons8.com/emoji/48/000000/question-mark.png'">
+                    <div class="opacity-0 group-hover:opacity-100 absolute -top-8 bg-black text-white text-[10px] px-2 py-1 rounded transition-opacity whitespace-nowrap z-50 pointer-events-none">
+                        ${item.nombre}: ${item.inscritos}
+                    </div>
+                </div>`;
+
+                leaderboardData.push({ ...item, ratio: ratio });
+            });
+
+            trackContainer.innerHTML = runnersHtml;
+
+            // Tabla
+            leaderboardData.sort((a, b) => b.inscritos - a.inscritos);
+            
+            let tableHtml = '';
+            leaderboardData.forEach((item, index) => {
+                const rank = index + 1;
+                const percentText = Math.round(item.ratio * 100);
+                
+                let rowClass = "flex items-center justify-between p-1.5 rounded border-b border-gray-100 last:border-0 hover:bg-gray-50";
+                let badgeClass = "bg-gray-100 text-gray-600";
+                
+                if (index === 0 && item.inscritos > 0) {
+                    rowClass = "flex items-center justify-between p-1.5 rounded bg-yellow-50 border border-yellow-200 shadow-sm mb-1";
+                    badgeClass = "bg-yellow-200 text-yellow-800 font-bold";
+                }
+
+                tableHtml += `
+                <li class="${rowClass} flex-col items-stretch">
+                    <div class="flex justify-between items-center mb-1">
+                        <div class="flex items-center">
+                            <span class="text-[10px] font-bold text-gray-400 w-4 text-center mr-1">${rank}º</span>
+                            <img src="${item.imagen}" class="w-4 h-4 mr-2 object-contain">
+                            <span class="text-xs font-semibold text-gray-700 truncate max-w-[80px]">${item.nombre}</span>
+                        </div>
+                        <span class="text-[10px] px-1.5 rounded ${badgeClass}">${percentText}%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-1">
+                        <div class="bg-blue-500 h-1 rounded-full" style="width: ${percentText}%"></div>
+                    </div>
+                    <div class="text-[9px] text-gray-400 text-right mt-0.5">${item.inscritos} inscritos</div>
+                </li>`;
+            });
+            leaderboardContainer.innerHTML = tableHtml;
+        }
     </script>
 </body>
 </html>
