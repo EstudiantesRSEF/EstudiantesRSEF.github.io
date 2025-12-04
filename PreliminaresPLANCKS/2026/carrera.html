@@ -1,209 +1,214 @@
----
-layout: null
----
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrera de Popularidad</title>
-    <!-- Estilos CSS (Tailwind) -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Fuentes -->
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
-    
+    <title>Carrera de Delegaciones</title>
     <style>
-        /* CSS PURO */
-        body { font-family: 'Nunito', sans-serif; background-color: transparent; }
-        h1, h2 { font-family: 'Fredoka One', cursive; }
-        .track-surface {
-            background-color: #ef4444;
-            background-image: repeating-linear-gradient(90deg, transparent, transparent 99px, rgba(255,255,255,0.4) 100px);
-            border: 4px solid #b91c1c;
+        /* --- ESTILOS GENERALES Y FONDO --- */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* Fondo de cielo degradado */
+            background: linear-gradient(to bottom, #87CEEB 0%, #E0F6FF 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh; /* Ocupar toda la altura */
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
-        /* Animación suave */
-        .runner { transition: left 1.5s cubic-bezier(0.34, 1.56, 0.64, 1); }
-        ::-webkit-scrollbar { display: none; }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
+            margin-bottom: 30px;
+        }
+
+        /* --- CONTENEDOR DE LA PISTA --- */
+        .pista-container {
+            width: 100%;
+            max-width: 900px;
+            background: transparent; /* Fondo transparente */
+            padding-top: 20px;
+            padding-bottom: 20px;
+            position: relative;
+            /* Sombra para dar efecto de elevación */
+            box-shadow: 0 15px 25px rgba(0,0,0,0.15);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        /* Línea de META a cuadros */
+        .pista-container::after {
+            content: '';
+            position: absolute;
+            right: 10px;
+            top: 0;
+            bottom: 0;
+            width: 15px;
+            background: repeating-linear-gradient(
+                45deg,
+                #fff,
+                #fff 5px,
+                #333 5px,
+                #333 10px
+            );
+            z-index: 1;
+            opacity: 0.7;
+        }
+
+        /* --- ESTILOS DEL CARRIL --- */
+        .carril {
+            display: flex;
+            align-items: center;
+            position: relative;
+            height: 80px; /* Más altura para los personajes */
+            /* Línea divisoria blanca gruesa */
+            border-bottom: 4px solid rgba(255, 255, 255, 0.8);
+            padding: 0 20px;
+        }
+        
+        /* Colores alternos para los carriles */
+        .carril:nth-child(4n+1) { background-color: #e74c3c; } /* Rojo */
+        .carril:nth-child(4n+2) { background-color: #2ecc71; } /* Verde */
+        .carril:nth-child(4n+3) { background-color: #3498db; } /* Azul */
+        .carril:nth-child(4n+4) { background-color: #f1c40f; } /* Amarillo */
+
+        .nombre-delegacion {
+            width: 130px;
+            font-weight: bold;
+            font-size: 16px;
+            color: white; /* Texto blanco */
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.6); /* Sombra para contraste */
+            flex-shrink: 0;
+            z-index: 2;
+        }
+
+        .area-corrida {
+            flex-grow: 1;
+            position: relative;
+            height: 100%;
+            margin-right: 20px; /* Espacio antes de la meta */
+        }
+
+        /* --- EL CORREDOR QUE SE MUEVE --- */
+        .corredor {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            transition: width 1.8s cubic-bezier(0.25, 0.1, 0.25, 1); /* Movimiento más suave */
+            width: 0%;
+        }
+
+        /* Contenedor del personaje y el contador */
+        .personaje-container {
+            position: absolute;
+            right: 0;
+            /* Centrar el punto medio del personaje en el final de la barra */
+            transform: translateX(50%); 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 5;
+        }
+
+        /* --- ESTILO PARA EMOJIS --- */
+        .mascota-icono {
+            font-size: 45px;
+            line-height: 1;
+            /* Sombra para que destaque del suelo */
+            filter: drop-shadow(0 4px 4px rgba(0,0,0,0.3));
+            margin-bottom: 5px;
+        }
+        
+        /* --- ESTILO PARA IMÁGENES PNG (Para el futuro) --- */
+        .mascota-img {
+            width: 65px;
+            height: 65px;
+            object-fit: contain;
+            filter: drop-shadow(0 4px 4px rgba(0,0,0,0.3));
+            margin-bottom: 5px;
+        }
+
+        /* --- CONTADOR DE EQUIPOS --- */
+        .contador {
+            font-weight: bold;
+            color: white;
+            font-size: 14px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+            white-space: nowrap;
+            background-color: rgba(0,0,0,0.2); /* Pequeño fondo oscuro */
+            padding: 2px 6px;
+            border-radius: 10px;
+        }
+
     </style>
 </head>
-<body class="p-2">
+<body>
 
-    <div class="max-w-4xl mx-auto">
-        <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
-            
-            <!-- PISTA  -->
-            <div class="lg:col-span-3 shadow-xl rounded-xl overflow-hidden relative">
-                <div class="bg-red-800 text-white p-2 flex justify-between items-center px-4 border-b-2 border-red-900 z-10 relative">
-                    <span class="font-bold text-sm uppercase tracking-wider">🏁 Carrera de Equipos</span>
-                    <span id="global-counter" class="bg-red-900 px-2 py-0.5 rounded text-xs font-mono text-yellow-300 border border-red-700">
-                        Cargando...
-                    </span>
-                </div>
+    <h2>🏁 Estado de las Inscripciones 🏁</h2>
 
-                <div class="track-surface relative p-4 h-[350px] flex flex-col justify-center">
-                    <!-- Línea de Meta -->
-                    <div class="absolute right-8 top-0 bottom-0 w-4 border-r-4 border-white z-0 flex flex-col justify-center items-center">
-                        <div class="h-full border-r-2 border-dashed border-white opacity-50"></div>
-                        <span class="absolute -bottom-6 text-red-800 font-bold text-xs">TOTAL</span>
-                    </div>
-
-                    <!-- Contenedor de corredores -->
-                    <div id="runners-container" class="relative w-full h-full"></div>
-                </div>
-            </div>
-
-            <!-- CLASIFICACIÓN -->
-            <div class="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden h-fit">
-                <div class="bg-gray-800 p-2 text-white font-bold text-center text-xs uppercase">
-                    📊 Cuota de Equipo
-                </div>
-                <div class="p-2">
-                    <ul id="leaderboard" class="space-y-1 text-sm">
-                        <li class="text-center text-gray-400 text-xs italic p-4">Iniciando...</li>
-                    </ul>
-                </div>
-            </div>
+    <div class="pista-container" id="pista">
         </div>
-    </div>
 
-    <!-- 
-      ========================================
-      JAVASCRIPT Y DATOS (TODO EN UNO)
-      ========================================
-    -->
     <script>
-        // ---------------------------------------------------------
-        // 1. ZONA DE EDICIÓN DE DATOS
-        // Cambia los números aquí directamente.
-        // ---------------------------------------------------------
-        const raceData = [
-          {
-            "id": "perro",
-            "nombre": "Equipo Guau",
-            "imagen": "https://img.icons8.com/emoji/96/000000/dog.png",
-            "inscritos": 45
-          },
-          {
-            "id": "gato",
-            "nombre": "Team Miau",
-            "imagen": "https://img.icons8.com/emoji/96/000000/cat.png",
-            "inscritos": 80
-          },
-          {
-            "id": "conejo",
-            "nombre": "Velociraptors",
-            "imagen": "https://img.icons8.com/emoji/96/000000/rabbit.png",
-            "inscritos": 15
-          },
-          {
-            "id": "tortuga",
-            "nombre": "Paso Lento",
-            "imagen": "https://img.icons8.com/emoji/96/000000/turtle.png",
-            "inscritos": 5
-          },
-          {
-            "id": "zorro",
-            "nombre": "Astutos FC",
-            "imagen": "https://img.icons8.com/emoji/96/000000/fox.png",
-            "inscritos": 70
-          },
-          {
-            "id": "panda",
-            "nombre": "Bambu Club",
-            "imagen": "https://img.icons8.com/emoji/96/000000/panda-face.png",
-            "inscritos": 95
-          }
+        // =================================================================
+        // ZONA DE DATOS: ¡Edita esto con tus delegaciones!
+        // =================================================================
+        // NOTA: En 'imagen' pon el nombre de tu archivo PNG (ej: "leon.png")
+        //       En 'icono' pon el emoji que quieras usar mientras tanto.
+        const datosCarrera = [
+          { "delegacion": "UAB",      "imagen": "cohete.png",    "icono": "🚀", "equipos": 18 },
+          { "delegacion": "UCM",      "imagen": "cisne.png",     "icono": "🦢", "equipos": 5 },
+          { "delegacion": "UV",       "imagen": "coche.png",     "icono": "🚗", "equipos": 5 },
+          { "delegacion": "UniOvi",   "imagen": "oso.png",       "icono": "🐻", "equipos": 4 },
+          { "delegacion": "UMU",      "imagen": "zanahoria.png", "icono": "🥕", "equipos": 3 },
+          { "delegacion": "UGR",      "imagen": "lobo.png",      "icono": "🐺", "equipos": 2 }
         ];
+        // =================================================================
 
-        // ---------------------------------------------------------
-        // 2. LÓGICA (No hace falta tocar nada abajo)
-        // ---------------------------------------------------------
-        
-        document.addEventListener('DOMContentLoaded', () => {
-            procesarCarrera(raceData);
-        });
 
-        function procesarCarrera(data) {
-            // Calcular Gran Total
-            const grandTotal = data.reduce((suma, equipo) => suma + (equipo.inscritos || 0), 0);
+        function dibujarCarrera() {
+            const contenedor = document.getElementById('pista');
             
-            document.getElementById('global-counter').innerText = `Total Inscritos: ${grandTotal}`;
-            renderRace(data, grandTotal);
-        }
+            // 1. Encontrar el máximo de equipos para calcular el 100%
+            const maxEquipos = Math.max(...datosCarrera.map(d => d.equipos));
 
-        function renderRace(data, totalGlobal) {
-            const trackContainer = document.getElementById('runners-container');
-            const leaderboardContainer = document.getElementById('leaderboard');
-            
-            let runnersHtml = '';
-            let leaderboardData = [];
-            
-            const totalRunners = data.length;
-            const availableHeight = 85; 
-            const step = totalRunners > 1 ? availableHeight / (totalRunners - 1) : 0;
-
-            data.forEach((item, index) => {
-                let percentage = 0;
-                let ratio = 0;
-                
-                if (totalGlobal > 0) {
-                    ratio = item.inscritos / totalGlobal;
-                    percentage = Math.min(ratio * 92, 92);
-                }
-                
-                const topPos = 5 + (index * step);
-
-                runnersHtml += `
-                <div id="runner-${item.id}" 
-                     class="runner absolute left-0 flex flex-col items-center z-20 group" 
-                     style="top: ${topPos}%; left: ${percentage}%;">
-                    <img src="${item.imagen}" 
-                         class="h-10 w-10 object-contain drop-shadow-md transform -scale-x-100 transition-transform hover:scale-110"
-                         onerror="this.src='https://img.icons8.com/emoji/48/000000/question-mark.png'">
-                    <div class="opacity-0 group-hover:opacity-100 absolute -top-8 bg-black text-white text-[10px] px-2 py-1 rounded transition-opacity whitespace-nowrap z-50 pointer-events-none">
-                        ${item.nombre}: ${item.inscritos}
-                    </div>
-                </div>`;
-
-                leaderboardData.push({ ...item, ratio: ratio });
-            });
-
-            trackContainer.innerHTML = runnersHtml;
-
-            // Tabla
-            leaderboardData.sort((a, b) => b.inscritos - a.inscritos);
-            
-            let tableHtml = '';
-            leaderboardData.forEach((item, index) => {
-                const rank = index + 1;
-                const percentText = Math.round(item.ratio * 100);
-                
-                let rowClass = "flex items-center justify-between p-1.5 rounded border-b border-gray-100 last:border-0 hover:bg-gray-50";
-                let badgeClass = "bg-gray-100 text-gray-600";
-                
-                if (index === 0 && item.inscritos > 0) {
-                    rowClass = "flex items-center justify-between p-1.5 rounded bg-yellow-50 border border-yellow-200 shadow-sm mb-1";
-                    badgeClass = "bg-yellow-200 text-yellow-800 font-bold";
+            datosCarrera.forEach((dato, index) => {
+                // 2. Calcular porcentaje (Usamos 95% máximo para que no se monte en la meta)
+                let porcentaje = 0;
+                if(maxEquipos > 0) {
+                    porcentaje = (dato.equipos / maxEquipos) * 95;
                 }
 
-                tableHtml += `
-                <li class="${rowClass} flex-col items-stretch">
-                    <div class="flex justify-between items-center mb-1">
-                        <div class="flex items-center">
-                            <span class="text-[10px] font-bold text-gray-400 w-4 text-center mr-1">${rank}º</span>
-                            <img src="${item.imagen}" class="w-4 h-4 mr-2 object-contain">
-                            <span class="text-xs font-semibold text-gray-700 truncate max-w-[80px]">${item.nombre}</span>
+                // 3. Crear el HTML del carril
+                const htmlCarril = `
+                    <div class="carril" style="z-index: ${datosCarrera.length - index};">
+                        <div class="nombre-delegacion">${dato.delegacion}</div>
+                        <div class="area-corrida">
+                            <div class="corredor" style="width: ${porcentaje}%">
+                                <div class="personaje-container">
+                                    
+                                    <div class="mascota-icono">${dato.icono}</div>
+                                    <div class="contador">(${dato.equipos})</div>
+                                </div>
+                            </div>
                         </div>
-                        <span class="text-[10px] px-1.5 rounded ${badgeClass}">${percentText}%</span>
                     </div>
-                    <div class="w-full bg-gray-200 rounded-full h-1">
-                        <div class="bg-blue-500 h-1 rounded-full" style="width: ${percentText}%"></div>
-                    </div>
-                    <div class="text-[9px] text-gray-400 text-right mt-0.5">${item.inscritos} inscritos</div>
-                </li>`;
+                `;
+                
+                // Insertar el carril en la pista
+                contenedor.insertAdjacentHTML('beforeend', htmlCarril);
             });
-            leaderboardContainer.innerHTML = tableHtml;
         }
+
+        // Ejecutar la función al cargar
+        dibujarCarrera();
     </script>
 </body>
 </html>
