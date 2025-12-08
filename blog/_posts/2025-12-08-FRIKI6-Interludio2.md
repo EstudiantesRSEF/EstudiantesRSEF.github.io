@@ -2,7 +2,7 @@
 layout: post
 categories: 
    - blog 
-   - Divulgación 
+   - Reflexiones 
    - "Diario de un Friki"
 title:  "Diario de un Friki VI: Interludio del Amor II"
 date: 2025-12-08 11:00
