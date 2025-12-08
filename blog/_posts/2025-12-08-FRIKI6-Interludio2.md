@@ -101,6 +101,7 @@ racional. No entiendo por qué con ella todo es diferente.
 Yo no sé bailar esta danza. No quiero escuchar esta música. Esto no es lo mío. Yo… me voy a 
 dormir. 
   </p>
+  <br>
   <p>
 <s>Atte.</s> 
 </p>
@@ -131,6 +132,7 @@ Lo tengo decidido: la invitaré a dar un paseo en noria conmigo.
   </p>
 <p>
 Que pase lo que tenga que pasar.
+</p>
 <br>
 <p>
 Atte.
