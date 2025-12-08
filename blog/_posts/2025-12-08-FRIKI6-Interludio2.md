@@ -108,6 +108,8 @@ dormir.
   <p>
 <s>Un Friki</s>
   </p>
+  <br>
+  <p>
 ¡Ah!  Me levanto tras horas dando vueltas en mi cama, incapaz de conciliar el sueño. ¿De qué 
 me serviría entender el mundo si mi mundo se queda vacío? Esta maldita danza, aun siendo 
 incomprensible para mí, tengo que bailarla. Y si pierdo en ella, perderé; al igual que cada uno de 
