@@ -268,8 +268,9 @@ abordan en la vanguardia de la investigación. </p>
 <p> 
 Sin duda, una entrevista muy completa, y estamos muy agradecido a José Edelstein por 
 concederla y compartir ese rato con nosotros. Desde el Blog le deseamos mucha felicidad y 
-mucha suerte en los fascinantes proyectos que está llevando a cabo. ¡Muchas gracias, José!  
-<img class="img-left" src="/img/blog/foto_los_tres.jpeg"></p> 
+mucha suerte en los fascinantes proyectos que está llevando a cabo. ¡Muchas gracias, José!
+</p>
+<img class="img-center-large" src="/img/blog/foto_los_tres.jpeg"> 
 <br> 
 --- 
 <h2>Enlaces recomendados: </h2> 
