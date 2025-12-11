@@ -25,7 +25,7 @@ en Física Teórica.
 <br>
 
 
-<p><img class="img-left" src="/img/blog/foto_perfil.jpg"> 
+<p><img class="img-left" src="/img/blog/edelstein_perfil.jpg"> 
 Uno de los problemas más importantes de la Física moderna consiste en encontrar la teoría 
 cuántica que describa la Gravedad. Muchos creen firmemente en que esta teoría nos brindaría 
 respuestas a preguntas tan fundamentales como el origen del universo, o que despiertan tanto 
