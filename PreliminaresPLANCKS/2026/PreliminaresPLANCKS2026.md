@@ -56,32 +56,17 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
         <a href="/PreliminaresPLANCKS/2025/PreliminaresPLANCKS25_Solutions.pdf" target="_blank"><span><strong>SOLUCIONES DE LOS PROBLEMAS</strong></span></a>
       </h2>
       <hr>
-      <!-- CLASIFICACIÓN -->
-      <hr>
-      <p style="text-align: justify;">Tras vuestro gran trabajo, ¡ya están disponibles las clasificiaciones de este año! Haciendo click en el siguiente botón y poniendo el DNI de vuestro capitán/na vereis el desglose de las puntuaciones</p>
-      <div class="section" style="display: flex; flex-direction: column; justify-content: space-between">
-        <div class="row center">
-          <a href="https://estudiantes.rsef.es/PreliminaresPLANCKS/2025/puntuaciones.html" id="info-clasif" class="collection-item modal-trigger btn-rounded plancks25-color"><i class="material-icons" style="padding-right: 8px;">info</i><strong>Clasificación</strong></a>
-        </div>
-      </div>
-      <hr>      
+       <!-- CLS -->
         <!-- COUNTDOWN -->
-      <div class="row" style="margin-bottom: -10px">  
+       <div class="row" style="margin-bottom: -10px">  
         <p style="text-align: justify;">Las inscripciones para las Preliminares de PLANCKS 2025 se cerrarán en...</p>
         <h3 style="text-align: center;"><p id="countdown" style="text-align:center"></p></h3>
-        <!-- <p style="text-align: justify;">¡No dejes tu inscripción para el último momento para asegurarnos que tendrás aulas y supervisores disponibles en tu facultad!</p>
-        <p style="text-align: justify;"> Hemos comenzado ya con la promoción a todos los estudiantes de física de España. ¡Así que no te quedes sin plaza!</p> -->
-      </div> 
-        <!-- FINAL INSCRIPCIONES -->
-      <div class="section">  
-        <div class="row center">
-          <p style="text-align: justify;">¡Las inscripciones para las Preliminares de PLANCKS 2025 han sido un éxito! Hemos vuelto a superar el número de participantes, con un total de...</p>
-          <h3 style="text-align: center;">¡¡140 equipos en 28 sedes!!</h3>
-          <p style="text-align: justify;">¡Gracias por ser parte de las Preliminares de PLANCKS 2025 y contribuir a su éxito!</p>
-        </div>
-      </div>
+        <p style="text-align: justify;">¡No dejes tu inscripción para el último momento para asegurarnos que tendrás aulas y supervisores disponibles en tu facultad!</p>
+        <p style="text-align: justify;"> Hemos comenzado ya con la promoción a todos los estudiantes de física de España. ¡Así que no te quedes sin plaza!</p> 
+       </div> 
+        <!-- FI -->
         <!-- PUBLICACIONES MÓVILES -->
-      <div class="publicaciones-movil">
+       <div class="publicaciones-movil">
         <div class="publicaciones-row">
           {% for item in site.data.Prelis.PostsList limit:5 %}
           <div class="publicacion">
@@ -417,7 +402,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
 <!-- TIMER SCRIPT -->
 <script>
   // Set the date we're counting down to
-  var countDownDate = new Date("Mar 02, 2025 23:59:59").getTime();
+  var countDownDate = new Date("Mar 02, 2026 23:59:59").getTime();
 
   // Update the count down every 1 second
   var x = setInterval(function() {
