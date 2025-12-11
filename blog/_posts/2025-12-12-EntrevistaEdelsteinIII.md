@@ -134,7 +134,7 @@ la precisión de 1 en \(10^6\) es hoy posible. Hay que tener en cuenta que la ú
 CMB como cuerpo negro fue hecha por COBE el siglo pasado. Si tenemos en cuenta que 
 cuando se lanza un satélite, la tecnología en el momento del lanzamiento ya es antigua porque 
 hay que lanzarlo con la tecnología con la que fue diseñado, vale la pena hacer esa medición 
-nuevamente. <img class="img-right" src="/img/blog/COBE.jpeg"> 
+nuevamente. <img class="img-right" src="/img/blog/COBE.jpg"> 
 </p> 
 <p> 
 Uno puede hacer este ejercicio, que yo creo que es interesante para ser más cauto con este tipo 
@@ -149,7 +149,7 @@ Wilson la encontraron inesperadamente. Pero cuando siga enfriándose el universo
 detectar el CMB vas a necesitar antenas más y más y más grandes. Entonces, la probabilidad de 
 que alguien haya desarrollado tecnología con antenas de 5 km de tamaño tienda a cero, es decir, 
 no se me ocurre por qué motivo lo iba a hacer. <img class="img-left" 
-src="/img/blog/penziaswilson.jpeg"></p> 
+src="/img/blog/penziaswilson.jpg"></p> 
 <p> 
 Además, imaginemos que en ese tiempo se formó esta mezcla entre Andrómeda y la Vía Láctea, 
 y tenemos una galaxia grandota y todas las demás están fuera del horizonte cosmológico. 
@@ -227,7 +227,7 @@ Cecilia, argentina amiga mía que dirige el centro de inteligencia artificial pa
 Harvard, está en la frontera de este tema, y está tratando de adaptar modelos de lenguaje de 
 forma que haya un diálogo; que tú seas capaz de preguntarle como si fuera un colega y que te 
 responda en el mismo lenguaje que hablas tú; con las mismas referencias bibliográficas, etc. 
-<img class="img-left" src="/img/blog/gaston_cecilia_edelstein.jpeg"></p> 
+<img class="img-left" src="/img/blog/gaston_cecilia_edelstein.jpg"></p> 
 <p> 
 La inteligencia artificial es un tema fascinante y no sé muy bien a dónde nos va a llevar. En 
 ciencia, desde luego, es una herramienta muy poderosa y ya nos está llevando alegrías. </p> 
