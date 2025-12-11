@@ -45,7 +45,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
           <a href="#supervisores-modal" id="supervisores-button" class="collection-item modal-trigger btn-rounded plancks25-color" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Supervisoras/es</strong></a>
           <a href="#plancks-modal" id="conocer-button" class="collection-item modal-trigger btn-rounded plancks25-color" style="margin: 0 10px; line-height: 1.1;"><i class="material-icons" style="padding-right: 8px;">explore</i><strong>Conoce Plancks</strong></a>
           <a href="#premios-modal" id="premios-button" class="collection-item modal-trigger btn-rounded plancks25-color" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">star</i><strong>Premios</strong></a>
-          <a href="#inscripcion-modal" id="inscripcion-button" class="collection-item modal-trigger btn-rounded plancks25-color" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">create</i><strong>Inscríbete</strong></a>
+          <a href="#inscripcion-modal" id="inscripcion-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">create</i><strong>Inscríbete</strong></a>
         </div>
       </div>
       <!-- SOLUCIONES -->
