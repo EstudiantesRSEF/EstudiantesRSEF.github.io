@@ -124,7 +124,7 @@ funcionando también, entonces están mal las teorías que tenemos. A esa precis
 detalles del CMB, como por ejemplo la recombinación del Helio (que ocurrió antes que la del 
 Hidrógeno); debería de haber líneas faltantes en el espectro igual que ocurre en el Sol. </p> 
 <p> 
-<img class="img-left" src="/img/blog/espectroSolar.jpg"> 
+<img class="img-left" src="/img/blog/espectroSolar.png"> 
 Si uno mira el espectro del Sol medido desde fuera de la atmósfera, verá que le faltan un montón 
 de líneas. Es como un cuerpo negro intervenido, con mordiscos por todas partes que te hablan 
 en detalle de la composición atmosférica del Sol o incluso de su interior. </p> 
