@@ -48,14 +48,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
           <a href="#inscripcion-modal" id="inscripcion-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">create</i><strong>Inscríbete</strong></a>
         </div>
       </div>
-      <!-- SOLUCIONES -->
-      <hr>
-      <p style="text-align: justify;">¡Ya están aquí las soluciones de las Preliminares de PLANCKS 2025! ¿Cómo os ha ido? Consultad las soluciones completas en el siguiente enlace:</p>
-      <h2 style="text-align: center;">
-      <h2 style="text-align: center;">
-        <a href="/PreliminaresPLANCKS/2025/PreliminaresPLANCKS25_Solutions.pdf" target="_blank"><span><strong>SOLUCIONES DE LOS PROBLEMAS</strong></span></a>
-      </h2>
-      <hr>
+       <!-- Slc -->
        <!-- CLS -->
         <!-- COUNTDOWN -->
        <div class="row" style="margin-bottom: -10px">  
@@ -87,10 +80,10 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
       </div>
       <!-- AUTORES -->
       <h3 id="Autores">¡Conoce a l@s autor@s de los problemas!</h3>
-      <p style="text-align:justify;">Los miembros del Comité Académico de las Preliminares PLANCKS 2025 son:</p>
+      <p style="text-align:justify;">Los miembros del Comité Académico de las Preliminares PLANCKS 2026 son:</p>
       <div style="display:flex; flex-wrap:wrap; gap:16px; justify-content:center;">
         {% for year in site.data.Prelis.autores %}
-          {% for autor in year["2025"] %}
+          {% for autor in year["2026"] %}
             <div style="flex:1 1 280px; max-width:340px;">
               <div style="border:1px solid #e0e0e0; border-radius:6px; overflow:hidden; box-shadow:0 2px 4px #e53935; background:#fff;">
                 <div style="background:#b71c1c; color:#fff; display:flex; gap:12px; align-items:center; padding:12px;">
@@ -124,7 +117,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
       </div>
       <!-- COMITÉS -->
       <div class="row"> 
-        <p style="text-align: justify;">Además, puedes <a href="#comites-modal" class="prelis25 modal-trigger">consultar aquí</a> los integrantes del Comité Organizador de las Preliminares de PLANCKS 2025.</p>
+        <p style="text-align: justify;">Además, puedes <a href="#comites-modal" class="prelis25 modal-trigger">consultar aquí</a> los integrantes del Comité Organizador de las Preliminares de PLANCKS 2026.</p>
       </div>    
       <!-- MAP -->
       <div class="section">
