@@ -20,15 +20,14 @@ filosofía y la física."
   ¿Se puede conocer realmente la realidad? ¿Existe Dios? Y, ¿qué pinta un artículo viral 
 sobre una gata en todo esto? Hoy continuamos nuestra entrevista con Anxo Fariña 
 Biasi, investigador en física matemática en el IGFAE. Pasaremos de los desafíos de la 
-carrera científica y el 'postdoc' en España a las preguntas más trascendentales de la 
+carrera científica y el <i>postdoc</i> en España a las preguntas más trascendentales de la 
 filosofía y la física.  
 </p>
 
 <br>
 <p>
 <img class="img-left" src="/img/blog/2025-11-26-Entrevista-Anxo/anxo_solo.jpeg">Presentamos la segunda y penúltima parte de la entrevista a Anxo Fariña Biasi, en la 
-que nos contará sobre su experiencia durante su etapa de postdoctorando, sus 
-creencias filosóficas y sus impresiones de cuando saltó al mundo de lo viral por un 
+que nos contará sobre su experiencia durante su etapa de postdoctorando, reflexionaremos sobre ciertos temas filosóficos, y nos compartirá sus impresiones de cuando saltó al mundo de lo viral por un 
 artículo que publicó sobre su gata. ¡Esperamos que la disfrutéis!
 </p>
 <br>
