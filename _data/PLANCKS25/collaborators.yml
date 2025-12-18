@@ -81,3 +81,10 @@
   link: "https://espanadigital.gob.es/explora"
   width: "20%"
   level: "5"
+
+- name: "Ajuntament de Barcelona"
+  section: "Collaborators"
+  logo: "/img/eventos/2025-PLANCKS/sponsors/Ajuntament-de-Barcelona.jpg"
+  link: "https://www.barcelona.cat/ca"
+  width: "20%"
+  level: "5"
