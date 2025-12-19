@@ -6,7 +6,7 @@ permalink: /PreliminaresPLANCKS/ComitesOrganizadorAcademico/2025/
 
 <div class="no-pad-top" id="index-page">
   <div class="container">
-        <h3 class="justify"><strong>Preliminares de PLANCKS 2023</strong></h3>
+        <h3 class="justify"><strong>Preliminares de PLANCKS 2025</strong></h3>
           <h2 class="justify"><strong>Comités Organizador y Académico</strong></h2>
     <div class="section">
       <div class="row">
@@ -25,6 +25,7 @@ permalink: /PreliminaresPLANCKS/ComitesOrganizadorAcademico/2025/
           <div class="icon-block">
             <h2 class="center">Comité Académico</h2>
             <p align="center">Ángel Sanz Ortiz - Presidente</p>
+            <p align="center">Además, puedes conocer a los autores de los problemas visitando el <a href="https://estudiantes.rsef.es/PreliminaresPLANCKS2025/" class="prelis25 modal-trigger">post web</a>.</p>
           </div>
         </div>
       </div>

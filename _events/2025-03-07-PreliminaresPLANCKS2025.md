@@ -11,7 +11,7 @@ gallery:
 site: /PreliminaresPLANCKS2025/
 ranking: https://estudiantes.rsef.es/PreliminaresPLANCKS/2025/puntuaciones.html
 exam: https://estudiantes.rsef.es/PreliminaresPLANCKS/2025/PreliminaresPLANCKS25_Solutions.pdf
-comm: 
+comm: https://estudiantes.rsef.es/PreliminaresPLANCKS/ComitesOrganizadorAcademico/2025/
 ---
 
 
