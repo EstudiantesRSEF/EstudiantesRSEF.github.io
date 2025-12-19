@@ -9,8 +9,8 @@ locandina: /img/eventos/2025-PrelisPLANCKS/Prelis25_Logo.png
 cover: /img/eventos/2025-PrelisPLANCKS/Prelis25_Logo.png
 gallery:
 site: /PreliminaresPLANCKS2025/
-ranking: 
-exam: 
+ranking: https://estudiantes.rsef.es/PreliminaresPLANCKS/2025/puntuaciones.html
+exam: https://estudiantes.rsef.es/PreliminaresPLANCKS/2025/PreliminaresPLANCKS25_Solutions.pdf
 comm: 
 ---
 
