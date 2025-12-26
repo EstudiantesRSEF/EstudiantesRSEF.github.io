@@ -7,9 +7,14 @@
   secretario: "Alicia Iglesias Guerra"
   tesorero: "Javier Ruiz Morales"
   colaboradores:
+    - nombre_col: "Rodrigo Perucho Ferreiro"
+    - nombre_col: "Jaime Pulido Romero"
+    - nombre_col: "Alejandro Pintado Blanco"
+    - nombre_col: "Juan Ignacio Pedretti Álvarez"
+    - nombre_col: "Alejandro Sanz Ramírez"
   fundacion: "07/2019"
   ins: "https://www.instagram.com/estudiantesrsef_ucm/"
-  tw:
+  tw: "https://twitter.com/EstRSEF_UCM"
   fb: "https://www.facebook.com/EstudiantesRSEF.UCM/"
   ex:
     - nombre_ex: "Tristán Ortiz Roset"
@@ -205,6 +210,8 @@
   vicepresidente: "Said Tahmi"
   secretario: "José García Vicente"
   tesorero: "Pablo Sorribes Córcoles"
+  colaboradores:
+    - nombre_col: "Ernesto Tomás Riera"
   fundacion: "12/2024"
   ins:
   tw:
