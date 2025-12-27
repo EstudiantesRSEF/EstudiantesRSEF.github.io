@@ -11,7 +11,7 @@ header: "/img/junta25-27/Alex.png"
 rol: 
 descr: "Grado en Física - Universitat Autònoma de Barcelona"
 
-video:
+video: "https://archive.org/details/alex_20251227"
 part1: 
 link1: 
 part2: 
