@@ -11,7 +11,7 @@ header: "/img/junta25-27/Javi.png"
 rol: 
 descr: "Doble Grado en Física y Matemáticas - Universitat de València"
 
-video:
+video: "https://archive.org/embed/javier-rodriguez_202512"
 part1: 
 link1: 
 part2: 
