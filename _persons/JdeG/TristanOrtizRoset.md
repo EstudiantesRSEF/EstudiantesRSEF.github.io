@@ -11,7 +11,7 @@ header: "/img/junta25-27/Tristan.png"
 rol: 
 descr: "Grado en Física - Universidad Complutense de Madrid"
 
-video:
+video: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 part1: 
 link1: 
 part2: 

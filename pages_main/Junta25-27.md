@@ -154,6 +154,17 @@ Miembro {{person.nombre}}
           </p>
         {% endif %}
       </div>
+      </div>
+      <!-- Video -->
+      {% if person.video %}
+      <div class="row">
+        <h5 class="justify">Video</h5>
+        <div class="video-container">
+          <iframe src="{{ person.video }}" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+      {% endif %}
+      </div>
       
       <!-- Responsabilidades -->
 
