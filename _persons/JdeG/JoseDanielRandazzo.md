@@ -12,7 +12,7 @@ rol:
 descr: "Máster en Modelización para la Ciencia y la Ingeniería -
 Universitat Autònoma de Barcelona"
 
-video:
+video: "https://archive.org/details/jose_20251229"
 part1: 
 link1: 
 part2: 

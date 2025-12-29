@@ -11,7 +11,7 @@ header: "/img/junta25-27/rodrigo.jpg"
 rol: "Organizador comité de administración web"
 descr: "Doble Grado en Física y Matemáticas- Universidad de Valladolid"
 
-video: "/img/junta25-27/Rodrigo.mp4"
+video: "https://archive.org/details/rodrigo_202512"
 part1: 
 link1: 
 part2: 

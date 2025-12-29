@@ -12,7 +12,7 @@ rol:
 descr: "Máster en Ciencia y Tecnologías de Información Cuántica -
 Universidad de Santiago de Compostela/Vigo/A Coruña"
 
-video:
+video: "https://archive.org/details/vicky_202512"
 part1: 
 link1: 
 part2: 

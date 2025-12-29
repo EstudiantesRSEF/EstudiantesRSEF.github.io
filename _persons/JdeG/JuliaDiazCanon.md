@@ -11,7 +11,7 @@ header: "/img/junta25-27/Julia.png"
 rol: 
 descr: "Grado en Física - Universidad de Granada"
 
-video:
+video: "https://archive.org/details/julia_20251229"
 part1: 
 link1: 
 part2: 

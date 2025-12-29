@@ -11,7 +11,7 @@ header: "/img/junta25-27/Ramon.png"
 rol: 
 descr: "Máster en Física: Nanotecnología - Universidad de Granada"
 
-video:
+video: "https://archive.org/details/ramon_202512"
 part1: 
 link1: 
 part2: 

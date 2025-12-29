@@ -11,7 +11,7 @@ header: "/img/junta25-27/Parra.png"
 rol: 
 descr: "Máster en Nanofísica y Materiales Avanzados - Universidad Complutense de Madrid"
 
-video:
+video: "https://archive.org/details/javierdela-parra_202512"
 part1: 
 link1: 
 part2: 

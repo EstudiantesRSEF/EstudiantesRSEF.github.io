@@ -11,7 +11,7 @@ header: "/img/junta25-27/Lucia.png"
 rol: 
 descr: "Doble Grado en Física y Matemáticas- Universidad de Valladolid"
 
-video:
+video: "https://archive.org/details/lucia_202512"
 part1: 
 link1: 
 part2: 

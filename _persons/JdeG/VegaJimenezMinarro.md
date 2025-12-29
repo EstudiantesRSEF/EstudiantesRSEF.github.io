@@ -11,7 +11,7 @@ header: "/img/junta25-27/Vega.png"
 rol: 
 descr: "Grado en Física - Universitat de València"
 
-video:
+video: "https://archive.org/details/vega_20251229"
 part1: 
 link1: 
 part2: 
