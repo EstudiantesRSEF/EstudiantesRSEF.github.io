@@ -11,7 +11,7 @@ header: "/img/junta25-27/MIchel.png"
 rol: 
 descr: "Doble Grado en Física y Matemáticas - Universidad de Oviedo"
 
-video: "https://archive.org/details/michel_202512"
+video: "https://archive.org/embed/michel_202512"
 part1: 
 link1: 
 part2: 

@@ -11,7 +11,7 @@ header: "/img/junta25-27/Emma.png"
 rol: 
 descr: "Grado en Física - Universitat de València"
 
-video: "https://archive.org/details/emma_20251227"
+video: "https://archive.org/embed/emma_20251227"
 part1: 
 link1: 
 part2: 

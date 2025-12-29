@@ -9,10 +9,9 @@ nombre: "José Daniel Randazzo"
 img: "/img/junta25-27/Jose.png"
 header: "/img/junta25-27/Jose.png"
 rol: 
-descr: "Máster en Modelización para la Ciencia y la Ingeniería -
-Universitat Autònoma de Barcelona"
+descr: "Máster en Modelización para la Ciencia y la Ingeniería - Universitat Autònoma de Barcelona"
 
-video: "https://archive.org/details/jose_20251229"
+video: "https://archive.org/embed/jose_20251229"
 part1: 
 link1: 
 part2: 

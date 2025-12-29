@@ -11,7 +11,7 @@ header: "/img/junta25-27/Kike.png"
 rol: 
 descr: "Máster en Física: Partículas y Astrofísica - Universidad de Granada"
 
-video: "https://archive.org/details/enrique_202512"
+video: "https://archive.org/embed/enrique_202512"
 part1: 
 link1: 
 part2: 

@@ -11,7 +11,7 @@ header: "/img/junta25-27/Cristian.png"
 rol: 
 descr: "Máster en Formación de Profesorado de Física y Química - Universitat Autònoma de Barcelona"
 
-video: "https://archive.org/details/cristian_202512"
+video: "https://archive.org/embed/cristian_202512"
 part1: 
 link1: 
 part2: 

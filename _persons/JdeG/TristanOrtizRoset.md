@@ -11,7 +11,7 @@ header: "/img/junta25-27/Tristan.png"
 rol: 
 descr: "Grado en Física - Universidad Complutense de Madrid"
 
-video: "https://archive.org/details/tristan_202512"
+video: "https://archive.org/embed/tristan_202512"
 part1: 
 link1: 
 part2: 

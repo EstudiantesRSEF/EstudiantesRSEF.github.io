@@ -11,7 +11,7 @@ header: "/img/junta25-27/Javi Murcia.png"
 rol: 
 descr: "Grado en Física - Universidad de Murcia"
 
-video: "https://archive.org/details/javier-torroglosa"
+video: "https://archive.org/embed/javier-torroglosa"
 part1: 
 link1: 
 part2: 
