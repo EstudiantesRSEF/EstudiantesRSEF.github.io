@@ -19,7 +19,7 @@ permalink: /akjdaijbfajdfnoasnn09098/
 
 ## Junta de Gobierno actual
 
-Esta Junta de Gobierno fue elegida el {{ item.dataElecciones }}.
+Esta Junta de Gobierno fue elegida en las elecciones realizadas entre los días {{ item.dataElecciones }}.
 {% if item.dataInicio != nil %}Sus miembros tomaron posesión de su cargo el {{ item.dataInicio }}.{% endif %}
 {% if item.dataFin != nil %}Sus miembros permanecieron en sus respectivos cargos hasta el {{ item.dataFin }}.{% endif %}
 
