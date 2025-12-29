@@ -160,7 +160,7 @@ Miembro {{person.nombre}}
       <div class="row">
         <h5 class="justify">Video</h5>
         <div class="video-container">
-          <iframe src="{{ person.video }}" frameborder="0" allowfullscreen></iframe>
+          <iframe src="{{ person.video }}" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
         </div>
       </div>
       {% endif %}
