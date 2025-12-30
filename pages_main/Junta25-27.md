@@ -41,7 +41,7 @@ Miembro {{person.nombre}}
               <ul class="collection waves-effect waves-light" style="width: 300px">
                 <a href="#{{ person.id | remove: "/" }}-EC5" class="collection-item modal-trigger waves-effect waves-light" style="color: rgba(0, 0, 0, 0.87); padding: 2px">
                   <li class="collection-item avatar5">
-                    <img src="{{ person.img }}" {% if person.nombre contains 'Emma' %} id="foto-emma" {% endif %} style="width: 96px; height: 96px; object-fit: cover; margin-bottom: 10px;" alt="" class="circle">
+                    <img src="{{ person.img }}" style="width: 96px; height: 96px; object-fit: cover; margin-bottom: 10px;" alt="" class="circle">
                     <p class="title" style="padding-left: 120px; padding-top: 15px">{{ person.nombre }}</p>
                     <p class="rol" style="padding-left: 120px; padding-bottom: 25px">{{ person.EC5 }}</p>
                   </li>
@@ -134,7 +134,7 @@ Miembro {{person.nombre}}
       <div class="row">
         <div class="col s12 m6 l6">
           <div class="row center">
-            <img src="{{ person.header }}" width="80%">
+            <img src="{{ person.header }}" {% if person.nombre contains 'Emma' %} id="foto-emma" {% endif %}  width="80%">
           </div>
         </div>
         <div class="col s12 m6 l6">        
