@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Configuración
-    const targetPersonId = 'person-img-emma'; // El ID que generamos con Liquid para Emma
+    const targetPersonId = 'person-img-emma-rebollar-cuenca'; // El ID que generamos con Liquid para Emma
     const clicksRequired = 10;                // Número de clics necesarios
     let clickCounter = 0;                     // Contador interno
 
