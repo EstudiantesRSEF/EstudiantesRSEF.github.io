@@ -67,3 +67,9 @@ $on-laptop:        800px;
   font-size: .8rem;
   color: light-grey;
 }
+
+
+// rotacion
+@keyframes spin { 
+    100% { transform: rotate(360deg); } 
+}

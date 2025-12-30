@@ -134,7 +134,7 @@ Miembro {{person.nombre}}
       <div class="row">
         <div class="col s12 m6 l6">
           <div class="row center">
-            <img src="{{ person.header }}" {% if person.nombre contains 'Emma' %} id="foto-emma" {% endif %}  width="80%">
+            <img src="{{ person.header }}" id="person-img-{{ person.nombre | slugify }}" width="80%">
           </div>
         </div>
         <div class="col s12 m6 l6">        

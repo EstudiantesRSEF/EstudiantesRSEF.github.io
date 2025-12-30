@@ -1,64 +1,45 @@
-// 1. Seleccionamos la imagen
-const logo = document.getElementById('foto-emma');
+document.addEventListener('DOMContentLoaded', function() {
+    // Configuración
+    const targetPersonId = 'person-img-emma'; // El ID que generamos con Liquid para Emma
+    const clicksRequired = 10;                // Número de clics necesarios
+    let clickCounter = 0;                     // Contador interno
 
-// 2. Seleccionamos el enlace padre AUTOMÁTICAMENTE (el que tiene la clase modal-trigger)
-// Esto busca la etiqueta <a> más cercana hacia arriba
-const logoLink = logo.closest('a'); 
+    // Usamos delegación de eventos (body) para capturar el clic incluso dentro del modal
+    document.body.addEventListener('click', function(event) {
+        
+        // 1. Verificamos si el elemento clickeado es la foto de Emma
+        if (event.target && event.target.id === targetPersonId) {
+            
+            clickCounter++;
+            console.log(`Clics en Emma: ${clickCounter}`); // Opcional: para depurar
 
-// 3. Guardamos los valores ORIGINALES para poder restaurarlos después
-const originalSrc = logo.src;
-const originalAlt = logo.alt;
-const originalHref = logoLink.href; // Guardamos el enlace al modal (#...)
+            // 2. Si llegamos a los 10 clics
+            if (clickCounter === clicksRequired) {
+                triggerEasterEgg(event.target);
+                clickCounter = 0; // Reseteamos por si quieren hacerlo de nuevo tras recargar
+            }
+        }
+    });
 
-// Variables de lógica
-let clickCount = 0;
-let firstClickTime = null;
-const maxClicks = 10;
-const timeLimit = 5000; // 5 segundos
-
-logo.addEventListener('click', (event) => {
-  const currentTime = new Date().getTime();
-
-  // Gestión del tiempo (si pasan 5s, reseteamos)
-  if (!firstClickTime || (currentTime - firstClickTime > timeLimit)) {
-    clickCount = 1; // Primer clic de la nueva serie
-    firstClickTime = currentTime;
-  } else {
-    clickCount++;
-  }
-
-  // --- LÓGICA DEL CLIC ---
-  
-  if (clickCount < maxClicks) {
-    // Si NO hemos llegado a 10, evitamos que se abra el modal normal
-    event.preventDefault();
-    event.stopPropagation(); // Importante para que no burbujee
-    console.log(`Llevas ${clickCount} clics...`);
-
-  } else if (clickCount === maxClicks) {
-    // ¡HAS LLEGADO A 10!
-    
-    // 1. Evitamos que se abra el modal en este clic exacto
-    event.preventDefault(); 
-    
-    // 2. Cambiamos la imagen y el enlace (Easter Egg)
-    // OJO: Pon aquí la ruta de la imagen "graciosa" o "secreta"
-    logo.src = '/img/junta25-27/Emma_Sorpresa.png'; 
-    logo.alt = "Has encontrado el secreto";
-    
-    // 3. OPCIÓN A: Redirigir automáticamente a la página secreta
-    window.location.href = 'https://estudiantes.rsef.es/PLANCKS25/secret/';
-    
-    // 3. OPCIÓN B: (Si prefieres solo cambiar el link y que pulsen otra vez, usa esta)
-    // logoLink.href = 'https://estudiantes.rsef.es/PLANCKS25/secret/';
-    
-    // Restaurar todo después de 5 segundos (por si vuelven atrás)
-    setTimeout(() => {
-      logo.src = originalSrc;
-      logo.alt = originalAlt;
-      logoLink.href = originalHref;
-      clickCount = 0;
-      firstClickTime = null;
-    }, 5000);
-  }
+    // Función que realiza el cambio visual
+    function triggerEasterEgg(imgElement) {
+        // Creamos un contenedor para el emoji
+        const emojiContainer = document.createElement('div');
+        emojiContainer.innerText = '🤣'; // Emoji de la risa
+        
+        // Estilos para que el emoji ocupe el lugar de la foto
+        emojiContainer.style.fontSize = '100px'; 
+        emojiContainer.style.display = 'flex';
+        emojiContainer.style.justifyContent = 'center';
+        emojiContainer.style.alignItems = 'center';
+        emojiContainer.style.height = imgElement.offsetHeight + 'px'; // Mantiene la altura original
+        emojiContainer.style.width = '100%';
+        emojiContainer.style.backgroundColor = '#f0f0f0'; // Fondo opcional
+        
+        // Efecto de animación simple (opcional)
+        emojiContainer.style.animation = 'spin 1s linear infinite'; // Si quieres que gire
+        
+        // Reemplazamos la imagen por el emoji
+        imgElement.replaceWith(emojiContainer);
+    }
 });
