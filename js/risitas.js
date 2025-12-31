@@ -47,7 +47,6 @@ document.addEventListener('DOMContentLoaded', function() {
         emojiContainer.style.alignItems = 'center';
         emojiContainer.style.height = imgElement.offsetHeight + 'px'; 
         emojiContainer.style.width = '100%'; // O el ancho original de la imagen
-        emojiContainer.style.backgroundColor = '#f0f0f0';
         emojiContainer.style.cursor = 'pointer'; // Para indicar que es clickeable
         
         // Iniciamos la rotación
