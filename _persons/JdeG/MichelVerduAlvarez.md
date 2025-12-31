@@ -8,8 +8,9 @@ Pos_EC5: "5"
 nombre: "Michel Verdú Álvarez"
 img: "/img/junta25-27/MIchel.png"
 header: "/img/junta25-27/MIchel.png"
-rol: 
-descr: "Doble Grado en Física y Matemáticas - Universidad de Oviedo"
+rol:
+descr: 
+estudia: "Doble Grado en Física y Matemáticas - Universidad de Oviedo"
 
 video: "https://archive.org/embed/michel_202512"
 part1: 

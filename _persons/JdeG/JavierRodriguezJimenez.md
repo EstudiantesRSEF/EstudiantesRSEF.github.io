@@ -8,8 +8,9 @@ Pos_EC5: "5"
 nombre: "Javier Rodríguez Jiménez"
 img: "/img/junta25-27/Javi.png"
 header: "/img/junta25-27/Javi.png"
-rol: 
-descr: "Doble Grado en Física y Matemáticas - Universitat de València"
+rol:
+descr: 
+estudia: "Doble Grado en Física y Matemáticas - Universitat de València"
 
 video: "https://archive.org/embed/javier-rodriguez_202512"
 part1: 

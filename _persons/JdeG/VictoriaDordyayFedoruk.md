@@ -9,7 +9,8 @@ nombre: "Victoria Dordyay Fedoruk"
 img: "/img/junta25-27/Vicky.png"
 header: "/img/junta25-27/Vicky.png"
 rol: 
-descr: "Máster en Ciencia y Tecnologías de Información Cuántica - Universidad de Santiago de Compostela/Vigo/A Coruña"
+descr: 
+estudia: "Máster en Ciencia y Tecnologías de Información Cuántica - Universidad de Santiago de Compostela/Vigo/A Coruña"
 
 video: "https://archive.org/embed/vicky_202512"
 part1: 

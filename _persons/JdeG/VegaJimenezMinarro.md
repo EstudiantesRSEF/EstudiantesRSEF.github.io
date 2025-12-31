@@ -9,7 +9,8 @@ nombre: "Vega Jiménez Miñarro"
 img: "/img/junta25-27/Vega.png"
 header: "/img/junta25-27/Vega.png"
 rol: 
-descr: "Grado en Física - Universitat de València"
+descr:
+estudia: "Grado en Física - Universitat de València"
 
 video: "https://archive.org/embed/vega_20251229"
 part1: 

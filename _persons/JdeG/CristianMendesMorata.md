@@ -9,7 +9,8 @@ nombre: "Cristian Mendes Morata"
 img: "/img/junta25-27/Cristian.png"
 header: "/img/junta25-27/Cristian.png"
 rol: 
-descr: "Máster en Formación de Profesorado de Física y Química - Universitat Autònoma de Barcelona"
+descr:
+estudia: "Máster en Formación de Profesorado de Física y Química - Universitat Autònoma de Barcelona"
 
 video: "https://archive.org/embed/cristian_202512"
 part1: 

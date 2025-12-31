@@ -9,7 +9,8 @@ nombre: "Francisco Javier Torroglosa Úbeda"
 img: "/img/junta25-27/Javi Murcia.png"
 header: "/img/junta25-27/Javi Murcia.png"
 rol: 
-descr: "Grado en Física - Universidad de Murcia"
+descr:
+estudia: "Grado en Física - Universidad de Murcia"
 
 video: "https://archive.org/embed/javier-torroglosa"
 part1: 

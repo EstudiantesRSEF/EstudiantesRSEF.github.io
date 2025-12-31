@@ -9,7 +9,8 @@ nombre: "Tristan Ortiz Roset"
 img: "/img/junta25-27/Tristan.png"
 header: "/img/junta25-27/Tristan.png"
 rol: 
-descr: "Grado en Física - Universidad Complutense de Madrid"
+descr:
+estudia: "Grado en Física - Universidad Complutense de Madrid"
 
 video: "https://archive.org/embed/tristan_202512"
 part1: 

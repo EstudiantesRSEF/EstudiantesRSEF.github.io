@@ -9,7 +9,8 @@ nombre: "Emma Rebollar Cuenca"
 img: "/img/junta25-27/Emma.png"
 header: "/img/junta25-27/Emma.png"
 rol: 
-descr: "Grado en Física - Universitat de València"
+descr: 
+estudia: "Grado en Física - Universitat de València"
 
 video: "https://archive.org/embed/emma_20251227"
 part1: 

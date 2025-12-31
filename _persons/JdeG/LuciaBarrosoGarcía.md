@@ -9,7 +9,8 @@ nombre: "Lucía Barroso García"
 img: "/img/junta25-27/Lucia.png"
 header: "/img/junta25-27/Lucia.png"
 rol: 
-descr: "Doble Grado en Física y Matemáticas- Universidad de Valladolid"
+descr: 
+estudia: "Doble Grado en Física y Matemáticas- Universidad de Valladolid"
 
 video: "https://archive.org/embed/lucia_202512"
 part1: 

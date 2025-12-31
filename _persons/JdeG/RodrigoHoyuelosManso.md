@@ -9,7 +9,8 @@ nombre: "Rodrigo Hoyuelos Manso"
 img: "/img/junta25-27/rodrigo.jpg"
 header: "/img/junta25-27/rodrigo.jpg"
 rol: "Organizador comité de administración web"
-descr: "Doble Grado en Física y Matemáticas- Universidad de Valladolid"
+descr:
+estudia: "Doble Grado en Física y Matemáticas- Universidad de Valladolid"
 
 video: "https://archive.org/embed/rodrigo_202512"
 part1: 

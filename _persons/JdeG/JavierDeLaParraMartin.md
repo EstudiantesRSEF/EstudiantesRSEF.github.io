@@ -8,8 +8,9 @@ Pos_EC5: "5"
 nombre: "Javier de la Parra Martín"
 img: "/img/junta25-27/Parra.png"
 header: "/img/junta25-27/Parra.png"
-rol: 
-descr: "Máster en Nanofísica y Materiales Avanzados - Universidad Complutense de Madrid"
+rol:
+descr: 
+estudia: "Máster en Nanofísica y Materiales Avanzados - Universidad Complutense de Madrid"
 
 video: "https://archive.org/embed/javierdela-parra_202512"
 part1: 

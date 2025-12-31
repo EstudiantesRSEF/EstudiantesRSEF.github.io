@@ -9,7 +9,8 @@ nombre: "Sonsoles Riscos Martínez"
 img: "/img/junta25-27/Sonsoles.png"
 header: "/img/junta25-27/Sonsoles.png"
 rol: 
-descr: "Doble Grado en Física y Matemáticas - Universitat de València"
+descr:
+estudia: "Doble Grado en Física y Matemáticas - Universitat de València"
 
 video: "https://archive.org/embed/Sonsoles"
 part1: 
