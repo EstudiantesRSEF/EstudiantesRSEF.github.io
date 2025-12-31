@@ -145,12 +145,12 @@ Miembro {{person.nombre}}
         </div>
 
       <!-- Biografía -->
-      {% if person.descr %}
+      {% if person.descr1 %}
       </div>
       <div class="row">
         <h5 class="justify">Biografía</h5>
           <p style="text-align: justify;">
-            {{ person.descr }}
+            {{ person.descr1 }}
           </p>
       </div>
       {% endif %}
