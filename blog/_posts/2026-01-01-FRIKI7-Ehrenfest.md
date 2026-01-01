@@ -29,10 +29,10 @@ ahí dentro no me atrevo a contároslo yo…
 Querido Diario:
 </p>
 <br>
-<p><img class="img-left" src="/img/blog/2025-11-23-FRIKI5-Interpretaciones/friki_abuela.png">
+<p>
 Me atreví.
 </p>
-<p>
+<p><img class="img-left" src="/img/blog/2026-01-01-FRIKI7-Ehrenfest/friki_nervioso.png">
 Se lo dije. No sé si fue el destino o simplemente el 
 capricho del azar, pero al día siguiente de 
 escribirte el último interludio, me la encontré de 
@@ -59,7 +59,7 @@ Me observó.
 <p>
 Y aceptó. 
   </p>
-<p>
+<p><img class="img-right" src="/img/blog/2026-01-01-FRIKI7-Ehrenfest/friki_rallao.png">
 El breve impulso de júbilo tras la respuesta soñada fue seguido 
 de un par de días de continua preocupación: ¿qué se supone que 
 tengo que hacer ahora? La verdad que nunca había llegado tan 
@@ -71,7 +71,7 @@ fraude, un impostor.
 <p>
 Pero ya era tarde para echarse atrás.
   </p>
-<p>
+<p><img class="img-left" src="/img/blog/2026-01-01-FRIKI7-Ehrenfest/friki ramo.png">
 La noche de la cita llegó y allí fui a recogerla a su 
 casa con el mejor ramo de flores que encontré 
 sin que pareciera ni muy pretencioso ni muy 
@@ -104,7 +104,7 @@ rápido y así el tiempo se dilatara tanto que esta cita no acabe”. Me miró u
 verdad, y yo pensé que la había cagado; pero luego se rio y me dijo: “¿qué más dará lo rápido 
 que se mueva la noria para que el tiempo pasé más o menos rápido? ¿Qué tiene que ver eso?” 
   </p>
-<p>
+<p><img class="img-right" src="/img/blog/2026-01-01-FRIKI7-Ehrenfest/friki_noria1.png">
 “Todo que ver”, le dije. Me remangué las mangas de mi 
 chaqueta y me preparé para tener la mejor y más romántica 
 conversación que se puede tener en una noria: “La Física 
@@ -161,7 +161,7 @@ se dilate, nuestro paseo en noria acabará en breves; así que voy a tratar de n
 demasía y restringirme al caso en el que consideramos una noria en una <b>rotación uniforme</b> (siempre ha estado y estará rotando de igual forma). Otro día te contaré cómo poner en 
 movimiento una noria según la Relatividad Especial…”
   </p>
-<p>
+<p><img class="img-left" src="/img/blog/2026-01-01-FRIKI7-Ehrenfest/friki_extasis.png">
 La miré a los ojos, envalentonado por la fuerza que sabía 
 que mis palabras cargaban, y le dije: “Estás a punto de 
 encontrarte con uno de los resultados más grandes que 
@@ -201,7 +201,10 @@ siendo igual que en un plano. Pero si midiéramos esa misma relación desde lejo
 tomando el diámetro del meridiano como la distancia en línea recta entre dos puntos en las 
 antípodas, nos saldría perfectamente \pi. Esta aparente discrepancia surge del hecho de que la 
 Tierra está curvada positivamente y, por tanto, el cociente C/2R medido por un observador en 
-su interior es menor que \pi, mientras que por un observador externo sigue siendo \pi.” 
+su interior es menor que \pi, mientras que por un observador externo sigue siendo \pi.”
+</p>
+<img class="img-large_center" src="/img/blog/2026-01-01-FRIKI7-Ehrenfest/tierra_curvatura.png">
+<p>
 “Si te das cuenta, con la noria nos pasa lo contrario: para nosotros, observadores internos, 
 medimos un cociente mayor, mientras que para el de la cola sigue siendo igual a \pi. Lo que 
 nos está diciendo esto es que el ‘espacio’ de la noria está <b>curvado</b>. Y, en concreto, tiene una 
@@ -246,7 +249,7 @@ negros, aquella que predijo la existencia de ondas gravitacionales 100 años ant
 hizo a Einstein inmortal; una de las teorías más bellas que jamás ha pensado el ser humano. 
 ¿Qué te parece?” 
   </p>
-<p>
+<p><img class="img-left" src="/img/blog/2026-01-01-FRIKI7-Ehrenfest/friki_ladeado.png">
 Ella me miró, sonrió, y me dijo: “Eres un pedazo de 
 friki… jajaja”. 
   </p>
