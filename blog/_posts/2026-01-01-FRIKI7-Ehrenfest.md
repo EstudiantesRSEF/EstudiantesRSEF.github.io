@@ -50,7 +50,7 @@ palabra, e incluso parecer una persona normal, sino fuera por el repentino aumen
 sudoración que sufrí. Finalmente, haciendo una continuación analítica de la apariencia serena 
 que todavía conservaba, se lo propuse: ir juntos a la feria de navidad de la ciudad. 
   </p>
-<p>
+<p><img class="img-right" src="/img/blog/2026-01-01-FRIKI7-Ehrenfest/friki_rallao.jpg">
 Se calló.  
   </p>
 <p>
@@ -59,7 +59,7 @@ Me observó.
 <p>
 Y aceptó. 
   </p>
-<p><img class="img-right" src="/img/blog/2026-01-01-FRIKI7-Ehrenfest/friki_rallao.jpg">
+<p>
 El breve impulso de júbilo tras la respuesta soñada fue seguido 
 de un par de días de continua preocupación: ¿qué se supone que 
 tengo que hacer ahora? La verdad que nunca había llegado tan 
