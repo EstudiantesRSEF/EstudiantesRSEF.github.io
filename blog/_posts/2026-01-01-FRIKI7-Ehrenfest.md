@@ -148,7 +148,7 @@ haya cambiado nada.”
 Ella frunció el ceño, me puso la mano en la rodilla y me dijo: “Espérate. Entonces, si la noria 
 girase lo suficientemente rápido, el de la cola vería que la circunferencia se contraería, 
 mientras que los radios de la noria siguen igual. Por tanto, según él, mientras que el radio es 
-\(R\), y, por tanto, esperaría que la longitud de la circunferencia de la noria fuera de \(2\(pi)\R\), si 
+\(R\), y, por tanto, esperaría que la longitud de la circunferencia de la noria fuera de \(2\piR\), si 
 la midiera, vería que realmente es menor que \(2piR\) ¿Cómo puede ser eso?” 
   </p>
 <p>
@@ -173,16 +173,16 @@ distancia entre cabina y cabina es 1, veríamos, además de tu flagrante belleza
 me daba una confianza inusitada -,  dos cosas más: el radio de la noria seguiría siendo \(R\), al 
 igual que para el chaval de la cola, pero, mientras que la distancia entre cada cabina sería 1 
 para nosotros, para él serán más cortas, contraídas por un factor \(1/\gamma\) (\(\gamma = 
-(1-(v/c)^2)^-1/2\) es el factor de Lorentz, que depende de la velocidad y siempre es mayor que 
+(1-(v/c)^2)^(-1/2)\) es el factor de Lorentz, que depende de la velocidad y siempre es mayor que 
 1, tanto más como más rápido se mueva el objeto). Por tanto, la circunferencia que medimos 
-nosotros, C, estará relacionada con la que mide el chaval de la cola, C´, según: \(C´= 
+nosotros, \(C\), estará relacionada con la que mide el chaval de la cola, \(C´\), según: \(C´= 
 C/\gamma\).  
   </p>
 <p>
 Tanto nosotros como él vemos una circunferencia. Como el chaval de la cola es un observador 
 inercial (a diferencia de nosotros), él está claro que medirá lo mismo que mide para todas las 
 demás circunferencias: \(C´=2\piR\). Por ende, mientras que de normal esperaríamos que para 
-nosotros el cociente circunferencia-diámetro sea \pi, tenemos que nosotros (observadores 
+nosotros el cociente circunferencia-diámetro sea \(\pi\), tenemos que nosotros (observadores 
 claramente no inerciales) medimos, desde la cabina: 
   </p>
 <p>
@@ -195,18 +195,18 @@ Hice una pausa. Justo estábamos arriba del todo y la noria se había detenido. 
 pierna y le dije: “Mira al horizonte, la Tierra parece plana desde aquí, pero sabemos que es 
 esférica. Si tuviéramos que medir el cociente longitud de la circunferencia definida por el 
 meridiano cero y su diámetro (dado por la longitud de medio arco del ecuador), nos saldría 
-menor que \pi, pues la longitud del ecuador, al estar curvado positivamente (digamos, ‘hacia 
+menor que \(\pi\), pues la longitud del ecuador, al estar curvado positivamente (digamos, ‘hacia 
 afuera’), es mayor que un diámetro plano, mientras que la circunferencia del meridiano sigue 
 siendo igual que en un plano. Pero si midiéramos esa misma relación desde lejos de la Tierra, 
 tomando el diámetro del meridiano como la distancia en línea recta entre dos puntos en las 
-antípodas, nos saldría perfectamente \pi. Esta aparente discrepancia surge del hecho de que la 
-Tierra está curvada positivamente y, por tanto, el cociente C/2R medido por un observador en 
-su interior es menor que \pi, mientras que por un observador externo sigue siendo \pi.”
+antípodas, nos saldría perfectamente \(\pi\). Esta aparente discrepancia surge del hecho de que la 
+Tierra está curvada positivamente y, por tanto, el cociente \(C/2R\) medido por un observador en 
+su interior es menor que \(\pi\), mientras que por un observador externo sigue siendo \(\pi\).”
 </p>
 <img class="img-large_center" src="/img/blog/2026-01-01-FRIKI7-Ehrenfest/tierra_curvatura.png">
 <p>
 “Si te das cuenta, con la noria nos pasa lo contrario: para nosotros, observadores internos, 
-medimos un cociente mayor, mientras que para el de la cola sigue siendo igual a \pi. Lo que 
+medimos un cociente mayor, mientras que para el de la cola sigue siendo igual a \(\pi\). Lo que 
 nos está diciendo esto es que el ‘espacio’ de la noria está <b>curvado</b>. Y, en concreto, tiene una 
 <b>curvatura negativa</b>: es un espacio <b>hiperbólico</b>…” 
   </p>
