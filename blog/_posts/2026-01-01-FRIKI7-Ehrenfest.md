@@ -173,7 +173,7 @@ distancia entre cabina y cabina es 1, veríamos, además de tu flagrante belleza
 me daba una confianza inusitada -,  dos cosas más: el radio de la noria seguiría siendo \(R\), al 
 igual que para el chaval de la cola, pero, mientras que la distancia entre cada cabina sería 1 
 para nosotros, para él serán más cortas, contraídas por un factor \(1/\gamma\) (\(\gamma = 
-(1-(v/c)^2)^(-1/2)\) es el factor de Lorentz, que depende de la velocidad y siempre es mayor que 
+(1-(v/c)^2)^[-1/2]\) es el factor de Lorentz, que depende de la velocidad y siempre es mayor que 
 1, tanto más como más rápido se mueva el objeto). Por tanto, la circunferencia que medimos 
 nosotros, \(C\), estará relacionada con la que mide el chaval de la cola, \(C´\), según: \(C´= 
 C/\gamma\).  
