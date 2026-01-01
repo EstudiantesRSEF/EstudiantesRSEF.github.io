@@ -148,8 +148,8 @@ haya cambiado nada.”
 Ella frunció el ceño, me puso la mano en la rodilla y me dijo: “Espérate. Entonces, si la noria 
 girase lo suficientemente rápido, el de la cola vería que la circunferencia se contraería, 
 mientras que los radios de la noria siguen igual. Por tanto, según él, mientras que el radio es 
-\(R\), y, por tanto, esperaría que la longitud de la circunferencia de la noria fuera de \(2piR\), si 
-la midiera, vería que realmente es menor que \(2piR\) ¿Cómo puede ser eso?” 
+\(R)\, y, por tanto, esperaría que la longitud de la circunferencia de la noria fuera de \(2piR)\, si 
+la midiera, vería que realmente es menor que \(2piR)\ ¿Cómo puede ser eso?” 
   </p>
 <p>
 Yo sonreí como el mago que sabe que tiene a la audiencia en el bolsillo y dije: “En efecto, 
@@ -170,18 +170,18 @@ la razón humana ha podido descifrar jamás…”
 <p>
 Consideremos qué observaríamos nosotros desde nuestra cabina. Si establecemos que la 
 distancia entre cabina y cabina es 1, veríamos, además de tu flagrante belleza – hablar de física 
-me daba una confianza inusitada -,  dos cosas más: el radio de la noria seguiría siendo \(R\), al 
+me daba una confianza inusitada -,  dos cosas más: el radio de la noria seguiría siendo \(R)\, al 
 igual que para el chaval de la cola, pero, mientras que la distancia entre cada cabina sería 1 
-para nosotros, para él serán más cortas, contraídas por un factor \(1/\gamma\) (\(\gamma = 
-(1-(v/c)^2)^-1/2\) es el factor de Lorentz, que depende de la velocidad y siempre es mayor que 
+para nosotros, para él serán más cortas, contraídas por un factor \(1/\gamma)\ (\(\gamma = 
+(1-(v/c)^2)^-1/2)\ es el factor de Lorentz, que depende de la velocidad y siempre es mayor que 
 1, tanto más como más rápido se mueva el objeto). Por tanto, la circunferencia que medimos 
 nosotros, C, estará relacionada con la que mide el chaval de la cola, C´, según: \(C´= 
-C/\gamma\).  
+C/\gamma)\.  
   </p>
 <p>
 Tanto nosotros como él vemos una circunferencia. Como el chaval de la cola es un observador 
 inercial (a diferencia de nosotros), él está claro que medirá lo mismo que mide para todas las 
-demás circunferencias: \(C´=2\piR\). Por ende, mientras que de normal esperaríamos que para 
+demás circunferencias: \(C´=2\piR)\. Por ende, mientras que de normal esperaríamos que para 
 nosotros el cociente circunferencia-diámetro sea \pi, tenemos que nosotros (observadores 
 claramente no inerciales) medimos, desde la cabina: 
   </p>
