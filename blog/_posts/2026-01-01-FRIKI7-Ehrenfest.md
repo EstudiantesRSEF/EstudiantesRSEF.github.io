@@ -148,8 +148,8 @@ haya cambiado nada.”
 Ella frunció el ceño, me puso la mano en la rodilla y me dijo: “Espérate. Entonces, si la noria 
 girase lo suficientemente rápido, el de la cola vería que la circunferencia se contraería, 
 mientras que los radios de la noria siguen igual. Por tanto, según él, mientras que el radio es 
-\(R\), y, por tanto, esperaría que la longitud de la circunferencia de la noria fuera de \(2\piR\), si 
-la midiera, vería que realmente es menor que \(2piR\) ¿Cómo puede ser eso?” 
+\(R\), y, por tanto, esperaría que la longitud de la circunferencia de la noria fuera de \(2 \pi R\), si 
+la midiera, vería que realmente es menor que \(2 \pi R\) ¿Cómo puede ser eso?” 
   </p>
 <p>
 Yo sonreí como el mago que sabe que tiene a la audiencia en el bolsillo y dije: “En efecto, 
@@ -181,7 +181,7 @@ C/\gamma\).
 <p>
 Tanto nosotros como él vemos una circunferencia. Como el chaval de la cola es un observador 
 inercial (a diferencia de nosotros), él está claro que medirá lo mismo que mide para todas las 
-demás circunferencias: \(C´=2\piR\). Por ende, mientras que de normal esperaríamos que para 
+demás circunferencias: \(C´=2\pi R\). Por ende, mientras que de normal esperaríamos que para 
 nosotros el cociente circunferencia-diámetro sea \(\pi\), tenemos que nosotros (observadores 
 claramente no inerciales) medimos, desde la cabina: 
   </p>
