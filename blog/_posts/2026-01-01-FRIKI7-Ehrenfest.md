@@ -35,7 +35,7 @@ Me atreví.
 <p><img class="img-left" src="/img/blog/2026-01-01-FRIKI7-Ehrenfest/friki_nervioso.png">
 Se lo dije. No sé si fue el destino o simplemente el 
 capricho del azar, pero al día siguiente de 
-escribirte el último interludio, me la encontré de 
+escribirte el último <a href="https://estudiantes.rsef.es/blog/2025/12/08/FRIKI6-Interludio2/">interludio</a>, me la encontré de 
 frente mientras iba pensando en qué carajos era 
 un corte de rama en una hoja de Riemann. Tan 
 absorto iba yo en mi mundo imaginario que no me 
