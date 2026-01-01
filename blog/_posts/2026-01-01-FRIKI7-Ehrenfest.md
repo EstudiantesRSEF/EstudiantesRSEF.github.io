@@ -59,7 +59,7 @@ Me observó.
 <p>
 Y aceptó. 
   </p>
-<p><img class="img-right" src="/img/blog/2026-01-01-FRIKI7-Ehrenfest/friki_rallao.png">
+<p><img class="img-right" src="/img/blog/2026-01-01-FRIKI7-Ehrenfest/friki_rallao.jpg">
 El breve impulso de júbilo tras la respuesta soñada fue seguido 
 de un par de días de continua preocupación: ¿qué se supone que 
 tengo que hacer ahora? La verdad que nunca había llegado tan 
@@ -161,7 +161,7 @@ se dilate, nuestro paseo en noria acabará en breves; así que voy a tratar de n
 demasía y restringirme al caso en el que consideramos una noria en una <b>rotación uniforme</b> (siempre ha estado y estará rotando de igual forma). Otro día te contaré cómo poner en 
 movimiento una noria según la Relatividad Especial…”
   </p>
-<p><img class="img-left" src="/img/blog/2026-01-01-FRIKI7-Ehrenfest/friki_extasis.png">
+<p><img class="img-left" src="/img/blog/2026-01-01-FRIKI7-Ehrenfest/friki_extasis.jpg">
 La miré a los ojos, envalentonado por la fuerza que sabía 
 que mis palabras cargaban, y le dije: “Estás a punto de 
 encontrarte con uno de los resultados más grandes que 
