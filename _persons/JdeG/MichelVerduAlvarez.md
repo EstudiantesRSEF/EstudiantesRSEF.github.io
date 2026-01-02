@@ -3,7 +3,7 @@ layout: person
 categories: junta
 evento: 
 EC4: 
-EC5: "Vocal"
+EC5: "Vocal - Tesorero"
 Pos_EC5: "5"
 nombre: "Michel Verdú Álvarez"
 img: "/img/junta25-27/MIchel.png"
