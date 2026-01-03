@@ -146,7 +146,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
       {% assign loopindex = 0 %}
       {% for event in site.events reversed %}
         {% if event.title contains "Preliminares de PLANCKS"%}
-        {% if event.title != "Preliminares de PLANCKS 2026"%}
+        {% if event.title != "Preliminares de PLANCKS 2025"%}
       {% assign rowfinder = loopindex | modulo:2 %}
           {% if rowfinder == 0 %}
             <div class="row">
