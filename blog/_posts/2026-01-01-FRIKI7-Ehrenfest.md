@@ -102,7 +102,7 @@ Nos subimos. Mientras que dábamos vueltas, se me ocurrió contarle algo poétic
 enamorarla. Y le solté: “me lo estoy pasando muy bien esta noche, ojalá la noria girara más 
 rápido y así el tiempo se dilatara tanto que esta cita no acabe”. Me miró un poco raro, la 
 verdad, y yo pensé que la había cagado; pero luego se rio y me dijo: “¿qué más dará lo rápido 
-que se mueva la noria para que el tiempo pasé más o menos rápido? ¿Qué tiene que ver eso?” 
+que se mueva la noria para que el tiempo pase más o menos rápido? ¿Qué tiene que ver eso?” 
   </p>
 <p><img class="img-right" src="/img/blog/2026-01-01-FRIKI7-Ehrenfest/friki_noria1.png">
 “Todo que ver”, le dije. Me remangué las mangas de mi 
