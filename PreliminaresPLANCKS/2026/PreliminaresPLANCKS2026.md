@@ -37,7 +37,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
       </h2>
       <hr> -->
       <!-- INTRODUCCIÓN -->
-      <p style="text-align: justify; line-height: 1.5;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la octava edición de las <strong>Preliminares de PLANCKS</strong>! Y este año también ofrecemos <strong>1500€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces. Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p>       
+      <p style="text-align: justify; line-height: 1.5;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la novena edición de las <strong>Preliminares de PLANCKS</strong>! Y este año también ofrecemos <strong>1500€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces. Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p>       
       <!-- BOTONES -->
       <div class="section" style="display: flex; flex-direction: column; justify-content: space-between">
         <div class="row center">
@@ -54,7 +54,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
        <!-- CLS -->
         <!-- COUNTDOWN -->
        <div class="row" style="margin-bottom: -10px">  
-        <p style="text-align: justify;">Las inscripciones para las Preliminares de PLANCKS 2025 se cerrarán en...</p>
+        <p style="text-align: justify;">Las inscripciones para las Preliminares de PLANCKS 2026 se cerrarán en...</p>
         <h3 style="text-align: center;"><p id="countdown" style="text-align:center"></p></h3>
         <p style="text-align: justify;">¡No dejes tu inscripción para el último momento para asegurarnos que tendrás aulas y supervisores disponibles en tu facultad!</p>
         <p style="text-align: justify;"> Hemos comenzado ya con la promoción a todos los estudiantes de física de España. ¡Así que no te quedes sin plaza!</p> 
@@ -125,10 +125,10 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
       </div>    
       <!-- MAP -->
       <div class="section">
-          <strong><h3>El mapa de las Preliminares de PLANCKS 2025</h3></strong>
+          <strong><h3>El mapa de las Preliminares de PLANCKS 2026</h3></strong>
           <p style="text-align: justify;">¡En el siguiente mapa puedes consultar todas las sedes!</p>
-          <iframe id="content-desktop" src="/PreliminaresPLANCKS/2025/Mapa/universities_map_desktop.html" class="scalable-iframe" style="border:none"></iframe> 
-          <iframe id="content-mobile" src="/PreliminaresPLANCKS/2025/Mapa/universities_map_mobile.html" class="scalable-iframe" style="border:none; width: 100%"></iframe> 
+          <iframe id="content-desktop" src="/PreliminaresPLANCKS/2026/Mapa/universities_map_desktop.html" class="scalable-iframe" style="border:none"></iframe> 
+          <iframe id="content-mobile" src="/PreliminaresPLANCKS/2026/Mapa/universities_map_mobile.html" class="scalable-iframe" style="border:none; width: 100%"></iframe> 
       </div> 
       <!-- CARRERA -->
      <h3>¡Sigue la carrera de inscripciones!</h3>
@@ -150,7 +150,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
       {% assign loopindex = 0 %}
       {% for event in site.events reversed %}
         {% if event.title contains "Preliminares de PLANCKS"%}
-        {% if event.title != "Preliminares de PLANCKS 2025"%}
+        {% if event.title != "Preliminares de PLANCKS 2026"%}
       {% assign rowfinder = loopindex | modulo:2 %}
           {% if rowfinder == 0 %}
             <div class="row">
@@ -192,7 +192,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center">
         <h3 class="justify">Información general</h3>
-        <p style="text-align: justify;"><strong>¿En qué consisten las Preliminares?</strong> Las Preliminares de PLANCKS 2025 es una competición de física teórica por equipos en la que habrá que resolver 8 problemas no muy largos. Puedes ver las pruebas de otros años en la <a class="prelis25 modal-close" href="#ediciones-anteriores">sección de Ediciones anteriores </a>, aunque este año se ha cambiado el formato y serán más preguntas más cortas que anteriormente. Puedes ver más ejemplos con soluciones de otros años <a class="prelis25" href="https://plancks.uk/landing-page/about/past-papers/">aquí</a>.
+        <p style="text-align: justify;"><strong>¿En qué consisten las Preliminares?</strong> Las Preliminares de PLANCKS 2026 es una competición de física teórica por equipos en la que habrá que resolver 8 problemas no muy largos. Puedes ver las pruebas de otros años en la <a class="prelis25 modal-close" href="#ediciones-anteriores">sección de Ediciones anteriores </a>, aunque este año se ha cambiado el formato y serán más preguntas más cortas que anteriormente. Puedes ver más ejemplos con soluciones de otros años <a class="prelis25" href="https://plancks.uk/landing-page/about/past-papers/">aquí</a>.
         </p>        
         <p style="text-align: justify;"><strong>¿Cómo puedo participar en las Preliminares?</strong> Es muy sencillo: si conoces un@s cuant@s amig@s con los que te apetecería pasar un buen rato, resolver problemas que resultan todo un reto e inventarte respuestas disparatadas cuando no sepas por donde salir, reúne un equipo de hasta cuatro personas y no lo dudes: <a class="prelis25" href="https://docs.google.com/forms/d/e/1FAIpQLSeKyDq5URFysjS8J2fVBOmVnIz8kzJaSawA-WocMRvX1ivIdQ/viewform?usp=sharing" id="inscripcion-button" target="_blank">¡inscríbete!</a> Los equipos deben de estar formados por 3 o 4 personas. Esta primera fase nacional nos permitirá seleccionar a los mejores equipos para que nos representen en la competición internacional, el año pasado se clasificaron dos equipos a la fase final. </p>   
         <p style="text-align: justify;">Si ya existe una <a class="prelis25" href="https://estudiantes.rsef.es/delegaciones/">delegación del GdeE</a> en tu facultad, se ocuparán ellos de organizar las Prelis. Si no es el caso, es posible que el comité organizador os pida ayuda para encontrar un aula y un/a supervisor/a para poder garantizar una sede de las Preliminares en vuestra ciudad. </p>
