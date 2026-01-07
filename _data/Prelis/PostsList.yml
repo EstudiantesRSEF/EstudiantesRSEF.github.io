@@ -13,6 +13,6 @@
     text: "2024 Wrapped"
     video: True
 
-# - url: "https://example.com/4"
-#   image: "/img/sidebar/image4.jpg"
-#   text: "Título 4"
+  # - url: "https://example.com/4"
+  #   image: "/img/sidebar/image4.jpg"
+  #   text: "Título 4"
