@@ -8,20 +8,22 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
   <div class="prelis25-container">
     <div class="prelis25-sidebar">
         <ul>
-          {% for item in site.data.Prelis.PostsList limit:3 %}
-          <li>
-            <a href="{{ item.url }}">
-              <p>{{ item.text }}</p>
-              {% if item.video %}
-              <video width="100%" height="auto" autoplay muted loop>
-                <source src="{{ item.image }}" type="video/mp4">
-                Tu navegador no soporta videos.
-              </video>
-              {% else %}
-              <img src="{{ item.image }}" alt="{{ item.text }}">
-              {% endif %}
-            </a>
-          </li>
+          {% for year in site.data.Prelis.PostsList limit:3 %}
+            {% for item in year["2026"] limit:3 %}
+              <li>
+                <a href="{{ item.url }}">
+                  <p>{{ item.text }}</p>
+                  {% if item.video %}
+                  <video width="100%" height="auto" autoplay muted loop>
+                    <source src="{{ item.image }}" type="video/mp4">
+                    Tu navegador no soporta videos.
+                  </video>
+                  {% else %}
+                  <img src="{{ item.image }}" alt="{{ item.text }}">
+                  {% endif %}
+                </a>
+              </li>
+            {% endfor %}
           {% endfor %}
         </ul>
     </div>
