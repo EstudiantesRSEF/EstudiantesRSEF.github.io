@@ -1,22 +1,17 @@
-- "2025":
-
-  - url: "https://www.instagram.com/p/DF5e_wboQKo/?img_index=1"
+- url: "https://www.instagram.com/p/DF5e_wboQKo/?img_index=1"
   image: "/img/eventos/2025-PrelisPLANCKS/Post_Problema1.png"
   text: "Problema de la semana #1"
-  
- - url: "https://www.instagram.com/p/DFdUK5wM2Qp/?img_index=1"
+- url: "https://www.instagram.com/p/DFdUK5wM2Qp/?img_index=1"
   image: "/img/eventos/2025-PrelisPLANCKS/Post_PresentacionPrelis.png"
   text: "Ya están aquí..."
-  
-  - url: "https://www.instagram.com/p/DAQyHcstswn/?img_index=1"
+- url: "https://www.instagram.com/p/DAQyHcstswn/?img_index=1"
   image: "/img/eventos/2025-PrelisPLANCKS/Presentación GdeE - post.png"
   text: "Presentación GdeE"
-  
-  - url: "https://www.instagram.com/p/DEQOQREsNYq/?img_index=1"
+- url: "https://www.instagram.com/p/DEQOQREsNYq/?img_index=1"
   image: "/img/eventos/2025-PrelisPLANCKS/Final - grafismo 1.mp4"
   text: "2024 Wrapped"
   video: True
 
- # - url: "https://example.com/4"
- #   image: "/img/sidebar/image4.jpg"
- #   text: "Título 4"
+# - url: "https://example.com/4"
+#   image: "/img/sidebar/image4.jpg"
+#   text: "Título 4"
