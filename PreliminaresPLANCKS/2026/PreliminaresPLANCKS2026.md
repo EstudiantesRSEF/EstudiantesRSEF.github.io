@@ -248,7 +248,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center">
         <h3 class="justify">Información para supervisoras/es</h3>
-        <p style="text-align: justify;">¡Hola! Si has llegado hasta esta página es que puedes ser un/a posible supervisor/a de examen en las Preliminares de PLANCKS 2025. A continuación, te contamos cuáles son los requisitos y las responsabilidades del cargo.</p>
+        <p style="text-align: justify;">¡Hola! Si has llegado hasta esta página es que puedes ser un/a posible supervisor/a de examen en las Preliminares de PLANCKS 2026. A continuación, te contamos cuáles son los requisitos y las responsabilidades del cargo.</p>
         <p style="text-align: justify;">Lee sobre la información general de las Preliminares de PLANCKS en <a class="modal-trigger" href="#info-modal">este enlace</a>.</p>
         <p style="text-align: justify;"><strong>¿Cuáles son los requisitos del cargo de Supervisor/a?</strong> Son dos:</p>
         <list class="a">
@@ -262,8 +262,8 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
           <li style="text-align: justify;">Supervisar el desarrollo de la prueba durante su realización y velar por el cumplimiento de las normas establecidas.</li>
           <li style="text-align: justify;">Recoger las hojas de la prueba y escanearlas para enviarlas al Comité Organizador el mismo día de la prueba.</li>
         </list>
-        <p style="text-align: justify;"><strong>¿Cómo puedo supervisar un examen en las Preliminares 2025?</strong> Es muy sencillo: sólo tienes que rellenar <a href="https://docs.google.com/forms/d/e/1FAIpQLSfkYroDxNN5NgQS5AqwKzitQc34YRTJj4H0yzd5amwEs4iw9A/viewform?usp=sharing" id="inscripcion-supervisores-button" target="_blank">este formulario</a>. Una vez cumplimentado, nos pondremos en contacto contigo para informarte de los siguientes pasos.</p>
-        <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a href="/PreliminaresPLANCKS/2025/Competition_Rules_Preliminares_de_PLANCKS_2025.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
+        <p style="text-align: justify;"><strong>¿Cómo puedo supervisar un examen en las Preliminares 2026?</strong> Es muy sencillo: sólo tienes que rellenar <a href="https://docs.google.com/forms/d/e/1FAIpQLSfkYroDxNN5NgQS5AqwKzitQc34YRTJj4H0yzd5amwEs4iw9A/viewform?usp=sharing" id="inscripcion-supervisores-button" target="_blank">este formulario</a>. Una vez cumplimentado, nos pondremos en contacto contigo para informarte de los siguientes pasos.</p>
+        <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a href="/PreliminaresPLANCKS/2026/Competition_Rules_Preliminares_de_PLANCKS_2025.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
       </div>
     </div>
   </div>
@@ -288,7 +288,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
       <div class="row center">
         <div class="col s12 m6">
           <div class="row center">
-            <a href="https://estudiantes.rsef.es/PLANCKS25/" target="_blank" id="plancks-button" class="btn-plancks25 waves-effect waves-light" style="margin: 0 10px;"><strong>Conoce Plancks 2025</strong></a>
+            <a href="https://estudiantes.rsef.es/PLANCKS25/" target="_blank" id="plancks-button" class="btn-plancks25 waves-effect waves-light" style="margin: 0 10px;"><strong>Conoce Plancks 2026</strong></a>
           </div>
         </div>
         <div class="col s12 m6">
