@@ -9,7 +9,7 @@ permalink: /PreliminaresPLANCKS2025/
     <div class="prelis25-sidebar">
         <ul>
           {% for year in site.data.Prelis.PostsList %}
-           {% for autor in year["2025"] limit:3 %}
+           {% for item in year["2025"] limit:3 %}
            <li>
              <a href="{{ item.url }}">
                <p>{{ item.text }}</p>
@@ -86,7 +86,7 @@ permalink: /PreliminaresPLANCKS2025/
       <div class="publicaciones-movil">
         <div class="publicaciones-row">
           {% for year in site.data.Prelis.PostsList %}
-           {% for autor in year["2025"] limit:5 %}
+           {% for item in year["2025"] limit:5 %}
            <div class="publicacion">
              <a href="{{ item.url }}">
                <p>{{ item.text }}</p>
