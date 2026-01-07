@@ -9,7 +9,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
     <div class="prelis25-sidebar">
         <ul>
           {% for year in site.data.Prelis.PostsList %}
-            {% for item in year["2025"] limit:3 %}
+            {% for item in year["2026"] limit:3 %}
               <li>
                 <a href="{{ item.url }}">
                   <p>{{ item.text }}</p>
