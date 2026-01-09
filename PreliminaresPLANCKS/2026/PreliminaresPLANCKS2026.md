@@ -85,23 +85,25 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
       <!-- AUTORES -->
       <h3 id="Autores">¡Conoce a l@s autor@s de los problemas!</h3>
       <p style="text-align:justify;">Los miembros del Comité Académico de las Preliminares PLANCKS 2026 son:</p>
-      <div style="display:flex; flex-wrap:wrap; gap:16px; justify-content:center;">
-        {% for year in site.data.Prelis.autores %}
-          {% for autor in year["2026"] %}
-            <div style="flex:1 1 280px; max-width:340px;">
-              <div style="border:1px solid #e0e0e0; border-radius:6px; overflow:hidden; box-shadow:0 2px 4px #e53935; background:#fff;">
-                <div style="background:#b71c1c; color:#fff; display:flex; gap:12px; align-items:center; padding:12px;">
-                  <div style="width:72px; height:72px; flex:0 0 72px;">
-                    <img src="{{ autor.imagen }}" alt="{{ autor.nombre }}" style="width:72px; height:72px; object-fit:cover; border-radius:50%;">
+      <div class="section">
+        <div style="display:flex; flex-wrap:wrap; gap:16px; justify-content:center;">
+          {% for year in site.data.Prelis.autores %}
+            {% for autor in year["2026"] %}
+              <div style="flex:1 1 280px; max-width:340px;">
+                <div style="border:1px solid #e0e0e0; border-radius:6px; overflow:hidden; box-shadow:0 2px 4px #e53935; background:#fff;">
+                  <div style="background:#b71c1c; color:#fff; display:flex; gap:12px; align-items:center; padding:12px;">
+                    <div style="width:72px; height:72px; flex:0 0 72px;">
+                      <img src="{{ autor.imagen }}" alt="{{ autor.nombre }}" style="width:72px; height:72px; object-fit:cover; border-radius:50%;">
+                    </div>
+                    <div style="flex:1;">
+                      <h4 style="margin:0; font-size:1.05rem;">{{ autor.nombre }}</h4>
+                      <p style="margin:0; font-size:0.95rem; opacity:0.95;">{{ autor.tema }}</p>
+                    </div>
                   </div>
-                  <div style="flex:1;">
-                    <h4 style="margin:0; font-size:1.05rem;">{{ autor.nombre }}</h4>
-                    <p style="margin:0; font-size:0.95rem; opacity:0.95;">{{ autor.tema }}</p>
+                  <div style="padding:12px; color:#222;">
+                    <p style="margin:0 0 8px 0;">{{ autor["biografia"] | truncate: 220 }}</p>
+                    <a href="#{{ autor.nombre | slugify }}-modal" class="modal-trigger" style="color:#e53935; font-weight:600; text-decoration:none;">Leer biografía</a>
                   </div>
-                </div>
-                <div style="padding:12px; color:#222;">
-                  <p style="margin:0 0 8px 0;">{{ autor["biografia"] | truncate: 220 }}</p>
-                  <a href="#{{ autor.nombre | slugify }}-modal" class="modal-trigger" style="color:#e53935; font-weight:600; text-decoration:none;">Leer biografía</a>
                 </div>
               </div>
             </div>
