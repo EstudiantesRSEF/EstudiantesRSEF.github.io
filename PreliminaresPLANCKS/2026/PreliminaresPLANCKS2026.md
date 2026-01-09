@@ -122,7 +122,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
         {% endfor %}
       </div>
       <!-- COMITÉS -->
-      <div class="row"> 
+      <div class="row" style="margin-bottom: -10px"> 
         <p style="text-align: justify;">Además, puedes <a href="#comites-modal" class="prelis25 modal-trigger">consultar aquí</a> los integrantes del Comité Organizador de las Preliminares de PLANCKS 2026.</p>
       </div>    
       <!-- MAP -->
