@@ -122,6 +122,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
       <!-- COMITÉS -->
       <div class="row"> 
         <p style="text-align: justify;">Además, puedes <a href="#comites-modal" class="prelis25 modal-trigger">consultar aquí</a> los integrantes del Comité Organizador de las Preliminares de PLANCKS 2026.</p>
+        <p></p>
       </div>    
       <!-- MAP -->
       <div class="section">
@@ -192,7 +193,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center">
         <h3 class="justify">Información general</h3>
-        <p style="text-align: justify;"><strong>¿En qué consisten las Preliminares?</strong> Las Preliminares de PLANCKS 2026 es una competición de física teórica por equipos en la que habrá que resolver 8 problemas no muy largos. Puedes ver las pruebas de otros años en la <a class="prelis25 modal-close" href="#ediciones-anteriores">sección de Ediciones anteriores </a>, aunque este año se ha cambiado el formato y serán más preguntas más cortas que anteriormente. Puedes ver más ejemplos con soluciones de otros años <a class="prelis25" href="https://plancks.uk/landing-page/about/past-papers/">aquí</a>.
+        <p style="text-align: justify;"><strong>¿En qué consisten las Preliminares?</strong> Las Preliminares de PLANCKS 2026 es una competición de física teórica por equipos en la que habrá que resolver 8 problemas no muy largos. Puedes ver las pruebas de otros años en la <a class="prelis25 modal-close" href="#ediciones-anteriores">sección de Ediciones anteriores</a>, aunque el año pasado se cambió a un nuevo formato y ahora son más preguntas más cortas que anteriormente. Puedes ver más ejemplos con soluciones de otros años <a class="prelis25" href="https://plancks.uk/landing-page/about/past-papers/">aquí</a>.
         </p>        
         <p style="text-align: justify;"><strong>¿Cómo puedo participar en las Preliminares?</strong> Es muy sencillo: si conoces un@s cuant@s amig@s con los que te apetecería pasar un buen rato, resolver problemas que resultan todo un reto e inventarte respuestas disparatadas cuando no sepas por donde salir, reúne un equipo de hasta cuatro personas y no lo dudes: <a class="prelis25" href="https://docs.google.com/forms/d/e/1FAIpQLSeKyDq5URFysjS8J2fVBOmVnIz8kzJaSawA-WocMRvX1ivIdQ/viewform?usp=sharing" id="inscripcion-button" target="_blank">¡inscríbete!</a> Los equipos deben de estar formados por 3 o 4 personas. Esta primera fase nacional nos permitirá seleccionar a los mejores equipos para que nos representen en la competición internacional, el año pasado se clasificaron dos equipos a la fase final. </p>   
         <p style="text-align: justify;">Si ya existe una <a class="prelis25" href="https://estudiantes.rsef.es/delegaciones/">delegación del GdeE</a> en tu facultad, se ocuparán ellos de organizar las Prelis. Si no es el caso, es posible que el comité organizador os pida ayuda para encontrar un aula y un/a supervisor/a para poder garantizar una sede de las Preliminares en vuestra ciudad. </p>
@@ -280,7 +281,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
         <h3 class="justify">Conoce Plancks </h3>
         <p style="text-align: justify;"><strong>¿Qué es PLANCKS?</strong> PLANCKS (Physics League Across Numerous Countries for Kick-ass Students) es la competición internacional de física teórica de IAPS, la International Association of Physics Students. En ella pueden participar equipos de tres a cuatro estudiantes de grado y/o máster. Además, la competición se enmarca en un evento de varios días repleto de charlas y actividades para que los participantes se conozcan entre sí.</p>
         <p style="text-align: justify;">
-          Este año PLANCKS será organizado por nosotros, ¡el <a href="https://estudiantes.rsef.es/" id="iop-button" target="_blank"> GdeE de la RSEF </a>! y la prueba tendrá lugar del 1 al 5 de mayo en Eindhoven. ¡La última edición reunió 250 participantes de unos 30 países! Si quieres conocer más sobre PLANCKS y IAPS, la International Association of Physics Students, clica en los enlaces siguientes.
+          Este año PLANCKS será organizado por nosotros, ¡el <a href="https://estudiantes.rsef.es/" id="iop-button" target="_blank"> GdeE de la RSEF</a>! y la prueba tendrá lugar del 1 al 5 de mayo en Eindhoven. ¡La última edición reunió 250 participantes de unos 30 países! Si quieres conocer más sobre PLANCKS y IAPS, la International Association of Physics Students, clica en los enlaces siguientes.
         </p>
       </div>
     </div>    
