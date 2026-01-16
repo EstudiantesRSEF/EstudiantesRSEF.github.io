@@ -18,6 +18,10 @@
   #   text: "Título 4"
   
 - "2026":
-  - url: "https://www.instagram.com/p/DF5e_wboQKo/?img_index=1"
-    image: "/img/eventos/2025-PrelisPLANCKS/Post_Problema1.png"
-    text: "Problema de la semana #1"
+  - url: "https://www.instagram.com/p/DAQyHcstswn/?img_index=1"
+    image: "/img/eventos/2026-PrelisPLANCKS/Presentación GdeE - post.png"
+    text: "Presentación GdeE"
+    
+  - url: "https://www.instagram.com/reel/DS8AEOJjMWm/?img_index=1"
+    image: "/img/eventos/2025-PrelisPLANCKS/Final - grafismo 1.mp4"
+    text: "2025 Wrapped"
