@@ -100,7 +100,7 @@ Consulta [esta página](/nueva-delegacion/) para informarte del proceso. Para cu
 
   <figure style="margin: 0; text-align: center; width: 100px;">
     <img src="/img/junta25-27/Javi.png" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; display: block;">
-    <figcaption style="margin-top: 8px; font-size: 14px;"><a href="mailto:javierrodriguezjimenez1@gmail.com">Javier Rodríguez</a></figcaption>
+    <figcaption style="margin-top: 8px; font-size: 14px;"><a href="mailto:hoyuelosr.com">Javier Rodríguez</a></figcaption>
   </figure>
 </div>
 
