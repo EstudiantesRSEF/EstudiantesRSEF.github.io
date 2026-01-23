@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Delegaciones
-permalink: /delegaciones/
+permalink: /444delegaciones/
 redirect_from:
 ---
 
@@ -91,7 +91,18 @@ El Grupo de Estudiantes de la RSEF cuenta por el momento con {{ n }} Delegacione
 
 ## ¿Quieres crear una nueva Delegación?
 
-Consulta [esta página](/nueva-delegacion/).
+Consulta [esta página](/nueva-delegacion/) para informarte del proceso. Para cualquier duda, no dudes en escribir a nuestros vocales:
+<div style="display: flex; gap: 20px;">
+  <figure style="margin: 0; text-align: center; width: 100px;">
+    <img src="/img/junta25-27/Parra.png" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; display: block;">
+    <figcaption style="margin-top: 8px; font-size: 14px;"><a href="mailto:javierdlparra02@gmail.com">Javier de la Parra</a></figcaption>
+  </figure>
+
+  <figure style="margin: 0; text-align: center; width: 100px;">
+    <img src="/img/junta25-27/Javi.png" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; display: block;">
+    <figcaption style="margin-top: 8px; font-size: 14px;"><a href="mailto:javierrodriguezjimenez1@gmail.com">Javier Rodríguez</a></figcaption>
+  </figure>
+</div>
 
 
 <!-- Modales -->
