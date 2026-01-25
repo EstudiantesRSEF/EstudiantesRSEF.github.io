@@ -333,3 +333,16 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
     flex: 0 0 auto;
   }
 }
+
+
+.prelis26-sidebar {
+  @extend .sb-sidebar;
+  
+  li {
+    border-bottom: 2px solid #FFD700;
+  }
+  
+  p {
+    color: #FFD700;
+  }
+}
