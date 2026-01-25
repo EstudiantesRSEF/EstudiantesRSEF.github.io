@@ -85,7 +85,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
         </div>
       </div>
       <!-- AUTORES -->
-      <h3 id="Autores">¡Conoce a l@s autor@s de los problemas!</h3>
+      <!--h3 id="Autores">¡Conoce a l@s autor@s de los problemas!</h3>
       <p style="text-align:justify;">Los miembros del Comité Académico de las Preliminares PLANCKS 2026 son:</p>
       <div class="section">
         <div style="display:flex; flex-wrap:wrap; gap:16px; justify-content:center;">
@@ -108,9 +108,9 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
                   </div>
                 </div>
               </div>
-            </div>
+            </div -->
             <!-- Modal con la biografía -->
-            <div id="{{ autor.nombre | slugify }}-modal" class="modal">
+            <!--div id="{{ autor.nombre | slugify }}-modal" class="modal">
               <div class="modal-content">
                 <h4>{{ autor.nombre }}</h4>
                 <h6><em>{{ autor.tema }}</em></h6>
@@ -122,7 +122,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
             </div>
           {% endfor %}
         {% endfor %}
-      </div>
+      </div -->
       <!-- COMITÉS -->
       <div class="row" style="margin-bottom: -10px"> 
         <p style="text-align: justify;">Además, puedes <a href="#comites-modal" class="prelis25 modal-trigger">consultar aquí</a> los integrantes del Comité Organizador de las Preliminares de PLANCKS 2026.</p>
