@@ -200,16 +200,16 @@ button.btn-floating {
 .btn-plancks26 {
   @extend .btn-large; 
   color: #ffffff;
-  background-color: #DFF700;
+  background-color: #A51E1C;
   font-weight: bold;
   border-radius: 50px !important; 
 
   &:hover {
-    background-color: #A51E1C;
+    background-color: #FFD700;
   }
 }
 .bubble-buttons .btn-plancks26 {
-  border: 2px solid #A51E1C;
+  border: 2px solid #FFD700;
   flex: 1; 
   text-align: center; 
   padding: 12px 0; 
