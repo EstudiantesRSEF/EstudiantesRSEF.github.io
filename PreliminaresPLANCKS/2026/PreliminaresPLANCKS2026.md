@@ -6,7 +6,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
 
 <div class="no-pad-top" id="index-page">
   <div class="prelis25-container">
-    <div class="prelis26-sidebar">
+    <div class="prelis25-sidebar">
         <ul>
           {% for year in site.data.Prelis.PostsList %}
             {% for item in year["2026"] limit:3 %}
