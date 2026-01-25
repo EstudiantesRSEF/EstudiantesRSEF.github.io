@@ -210,7 +210,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
       </div>
     </div>    
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
-      <div class="section" style="padding-left: 15px; padding-right: 15px; border: 2px solid #352F71;">
+      <div class="section" style="padding-left: 15px; padding-right: 15px; border: 2px solid #A51E1C;">
         <strong>Términos y Condiciones de IAPS</strong> | Todos los participantes:
         <p style="text-align: justify;">- Declaran conocer que PLANCKS está regulado por el Artículo 12 de las <a class="prelis26" href="https://www.iaps.info/wp-content/uploads/2023/01/iaps__Regulations_2022.pdf" target="_blank">IAPS Regulations</a>.</p>
         <p style="text-align: justify;">- Y se comprometen a cumplir las <a class="prelis26" href="https://www.iaps.info/wp-content/uploads/2021/01/PLANCKS-General-Rules-EGM-2020.pdf" target="_blank">Reglas Generales de PLANCKS</a>, además del <a class="prelis26" href="https://www.iaps.info/wp-content/uploads/2022/08/IAPS-Code-of-Conduct-2020.pdf" target="_blank">IAPS Code of Conduct</a> y <a class="prelis26" href="/PreliminaresPLANCKS/2026/Terms-and-Conditions-2020.pdf" target="_blank"> los Términos y Condiciones de cualquier actividad de IAPS.</a></p>
@@ -224,13 +224,13 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
 </div>
 
 <!-- PREMIOS MODAL -->
-<div id="premios-modal" class="modal prelis25">
+<div id="premios-modal" class="modal prelis26">
   <div class="modal-content-tight">
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center">
         <h3 class="justify">Premios</h3>
         <p style="text-align: justify;">
-          Este año contamos con el apoyo y financiación de la <a class="prelis25" href="https://www.fundacionareces.es" id="ramon-areces" target="_blank">Fundación Ramón Areces</a>, que nos permite ofrecer premios a los tres mejores equipos: 700€ para el primer equipo, 500€ para el segundo y 300€ para el tercer clasificado. Además, los clasificados participarán en la fase internacional de PLANCKS en Barcelona, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
+          Este año contamos con el apoyo y financiación de la <a class="prelis26" href="https://www.fundacionareces.es" id="ramon-areces" target="_blank">Fundación Ramón Areces</a>, que nos permite ofrecer premios a los tres mejores equipos: 700€ para el primer equipo, 500€ para el segundo y 300€ para el tercer clasificado. Además, los clasificados participarán en la fase internacional de PLANCKS en Barcelona, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
         </p>
         <!-- <p style="text-align: justify;">
           Todo esto no sería posible sin el apoyo de la Fundación Ramón Areces y de los miembros del GdeE. ¡Así que muchas gracias por confiar en nosotros!
@@ -247,7 +247,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
 </div>
 
 <!-- SUPERVISORES MODAL -->
-<div id="supervisores-modal" class="modal prelis25">
+<div id="supervisores-modal" class="modal prelis26">
   <div class="modal-content-tight">
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center">
@@ -277,7 +277,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
 </div>
 
 <!-- CONOCER MODAL -->
-<div id="plancks-modal" class="modal prelis25">
+<div id="plancks-modal" class="modal prelis26">
   <div class="modal-content-tight">    
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center">
@@ -292,12 +292,12 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
       <div class="row center">
         <div class="col s12 m6">
           <div class="row center">
-            <a href="https://estudiantes.rsef.es/PLANCKS25/" target="_blank" id="plancks-button" class="btn-plancks25 waves-effect waves-light" style="margin: 0 10px;"><strong>Conoce Plancks 2026</strong></a>
+            <a href="https://estudiantes.rsef.es/PLANCKS25/" target="_blank" id="plancks-button" class="btn-plancks26 waves-effect waves-light" style="margin: 0 10px;"><strong>Conoce Plancks 2026</strong></a>
           </div>
         </div>
         <div class="col s12 m6">
           <div class="row center">
-            <a href="https://www.iaps.info/" target="_blank" id="iaps-button" class="btn-plancks25 waves-effect waves-light" style="margin: 0 10px;"><strong>Conoce IAPS</strong></a>
+            <a href="https://www.iaps.info/" target="_blank" id="iaps-button" class="btn-plancks26 waves-effect waves-light" style="margin: 0 10px;"><strong>Conoce IAPS</strong></a>
           </div>
         </div>
       </div>
@@ -308,7 +308,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
   </div>
 </div>
 <!-- INSCRIPCIÓN MODAL -->
-<div id="inscripcion-modal" class="modal prelis25">
+<div id="inscripcion-modal" class="modal prelis26">
   <div class="modal-content-tight">    
     <div class="section">
       <div class="row center">
@@ -317,12 +317,12 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
       <div class="row center">  
         <div class="col s12 m6">
           <div class="row center">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeKyDq5URFysjS8J2fVBOmVnIz8kzJaSawA-WocMRvX1ivIdQ/closedform" id="inscripcion-equipos-button" target="_blank" class="btn-plancks25 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">groups</i><strong>Inscripción equipos</strong></a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeKyDq5URFysjS8J2fVBOmVnIz8kzJaSawA-WocMRvX1ivIdQ/closedform" id="inscripcion-equipos-button" target="_blank" class="btn-plancks26 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">groups</i><strong>Inscripción equipos</strong></a>
           </div>
         </div>
         <div class="col s12 m6">
           <div class="row center">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfkYroDxNN5NgQS5AqwKzitQc34YRTJj4H0yzd5amwEs4iw9A/viewform?usp=sharing" id="inscripcion-supers-button" target="_blank" class="btn-plancks25 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Inscripción supervisores</strong></a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfkYroDxNN5NgQS5AqwKzitQc34YRTJj4H0yzd5amwEs4iw9A/viewform?usp=sharing" id="inscripcion-supers-button" target="_blank" class="btn-plancks26 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Inscripción supervisores</strong></a>
           </div>
         </div>
       </div>      
@@ -334,7 +334,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
 </div>
 
 <!-- COMITÉS MODAL-->
-<div id="comites-modal" class="modal prelis25">
+<div id="comites-modal" class="modal prelis26">
   <div class="modal-content-tight">
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center" style="padding-left: 30px; padding-top: 10px;">
@@ -372,7 +372,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
 </div>
 
 <!-- MODAL COMITÉ ORGANIZADOR -->
-<div id="OCPrelis23" class="modal prelis25">
+<div id="OCPrelis23" class="modal prelis26">
   <div class="modal-content">
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center" style="padding-left: 30px; padding-top: 10px;">
