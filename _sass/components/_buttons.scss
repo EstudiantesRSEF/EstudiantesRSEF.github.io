@@ -197,6 +197,35 @@ button.btn-floating {
   display: block;
 }
 
+.btn-plancks26 {
+  @extend .btn-large; 
+  color: #ffffff;
+  background-color: #DFF700;
+  font-weight: bold;
+  border-radius: 50px !important; 
+
+  &:hover {
+    background-color: #A51E1C;
+  }
+}
+.bubble-buttons .btn-plancks26 {
+  border: 2px solid #A51E1C;
+  flex: 1; 
+  text-align: center; 
+  padding: 12px 0; 
+  display: flex; /* inline-block */
+  align-items: center;
+  justify-content: center;
+  width: 100px; 
+  height: 50px;
+  box-sizing: border-box; 
+  line-height: 1;
+}
+// Block button
+.btn-block {
+  display: block;
+}
+
 
 // Variables
 $enef25-blue: #00589D;
