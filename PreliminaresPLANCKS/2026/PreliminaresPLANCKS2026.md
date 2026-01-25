@@ -63,7 +63,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
        </div> 
         <!-- FI -->
         <!-- PUBLICACIONES MÓVILES -->
-       <div class="publicaciones-movil">
+       <div class="publicaciones-movil-prelis26">
         <div class="publicaciones-row">
           {% for year in site.data.Prelis.PostsList %}
             {% for item in year["2026"] limit:5 %}
