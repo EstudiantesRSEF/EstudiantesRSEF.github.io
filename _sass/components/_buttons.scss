@@ -440,6 +440,26 @@ a.enef25-link {
   }
 }
 
+.prelis26{
+  a:not(.btn-plancks26), span {
+    color: #A51E1C; // Red color for standard links and spans
+  }
+
+  a:not(.btn-plancks26):visited {
+    color: #FFD700; // Yellow color for clicked links
+  }
+
+  a:not(.btn-plancks26):hover {
+    color: #A51E1C; // Red color for hovered links
+  }
+  .btn-plancks26 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.1;
+  }
+}
+
 .donation-box {
   border: 2px solid #ddd;
   padding: 20px;
