@@ -125,7 +125,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
       </div -->
       <!-- COMITÉS -->
       <div class="row" style="margin-bottom: -10px"> 
-        <p style="text-align: justify;">Además, puedes <a href="#comites-modal" class="prelis25 modal-trigger">consultar aquí</a> los integrantes del Comité Organizador de las Preliminares de PLANCKS 2026.</p>
+        <p style="text-align: justify;">Además, puedes <a href="#comites-modal" class="prelis26 modal-trigger">consultar aquí</a> los integrantes del Comité Organizador de las Preliminares de PLANCKS 2026.</p>
       </div>    
       <!-- MAP -->
       <div class="section">
@@ -356,7 +356,6 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
             <div class="icon-block">
               <h5 class="center">Comité Académico</h5>
               <!-- <p align="center">No podemos desvelar su composición hasta después de la realización de la prueba. ;)</p> -->
-              <p align="center">Ángel Sanz Ortiz</p>
               <p align="center">Por anunciar...</p>
               <!-- <p align="center"></p>
               <p align="center"></p> -->
