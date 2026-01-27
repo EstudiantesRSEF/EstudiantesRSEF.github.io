@@ -1,0 +1,320 @@
+---
+layout: page
+title: Pruebas pag principal
+permalink: /jhjbdfkjfbvkdajvbñadkfjbvlasjbfiabilus/
+---
+<!--Side bar ordenador-->
+<div class="sidebar-generica tema-index">
+  <ul>
+    {% for year in site.data.IndexPage.PostsList %}
+      {% for item in year["2026"] limit:3 %}
+        <li>
+          <a href="{{ item.url }}">
+            {% if item.video %}
+              <video autoplay muted loop playsinline>
+                <source src="{{ item.image }}" type="video/mp4">
+              </video>
+            {% else %}
+              <img src="{{ item.image }}" alt="{{ item.text }}">
+            {% endif %}
+            <p>{{ item.text }}</p>
+          </a>
+        </li>
+      {% endfor %}
+    {% endfor %}
+  </ul>
+</div>
+
+<hr style="border: 0; border-top: 1px solid #eee; margin: 30px 0;">
+
+<div class="sidebar-generica tema-blog">
+  <h5>Lo último del blog:</h5>
+  <ul>
+    {% for post in site.categories.blog limit:3 %}
+      <li>
+        <a href="{{ post.url }}">
+          {% if post.cover %}
+            <img src="{{ post.cover }}" alt="Portada {{ post.title }}">
+          {% else %}
+            <img src="/img/logos/gdee-logo.png" alt="Logo GDEE" style="opacity:0.7;">
+          {% endif %}
+          
+          <p>{{ post.title }}</p>
+          <span>{{ post.date | date: "%d/%m/%Y" }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+<!--Side bar móvil-->
+<div class="publicaciones-movil-base tema-prelis">
+  <h5 class="center">Preliminares</h5>
+  <div class="publicaciones-row">
+    {% for year in site.data.Prelis.PostsList %}
+      {% for item in year["2026"] limit:3 %}
+        <div class="publicacion">
+          <a href="{{ item.url }}">
+             {% if item.video %}
+              <video autoplay muted loop playsinline>
+                <source src="{{ item.image }}" type="video/mp4">
+              </video>
+            {% else %}
+              <img src="{{ item.image }}" alt="{{ item.text }}">
+            {% endif %}
+            <p>{{ item.text }}</p>
+          </a>
+        </div>
+      {% endfor %}
+    {% endfor %}
+  </div>
+</div>
+
+<div style="margin-bottom: 30px;"></div> <div class="publicaciones-movil-base tema-blog">
+  <h5 class="center">Blog</h5>
+  <div class="publicaciones-row">
+    {% for post in site.categories.blog limit:3 %}
+      <div class="publicacion">
+        <a href="{{ post.url }}">
+          {% if post.cover %}
+            <img src="{{ post.cover }}" alt="{{ post.title }}">
+          {% else %}
+            <img src="/img/logos/gdee-logo.png" alt="Logo GDEE">
+          {% endif %}
+          <p>{{ post.title }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- SPECIAL EFFECTS - USE ONLY 1 DEPENDING ON THE EVENT -->
+<!-- WINTER SOLSTICE % include_relative effects/snowflakes.html %} -->
+
+<div class="no-pad-top" id="index-page">
+  <div class="container">
+<!-- VIDEO TVE & AUDIO COPE -->
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m6">
+	  <div class="audio-block">
+            <a href="/PLANCKS25" target="_blank" rel="noopener noreferrer">
+    	      <img src="/img/eventos/2025-PLANCKS/news/PLANCKS_radio.png" alt="Imagen radio" />
+  	    </a>
+            <audio controls>
+              <source src="https://archive.org/download/fisica-en-cope/FISICA%20EN%20COPE.mp3" type="audio/mpeg">
+              Tu navegador no soporta la reproducción de audio.
+            </audio>
+          </div>
+	</div>
+	<div class="col s12 m6">
+	  <div class="video-block">
+      	    <video autoplay muted controls playsinline width="100%" style="max-width: 500px; display: block; margin: 0 auto;">
+ 	      <source src="https://archive.org/download/PLANCKS_TVE/PLANCKS_TVE.mp4" type="video/mp4">
+  	      Tu navegador no soporta vídeos.
+            </video>
+	  </div>
+        </div>
+      </div>
+    </div>
+<!-- BANNERS ENEF & PRELIS -->
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="row center">
+            <a href="/ENEF2025"><img id="banner ENEF" width="90%" src="/ENEF/2025/img/ENEF25_Banner.png" alt="Banner ENEF"></a>		  
+	  </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="row center">
+            <a href="/PreliminaresPLANCKS2025"><img id="banner Prelis25" width="90%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png" alt="Banner Prelis24"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- LOGO & CONÓCENOS VIDEO -->
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="icon-block">
+	    <img id="index-top-logo" src="/img/logos/gdee-rsef.png" alt="Logo Estudiantes RSEF">
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="icon-block">
+	    <center><iframe width="100%" height="270" src="https://www.youtube.com/embed/B327Xucbb30?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--   ICON SECTION   -->
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="icon-block">
+            <h2 class="center">Grupo de Estudiantes RSEF</h2>
+            <p class="light" align="justify">El Grupo de Estudiantes de la Real Sociedad Española de Física busca reunir a todos los estudiantes de física de España, proporcionarles nuevas oportunidades a nivel nacional e internacional y ayudar a mejorar la divulgación de la física y su enseñanza.</p>
+          </div>
+	  <div class="center">
+	    <a href="{{ site.url }}/about/" id="about-button" class="btn-gdee">Conócenos</a>
+	  </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="icon-block">
+            <h2 class="center">IAPS</h2>
+            <p class="light" align="justify">La Asociación Internacional de Estudiantes de Física promueve desde 1987 la colaboración entre estudiantes y asociaciones de física a nivel mundial. Sus miembros están representados por comités nacionales y locales. Entre todos, IAPS representa a más de 60.000 estudiantes.</p>
+          </div>
+          <div class="center">
+	    <a href="https://www.iaps.info/" target="_blank" id="iaps-button" class="btn-gdee">Descubre IAPS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- EVENT SECTION -->
+  <div class="section">
+    <h3>
+      Nuestros eventos
+    </h3>
+    <p>
+      El Grupo de Estudiantes de la RSEF organiza actividades para estudiantes de física españoles y les ofrece la posibilidad de participar en todos los eventos abiertos a miembros de IAPS. ¿Que cuáles son esos eventos, preguntas? ¡Echa un vistazo!
+    </p>
+      <div class="row">
+        <div class="col s12 m7">
+          <ul class="slider" id="foto-eventi">
+            <ul class="slides">
+              {% assign loopindex = 0 %}
+              {% assign array = site.events | reverse %}
+              {% for event in array %}
+                {% if event.categories contains "eventos-nacionales" or "eventos-internacionales" or "eventoespecial" %}
+                  <li href="{{ event.site }}">
+                    <a href="{{ event.site }}">
+                      <img src="{{ event.cover }}" alt="{{ event.title }}">
+                    </a>
+                    <div class="caption left-align">
+		      {% if event.shorttitle %}
+                    	<h4>{{ event.shorttitle }}</h4>
+		      {% else %}
+                    	<h4>{{ event.title }}</h4>
+		      {% endif %}
+		      {% if event.hidedataincover == "Yes" %}
+		      {% else %}
+                    	<p class="white-text">
+				{{ event.place }},
+                        	<br>
+                        	{{ event.startingdate | date: '%b %Y' }}
+                        </p>
+		      {% endif %}
+                    </div>
+                  </li>
+                  {% assign loopindex = loopindex | plus: 1%}
+                {% endif %}
+<!-- NUMBER OF SLIDES ON INDEX -->
+                {% if loopindex == 4 %}
+                  {% break %}
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </ul>
+        </div>
+        <div class="col s12 m5">
+		      {% include eventos-pagina-principal.html %}
+        </div>
+      </div>
+    </div>
+<!-- END OF EVENT SECTION -->
+<!-- NEWS SECTION -->
+<!--    <div class="row">
+      <div class="col s12 m12">
+        <h3>Últimas Noticias</h3>
+        <div class="blog-index">
+          {% assign maxCountBlog = 3 %}
+          {% assign countBlog = 0 %}
+          {% for post in site.categories['noticias'] %}
+            {% if post.hidden != true and countBlog < maxCountBlog %}
+              {% assign countBlog = countBlog | plus: 1 %}
+              {% assign post = site.posts.first %}
+              {% assign content = post.excerpt %}
+              {% include post_detail.html %}
+            {% endif %}
+          {% endfor %}
+          <div class="divider"></div>
+        </div>
+      </div>
+    </div>  -->
+<!-- END OF NEWS SECTION -->
+
+<!-- QUANTUM-SOCIETY.COM COLLABORATION -->
+<!-- <iframe src="https://quantum-society.com" width="100%" height="1000" frameborder="5" margin="40 40 40 40"></iframe> -->
+
+<!-- BLOG -->
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m12">
+          <h3>Lo último del Blog</h3>
+          <div class="blog-index">
+            <ul class="post-list">
+            {% assign maxCountBlog = 3 %}
+            {% assign countBlog = 0 %}
+            {% for post in site.categories.blog %}
+              {% if post.hidden != true and countBlog < maxCountBlog %}
+                {% assign countBlog = countBlog | plus: 1 %}
+                <li>
+                  <h2>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="padding:10px">
+                      {{ post.title }}
+                    </a>
+                    {% if post.date %}
+                      <div class="chip">
+                        <span class="post-meta">
+                          {{ post.date | date: "%-d %b %Y" }}
+                        </span>
+                      </div>
+                    {% endif %}
+                    {% if post.author %}
+                      <div class="chip">
+                        <span class="post-meta">
+                          {{ post.author }}
+                        </span>
+                      </div>
+                    {% endif %}
+                    {% if post.categories %}
+                      {% for category in post.categories %}
+                        {% if category == 'blog' %}
+                          {% else %}
+                            <div class="chip">
+                              <span class="post-meta">
+                                {{ category }}
+                              </span>
+                            </div>
+                        {% endif %}
+                      {% endfor %}
+                    {% endif %}
+                  </h2>
+                  <div class="entry-content">
+                    {{ post.excerpt | strip_html }}
+                  </div>
+                  <div class="row">
+                    <div class="right" style="margin-top: 10px; text-align: end;">
+                    <a class="btn-large waves-effect waves-light" href="{{ root_url }}{{ post.url }}" name="action">Continúa
+                      <i class="material-icons right">send</i>
+                    </a>
+                  </div>
+                  <br>
+                  </li>
+                  <div class="divider">
+                  </div>
+              {% endif %}
+            {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row center">
+           <a href="{{ site.url }}/blog/" id="about-button" class="btn-gdee">Accede al Blog</a>
+      </div>
+    </div>
+<!-- END OF BLOG SECTION -->
+  </div>
+</div>
+
+{% include eventos-pagina-principal-modal.html %}
+{% include schema.html %}

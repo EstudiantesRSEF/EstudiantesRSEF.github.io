@@ -334,7 +334,7 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
   }
 }
 
-
+//Side bar de los preliminares de Plancks 2026
 .prelis26-sidebar {
   @extend .sb-sidebar;
   
@@ -394,5 +394,119 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
       height: 50px;
       align-content: center;
     }
+  }
+}
+
+// Sidebar Genérica (Hereda la estructura de tu sb-sidebar)
+.sidebar-generica {
+  @extend .sb-sidebar;
+  
+  // Definimos el estilo del borde pero sin color
+  li {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+
+  // Estilos base para texto
+  p {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  // Estilo para fecha pequeña (opcional para el blog)
+  span {
+    font-size: 0.8rem;
+    color: #666;
+    display: block;
+    text-align: center;
+  }
+}
+
+// Carrusel Móvil Base (Mejorado para reutilizar)
+.publicaciones-movil-base {
+  display: none;
+
+  @media (max-width: 599px) {
+    display: block;
+    overflow-x: auto;
+    padding-bottom: 10px; // Espacio para el scroll
+  }
+
+  .publicaciones-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .publicacion {
+    flex: 0 0 48%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &:first-child {
+      flex: 0 0 50%;
+    }
+
+    a:hover img, a:hover video {
+      transform: scale(1.05);
+    }
+    
+    img, video {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      transition: transform 0.3s;
+      margin: 0 auto;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    p {
+      margin: 10px 0 0;
+      font-size: 18px; // Ajustado ligeramente para que quepa mejor
+      font-weight: bold;
+      text-align: center;
+      line-height: 1.2;
+      align-content: center;
+      // El color se define en el tema
+    }
+  }
+}
+
+// 2. TEMAS DE COLOR (Aplica esto junto a las clases base)
+// -----------------------------------------
+
+.tema-index {
+  $color-index: #16203F;
+
+  // Aplicado a sidebar
+  &.sidebar-generica {
+    li { border-bottom-color: $color-index; }
+    p { color: $color-index; }
+  }
+
+  // Aplicado a móvil
+  &.publicaciones-movil-base {
+    .publicacion p { color: $color-index; }
+  }
+}
+
+// TEMA AZUL 
+.tema-blog {
+  $color-blog: #2E8B57; // Puedes cambiar este azul por tu variable favorita
+
+  // Aplicado a sidebar
+  &.sidebar-generica {
+    li { border-bottom-color: lighten($color-blog, 30%); } // Borde más suave
+    p { color: $color-blog; }
+  }
+
+  // Aplicado a móvil
+  &.publicaciones-movil-base {
+    .publicacion p { color: $color-blog; }
   }
 }
