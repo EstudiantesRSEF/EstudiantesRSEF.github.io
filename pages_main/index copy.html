@@ -3,54 +3,10 @@ layout: page
 title: Pruebas pag principal
 permalink: /jhjbdfkjfbvkdajvbñadkfjbvlasjbfiabilus/
 ---
-<!--Side bar ordenador-->
-<div class="sidebar-generica tema-index">
-  <ul>
-    {% for year in site.data.IndexPage.PostsList %}
-      {% for item in year["2026"] limit:3 %}
-        <li>
-          <a href="{{ item.url }}">
-            {% if item.video %}
-              <video autoplay muted loop playsinline>
-                <source src="{{ item.image }}" type="video/mp4">
-              </video>
-            {% else %}
-              <img src="{{ item.image }}" alt="{{ item.text }}">
-            {% endif %}
-            <p>{{ item.text }}</p>
-          </a>
-        </li>
-      {% endfor %}
-    {% endfor %}
-  </ul>
-</div>
-
-<hr style="border: 0; border-top: 1px solid #eee; margin: 30px 0;">
-
-<div class="sidebar-generica tema-blog">
-  <h5>Lo último del blog:</h5>
-  <ul>
-    {% for post in site.categories.blog limit:3 %}
-      <li>
-        <a href="{{ post.url }}">
-          {% if post.cover %}
-            <img src="{{ post.cover }}" alt="Portada {{ post.title }}">
-          {% else %}
-            <img src="/img/logos/gdee-logo.png" alt="Logo GDEE" style="opacity:0.7;">
-          {% endif %}
-          
-          <p>{{ post.title }}</p>
-          <span>{{ post.date | date: "%d/%m/%Y" }}</span>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
-<!--Side bar móvil-->
-<div class="publicaciones-movil-base tema-prelis">
+<div class="publicaciones-movil-base tema-index">
   <h5 class="center">Preliminares</h5>
   <div class="publicaciones-row">
-    {% for year in site.data.Prelis.PostsList %}
+    {% for year in site.data.IndexPage.PostsList %}
       {% for item in year["2026"] limit:3 %}
         <div class="publicacion">
           <a href="{{ item.url }}">
@@ -69,7 +25,9 @@ permalink: /jhjbdfkjfbvkdajvbñadkfjbvlasjbfiabilus/
   </div>
 </div>
 
-<div style="margin-bottom: 30px;"></div> <div class="publicaciones-movil-base tema-blog">
+<div style="margin-bottom: 30px;"></div>
+
+<div class="publicaciones-movil-base tema-blog">
   <h5 class="center">Blog</h5>
   <div class="publicaciones-row">
     {% for post in site.categories.blog limit:3 %}
@@ -78,13 +36,67 @@ permalink: /jhjbdfkjfbvkdajvbñadkfjbvlasjbfiabilus/
           {% if post.cover %}
             <img src="{{ post.cover }}" alt="{{ post.title }}">
           {% else %}
-            <img src="/img/logos/gdee-logo.png" alt="Logo GDEE">
+            <img src="/img/logos/gdee-rsef-white-background.png" alt="Logo GDEE">
           {% endif %}
           <p>{{ post.title }}</p>
         </a>
       </div>
     {% endfor %}
   </div>
+</div>
+
+<hr style="border: 0; border-top: 1px solid #eee; margin: 30px 0;">
+
+
+<div class="generic-container">
+
+  <aside class="sidebar-generica tema-index">
+    
+    <ul>
+      {% for year in site.data.IndexPage.PostsList %}
+        {% for item in year["2026"] limit:3 %}
+          <li>
+            <a href="{{ item.url }}">
+              {% if item.video %}
+                <video autoplay muted loop playsinline>
+                  <source src="{{ item.image }}" type="video/mp4">
+                </video>
+              {% else %}
+                <img src="{{ item.image }}" alt="{{ item.text }}">
+              {% endif %}
+              <p>{{ item.text }}</p>
+            </a>
+          </li>
+        {% endfor %}
+      {% endfor %}
+    </ul>
+
+    <hr style="border: 0; border-top: 1px solid #eee; margin: 30px 0;">
+
+    <div class="tema-blog"> <h5>Lo último del blog:</h5>
+      <ul>
+        {% for post in site.categories.blog limit:3 %}
+          <li>
+            <a href="{{ post.url }}">
+              {% if post.cover %}
+                <img src="{{ post.cover }}" alt="Portada {{ post.title }}">
+              {% else %}
+                <img src="/img/logos/gdee-rsef-white-background.png" alt="Logo GDEE" style="opacity:0.7;">
+              {% endif %}
+              <p>{{ post.title }}</p>
+              <span>{{ post.date | date: "%d/%m/%Y" }}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </aside>
+
+  <div class="generic-content">
+     {{ content }}
+  </div>
+
 </div>
 
 <!-- SPECIAL EFFECTS - USE ONLY 1 DEPENDING ON THE EVENT -->

@@ -397,6 +397,21 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
   }
 }
 
+.generic-container {
+  @extend .sb-container; 
+  // Esto hereda el flex-direction: row-reverse de sb-container
+  
+  // IMPORTANTE: .sb-container tiene flex-direction: row-reverse.
+  // Esto significa que el HTML se renderiza al revés visualmente.
+  // Si quieres el Sidebar a la Derecha y Contenido a la Izquierda:
+  // En el HTML pon primero el Sidebar y luego el Contenido.
+}
+
+// Asegurarnos que el contenido genérico tenga el ancho correcto
+.generic-content {
+  @extend .sb-content;
+}
+
 // Sidebar Genérica (Hereda la estructura de tu sb-sidebar)
 .sidebar-generica {
   @extend .sb-sidebar;
