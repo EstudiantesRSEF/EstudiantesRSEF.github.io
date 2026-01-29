@@ -344,11 +344,17 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
             <div class="icon-block">
               <h5 class="center">Comité Organizador</h5>
               <p align="center">Eric Jiménez Zurera - Presidente</p>
-              <p align="center">Joan Llobera Querol - Vicepresidente</p>
-              <p align="center">Misael Samir Malqui Cruz - Redes </p>
-              <p align="center">Miguel Durán Vera - Web </p>
-              <p align="center">Adrián Marín Boyero - Grafismos </p>
-              <p align="center">Manuel Peralta - Logística</p>
+              <p align="center">Michel Verdú Álvarez - Vicepresidente</p>
+              <p align="center">José Daniel Randazzo - Redes </p>
+              <p align="center">José Daniel Randazzo - Redes </p>
+              <p align="center">Lucía Barroso García - Redes </p>
+              <p align="center">Rodrigo Hoyuelos Manso - Web </p>
+              <p align="center">Miryam Suárez Delgado - Web </p>
+              <p align="center">Óscar Naranjo López - Web </p>
+              <p align="center">Nilo Muñiz Martínez - Web </p>
+              <p align="center">Emma Rebollar Cuenca - Grafismos </p>
+              <p align="center">Adrián Ocaña  González - Logística</p>
+              <p align="center">Diego Muñoz Ovalle  - Logística</p>
               <!--<p align="center">- Senior Advisor</p>               -->
             </div>
           </div>
