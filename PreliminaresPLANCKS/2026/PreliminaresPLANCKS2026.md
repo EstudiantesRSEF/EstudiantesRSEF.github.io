@@ -346,7 +346,6 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
               <p align="center">Eric Jiménez Zurera - Presidente</p>
               <p align="center">Michel Verdú Álvarez - Vicepresidente</p>
               <p align="center">José Daniel Randazzo - Redes </p>
-              <p align="center">José Daniel Randazzo - Redes </p>
               <p align="center">Lucía Barroso García - Redes </p>
               <p align="center">Rodrigo Hoyuelos Manso - Web </p>
               <p align="center">Miryam Suárez Delgado - Web </p>
