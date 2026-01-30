@@ -293,11 +293,11 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
     </div>    
     <div class="section">
       <div class="row center">
-        <div class="col s12 m6">
+        <!--div class="col s12 m6">
           <div class="row center">
             <a href="https://estudiantes.rsef.es/PLANCKS25/" target="_blank" id="plancks-button" class="btn-plancks26 waves-effect waves-light" style="margin: 0 10px;"><strong>Conoce Plancks 2026</strong></a>
           </div>
-        </div>
+        </div-->
         <div class="col s12 m6">
           <div class="row center">
             <a href="https://www.iaps.info/" target="_blank" id="iaps-button" class="btn-plancks26 waves-effect waves-light" style="margin: 0 10px;"><strong>Conoce IAPS</strong></a>
