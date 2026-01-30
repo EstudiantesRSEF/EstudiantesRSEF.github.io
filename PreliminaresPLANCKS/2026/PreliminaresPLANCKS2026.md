@@ -269,8 +269,8 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
           <li style="text-align: justify;">Supervisar el desarrollo de la prueba durante su realización y velar por el cumplimiento de las normas establecidas.</li>
           <li style="text-align: justify;">Recoger las hojas de la prueba y escanearlas para enviarlas al Comité Organizador el mismo día de la prueba.</li>
         </list>
-        <p style="text-align: justify;"><strong>¿Cómo puedo supervisar un examen en las Preliminares 2026?</strong> Es muy sencillo: sólo tienes que rellenar <a href="https://docs.google.com/forms/d/e/1FAIpQLSfkYroDxNN5NgQS5AqwKzitQc34YRTJj4H0yzd5amwEs4iw9A/viewform?usp=sharing" id="inscripcion-supervisores-button" target="_blank">este formulario</a>. Una vez cumplimentado, nos pondremos en contacto contigo para informarte de los siguientes pasos.</p>
-        <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a href="/PreliminaresPLANCKS/2026/Competition_Rules_Preliminares_de_PLANCKS_2025.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
+        <p style="text-align: justify;"><strong>¿Cómo puedo supervisar un examen en las Preliminares 2026?</strong> Es muy sencillo: sólo tienes que rellenar <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjPhQE64biN66TFOW85IMMEr1PVc8AAXMu5vZHfsJwVFxpfA/viewform?usp=sharing&ouid=114236208530030479904" id="inscripcion-supervisores-button" target="_blank">este formulario</a>. Una vez cumplimentado, nos pondremos en contacto contigo para informarte de los siguientes pasos.</p>
+        <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a href="/PreliminaresPLANCKS/2026/Competition_Rules_Preliminares_de_PLANCKS_2026.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
       </div>
     </div>
   </div>
@@ -287,7 +287,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
         <h3 class="justify">Conoce Plancks </h3>
         <p style="text-align: justify;"><strong>¿Qué es PLANCKS?</strong> PLANCKS (Physics League Across Numerous Countries for Kick-ass Students) es la competición internacional de física teórica de IAPS, la International Association of Physics Students. En ella pueden participar equipos de tres a cuatro estudiantes de grado y/o máster. Además, la competición se enmarca en un evento de varios días repleto de charlas y actividades para que los participantes se conozcan entre sí.</p>
         <p style="text-align: justify;">
-          Este año PLANCKS será organizado por nosotros, ¡el <a href="https://estudiantes.rsef.es/" id="iop-button" target="_blank"> GdeE de la RSEF</a>! y la prueba tendrá lugar del 1 al 5 de mayo en Eindhoven. ¡La última edición reunió 250 participantes de unos 30 países! Si quieres conocer más sobre PLANCKS y IAPS, la International Association of Physics Students, clica en los enlaces siguientes.
+          Este año PLANCKS será organizado por nosotros, ¡el <a href="https://estudiantes.rsef.es/" id="iop-button" target="_blank"> GdeE de la RSEF</a>! y la prueba tendrá lugar del 21 al 25 de mayo en Eindhoven. ¡La última edición reunió 46 equipos de 28 países! Si quieres conocer más sobre PLANCKS y IAPS, la International Association of Physics Students, clica en los enlaces siguientes.
         </p>
       </div>
     </div>    
@@ -325,7 +325,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
         </div>
         <div class="col s12 m6">
           <div class="row center">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfkYroDxNN5NgQS5AqwKzitQc34YRTJj4H0yzd5amwEs4iw9A/viewform?usp=sharing" id="inscripcion-supers-button" target="_blank" class="btn-plancks26 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Inscripción supervisores</strong></a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjPhQE64biN66TFOW85IMMEr1PVc8AAXMu5vZHfsJwVFxpfA/viewform?usp=sharing&ouid=114236208530030479904" id="inscripcion-supers-button" target="_blank" class="btn-plancks26 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Inscripción supervisores</strong></a>
           </div>
         </div>
       </div>      
