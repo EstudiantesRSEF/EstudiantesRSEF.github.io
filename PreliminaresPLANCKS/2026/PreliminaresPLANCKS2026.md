@@ -320,7 +320,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
       <div class="row center">  
         <div class="col s12 m6">
           <div class="row center">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeKyDq5URFysjS8J2fVBOmVnIz8kzJaSawA-WocMRvX1ivIdQ/closedform" id="inscripcion-equipos-button" target="_blank" class="btn-plancks26 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">groups</i><strong>Inscripción equipos</strong></a>
+            <a href="https://forms.gle/MSpSEH1DZWzR62Zf6" id="inscripcion-equipos-button" target="_blank" class="btn-plancks26 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">groups</i><strong>Inscripción equipos</strong></a>
           </div>
         </div>
         <div class="col s12 m6">
