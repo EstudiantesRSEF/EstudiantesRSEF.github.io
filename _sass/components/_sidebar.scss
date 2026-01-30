@@ -399,9 +399,6 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
 
 .generic-container {
   @extend .sb-container; 
-  @media (min-width: 992px) {
-    width: 74%; // Reducimos el contenido: 100% - 25% (sidebar) - 1% (margen) = 74%
-  }
 }
 
 // Asegurarnos que el contenido genérico tenga el ancho correcto
@@ -412,11 +409,6 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
 // Sidebar Genérica (Hereda la estructura de tu sb-sidebar)
 .sidebar-generica {
   @extend .sb-sidebar;
-  
-  // Aquí sobreescribimos el valor por defecto (que era 15%)
-  @media (min-width: 992px) {
-    width: 25%; // La hacemos más ancha
-  }
 
   
   // Definimos el estilo del borde pero sin color
