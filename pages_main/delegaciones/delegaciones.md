@@ -122,7 +122,7 @@ Consulta [esta página](/nueva-delegacion/) para informarte del proceso. Para cu
         <div class="col s12 m6 l6">        
           <div class="row center" style="padding-top: 40px;">
             <h1 class="justify">{{ item.nombre }}</h1>
-            	Desde <h5 class="justify">{{ item.fundacion }}</h5>
+            	 <h5 class="justify"> Desde {{ item.fundacion }}</h5>
 		<h5>Equipo</h5>
 		<ul>
 			<li><b>Presidencia:</b> {{item.presidente}}</li>
