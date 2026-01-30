@@ -83,95 +83,7 @@ permalink: /jhjbdfkjfbvkdajvbñadkfjbvlasjbfiabilus/
         </div>
       </div>
     </div>
-
-    </div>
-  </div>
-</div>  
-
-
-<!-- SPECIAL EFFECTS - USE ONLY 1 DEPENDING ON THE EVENT -->
-<!-- WINTER SOLSTICE % include_relative effects/snowflakes.html %} -->
-
-<div class="no-pad-top" id="index-page">
-  <div class="container">
-<!-- VIDEO TVE & AUDIO COPE -->
-    <div class="section">
-      <div class="row">
-        <div class="col s12 m6">
-	  <div class="audio-block">
-            <a href="/PLANCKS25" target="_blank" rel="noopener noreferrer">
-    	      <img src="/img/eventos/2025-PLANCKS/news/PLANCKS_radio.png" alt="Imagen radio" />
-  	    </a>
-            <audio controls>
-              <source src="https://archive.org/download/fisica-en-cope/FISICA%20EN%20COPE.mp3" type="audio/mpeg">
-              Tu navegador no soporta la reproducción de audio.
-            </audio>
-          </div>
-	</div>
-	<div class="col s12 m6">
-	  <div class="video-block">
-      	    <video autoplay muted controls playsinline width="100%" style="max-width: 500px; display: block; margin: 0 auto;">
- 	      <source src="https://archive.org/download/PLANCKS_TVE/PLANCKS_TVE.mp4" type="video/mp4">
-  	      Tu navegador no soporta vídeos.
-            </video>
-	  </div>
-        </div>
-      </div>
-    </div>
-<!-- BANNERS ENEF & PRELIS -->
-    <div class="section">
-      <div class="row">
-        <div class="col s12 m6">
-          <div class="row center">
-            <a href="/ENEF2025"><img id="banner ENEF" width="90%" src="/ENEF/2025/img/ENEF25_Banner.png" alt="Banner ENEF"></a>		  
-	  </div>
-        </div>
-        <div class="col s12 m6">
-          <div class="row center">
-            <a href="/PreliminaresPLANCKS2025"><img id="banner Prelis25" width="90%" src="/img/eventos/2025-PLANCKS/PLANCKS25_Banner.png" alt="Banner Prelis24"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-<!-- LOGO & CONÓCENOS VIDEO -->
-    <div class="section">
-      <div class="row">
-        <div class="col s12 m6">
-          <div class="icon-block">
-	    <img id="index-top-logo" src="/img/logos/gdee-rsef.png" alt="Logo Estudiantes RSEF">
-          </div>
-        </div>
-        <div class="col s12 m6">
-          <div class="icon-block">
-	    <center><iframe width="100%" height="270" src="https://www.youtube.com/embed/B327Xucbb30?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
-          </div>
-        </div>
-      </div>
-    </div>
-<!--   ICON SECTION   -->
-    <div class="section">
-      <div class="row">
-        <div class="col s12 m6">
-          <div class="icon-block">
-            <h2 class="center">Grupo de Estudiantes RSEF</h2>
-            <p class="light" align="justify">El Grupo de Estudiantes de la Real Sociedad Española de Física busca reunir a todos los estudiantes de física de España, proporcionarles nuevas oportunidades a nivel nacional e internacional y ayudar a mejorar la divulgación de la física y su enseñanza.</p>
-          </div>
-	  <div class="center">
-	    <a href="{{ site.url }}/about/" id="about-button" class="btn-gdee">Conócenos</a>
-	  </div>
-        </div>
-        <div class="col s12 m6">
-          <div class="icon-block">
-            <h2 class="center">IAPS</h2>
-            <p class="light" align="justify">La Asociación Internacional de Estudiantes de Física promueve desde 1987 la colaboración entre estudiantes y asociaciones de física a nivel mundial. Sus miembros están representados por comités nacionales y locales. Entre todos, IAPS representa a más de 60.000 estudiantes.</p>
-          </div>
-          <div class="center">
-	    <a href="https://www.iaps.info/" target="_blank" id="iaps-button" class="btn-gdee">Descubre IAPS</a>
-          </div>
-        </div>
-      </div>
-    </div>
-<!-- EVENT SECTION -->
+    <!-- EVENT SECTION -->
   <div class="section">
     <h3>
       Nuestros eventos
@@ -222,101 +134,13 @@ permalink: /jhjbdfkjfbvkdajvbñadkfjbvlasjbfiabilus/
         </div>
       </div>
     </div>
-<!-- END OF EVENT SECTION -->
-<!-- NEWS SECTION -->
-<!--    <div class="row">
-      <div class="col s12 m12">
-        <h3>Últimas Noticias</h3>
-        <div class="blog-index">
-          {% assign maxCountBlog = 3 %}
-          {% assign countBlog = 0 %}
-          {% for post in site.categories['noticias'] %}
-            {% if post.hidden != true and countBlog < maxCountBlog %}
-              {% assign countBlog = countBlog | plus: 1 %}
-              {% assign post = site.posts.first %}
-              {% assign content = post.excerpt %}
-              {% include post_detail.html %}
-            {% endif %}
-          {% endfor %}
-          <div class="divider"></div>
-        </div>
-      </div>
-    </div>  -->
-<!-- END OF NEWS SECTION -->
 
-<!-- QUANTUM-SOCIETY.COM COLLABORATION -->
-<!-- <iframe src="https://quantum-society.com" width="100%" height="1000" frameborder="5" margin="40 40 40 40"></iframe> -->
-
-<!-- BLOG -->
-    <div class="section">
-      <div class="row">
-        <div class="col s12 m12">
-          <h3>Lo último del Blog</h3>
-          <div class="blog-index">
-            <ul class="post-list">
-            {% assign maxCountBlog = 3 %}
-            {% assign countBlog = 0 %}
-            {% for post in site.categories.blog %}
-              {% if post.hidden != true and countBlog < maxCountBlog %}
-                {% assign countBlog = countBlog | plus: 1 %}
-                <li>
-                  <h2>
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="padding:10px">
-                      {{ post.title }}
-                    </a>
-                    {% if post.date %}
-                      <div class="chip">
-                        <span class="post-meta">
-                          {{ post.date | date: "%-d %b %Y" }}
-                        </span>
-                      </div>
-                    {% endif %}
-                    {% if post.author %}
-                      <div class="chip">
-                        <span class="post-meta">
-                          {{ post.author }}
-                        </span>
-                      </div>
-                    {% endif %}
-                    {% if post.categories %}
-                      {% for category in post.categories %}
-                        {% if category == 'blog' %}
-                          {% else %}
-                            <div class="chip">
-                              <span class="post-meta">
-                                {{ category }}
-                              </span>
-                            </div>
-                        {% endif %}
-                      {% endfor %}
-                    {% endif %}
-                  </h2>
-                  <div class="entry-content">
-                    {{ post.excerpt | strip_html }}
-                  </div>
-                  <div class="row">
-                    <div class="right" style="margin-top: 10px; text-align: end;">
-                    <a class="btn-large waves-effect waves-light" href="{{ root_url }}{{ post.url }}" name="action">Continúa
-                      <i class="material-icons right">send</i>
-                    </a>
-                  </div>
-                  <br>
-                  </li>
-                  <div class="divider">
-                  </div>
-              {% endif %}
-            {% endfor %}
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row center">
-           <a href="{{ site.url }}/blog/" id="about-button" class="btn-gdee">Accede al Blog</a>
-      </div>
     </div>
-<!-- END OF BLOG SECTION -->
   </div>
-</div>
+</div>  
 
+
+<!-- SPECIAL EFFECTS - USE ONLY 1 DEPENDING ON THE EVENT -->
+<!-- WINTER SOLSTICE % include_relative effects/snowflakes.html %} -->
 {% include eventos-pagina-principal-modal.html %}
 {% include schema.html %}
