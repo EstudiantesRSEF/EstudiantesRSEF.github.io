@@ -283,21 +283,21 @@
 #  congelado:
 
 
-# Prehecho el de Delegación Nebrija
-#- nombre: "Madrid - Nebrija"
-#  id: "MadridNebrija"
-#  img: "/img/logos/gdee-rsef-logo-cuadrado.png"
-#  mail: "estudiantesrsef.nebrija@gmail.com"
-#  presidente: "Andrea Morras Utrero"
-#  vicepresidente: "Sergio Ureta González"
-#  secretario: "Alfonso Miguel Fernández Pérez"
-#  tesorero: "Paula Serrano Romero"
-#  fundacion: "12/2025"
-#  ins: "https://www.instagram.com/estudiantesrsef_nebrija/"
-#  tw:
-#  ex:
-#  logo: "/img/banner/logo-banner-estrsef.jpg"
-#  congelado:
+- nombre: "Madrid - Nebrija"
+  id: "MadridNebrija"
+  img: "/img/logos/gdee-rsef-logo-cuadrado.png"
+  mail: "estudiantesrsef.nebrija@gmail.com"
+  presidente: "Andrea Morras Utrero"
+  vicepresidente: "Sergio Ureta González"
+  secretario: "Alfonso Miguel Fernández Pérez"
+  tesorero: "Paula Serrano Romero"
+  fundacion: "12/2025"
+  ins: "https://www.instagram.com/estudiantesrsef_nebrija/"
+  tw:
+  ex:
+  logo: "img/delegaciones/DNEBRIJA/LogoDNebrija.jpg"
+  congelado:
+
 
 
 
