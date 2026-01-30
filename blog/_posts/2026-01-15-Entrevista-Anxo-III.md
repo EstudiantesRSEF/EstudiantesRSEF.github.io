@@ -4,6 +4,7 @@ categories:
    - blog 
    - Entrevistas
 title:  "Entrevista a Anxo Fariña Biasi – Investigador en Física Matemática. Parte III"
+cover: "/img/blog/2025-11-26-Entrevista-Anxo/los_tres.jpeg"
 date: 2026-01-15 11:00
 author: Álvaro Jacobo Iturbe Jabaloyes & Enrique Rodríguez Ramos
 redirect-from:
