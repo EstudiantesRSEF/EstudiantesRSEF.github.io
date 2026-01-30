@@ -84,7 +84,7 @@
   ex:
     - nombre_ex: "Eric Jiménez Zurera"
     - nombre_ex: "Elena Martínez Barceló"
-  logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
+  logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado:
 
 - nombre: "Valencia - UV"
@@ -134,7 +134,7 @@
   tw: "https://x.com/EstRSEF_US"
   ex:
     - nombre_ex: "Inés Mora Caro"
-  logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
+  logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado:
 
 - nombre: "Valladolid - UVA"
@@ -152,7 +152,7 @@
   tw: "https://x.com/estuRSEF_UVA"
   ex:
     - nombre_ex: "Guillermo Muñoz Hernández"
-  logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
+  logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado:
 
 # No la borro por si acaso
@@ -184,7 +184,7 @@
   ins:
   tw:
   ex:
-  logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
+  logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado:
 
 - nombre: "La Laguna - ULL"
@@ -199,7 +199,7 @@
   ins:
   tw:
   ex:
-  logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
+  logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado:
 
 - nombre: "Alicante - UA"
@@ -217,7 +217,7 @@
   tw:
   ex:
     - nombre_ex: "Ernesto Tomás Riera"
-  logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
+  logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado:
 
 - nombre: "Baleares - UIB"
@@ -248,7 +248,7 @@
   ins:
   tw:
   ex:
-  logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDgwIiBoZWlnaHQ9IjQwMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
+  logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado:
 
 - nombre: "Valencia - UPV"
@@ -295,7 +295,7 @@
   ins: "https://www.instagram.com/estudiantesrsef_nebrija/"
   tw:
   ex:
-  logo: "img/delegaciones/DNEBRIJA/LogoDNebrija.jpg"
+  logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado:
 
 
