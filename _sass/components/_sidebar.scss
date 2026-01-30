@@ -397,126 +397,66 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
   }
 }
 
-.generic-container {
-  @extend .sb-container; 
-}
-
-// Asegurarnos que el contenido genérico tenga el ancho correcto
-.generic-content {
-  @extend .sb-content;
-}
-
-// Sidebar Genérica (Hereda la estructura de tu sb-sidebar)
-.sidebar-generica {
+//Side bar página principal
+.indexpage-sidebar {
   @extend .sb-sidebar;
-
   
-  // Definimos el estilo del borde pero sin color
   li {
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
-  }
-
-  // Estilos base para texto
-  p {
-    font-weight: bold;
-    text-align: center;
-    margin-top: 5px;
+    border-bottom: 2px solid #16203F;
   }
   
-  // Estilo para fecha pequeña (opcional para el blog)
-  span {
-    font-size: 0.8rem;
-    color: #666;
-    display: block;
-    text-align: center;
+  p {
+    color: #16203F;
   }
 }
 
-// Carrusel Móvil Base (Mejorado para reutilizar)
-.publicaciones-movil-base {
-  display: none;
+.publicaciones-movil-indexpage {
+  display: none; // Hide on larger screens
 
   @media (max-width: 599px) {
     display: block;
-    overflow-x: auto;
-    padding-bottom: 10px; // Espacio para el scroll
+    overflow-x: auto; // Enable horizontal scrolling
+    // white-space: nowrap; // Prevent line breaks
   }
 
   .publicaciones-row {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 20px; // Space between items
   }
 
   .publicacion {
-    flex: 0 0 48%;
+    flex: 0 0 48%; // Each item takes up about half the width
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
     &:first-child {
-      flex: 0 0 50%;
+      flex: 0 0 50%; // First item takes up 50% of the width
     }
 
     a:hover img, a:hover video {
-      transform: scale(1.05);
-    }
-    
-    img, video {
-      width: 100%;
-      height: auto;
+          transform: scale(1.1); // Efecto de zoom al pasar el mouse
+    }  
+    img, video{
+      width: 100%; // Ancho máximo para imágenes y videos
+      height: auto; // Mantén las proporciones
       border-radius: 5px;
-      transition: transform 0.3s;
-      margin: 0 auto;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: transform 0.3s; // Efecto al pasar el mouse
+      margin: 0 auto; // Centra la imagen o video horizontalmente
     }
 
     p {
-      margin: 10px 0 0;
-      font-size: 18px; // Ajustado ligeramente para que quepa mejor
-      font-weight: bold;
-      text-align: center;
-      line-height: 1.2;
+      margin: 10px 0 0; // Espaciado encima del texto
+      font-size: 20px;
+      color: #16203F; // Color texto
+      font-weight: bold; // Texto en negrita
+      text-align: center; // Asegura que el texto esté centrado
+      line-height: 1.1;
+      height: 50px;
       align-content: center;
-      // El color se define en el tema
     }
   }
 }
 
-// 2. TEMAS DE COLOR (Aplica esto junto a las clases base)
-// -----------------------------------------
-
-.tema-index {
-  $color-index: #16203F;
-
-  // Aplicado a sidebar
-  &.sidebar-generica {
-    li { border-bottom-color: $color-index; }
-    p { color: $color-index; }
-  }
-
-  // Aplicado a móvil
-  &.publicaciones-movil-base {
-    .publicacion p { color: $color-index; }
-  }
-}
-
-// TEMA AZUL 
-.tema-blog {
-  $color-blog: #2E8B57; // Puedes cambiar este azul por tu variable favorita
-
-  // Aplicado a sidebar
-  &.sidebar-generica {
-    li { border-bottom-color: lighten($color-blog, 30%); } // Borde más suave
-    p { color: $color-blog; }
-  }
-
-  // Aplicado a móvil
-  &.publicaciones-movil-base {
-    .publicacion p { color: $color-blog; }
-  }
-}
