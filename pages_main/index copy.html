@@ -44,45 +44,45 @@ permalink: /jhjbdfkjfbvkdajvbñadkfjbvlasjbfiabilus/
       </ul>
     </div>
     <div class="prelis25-content">
-      <!-- PUBLICACIONES MÓVILES -->
-       <div class="publicaciones-movil-indexpage">
-        <div class="publicaciones-row">
-          {% for year in site.data.IndexPage.PostsList %}
-            {% for item in year["2026"] limit:5 %}
-              <div class="publicacion">
-                <a href="{{ item.url }}">
-                  <p>{{ item.text }}</p>
-                  {% if item.video %}
-                  <video width="100%" height="auto" autoplay muted loop>
-                    <source src="{{ item.image }}" type="video/mp4">
-                    Tu navegador no soporta videos.
-                  </video>
-                  {% else %}
-                  <img src="{{ item.image }}" alt="{{ item.text }}">
-                  {% endif %}
-                </a>
-              </div>
-            {% endfor %}
-          {% endfor %}
-          <h5>Lo último del blog:</h5>
-         <ul>
-         {% for post in site.categories.blog limit:3 %}
-          <li>
-            <a href="{{ post.url }}">
-              {% if post.cover %}
-                <img src="{{ post.cover }}" alt="Portada {{ post.title }}">
-              {% else %}
-                <img src="/img/logos/gdee-rsef-white-background.png" alt="Logo GDEE" style="opacity:0.7;">
-              {% endif %}
-              <p>{{ post.title }}</p>
-              <span>{{ post.date | date: "%d/%m/%Y" }}</span>
-            </a>
-          </li>
-         {% endfor %}
-       </ul>
+
+      <!-- LOGO & CONÓCENOS VIDEO -->
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="icon-block">
+	    <img id="index-top-logo" src="/img/logos/gdee-rsef.png" alt="Logo Estudiantes RSEF">
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="icon-block">
+	    <center><iframe width="100%" height="270" src="https://www.youtube.com/embed/B327Xucbb30?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+          </div>
         </div>
       </div>
-     Esto es una prueba para ver si el texto se muesztra donde se debe.
+    </div>
+    <!--   ICON SECTION   -->
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="icon-block">
+            <h2 class="center">Grupo de Estudiantes RSEF</h2>
+            <p class="light" align="justify">El Grupo de Estudiantes de la Real Sociedad Española de Física busca reunir a todos los estudiantes de física de España, proporcionarles nuevas oportunidades a nivel nacional e internacional y ayudar a mejorar la divulgación de la física y su enseñanza.</p>
+          </div>
+	  <div class="center">
+	    <a href="{{ site.url }}/about/" id="about-button" class="btn-gdee">Conócenos</a>
+	  </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="icon-block">
+            <h2 class="center">IAPS</h2>
+            <p class="light" align="justify">La Asociación Internacional de Estudiantes de Física promueve desde 1987 la colaboración entre estudiantes y asociaciones de física a nivel mundial. Sus miembros están representados por comités nacionales y locales. Entre todos, IAPS representa a más de 60.000 estudiantes.</p>
+          </div>
+          <div class="center">
+	    <a href="https://www.iaps.info/" target="_blank" id="iaps-button" class="btn-gdee">Descubre IAPS</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
     </div>
   </div>
