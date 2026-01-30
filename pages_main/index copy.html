@@ -26,7 +26,7 @@ permalink: /jhjbdfkjfbvkdajvbñadkfjbvlasjbfiabilus/
             {% endfor %}
           {% endfor %}
         </ul>
-        <h5>Lo último del blog:</h5>
+        <h5><strong>Lo último del blog:</strong></h5>
         <ul>
         {% for post in site.categories.blog limit:3 %}
           <li>
@@ -84,44 +84,45 @@ permalink: /jhjbdfkjfbvkdajvbñadkfjbvlasjbfiabilus/
       </div>
     </div>
 
-<!-- PUBLICACIONES MÓVILES -->
-       <div class="publicaciones-movil-indexpage">
-        <div class="publicaciones-row">
-          {% for year in site.data.IndexPage.PostsList %}
-            {% for item in year["2026"] limit:5 %}
-              <div class="publicacion">
-                <a href="{{ item.url }}">
-                  <p>{{ item.text }}</p>
-                  {% if item.video %}
-                  <video width="100%" height="auto" autoplay muted loop>
-                    <source src="{{ item.image }}" type="video/mp4">
-                    Tu navegador no soporta videos.
-                  </video>
-                  {% else %}
-                  <img src="{{ item.image }}" alt="{{ item.text }}">
-                  {% endif %}
-                </a>
-              </div>
-            {% endfor %}
-          {% endfor %}
-          <h5>Lo último del blog:</h5>
-         <ul>
-         {% for post in site.categories.blog limit:3 %}
-          <div class="publicacion">
-            <a href="{{ post.url }}">
-              {% if post.cover %}
-                <img src="{{ post.cover }}" alt="Portada {{ post.title }}">
-              {% else %}
-                <img src="/img/logos/gdee-rsef-white-background.png" alt="Logo GDEE" style="opacity:0.7;">
-              {% endif %}
-              <p>{{ post.title }}</p>
-              <span>{{ post.date | date: "%d/%m/%Y" }}</span>
-            </a>
-          </div>
-         {% endfor %}
-       </ul>
+<div class="publicaciones-movil-indexpage">
+  
+  <div class="publicaciones-row">
+    {% for year in site.data.IndexPage.PostsList %}
+      {% for item in year["2026"] limit:5 %}
+        <div class="publicacion">
+          <a href="{{ item.url }}">
+            <p>{{ item.text }}</p>
+            {% if item.video %}
+              <video width="100%" height="auto" autoplay muted loop>
+                <source src="{{ item.image }}" type="video/mp4">
+                Tu navegador no soporta videos.
+              </video>
+            {% else %}
+              <img src="{{ item.image }}" alt="{{ item.text }}">
+            {% endif %}
+          </a>
         </div>
+      {% endfor %}
+    {% endfor %}
+  </div> <h5><strong>Lo último del blog:</strong></h5>
+
+  <div class="publicaciones-row">
+    {% for post in site.categories.blog limit:3 %}
+      <div class="publicacion">
+        <a href="{{ post.url }}">
+          {% if post.cover %}
+            <img src="{{ post.cover }}" alt="Portada {{ post.title }}">
+          {% else %}
+            <img src="/img/logos/gdee-rsef-white-background.png" alt="Logo GDEE" style="opacity:0.7;">
+          {% endif %}
+          <p>{{ post.title }}</p>
+          <span>{{ post.date | date: "%d/%m/%Y" }}</span>
+        </a>
       </div>
+    {% endfor %}
+  </div>
+
+</div>
 
     <!-- EVENT SECTION -->
   <div class="section">
