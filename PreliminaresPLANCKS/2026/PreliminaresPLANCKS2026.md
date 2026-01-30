@@ -267,7 +267,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
         <p style="text-align: justify;"><strong>¿Cuáles son las responsabilidades del cargo de Supervisor/a?</strong> Son las siguientes:</p>
         <list class="a">
           <li style="text-align: justify;">Imprimir las hojas de la prueba y custodiarlas hasta la realización del examen.</li>
-          <li style="text-align: justify;">Comprobar la identificación de los participantes a la prueba.</li>
+          <li style="text-align: justify;">Comprobar la identificación de los participantes de la prueba.</li>
           <li style="text-align: justify;">Supervisar el desarrollo de la prueba durante su realización y velar por el cumplimiento de las normas establecidas.</li>
           <li style="text-align: justify;">Recoger las hojas de la prueba y escanearlas para enviarlas al Comité Organizador el mismo día de la prueba.</li>
         </list>
@@ -289,7 +289,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
         <h3 class="justify">Conoce Plancks </h3>
         <p style="text-align: justify;"><strong>¿Qué es PLANCKS?</strong> PLANCKS (Physics League Across Numerous Countries for Kick-ass Students) es la competición internacional de física teórica de IAPS, la International Association of Physics Students. En ella pueden participar equipos de tres a cuatro estudiantes de grado y/o máster. Además, la competición se enmarca en un evento de varios días repleto de charlas y actividades para que los participantes se conozcan entre sí.</p>
         <p style="text-align: justify;">
-          Este año PLANCKS será organizado por nosotros, ¡el <a href="https://estudiantes.rsef.es/" id="iop-button" target="_blank"> GdeE de la RSEF</a>! y la prueba tendrá lugar del 21 al 25 de mayo en Eindhoven. ¡La última edición reunió 46 equipos de 28 países! Si quieres conocer más sobre PLANCKS y IAPS, la International Association of Physics Students, clica en los enlaces siguientes.
+          Este año PLANCKS será organizado por nosotros, ¡el <a href="https://estudiantes.rsef.es/" id="iop-button" target="_blank"> GdeE de la RSEF</a>! y la prueba tendrá lugar del 21 al 25 de mayo en Eindhoven. ¡La última edición reunió 46 equipos de 28 países! Si quieres conocer más sobre <!--PLANCKS--> y IAPS, la International Association of Physics Students, clica en los enlaces siguientes.
         </p>
       </div>
     </div>    
