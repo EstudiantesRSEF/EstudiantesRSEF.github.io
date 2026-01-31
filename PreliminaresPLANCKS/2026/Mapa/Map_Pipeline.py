@@ -1,7 +1,7 @@
 from Map_Functions import get_google_sheet_data,load_json, filter_universities, generate_university_maps, list_processing
 
 spreadsheet_id = '1zDbVXgE4-az4Uh626jjQNQqNu1hGD5wrU919KCR7LPs'
-api_key = 'AIzaSyC9f6KxNC9Pj0fZ0Ae-dypazvksWt6reLk'
+api_key = 'AIzaSyA1bagRhIkVfKJqYE2XYroOIKcCTwhWs1c'
 sheet_name = "Web"
 
 dict_path = r"/workspaces/EstudiantesRSEF.github.io/PreliminaresPLANCKS/2026/Mapa/university_dic.json"  
