@@ -1,6 +1,6 @@
 from Map_Functions import get_google_sheet_data,load_json, filter_universities, generate_university_maps, list_processing
 
-spreadsheet_id = '16A04FRRVfy10ar0haUjdd1oN_zUZN6BvmZ7gOXxgWVg'
+spreadsheet_id = '1zDbVXgE4-az4Uh626jjQNQqNu1hGD5wrU919KCR7LPs'
 api_key = 'AIzaSyCs0CmME6XNhtE7j5f_njKqdVl6X0gUWc0'
 sheet_name = "Web"
 
