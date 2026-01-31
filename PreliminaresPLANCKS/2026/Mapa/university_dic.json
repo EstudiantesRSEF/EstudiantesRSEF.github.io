@@ -143,5 +143,10 @@
         "university": "Universidad de Santiago de Compostela (USC)",
         "longitude": -8.5448,
         "latitude": 42.8782
+    },
+    "UDC": {
+        "university": "Universidad de A Coruña (UDC)",
+        "longitude": -8.40797,
+        "latitude": 43.32667
     }
 }
