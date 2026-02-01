@@ -117,6 +117,11 @@ sponsors:
   level: "1"
 
 exams:
+- name: "Barcelona 2025"
+  img: "/img/eventos/2025-PLANCKS/Logo.png"
+  link: "/PLANCKS25/PLANCKS25_Soluciones.pdf"
+#   solutions: "https://plancks.uk/wp-content/uploads/2024/01/PLANCKS-2023-Solutions.pdf"
+exams:
 - name: "Dublin 2024"
   img: "/img/eventos/2025-PLANCKS/PrevEditionsLogos/2024Dublin.png"
   link: "/PLANCKS25/PrevEditionsExams/PLANCKS2024_ProblemsSolutions.pdf"
