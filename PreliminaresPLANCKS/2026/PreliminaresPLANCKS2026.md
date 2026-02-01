@@ -135,7 +135,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
           <iframe id="content-mobile" src="/PreliminaresPLANCKS/2026/Mapa/universities_map_mobile.html" class="scalable-iframe" style="border:none; width: 100%"></iframe> 
       </div> 
       <!-- CARRERA -->
-     <h3>¡Sigue la carrera de inscripciones!</h3>
+     <!-- <h3>¡Sigue la carrera de inscripciones!</h3>
      <iframe 
         src="/PreliminaresPLANCKS/2026/carrera.html" 
         width="100%" 
@@ -143,7 +143,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/ #/PreliminaresPLANCKS2026/
         frameborder="0" 
         scrolling="no"
         style="border: 1px solid #ccc; border-radius: 8px;">
-     </iframe> 
+     </iframe>  -->
       <!-- EDICIONES ANTERIORES -->
       <div class="section" id="ediciones-anteriores">
         <div class="row center">
