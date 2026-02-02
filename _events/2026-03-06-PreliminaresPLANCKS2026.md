@@ -1,14 +1,14 @@
 ---
 layout: event
 categories: eventos//-internacionales
-title:  #Preliminares de PLANCKS 2026 
-startingdate: 2026-#03-06
+title:  Preliminares de PLANCKS 2026 
+startingdate: 2026-03-06
 endingdate: 
 place: Toda España
 locandina: /img/eventos/2026-PrelisPLANCKS/Prelis26_Logo.png
 cover: /img/eventos/2026-PrelisPLANCKS/Prelis26_Logo.png
 gallery:
-site: #/PreliminaresPLANCKS2026/
+site: /PreliminaresPLANCKS2026/
 ranking: 
 exam: 
 comm: 
