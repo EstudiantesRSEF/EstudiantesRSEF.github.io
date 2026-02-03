@@ -41,7 +41,7 @@ El Grupo de Estudiantes de la RSEF se organiza, a nivel de universidad y centro 
 
 ## Junta de Gobierno
 
-{% for item in site.data.EC3 %}
+{% for item in site.data.EC5 %}
 <p style='text-align: justify;'>La Junta de Gobierno es el órgano administrativo y ejecutivo del Grupo de Estudiantes, y está actualmente compuesta por {{ item.nmiembros }} miembros. Para saber más sobre la Junta de Gobierno <a href="/junta-de-gobierno/">pulsa aquí</a>.</p>
 {% endfor %}
 
