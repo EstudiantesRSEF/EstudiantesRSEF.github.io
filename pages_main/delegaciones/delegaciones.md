@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Delegaciones
+description: Descubre qué son las Delegaciones del Grupo de Estudiantes de la RSEF, dónde están y cómo crear una nueva en tu universidad o centro.
 permalink: /delegaciones/
 redirect_from:
 ---
