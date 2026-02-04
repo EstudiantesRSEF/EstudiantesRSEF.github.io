@@ -266,21 +266,21 @@
   logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado:
 
-# Prehecho el de UniZar
-#- nombre: "Zaragoza - UniZar"
-#  id: "Zaragoza - UniZar"
-#  img: "/img/logos/gdee-rsef-logo-cuadrado.png"
-#  mail: "estudiantesrsef.unizar@gmail.com"
-#  presidente: "Alejandro García Olza"
-#  vicepresidente: "Alejandro Abellán Vázquez"
-#  secretario: "Jaime Jiménez Pérez"
-#  tesorero: "María Tomey Alonso"
-#  fundacion: "12/2025"
-#  ins: "https://www.instagram.com/estudiantesrsef_nebrija/"
-#  tw:
-#  ex:
-#  logo: "/img/banner/logo-banner-estrsef.jpg"
-#  congelado:
+
+- nombre: "Zaragoza - UniZar"
+  id: "Zaragoza - UniZar"
+  img: "/img/delegaciones/DUNIZAR/DeleUNIZAR.jpg"
+  mail: "estudiantesrsef.unizar@gmail.com"
+  presidente: "Alejandro García Olza"
+  vicepresidente: "Alejandro Abellán Vázquez"
+  secretario: "Jaime Jiménez Pérez"
+  tesorero: "María Tomey Alonso"
+  fundacion: "12/2025"
+  ins: "https://www.instagram.com/estudiantesrsef_unizar/"
+  tw:
+  ex:
+  logo: "/img/banner/logo-banner-estrsef.jpg"
+  congelado:
 
 
 - nombre: "Madrid - Nebrija"
