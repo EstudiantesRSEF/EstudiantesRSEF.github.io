@@ -1,1 +1,38 @@
-[]
+[
+    {
+        "university": "Universidad del País Vasco (UPV/EHU)",
+        "longitude": -2.935,
+        "latitude": 43.263,
+        "teams": 1,
+        "team_list": [
+            "ERROMANTIKOAK"
+        ]
+    },
+    {
+        "university": "Universidad Autónoma de Madrid (UAM)",
+        "longitude": -3.6922,
+        "latitude": 40.5496,
+        "teams": 1,
+        "team_list": [
+            "El Quark-teto"
+        ]
+    },
+    {
+        "university": "Universidad de Granada (UGR)",
+        "longitude": -3.602,
+        "latitude": 37.1765,
+        "teams": 1,
+        "team_list": [
+            "Los extraordinarios "
+        ]
+    },
+    {
+        "university": "Universidad de Alcalá (UAH)",
+        "longitude": -3.3684,
+        "latitude": 40.4819,
+        "teams": 1,
+        "team_list": [
+            "Los primos de Golbach"
+        ]
+    }
+]
