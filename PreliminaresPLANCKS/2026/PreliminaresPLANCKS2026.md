@@ -329,12 +329,12 @@ permalink: /PreliminaresPLANCKS2026/
       <div class="row center">  
         <div class="col s12 m6">
           <div class="row center">
-            <a href="https://forms.gle/MSpSEH1DZWzR62Zf6" id="inscripcion-equipos-button" target="_blank" class="btn-plancks26 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">groups</i><strong>Inscripción equipos</strong></a>
+            <a href="https://forms.gle/75dXeeHSi8DbFNqG7" id="inscripcion-equipos-button" target="_blank" class="btn-plancks26 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">groups</i><strong>Inscripción equipos</strong></a>
           </div>
         </div>
         <div class="col s12 m6">
           <div class="row center">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjPhQE64biN66TFOW85IMMEr1PVc8AAXMu5vZHfsJwVFxpfA/viewform?usp=sharing&ouid=114236208530030479904" id="inscripcion-supers-button" target="_blank" class="btn-plancks26 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Inscripción supervisores</strong></a>
+            <a href="https://forms.gle/BXBE9NumcMeeNRqU9" id="inscripcion-supers-button" target="_blank" class="btn-plancks26 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Inscripción supervisores</strong></a>
           </div>
         </div>
       </div>      
