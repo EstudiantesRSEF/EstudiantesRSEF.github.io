@@ -43,7 +43,7 @@ permalink: /PreliminaresPLANCKS2026/
       </p-->
       <!-- BOTONES -->
       <div class="section" style="display: flex; flex-direction: column; justify-content: space-between">
-        <div class="row center">
+        <div class="row_center">
           <a href="#info-modal" id="info-button" class="collection-item modal-trigger btn-rounded plancks26-color"><i class="material-icons" style="padding-right: 8px;">info</i><strong>Información general</strong></a>
         </div>
         <div class="row_prelis">
