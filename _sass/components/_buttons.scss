@@ -476,6 +476,19 @@ a.enef25-link {
   }
 }
 
+@include media-query($on-palm) {
+  .row.center {
+    text-align: center;
+  }
+
+  #info-button {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+  }
+}
+
 .donation-box {
   border: 2px solid #ddd;
   padding: 20px;
