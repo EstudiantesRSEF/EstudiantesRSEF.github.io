@@ -267,10 +267,10 @@
   congelado:
 
 
-- nombre: "Zaragoza - UniZar"
-  id: "Zaragoza - UniZar"
+- nombre: "Zaragoza - UNIZAR"
+  id: "ZaragozaUNIZAR"
   img: "/img/delegaciones/DUNIZAR/DeleUNIZAR.jpg"
-  mail: "estudiantesrsef.unizar@gmail.com"
+  mail: 
   presidente: "Alejandro García Olza"
   vicepresidente: "Alejandro Abellán Vázquez"
   secretario: "Jaime Jiménez Pérez"
