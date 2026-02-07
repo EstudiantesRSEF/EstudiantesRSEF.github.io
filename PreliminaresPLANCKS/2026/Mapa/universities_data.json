@@ -1,5 +1,14 @@
 [
     {
+        "university": "Universidad Complutense de Madrid (UCM)",
+        "longitude": -3.7267,
+        "latitude": 40.4531,
+        "teams": 1,
+        "team_list": [
+            "Hasbulla Rockets"
+        ]
+    },
+    {
         "university": "Universidad del País Vasco (UPV/EHU)",
         "longitude": -2.935,
         "latitude": 43.263,
@@ -9,11 +18,21 @@
         ]
     },
     {
+        "university": "Universidad de Zaragoza (UNIZAR)",
+        "longitude": -0.8891,
+        "latitude": 41.6488,
+        "teams": 1,
+        "team_list": [
+            "Fast and Fouriers"
+        ]
+    },
+    {
         "university": "Universidad Autónoma de Madrid (UAM)",
         "longitude": -3.6922,
         "latitude": 40.5496,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
+            "Labubuneta Superpuesta",
             "El Quark-teto"
         ]
     },
