@@ -234,7 +234,7 @@ permalink: /PreliminaresPLANCKS2026/
         <!--p style="text-align: justify;">
           Los clasificados participarán en la fase internacional de PLANCKS en Eindhoven, Países Bajos, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
         </p-->
-        < p style="text-align: justify;">
+        <p style="text-align: justify;">
           Este año contamos con el apoyo y financiación de la <a class="prelis26" href="https://www.fundacionareces.es" id="ramon-areces" target="_blank">Fundación Ramón Areces</a>, que nos permite ofrecer premios a los tres mejores equipos: 700€ para el primer equipo, 500€ para el segundo y 300€ para el tercer clasificado. Además, los clasificados participarán en la fase internacional de PLANCKS en Barcelona, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
         </p>
         < <p style="text-align: justify;">
