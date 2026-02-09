@@ -30,9 +30,10 @@
         "university": "Universidad Autónoma de Madrid (UAM)",
         "longitude": -3.6922,
         "latitude": 40.5496,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "Labubuneta Superpuesta",
+            "Caballeros de Marco",
             "El Quark-teto"
         ]
     },
@@ -40,8 +41,9 @@
         "university": "Universidad de Granada (UGR)",
         "longitude": -3.602,
         "latitude": 37.1765,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
+            "Pastelitos",
             "Los extraordinarios "
         ]
     },
