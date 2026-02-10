@@ -136,15 +136,33 @@ permalink: /PreliminaresPLANCKS2026/
           <iframe id="content-mobile" src="/PreliminaresPLANCKS/2026/Mapa/universities_map_mobile.html" class="scalable-iframe" style="border:none; width: 100%"></iframe> 
       </div> 
       <!-- CARRERA -->
-     <!-- <h3>¡Sigue la carrera de inscripciones!</h3>
+      <h3>¡Sigue la carrera de inscripciones!</h3>
+
+<div class="iframe-responsive-wrapper">
      <iframe 
         src="/PreliminaresPLANCKS/2026/carrera.html" 
         width="100%" 
         height="500px" 
-        frameborder="0" 
-        scrolling="no"
-        style="border: 1px solid #ccc; border-radius: 8px;">
-     </iframe>  -->
+        loading="lazy"
+        style="border: 1px solid #ccc; border-radius: 8px; display: block;">
+     </iframe>
+</div>
+
+<style>
+  /* Estilos para asegurar que se vea bien en móvil */
+  .iframe-responsive-wrapper {
+      width: 100%;
+      overflow: auto; /* Permite scroll si el contenido es muy ancho */
+      -webkit-overflow-scrolling: touch; /* Scroll suave en iOS */
+  }
+
+  /* Opcional: Ajustar la altura en móviles si 500px es mucho */
+  @media (max-width: 600px) {
+      .iframe-responsive-wrapper iframe {
+          height: 400px; /* Puedes ajustar esto según necesites */
+      }
+  }
+</style>
       <!-- EDICIONES ANTERIORES -->
       <div class="section" id="ediciones-anteriores">
         <div class="row center">
