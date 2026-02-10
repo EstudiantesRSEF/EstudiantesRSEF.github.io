@@ -22,16 +22,16 @@
             margin-top: 0;
         }
 
-        /* --- LAYOUT PRINCIPAL (Dos columnas) --- */
+        /* --- LAYOUT PRINCIPAL --- */
         .contenedor-general {
             display: flex;
             gap: 20px;
-            max-width: 1000px;
+            max-width: 1200px; /* Aumentado ancho para soportar imágenes grandes */
             margin: 0 auto;
             align-items: flex-start;
         }
 
-        /* Panel de la Carrera (Ocupa el 65%) */
+        /* Panel de la Carrera */
         .panel-carrera {
             flex: 2;
             background: rgba(255, 255, 255, 0.2);
@@ -41,21 +41,21 @@
             position: relative;
         }
 
-        /* Panel de la Tabla (Ocupa el 35%) */
+        /* Panel de la Tabla */
         .panel-tabla {
             flex: 1;
             background: white;
             border-radius: 10px;
             padding: 15px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-            max-height: 500px; /* Aumentado un poco para ver mejor */
+            max-height: 600px; 
             overflow-y: auto;
         }
 
-        /* --- ESTILOS DE LA PISTA (Visual) --- */
+        /* --- ESTILOS DE LA PISTA --- */
         .pista-container {
             position: relative;
-            padding-right: 20px;
+            padding-right: 40px; /* Más espacio a la derecha para que no se corte la última imagen */
         }
         
         .meta-linea {
@@ -71,8 +71,8 @@
 
         .carril {
             position: relative;
-            /* AUMENTADO: De 70px a 110px para que quepan las mascotas grandes */
-            height: 110px; 
+            /* MUY IMPORTANTE: Aumentado a 180px para que quepan imágenes de 150px+ */
+            height: 180px; 
             border-bottom: 2px solid rgba(255, 255, 255, 0.6);
             width: 100%;
         }
@@ -82,42 +82,47 @@
 
         .corredor-wrapper {
             position: absolute;
-            bottom: 5px;
+            bottom: 10px;
             transform: translateX(-50%);
             display: flex;
             flex-direction: column;
             align-items: center;
             transition: left 1.5s cubic-bezier(0.25, 0.1, 0.25, 1);
             z-index: 10;
+            /* Asegura que el div no limite la imagen */
+            width: 160px; 
         }
 
         .mascota-icono { 
             display: flex;
             align-items: center;
             justify-content: center;
-            filter: drop-shadow(4px 4px 4px rgba(0,0,0,0.5)); /* Sombra más fuerte */
+            filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
+            width: 100%;
         }
 
         .etiqueta-info {
-            background: rgba(0, 0, 0, 0.8);
+            background: rgba(0, 0, 0, 0.85);
             color: white;
-            padding: 3px 8px;
-            border-radius: 4px;
-            font-size: 12px;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 14px; /* Texto más grande también */
             white-space: nowrap;
-            margin-top: -5px; /* Ajuste para acercar el texto a la imagen */
+            margin-top: -10px;
             font-weight: bold;
+            position: relative;
+            z-index: 20;
         }
 
-        /* --- ESTILOS DE LA TABLA (Clasificación) --- */
+        /* --- ESTILOS DE LA TABLA --- */
         table {
             width: 100%;
             border-collapse: collapse;
-            font-size: 14px;
+            font-size: 15px;
         }
         
-        th { text-align: left; border-bottom: 2px solid #ddd; padding: 8px 4px; color: #555; }
-        td { border-bottom: 1px solid #eee; padding: 8px 4px; vertical-align: middle; }
+        th { text-align: left; border-bottom: 2px solid #ddd; padding: 10px 5px; color: #555; }
+        td { border-bottom: 1px solid #eee; padding: 10px 5px; vertical-align: middle; }
         
         .fila-top1 { background-color: #FFF8E1; font-weight: bold; }
         .fila-top2 { background-color: #F5F5F5; font-weight: bold; }
@@ -125,13 +130,13 @@
 
         .numero-puesto {
             display: inline-block;
-            width: 24px;
-            height: 24px;
-            line-height: 24px;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
             text-align: center;
             border-radius: 50%;
             background: #eee;
-            font-size: 12px;
+            font-size: 14px;
             font-weight: bold;
         }
 
@@ -139,10 +144,13 @@
         .fila-top2 .numero-puesto { background: #C0C0C0; color: #000; }
         .fila-top3 .numero-puesto { background: #CD7F32; color: #fff; }
 
-        /* --- RESPONSIVE (Móvil) --- */
-        @media (max-width: 600px) {
+        /* --- RESPONSIVE --- */
+        @media (max-width: 768px) {
             .contenedor-general { flex-direction: column; }
             .panel-carrera, .panel-tabla { width: 100%; box-sizing: border-box; }
+            
+            /* En móvil reducimos un poco o se saldrán de la pantalla */
+            .carril { height: 140px; } 
         }
     </style>
 </head>
@@ -224,16 +232,18 @@
                 else if(puesto === 2) claseFila = "fila-top2";
                 else if(puesto === 3) claseFila = "fila-top3";
 
-                // IMAGEN TABLA: Aumentada a 40x40px
+                // IMAGEN TABLA: 
+                // Usamos !important para asegurar que nada externo lo cambie.
+                // Tamaño puesto a 60px (bastante grande para una tabla).
                 const htmlFila = `
                     <tr class="${claseFila}">
                         <td><span class="numero-puesto">${puesto}</span></td>
-                        <td>
+                        <td style="display: flex; align-items: center;">
                             <img src="${dato.icono}" alt="${dato.delegacion}" 
-                                 style="width: 110px; height: 110px; object-fit: contain; vertical-align: middle; margin-right: 8px;">
-                            ${dato.delegacion}
+                                 style="width: 60px !important; height: 60px !important; min-width: 60px; object-fit: contain; margin-right: 15px;">
+                            <span style="font-size: 1.1em;">${dato.delegacion}</span>
                         </td>
-                        <td style="text-align:center;"><strong>${dato.equipos}</strong></td>
+                        <td style="text-align:center; font-size: 1.2em;"><strong>${dato.equipos}</strong></td>
                     </tr>
                 `;
                 tbody.insertAdjacentHTML('beforeend', htmlFila);
@@ -248,7 +258,7 @@
             carrilInf.innerHTML = "";
 
             if (top3.length === 0) {
-                carrilSup.innerHTML = "<p style='text-align:center; color:white; padding-top:40px'>Esperando inscripciones...</p>";
+                carrilSup.innerHTML = "<p style='text-align:center; color:white; padding-top:60px; font-size: 1.2em;'>Esperando inscripciones...</p>";
                 return;
             }
 
@@ -256,14 +266,17 @@
 
             top3.forEach((dato, indice) => {
                 const ranking = indice + 1; 
-                let posPorcentaje = (dato.equipos / maxPuntos) * 90; 
+                let posPorcentaje = (dato.equipos / maxPuntos) * 85; // Bajado a 85% para que la imagen gigante no se salga por la derecha
 
-                // IMAGEN PISTA: Aumentada a 90x90px (Gran tamaño)
+                // IMAGEN PISTA: 
+                // Tamaño GIGANTE (150px). 
+                // Usamos !important.
+                // Si en móvil se ven demasiado grandes, el CSS @media de arriba las limitará.
                 const htmlCorredor = `
                     <div class="corredor-wrapper" style="left: ${posPorcentaje}%; z-index: ${10 - indice}">
                         <div class="mascota-icono">
                             <img src="${dato.icono}" title="${dato.delegacion}" 
-                                 style="width: 160px; height: 160px; object-fit: contain;">
+                                 style="width: 150px !important; height: 150px !important; object-fit: contain;">
                         </div>
                         <div class="etiqueta-info">
                             ${dato.delegacion} <strong>(${dato.equipos})</strong>
