@@ -18,14 +18,19 @@
   #   text: "Título 4"
   
 - "2026":
+  # DEJAR ESTE SIEMPRE EL PRIMERO! Ordenar los nuevos post de más a menos recientes a partir del segundo
   - url: "https://www.instagram.com/p/DAQyHcstswn/?img_index=1"
     image: "/img/eventos/2026-PrelisPLANCKS/Presentación GdeE - post.png"
     text: "Presentación GdeE"
-    
-  - url: "https://www.instagram.com/reel/DS8AEOJjMWm/?img_index=1"
-    image: "/img/eventos/2026-PrelisPLANCKS/Wrapped2025.jpg"
-    text: "2025 Wrapped"
+  
+  - url: "https://www.instagram.com/p/DUlnAJ3DJ4K/?img_index=1"
+    image: "/img/eventos/2026-PrelisPLANCKS/Prelis26_Mascotas.png"
+    text: "Conoce las Mascotas de las Delegaciones"
 
   - url: "https://www.instagram.com/p/DUQMkT7jIfO/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ=="
     image: "/img/eventos/2026-PrelisPLANCKS/CARTEL.png"
     text: "Vuelven las Preliminares de PLANCKS"
+      
+  - url: "https://www.instagram.com/reel/DS8AEOJjMWm/?img_index=1"
+    image: "/img/eventos/2026-PrelisPLANCKS/Wrapped2025.jpg"
+    text: "2025 Wrapped"
