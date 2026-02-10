@@ -30,7 +30,9 @@
   - url: "https://www.instagram.com/p/DUQMkT7jIfO/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ=="
     image: "/img/eventos/2026-PrelisPLANCKS/CARTEL.png"
     text: "Vuelven las Preliminares de PLANCKS"
-      
+  # A partir de aquí (3er post) se dejan de ver los post en PC
+
   - url: "https://www.instagram.com/reel/DS8AEOJjMWm/?img_index=1"
     image: "/img/eventos/2026-PrelisPLANCKS/Wrapped2025.jpg"
     text: "2025 Wrapped"
+  # En móvil se pueden ver hasta 5 post
