@@ -70,7 +70,7 @@ permalink: /PreliminaresPLANCKS2026/
             {% for item in year["2026"] limit:5 %}
               <div class="publicacion">
                 <a href="{{ item.url }}">
-                  <p>{{ item.text }}</p>
+                  <p style="height: auto">{{ item.text }}</p>
                   {% if item.video %}
                   <video width="100%" height="auto" autoplay muted loop>
                     <source src="{{ item.image }}" type="video/mp4">
