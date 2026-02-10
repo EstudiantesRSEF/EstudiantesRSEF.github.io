@@ -48,7 +48,7 @@
             border-radius: 10px;
             padding: 15px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-            max-height: 400px;
+            max-height: 500px; /* Aumentado un poco para ver mejor */
             overflow-y: auto;
         }
 
@@ -71,7 +71,8 @@
 
         .carril {
             position: relative;
-            height: 70px;
+            /* AUMENTADO: De 70px a 110px para que quepan las mascotas grandes */
+            height: 110px; 
             border-bottom: 2px solid rgba(255, 255, 255, 0.6);
             width: 100%;
         }
@@ -90,22 +91,22 @@
             z-index: 10;
         }
 
-        /* Ajustamos el contenedor del icono para centrar la img */
         .mascota-icono { 
             display: flex;
             align-items: center;
             justify-content: center;
-            filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.4)); 
+            filter: drop-shadow(4px 4px 4px rgba(0,0,0,0.5)); /* Sombra más fuerte */
         }
 
         .etiqueta-info {
-            background: rgba(0, 0, 0, 0.7);
+            background: rgba(0, 0, 0, 0.8);
             color: white;
-            padding: 2px 6px;
+            padding: 3px 8px;
             border-radius: 4px;
-            font-size: 11px;
+            font-size: 12px;
             white-space: nowrap;
-            margin-top: -2px;
+            margin-top: -5px; /* Ajuste para acercar el texto a la imagen */
+            font-weight: bold;
         }
 
         /* --- ESTILOS DE LA TABLA (Clasificación) --- */
@@ -124,13 +125,13 @@
 
         .numero-puesto {
             display: inline-block;
-            width: 20px;
-            height: 20px;
-            line-height: 20px;
+            width: 24px;
+            height: 24px;
+            line-height: 24px;
             text-align: center;
             border-radius: 50%;
             background: #eee;
-            font-size: 11px;
+            font-size: 12px;
             font-weight: bold;
         }
 
@@ -203,7 +204,9 @@
 
         function actualizarTodo() {
             let clasificacion = datosBrutos.sort((a, b) => b.equipos - a.equipos);
+            
             dibujarTabla(clasificacion);
+
             // Solo Top 3 con inscritos > 0
             const top3 = clasificacion.filter(d => d.equipos > 0).slice(0, 3);
             dibujarCarrera(top3);
@@ -221,14 +224,13 @@
                 else if(puesto === 2) claseFila = "fila-top2";
                 else if(puesto === 3) claseFila = "fila-top3";
 
-                // CORRECCIÓN AQUÍ: Usamos <img> en lugar de solo texto
-                // y aplicamos object-fit: contain
+                // IMAGEN TABLA: Aumentada a 40x40px
                 const htmlFila = `
                     <tr class="${claseFila}">
                         <td><span class="numero-puesto">${puesto}</span></td>
                         <td>
                             <img src="${dato.icono}" alt="${dato.delegacion}" 
-                                 style="width: 25px; height: 25px; object-fit: contain; vertical-align: middle; margin-right: 8px;">
+                                 style="width: 40px; height: 40px; object-fit: contain; vertical-align: middle; margin-right: 8px;">
                             ${dato.delegacion}
                         </td>
                         <td style="text-align:center;"><strong>${dato.equipos}</strong></td>
@@ -246,7 +248,7 @@
             carrilInf.innerHTML = "";
 
             if (top3.length === 0) {
-                carrilSup.innerHTML = "<p style='text-align:center; color:white; padding-top:20px'>Esperando inscripciones...</p>";
+                carrilSup.innerHTML = "<p style='text-align:center; color:white; padding-top:40px'>Esperando inscripciones...</p>";
                 return;
             }
 
@@ -256,12 +258,12 @@
                 const ranking = indice + 1; 
                 let posPorcentaje = (dato.equipos / maxPuntos) * 90; 
 
-                // CORRECCIÓN AQUÍ: Insertamos la etiqueta <img> dentro del div
+                // IMAGEN PISTA: Aumentada a 90x90px (Gran tamaño)
                 const htmlCorredor = `
                     <div class="corredor-wrapper" style="left: ${posPorcentaje}%; z-index: ${10 - indice}">
                         <div class="mascota-icono">
                             <img src="${dato.icono}" title="${dato.delegacion}" 
-                                 style="width: 50px; height: 50px; object-fit: contain;">
+                                 style="width: 90px; height: 90px; object-fit: contain;">
                         </div>
                         <div class="etiqueta-info">
                             ${dato.delegacion} <strong>(${dato.equipos})</strong>
