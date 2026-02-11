@@ -12,9 +12,20 @@
         "university": "Universidad del País Vasco (UPV/EHU)",
         "longitude": -2.935,
         "latitude": 43.263,
+        "teams": 3,
+        "team_list": [
+            "Bremsstrahlung",
+            "Tres ondas y una partícula",
+            "ERROMANTIKOAK"
+        ]
+    },
+    {
+        "university": "Universidad Autónoma de Barcelona (UAB)",
+        "longitude": 2.1057,
+        "latitude": 41.5016,
         "teams": 1,
         "team_list": [
-            "ERROMANTIKOAK"
+            "Anècdota precària"
         ]
     },
     {
@@ -27,13 +38,23 @@
         ]
     },
     {
+        "university": "Universidad de Barcelona (UB)",
+        "longitude": 2.1662,
+        "latitude": 41.3879,
+        "teams": 1,
+        "team_list": [
+            "Good Physicists"
+        ]
+    },
+    {
         "university": "Universidad Autónoma de Madrid (UAM)",
         "longitude": -3.6922,
         "latitude": 40.5496,
-        "teams": 3,
+        "teams": 4,
         "team_list": [
             "Labubuneta Superpuesta",
             "Caballeros de Marco",
+            "Runge-Fruta 4",
             "El Quark-teto"
         ]
     },
