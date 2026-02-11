@@ -292,7 +292,7 @@ permalink: /PreliminaresPLANCKS2026/
         </list>
         <p></p>
         <p style="text-align: justify;"><strong>¿Cómo puedo supervisar un examen en las Preliminares 2026?</strong> Es muy sencillo: sólo tienes que rellenar <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjPhQE64biN66TFOW85IMMEr1PVc8AAXMu5vZHfsJwVFxpfA/viewform?usp=sharing&ouid=114236208530030479904" id="inscripcion-supervisores-button" target="_blank">este formulario</a>. Una vez cumplimentado, nos pondremos en contacto contigo para informarte de los siguientes pasos.</p>
-        <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a href="/PreliminaresPLANCKS/2026/Competition_Rules_Preliminares_de_PLANCKS_2026.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
+        <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a href="/PreliminaresPLANCKS/2026/Competition_Rules____Preliminares_de_PLANCKS_2026.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
          <div class="col s12 m6">
           <div class="row center">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjPhQE64biN66TFOW85IMMEr1PVc8AAXMu5vZHfsJwVFxpfA/viewform?usp=sharing&ouid=114236208530030479904" id="inscripcion-supers-button" target="_blank" class="btn-plancks26 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Inscripción supervisores</strong></a>
