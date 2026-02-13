@@ -24,9 +24,11 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 1,
+        "teams": 3,
         "team_list": [
-            "Anècdota precària"
+            "Anècdota precària",
+            "Goon gang",
+            "LOS CABALLEROS DE LORD KELVIN"
         ]
     },
     {
@@ -36,6 +38,15 @@
         "teams": 1,
         "team_list": [
             "Fast and Fouriers"
+        ]
+    },
+    {
+        "university": "Universidad de Alicante (UA)",
+        "longitude": -0.4907,
+        "latitude": 38.3452,
+        "teams": 1,
+        "team_list": [
+            "Los Wrongskianos"
         ]
     },
     {
