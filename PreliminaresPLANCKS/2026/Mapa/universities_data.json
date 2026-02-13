@@ -3,9 +3,10 @@
         "university": "Universidad Complutense de Madrid (UCM)",
         "longitude": -3.7267,
         "latitude": 40.4531,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Hasbulla Rockets"
+            "Hasbulla Rockets",
+            "Wronskianos"
         ]
     },
     {
@@ -59,6 +60,25 @@
         ]
     },
     {
+        "university": "Universidad de Oviedo (UniOvi)",
+        "longitude": -5.845,
+        "latitude": 43.3619,
+        "teams": 2,
+        "team_list": [
+            "The Last Dance ",
+            "Tres cuerpos y un problema"
+        ]
+    },
+    {
+        "university": "Universidad de Valencia (UV)",
+        "longitude": -0.3752,
+        "latitude": 39.4699,
+        "teams": 1,
+        "team_list": [
+            "Incendio Forestal"
+        ]
+    },
+    {
         "university": "Universidad de Granada (UGR)",
         "longitude": -3.602,
         "latitude": 37.1765,
@@ -69,12 +89,39 @@
         ]
     },
     {
+        "university": "Universidad Politécnica de Cataluña (UPC)",
+        "longitude": 2.1131,
+        "latitude": 41.3891,
+        "teams": 1,
+        "team_list": [
+            "Alexandroff Extension"
+        ]
+    },
+    {
         "university": "Universidad de Alcalá (UAH)",
         "longitude": -3.3684,
         "latitude": 40.4819,
         "teams": 1,
         "team_list": [
             "Los primos de Golbach"
+        ]
+    },
+    {
+        "university": "Universidad de la Laguna (ULL)",
+        "longitude": -16.3159,
+        "latitude": 28.4698,
+        "teams": 1,
+        "team_list": [
+            "Entropic Warriors"
+        ]
+    },
+    {
+        "university": "Universidad de Las Palmas de Gran Canaria (ULPGC)",
+        "longitude": -15.41343,
+        "latitude": 28.09973,
+        "teams": 1,
+        "team_list": [
+            "Los dados de Dios"
         ]
     }
 ]
