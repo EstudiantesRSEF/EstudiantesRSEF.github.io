@@ -24,11 +24,12 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 3,
+        "teams": 4,
         "team_list": [
             "Anècdota precària",
             "Goon gang",
-            "LOS CABALLEROS DE LORD KELVIN"
+            "LOS CABALLEROS DE LORD KELVIN",
+            "Lxs Maxettes"
         ]
     },
     {
@@ -38,6 +39,15 @@
         "teams": 1,
         "team_list": [
             "Fast and Fouriers"
+        ]
+    },
+    {
+        "university": "Universidad de Salamanca (USAL)",
+        "longitude": -5.6635,
+        "latitude": 40.9608,
+        "teams": 1,
+        "team_list": [
+            "Polaris"
         ]
     },
     {
@@ -74,10 +84,11 @@
         "university": "Universidad de Oviedo (UniOvi)",
         "longitude": -5.845,
         "latitude": 43.3619,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "The Last Dance ",
-            "Tres cuerpos y un problema"
+            "Tres cuerpos y un problema",
+            "c=1"
         ]
     },
     {
@@ -127,12 +138,41 @@
         ]
     },
     {
+        "university": "Universidad Politécnica de Valencia (UPV)",
+        "longitude": -0.3422,
+        "latitude": 39.482,
+        "teams": 3,
+        "team_list": [
+            "las gatitas radioactivas",
+            "Menú Bourbon",
+            "Sin Potencial"
+        ]
+    },
+    {
         "university": "Universidad de Las Palmas de Gran Canaria (ULPGC)",
         "longitude": -15.41343,
         "latitude": 28.09973,
         "teams": 1,
         "team_list": [
             "Los dados de Dios"
+        ]
+    },
+    {
+        "university": "Universidad Alfonso X el Sabio (UAX)",
+        "longitude": -3.9844,
+        "latitude": 40.4519,
+        "teams": 1,
+        "team_list": [
+            "Espectros Cuánticos"
+        ]
+    },
+    {
+        "university": "Universitat de les Illes Balears (UIB)",
+        "longitude": 2.6426,
+        "latitude": 39.6361,
+        "teams": 1,
+        "team_list": [
+            "Fallo y error"
         ]
     }
 ]
