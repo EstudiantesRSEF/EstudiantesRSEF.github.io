@@ -22,15 +22,19 @@
   - url: "https://www.instagram.com/p/DAQyHcstswn/?img_index=1"
     image: "/img/eventos/2026-PrelisPLANCKS/Presentación GdeE - post.png"
     text: "Presentación GdeE"
+
+  - url: "https://www.instagram.com/p/DU3W3FWDBtp/?hl=es"
+    image: "/img/eventos/2026-PrelisPLANCKS/anunciopremios.jpg"
+    text: "¡Anunciamos los premios de Prelis!"
   
   - url: "https://www.instagram.com/p/DUlnAJ3DJ4K/?img_index=1"
     image: "/img/eventos/2026-PrelisPLANCKS/Prelis26_Mascotas.png"
     text: "Conoce las Mascotas de las Delegaciones"
-
+  # A partir de aquí (3er post) se dejan de ver los post en PC
   - url: "https://www.instagram.com/p/DUQMkT7jIfO/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ=="
     image: "/img/eventos/2026-PrelisPLANCKS/CARTEL.png"
     text: "Vuelven las Preliminares de PLANCKS"
-  # A partir de aquí (3er post) se dejan de ver los post en PC
+
 
   - url: "https://www.instagram.com/reel/DS8AEOJjMWm/?img_index=1"
     image: "/img/eventos/2026-PrelisPLANCKS/Wrapped2025.jpg"
