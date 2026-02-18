@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripciones y Ranking Vertical</title>
+    <style>
+        /* --- ESTILOS GENERALES --- */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom, #87CEEB 0%, #E0F6FF 100%);
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            color: #333;
+        }
+
+        h2 {
+            text-align: center;
+            color: #fff;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        /* --- LAYOUT PRINCIPAL --- */
+        .contenedor-general {
+            display: flex;
+            gap: 20px;
+            max-width: 100%; /* Ocupar todo el ancho disponible */
+            margin: 0 auto;
+            align-items: flex-start;
+            height: 85vh; /* Altura fija para la pantalla */
+        }
+
+        /* Panel de la Carrera (Ahora ocupa más espacio visual) */
+        .panel-carrera {
+            flex: 3;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            position: relative;
+            height: 100%; /* Llenar altura del contenedor */
+            display: flex;
+            flex-direction: column;
+            overflow: hidden; /* Para ocultar bordes */
+        }
+
+        /* Panel de la Tabla */
+        .panel-tabla {
+            flex: 1;
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            height: 100%;
+            overflow-y: auto;
+            min-width: 300px; /* Ancho mínimo para la tabla */
+        }
+
+        /* --- ESTILOS DE LA PISTA VERTICAL --- */
+        .pista-container {
+            position: relative;
+            flex-grow: 1; /* Ocupa el resto del espacio vertical */
+            display: flex; /* Carriles uno al lado del otro */
+            flex-direction: row; 
+            overflow-x: auto; /* Scroll horizontal si hay muchos */
+            overflow-y: hidden;
+            border: 2px solid rgba(255,255,255,0.5);
+            border-radius: 8px;
+            /* Scrollbar styling */
+            scrollbar-width: thin;
+            scrollbar-color: rgba(0,0,0,0.3) transparent;
+        }
+
+        /* Línea de Meta (Ahora arriba) */
+        .meta-linea {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 20px; /* Un poco separado del borde superior */
+            height: 15px;
+            background: repeating-linear-gradient(90deg, #fff, #fff 10px, #333 10px, #333 20px);
+            opacity: 0.9;
+            z-index: 5;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        }
+        
+        /* Texto "META" */
+        .meta-texto {
+            position: absolute;
+            top: 2px;
+            right: 10px;
+            color: #fff;
+            background: black;
+            padding: 0 5px;
+            font-size: 10px;
+            z-index: 6;
+            font-weight: bold;
+        }
+
+        /* Carriles Verticales */
+        .carril-vertical {
+            position: relative;
+            height: 100%;
+            min-width: 120px; /* Ancho mínimo para que quepa la mascota */
+            border-right: 2px dashed rgba(255, 255, 255, 0.4);
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Colores intercalados automáticos (Par e Impar) */
+        .carril-vertical:nth-child(odd) {
+            background-color: rgba(231, 76, 60, 0.85); /* Rojo */
+        }
+        .carril-vertical:nth-child(even) {
+            background-color: rgba(46, 204, 113, 0.85); /* Verde */
+        }
+
+        /* Wrapper del corredor (movimiento vertical) */
+        .corredor-wrapper {
+            position: absolute;
+            bottom: 0; /* Empiezan abajo */
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: bottom 2s cubic-bezier(0.25, 0.1, 0.25, 1);
+            z-index: 10;
+            width: 100%; 
+        }
+
+        .mascota-icono img {
+            filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.4));
+            transition: transform 0.3s ease;
+        }
+        
+        .mascota-icono img:hover {
+            transform: scale(1.1);
+            z-index: 100;
+        }
+
+        .etiqueta-info {
+            background: rgba(0, 0, 0, 0.85);
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 12px;
+            white-space: nowrap;
+            margin-top: -5px;
+            font-weight: bold;
+            position: relative;
+            z-index: 20;
+            text-align: center;
+        }
+
+        /* --- ESTILOS DE LA TABLA --- */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        
+        th { text-align: left; border-bottom: 2px solid #ddd; padding: 8px 5px; color: #555; position: sticky; top: 0; background: white; z-index: 2;}
+        td { border-bottom: 1px solid #eee; padding: 8px 5px; vertical-align: middle; }
+        
+        .fila-top1 { background-color: #FFF8E1; font-weight: bold; }
+        .fila-top2 { background-color: #F5F5F5; font-weight: bold; }
+        .fila-top3 { background-color: #FFF0E0; font-weight: bold; }
+
+        .numero-puesto {
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            line-height: 25px;
+            text-align: center;
+            border-radius: 50%;
+            background: #eee;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .fila-top1 .numero-puesto { background: #FFD700; color: #000; }
+        .fila-top2 .numero-puesto { background: #C0C0C0; color: #000; }
+        .fila-top3 .numero-puesto { background: #CD7F32; color: #fff; }
+
+        /* --- RESPONSIVE --- */
+        @media (max-width: 900px) {
+            .contenedor-general { flex-direction: column; height: auto; }
+            .panel-carrera { width: 100%; height: 600px; }
+            .panel-tabla { width: 100%; height: auto; max-height: 400px;}
+        }
+    </style>
+</head>
+<body>
+
+    <h2>🏆 Estado de Inscripciones - Clasificación General 🏆</h2>
+
+    <div class="contenedor-general">
+        
+        <div class="panel-carrera">
+            <h3 style="text-align:center; margin-top:0; color: #fff; text-shadow: 1px 1px 2px #000;">La Carrera</h3>
+            <div class="pista-container" id="pista-vertical">
+                <div class="meta-linea"><span class="meta-texto">META</span></div>
+                </div>
+        </div>
+
+        <div class="panel-tabla">
+            <h3 style="text-align:center; margin-top:0;">Ranking</h3>
+            <table id="tabla-ranking">
+                <thead>
+                    <tr>
+                        <th width="10%">#</th>
+                        <th width="60%">Uni</th>
+                        <th width="30%" style="text-align:center;">Eq.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <script>
+        // =========================================================
+        // DATOS
+        // =========================================================
+        const datosBrutos = [
+          { "delegacion": "UCM",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/MASCOTAS-removebg-preview.png", "equipos": 3 },
+          { "delegacion": "UniOvi", "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/6-removebg-preview.png", "equipos": 3 },
+          { "delegacion": "UGR",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/9-removebg-preview.png", "equipos": 2 },
+          { "delegacion": "UAB",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/1-removebg-preview.png", "equipos": 7 },
+          { "delegacion": "UV",     "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/7-removebg-preview.png", "equipos": 1 },
+          { "delegacion": "EHU",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/5-removebg-preview.png", "equipos": 3 },
+          { "delegacion": "US",     "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/12-removebg-preview.png", "equipos": 0 },
+          { "delegacion": "UVA",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/3-removebg-preview.png", "equipos": 1 },
+          { "delegacion": "UMU",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/8-removebg-preview.png", "equipos": 1 },
+          { "delegacion": "ULL",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/13-removebg-preview.png", "equipos": 1 },
+          { "delegacion": "UA",     "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/10-removebg-preview.png", "equipos": 1 },
+          { "delegacion": "UCLM",   "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/14-removebg-preview.png", "equipos": 2 }, 
+          { "delegacion": "UIB",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/11-removebg-preview.png", "equipos": 1 },  
+          { "delegacion": "UB",     "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/2-removebg-preview.png", "equipos": 1 },
+          { "delegacion": "UPV",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/15-removebg-preview.png", "equipos": 3 },
+          { "delegacion": "UniZar", "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/16-removebg-preview.png", "equipos": 1 },
+          { "delegacion": "Nebrija","icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/17-removebg-preview.png", "equipos": 0 }
+        ];
+
+        function actualizarTodo() {
+            // Ordenar datos por número de equipos para el ranking
+            let clasificacion = [...datosBrutos].sort((a, b) => b.equipos - a.equipos);
+            
+            // Dibujar tabla (igual que antes)
+            dibujarTabla(clasificacion);
+
+            // Dibujar Carrera Vertical con TODOS los participantes
+            // Usamos la clasificación ordenada para que los líderes salgan a la izquierda
+            dibujarCarreraVertical(clasificacion);
+        }
+
+        function dibujarTabla(datos) {
+            const tbody = document.querySelector('#tabla-ranking tbody');
+            tbody.innerHTML = ""; 
+
+            datos.forEach((dato, index) => {
+                const puesto = index + 1;
+                let claseFila = "";
+                if(puesto === 1) claseFila = "fila-top1";
+                else if(puesto === 2) claseFila = "fila-top2";
+                else if(puesto === 3) claseFila = "fila-top3";
+
+                const htmlFila = `
+                    <tr class="${claseFila}">
+                        <td><span class="numero-puesto">${puesto}</span></td>
+                        <td style="display: flex; align-items: center;">
+                            <img src="${dato.icono}" style="width: 35px; height: 35px; object-fit: contain; margin-right: 10px;">
+                            <span>${dato.delegacion}</span>
+                        </td>
+                        <td style="text-align:center; font-weight:bold;">${dato.equipos}</td>
+                    </tr>
+                `;
+                tbody.insertAdjacentHTML('beforeend', htmlFila);
+            });
+        }
+
+        function dibujarCarreraVertical(datos) {
+            const pista = document.getElementById('pista-vertical');
+            // Mantenemos la línea de meta, borramos el resto (carriles viejos)
+            const meta = pista.querySelector('.meta-linea');
+            pista.innerHTML = ""; 
+            pista.appendChild(meta);
+
+            // Encontrar el máximo para calcular % de altura
+            // Evitamos división por cero si nadie tiene equipos
+            const lider = datos[0].equipos; 
+            const maxPuntos = lider > 0 ? lider : 1; 
+
+            datos.forEach((dato, indice) => {
+                // Cálculo de altura: 
+                // Dejamos un margen arriba (ej: máx 85%) para que la imagen no tape la meta
+                let porcentajeAltura = (dato.equipos / maxPuntos) * 82; 
+                
+                // Si tiene 0 equipos, se queda en el suelo (0%) o un pelín arriba para que se vea (2%)
+                if (dato.equipos === 0) porcentajeAltura = 1;
+
+                // Tamaño de imagen: Un poco más contenido (100px) para que quepan mejor en vertical
+                // pero aún grandes como pediste.
+                const htmlCarril = `
+                    <div class="carril-vertical">
+                        <div class="corredor-wrapper" style="bottom: ${porcentajeAltura}%; z-index: ${100 - indice}">
+                            <div class="mascota-icono">
+                                <img src="${dato.icono}" title="${dato.delegacion}: ${dato.equipos} equipos" 
+                                     style="width: 110px !important; height: 110px !important; object-fit: contain;">
+                            </div>
+                            <div class="etiqueta-info">
+                                ${dato.delegacion} (${dato.equipos})
+                            </div>
+                        </div>
+                    </div>
+                `;
+                pista.insertAdjacentHTML('beforeend', htmlCarril);
+            });
+        }
+
+        // Iniciar
+        window.onload = actualizarTodo;
+    </script>
+</body>
+</html>
