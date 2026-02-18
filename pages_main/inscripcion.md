@@ -25,7 +25,7 @@ Hacerse miembro del Grupo de Estudiantes de la RSEF es muy fácil: sólo hay que
 
 <div class="row">
   <div style="text-align:center;">
-    <a class="btn-gdee" href="https://rsef.es/area-de-miembros/formulario-de-inscripcion-en-la-rsef">NUEVA INSCRIPCIÓN</a>
+    <a class="btn-gdee" href="https://rsef.es/inscripcion-a-la-rsef/">NUEVA INSCRIPCIÓN</a>
   </div>
 </div>
 
