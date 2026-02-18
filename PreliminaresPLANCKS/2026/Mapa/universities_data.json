@@ -3,10 +3,11 @@
         "university": "Universidad Complutense de Madrid (UCM)",
         "longitude": -3.7267,
         "latitude": 40.4531,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "Hasbulla Rockets",
-            "Wronskianos"
+            "Wronskianos",
+            "Los chicos del Papel"
         ]
     },
     {
@@ -24,12 +25,15 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 4,
+        "teams": 7,
         "team_list": [
             "Anècdota precària",
             "Goon gang",
             "LOS CABALLEROS DE LORD KELVIN",
-            "Lxs Maxettes"
+            "Lxs Maxettes",
+            "Las Ondas Traviesas de Erwin Schrödinger",
+            "Carles Cuquirk",
+            "Planck Projectiu"
         ]
     },
     {
@@ -92,6 +96,15 @@
         ]
     },
     {
+        "university": "Universidad de Valladolid (UVA)",
+        "longitude": -4.7245,
+        "latitude": 41.6521,
+        "teams": 1,
+        "team_list": [
+            "La Resistencia"
+        ]
+    },
+    {
         "university": "Universidad de Valencia (UV)",
         "longitude": -0.3752,
         "latitude": 39.4699,
@@ -114,9 +127,11 @@
         "university": "Universidad Politécnica de Cataluña (UPC)",
         "longitude": 2.1131,
         "latitude": 41.3891,
-        "teams": 1,
+        "teams": 3,
         "team_list": [
-            "Alexandroff Extension"
+            "Alexandroff Extension",
+            "Els deixebles de'n Blas",
+            "Quack Quark"
         ]
     },
     {
@@ -173,6 +188,34 @@
         "teams": 1,
         "team_list": [
             "Fallo y error"
+        ]
+    },
+    {
+        "university": "Universidad de Murcia (UMU)",
+        "longitude": -1.1307,
+        "latitude": 37.9922,
+        "teams": 1,
+        "team_list": [
+            "Los Little Epsteins"
+        ]
+    },
+    {
+        "university": "Universidad de Castilla-La Mancha (UCLM)",
+        "longitude": -3.9206,
+        "latitude": 38.9941,
+        "teams": 2,
+        "team_list": [
+            "Electromagnetismos Rodríguez",
+            "Tensor de incompetencia "
+        ]
+    },
+    {
+        "university": "Universidad Europea de Madrid (UEM)",
+        "longitude": -3.918953,
+        "latitude": 40.371831,
+        "teams": 1,
+        "team_list": [
+            "El trío electrodinámico"
         ]
     }
 ]
