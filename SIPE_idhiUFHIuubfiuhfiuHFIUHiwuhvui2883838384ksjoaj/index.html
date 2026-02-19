@@ -49,7 +49,6 @@
         /* 1. HOME (Hero) */
         .hero {
             height: 100vh;
-            /* Pon aquí la foto espectacular de Murcia */
             background: linear-gradient(rgba(26,37,47,0.7), rgba(230,126,34,0.6)), url('murcia.jpg') center/cover;
             background-attachment: fixed;
             display: flex;
@@ -153,7 +152,7 @@
         .schedule-speaker { font-weight: bold; color: var(--secundario); display: block; font-size: 1.1rem; }
         .schedule-talk { font-style: italic; color: #666; font-size: 0.95rem; margin-top: 3px; display: block;}
 
-        /* 4. COMITÉ ORGANIZADOR (Cuadrícula de perfiles redondos) */
+        /* 4. COMITÉ ORGANIZADOR */
         .grid-oc {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -180,7 +179,7 @@
         .cargo { color: var(--primario); font-weight: bold; margin-bottom: 15px; display: inline-block; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;}
         .oc-desc { font-size: 0.95rem; color: #666; font-style: italic;}
 
-        /* 5. PARTNERSHIPS (Logos minimalistas) */
+        /* 5. PARTNERSHIPS*/
         .partners-grid {
             display: flex;
             flex-wrap: wrap;
@@ -191,15 +190,15 @@
         .partner-logo {
             width: 150px;
             height: auto;
-            filter: grayscale(100%) opacity(0.6); /* En gris por defecto para que quede limpio */
+            filter: grayscale(100%) opacity(0.6);
             transition: all 0.3s;
         }
         .partner-logo:hover {
-            filter: grayscale(0%) opacity(1); /* Toman color al pasar el ratón */
+            filter: grayscale(0%) opacity(1);
             transform: scale(1.1);
         }
 
-        /* 6. SIGN UP (Formulario destacado) */
+        /* 6. SIGN UP */
         .registro {
             background-color: var(--secundario);
             color: var(--blanco);
@@ -241,30 +240,27 @@
     
     /* --- VENTANAS MODALES (Artículos de Murcia) --- */
         .card {
-            cursor: pointer; /* Cambia el cursor para indicar que se puede hacer clic */
+            cursor: pointer; 
         }
         
         /* Contenedor del Pop-up oscurecido */
         .modal-overlay {
             position: fixed;
             top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(26, 37, 47, 0.85); /* Azul oscuro transparente */
+            background: rgba(26, 37, 47, 0.85); 
             display: flex;
             justify-content: center;
             align-items: center;
-            z-index: 2000; /* Por encima de todo, incluso del menú */
+            z-index: 2000;
             opacity: 0;
             visibility: hidden;
             transition: all 0.3s ease;
         }
-        
-        /* Aparece suavemente */
         .modal-overlay.active {
             opacity: 1;
             visibility: visible;
         }
         
-        /* Caja blanca del artículo */
         .modal-content {
             background: var(--blanco);
             padding: 40px;
@@ -275,7 +271,7 @@
             transform: translateY(-20px);
             transition: transform 0.3s ease;
             max-height: 80vh;
-            overflow-y: auto; /* Permite hacer scroll si el artículo es muy largo */
+            overflow-y: auto;
             box-shadow: 0 15px 30px rgba(0,0,0,0.2);
         }
         
@@ -283,7 +279,6 @@
             transform: translateY(0);
         }
         
-        /* Botón de cerrar (X) */
         .close-btn {
             position: absolute;
             top: 15px; right: 20px;
@@ -299,7 +294,6 @@
         .modal-content h3 { color: var(--primario); margin-bottom: 20px; font-size: 1.8rem; }
         .modal-content p { margin-bottom: 15px; color: #555; }
         
-        /* Oculta el artículo largo dentro de la tarjeta normal */
         .article-info { display: none; }
     
     </style>
@@ -508,24 +502,19 @@
 
 <script>
         function abrirModal(tarjeta) {
-            // Coge el título y el contenido oculto de la tarjeta que has clickado
             const titulo = tarjeta.querySelector('h3').innerText;
             const contenidoArticulo = tarjeta.querySelector('.article-info').innerHTML;
             
-            // Los mete dentro de la ventana modal
             document.getElementById('modal-title').innerText = titulo;
             document.getElementById('modal-body').innerHTML = contenidoArticulo;
             
-            // Muestra la ventana modal
             document.getElementById('info-modal').classList.add('active');
         }
 
         function cerrarModal() {
-            // Oculta la ventana modal
             document.getElementById('info-modal').classList.remove('active');
         }
 
-        // Si el usuario hace clic fuera de la caja blanca (en la zona oscura), también se cierra
         window.onclick = function(event) {
             const modal = document.getElementById('info-modal');
             if (event.target === modal) {
