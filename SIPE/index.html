@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIPE 2026 | Murcia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Variables de color */
+        :root {
+            --primario: #e67e22; /* Naranja Murcia */
+            --secundario: #1a252f; /* Azul oscuro elegante */
+            --fondo: #f4f6f7;
+            --texto: #333333;
+            --blanco: #ffffff;
+            --gris: #bdc3c7;
+        }
+
+        /* Estilos base y scroll suave */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; } /* Desplazamiento elegante al hacer clic en el menú */
+        body { font-family: 'Inter', sans-serif; color: var(--texto); background-color: var(--fondo); line-height: 1.6; }
+        h1, h2, h3 { font-family: 'Montserrat', sans-serif; }
+        a { text-decoration: none; color: inherit; }
+
+        /* Navegación Fija */
+        header {
+            position: fixed;
+            top: 0; width: 100%;
+            background-color: rgba(26, 37, 47, 0.95);
+            color: var(--blanco);
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .logo { font-size: 1.5rem; font-weight: bold; color: var(--primario); }
+        nav ul { list-style: none; display: flex; gap: 20px; }
+        nav a { transition: color 0.3s; font-size: 0.95rem;}
+        nav a:hover { color: var(--primario); }
+
+        /* Espaciado para que el header no tape los títulos al hacer scroll */
+        section { padding: 100px 10%; scroll-margin-top: 60px; }
+        h2.section-title { text-align: center; color: var(--secundario); font-size: 2.5rem; margin-bottom: 50px; }
+
+        /* 1. HOME (Hero) */
+        .hero {
+            height: 100vh;
+            /* Pon aquí la foto espectacular de Murcia */
+            background: linear-gradient(rgba(26,37,47,0.7), rgba(230,126,34,0.6)), url('murcia.jpg') center/cover;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: var(--blanco);
+            padding: 0 20px;
+        }
+        .hero h1 { font-size: 4rem; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+        .hero p { font-size: 1.5rem; margin-bottom: 30px; max-width: 600px; font-weight: 500; }
+        .btn {
+            background-color: var(--primario);
+            color: var(--blanco);
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(230,126,34,0.4);
+        }
+        .btn:hover { background-color: #d35400; transform: translateY(-3px); box-shadow: 0 6px 20px rgba(230,126,34,0.6); }
+
+        /* 2. DISCOVER MURCIA (Tarjetas) */
+        .grid-murcia {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        .card {
+            background: var(--blanco);
+            padding: 40px 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+            text-align: center;
+            border-top: 4px solid transparent;
+        }
+        .card:hover { transform: translateY(-10px); border-top: 4px solid var(--primario); }
+        .card h3 { color: var(--secundario); margin-bottom: 15px; font-size: 1.3rem;}
+        .card-icon { font-size: 2.5rem; margin-bottom: 15px; display: block; }
+
+        /* 3. PROGRAMA (Línea de tiempo) */
+        .timeline {
+            max-width: 800px;
+            margin: 0 auto;
+            border-left: 4px solid var(--primario);
+            padding-left: 30px;
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 40px;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -41px;
+            top: 5px;
+            width: 20px;
+            height: 20px;
+            background-color: var(--blanco);
+            border: 4px solid var(--primario);
+            border-radius: 50%;
+        }
+        .timeline-item h3 { color: var(--primario); margin-bottom: 10px; }
+        .timeline-item h4 { color: var(--secundario); margin-bottom: 5px; }
+        .timeline-item p { background: var(--blanco); padding: 15px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.03); }
+        
+
+        /* Estilos detallados para las charlas en el Programa */
+        .timeline-content {
+            background: var(--blanco);
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            margin-top: 10px;
+        }
+        .schedule-list {
+            list-style: none;
+            margin-top: 15px;
+        }
+        .schedule-item {
+            display: flex;
+            gap: 20px;
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
+            align-items: flex-start;
+        }
+        .schedule-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        .schedule-time {
+            font-weight: bold;
+            color: var(--primario);
+            min-width: 120px; /* Mantiene las horas alineadas */
+            font-size: 0.95rem;
+        }
+        .schedule-info { flex: 1; }
+        .schedule-speaker { font-weight: bold; color: var(--secundario); display: block; font-size: 1.1rem; }
+        .schedule-talk { font-style: italic; color: #666; font-size: 0.95rem; margin-top: 3px; display: block;}
+
+        /* 4. COMITÉ ORGANIZADOR (Cuadrícula de perfiles redondos) */
+        .grid-oc {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 40px;
+        }
+        .oc-member {
+            background: var(--blanco);
+            padding: 30px 20px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+        }
+        .oc-member:hover { transform: scale(1.05); }
+        .oc-foto {
+            width: 140px; height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 4px solid var(--fondo);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .oc-member h3 { color: var(--secundario); font-size: 1.2rem; margin-bottom: 5px;}
+        .cargo { color: var(--primario); font-weight: bold; margin-bottom: 15px; display: inline-block; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;}
+        .oc-desc { font-size: 0.95rem; color: #666; font-style: italic;}
+
+        /* 5. PARTNERSHIPS (Logos minimalistas) */
+        .partners-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+        }
+        .partner-logo {
+            width: 150px;
+            height: auto;
+            filter: grayscale(100%) opacity(0.6); /* En gris por defecto para que quede limpio */
+            transition: all 0.3s;
+        }
+        .partner-logo:hover {
+            filter: grayscale(0%) opacity(1); /* Toman color al pasar el ratón */
+            transform: scale(1.1);
+        }
+
+        /* 6. SIGN UP (Formulario destacado) */
+        .registro {
+            background-color: var(--secundario);
+            color: var(--blanco);
+            text-align: center;
+            background-image: radial-gradient(circle at top right, rgba(230,126,34,0.2), transparent);
+        }
+        .registro h2.section-title { color: var(--blanco); }
+        .formulario-espera {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            gap: 0;
+        }
+        .formulario-espera input {
+            padding: 15px 20px;
+            width: 100%;
+            max-width: 400px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+            font-size: 1rem;
+            outline: none;
+        }
+        .formulario-espera button {
+            padding: 15px 30px;
+            border: none;
+            background-color: var(--primario);
+            color: var(--blanco);
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .formulario-espera button:hover { background-color: #d35400; }
+
+        /* Pie de página */
+        footer { background: #111; color: #aaa; text-align: center; padding: 30px; font-size: 1rem; font-weight: bold; letter-spacing: 1px;}
+        footer span { color: var(--primario); }
+    
+    /* --- VENTANAS MODALES (Artículos de Murcia) --- */
+        .card {
+            cursor: pointer; /* Cambia el cursor para indicar que se puede hacer clic */
+        }
+        
+        /* Contenedor del Pop-up oscurecido */
+        .modal-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(26, 37, 47, 0.85); /* Azul oscuro transparente */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000; /* Por encima de todo, incluso del menú */
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        /* Aparece suavemente */
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        /* Caja blanca del artículo */
+        .modal-content {
+            background: var(--blanco);
+            padding: 40px;
+            border-radius: 12px;
+            max-width: 600px;
+            width: 90%;
+            position: relative;
+            transform: translateY(-20px);
+            transition: transform 0.3s ease;
+            max-height: 80vh;
+            overflow-y: auto; /* Permite hacer scroll si el artículo es muy largo */
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+        }
+        
+        .modal-overlay.active .modal-content {
+            transform: translateY(0);
+        }
+        
+        /* Botón de cerrar (X) */
+        .close-btn {
+            position: absolute;
+            top: 15px; right: 20px;
+            font-size: 1.8rem;
+            cursor: pointer;
+            color: var(--secundario);
+            background: none;
+            border: none;
+            transition: color 0.3s;
+        }
+        .close-btn:hover { color: var(--primario); }
+        
+        .modal-content h3 { color: var(--primario); margin-bottom: 20px; font-size: 1.8rem; }
+        .modal-content p { margin-bottom: 15px; color: #555; }
+        
+        /* Oculta el artículo largo dentro de la tarjeta normal */
+        .article-info { display: none; }
+    
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">SIPE 2026</div>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Murcia">Discover Murcia</a></li>
+                <li><a href="#Program">Program</a></li>
+                <li><a href="#OC">Organizing Committee</a></li>
+                <li><a href="#Partnerships">Partnerships</a></li>
+                <li><a href="#SignUp">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="Home" class="hero">
+        <h1>SIPE 2026</h1>
+        <p>Spanish-Italian Physics Exchange. Murcia 2026 <br> "Fisica senza confini, Física sin fronteras”</p>
+        <a href="#SignUp" class="btn">Register Now</a>
+    </section>
+
+    <section id="Murcia">
+        <h2 class="section-title">Discover Murcia</h2>
+        <div class="grid-murcia">
+            
+            <div class="card" onclick="abrirModal(this)">
+                <span class="card-icon">✈️</span>
+                <h3>How to get here</h3>
+                <p>Easy connections from Alicante and Corvera airports...</p>
+                <div class="article-info">
+                    <p><strong>By Plane:</strong> The best options are Alicante Airport (ALC), which has a direct bus to Murcia (takes about 55 minutes), or Corvera Airport (RMU), which is closer but has fewer international flights.</p>
+                    <p><strong>By Train:</strong> The AVE (high-speed train) connects Madrid directly with Murcia in just 2 hours and 45 minutes.</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="abrirModal(this)">
+                <span class="card-icon">☀️</span>
+                <h3>Climate & Life</h3>
+                <p>The city of eternal sun. Pack light clothes...</p>
+                <div class="article-info">
+                    <p>Murcia is known for its incredible weather. Even in spring or autumn, temperatures during the day are usually warm (around 20-25°C). </p>
+                    <p>Life here happens outdoors. After the conferences, you'll see everyone having a drink in the "terrazas". Don't forget your sunglasses!</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="abrirModal(this)">
+                <span class="card-icon">🍋</span>
+                <h3>Gastronomy</h3>
+                <p>You can't leave without trying a 'marinera'...</p>
+                <div class="article-info">
+                    <p><strong>La Marinera:</strong> A crunchy breadstick topped with Russian salad and an anchovy. The ultimate Murcian tapa.</p>
+                    <p><strong>Paparajotes:</strong> A traditional dessert made by deep-frying a lemon leaf coated in dough and sugar. (Pro tip: You don't eat the leaf, just the dough!).</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="abrirModal(this)">
+                <span class="card-icon">🏛️</span>
+                <h3>What to visit</h3>
+                <p>Get lost around the Cathedral, visit the Real Casino...</p>
+                <div class="article-info">
+                    <p><strong>Catedral de Murcia:</strong> A mix of Gothic, Renaissance, and Baroque styles. Its tower is the second tallest in Spain.</p>
+                    <p><strong>Real Casino:</strong> A stunning 19th-century gentlemen's club with an incredible Moorish courtyard inspired by the Alhambra.</p>
+                    <p><strong>Plaza de las Flores:</strong> The absolute heart of the city's social life, perfect for grabbing a cold beer and a tapa after the conferences.</p>
+                    <p><strong>Santuario de la Fuensanta:</strong> Located in the mountains overlooking the city, it offers the best panoramic views of the entire valley.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div id="info-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="close-btn" onclick="cerrarModal()">&times;</button>
+            <h3 id="modal-title">Título del Artículo</h3>
+            <div id="modal-body">
+                </div>
+        </div>
+    </div>
+
+    <section id="Program" style="background-color: var(--fondo);">
+        <h2 class="section-title">Event Program</h2>
+        <div class="timeline">
+            
+            <div class="timeline-item">
+                <h3>Day 1: Arrival & Welcome</h3>
+                <div class="timeline-content">
+                    <ul class="schedule-list">
+                        <li class="schedule-item">
+                            <div class="schedule-time">16:00 - 18:00</div>
+                            <div class="schedule-info">
+                                <span class="schedule-speaker">Check-in & Registration</span>
+                                <span class="schedule-talk">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, et.</span>
+                            </div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">18:30 - 20:00</div>
+                            <div class="schedule-info">
+                                <span class="schedule-speaker">Opening Ceremony</span>
+                                <span class="schedule-talk">Welcome speech by the SIPE 2026 Organizing Committee.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Day 2: Topology Rocks</h3>
+                <div class="timeline-content">
+                    <ul class="schedule-list">
+                        <li class="schedule-item">
+                            <div class="schedule-time">09:30 - 10:30</div>
+                            <div class="schedule-info">
+                                <span class="schedule-speaker">Dr. Felipe el Arcano</span>
+                                <span class="schedule-talk">"The Cantor Set and the meaning of life"</span>
+                            </div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">10:30 - 11:00</div>
+                            <div class="schedule-info">
+                                <span class="schedule-speaker">Coffee Break ☕</span>
+                                <span class="schedule-talk">Fueling up!</span>
+                            </div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">11:00 - 12:30</div>
+                            <div class="schedule-info">
+                                <span class="schedule-speaker">Prof. Munkres</span>
+                                <span class="schedule-talk">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Day 3: Bye!</h3>
+                <div class="timeline-content">
+                    <ul class="schedule-list">
+                        <li class="schedule-item">
+                            <div class="schedule-time">10:00 - 11:30</div>
+                            <div class="schedule-info">
+                                <span class="schedule-speaker">Lorem, ipsum dolor.</span>
+                                <span class="schedule-talk">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, unde?</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="OC">
+        <h2 class="section-title">Meet the OC</h2>
+        <div class="grid-oc">
+            <div class="oc-member">
+                <img src="https://via.placeholder.com/150" alt="Miembro OC" class="oc-foto">
+                <h3>Nombre Apellido</h3>
+                <span class="cargo">Cargo1</span>
+                <p class="oc-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, nihil.</p>
+            </div>
+            <div class="oc-member">
+                <img src="https://via.placeholder.com/150" alt="Miembro OC" class="oc-foto">
+                <h3>Nombre Apellido</h3>
+                <span class="cargo">Cargo2</span>
+                <p class="oc-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, numquam.</p>
+            </div>
+            <div class="oc-member">
+                <img src="https://via.placeholder.com/150" alt="Miembro OC" class="oc-foto">
+                <h3>Nombre Apellido</h3>
+                <span class="cargo">Cargo3</span>
+                <p class="oc-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, earum!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Partnerships" style="background-color: var(--blanco);">
+        <h2 class="section-title">Our Partnerships</h2>
+        <p style="text-align: center; margin-bottom: 40px; color: #666;">Thanks to the institutions making SIPE 2026 possible.</p>
+        <div class="partners-grid">
+            <img src="https://via.placeholder.com/200x80?text=University+Logo" alt="Partner 1" class="partner-logo">
+            <img src="https://via.placeholder.com/200x80?text=Physics+Society" alt="Partner 2" class="partner-logo">
+            <img src="https://via.placeholder.com/200x80?text=Sponsor+Company" alt="Partner 3" class="partner-logo">
+            <img src="https://via.placeholder.com/200x80?text=Local+Government" alt="Partner 4" class="partner-logo">
+        </div>
+    </section>
+
+    <section id="SignUp" class="registro">
+        <h2 class="section-title">Sign Up Now</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, rerum?</p>
+        <form class="formulario-espera" onsubmit="event.preventDefault(); alert('Grazie! We will notify you soon.');">
+            <input type="email" placeholder="Please provide your email" required>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>SIPE 2026 - “<span>Fisica senza confini</span>, <span>Física sin fronteras</span>”</p>
+    </footer>
+
+
+<script>
+        function abrirModal(tarjeta) {
+            // Coge el título y el contenido oculto de la tarjeta que has clickado
+            const titulo = tarjeta.querySelector('h3').innerText;
+            const contenidoArticulo = tarjeta.querySelector('.article-info').innerHTML;
+            
+            // Los mete dentro de la ventana modal
+            document.getElementById('modal-title').innerText = titulo;
+            document.getElementById('modal-body').innerHTML = contenidoArticulo;
+            
+            // Muestra la ventana modal
+            document.getElementById('info-modal').classList.add('active');
+        }
+
+        function cerrarModal() {
+            // Oculta la ventana modal
+            document.getElementById('info-modal').classList.remove('active');
+        }
+
+        // Si el usuario hace clic fuera de la caja blanca (en la zona oscura), también se cierra
+        window.onclick = function(event) {
+            const modal = document.getElementById('info-modal');
+            if (event.target === modal) {
+                cerrarModal();
+            }
+        }
+    </script>
+
+</body>
+</html>
