@@ -3,11 +3,12 @@
         "university": "Universidad Complutense de Madrid (UCM)",
         "longitude": -3.7267,
         "latitude": 40.4531,
-        "teams": 3,
+        "teams": 4,
         "team_list": [
             "Hasbulla Rockets",
             "Wronskianos",
-            "Los chicos del Papel"
+            "Los chicos del Papel",
+            "Quantum Quirkification"
         ]
     },
     {
@@ -25,7 +26,7 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 7,
+        "teams": 8,
         "team_list": [
             "Anècdota precària",
             "Goon gang",
@@ -33,7 +34,8 @@
             "Lxs Maxettes",
             "Las Ondas Traviesas de Erwin Schrödinger",
             "Carles Cuquirk",
-            "Planck Projectiu"
+            "Planck Projectiu",
+            "Esclaus del Jan Pau"
         ]
     },
     {
@@ -99,27 +101,30 @@
         "university": "Universidad de Valladolid (UVA)",
         "longitude": -4.7245,
         "latitude": 41.6521,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "La Resistencia"
+            "La Resistencia",
+            "Fisicoleguillas"
         ]
     },
     {
         "university": "Universidad de Valencia (UV)",
         "longitude": -0.3752,
         "latitude": 39.4699,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Incendio Forestal"
+            "Incendio Forestal",
+            "Sacerdotes Awámicos"
         ]
     },
     {
         "university": "Universidad de Granada (UGR)",
         "longitude": -3.602,
         "latitude": 37.1765,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "Pastelitos",
+            "Don limpio y los pelopantene",
             "Los extraordinarios "
         ]
     },
@@ -213,9 +218,10 @@
         "university": "Universidad Europea de Madrid (UEM)",
         "longitude": -3.918953,
         "latitude": 40.371831,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "El trío electrodinámico"
+            "El trío electrodinámico",
+            "Los patos quark"
         ]
     }
 ]
