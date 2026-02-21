@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrera Vertical - 5 Carriles</title>
+    <title>Carrera Vertical - Pista Realista</title>
     <style>
         /* --- ESTILOS GENERALES --- */
         body {
@@ -75,7 +75,8 @@
             justify-content: space-between; 
             border: 3px solid rgba(255,255,255,0.6);
             border-radius: 8px;
-            background: rgba(0,0,0,0.05);
+            /* Fondo base color tierra */
+            background-color: #8B4513; 
             overflow: hidden; /* Importante para que no se salgan */
         }
 
@@ -91,7 +92,7 @@
             z-index: 5;
             box-shadow: 0 2px 5px rgba(0,0,0,0.3);
         }
-        
+
         .meta-texto {
             position: absolute;
             top: -20px;
@@ -107,13 +108,18 @@
             position: relative;
             flex: 1; /* Todos ocupan lo mismo */
             height: 100%;
-            border-right: 2px dashed rgba(255, 255, 255, 0.4);
+            /* Líneas blancas divisorias más sutiles */
+            border-right: 2px solid rgba(255, 255, 255, 0.3); 
         }
         .carril-fijo:last-child { border-right: none; }
 
-        /* Colores de pista de atletismo intercalados */
-        .carril-fijo:nth-child(odd) { background-color: rgba(231, 76, 60, 0.7); } /* Rojo */
-        .carril-fijo:nth-child(even) { background-color: rgba(46, 204, 113, 0.7); } /* Verde */
+        /* --- CAMBIO 1: Colores de pista de atletismo realistas (Dos tonos de rojo arcilla) --- */
+        .carril-fijo:nth-child(odd) { 
+            background-color: rgba(211, 84, 0, 0.7); /* Tono arcilla claro */
+        } 
+        .carril-fijo:nth-child(even) { 
+            background-color: rgba(160, 64, 0, 0.8); /* Tono arcilla más oscuro y denso */
+        }
 
         /* EL CORREDOR */
         .corredor-wrapper {
@@ -133,25 +139,30 @@
             width: 90px; 
             height: 90px;
             object-fit: contain;
+            position: relative; /* Necesario para el z-index relativo a la etiqueta */
+            z-index: 25;
         }
-        
+
         .mascota-icono img:hover {
             transform: scale(1.2) translateY(-10px);
             z-index: 999 !important;
             cursor: pointer;
         }
 
+        /* --- CAMBIO 2: Etiqueta más pegada al dibujo --- */
         .etiqueta-info {
             background: rgba(0, 0, 0, 0.8);
             color: white;
-            padding: 2px 5px;
+            padding: 2px 6px;
             border-radius: 4px;
             font-size: 11px;
             font-weight: bold;
-            margin-top: -5px;
-            z-index: 20;
+            /* Margen negativo mucho mayor para subir la etiqueta sobre la imagen */
+            margin-top: -20px; 
+            z-index: 30; /* Mayor z-index para asegurar que se lee sobre la parte baja de la imagen */
             text-align: center;
             white-space: nowrap;
+            pointer-events: none; /* Evita que la etiqueta interfiera con el hover de la imagen */
         }
 
         /* --- TABLA --- */
@@ -171,7 +182,7 @@
     <h2>🏆 Estado de Inscripciones 🏆</h2>
 
     <div class="contenedor-general">
-        
+
         <div class="panel-carrera">
             <div class="pista-container" id="contenedor-pista">
                 <div class="meta-linea"><span class="meta-texto">LLEGADA</span></div>
@@ -200,15 +211,16 @@
         // =========================================================
         // TUS DATOS 
         // =========================================================
+        // NOTA: Asegúrate de que las rutas de las imágenes sean correctas en tu servidor.
         const datosBrutos = [
-          { "delegacion": "UCM",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/MASCOTAS-removebg-preview.png", "equipos": 3 },
+          { "delegacion": "UCM",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/MASCOTAS-removebg-preview.png", "equipos": 4 },
           { "delegacion": "UniOvi", "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/6-removebg-preview.png", "equipos": 3 },
-          { "delegacion": "UGR",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/9-removebg-preview.png", "equipos": 2 },
-          { "delegacion": "UAB",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/1-removebg-preview.png", "equipos": 7 },
-          { "delegacion": "UV",     "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/7-removebg-preview.png", "equipos": 1 },
+          { "delegacion": "UGR",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/9-removebg-preview.png", "equipos": 3 },
+          { "delegacion": "UAB",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/1-removebg-preview.png", "equipos": 8 },
+          { "delegacion": "UV",     "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/7-removebg-preview.png", "equipos": 2 },
           { "delegacion": "EHU",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/5-removebg-preview.png", "equipos": 3 },
           { "delegacion": "US",     "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/12-removebg-preview.png", "equipos": 0 },
-          { "delegacion": "UVA",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/3-removebg-preview.png", "equipos": 1 },
+          { "delegacion": "UVA",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/3-removebg-preview.png", "equipos": 2 },
           { "delegacion": "UMU",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/8-removebg-preview.png", "equipos": 1 },
           { "delegacion": "ULL",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/13-removebg-preview.png", "equipos": 1 },
           { "delegacion": "UA",     "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/10-removebg-preview.png", "equipos": 1 },
@@ -223,14 +235,13 @@
         const NUM_CARRILES = 5;
 
         function init() {
-            // 1. Preparar la estructura de 5 carriles
             const contenedorPista = document.getElementById('contenedor-pista');
-            // Mantenemos la meta, limpiamos el resto
+            // Limpiamos pero guardamos la línea de meta
             const meta = contenedorPista.querySelector('.meta-linea');
             contenedorPista.innerHTML = "";
             contenedorPista.appendChild(meta);
 
-            // Creamos los 5 divs de carril
+            // Crear carriles
             for (let i = 0; i < NUM_CARRILES; i++) {
                 const carril = document.createElement('div');
                 carril.className = 'carril-fijo';
@@ -238,11 +249,14 @@
                 contenedorPista.appendChild(carril);
             }
 
-            // 2. Procesar datos
+            // Ordenar datos
             let clasificacion = [...datosBrutos].sort((a, b) => b.equipos - a.equipos);
-            
+
             dibujarTabla(clasificacion);
-            colocarCorredores(clasificacion);
+            // Pequeño timeout para asegurar que el DOM está listo para las transiciones
+            setTimeout(() => {
+                colocarCorredores(clasificacion);
+            }, 100);
         }
 
         function dibujarTabla(datos) {
@@ -251,11 +265,14 @@
             datos.forEach((dato, index) => {
                 const puesto = index + 1;
                 const claseFila = puesto === 1 ? "fila-top1" : "";
+                // Usamos una imagen genérica si falla la carga para que no se vea roto en la tabla
+                const imgError = "this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2225%22 height=%2225%22><rect width=%2225%22 height=%2225%22 fill=%22%23ccc%22/><text x=%2250%25%22 y=%2250%25%22 font-size=%2210%22 text-anchor=%22middle%22 dy=%22.3em%22>?</text></svg>';";
+                
                 tbody.insertAdjacentHTML('beforeend', `
                     <tr class="${claseFila}">
                         <td><span class="numero-puesto">${puesto}</span></td>
                         <td style="display:flex; align-items:center; gap:10px;">
-                            <img src="${dato.icono}" style="width:25px;"> ${dato.delegacion}
+                            <img src="${dato.icono}" style="width:25px; height:25px; object-fit:contain;" onerror="${imgError}"> ${dato.delegacion}
                         </td>
                         <td style="text-align:center; font-weight:bold;">${dato.equipos}</td>
                     </tr>
@@ -264,42 +281,39 @@
         }
 
         function colocarCorredores(datos) {
-            // Obtener puntuación máxima para calcular alturas
             const maxEquipos = Math.max(...datos.map(d => d.equipos));
-            // Evitar división por cero
             const divisor = maxEquipos > 0 ? maxEquipos : 1; 
 
-            // Para saber cuántos llevamos en cada carril (para offset)
             let ocupacionCarril = Array(NUM_CARRILES).fill(0);
 
             datos.forEach((dato, indice) => {
-                // Asignar carril de forma cíclica (0, 1, 2, 3, 4, 0, 1...)
-                // Usamos el índice del array ordenado para que el TOP 1 vaya al carril 0, TOP 2 al 1, etc.
                 const carrilIndex = indice % NUM_CARRILES;
                 const carrilDOM = document.getElementById(`carril-${carrilIndex}`);
 
-                // CÁLCULO DE POSICIÓN VERTICAL:
-                // max 85% para que la imagen (que mide unos 100px aprox) no se salga por arriba.
-                // Si tiene 0 equipos, se queda al 2% para que se vea abajo.
-                let porcentaje = (dato.equipos / divisor) * 82; 
-                if (dato.equipos === 0) porcentaje = 2;
+                // CÁLCULO DE POSICIÓN VERTICAL
+                let ratio = dato.equipos / divisor; 
+                // Ajuste del cálculo: El 100% menos el espacio que ocupa la mascota (aprox 140px ahora que están más pegados) y la meta.
+                let estiloBottom = `calc(2% + ${ratio} * (100% - 140px))`;
+                
+                if (dato.equipos === 0) estiloBottom = '1%'; // Los de 0 se quedan casi abajo del todo
 
-                // CÁLCULO DE OFFSET HORIZONTAL (Para que no se tapen si tienen mismos puntos)
-                // Alternamos izquierda/derecha un poquito basado en cuántos ya hay en ese carril
+                // CÁLCULO DE OFFSET HORIZONTAL PARA ESCALONAR
                 const countEnCarril = ocupacionCarril[carrilIndex];
                 let offsetX = 0;
-                
-                // Si es par a la izquierda, impar a la derecha (levemente)
-                if (countEnCarril % 2 !== 0) offsetX = 15; 
-                else if (countEnCarril > 0) offsetX = -15;
+                // Zig-zag simple: centro, derecha, izquierda...
+                if (countEnCarril % 2 !== 0) offsetX = 12; 
+                else if (countEnCarril > 0) offsetX = -12;
 
-                // Actualizamos contador de ese carril
                 ocupacionCarril[carrilIndex]++;
 
+                 // Placeholder para imagen rota en la pista
+                 const imgErrorPista = "this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2290%22 height=%2290%22><circle cx=%2245%22 cy=%2245%22 r=%2240%22 fill=%22%23ddd%22 stroke=%22%23333%22 stroke-width=%222%22/><text x=%2250%25%22 y=%2250%25%22 font-size=%2214%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23333%22>" + dato.delegacion + "</text></svg>';";
+
+
                 const html = `
-                    <div class="corredor-wrapper" style="bottom: ${porcentaje}%; left: ${50 + offsetX}%; transform: translateX(-50%); z-index: ${50 + dato.equipos};">
+                    <div class="corredor-wrapper" style="bottom: ${estiloBottom}; left: ${50 + offsetX}%; transform: translateX(-50%); z-index: ${100 + dato.equipos};">
                         <div class="mascota-icono">
-                            <img src="${dato.icono}" title="${dato.delegacion}">
+                            <img src="${dato.icono}" title="${dato.delegacion} - ${dato.equipos} equipos" onerror="${imgErrorPista}">
                         </div>
                         <div class="etiqueta-info">${dato.delegacion} (${dato.equipos})</div>
                     </div>
