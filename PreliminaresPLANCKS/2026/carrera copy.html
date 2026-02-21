@@ -125,11 +125,12 @@
         .corredor-wrapper {
             position: absolute;
             /* Left y Bottom se calculan en JS */
-            width: 100%; 
+            /* CAMBIO: Quitamos width 100% y cambiamos dirección a fila */
             display: flex;
-            flex-direction: column;
-            align-items: center;
+            flex-direction: row; /* Antes column */
+            align-items: center; /* Centrado vertical entre imagen y texto */
             transition: bottom 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            white-space: nowrap; /* Asegura que todo se mantenga en una línea */
         }
 
         .mascota-icono img {
@@ -141,6 +142,7 @@
             object-fit: contain;
             position: relative; /* Necesario para el z-index relativo a la etiqueta */
             z-index: 25;
+            display: block; /* Elimina espacio extra debajo de la imagen */
         }
 
         .mascota-icono img:hover {
@@ -149,19 +151,21 @@
             cursor: pointer;
         }
 
-        /* --- CAMBIO 2: Etiqueta más pegada al dibujo --- */
+        /* --- CAMBIO 2: Etiqueta a la derecha y con menos opacidad --- */
         .etiqueta-info {
-            background: rgba(0, 0, 0, 0.8);
-            color: white;
-            padding: 2px 6px;
+            /* Fondo más transparente (0.4 en vez de 0.8) */
+            background: rgba(0, 0, 0, 0.4);
+            color: rgba(255, 255, 255, 0.95); /* Texto ligeramente menos blanco puro */
+            padding: 4px 8px;
             border-radius: 4px;
             font-size: 11px;
             font-weight: bold;
-            /* Margen negativo mucho mayor para subir la etiqueta sobre la imagen */
-            margin-top: -20px; 
-            z-index: 30; /* Mayor z-index para asegurar que se lee sobre la parte baja de la imagen */
-            text-align: center;
-            white-space: nowrap;
+            /* Margen a la izquierda para separar de la imagen */
+            margin-left: 10px;
+            /* Quitamos el margen superior negativo */
+            /* margin-top: -20px; */
+            z-index: 30; 
+            text-align: left;
             pointer-events: none; /* Evita que la etiqueta interfiera con el hover de la imagen */
         }
 
@@ -211,7 +215,6 @@
         // =========================================================
         // TUS DATOS 
         // =========================================================
-        // NOTA: Asegúrate de que las rutas de las imágenes sean correctas en tu servidor.
         const datosBrutos = [
           { "delegacion": "UCM",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/MASCOTAS-removebg-preview.png", "equipos": 4 },
           { "delegacion": "UniOvi", "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/6-removebg-preview.png", "equipos": 3 },
@@ -265,14 +268,15 @@
             datos.forEach((dato, index) => {
                 const puesto = index + 1;
                 const claseFila = puesto === 1 ? "fila-top1" : "";
-                // Usamos una imagen genérica si falla la carga para que no se vea roto en la tabla
                 const imgError = "this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2225%22 height=%2225%22><rect width=%2225%22 height=%2225%22 fill=%22%23ccc%22/><text x=%2250%25%22 y=%2250%25%22 font-size=%2210%22 text-anchor=%22middle%22 dy=%22.3em%22>?</text></svg>';";
                 
                 tbody.insertAdjacentHTML('beforeend', `
                     <tr class="${claseFila}">
                         <td><span class="numero-puesto">${puesto}</span></td>
-                        <td style="display:flex; align-items:center; gap:10px;">
-                            <img src="${dato.icono}" style="width:25px; height:25px; object-fit:contain;" onerror="${imgError}"> ${dato.delegacion}
+                        <td>
+                            <div style="display:flex; align-items:center; gap:10px;">
+                                <img src="${dato.icono}" style="width:25px; height:25px; object-fit:contain;" onerror="${imgError}"> ${dato.delegacion}
+                            </div>
                         </td>
                         <td style="text-align:center; font-weight:bold;">${dato.equipos}</td>
                     </tr>
