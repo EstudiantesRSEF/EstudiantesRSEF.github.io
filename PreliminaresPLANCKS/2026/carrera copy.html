@@ -14,7 +14,7 @@
             box-sizing: border-box;
             color: #333;
             height: 100vh;
-            overflow: hidden;
+            overflow: hidden; /* Evitar scroll en el body */
         }
 
         h2 {
@@ -32,7 +32,7 @@
             max-width: 1400px;
             margin: 0 auto;
             align-items: flex-start;
-            height: 90%;
+            height: 90%; /* Ocupar casi toda la pantalla */
         }
 
         /* Panel de la Carrera */
@@ -71,11 +71,13 @@
             position: relative;
             flex-grow: 1;
             display: flex;
+            /* Flex para distribuir los 5 carriles */
             justify-content: space-between; 
             border: 3px solid rgba(255,255,255,0.6);
             border-radius: 8px;
+            /* Fondo base color tierra */
             background-color: #8B4513; 
-            overflow: hidden;
+            overflow: hidden; /* Importante para que no se salgan */
         }
 
         /* Línea de Meta */
@@ -83,7 +85,7 @@
             position: absolute;
             left: 0;
             right: 0;
-            top: 20px;
+            top: 20px; /* Margen superior de seguridad */
             height: 20px;
             background: repeating-linear-gradient(90deg, #fff, #fff 20px, #333 20px, #333 40px);
             opacity: 0.9;
@@ -104,47 +106,41 @@
         /* CARRILES (Solo 5) */
         .carril-fijo {
             position: relative;
-            flex: 1;
+            flex: 1; /* Todos ocupan lo mismo */
             height: 100%;
+            /* Líneas blancas divisorias más sutiles */
             border-right: 2px solid rgba(255, 255, 255, 0.3); 
-            /* Para asegurar que el contenido no se salga visualmente del carril */
-            overflow: visible; 
         }
         .carril-fijo:last-child { border-right: none; }
 
+        /* --- CAMBIO 1: Colores de pista de atletismo realistas (Dos tonos de rojo arcilla) --- */
         .carril-fijo:nth-child(odd) { 
-            background-color: rgba(211, 84, 0, 0.7);
+            background-color: rgba(211, 84, 0, 0.7); /* Tono arcilla claro */
         } 
         .carril-fijo:nth-child(even) { 
-            background-color: rgba(160, 64, 0, 0.8);
+            background-color: rgba(160, 64, 0, 0.8); /* Tono arcilla más oscuro y denso */
         }
 
         /* EL CORREDOR */
         .corredor-wrapper {
             position: absolute;
-            /* CAMBIO: Ocupar todo el ancho del carril para centrar con flex */
+            /* Left y Bottom se calculan en JS */
             width: 100%; 
-            left: 0;
-            
             display: flex;
-            flex-direction: row;
-            /* CAMBIO: Centrar estrictamente en el carril */
-            justify-content: center; 
+            flex-direction: column;
             align-items: center;
-            
             transition: bottom 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            white-space: nowrap;
         }
 
         .mascota-icono img {
             filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.5));
             transition: transform 0.2s;
+            /* Tamaño fijo controlado */
             width: 90px; 
             height: 90px;
             object-fit: contain;
-            position: relative; 
+            position: relative; /* Necesario para el z-index relativo a la etiqueta */
             z-index: 25;
-            display: block;
         }
 
         .mascota-icono img:hover {
@@ -153,23 +149,20 @@
             cursor: pointer;
         }
 
-        /* --- CAMBIO: Etiqueta pegada y superpuesta --- */
+        /* --- CAMBIO 2: Etiqueta más pegada al dibujo --- */
         .etiqueta-info {
-            background: rgba(0, 0, 0, 0.4);
-            color: rgba(255, 255, 255, 0.95);
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
             padding: 2px 6px;
             border-radius: 4px;
             font-size: 11px;
             font-weight: bold;
-            
-            /* Margen negativo para pegar (superponer) el texto a la imagen */
-            margin-left: -15px; 
-            /* Un poco de margen superior para que no tape la cara de la mascota si es redonda */
-            margin-top: 40px; 
-
-            z-index: 30; 
-            text-align: left;
-            pointer-events: none;
+            /* Margen negativo mucho mayor para subir la etiqueta sobre la imagen */
+            margin-top: -20px; 
+            z-index: 30; /* Mayor z-index para asegurar que se lee sobre la parte baja de la imagen */
+            text-align: center;
+            white-space: nowrap;
+            pointer-events: none; /* Evita que la etiqueta interfiera con el hover de la imagen */
         }
 
         /* --- TABLA --- */
@@ -193,7 +186,7 @@
         <div class="panel-carrera">
             <div class="pista-container" id="contenedor-pista">
                 <div class="meta-linea"><span class="meta-texto">LLEGADA</span></div>
-            </div>
+                </div>
         </div>
 
         <div class="panel-tabla">
@@ -242,6 +235,7 @@
 
         function init() {
             const contenedorPista = document.getElementById('contenedor-pista');
+            // Limpiamos pero guardamos la línea de meta
             const meta = contenedorPista.querySelector('.meta-linea');
             contenedorPista.innerHTML = "";
             contenedorPista.appendChild(meta);
@@ -254,9 +248,11 @@
                 contenedorPista.appendChild(carril);
             }
 
+            // Ordenar datos
             let clasificacion = [...datosBrutos].sort((a, b) => b.equipos - a.equipos);
 
             dibujarTabla(clasificacion);
+            // Pequeño timeout para asegurar que el DOM está listo para las transiciones
             setTimeout(() => {
                 colocarCorredores(clasificacion);
             }, 100);
@@ -268,8 +264,10 @@
             datos.forEach((dato, index) => {
                 const puesto = index + 1;
                 const claseFila = puesto === 1 ? "fila-top1" : "";
+                // Usamos una imagen genérica si falla la carga para que no se vea roto en la tabla
                 const imgError = "this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2225%22 height=%2225%22><rect width=%2225%22 height=%2225%22 fill=%22%23ccc%22/><text x=%2250%25%22 y=%2250%25%22 font-size=%2210%22 text-anchor=%22middle%22 dy=%22.3em%22>?</text></svg>';";
                 
+                // CORRECCIÓN: Se añade el div interior para el flex, liberando al td
                 tbody.insertAdjacentHTML('beforeend', `
                     <tr class="${claseFila}">
                         <td><span class="numero-puesto">${puesto}</span></td>
@@ -288,20 +286,34 @@
             const maxEquipos = Math.max(...datos.map(d => d.equipos));
             const divisor = maxEquipos > 0 ? maxEquipos : 1; 
 
+            let ocupacionCarril = Array(NUM_CARRILES).fill(0);
+
             datos.forEach((dato, indice) => {
                 const carrilIndex = indice % NUM_CARRILES;
                 const carrilDOM = document.getElementById(`carril-${carrilIndex}`);
 
+                // CÁLCULO DE POSICIÓN VERTICAL
                 let ratio = dato.equipos / divisor; 
+                // Ajuste del cálculo: El 100% menos el espacio que ocupa la mascota (aprox 140px ahora que están más pegados) y la meta.
                 let estiloBottom = `calc(2% + ${ratio} * (100% - 140px))`;
                 
-                if (dato.equipos === 0) estiloBottom = '1%'; 
+                if (dato.equipos === 0) estiloBottom = '1%'; // Los de 0 se quedan casi abajo del todo
 
-                // CAMBIO: Eliminado el offsetX (ZigZag) para forzar que se mantengan en el centro del carril
-                const imgErrorPista = "this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2290%22 height=%2290%22><circle cx=%2245%22 cy=%2245%22 r=%2240%22 fill=%22%23ddd%22 stroke=%22%23333%22 stroke-width=%222%22/><text x=%2250%25%22 y=%2250%25%22 font-size=%2214%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23333%22>" + dato.delegacion + "</text></svg>';";
+                // CÁLCULO DE OFFSET HORIZONTAL PARA ESCALONAR
+                const countEnCarril = ocupacionCarril[carrilIndex];
+                let offsetX = 0;
+                // Zig-zag simple: centro, derecha, izquierda...
+                if (countEnCarril % 2 !== 0) offsetX = 12; 
+                else if (countEnCarril > 0) offsetX = -12;
+
+                ocupacionCarril[carrilIndex]++;
+
+                 // Placeholder para imagen rota en la pista
+                 const imgErrorPista = "this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2290%22 height=%2290%22><circle cx=%2245%22 cy=%2245%22 r=%2240%22 fill=%22%23ddd%22 stroke=%22%23333%22 stroke-width=%222%22/><text x=%2250%25%22 y=%2250%25%22 font-size=%2214%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23333%22>" + dato.delegacion + "</text></svg>';";
+
 
                 const html = `
-                    <div class="corredor-wrapper" style="bottom: ${estiloBottom}; z-index: ${100 + dato.equipos};">
+                    <div class="corredor-wrapper" style="bottom: ${estiloBottom}; left: ${50 + offsetX}%; transform: translateX(-50%); z-index: ${100 + dato.equipos};">
                         <div class="mascota-icono">
                             <img src="${dato.icono}" title="${dato.delegacion} - ${dato.equipos} equipos" onerror="${imgErrorPista}">
                         </div>
