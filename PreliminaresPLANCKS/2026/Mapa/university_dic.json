@@ -148,5 +148,10 @@
         "university": "Universidad de A Coruña (UDC)",
         "longitude": -8.40797,
         "latitude": 43.32667
-    }
+    },
+    "UANE": {
+        "university": "Universidad de A Coruña (UDC)",
+        "longitude": -3.71306,
+        "latitude": 40.4297
+    } 
 }

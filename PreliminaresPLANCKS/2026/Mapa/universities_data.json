@@ -3,12 +3,23 @@
         "university": "Universidad Complutense de Madrid (UCM)",
         "longitude": -3.7267,
         "latitude": 40.4531,
-        "teams": 4,
+        "teams": 6,
         "team_list": [
             "Hasbulla Rockets",
             "Wronskianos",
             "Los chicos del Papel",
-            "Quantum Quirkification"
+            "Quantum Quirkification",
+            "El Frente Huygens",
+            "Dúplex de pitos"
+        ]
+    },
+    {
+        "university": "Universidad de Sevilla (US)",
+        "longitude": -5.9845,
+        "latitude": 37.3891,
+        "teams": 1,
+        "team_list": [
+            "NosEquivocamosDeCarrera"
         ]
     },
     {
@@ -78,11 +89,12 @@
         "university": "Universidad Autónoma de Madrid (UAM)",
         "longitude": -3.6922,
         "latitude": 40.5496,
-        "teams": 4,
+        "teams": 5,
         "team_list": [
             "Labubuneta Superpuesta",
             "Caballeros de Marco",
             "Runge-Fruta 4",
+            "Los Balodinos",
             "El Quark-teto"
         ]
     },
@@ -129,14 +141,24 @@
         ]
     },
     {
+        "university": "Universidad Rovira i Virgili (URV)",
+        "longitude": 1.255,
+        "latitude": 41.1167,
+        "teams": 1,
+        "team_list": [
+            "Dextrogir"
+        ]
+    },
+    {
         "university": "Universidad Politécnica de Cataluña (UPC)",
         "longitude": 2.1131,
         "latitude": 41.3891,
-        "teams": 3,
+        "teams": 4,
         "team_list": [
             "Alexandroff Extension",
             "Els deixebles de'n Blas",
-            "Quack Quark"
+            "Quack Quark",
+            "No hay paja"
         ]
     },
     {
@@ -218,10 +240,20 @@
         "university": "Universidad Europea de Madrid (UEM)",
         "longitude": -3.918953,
         "latitude": 40.371831,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "El trío electrodinámico",
-            "Los patos quark"
+            "Los patos quark",
+            "Cocineros de tartas de manzana"
+        ]
+    },
+    {
+        "university": "Universidad de A Coruña (UDC)",
+        "longitude": -3.71306,
+        "latitude": 40.4297,
+        "teams": 1,
+        "team_list": [
+            "3 fermionas y un bosón"
         ]
     }
 ]
