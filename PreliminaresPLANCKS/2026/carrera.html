@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inscripciones y Ranking</title>
+    <title>Carrera Vertical - Pista Realista</title>
     <style>
         /* --- ESTILOS GENERALES --- */
         body {
@@ -13,32 +13,39 @@
             padding: 20px;
             box-sizing: border-box;
             color: #333;
+            height: 100vh;
+            overflow: hidden; /* Evitar scroll en el body */
         }
 
         h2 {
             text-align: center;
             color: #fff;
             text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-            margin-top: 0;
+            margin: 0 0 15px 0;
+            height: 5%;
         }
 
         /* --- LAYOUT PRINCIPAL --- */
         .contenedor-general {
             display: flex;
             gap: 20px;
-            max-width: 1200px; /* Aumentado ancho para soportar imágenes grandes */
+            max-width: 1400px;
             margin: 0 auto;
             align-items: flex-start;
+            height: 90%; /* Ocupar casi toda la pantalla */
         }
 
         /* Panel de la Carrera */
         .panel-carrera {
-            flex: 2;
-            background: rgba(255, 255, 255, 0.2);
+            flex: 3;
+            background: rgba(255, 255, 255, 0.25);
             border-radius: 10px;
-            padding: 15px;
+            padding: 10px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
             position: relative;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
         }
 
         /* Panel de la Tabla */
@@ -48,110 +55,126 @@
             border-radius: 10px;
             padding: 15px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-            max-height: 600px; 
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            min-width: 280px;
+        }
+
+        .tabla-scroll {
             overflow-y: auto;
+            flex-grow: 1;
         }
 
         /* --- ESTILOS DE LA PISTA --- */
         .pista-container {
             position: relative;
-            padding-right: 40px; /* Más espacio a la derecha para que no se corte la última imagen */
+            flex-grow: 1;
+            display: flex;
+            /* Flex para distribuir los 5 carriles */
+            justify-content: space-between; 
+            border: 3px solid rgba(255,255,255,0.6);
+            border-radius: 8px;
+            /* Fondo base color tierra */
+            background-color: #8B4513; 
+            overflow: hidden; /* Importante para que no se salgan */
         }
-        
+
+        /* Línea de Meta */
         .meta-linea {
             position: absolute;
+            left: 0;
             right: 0;
-            top: 0;
-            bottom: 0;
-            width: 10px;
-            background: repeating-linear-gradient(45deg, #fff, #fff 5px, #333 5px, #333 10px);
-            opacity: 0.8;
-            z-index: 1;
+            top: 20px; /* Margen superior de seguridad */
+            height: 20px;
+            background: repeating-linear-gradient(90deg, #fff, #fff 20px, #333 20px, #333 40px);
+            opacity: 0.9;
+            z-index: 5;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
         }
 
-        .carril {
+        .meta-texto {
+            position: absolute;
+            top: -20px;
+            right: 10px;
+            color: #fff;
+            font-weight: bold;
+            font-size: 14px;
+            text-shadow: 1px 1px 2px #000;
+        }
+
+        /* CARRILES (Solo 5) */
+        .carril-fijo {
             position: relative;
-            /* MUY IMPORTANTE: Aumentado a 180px para que quepan imágenes de 150px+ */
-            height: 180px; 
-            border-bottom: 2px solid rgba(255, 255, 255, 0.6);
-            width: 100%;
+            flex: 1; /* Todos ocupan lo mismo */
+            height: 100%;
+            /* Líneas blancas divisorias más sutiles */
+            border-right: 2px solid rgba(255, 255, 255, 0.3); 
         }
-        .carril:last-child { border-bottom: none; }
-        .carril-1 { background-color: #e74c3c; border-radius: 8px 8px 0 0; }
-        .carril-2 { background-color: #2ecc71; border-radius: 0 0 8px 8px; }
+        .carril-fijo:last-child { border-right: none; }
 
+        /* --- CAMBIO 1: Colores de pista de atletismo realistas (Dos tonos de rojo arcilla) --- */
+        .carril-fijo:nth-child(odd) { 
+            background-color: rgba(211, 84, 0, 0.7); /* Tono arcilla claro */
+        } 
+        .carril-fijo:nth-child(even) { 
+            background-color: rgba(160, 64, 0, 0.8); /* Tono arcilla más oscuro y denso */
+        }
+
+        /* EL CORREDOR */
         .corredor-wrapper {
             position: absolute;
-            bottom: 10px;
-            transform: translateX(-50%);
+            /* Left y Bottom se calculan en JS */
+            width: 100%; 
             display: flex;
             flex-direction: column;
             align-items: center;
-            transition: left 1.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-            z-index: 10;
-            /* Asegura que el div no limite la imagen */
-            width: 160px; 
+            transition: bottom 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
 
-        .mascota-icono { 
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
-            width: 100%;
+        .mascota-icono img {
+            filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.5));
+            transition: transform 0.2s;
+            /* Tamaño fijo controlado */
+            width: 90px; 
+            height: 90px;
+            object-fit: contain;
+            position: relative; /* Necesario para el z-index relativo a la etiqueta */
+            z-index: 25;
         }
 
+        .mascota-icono img:hover {
+            transform: scale(1.2) translateY(-10px);
+            z-index: 999 !important;
+            cursor: pointer;
+        }
+
+        /* --- CAMBIO 2: Etiqueta más pegada al dibujo --- */
         .etiqueta-info {
-            background: rgba(0, 0, 0, 0.85);
+            background: rgba(0, 0, 0, 0.8);
             color: white;
-            padding: 4px 10px;
-            border-radius: 6px;
-            font-size: 14px; /* Texto más grande también */
-            white-space: nowrap;
-            margin-top: -10px;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 11px;
             font-weight: bold;
-            position: relative;
-            z-index: 20;
-        }
-
-        /* --- ESTILOS DE LA TABLA --- */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 15px;
-        }
-        
-        th { text-align: left; border-bottom: 2px solid #ddd; padding: 10px 5px; color: #555; }
-        td { border-bottom: 1px solid #eee; padding: 10px 5px; vertical-align: middle; }
-        
-        .fila-top1 { background-color: #FFF8E1; font-weight: bold; }
-        .fila-top2 { background-color: #F5F5F5; font-weight: bold; }
-        .fila-top3 { background-color: #FFF0E0; font-weight: bold; }
-
-        .numero-puesto {
-            display: inline-block;
-            width: 30px;
-            height: 30px;
-            line-height: 30px;
+            /* Margen negativo mucho mayor para subir la etiqueta sobre la imagen */
+            margin-top: -20px; 
+            z-index: 30; /* Mayor z-index para asegurar que se lee sobre la parte baja de la imagen */
             text-align: center;
-            border-radius: 50%;
-            background: #eee;
-            font-size: 14px;
-            font-weight: bold;
+            white-space: nowrap;
+            pointer-events: none; /* Evita que la etiqueta interfiera con el hover de la imagen */
         }
 
-        .fila-top1 .numero-puesto { background: #FFD700; color: #000; }
-        .fila-top2 .numero-puesto { background: #C0C0C0; color: #000; }
-        .fila-top3 .numero-puesto { background: #CD7F32; color: #fff; }
-
-        /* --- RESPONSIVE --- */
-        @media (max-width: 768px) {
-            .contenedor-general { flex-direction: column; }
-            .panel-carrera, .panel-tabla { width: 100%; box-sizing: border-box; }
-            
-            /* En móvil reducimos un poco o se saldrán de la pantalla */
-            .carril { height: 140px; } 
+        /* --- TABLA --- */
+        table { width: 100%; border-collapse: collapse; font-size: 14px; }
+        th { text-align: left; border-bottom: 2px solid #ddd; padding: 8px; color: #555; position: sticky; top: 0; background: white; z-index: 10;}
+        td { border-bottom: 1px solid #eee; padding: 6px; vertical-align: middle; }
+        .numero-puesto {
+            display: inline-block; width: 24px; height: 24px; line-height: 24px;
+            text-align: center; border-radius: 50%; background: #eee; font-size: 12px; font-weight: bold;
         }
+        .fila-top1 { background-color: #FFF8E1; font-weight: bold; }
+        .fila-top1 .numero-puesto { background: #FFD700; }
     </style>
 </head>
 <body>
@@ -159,29 +182,27 @@
     <h2>🏆 Estado de Inscripciones 🏆</h2>
 
     <div class="contenedor-general">
-        
+
         <div class="panel-carrera">
-            <h3 style="text-align:center; margin-top:0;">Top 3 Mascotas</h3>
-            <div class="pista-container">
-                <div class="meta-linea"></div>
-                <div class="carril carril-1" id="carril-superior"></div>
-                <div class="carril carril-2" id="carril-inferior"></div>
-            </div>
+            <div class="pista-container" id="contenedor-pista">
+                <div class="meta-linea"><span class="meta-texto">LLEGADA</span></div>
+                </div>
         </div>
 
         <div class="panel-tabla">
-            <h3 style="text-align:center; margin-top:0;">Clasificación General</h3>
-            <table id="tabla-ranking">
-                <thead>
-                    <tr>
-                        <th width="10%">#</th>
-                        <th width="60%">Delegación</th>
-                        <th width="30%" style="text-align:center;">Equipos</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    </tbody>
-            </table>
+            <h3 style="text-align:center; margin-top:0;">Ranking</h3>
+            <div class="tabla-scroll">
+                <table id="tabla-ranking">
+                    <thead>
+                        <tr>
+                            <th width="15%">#</th>
+                            <th width="60%">Uni</th>
+                            <th width="25%" style="text-align:center;">Eq.</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
         </div>
 
     </div>
@@ -192,17 +213,17 @@
         // =========================================================
         const datosBrutos = [
           { "delegacion": "UCM",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/MASCOTAS-removebg-preview.png", "equipos": 6 },
-          { "delegacion": "UniOvi", "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/6-removebg-preview.png", "equipos": 3 },
+          { "delegacion": "UniOvi", "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/6-removebg-preview.png", "equipos": 4 },
           { "delegacion": "UGR",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/9-removebg-preview.png", "equipos": 3 },
-          { "delegacion": "UAB",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/1-removebg-preview.png", "equipos": 8 },
+          { "delegacion": "UAB",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/1-removebg-preview.png", "equipos": 10 },
           { "delegacion": "UV",     "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/7-removebg-preview.png", "equipos": 2 },
           { "delegacion": "EHU",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/5-removebg-preview.png", "equipos": 3 },
           { "delegacion": "US",     "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/12-removebg-preview.png", "equipos": 1 },
           { "delegacion": "UVA",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/3-removebg-preview.png", "equipos": 2 },
           { "delegacion": "UMU",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/8-removebg-preview.png", "equipos": 1 },
-          { "delegacion": "ULL",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/13-removebg-preview.png", "equipos": 1 },
+          { "delegacion": "ULL",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/13-removebg-preview.png", "equipos": 2 },
           { "delegacion": "UA",     "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/10-removebg-preview.png", "equipos": 1 },
-          { "delegacion": "UCLM",   "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/14-removebg-preview.png", "equipos": 2 }, 
+          { "delegacion": "UCLM",   "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/14-removebg-preview.png", "equipos": 3 }, 
           { "delegacion": "UIB",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/11-removebg-preview.png", "equipos": 1 },  
           { "delegacion": "UB",     "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/2-removebg-preview.png", "equipos": 1 },
           { "delegacion": "UPV",    "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/15-removebg-preview.png", "equipos": 3 },
@@ -210,89 +231,100 @@
           { "delegacion": "Nebrija","icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/17-removebg-preview.png", "equipos": 1 }
         ];
 
-        function actualizarTodo() {
-            let clasificacion = datosBrutos.sort((a, b) => b.equipos - a.equipos);
-            
-            dibujarTabla(clasificacion);
+        const NUM_CARRILES = 5;
 
-            // Solo Top 3 con inscritos > 0
-            const top3 = clasificacion.filter(d => d.equipos > 0).slice(0, 3);
-            dibujarCarrera(top3);
+        function init() {
+            const contenedorPista = document.getElementById('contenedor-pista');
+            // Limpiamos pero guardamos la línea de meta
+            const meta = contenedorPista.querySelector('.meta-linea');
+            contenedorPista.innerHTML = "";
+            contenedorPista.appendChild(meta);
+
+            // Crear carriles
+            for (let i = 0; i < NUM_CARRILES; i++) {
+                const carril = document.createElement('div');
+                carril.className = 'carril-fijo';
+                carril.id = `carril-${i}`;
+                contenedorPista.appendChild(carril);
+            }
+
+            // Ordenar datos
+            let clasificacion = [...datosBrutos].sort((a, b) => b.equipos - a.equipos);
+
+            dibujarTabla(clasificacion);
+            // Pequeño timeout para asegurar que el DOM está listo para las transiciones
+            setTimeout(() => {
+                colocarCorredores(clasificacion);
+            }, 100);
         }
 
         function dibujarTabla(datos) {
             const tbody = document.querySelector('#tabla-ranking tbody');
             tbody.innerHTML = ""; 
-
             datos.forEach((dato, index) => {
                 const puesto = index + 1;
-                let claseFila = "";
+                const claseFila = puesto === 1 ? "fila-top1" : "";
+                // Usamos una imagen genérica si falla la carga para que no se vea roto en la tabla
+                const imgError = "this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2225%22 height=%2225%22><rect width=%2225%22 height=%2225%22 fill=%22%23ccc%22/><text x=%2250%25%22 y=%2250%25%22 font-size=%2210%22 text-anchor=%22middle%22 dy=%22.3em%22>?</text></svg>';";
                 
-                if(puesto === 1) claseFila = "fila-top1";
-                else if(puesto === 2) claseFila = "fila-top2";
-                else if(puesto === 3) claseFila = "fila-top3";
-
-                // IMAGEN TABLA: 
-                // Usamos !important para asegurar que nada externo lo cambie.
-                // Tamaño puesto a 60px (bastante grande para una tabla).
-                const htmlFila = `
+                // CORRECCIÓN: Se añade el div interior para el flex, liberando al td
+                tbody.insertAdjacentHTML('beforeend', `
                     <tr class="${claseFila}">
                         <td><span class="numero-puesto">${puesto}</span></td>
-                        <td style="display: flex; align-items: center;">
-                            <img src="${dato.icono}" alt="${dato.delegacion}" 
-                                 style="width: 60px !important; height: 60px !important; min-width: 60px; object-fit: contain; margin-right: 15px;">
-                            <span style="font-size: 1.1em;">${dato.delegacion}</span>
+                        <td>
+                            <div style="display:flex; align-items:center; gap:10px;">
+                                <img src="${dato.icono}" style="width:25px; height:25px; object-fit:contain;" onerror="${imgError}"> ${dato.delegacion}
+                            </div>
                         </td>
-                        <td style="text-align:center; font-size: 1.2em;"><strong>${dato.equipos}</strong></td>
+                        <td style="text-align:center; font-weight:bold;">${dato.equipos}</td>
                     </tr>
-                `;
-                tbody.insertAdjacentHTML('beforeend', htmlFila);
+                `);
             });
         }
 
-        function dibujarCarrera(top3) {
-            const carrilSup = document.getElementById('carril-superior');
-            const carrilInf = document.getElementById('carril-inferior');
-            
-            carrilSup.innerHTML = "";
-            carrilInf.innerHTML = "";
+        function colocarCorredores(datos) {
+            const maxEquipos = Math.max(...datos.map(d => d.equipos));
+            const divisor = maxEquipos > 0 ? maxEquipos : 1; 
 
-            if (top3.length === 0) {
-                carrilSup.innerHTML = "<p style='text-align:center; color:white; padding-top:60px; font-size: 1.2em;'>Esperando inscripciones...</p>";
-                return;
-            }
+            let ocupacionCarril = Array(NUM_CARRILES).fill(0);
 
-            const maxPuntos = top3[0].equipos;
+            datos.forEach((dato, indice) => {
+                const carrilIndex = indice % NUM_CARRILES;
+                const carrilDOM = document.getElementById(`carril-${carrilIndex}`);
 
-            top3.forEach((dato, indice) => {
-                const ranking = indice + 1; 
-                let posPorcentaje = (dato.equipos / maxPuntos) * 85; // Bajado a 85% para que la imagen gigante no se salga por la derecha
+                // CÁLCULO DE POSICIÓN VERTICAL
+                let ratio = dato.equipos / divisor; 
+                // Ajuste del cálculo: El 100% menos el espacio que ocupa la mascota (aprox 140px ahora que están más pegados) y la meta.
+                let estiloBottom = `calc(2% + ${ratio} * (100% - 140px))`;
+                
+                if (dato.equipos === 0) estiloBottom = '1%'; // Los de 0 se quedan casi abajo del todo
 
-                // IMAGEN PISTA: 
-                // Tamaño GIGANTE (150px). 
-                // Usamos !important.
-                // Si en móvil se ven demasiado grandes, el CSS @media de arriba las limitará.
-                const htmlCorredor = `
-                    <div class="corredor-wrapper" style="left: ${posPorcentaje}%; z-index: ${10 - indice}">
+                // CÁLCULO DE OFFSET HORIZONTAL PARA ESCALONAR
+                const countEnCarril = ocupacionCarril[carrilIndex];
+                let offsetX = 0;
+                // Zig-zag simple: centro, derecha, izquierda...
+                if (countEnCarril % 2 !== 0) offsetX = 12; 
+                else if (countEnCarril > 0) offsetX = -12;
+
+                ocupacionCarril[carrilIndex]++;
+
+                 // Placeholder para imagen rota en la pista
+                 const imgErrorPista = "this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2290%22 height=%2290%22><circle cx=%2245%22 cy=%2245%22 r=%2240%22 fill=%22%23ddd%22 stroke=%22%23333%22 stroke-width=%222%22/><text x=%2250%25%22 y=%2250%25%22 font-size=%2214%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23333%22>" + dato.delegacion + "</text></svg>';";
+
+
+                const html = `
+                    <div class="corredor-wrapper" style="bottom: ${estiloBottom}; left: ${50 + offsetX}%; transform: translateX(-50%); z-index: ${100 + dato.equipos};">
                         <div class="mascota-icono">
-                            <img src="${dato.icono}" title="${dato.delegacion}" 
-                                 style="width: 150px !important; height: 150px !important; object-fit: contain;">
+                            <img src="${dato.icono}" title="${dato.delegacion} - ${dato.equipos} equipos" onerror="${imgErrorPista}">
                         </div>
-                        <div class="etiqueta-info">
-                            ${dato.delegacion} <strong>(${dato.equipos})</strong>
-                        </div>
+                        <div class="etiqueta-info">${dato.delegacion} (${dato.equipos})</div>
                     </div>
                 `;
-
-                if (ranking === 2) {
-                    carrilInf.insertAdjacentHTML('beforeend', htmlCorredor);
-                } else {
-                    carrilSup.insertAdjacentHTML('beforeend', htmlCorredor);
-                }
+                carrilDOM.insertAdjacentHTML('beforeend', html);
             });
         }
 
-        actualizarTodo();
+        window.onload = init;
     </script>
 </body>
 </html>

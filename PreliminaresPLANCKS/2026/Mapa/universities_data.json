@@ -37,7 +37,7 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 8,
+        "teams": 10,
         "team_list": [
             "Anècdota precària",
             "Goon gang",
@@ -46,7 +46,9 @@
             "Las Ondas Traviesas de Erwin Schrödinger",
             "Carles Cuquirk",
             "Planck Projectiu",
-            "Esclaus del Jan Pau"
+            "Esclaus del Jan Pau",
+            "Electrobros i Joel",
+            "Operador{FQ}"
         ]
     },
     {
@@ -102,11 +104,12 @@
         "university": "Universidad de Oviedo (UniOvi)",
         "longitude": -5.845,
         "latitude": 43.3619,
-        "teams": 3,
+        "teams": 4,
         "team_list": [
             "The Last Dance ",
             "Tres cuerpos y un problema",
-            "c=1"
+            "c=1",
+            "Geómetras"
         ]
     },
     {
@@ -174,9 +177,10 @@
         "university": "Universidad de la Laguna (ULL)",
         "longitude": -16.3159,
         "latitude": 28.4698,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Entropic Warriors"
+            "Entropic Warriors",
+            "Ragazzi di via lagunera"
         ]
     },
     {
@@ -218,22 +222,14 @@
         ]
     },
     {
-        "university": "Universidad de Murcia (UMU)",
-        "longitude": -1.1307,
-        "latitude": 37.9922,
-        "teams": 1,
-        "team_list": [
-            "Los Little Epsteins"
-        ]
-    },
-    {
         "university": "Universidad de Castilla-La Mancha (UCLM)",
         "longitude": -3.9206,
         "latitude": 38.9941,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "Electromagnetismos Rodríguez",
-            "Tensor de incompetencia "
+            "Tensor de incompetencia ",
+            "FFT xk NFT"
         ]
     },
     {
@@ -248,12 +244,21 @@
         ]
     },
     {
-        "university": "Universidad de A Coruña (UDC)",
+        "university": "Universidad Antonio de Nebrija(UANE)",
         "longitude": -3.71306,
         "latitude": 40.4297,
         "teams": 1,
         "team_list": [
             "3 fermionas y un bosón"
+        ]
+    },
+    {
+        "university": "Universidad de Murcia (UMU)",
+        "longitude": -1.1307,
+        "latitude": 37.9922,
+        "teams": 1,
+        "team_list": [
+            "Los Little Einsteins"
         ]
     }
 ]

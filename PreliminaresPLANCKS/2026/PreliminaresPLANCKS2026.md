@@ -138,18 +138,44 @@ permalink: /PreliminaresPLANCKS2026/
           <iframe id="content-desktop" src="/PreliminaresPLANCKS/2026/Mapa/universities_map_desktop.html" class="scalable-iframe" style="border:none"></iframe> 
           <iframe id="content-mobile" src="/PreliminaresPLANCKS/2026/Mapa/universities_map_mobile.html" class="scalable-iframe" style="border:none; width: 100%"></iframe> 
       </div> 
-      <!-- CARRERA -->
-      <h3>¡Sigue la carrera de inscripciones!</h3>
+      <!-- Carrera  -->
+		<h3>¡Sigue la carrera de inscripciones!</h3>
 
 <div class="iframe-responsive-wrapper">
      <iframe 
         src="/PreliminaresPLANCKS/2026/carrera.html" 
-        width="100%" 
-        height="500px" 
         loading="lazy"
-        style="border: 1px solid #ccc; border-radius: 8px; display: block;">
+        class="carrera-iframe">
      </iframe>
 </div>
+
+<style>
+  /* Contenedor: maneja el desbordamiento (scroll) */
+  .iframe-responsive-wrapper {
+      width: 100%;
+      overflow-x: auto; /* Fuerza la aparición del scroll horizontal si el contenido es más ancho */
+      overflow-y: hidden;
+      -webkit-overflow-scrolling: touch; /* Scroll suave en dispositivos iOS */
+      border-radius: 8px; /* Mover el borde al contenedor suele dar un acabado más limpio */
+      border: 1px solid #ccc;
+  }
+
+  /* Iframe: tamaño y proporciones */
+  .carrera-iframe {
+      width: 100%;
+      min-width: 800px; 
+      height: 500px;
+      border: none; 
+      display: block;
+  }
+
+  /* Ajustes específicos para móviles */
+  @media (max-width: 600px) {
+      .carrera-iframe {
+          height: 400px; /* Ajusta la altura en pantallas pequeñas */
+      }
+  }
+</style>
 
 <style>
   /* Estilos para asegurar que se vea bien en móvil */
