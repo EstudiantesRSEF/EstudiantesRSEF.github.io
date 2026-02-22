@@ -178,40 +178,72 @@ permalink: /PreliminaresPLANCKS2026/
     }
   }
 
-  /* Estilo de la nueva etiqueta explosiva y palpitante */
-  .badge-novedad {
-      position: absolute;
-      top: -30px;             /* Posición ajustada para el nuevo tamaño y movimiento */
-      right: -25px;
-      background-color: #C35B13; /* Color naranja prelis */
-      color: #FFFFFF;
-      font-weight: 900;
-      font-size: 13px;        /* Un pelín más grande */
-      
-      /* PADDING CLAVE: Esto asegura que la forma se adapte al texto */
-      padding: 15px 25px; 
+ /* --- ESTILO SELLO ELÍPTICO CON PICOS (VERSIÓN REDUCIDA) --- */
 
-      /* Forma de explosión irregular estilo cómic */
-      clip-path: polygon(
-        100% 50%, 88% 65%, 95% 80%, 78% 85%, 85% 100%, 65% 90%, 
-        50% 100%, 35% 90%, 15% 100%, 22% 85%, 5% 80%, 12% 65%, 
-        0% 50%, 12% 35%, 5% 20%, 22% 15%, 15% 0%, 35% 10%, 
-        50% 0%, 65% 10%, 85% 0%, 78% 15%, 95% 20%, 88% 35%
-      );
+.badge-novedad {
+    position: absolute;
+    /* Ajustamos la posición al ser más pequeño */
+    top: -20px; 
+    right: -15px; 
+    
+    /* 1. Reducimos la elipse base */
+    padding: 3px 22px;      
+    white-space: nowrap;
+    
+    background-color: #ffb30f;
+    color: #FFFFFF;
+    font-weight: 900;
+    /* 2. Reducimos el tamaño de la fuente */
+    font-size: 9px;          
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; 
+    
+    z-index: 10;
+    pointer-events: none;
+    text-transform: uppercase;
+    transform: rotate(8deg); 
+    
+    /* Sombra un poco más suave acorde al tamaño */
+    filter: drop-shadow(2px 3px 2px rgba(0,0,0,0.4)); 
+    animation: palpitarSello 1.8s ease-in-out infinite; 
+}
 
-      z-index: 20;            /* Más alto para asegurar que se ve bien al crecer */
-      pointer-events: none;
-      white-space: nowrap;
-      text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
-      
-      /* Sombra que sigue la forma irregular */
-      filter: drop-shadow(3px 5px 4px rgba(0,0,0,0.5));
-      
-      /* Aplicamos la animación definida arriba */
-      /* Nombre | Duración | Tipo de movimiento | Repetición */
-      animation: palpitar 1.2s ease-in-out infinite;
-      /* transform: rotate(12deg);  <- Ya no hace falta aquí, lo controla la animación */
-  }
+/* El ribete con picos de estrella */
+.badge-novedad::before {
+    content: "";
+    position: absolute;
+    
+    /* 3. Reducimos el alcance de los picos hacia afuera */
+    top: -8px;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+    
+    background-color: #C35B13;
+    z-index: -1;
+    
+    /* La misma estrella perfecta de 16 puntas */
+    clip-path: polygon(
+        50% 0%, 59% 9%, 71% 2%, 76% 14%, 
+        88% 12%, 88% 25%, 98% 29%, 92% 41%, 
+        100% 50%, 92% 59%, 98% 71%, 88% 75%, 
+        88% 88%, 76% 86%, 71% 98%, 59% 91%, 
+        50% 100%, 41% 91%, 29% 98%, 24% 86%, 
+        12% 88%, 12% 75%, 2% 71%, 8% 59%, 
+        0% 50%, 8% 41%, 2% 29%, 12% 25%, 
+        12% 12%, 24% 14%, 29% 2%, 41% 9%
+    );
+}
+
+/* Animación de pálpito */
+@keyframes palpitarSello {
+    0% { transform: rotate(8deg) scale(1); }
+    50% { transform: rotate(8deg) scale(1.04); }
+    100% { transform: rotate(8deg) scale(1); }
+}
 </style>
       <!-- EDICIONES ANTERIORES -->
       <div class="section" id="ediciones-anteriores">
