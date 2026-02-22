@@ -165,33 +165,52 @@ permalink: /PreliminaresPLANCKS2026/
           height: 400px; /* Puedes ajustar esto según necesites */
       }
   }
-  /* Estilo para la estrella de Novedad */
+/* Definimos la animación de pálpito */
+  @keyframes palpitar {
+    0% {
+      transform: rotate(12deg) scale(1); /* Estado inicial inclinado */
+    }
+    50% {
+      transform: rotate(12deg) scale(1.15); /* Crece un 15% a mitad de ciclo */
+    }
+    100% {
+      transform: rotate(12deg) scale(1); /* Vuelve al estado inicial */
+    }
+  }
+
+  /* Estilo de la nueva etiqueta explosiva y palpitante */
   .badge-novedad {
       position: absolute;
-      top: -25px;            /* Subimos un poco más porque ahora es más grande */
-      right: -20px;          /* Ajustado para el nuevo tamaño */
+      top: -30px;             /* Posición ajustada para el nuevo tamaño y movimiento */
+      right: -25px;
       background-color: #C35B13; /* Color naranja prelis */
       color: #FFFFFF;
       font-weight: 900;
-      font-size: 12px;
-      padding: 12px 18px;    /* Más espacio para que los picos no toquen el texto */
+      font-size: 13px;        /* Un pelín más grande */
       
-      /* Dibujamos la estrella de 12 puntas */
+      /* PADDING CLAVE: Esto asegura que la forma se adapte al texto */
+      padding: 15px 25px; 
+
+      /* Forma de explosión irregular estilo cómic */
       clip-path: polygon(
-        50% 0%, 61% 11%, 79% 5%, 78% 22%, 98% 24%, 85% 38%, 
-        100% 50%, 85% 62%, 98% 76%, 78% 78%, 79% 95%, 61% 89%, 
-        50% 100%, 39% 89%, 21% 95%, 22% 78%, 2% 76%, 15% 62%, 
-        0% 50%, 15% 38%, 2% 24%, 22% 22%, 21% 5%, 39% 11%
+        100% 50%, 88% 65%, 95% 80%, 78% 85%, 85% 100%, 65% 90%, 
+        50% 100%, 35% 90%, 15% 100%, 22% 85%, 5% 80%, 12% 65%, 
+        0% 50%, 12% 35%, 5% 20%, 22% 15%, 15% 0%, 35% 10%, 
+        50% 0%, 65% 10%, 85% 0%, 78% 15%, 95% 20%, 88% 35%
       );
-      
-      transform: rotate(10deg);
-      z-index: 10;
+
+      z-index: 20;            /* Más alto para asegurar que se ve bien al crecer */
       pointer-events: none;
       white-space: nowrap;
-      text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+      text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
       
-      /* Sustituimos box-shadow por drop-shadow para que siga la forma de la estrella */
-      filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.3));
+      /* Sombra que sigue la forma irregular */
+      filter: drop-shadow(3px 5px 4px rgba(0,0,0,0.5));
+      
+      /* Aplicamos la animación definida arriba */
+      /* Nombre | Duración | Tipo de movimiento | Repetición */
+      animation: palpitar 1.2s ease-in-out infinite;
+      /* transform: rotate(12deg);  <- Ya no hace falta aquí, lo controla la animación */
   }
 </style>
       <!-- EDICIONES ANTERIORES -->
