@@ -49,7 +49,10 @@ permalink: /PreliminaresPLANCKS2026/
         <div class="row_prelis">
           <a href="#supervisores-modal" id="supervisores-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Supervisoras/es</strong></a>
           <a href="#plancks-modal" id="conocer-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px; line-height: 1.1;"><i class="material-icons" style="padding-right: 8px;">explore</i><strong>Conoce Plancks</strong></a>
-          <a href="#premios-modal" id="premios-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">star</i><strong>Premios</strong></a>
+          <a href="#premios-modal" id="premios-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px; position: relative; overflow: visible;">
+            <span class="badge-novedad">★ ¡Novedad!</span>
+            <i class="material-icons" style="padding-right: 8px;">star</i><strong>Premios</strong>
+          </a>
           <a href="#inscripcion-modal" id="inscripcion-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">create</i><strong>Inscríbete</strong></a>
         </div>
       </div>
@@ -162,6 +165,24 @@ permalink: /PreliminaresPLANCKS2026/
           height: 400px; /* Puedes ajustar esto según necesites */
       }
   }
+  /* Estilo para la estrella de Novedad */
+  .badge-novedad {
+      position: absolute;
+      top: -18px;            /* Sube la etiqueta por encima del botón */
+      right: -15px;          /* La asoma un poco por la derecha */
+      background-color: #C35B13; /* Color naranja prelis */
+      color: #FFFFFF;        /* Texto en blanco para resaltar */
+      font-weight: 900;
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 20px;   /* Bordes redondeados tipo píldora */
+      box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+      transform: rotate(10deg); /* Giro sutil para darle dinamismo */
+      z-index: 10;
+      pointer-events: none;  /* Evita que interfiera al hacer clic en el botón */
+      white-space: nowrap;   /* Evita que el texto se parta en dos líneas */
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.3); /* Mejora la lectura */
+  }
 </style>
       <!-- EDICIONES ANTERIORES -->
       <div class="section" id="ediciones-anteriores">
@@ -253,7 +274,7 @@ permalink: /PreliminaresPLANCKS2026/
           Los clasificados participarán en la fase internacional de PLANCKS en Eindhoven, Países Bajos, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
         </p-->
         <p style="text-align: justify;">
-          Este año contamos con el apoyo y financiación de la <a class="prelis26" href="https://www.fundacionareces.es" id="ramon-areces" target="_blank">Fundación Ramón Areces</a>, que nos permite ofrecer premios a los tres mejores equipos: 700€ para el primer equipo, 500€ para el segundo y 300€ para el tercer clasificado. Además, los clasificados participarán en la fase internacional de PLANCKS en Eindhoven, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
+          Este año contamos con el apoyo y financiación de la <a class="prelis26" href="https://www.fundacionareces.es" id="ramon-areces" target="_blank">Fundación Ramón Areces</a>, que nos permite ofrecer premios a los tres mejores equipos: <strong>900€</strong> para el primer equipo, <strong>600€</strong>  para el segundo y <strong>500€</strong>  para el tercer clasificado. Además, los clasificados participarán en la fase internacional de PLANCKS en Eindhoven, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
         </p>
         <p style="text-align: justify;">
           Todo esto no sería posible sin el apoyo de la Fundación Ramón Areces y de los miembros del GdeE. ¡Así que muchas gracias por confiar en nosotros!

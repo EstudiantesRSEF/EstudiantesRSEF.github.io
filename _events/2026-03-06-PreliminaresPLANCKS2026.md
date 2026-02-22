@@ -21,7 +21,7 @@ comm:
     <img class="materialboxed" width="100%" src="/img/eventos/2026-PrelisPLANCKS/Prelis26_Banner.png">    
 <!-- INTRO -->
       <!--p style="text-align: justify;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la novena edición de las <strong>Preliminares de PLANCKS</strong>!  Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p-->
-      <p style="text-align: justify;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la novena edición de las <strong>Preliminares de PLANCKS</strong>! Y este año... como novedad, con <strong>1500€ en PREMIOS</strong> gracias al apoyo de la <strong>Fundación Ramón Areces</strong>. Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p>
+      <p style="text-align: justify;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la novena edición de las <strong>Preliminares de PLANCKS</strong>! Y este año... como novedad, con <strong>2000€ en PREMIOS</strong> gracias al apoyo de la <strong>Fundación Ramón Areces</strong>. Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p>
   </div>      
 <!-- BUTTONS -->
   <div class="row center">
