@@ -38,7 +38,7 @@ permalink: /PreliminaresPLANCKS2026/
       </h2>
       <hr> -->
       <!-- INTRODUCCIÓN -->
-      <p style="text-align: justify; line-height: 1.5;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la novena edición de las <strong>Preliminares de PLANCKS</strong>! Y este año también ofrecemos <strong>1500€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces. Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p>       
+      <p style="text-align: justify; line-height: 1.5;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la novena edición de las <strong>Preliminares de PLANCKS</strong>! Y este año también ofrecemos <strong>2000€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces. Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p>       
       <!--p style="text-align: justify; line-height: 1.5;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la novena edición de las <strong>Preliminares de PLANCKS</strong>! Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!
       </p-->
       <!-- BOTONES -->
