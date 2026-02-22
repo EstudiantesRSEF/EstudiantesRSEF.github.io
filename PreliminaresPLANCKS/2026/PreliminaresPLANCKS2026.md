@@ -50,7 +50,7 @@ permalink: /PreliminaresPLANCKS2026/
           <a href="#supervisores-modal" id="supervisores-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Supervisoras/es</strong></a>
           <a href="#plancks-modal" id="conocer-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px; line-height: 1.1;"><i class="material-icons" style="padding-right: 8px;">explore</i><strong>Conoce Plancks</strong></a>
           <a href="#premios-modal" id="premios-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px; position: relative; overflow: visible;">
-            <span class="badge-novedad">★ ¡Novedad!</span>
+            <span class="badge-novedad">¡Novedad!</span>
             <i class="material-icons" style="padding-right: 8px;">star</i><strong>Premios</strong>
           </a>
           <a href="#inscripcion-modal" id="inscripcion-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">create</i><strong>Inscríbete</strong></a>
@@ -168,20 +168,30 @@ permalink: /PreliminaresPLANCKS2026/
   /* Estilo para la estrella de Novedad */
   .badge-novedad {
       position: absolute;
-      top: -18px;            /* Sube la etiqueta por encima del botón */
-      right: -15px;          /* La asoma un poco por la derecha */
+      top: -25px;            /* Subimos un poco más porque ahora es más grande */
+      right: -20px;          /* Ajustado para el nuevo tamaño */
       background-color: #C35B13; /* Color naranja prelis */
-      color: #FFFFFF;        /* Texto en blanco para resaltar */
+      color: #FFFFFF;
       font-weight: 900;
       font-size: 12px;
-      padding: 4px 10px;
-      border-radius: 20px;   /* Bordes redondeados tipo píldora */
-      box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
-      transform: rotate(10deg); /* Giro sutil para darle dinamismo */
+      padding: 12px 18px;    /* Más espacio para que los picos no toquen el texto */
+      
+      /* Dibujamos la estrella de 12 puntas */
+      clip-path: polygon(
+        50% 0%, 61% 11%, 79% 5%, 78% 22%, 98% 24%, 85% 38%, 
+        100% 50%, 85% 62%, 98% 76%, 78% 78%, 79% 95%, 61% 89%, 
+        50% 100%, 39% 89%, 21% 95%, 22% 78%, 2% 76%, 15% 62%, 
+        0% 50%, 15% 38%, 2% 24%, 22% 22%, 21% 5%, 39% 11%
+      );
+      
+      transform: rotate(10deg);
       z-index: 10;
-      pointer-events: none;  /* Evita que interfiera al hacer clic en el botón */
-      white-space: nowrap;   /* Evita que el texto se parta en dos líneas */
-      text-shadow: 1px 1px 2px rgba(0,0,0,0.3); /* Mejora la lectura */
+      pointer-events: none;
+      white-space: nowrap;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+      
+      /* Sustituimos box-shadow por drop-shadow para que siga la forma de la estrella */
+      filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.3));
   }
 </style>
       <!-- EDICIONES ANTERIORES -->
