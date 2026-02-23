@@ -299,6 +299,22 @@
   logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado:
 
+  - nombre: "Madrid - UAM"
+  id: "MadridUAM"
+  img: "/img/logos/gdee-rsef-logo-cuadrado.png"
+  mail: "estudiantesrsef.uam@gmail.com"
+  presidente: "Lucas Gallego Lomo"
+  vicepresidente: "Andrés García Martínez"
+  secretario: "Cristina Ferro Infanzón"
+  tesorero: "Diego García González"
+  fundacion: "02/2026"
+  ins: "https://www.instagram.com/estudiantesrsef_uam/"
+  tw:
+  ex:
+  logo: "/img/banner/logo-banner-estrsef.jpg"
+  congelado:
+
+
 
 
 
