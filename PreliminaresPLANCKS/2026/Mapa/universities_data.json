@@ -17,9 +17,10 @@
         "university": "Universidad de Sevilla (US)",
         "longitude": -5.9845,
         "latitude": 37.3891,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "NosEquivocamosDeCarrera"
+            "NosEquivocamosDeCarrera",
+            "QuantumComunicationsSL"
         ]
     },
     {
@@ -37,7 +38,7 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 10,
+        "teams": 14,
         "team_list": [
             "Anècdota precària",
             "Goon gang",
@@ -48,7 +49,11 @@
             "Planck Projectiu",
             "Esclaus del Jan Pau",
             "Electrobros i Joel",
-            "Operador{FQ}"
+            "Operador{FQ}",
+            "Bohrratxos",
+            "The Einstein Files",
+            "Canteranos",
+            "Bolas Normales"
         ]
     },
     {
@@ -82,9 +87,10 @@
         "university": "Universidad de Barcelona (UB)",
         "longitude": 2.1662,
         "latitude": 41.3879,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Good Physicists"
+            "Good Physicists",
+            "pussytrons"
         ]
     },
     {
@@ -187,11 +193,12 @@
         "university": "Universidad Politécnica de Valencia (UPV)",
         "longitude": -0.3422,
         "latitude": 39.482,
-        "teams": 3,
+        "teams": 4,
         "team_list": [
             "las gatitas radioactivas",
             "Menú Bourbon",
-            "Sin Potencial"
+            "Sin Potencial",
+            "payicos"
         ]
     },
     {
@@ -256,9 +263,10 @@
         "university": "Universidad de Murcia (UMU)",
         "longitude": -1.1307,
         "latitude": 37.9922,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Los Little Einsteins"
+            "Los Little Einsteins",
+            "Anti-Abellanianos"
         ]
     }
 ]

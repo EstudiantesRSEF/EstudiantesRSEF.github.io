@@ -307,6 +307,8 @@
   vicepresidente: "Andrés García Martínez"
   secretario: "Cristina Ferro Infanzón"
   tesorero: "Diego García González"
+  colaboradores:
+    - nombre_col: "Héctor García Palomares"
   fundacion: "02/2026"
   ins: "https://www.instagram.com/estudiantesrsef_uam/"
   tw:
