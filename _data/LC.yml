@@ -299,7 +299,7 @@
   logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado:
 
-  - nombre: "Madrid - UAM"
+- nombre: "Madrid - UAM"
   id: "MadridUAM"
   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
   mail: "estudiantesrsef.uam@gmail.com"
