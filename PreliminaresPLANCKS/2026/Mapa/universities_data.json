@@ -40,7 +40,7 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 16,
+        "teams": 17,
         "team_list": [
             "Anècdota precària",
             "Goon gang",
@@ -57,7 +57,8 @@
             "Canteranos",
             "Bolas Normales",
             "Los 4 Plancktasticos",
-            "QuímicsFiltrats"
+            "QuímicsFiltrats",
+            "Wash Planck's belly"
         ]
     },
     {
@@ -73,9 +74,10 @@
         "university": "Universidad de Salamanca (USAL)",
         "longitude": -5.6635,
         "latitude": 40.9608,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Polaris"
+            "Polaris",
+            "Soy un truhan, soy un señor"
         ]
     },
     {
@@ -111,7 +113,7 @@
         "university": "Universidad Autónoma de Madrid (UAM)",
         "longitude": -3.6922,
         "latitude": 40.5496,
-        "teams": 7,
+        "teams": 8,
         "team_list": [
             "Labubuneta Superpuesta",
             "Caballeros de Marco",
@@ -119,6 +121,7 @@
             "Los Balodinos",
             "Muíno Neutrónico",
             "Operador Nablajazo",
+            "El Troncocono de Revolución",
             "El Quark-teto"
         ]
     },
@@ -126,12 +129,13 @@
         "university": "Universidad de Oviedo (UniOvi)",
         "longitude": -5.845,
         "latitude": 43.3619,
-        "teams": 4,
+        "teams": 5,
         "team_list": [
             "The Last Dance ",
             "Tres cuerpos y un problema",
             "c=1",
-            "Geómetras"
+            "Geómetras",
+            "Nico y Lás"
         ]
     },
     {
@@ -162,10 +166,11 @@
         "university": "Universidad de Granada (UGR)",
         "longitude": -3.602,
         "latitude": 37.1765,
-        "teams": 3,
+        "teams": 4,
         "team_list": [
             "Pastelitos",
             "Don limpio y los pelopantene",
+            "Bestias Titánicas",
             "Los extraordinarios "
         ]
     },
@@ -214,12 +219,13 @@
         "university": "Universidad Politécnica de Valencia (UPV)",
         "longitude": -0.3422,
         "latitude": 39.482,
-        "teams": 4,
+        "teams": 5,
         "team_list": [
             "las gatitas radioactivas",
             "Menú Bourbon",
             "Sin Potencial",
-            "payicos"
+            "payicos",
+            "Galileos"
         ]
     },
     {
