@@ -27,10 +27,12 @@
         "university": "Universidad del País Vasco (UPV/EHU)",
         "longitude": -2.935,
         "latitude": 43.263,
-        "teams": 3,
+        "teams": 5,
         "team_list": [
             "Bremsstrahlung",
             "Tres ondas y una partícula",
+            "Vito Kleenex",
+            "CFJ",
             "ERROMANTIKOAK"
         ]
     },
@@ -38,7 +40,7 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 15,
+        "teams": 16,
         "team_list": [
             "Anècdota precària",
             "Goon gang",
@@ -54,7 +56,8 @@
             "The Einstein Files",
             "Canteranos",
             "Bolas Normales",
-            "Los 4 Plancktasticos"
+            "Los 4 Plancktasticos",
+            "QuímicsFiltrats"
         ]
     },
     {
@@ -97,22 +100,25 @@
         "university": "Universidad de Barcelona (UB)",
         "longitude": 2.1662,
         "latitude": 41.3879,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "Good Physicists",
-            "pussytrons"
+            "pussytrons",
+            "Boltzgang"
         ]
     },
     {
         "university": "Universidad Autónoma de Madrid (UAM)",
         "longitude": -3.6922,
         "latitude": 40.5496,
-        "teams": 5,
+        "teams": 7,
         "team_list": [
             "Labubuneta Superpuesta",
             "Caballeros de Marco",
             "Runge-Fruta 4",
             "Los Balodinos",
+            "Muíno Neutrónico",
+            "Operador Nablajazo",
             "El Quark-teto"
         ]
     },
@@ -144,11 +150,12 @@
         "university": "Universidad de Valencia (UV)",
         "longitude": -0.3752,
         "latitude": 39.4699,
-        "teams": 3,
+        "teams": 4,
         "team_list": [
             "Incendio Forestal",
             "Sacerdotes Awámicos",
-            "Grupo Avelino "
+            "Grupo Avelino ",
+            "Ultimo y verdadero club de fans de: Perla Shumajer"
         ]
     },
     {
@@ -166,9 +173,10 @@
         "university": "Universidad Rovira i Virgili (URV)",
         "longitude": 1.255,
         "latitude": 41.1167,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Dextrogir"
+            "Dextrogir",
+            "3milk1coffee"
         ]
     },
     {
@@ -236,9 +244,10 @@
         "university": "Universitat de les Illes Balears (UIB)",
         "longitude": 2.6426,
         "latitude": 39.6361,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Fallo y error"
+            "Fallo y error",
+            "Ricci-Culous"
         ]
     },
     {
@@ -268,9 +277,10 @@
         "university": "Universidad Antonio de Nebrija(UANE)",
         "longitude": -3.71306,
         "latitude": 40.4297,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "3 fermionas y un bosón"
+            "3 fermionas y un bosón",
+            "Las tres guerreras de Newton"
         ]
     },
     {
