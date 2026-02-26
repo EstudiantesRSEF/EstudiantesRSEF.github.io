@@ -107,19 +107,21 @@
         "university": "Universidad de Barcelona (UB)",
         "longitude": 2.1662,
         "latitude": 41.3879,
-        "teams": 4,
+        "teams": 6,
         "team_list": [
             "Good Physicists",
             "pussytrons",
             "Boltzgang",
-            "UMoix"
+            "UMoix",
+            "EigenSquad",
+            "Pèsols"
         ]
     },
     {
         "university": "Universidad Autónoma de Madrid (UAM)",
         "longitude": -3.6922,
         "latitude": 40.5496,
-        "teams": 10,
+        "teams": 12,
         "team_list": [
             "Labubuneta Superpuesta",
             "Caballeros de Marco",
@@ -130,6 +132,8 @@
             "El Troncocono de Revolución",
             "DE MODO QUE",
             "NPCs",
+            "Kotxirriman",
+            "Inter de broglie",
             "El Quark-teto"
         ]
     },
@@ -137,27 +141,29 @@
         "university": "Universidad de Oviedo (UniOvi)",
         "longitude": -5.845,
         "latitude": 43.3619,
-        "teams": 5,
+        "teams": 6,
         "team_list": [
             "The Last Dance ",
             "Tres cuerpos y un problema",
             "c=1",
             "Geómetras",
-            "Nico y Lás"
+            "Nico y Lás",
+            "El Bosón de la Mon"
         ]
     },
     {
         "university": "Universidad de Valladolid (UVA)",
         "longitude": -4.7245,
         "latitude": 41.6521,
-        "teams": 6,
+        "teams": 7,
         "team_list": [
             "La Resistencia",
             "Fisicoleguillas",
             "MRVA",
             "Los Hermíticos",
             "Joule-igans",
-            "Grupillo 3"
+            "Grupillo 3",
+            "Las gatitas de Schrödinger"
         ]
     },
     {
@@ -244,6 +250,15 @@
         ]
     },
     {
+        "university": "Universidad de Cantabria (UC)",
+        "longitude": -3.8044,
+        "latitude": 43.4623,
+        "teams": 1,
+        "team_list": [
+            "Cuadrupolo cántabro"
+        ]
+    },
+    {
         "university": "Universidad de Las Palmas de Gran Canaria (ULPGC)",
         "longitude": -15.41343,
         "latitude": 28.09973,
@@ -298,12 +313,13 @@
         "university": "Universidad Antonio de Nebrija(UANE)",
         "longitude": -3.71306,
         "latitude": 40.4297,
-        "teams": 4,
+        "teams": 5,
         "team_list": [
             "3 fermionas y un bosón",
             "Las tres guerreras de Newton",
             "Chiqui-Tum-PlankPlank",
-            "El club de la PRBA105"
+            "El club de la PRBA105",
+            "Wilhelmina"
         ]
     },
     {
@@ -314,6 +330,15 @@
         "team_list": [
             "Los Little Einsteins",
             "Anti-Abellanianos"
+        ]
+    },
+    {
+        "university": "Universidad de Santiago de Compostela (USC)",
+        "longitude": -8.5448,
+        "latitude": 42.8782,
+        "teams": 1,
+        "team_list": [
+            "Risco de Rotura"
         ]
     }
 ]
