@@ -41,7 +41,7 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 18,
+        "teams": 19,
         "team_list": [
             "Anècdota precària",
             "Goon gang",
@@ -60,16 +60,19 @@
             "Los 4 Plancktasticos",
             "QuímicsFiltrats",
             "Wash Planck's belly",
-            "CentrifuGauss"
+            "CentrifuGauss",
+            "Quartet fornicació"
         ]
     },
     {
         "university": "Universidad de Zaragoza (UNIZAR)",
         "longitude": -0.8891,
         "latitude": 41.6488,
-        "teams": 1,
+        "teams": 3,
         "team_list": [
-            "Fast and Fouriers"
+            "Fast and Fouriers",
+            "Gamba (γ) lovers",
+            "Lagrange Multiplayers"
         ]
     },
     {
@@ -116,7 +119,7 @@
         "university": "Universidad Autónoma de Madrid (UAM)",
         "longitude": -3.6922,
         "latitude": 40.5496,
-        "teams": 9,
+        "teams": 10,
         "team_list": [
             "Labubuneta Superpuesta",
             "Caballeros de Marco",
@@ -126,6 +129,7 @@
             "Operador Nablajazo",
             "El Troncocono de Revolución",
             "DE MODO QUE",
+            "NPCs",
             "El Quark-teto"
         ]
     },
@@ -146,26 +150,29 @@
         "university": "Universidad de Valladolid (UVA)",
         "longitude": -4.7245,
         "latitude": 41.6521,
-        "teams": 4,
+        "teams": 6,
         "team_list": [
             "La Resistencia",
             "Fisicoleguillas",
             "MRVA",
-            "Los Hermíticos"
+            "Los Hermíticos",
+            "Joule-igans",
+            "Grupillo 3"
         ]
     },
     {
         "university": "Universidad de Valencia (UV)",
         "longitude": -0.3752,
         "latitude": 39.4699,
-        "teams": 6,
+        "teams": 7,
         "team_list": [
             "Incendio Forestal",
             "Sacerdotes Awámicos",
             "Grupo Avelino ",
             "Ultimo y verdadero club de fans de: Perla Shumajer",
             "Electrons de València",
-            "PLK"
+            "PLK",
+            "Top Quarks "
         ]
     },
     {
@@ -194,13 +201,14 @@
         "university": "Universidad Politécnica de Cataluña (UPC)",
         "longitude": 2.1131,
         "latitude": 41.3891,
-        "teams": 5,
+        "teams": 6,
         "team_list": [
             "Alexandroff Extension",
             "Els deixebles de'n Blas",
             "Quack Quark",
             "No hay paja",
-            "Planckhadores"
+            "Planckhadores",
+            "No Pressure, Just Plancks"
         ]
     },
     {
