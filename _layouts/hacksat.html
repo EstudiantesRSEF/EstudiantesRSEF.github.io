@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="/index.html">
+        <img src="/imgs/sat_logo.png" alt="Logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="/hacksat/"><i class="bi bi-lightbulb"></i> El Reto</a></li>
+          <li class="nav-item"><a class="nav-link" href="/programa/"><i class="bi bi-calendar-event"></i> Programa</a></li>
+          <li class="nav-item"><a class="nav-link" href="/jurado/"><i class="bi bi-person-badge"></i> Conoce al Jurado</a></li>
+          <li class="nav-item"><a class="nav-link" href="/organizadores/"><i class="bi bi-people-fill"></i> Organizadores</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main class="container mt-4">
+    {{ content }}
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-light text-muted mt-5 p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5 class="fw-bold">Contacto</h5>
+          <p><i class="fas fa-envelope me-2"></i> estudiantesrsef.ucm@gmail.com</p>
+        </div>
+        <div class="col-md-6">
+          <h5 class="fw-bold">Redes Sociales</h5>
+          <a class="d-block" href="https://www.instagram.com/"><i class="bi bi-instagram"></i> Instagram</a>
+          <span class="d-block"><i class="bi bi-whatsapp"></i> WhatsApp: +34 000 000 000</span>
+        </div>
+      </div>
+      <hr>
+      <div class="text-center">
+        © 2025 Copyright:
+        <a href="https://copyright.es/copyright_de_sitio_internet.html" class="fw-bold text-reset">Copyright.es</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
