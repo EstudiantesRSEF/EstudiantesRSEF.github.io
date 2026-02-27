@@ -46,7 +46,7 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 22,
+        "teams": 24,
         "team_list": [
             "Anècdota precària",
             "Goon gang",
@@ -69,7 +69,9 @@
             "Quartet fornicació",
             "Falta nom",
             "Kitten cats",
-            "Llapis afilats"
+            "Llapis afilats",
+            "Fondo Sur",
+            "Charles & the sundays"
         ]
     },
     {
@@ -131,7 +133,7 @@
         "university": "Universidad Autónoma de Madrid (UAM)",
         "longitude": -3.6922,
         "latitude": 40.5496,
-        "teams": 12,
+        "teams": 13,
         "team_list": [
             "Labubuneta Superpuesta",
             "Caballeros de Marco",
@@ -144,6 +146,7 @@
             "NPCs",
             "Kotxirriman",
             "Inter de broglie",
+            "E=mc^2 y ya estaría",
             "El Quark-teto"
         ]
     },
@@ -264,6 +267,15 @@
             "Sin Potencial",
             "payicos",
             "Galileos"
+        ]
+    },
+    {
+        "university": "Universidad Carlos III de Madrid (UC3M)",
+        "longitude": -3.727,
+        "latitude": 40.3259,
+        "teams": 1,
+        "team_list": [
+            "Los Fisiados"
         ]
     },
     {
