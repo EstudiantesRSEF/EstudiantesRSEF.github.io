@@ -3,7 +3,7 @@
         "university": "Universidad Complutense de Madrid (UCM)",
         "longitude": -3.7267,
         "latitude": 40.4531,
-        "teams": 9,
+        "teams": 11,
         "team_list": [
             "Hasbulla Rockets",
             "Wronskianos",
@@ -13,7 +13,9 @@
             "Dúplex de pitos",
             "Neutrinas",
             "3 catetos y una hipotenusa",
-            "Panisperna"
+            "Panisperna",
+            "Órdago a chica",
+            "Mentes relativistas"
         ]
     },
     {
@@ -46,7 +48,7 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 24,
+        "teams": 25,
         "team_list": [
             "Anècdota precària",
             "Goon gang",
@@ -71,7 +73,8 @@
             "Kitten cats",
             "Llapis afilats",
             "Fondo Sur",
-            "Charles & the sundays"
+            "Charles & the sundays",
+            "La plantxa"
         ]
     },
     {
@@ -89,10 +92,11 @@
         "university": "Universidad de Salamanca (USAL)",
         "longitude": -5.6635,
         "latitude": 40.9608,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "Polaris",
-            "Soy un truhan, soy un señor"
+            "Soy un truhan, soy un señor",
+            "Mufins"
         ]
     },
     {
@@ -117,7 +121,7 @@
         "university": "Universidad de Barcelona (UB)",
         "longitude": 2.1662,
         "latitude": 41.3879,
-        "teams": 8,
+        "teams": 10,
         "team_list": [
             "Good Physicists",
             "pussytrons",
@@ -126,7 +130,9 @@
             "EigenSquad",
             "Pèsols",
             "4 Calçots",
-            "Low S.A."
+            "Low S.A.",
+            "Obreros Unidos",
+            "Pablo Gómez (real)"
         ]
     },
     {
@@ -168,7 +174,7 @@
         "university": "Universidad de Valladolid (UVA)",
         "longitude": -4.7245,
         "latitude": 41.6521,
-        "teams": 12,
+        "teams": 13,
         "team_list": [
             "La Resistencia",
             "Fisicoleguillas",
@@ -181,14 +187,15 @@
             "Los Masones π ",
             "ket-importa",
             "DonnerKetBra",
-            "Quark-teto"
+            "Quark-teto",
+            "Quintapillos"
         ]
     },
     {
         "university": "Universidad de Valencia (UV)",
         "longitude": -0.3752,
         "latitude": 39.4699,
-        "teams": 7,
+        "teams": 8,
         "team_list": [
             "Incendio Forestal",
             "Sacerdotes Awámicos",
@@ -196,7 +203,8 @@
             "Ultimo y verdadero club de fans de: Perla Shumajer",
             "Electrons de València",
             "PLK",
-            "Top Quarks "
+            "Top Quarks ",
+            "Tetes Termodinámicos "
         ]
     },
     {
@@ -282,9 +290,10 @@
         "university": "Universidad de Cantabria (UC)",
         "longitude": -3.8044,
         "latitude": 43.4623,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Cuadrupolo cántabro"
+            "Cuadrupolo cántabro",
+            "Los hipotéticos"
         ]
     },
     {
