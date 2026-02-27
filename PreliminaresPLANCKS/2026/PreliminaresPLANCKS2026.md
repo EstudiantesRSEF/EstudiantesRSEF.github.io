@@ -62,8 +62,8 @@ permalink: /PreliminaresPLANCKS2026/
        <div class="row" style="margin-bottom: -10px">  
         <p style="text-align: justify;">Las inscripciones para las Preliminares de PLANCKS 2026 se cerrarán en...</p>
         <h3 style="text-align: center;"><p id="countdown" style="text-align:center"></p></h3>
-        <p style="text-align: justify;">¡No dejes tu inscripción para el último momento para asegurarnos que tendrás aulas y supervisores disponibles en tu facultad!</p>
-        <p style="text-align: justify;"> Hemos comenzado ya con la promoción a todos los estudiantes de física de España. ¡Así que no te quedes sin plaza!</p> 
+        <!-- <p style="text-align: justify;">¡No dejes tu inscripción para el último momento para asegurarnos que tendrás aulas y supervisores disponibles en tu facultad!</p>
+        <p style="text-align: justify;"> Hemos comenzado ya con la promoción a todos los estudiantes de física de España. ¡Así que no te quedes sin plaza!</p> -->
        </div> 
         <!-- FI -->
         <!-- PUBLICACIONES MÓVILES -->
@@ -413,7 +413,8 @@ permalink: /PreliminaresPLANCKS2026/
     <a href="#!" class="modal-close waves-effect waves-green btn-flat">CERRAR</a>
   </div>
 </div>
-<!-- https://docs.google.com/forms/d/e/1FAIpQLSfjPhQE64biN66TFOW85IMMEr1PVc8AAXMu5vZHfsJwVFxpfA/viewform?usp=sharing&ouid=114236208530030479904-->
+
+
 <!-- CONOCER MODAL -->
 <div id="plancks-modal" class="modal prelis26">
   <div class="modal-content-tight">    
@@ -455,7 +456,9 @@ permalink: /PreliminaresPLANCKS2026/
       <div class="row center">  
         <div class="col s12 m6">
           <div class="row center">
-            <a href="https://forms.gle/75dXeeHSi8DbFNqG7" id="inscripcion-equipos-button" target="_blank" class="btn-plancks26 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">groups</i><strong>Inscripción equipos</strong></a>
+            <a href=""
+             id="inscripcion-equipos-button" target="_blank" class="btn-plancks26 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">groups</i><strong>Inscripción equipos</strong></a>
+             <!--"https://forms.gle/75dXeeHSi8DbFNqG7"-->
           </div>
         </div>
         <div class="col s12 m6">
