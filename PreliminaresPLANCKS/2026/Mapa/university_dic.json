@@ -153,5 +153,10 @@
         "university": "Universidad Antonio de Nebrija(UANE)",
         "longitude": -3.71306,
         "latitude": 40.4297
-    } 
+    },
+    "UHU": {
+        "university": "Universidad de Huelva (UHU)",
+        "longitude": -6.92361,
+        "latitude": 37.27038
+    }
 }
