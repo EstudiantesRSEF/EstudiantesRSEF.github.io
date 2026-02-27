@@ -46,7 +46,7 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 19,
+        "teams": 22,
         "team_list": [
             "Anècdota precària",
             "Goon gang",
@@ -66,7 +66,10 @@
             "QuímicsFiltrats",
             "Wash Planck's belly",
             "CentrifuGauss",
-            "Quartet fornicació"
+            "Quartet fornicació",
+            "Falta nom",
+            "Kitten cats",
+            "Llapis afilats"
         ]
     },
     {
@@ -112,7 +115,7 @@
         "university": "Universidad de Barcelona (UB)",
         "longitude": 2.1662,
         "latitude": 41.3879,
-        "teams": 7,
+        "teams": 8,
         "team_list": [
             "Good Physicists",
             "pussytrons",
@@ -120,7 +123,8 @@
             "UMoix",
             "EigenSquad",
             "Pèsols",
-            "4 Calçots"
+            "4 Calçots",
+            "Low S.A."
         ]
     },
     {
@@ -161,7 +165,7 @@
         "university": "Universidad de Valladolid (UVA)",
         "longitude": -4.7245,
         "latitude": 41.6521,
-        "teams": 10,
+        "teams": 12,
         "team_list": [
             "La Resistencia",
             "Fisicoleguillas",
@@ -172,7 +176,9 @@
             "Las gatitas de Schrödinger",
             "Comando cinético ",
             "Los Masones π ",
-            "ket-importa"
+            "ket-importa",
+            "DonnerKetBra",
+            "Quark-teto"
         ]
     },
     {
@@ -194,11 +200,12 @@
         "university": "Universidad de Granada (UGR)",
         "longitude": -3.602,
         "latitude": 37.1765,
-        "teams": 4,
+        "teams": 5,
         "team_list": [
             "Pastelitos",
             "Don limpio y los pelopantene",
             "Bestias Titánicas",
+            "Al pan planck, al vino neutrino, po tríncame el pepino",
             "Los extraordinarios "
         ]
     },
@@ -336,19 +343,21 @@
         "university": "Universidad de Murcia (UMU)",
         "longitude": -1.1307,
         "latitude": 37.9922,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "Los Little Einsteins",
-            "Anti-Abellanianos"
+            "Anti-Abellanianos",
+            "Toñito"
         ]
     },
     {
         "university": "Universidad de Santiago de Compostela (USC)",
         "longitude": -8.5448,
         "latitude": 42.8782,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Risco de Rotura"
+            "Risco de Rotura",
+            "Caipiriñas"
         ]
     },
     {
