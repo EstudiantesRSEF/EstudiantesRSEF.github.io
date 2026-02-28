@@ -91,7 +91,7 @@ demostrar mis dotes de networking con otras especies de la zona.
 </p>
 <div class = "video-block">
    <video autoplay muted controls playsinline width = "100%" style="max-width: 500px; display: block; margin: 0 auto;">
-      <source src="https://archive.org/details/Blog_ALM/ardillas.mp4" type="video/mp4"> ==$0
+      <source src="https://ia601200.us.archive.org/24/items/Blog_ALM/ardillas.mp4" type="video/mp4"> ==$0
       "Tu navegador no soporta vídeos. "
    </video>
 </div>
