@@ -158,5 +158,10 @@
         "university": "Universidad de Huelva (UHU)",
         "longitude": -6.92361,
         "latitude": 37.27038
+    },
+    "UCEU": {
+        "university": "Universidad San Pablo-CEU (UCEU)",
+        "longitude": -3.71738,
+        "latitude": 40.44253
     }
 }

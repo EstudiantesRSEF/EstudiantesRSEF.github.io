@@ -3,7 +3,7 @@
         "university": "Universidad Complutense de Madrid (UCM)",
         "longitude": -3.7267,
         "latitude": 40.4531,
-        "teams": 12,
+        "teams": 13,
         "team_list": [
             "Hasbulla Rockets",
             "Wronskianos",
@@ -16,6 +16,7 @@
             "Panisperna",
             "Órdago a chica",
             "Mentes relativistas",
+            "Gooners",
             "Batamanters"
         ]
     },
@@ -49,7 +50,7 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 25,
+        "teams": 26,
         "team_list": [
             "Anècdota precària",
             "Goon gang",
@@ -75,7 +76,8 @@
             "Llapis afilats",
             "Fondo Sur",
             "Charles & the sundays",
-            "La plantxa"
+            "La plantxa",
+            "Els Quarkies"
         ]
     },
     {
@@ -389,6 +391,15 @@
         "teams": 1,
         "team_list": [
             "Golden Atoms"
+        ]
+    },
+    {
+        "university": "Universidad San Pablo-CEU (UCEU)",
+        "longitude": -3.71738,
+        "latitude": 40.44253,
+        "teams": 1,
+        "team_list": [
+            "Física CEU"
         ]
     }
 ]
