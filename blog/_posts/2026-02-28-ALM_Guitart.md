@@ -4,7 +4,7 @@ categories:
    - GdeE por el mundo
 title:  "GdeE por el mundo: Àlex y Sonsoles en el ALM 2026 en Washington D.C."
 cover: "/img/blog/2026-02-28-ALM_Guitart/sonsoles_leonor_alex.jpeg"
-date: 2026-01-15 11:00
+date: 2026-02-28 11:00
 author: Àlex Guitart
 redirect-from:
 excerpt: "A principios de febrero la vicepresidenta del Grupo de Estudiantes, Sonsoles Riscos Martínez, y 
@@ -77,10 +77,24 @@ los cría y ellos se juntan ✝️).
 <p>
 Seguidamente, mientras nos dirigíamos al Memorial de Lincoln, algunos aprovechamos para 
 "patinar" por el estanque congelado que refleja el Monumento de Washington (sin duda la 
-frase que más se dijo durante todo el viaje fue <b>"Where is Àlex?"</b> ❓). Después de demostrar 
-un par de teoremas de la física clásica, llegamos a la entrada del Memorial, donde tuve que 
+frase que más se dijo durante todo el viaje fue <b>"Where is Àlex?"</b> ❓).
+</p>
+<div class = "video-block">
+   <video autoplay muted controls playsinline width = "100%" style="max-width: 500px; display: block; margin: 0 auto;">
+      <source src="https://archive.org/details/Blog_ALM/quantum_spin.mp4" type="video/mp4"> ==$0
+      "Tu navegador no soporta vídeos. "
+   </video>
+</div>
+<p>
+Después de demostrar un par de teoremas de la física clásica, llegamos a la entrada del Memorial, donde tuve que 
 demostrar mis dotes de networking con otras especies de la zona. 
 </p>
+<div class = "video-block">
+   <video autoplay muted controls playsinline width = "100%" style="max-width: 500px; display: block; margin: 0 auto;">
+      <source src="https://archive.org/details/Blog_ALM/ardillas.mp4" type="video/mp4"> ==$0
+      "Tu navegador no soporta vídeos. "
+   </video>
+</div>
 <p>
 Justo antes de irnos a comer, visitamos el <b><i>Smithsonian National Museum of American History</i></b>, 
 que, en mi opinión, fue el mejor de todos, vale realmente la pena. Además, en Estados Unidos 
