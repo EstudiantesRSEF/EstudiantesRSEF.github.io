@@ -81,7 +81,7 @@ frase que más se dijo durante todo el viaje fue <b>"Where is Àlex?"</b> ❓).
 </p>
 <div class = "video-block">
    <video autoplay muted controls playsinline width = "100%" style="max-width: 500px; display: block; margin: 0 auto;">
-      <source src="https://archive.org/details/Blog_ALM/quantum_spin.mp4" type="video/mp4"> ==$0
+      <source src="https://archive.org/download/Blog_ALM/quantum_spin.mp4" type="video/mp4"> ==$0
       "Tu navegador no soporta vídeos. "
    </video>
 </div>
