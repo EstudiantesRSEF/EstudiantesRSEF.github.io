@@ -49,7 +49,7 @@ explorar la ciudad.
 </p>
 <p>
 Una de las cosas que nos dimos cuenta rápidamente es que volveríamos a España con unos 
-cuantos quilitos de más, ya que la comida es muy barata, muy buena y dan en gran cantidad � (desayunamos todos los días en el McDonald's, brutal los almuerzos que tiene ahí). 
+cuantos quilitos de más, ya que la comida es muy barata, muy buena y dan en gran cantidad &#127839; (desayunamos todos los días en el McDonald's, brutal los almuerzos que tiene ahí). 
 </p>
 <p>
 Al día siguiente, nos reunimos con nuestra amiga y compañera <b>Leonor Andrade</b>, presidenta de 
