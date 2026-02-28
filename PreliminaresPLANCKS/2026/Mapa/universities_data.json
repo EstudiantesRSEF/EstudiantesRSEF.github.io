@@ -35,7 +35,7 @@
         "university": "Universidad del País Vasco (UPV/EHU)",
         "longitude": -2.935,
         "latitude": 43.263,
-        "teams": 7,
+        "teams": 8,
         "team_list": [
             "Bremsstrahlung",
             "Tres ondas y una partícula",
@@ -43,6 +43,7 @@
             "CFJ",
             "Yakuzen",
             "gorputz baltza sobre lienzo",
+            "Hopkings",
             "ERROMANTIKOAK"
         ]
     },
