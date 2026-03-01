@@ -3,7 +3,7 @@
         "university": "Universidad Complutense de Madrid (UCM)",
         "longitude": -3.7267,
         "latitude": 40.4531,
-        "teams": 13,
+        "teams": 17,
         "team_list": [
             "Hasbulla Rockets",
             "Wronskianos",
@@ -17,7 +17,11 @@
             "Órdago a chica",
             "Mentes relativistas",
             "Gooners",
-            "Batamanters"
+            "Batamanters",
+            "Los Invariantes",
+            "the big leagues",
+            "Floris",
+            "Las Focas"
         ]
     },
     {
@@ -107,9 +111,11 @@
         "university": "Universidad de Alicante (UA)",
         "longitude": -0.4907,
         "latitude": 38.3452,
-        "teams": 1,
+        "teams": 3,
         "team_list": [
-            "Los Wrongskianos"
+            "Los Wrongskianos",
+            "Iceberg",
+            "Vivo o muerto..."
         ]
     },
     {
