@@ -460,6 +460,36 @@ a.enef25-link {
   }
 }
 
+.ConcursoLogo {
+  // Enlaces estándar excluyendo el botón del concurso
+  a:not(.btn-ConcursoLogo), span {
+    color: #2ecc71; 
+  }
+
+  a:not(.btn-ConcursoLogo):visited {
+    color: #2ecc71;
+  }
+
+  a:not(.btn-ConcursoLogo):hover {
+    color: #259453;
+  }
+
+  // Definición del nuevo botón para el concurso
+  .btn-ConcursoLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.1;
+  background-color: #2ecc71; /* Fondo verde */
+  color: white !important;   /* Letra en blanco (forzado por si hay conflictos) */
+  padding: 12px 24px;        /* Un poco más de espacio interno para que respire */
+  border-radius: 50px;       /* Bordes totalmente redondeados */
+  text-decoration: none;
+  font-weight: bold;         /* Para que destaque un poco más */
+  transition: background-color 0.3s ease; /* Transición suave para el hover */
+}
+}
+
 /* Solo en móvil */
 @media (max-width: 768px) {
   .row_prelis {
