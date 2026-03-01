@@ -27,7 +27,7 @@ Después, el Grupo de Estudiantes abordará la creación de toda una imagen inst
 ---
 
 ### 📅 Fecha límite
-> **Se aceptarán propuestas hasta las 23:59 del viernes, 1 de mayo de 2026.**
+> **Se aceptarán propuestas hasta las 23:59 del viernes, 1 de mayo de 2026.** 
 <div class="ConcursoLogo">
   
   <div class="row center">
