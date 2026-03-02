@@ -33,6 +33,7 @@ html{
 a {
     text-decoration: none;
     text-decoration-line: none;
+    color: inherit;
 }
 li a {
     text-align: center;
@@ -50,6 +51,11 @@ li a {
 
 .marginmd {
     margin: var(--space-md);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .hero {
@@ -96,6 +102,16 @@ li a {
 
 .premium-link:hover::after{
     width: 100%;
+}
+
+.circle-transparent {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
