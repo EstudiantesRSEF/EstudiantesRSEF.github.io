@@ -1,0 +1,58 @@
+---
+layout: enef
+title: Ponentes - ENEF25
+permalink: /ENEF2025/ponentes/
+description: "Descubre los increíbles ponentes que nos acompañarán en el ENEF25"
+thumbnail: "/ENEF/2025/img/Logo.png"
+---
+<div class="no-pad-top enef25-speakers" id="index-page">
+  <div class="container">
+    <div class="section">
+      <!-- BANNER -->
+      <img class="materialboxed" width="100%" src="/ENEF/2025/img/ENEF25_Banner.png">
+      
+      <h2 class="center">Ponentes Invitados</h2>      
+      <div class="speakers-intro">
+        <p>¡Únete a nosotros en el ENEF 2025! Físicos, matemáticos y divulgadores de renombre compartirán sus investigaciones innovadoras y experiencias. Es una gran oportunidad para explorar nuevas ideas en un ambiente relajado y enriquecedor.</p>
+      </div>
+      
+      <div class="row">
+        {% for speaker in site.data.ENEF.2025.speakers %}
+        <div class="responsive-column">
+          <div class="card speaker-card">
+            <div class="card-top">
+              <div class="speaker-image">
+                {% if speaker.image and speaker.image != "" %}
+                  <img src="{{ speaker.image }}" alt="{{ speaker.name }}" class="circle responsive-img">
+                {% else %}
+                  <div class="placeholder-image circle">
+                    <i class="fa fa-user" style="font-size: 3rem; color: #666;"></i>
+                  </div>
+                {% endif %}
+              </div>
+              <div class="speaker-info">
+                <h4 class="card-title">{{ speaker.name }}</h4>
+                <p class="grey-text">{{ speaker.institution | markdownify }}</p>
+                <p class="grey-text">{{ speaker.role }}</p>
+                {% if speaker.talk_title != "" or speaker.talk_time != "" %}
+                <div class="talk-info">
+                  {% if speaker.talk_title != "" %}<strong>Charla:</strong> {{ speaker.talk_title }}<br>{% endif %}
+                  {% if speaker.talk_time != "" %}<strong>Cuándo:</strong> {{ speaker.talk_time }}{% endif %}
+                </div>
+                {% endif %}
+              </div>
+            </div>
+            <div class="card-bottom">
+              <p class="bio">{{ speaker.bio | markdownify }}</p>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    
+    <div class="section">
+      {% include patrocinadores.html sponsors=site.data.ENEF.2025.patrocinadores %}    
+    </div>
+  </div>
+</div>
