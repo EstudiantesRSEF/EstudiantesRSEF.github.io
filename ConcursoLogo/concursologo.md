@@ -20,7 +20,7 @@ Después, el Grupo de Estudiantes abordará la creación de toda una imagen inst
 
 ### 🎁 ¡Hay premio para la propuesta ganadora!
 
-* **🎟️ Admisión directa y gratuita** a la próxima edición del **ENEF** (Encuentro Nacional de Estudiantes de Física), que tendrá lugar en Valencia entre el 27 y el 31 de julio de 2026.
+* **🎟️ Admisión directa y gratuita** a la próxima edición del **ENEF** (Encuentro Nacional de Estudiantes de Física), que tendrá lugar en Valencia entre el 27 y el 31 de julio de 2026. En caso de candidaturas de autoría grupal, el premio será aplicable a un único integrante.
 * **📦 Un lote de merchandising** con la nueva identidad visual del Grupo de Estudiantes.
 * **🤝 Colaboración creativa:** La oportunidad de participar en el proceso de creación de la identidad visual completa del Grupo de Estudiantes, con el logo propuesto como eje central.
 
