@@ -218,9 +218,17 @@ footer: hacksat
 
 <section id="sponsors" class="container text-center mb-5">
 
+<h2 class="fw-bold mb-4">Organizadores</h2>
+
+  <div class="d-flex flex-wrap justify-content-center align-items-center gap-5 m-4">
+          <a href="https://estudiantes.rsef.es/" class="sponsor-card">
+              <img src="{{ site.baseurl }}/img/delegaciones/DUCM/LogoDUCM.jpeg" alt="Delegación UCM Logo" class="img-fluid max-h-24 mw-100 object-fit-contain">
+          </a>
+  </div>
+
 <h2 class="fw-bold mb-4">Sponsors & Partners</h2>
 
-<div class="fs-5 fw-semibold mb-4">
+<!-- <div class="fs-5 fw-semibold mb-4">
   Organizadores
 </div>
   
@@ -228,6 +236,18 @@ footer: hacksat
           <a href="https://estudiantes.rsef.es/" class="sponsor-card">
               <img src="{{ site.baseurl }}/img/delegaciones/DUCM/LogoDUCM.jpeg" alt="Delegación UCM Logo" class="img-fluid max-h-24 mw-100 object-fit-contain">
           </a>
+  </div> -->
+
+  <div class="fs-5 fw-semibold mb-4">
+    Patrocinadores
+  </div>
+  <div class="d-flex flex-wrap justify-content-center align-items-center gap-5 m-4">
+        <a href="https://www.epsyoungminds.org/" class="sponsor-card">
+            <img src="{{ site.baseurl }}/Delegaciones/Madrid_UCM/HackSat/img/YoungMinds_logo.png" alt="EPS Young Minds Logo" class="max-h-24 max-w-full object-contain">
+        </a>
+        <a href="https://www.unav.edu/" class="sponsor-card">
+            <img src="{{ site.baseurl }}/Delegaciones/Madrid_UCM/HackSat/img/navarra_logo.png" alt="Univ. Narvarra Logo" class="max-h-24 max-w-full object-contain">
+        </a>
   </div>
 
   <div class="fs-5 fw-semibold mb-4">
@@ -245,19 +265,8 @@ footer: hacksat
           <a href="https://www.42madrid.com/" class="sponsor-card">
               <img src="{{ site.baseurl }}/Delegaciones/Madrid_UCM/HackSat/img/42telefonica_logo.png" alt="42 Telefónica Logo" class="max-h-24 max-w-full object-contain" style="filter: brightness(0)">
           </a>
-          
   </div>
-    <div class="fs-5 fw-semibold mb-4">
-      Patrocinadores
-    </div>
-    <div class="d-flex flex-wrap justify-content-center align-items-center gap-5 m-4">
-          <a href="https://www.epsyoungminds.org/" class="sponsor-card">
-              <img src="{{ site.baseurl }}/Delegaciones/Madrid_UCM/HackSat/img/YoungMinds_logo.png" alt="EPS Young Minds Logo" class="max-h-24 max-w-full object-contain">
-          </a>
-          <a href="https://www.unav.edu/" class="sponsor-card">
-              <img src="{{ site.baseurl }}/Delegaciones/Madrid_UCM/HackSat/img/navarra_logo.png" alt="Univ. Narvarra Logo" class="max-h-24 max-w-full object-contain">
-          </a>
-    </div>
+
 </section>
 
 
