@@ -69,7 +69,12 @@
 
                           </div>
         {{ content }}
-    {% include footer.html %}
+    <!-- Footer condicional: (para personalizar si se quiere) -->
+    {% if page.footer == "hacksat" %}
+      {% include footer-hacksat.html %}
+    {% else %}
+      {% include footer.html %}
+    {% endif %}
   </body>
   {% include scripts.html %}
 </html>

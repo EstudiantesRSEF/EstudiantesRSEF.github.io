@@ -2,6 +2,7 @@
 layout: hacksat
 title: HackSat
 permalink: /DeleMadridUCM/HackSat
+footer: hacksat
 ---
 
   <link rel="stylesheet" href="{{ site.baseurl }}/Delegaciones/Madrid_UCM/HackSat/Style.css">
