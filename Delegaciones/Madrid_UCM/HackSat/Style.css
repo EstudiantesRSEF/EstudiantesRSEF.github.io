@@ -33,6 +33,7 @@ html{
 a {
     text-decoration: none;
     text-decoration-line: none;
+    color: inherit;
 }
 li a {
     text-align: center;
@@ -52,15 +53,31 @@ li a {
     margin: var(--space-md);
 }
 
-.hero {
-  min-height: 100vh;
-  background-image: url("imgs/background_hacksat.png");
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.hero-section {
+  position: relative;
+  background-image: url("/Delegaciones/Madrid_UCM/HackSat/img/background_hacksat.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  color: white;
+}
 
-  display: flex;
-  align-items: center;
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* oscurece */
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 2;
 }
 
 .navbar-premium{
@@ -98,6 +115,38 @@ li a {
     width: 100%;
 }
 
+.circle-transparent {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boton-naranja {
+  display: inline-block;
+  background-color: #ff7a00; /* naranja */
+  color: #ffffff;
+  font-weight: 700;
+  padding: 12px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(255, 122, 0, 0.3);
+}
+
+.boton-naranja:hover {
+  background-color: #e66d00; /* naranja más oscuro */
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(255, 122, 0, 0.4);
+}
+
+.boton-naranja:active {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255, 122, 0, 0.3);
+}
 
 
 /*-------------------------------------------------------------------------------------*/
