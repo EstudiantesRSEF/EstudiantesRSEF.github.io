@@ -1,7 +1,7 @@
 ---
 layout: hacksat
 title: HackSat
-permalink: /DeleMadridUCM/akdjfgjbfndlvnbjgslknb
+permalink: /DeleMadridUCM/HackSat
 ---
 
   <link rel="stylesheet" href="{{ site.baseurl }}/Delegaciones/Madrid_UCM/HackSat/Style.css">
