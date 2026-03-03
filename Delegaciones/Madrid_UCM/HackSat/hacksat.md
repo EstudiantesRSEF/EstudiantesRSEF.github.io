@@ -7,7 +7,7 @@ permalink: /DeleMadridUCM/akdjfgjbfndlvnbjgslknb
   <link rel="stylesheet" href="{{ site.baseurl }}/Delegaciones/Madrid_UCM/HackSat/Style.css">
 
   
-<section class="vh-100 d-flex align-items-center text-center bg-light">
+<section class="vh-100 d-flex align-items-center text-center hero-section">
 
 <div class="container">
 
@@ -15,7 +15,7 @@ permalink: /DeleMadridUCM/akdjfgjbfndlvnbjgslknb
     HackSat
   </h1>
 
-  <p class="lead mx-auto col-lg-8 text-muted">
+  <p class="lead mx-auto col-lg-8 text-light">
     HackSat es un hackathon donde pondrás a prueba tu ingenio para encontrar soluciones a uno de tres distintos problemas reales de la actualidad del entorno orbital. No necesitas ser un experto, solo ganas de aprender y pasártelo bien. Si te apasiona la ciencia, innovación y desafíos tecnológicos, este evento es para ti.
   </p>
 
@@ -61,8 +61,12 @@ permalink: /DeleMadridUCM/akdjfgjbfndlvnbjgslknb
 <section class="bg-dark text-white text-center py-5 my-5">
 
 <div class="container">
+<div class="d-flex flex-wrap align-items-center justify-content-center gap-5">
 
-<span class="badge bg-success mb-3 p-2">INSCRIPCIÓN ABIERTA</span>
+<a href="https://forms.gle/5ZHmBaT5ispwvW2A8" class="boton-naranja mb-3">INSCRIPCIÓN DE EQUIPOS</a>
+
+<a href="mailto:estudiantesrsef.ucm@gmail.com?subject=[HackSat 2026]" class="boton-naranja mb-3">CONTACTO</a>
+</div>
 
 <h2 class="fw-bold mb-4">
   NO PIERDAS TU OPORTUNIDAD<br>
