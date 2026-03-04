@@ -63,7 +63,7 @@ permalink: /DeleMadridUCM/HackSat
 <div class="container">
 <div class="d-flex flex-wrap align-items-center justify-content-center gap-5">
 
-<a href="https://forms.gle/5ZHmBaT5ispwvW2A8" class="boton-naranja mb-3">INSCRIPCIÓN DE EQUIPOS</a>
+<a href="https://forms.gle/MdpMBBEiDft5gMZN9" class="boton-naranja mb-3">INSCRIPCIÓN DE EQUIPOS</a>
 
 <a href="mailto:estudiantesrsef.ucm@gmail.com?subject=[HackSat 2026]" class="boton-naranja mb-3">CONTACTO</a>
 </div>
@@ -258,5 +258,6 @@ permalink: /DeleMadridUCM/HackSat
           </a>
     </div>
 </section>
+
 
 
