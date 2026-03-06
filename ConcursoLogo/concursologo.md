@@ -1,7 +1,6 @@
 ---
 layout: page
-permalink: /sfgbhiagfiasfai-NuevoLogo/
-#/ConcursoLogoGdeE/
+permalink: /ConcursoLogoGdeE/
 ---
 
 <h1 align="center">Concurso de diseño del nuevo Logo del Grupo de Estudiantes</h1>
@@ -37,7 +36,7 @@ Después, el Grupo de Estudiantes abordará la creación de toda una imagen inst
   </div>  
   
   <div class="row center">
-    <a href="https://forms.gle/W6t4PBAqGbjGiY3q9" id="btn-bases" class="btn btn-ConcursoLogo waves-effect waves-light">
+    <a href="/ConcursoLogo/Bases del Concurso Nuevo Logo GdeE.pdf">
       BASES REGULADORAS DEL CONCURSO
     </a>
   </div>  
