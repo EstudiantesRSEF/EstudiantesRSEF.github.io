@@ -36,7 +36,7 @@ Después, el Grupo de Estudiantes abordará la creación de toda una imagen inst
   </div>  
   
   <div class="row center">
-    <a href="/ConcursoLogo/Bases del Concurso Nuevo Logo GdeE.pdf">
+    <a href="/ConcursoLogo/Bases del Concurso Nuevo Logo GdeE.pdf" class="btn btn-ConcursoLogo waves-effect waves-light">
       BASES REGULADORAS DEL CONCURSO
     </a>
   </div>  
