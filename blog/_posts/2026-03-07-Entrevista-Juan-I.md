@@ -54,7 +54,7 @@ el expediente académico oficial tenías que solicitarlo presencialmente, y ob
 daba tiempo, hice una captura de pantalla y la mandé, pensando en subsanar el error 
 después. Y así fue como pedí la plaza y me la acabaron dando.
 </p>
-<img class="img-left" src="/img/blog/2026-03-07-Entrevista-Juan/los_tres.jpg">
+<img class="img-left" src="/img/blog/2026-03-07-Entrevista-Juan/los_tres.jpeg">
 <p>
 Yo no iba a hacer investigación; lo único que sabía era que quería hacer un máster en 
 Cambridge. De hecho, fue una condición que puse para ir a Baleares: que me dejaran ir el 
@@ -118,7 +118,7 @@ supervisores, pero yo por aquella época ya era totalmente independiente, tení
 estudiantes y mis contactos, así que solo tenía que escribir y calcular. Fue un año 
 espectacular.
 </p>
-<img class="img-left" src="/img/blog/2026-03-07-Entrevista-Juan/foto1.jpg">
+<img class="img-left" src="/img/blog/2026-03-07-Entrevista-Juan/foto1.jpeg">
 <p>
 De Hong Kong vine al IGFAE. A la semana de aterrizar en Hong Kong, me concedieron la 
 beca Junior Leader de la Caixa. Me volví en octubre de 2020. Decidirme fue duro porque en 
