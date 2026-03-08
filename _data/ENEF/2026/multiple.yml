@@ -1,7 +1,7 @@
 enef_preveditions:
   - name: "ENEF 2025 Bilbao"
-    img_mobile: "/img/eventos/2025-ENEF/Galeria/ENEF24GaleriaSmall.png"
-    img_desktop: "/img/eventos/2025-ENEF/Galeria/ENEF24GaleriaBig.png"
+    img_mobile: "/img/eventos/2025-ENEF/Imágenes web ENEF25 (cuadrado ctrl+).png"
+    img_desktop: "/img/eventos/2025-ENEF/Imágenes web ENEF25 (horizontal).png"
     color: "#EE4FA8"
   - name: "ENEF 2024 Granada"
     img_mobile: "/img/eventos/2025-ENEF/Galeria/ENEF24GaleriaSmall.png"
