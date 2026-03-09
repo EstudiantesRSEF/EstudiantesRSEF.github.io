@@ -238,13 +238,13 @@ permalink: /DeleMadridUCM/HackSat
           </a>
   </div>
     <div class="fs-5 fw-semibold mb-4">
-    Anfitriones
+    <!-- Anfitriones
     </div>
   <div class="d-flex flex-wrap justify-content-center align-items-center gap-5 m-4">
           <a href="https://www.42madrid.com/" class="sponsor-card">
               <img src="{{ site.baseurl }}/Delegaciones/Madrid_UCM/HackSat/img/42telefonica_logo.png" alt="42 Telefónica Logo" class="max-h-24 max-w-full object-contain" style="filter: brightness(0)">
           </a>
-          
+          -->
   </div>
     <div class="fs-5 fw-semibold mb-4">
       Patrocinadores
