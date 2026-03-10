@@ -98,7 +98,7 @@ footer: hacksat
 </section>
 
 
-<section id="reto" class="container py-5 text-center">
+<section id="reto" class="container-fluid py-5 text-center">
 
   <h2 class="fw-bold mb-4">El Reto</h2>
   <div class="fs-5 fw-semibold mb-4">
@@ -111,41 +111,41 @@ footer: hacksat
   </p>
   </div>
 
-  <div class="container my-5">
-  <div class="row g-4">
+  <div class="my-5">
+  <div class="row g-4 mx-0">
 
-  <div class="col-md-4">
-    <div class="sponsor-card">
+  <div class="col-12 col-lg-4 d-flex">
+    <div class="sponsor-card reto-card h-100 w-100">
       <div class="card-body d-flex flex-wrap justify-content-center align-items-center">
         <div class="circle-transparent">
         <i class="fas fa-trash-restore-alt fs-1 text-primary"></i>
         </div>
         <h5 class="card-title mb-2">Sostenibilidad y Basura Espacial (SSA)</h5>
-        <p class="card-text">El espacio está lleno de objetos sin control. ¿Cómo evitamos el desastre? Algunos ejemplos de por donde abordar este problema son los siguientes: vigilancia y rastreo, protección, prevención y gestión de residuos.</p>
+        <p class="card-text reto-card-text">El espacio está lleno de objetos sin control. ¿Cómo evitamos el desastre? Algunos ejemplos de por donde abordar este problema son los siguientes: vigilancia y rastreo, protección, prevención y gestión de residuos.</p>
       </div>
     </div>
   </div>
 
-  <div class="col-md-4">
-    <div class="sponsor-card">
+  <div class="col-12 col-lg-4 d-flex">
+    <div class="sponsor-card reto-card h-100 w-100">
       <div class="card-body d-flex flex-wrap justify-content-center align-items-center">
        <div class="circle-transparent align-items-center">
         <i class="fas fa-satellite fs-1 text-primary"></i>
         </div>
         <h5 class="card-title mb-2">Protección de la Astronomía y del Cielo</h5>
-        <p class="card-text">Las megaconstelaciones están "contaminando" el cielo, reflejando luz que arruina las observaciones ópticas y emitiendo señales que ciegan a los radiotelescopios. Posibles soluciones: ¿Materiales para hacer satélites menos brillantes? ¿Software avanzado para limpiar las imágenes astronómicas de las trazas que dejan al pasar? ¿Nuevas normativas de tráfico?</p>
+        <p class="card-text reto-card-text">Las megaconstelaciones están "contaminando" el cielo, reflejando luz que arruina las observaciones ópticas y emitiendo señales que ciegan a los radiotelescopios. Posibles soluciones: ¿Materiales para hacer satélites menos brillantes? ¿Software avanzado para limpiar las imágenes astronómicas de las trazas que dejan al pasar? ¿Nuevas normativas de tráfico?</p>
       </div>
     </div>
   </div>
 
-  <div class="col-md-4">
-    <div class="sponsor-card">
+  <div class="col-12 col-lg-4 d-flex">
+    <div class="sponsor-card reto-card h-100 w-100">
       <div class="card-body d-flex flex-wrap justify-content-center align-items-center">
       <div class="circle-transparent">
         <i class="fas fa-bolt fs-1 text-primary"></i>
         </div>
         <h5 class="card-title mb-2">Optimización y Eficiencia de Misiones</h5>
-        <p class="card-text">La mejor forma de no llenar el espacio es hacer más con menos. 
+        <p class="card-text reto-card-text">La mejor forma de no llenar el espacio es hacer más con menos. 
         <br>
         Eficiencia: diseños de satélites multiuso o uso de inteligencia artificial para optimizar constelaciones con menos unidades.
         <br>

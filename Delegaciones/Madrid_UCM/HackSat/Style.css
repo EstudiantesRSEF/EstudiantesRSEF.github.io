@@ -374,6 +374,18 @@ img {
     transform: translateY(-5px);
 }
 
+#reto .reto-card {
+    max-width: none;
+}
+
+#reto .reto-card .card-body {
+    width: 100%;
+}
+
+#reto .reto-card-text {
+    margin-bottom: 0;
+}
+
 
 /* ------------------------------------------------------------------------------------------------------- */
 /*  JURADO */
