@@ -1,7 +1,6 @@
 ---
 layout: page
-permalink: /sfgbhiagfiasfai-NuevoLogo/
-#/ConcursoLogoGdeE/
+permalink: /ConcursoLogoGdeE/
 ---
 
 <h1 align="center">Concurso de diseño del nuevo Logo del Grupo de Estudiantes</h1>
@@ -20,10 +19,10 @@ Después, el Grupo de Estudiantes abordará la creación de toda una imagen inst
 
 ### 🎁 ¡Hay premio para la propuesta ganadora!
 
-* **🎟️ Admisión directa y gratuita** a la próxima edición del **ENEF** (Encuentro Nacional de Estudiantes de Física), que tendrá lugar en Valencia entre el 27 y el 31 de julio de 2026.
+* **🎟️ Admisión directa y gratuita** a la próxima edición del **ENEF** (Encuentro Nacional de Estudiantes de Física), que tendrá lugar en Valencia entre el 27 y el 31 de julio de 2026. En caso de candidaturas de autoría grupal, el premio será aplicable a un único integrante.
 * **📦 Un lote de merchandising** con la nueva identidad visual del Grupo de Estudiantes.
 * **🤝 Colaboración creativa:** La oportunidad de participar en el proceso de creación de la identidad visual completa del Grupo de Estudiantes, con el logo propuesto como eje central.
-
+ 
 ---
 
 ### 📅 Fecha límite
@@ -37,7 +36,7 @@ Después, el Grupo de Estudiantes abordará la creación de toda una imagen inst
   </div>  
   
   <div class="row center">
-    <a href="https://forms.gle/W6t4PBAqGbjGiY3q9" id="btn-bases" class="btn btn-ConcursoLogo waves-effect waves-light">
+    <a href="/ConcursoLogo/Bases del Concurso Nuevo Logo GdeE.pdf" class="btn btn-ConcursoLogo waves-effect waves-light">
       BASES REGULADORAS DEL CONCURSO
     </a>
   </div>  
