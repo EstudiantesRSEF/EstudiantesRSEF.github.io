@@ -291,6 +291,47 @@ img {
     margin-bottom: 10px;
 }
   
+#reto .reto-card {
+    max-width: none;
+}
+
+#reto .reto-card .card-body {
+    width: 100%;
+}
+
+#reto .reto-card-body {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#reto .reto-card-text {
+    margin-bottom: 0;
+}
+
+@media (min-width: 992px) {
+    #reto .reto-cards-row {
+        --bs-gutter-x: 2rem;
+    }
+
+    #reto .reto-card-body {
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-align: left;
+    }
+}
+
+/* Responsive text: */
+.reto-title {
+  font-size: clamp(1.5rem, 1.1rem + 1.5vw, 2.4rem);
+  line-height: 1.2;
+}
+
+.reto-text {
+  font-size: clamp(0.98rem, 0.95rem + 0.5vw, 1.25rem);
+  line-height: 1.65;
+}
 
 /*-----------------------------------------------------------------------------*/
 /* programa */
@@ -373,19 +414,6 @@ img {
 .sponsor-card:hover {
     transform: translateY(-5px);
 }
-
-#reto .reto-card {
-    max-width: none;
-}
-
-#reto .reto-card .card-body {
-    width: 100%;
-}
-
-#reto .reto-card-text {
-    margin-bottom: 0;
-}
-
 
 /* ------------------------------------------------------------------------------------------------------- */
 /*  JURADO */

@@ -106,17 +106,17 @@ footer: hacksat
   </div>
 
   <div class="row justify-content-center">
-  <p class="col-12 col-md-10 col-lg-8 text-center lead text-muted fw-normal">
+  <p class="col-12 col-md-10 col-lg-8 text-center lead text-muted fw-normal reto-text">
     Estamos lanzando miles de satélites al año. Aunque esto trae grandes avances tecnológicos, ha generado un problema crítico: la congestión orbital. El espacio cercano a la Tierra se está volviendo un lugar saturado, peligroso y difícil de gestionar. En HackSat 2026, tu misión es encontrar soluciones innovadoras (ya sea mediante software, hardware, análisis de datos o diseños conceptuales) que aseguren que podamos seguir usando el espacio en el futuro. No buscamos solo ingeniería, buscamos estrategias e ideas que marquen la diferencia. Tú eliges el problema específico y la perspectiva desde la que quieres abordarlo dentro de las siguientes tres grandes líneas de acción
   </p>
   </div>
 
   <div class="my-5">
-  <div class="row g-4 mx-0">
+  <div class="row g-4 mx-0 reto-cards-row">
 
   <div class="col-12 col-lg-4 d-flex">
     <div class="sponsor-card reto-card h-100 w-100">
-      <div class="card-body d-flex flex-wrap justify-content-center align-items-center">
+      <div class="card-body d-flex flex-wrap justify-content-center align-items-center reto-card-body">
         <div class="circle-transparent">
         <i class="fas fa-trash-restore-alt fs-1 text-primary"></i>
         </div>
@@ -128,7 +128,7 @@ footer: hacksat
 
   <div class="col-12 col-lg-4 d-flex">
     <div class="sponsor-card reto-card h-100 w-100">
-      <div class="card-body d-flex flex-wrap justify-content-center align-items-center">
+      <div class="card-body d-flex flex-wrap justify-content-center align-items-center reto-card-body">
        <div class="circle-transparent align-items-center">
         <i class="fas fa-satellite fs-1 text-primary"></i>
         </div>
@@ -140,7 +140,7 @@ footer: hacksat
 
   <div class="col-12 col-lg-4 d-flex">
     <div class="sponsor-card reto-card h-100 w-100">
-      <div class="card-body d-flex flex-wrap justify-content-center align-items-center">
+      <div class="card-body d-flex flex-wrap justify-content-center align-items-center reto-card-body">
       <div class="circle-transparent">
         <i class="fas fa-bolt fs-1 text-primary"></i>
         </div>
@@ -166,7 +166,7 @@ footer: hacksat
 
   <h2 class="fw-bold mb-4">Programa</h2>
 
-  <p class="lead mx-auto w-75 text-muted fw-normal">
+  <p class="lead mx-auto w-75 text-muted fw-normal reto-text">
     Cada vez más se están apuntando al carro de salvar la órbita terrestre, pronto daremos a conocer los detalles. Ambos días viernes 20 y sábado 21 de marzo se desarrollarán de 9:30 a 20:30. (Próximamente)
   </p>
 
@@ -177,14 +177,27 @@ footer: hacksat
 <section id="jurado" class="container py-5 text-center">
       <h2 class="fw-bold mb-4">Conoce al Jurado</h2>
 
-  <p class="lead mx-auto w-75 fw-normal text-muted">Nuestro jurado estará compuesto por profesionales del ámbito científico, tecnológico y del emprendimiento. Aquí podrás conocer un poco más sobre las personas encargadas de evaluar los proyectos. (Próximamente)</p>
+  <p class="lead mx-auto w-75 fw-normal text-muted reto-text">Nuestro jurado estará compuesto por profesionales del ámbito científico, tecnológico y del emprendimiento. Aquí podrás conocer un poco más sobre las personas encargadas de evaluar los proyectos. (Próximamente)</p>
 
+<!--
   <div class="jurado-grid">
         <div class="jurado-card jurado-1">
           <img src="imgs/jurado1.jpg" alt="Miembro del jurado">
-          <h3 class="miembro-jurado fw-semibold">Nombre Apellido</h3>
-          <div class="jurado-rol">Especialista en Ingeniería Aeroespacial</div>
-          <p>Biografía.</p>
+          <h3 class="miembro-jurado fw-semibold">Ana Inés Gómez de Castro</h3>
+          <div class="jurado-rol">Catedrática de Astronomía y Astrofísica. Universidad Complutense de Madrid
+          Presidenta de la Division B: Facilities, Technologies and Data Science de
+          la Unión Astronómica Internacional.
+          </div>
+          <p>Dña Ana Inés Gómez de Castro es Catedrática de Astronomía y Astrofísica en
+          la Universidad Complutense de Madrid y presidenta de la División B
+          (Facilities, Technologies and Data Science) de la Unión Astronómica Internacional. Es
+          investigadora principal del instrumento espacial Observatorio Ultravioleta
+          Lunar y dirige el Grupo de Investigación de Astronomía Espacial
+          AEGORA/UCM. Además, es investigadora principal del proyecto ERC Advanced
+          Grant ENIMUS, centrado en la detección de aminoácidos en el Sistema Solar
+          mediante el análisis de datos satelitales. Su investigación se sitúa en la
+          intersección entre astronomía espacial, instrumentación y astrobiología.
+          </p>
         </div>
         <div class="jurado-card jurado-2">
           <img src="imgs/jurado2.jpg" alt="Miembro del jurado">
@@ -210,7 +223,8 @@ footer: hacksat
           <div class="jurado-rol">Profesional invitado</div>
           <p>Biografía.</p>
         </div>
-    </div>
+  </div>
+-->
 </section>
 
 
