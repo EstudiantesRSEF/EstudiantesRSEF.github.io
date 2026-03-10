@@ -10,11 +10,17 @@
   link: "http://epsyoungminds.org"
   level: "1"
 
-#- name: "UPV-EHU"
-#  section: "Instituciones Académicas"
-#  logo: "/ENEF/2025/img/Sponsors/UPV_EHU.jpg"
-#  link: "https://www.ehu.eus/es/"
-#  level: "2"
+- name: "UV"
+  section: "Instituciones Académicas"
+  logo: "/ENEF/2026/img/Sponsors/logoUV.jpg"
+  link: "https://www.uv.es/"
+  level: "2"
+
+- name: "UPV"
+  section: "Instituciones Académicas"
+  logo: "/ENEF/2026/img/Sponsors/logoUPV.png"
+  link: "https://www.upv.es/"
+  level: "2"
 
 #- name: "Bizkaia Lantik"
 #  section: "Patrocinadores Principales"
