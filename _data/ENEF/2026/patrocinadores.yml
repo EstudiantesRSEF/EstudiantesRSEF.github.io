@@ -1,0 +1,42 @@
+- name: "GdeE"
+  section: "Organizadores"
+  logo: "/img/logos/gdee-rsef.png"
+  link: "https://estudiantes.rsef.es/"
+  level: "1"
+
+- name: "Young Minds"
+  section: "Organizadores"
+  logo: "/img/eventos/2023-ENEF/Patrocinadores/YoungMinds.png"
+  link: "http://epsyoungminds.org"
+  level: "1"
+
+- name: "UV"
+  section: "Instituciones Académicas"
+  logo: "/ENEF/2026/img/Sponsors/logoUV.jpg"
+  link: "https://www.uv.es/"
+  level: "2"
+
+- name: "UPV"
+  section: "Instituciones Académicas"
+  logo: "/ENEF/2026/img/Sponsors/logoUPV.png"
+  link: "https://www.upv.es/"
+  level: "2"
+
+#- name: "Bizkaia Lantik"
+#  section: "Patrocinadores Principales"
+#  logo: "/ENEF/2025/img/Sponsors/BizkaiaLantik.png"
+#  link: "https://lantik.bizkaia.eus/es/inicio"
+#  level: "2"
+
+- name: "Multiverse Computing"
+  section: "Patrocinadores Platino"
+  logo: "/ENEF/2025/img/Sponsors/MultiverseComputing.png"
+  link: "https://multiversecomputing.com/"
+  level: "3"
+
+- name: "Jane Street"
+  section: "Patrocinadores Bronce"
+  logo: "/ENEF/2025/img/Sponsors/JaneStreet.png"
+  link: "https://www.janestreet.com/"
+  level: "5"
+

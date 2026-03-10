@@ -839,6 +839,219 @@ $enef25-light-pink: lighten($enef25-pink, 40%);
   }
 }
 
+// ENEF25 SPEAKERS
+$enef26-orange: #ec8d1c;
+$enef26-blue: #005aa3;
+$enef26-light-orange: #ffcc69;
+$enef26-dark-orange: #ffa84e;
+
+.enef26-speakers {
+  @extend .speakers-base;
+  
+  .speakers-intro {
+    color: $enef26-blue;
+  }
+  
+  .speaker-card {
+    border: 2px solid $enef26-blue;
+
+    &:hover {
+      box-shadow: 0 8px 16px rgba($enef26-orange, 0.2);
+      border-color: $enef26-orange;
+    }
+
+    .card-top {
+      background: linear-gradient(
+        135deg,
+        rgba($enef26-orange, 0.1) 0%,
+        rgba($enef26-orange, 0.05) 100%
+      );
+    }
+
+    .card-title {
+      color: $enef26-blue;
+    }
+
+    .grey-text {
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .talk-info {
+      background-color: rgba($enef26-orange, 0.1);
+      border-left-color: $enef26-orange;
+
+      strong {
+        color: $enef26-orange;
+      }
+    }
+
+    .card-bottom {
+      border-top: none;
+    }
+  }
+  .responsive-column {
+    width: 50%;
+    padding: 0 0.75rem;
+    float: left;
+    box-sizing: border-box;
+  
+    @media screen and (max-width: 1100px) {
+      width: 100%;
+    }
+  }
+  
+  // Clear the float after the row
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .speakers-intro {
+    max-width: 800px;
+    margin: 2rem auto 3rem;
+    text-align: center;
+    color: $enef26-blue;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  @media screen and (max-width: 1100px) {
+    .speaker-column {
+      width: 100% !important;
+    }
+  }
+  
+  .speaker-card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $enef26-blue;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background-color: white;
+    margin: 1rem 0;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba($enef26-blue, 0.2);
+      border-color: $enef26-orange;
+    }
+
+    .card-top {
+      display: flex;
+      padding: 1.5rem;
+      background: linear-gradient(
+        135deg,
+        rgba($enef26-orange, 0.1) 0%,
+        rgba($enef26-orange, 0.05) 100%
+      );
+      gap: 1.5rem;
+    }
+
+    .speaker-image {
+      flex: 0 0 25%; // Takes exactly 25% of the card width
+      min-width: 120px; // Minimum width to prevent too small images
+      
+      img.circle, .placeholder-image {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1; // Keeps image perfectly circular
+        object-fit: cover;
+        border: 3px solid $enef26-orange;
+        transition: all 0.3s ease;
+
+        &:hover {
+          border-color: white;
+          transform: scale(1.05);
+        }
+      }
+      
+      .placeholder-image {
+        background-color: #f5f5f5;
+        border: 2px dashed #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+      }
+    }
+
+    .speaker-info {
+      flex: 1;
+      min-width: 0; // Prevents flex item from overflowing
+    }
+
+    @media screen and (max-width: 600px) {
+      .card-top {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .speaker-image {
+        flex: none;
+        width: 150px;
+        margin: 0 auto;
+      }
+    }
+
+    .card-title {
+      color: $enef26-blue;
+      font-size: 1.5rem;
+      margin: 0 0 0.5rem;
+      font-weight: bold;
+      word-wrap: break-word;
+      
+      @media screen and (max-width: 600px) {
+        font-size: 1.3rem;
+      }
+    }
+
+    .grey-text {
+      color: #666;
+      font-size: 1rem;
+      margin: 0.2rem 0;
+      word-wrap: break-word;
+    }
+
+    .talk-info {
+      background-color: rgba($enef26-orange, 0.1);
+      padding: 1rem;
+      border-radius: 8px;
+      margin: 0.5rem 0;
+      border-left: 4px solid $enef26-orange;
+
+      @media screen and (max-width: 600px) {
+        padding: 0.75rem;
+      }
+
+      strong {
+        color: $enef26-orange;
+      }
+    }
+
+    .card-bottom {
+      padding: 1.5rem;
+      border-top: none;
+      background-color: white;
+
+      @media screen and (max-width: 600px) {
+        padding: 1rem;
+      }
+    }
+
+    .bio {
+      color: #333;
+      line-height: 1.6;
+      font-size: 0.95rem;
+      text-align: justify;
+      margin: 0;
+    }
+  }
+}
+
 // SPONSORS
 
 .sponsor-parent {

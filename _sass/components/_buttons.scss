@@ -231,6 +231,10 @@ button.btn-floating {
 $enef25-blue: #00589D;
 $enef25-pink: #EE4FA8;
 
+// Variables
+$enef26-blue: #005aa3;
+$enef26-orange: #ec8d1c;
+
 // Shape and Effects Classes
 .btn-rounded {
   @extend .btn-large;
@@ -316,6 +320,26 @@ $enef25-pink: #EE4FA8;
 
   &:hover {
     background-color: lighten($enef25-blue, 10%);
+  }
+}
+
+.enef26-blue {
+  color: white;
+  background-color: $enef26-blue;
+  border: 2px solid $enef26-orange;
+
+  &:hover {
+    background-color: lighten($enef26-blue, 10%);
+  }
+}
+
+.enef26-orange {
+  color: white;
+  background-color: $enef26-orange;
+  border: 2px solid $enef26-blue;
+
+  &:hover {
+    background-color: lighten($enef26-orange, 10%);
   }
 }
 
