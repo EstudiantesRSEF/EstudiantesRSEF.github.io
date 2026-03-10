@@ -275,8 +275,7 @@ footer: hacksat
           <a href="https://www.42madrid.com/" class="sponsor-card">
               <img src="{{ site.baseurl }}/Delegaciones/Madrid_UCM/HackSat/img/42telefonica_logo.png" alt="42 Telefónica Logo" class="max-h-24 max-w-full object-contain" style="filter: brightness(0)">
           </a>
-    -->
-  </div>
+  </div> -->
 
 </section>
 
