@@ -102,7 +102,7 @@ Congelado en el tiempo como por no parar de pensar, de observar…
 </p>
 <p>
 ¡La Física, ah, siempre tú tienes todas las respuestas! Ojalá la humanidad fuera igual de recta 
-que tú, con tu <a href="[https://estudiantes.rsef.es/blog/2025/12/08/FRIKI6-Interludio2/]">comportamiento tan bello y comprensible</a>. Ciego como he 
+que tú, con tu <a href="https://estudiantes.rsef.es/blog/2025/12/08/FRIKI6-Interludio2/">comportamiento tan bello y comprensible</a>. Ciego como he 
 estado, no he podido percatarme de que lo que me estaba pasando es exactamente lo que le 
 pasa a los fenómenos cuánticos. ¡Es obvio! He vivido en mis propias carnes <b>la paradoja de 
 Zenón cuántica</b>. 
