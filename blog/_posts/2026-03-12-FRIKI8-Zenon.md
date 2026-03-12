@@ -33,7 +33,7 @@ Debe pensar que soy tonto.
 </p>
 <p>
 Había veces que yo notaba que me miraba un poco raro. ¿Qué estaría pensando? ¿Qué 
-opinará de mí? Quizá me motivé demasiado con mi explicación de la <li><a href="https://estudiantes.rsef.es/blog/2026/01/01/FRIKI7-Ehrenfest/">paradoja de Ehrenfest</a></li>. Quizá estaba totalmente fuera de lugar sacar ese tema mientras estábamos en 
+opinará de mí? Quizá me motivé demasiado con mi explicación de la <a href="https://estudiantes.rsef.es/blog/2026/01/01/FRIKI7-Ehrenfest/">paradoja de Ehrenfest</a>. Quizá estaba totalmente fuera de lugar sacar ese tema mientras estábamos en 
 la noria. ¿Pensará que soy un friki que no sabe relacionarse?
 </p>
 <p><img class="img-left" src="/img/blog/2026-03-12-FRIKI8-Zenon/friki_rallado.png">
@@ -102,7 +102,7 @@ Congelado en el tiempo como por no parar de pensar, de observar…
 </p>
 <p>
 ¡La Física, ah, siempre tú tienes todas las respuestas! Ojalá la humanidad fuera igual de recta 
-que tú, con tu comportamiento tan bello y comprensible (LINK al interludio II). Ciego como he 
+que tú, con tu <a href="[https://estudiantes.rsef.es/blog/2025/12/08/FRIKI6-Interludio2/]">comportamiento tan bello y comprensible</a>. Ciego como he 
 estado, no he podido percatarme de que lo que me estaba pasando es exactamente lo que le 
 pasa a los fenómenos cuánticos. ¡Es obvio! He vivido en mis propias carnes <b>la paradoja de 
 Zenón cuántica</b>. 
@@ -127,8 +127,8 @@ a ojos de los observadores! ¡Qué sin sentido más grande!
 <p>
 Pero a medida que iba aprendiendo más y más, mi frustración fue evolucionando poco a poco 
 en resignación, y en aceptación de las leyes que rigen el mundo a nivel fundamental. La cara 
-cuántica de la naturaleza no es intuitiva; eso es lo que hay. <li><a href="https://estudiantes.rsef.es/blog/2025/11/23/FRIKI5-Interpretaciones/">Hay muchas maneras de ver esta 
-cuestión</a></li>, pero una cosa está clara y todo el mundo coincide en lo 
+cuántica de la naturaleza no es intuitiva; eso es lo que hay. <a href="https://estudiantes.rsef.es/blog/2025/11/23/FRIKI5-Interpretaciones/">Hay muchas maneras de ver esta 
+cuestión</a>, pero una cosa está clara y todo el mundo coincide en lo 
 misterioso del proceso de medida en la mecánica cuántica.
 </p>
 <p>
