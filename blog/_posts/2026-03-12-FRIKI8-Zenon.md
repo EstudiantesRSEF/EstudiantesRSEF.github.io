@@ -5,9 +5,9 @@ categories:
    - Divulgación 
    - "Diario de un Friki"
 title:  "Diario de un Friki VIII: Más vueltas que un tiovivo - La paradoja de Zenón Cuántica"
+cover: "/img/blog/2026-03-12-FRIKI8-Zenon/friki_rallado.png"
 date: 2026-03-12 11:00
 author: Enrique Rodríguez Ramos
-cover: 
 redirect-from:
 excerpt: "Después de la exitosa primera cita romántica de nuestro protagonista, el Friki se ha llevado 
 una semana dándole más vueltas al coco que el tiovivo de la feria… Mira que el Friki es 
@@ -36,7 +36,7 @@ Había veces que yo notaba que me miraba un poco raro. ¿Qué estaría pensando?
 opinará de mí? Quizá me motivé demasiado con mi explicación de la <li><a href="https://estudiantes.rsef.es/blog/2026/01/01/FRIKI7-Ehrenfest/">paradoja de Ehrenfest</a></li>. Quizá estaba totalmente fuera de lugar sacar ese tema mientras estábamos en 
 la noria. ¿Pensará que soy un friki que no sabe relacionarse?
 </p>
-<p><img class="img-left" src="/img/blog/2026-01-01-FRIKI7-Ehrenfest/friki_nervioso.png">
+<p><img class="img-left" src="/img/blog/2026-03-12-FRIKI8-Zenon/friki_rallado.png">
 Ahora que lo pienso, no llegué ni a preguntarle 
 que qué había comido ese día; debe pensar que 
 no me intereso por ella. ¿Cómo pude ser tan 
@@ -57,7 +57,7 @@ demasiado insistente? ¿Se pensará que estoy obsesionado con ella?
 Brad Pitt; el ‘seductor del espacio-tiempo curvo’ me van a llamar a partir de ahora. Qué 
 ridículo hice… 
 </p>
-<p><img class="img-left" src="/img/blog/2026-01-01-FRIKI7-Ehrenfest/friki_nervioso.png">
+<p><img class="img-right" src="/img/blog/2026-03-12-FRIKI8-Zenon/friki_tapao.png">
 Encima llevándole flores en la primera cita… Ahora 
 ya sabe que estoy completamente obsesionado con 
 ella y que no soy más que un torpe niño que no sabe 
@@ -76,7 +76,7 @@ saludo es porque le tengo miedo, y entonces se dará cuenta de que soy un comple
 de mí mismo y no me verá nunca como más que aquel pobre friki que era muy gracioso 
 intentando ligar con ella. 
 </p>
-<p><img class="img-left" src="/img/blog/2026-01-01-FRIKI7-Ehrenfest/friki_nervioso.png">
+<p><img class="img-left" src="/img/blog/2026-03-12-FRIKI8-Zenon/friki_escondio.png">
 Mejor intentar evitarla. Que no nos crucemos más 
 y que esto se olvide de la memoria de los dos. 
 Como si esa cita no hubiera ocurrido: como si 
@@ -276,7 +276,7 @@ hacer que un sistema cuántico evolucione a lo que uno quiera observándolo apro
 así que eso es lo que tengo que hacer. Ir cambiando mis pensamientos poco a poco hasta que 
 ya haya superado aquello; hasta que sea un hombre nuevo. 
 </p>
-<p>
+<p><img class="img-left" src="/img/blog/2026-03-12-FRIKI8-Zenon/friki_esperanza.png">
 La Física… ¡ah, siempre dándome respuestas! 
 Solo falta conseguir superar esto de una vez. 
 </p>
