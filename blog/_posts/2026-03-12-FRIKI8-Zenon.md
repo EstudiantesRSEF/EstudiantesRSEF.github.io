@@ -153,7 +153,7 @@ movimiento y el cambio no eran más que ilusorios. Las paradojas de Zenón supus
 las primeras argumentaciones basadas en la <i>reductio ad absurdum</i>, puesto que trataban de 
 ridiculizar una tesis demostrando que implicaba necesariamente conclusiones absurdas. 
 </p>
-<p>
+<p><img class="img-right" src="/img/blog/2026-03-12-FRIKI8-Zenon/friki_zenon.png">
 Y tan profundas fueron las paradojas que presentó, que no fueron hasta el siglo XIX que se 
 crearon las herramientas matemáticas necesarias para analizarlas rigurosamente. Unas de las 
 más importantes conciernen a la naturaleza del movimiento. Zenón pareció demostrar que, si 
