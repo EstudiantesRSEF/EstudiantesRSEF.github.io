@@ -61,7 +61,6 @@ footer: hacksat
 
 <section class="bg-dark text-white text-center py-5 my-5">
 
-<div class="container">
 <div class="d-flex flex-wrap align-items-center justify-content-center gap-5">
 
 <a href="https://forms.gle/MdpMBBEiDft5gMZN9" class="boton-naranja mb-3">INSCRIPCIÓN DE EQUIPOS</a>
@@ -93,8 +92,6 @@ footer: hacksat
 
 </div>
 
-</div>
-
 </section>
 
 
@@ -111,8 +108,8 @@ footer: hacksat
   </p>
   </div>
 
-  <div class="my-5">
-  <div class="row g-4 mx-0 reto-cards-row">
+  <div class=" container my-5">
+  <div class="row g-4 reto-cards-row">
 
   <div class="col-12 col-lg-4 d-flex">
     <div class="sponsor-card reto-card h-100 w-100">
@@ -120,8 +117,8 @@ footer: hacksat
         <div class="circle-transparent">
         <i class="fas fa-trash-restore-alt fs-1 text-primary"></i>
         </div>
-        <h5 class="card-title mb-2">Sostenibilidad y Basura Espacial (SSA)</h5>
-        <p class="card-text reto-card-text">El espacio está lleno de objetos sin control. ¿Cómo evitamos el desastre? Algunos ejemplos de por donde abordar este problema son los siguientes: vigilancia y rastreo, protección, prevención y gestión de residuos.</p>
+        <h5 class="card-title mb-2 text-center">Sostenibilidad y Basura Espacial (SSA)</h5>
+        <p class="card-text reto-card-text text-center">El espacio está lleno de objetos sin control. ¿Cómo evitamos el desastre? Algunos ejemplos de por donde abordar este problema son los siguientes: vigilancia y rastreo, protección, prevención y gestión de residuos.</p>
       </div>
     </div>
   </div>
@@ -132,8 +129,8 @@ footer: hacksat
        <div class="circle-transparent align-items-center">
         <i class="fas fa-satellite fs-1 text-primary"></i>
         </div>
-        <h5 class="card-title mb-2">Protección de la Astronomía y del Cielo</h5>
-        <p class="card-text reto-card-text">Las megaconstelaciones están "contaminando" el cielo, reflejando luz que arruina las observaciones ópticas y emitiendo señales que ciegan a los radiotelescopios. Posibles soluciones: ¿Materiales para hacer satélites menos brillantes? ¿Software avanzado para limpiar las imágenes astronómicas de las trazas que dejan al pasar? ¿Nuevas normativas de tráfico?</p>
+        <h5 class="card-title mb-2 text-center">Protección de la Astronomía y del Cielo</h5>
+        <p class="card-text reto-card-text text-center">Las megaconstelaciones están "contaminando" el cielo, reflejando luz que arruina las observaciones ópticas y emitiendo señales que ciegan a los radiotelescopios. Posibles soluciones: ¿Materiales para hacer satélites menos brillantes? ¿Software avanzado para limpiar las imágenes astronómicas de las trazas que dejan al pasar? ¿Nuevas normativas de tráfico?</p>
       </div>
     </div>
   </div>
@@ -144,8 +141,8 @@ footer: hacksat
       <div class="circle-transparent">
         <i class="fas fa-bolt fs-1 text-primary"></i>
         </div>
-        <h5 class="card-title mb-2">Optimización y Eficiencia de Misiones</h5>
-        <p class="card-text reto-card-text">La mejor forma de no llenar el espacio es hacer más con menos. 
+        <h5 class="card-title mb-2 text-center">Optimización y Eficiencia de Misiones</h5>
+        <p class="card-text reto-card-text text-center">La mejor forma de no llenar el espacio es hacer más con menos. 
         <br>
         Eficiencia: diseños de satélites multiuso o uso de inteligencia artificial para optimizar constelaciones con menos unidades.
         <br>
@@ -166,65 +163,74 @@ footer: hacksat
 
   <h2 class="fw-bold mb-4">Programa</h2>
 
-  <p class="lead mx-auto w-75 text-muted fw-normal reto-text">
-    Cada vez más se están apuntando al carro de salvar la órbita terrestre, pronto daremos a conocer los detalles. Ambos días viernes 20 y sábado 21 de marzo se desarrollarán de 9:30 a 20:30. (Próximamente)
+  <p class="lead mx-auto w-75 text-muted fw-normal reto-text mb-4">
+    ¡Os presentamos el programa de HackSat 2026! El evento tendrá lugar el viernes 20 y sábado 21 de marzo con varios coffee breaks para recargar las pilas. Pronto daremos más detalles.
   </p>
 
+  <div class="container py-5">
+   <img class="materialboxed rounded responsive-img" src="/Delegaciones/Madrid_UCM/HackSat/img/programa_hacksat2026.png">
+  </div>
+
 </section>
+
+<!-- Modal de Bootstrap -->
+<div class="modal fade" id="programaModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen"> <!-- ocupa toda la pantalla -->
+    <div class="modal-content bg-transparent border-0"> <!-- transparente y sin borde -->
+      <div class="modal-body p-0 d-flex justify-content-center align-items-center">
+        <img src="/Delegaciones/Madrid_UCM/HackSat/img/programa_hacksat2026.png" class="img-fluid" alt="Programa Hackathon">
+      </div>
+      <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+    </div>
+  </div>
+</div>
 
 
 
 <section id="jurado" class="container py-5 text-center">
       <h2 class="fw-bold mb-4">Conoce al Jurado</h2>
 
-  <p class="lead mx-auto w-75 fw-normal text-muted reto-text">Nuestro jurado estará compuesto por profesionales del ámbito científico, tecnológico y del emprendimiento. Aquí podrás conocer un poco más sobre las personas encargadas de evaluar los proyectos. (Próximamente)</p>
+  <p class="lead mx-auto w-75 fw-normal text-muted reto-text">Nuestro jurado estará compuesto por profesionales del ámbito científico, tecnológico y del emprendimiento. Aquí podrás conocer un poco más sobre las personas encargadas de evaluar los proyectos. (Os dejamos pequeñas pistas de quienes podrían ser)</p>
 
-<!--
+
   <div class="jurado-grid">
         <div class="jurado-card jurado-1">
-          <img src="imgs/jurado1.jpg" alt="Miembro del jurado">
-          <h3 class="miembro-jurado fw-semibold">Ana Inés Gómez de Castro</h3>
-          <div class="jurado-rol">Catedrática de Astronomía y Astrofísica. Universidad Complutense de Madrid
+          <img src="imgs/jurado1.jpg" alt="">
+          <h3 class="miembro-jurado fw-semibold">Anónimo</h3>
+          <div class="jurado-rol">Catedrática de Astronomía y Astrofísica.
           Presidenta de la Division B: Facilities, Technologies and Data Science de
-          la Unión Astronómica Internacional.
+          la Unión Astronómica Internacional
           </div>
-          <p>Dña Ana Inés Gómez de Castro es Catedrática de Astronomía y Astrofísica en
-          la Universidad Complutense de Madrid y presidenta de la División B
-          (Facilities, Technologies and Data Science) de la Unión Astronómica Internacional. Es
-          investigadora principal del instrumento espacial Observatorio Ultravioleta
-          Lunar y dirige el Grupo de Investigación de Astronomía Espacial
-          AEGORA/UCM. Además, es investigadora principal del proyecto ERC Advanced
-          Grant ENIMUS, centrado en la detección de aminoácidos en el Sistema Solar
-          mediante el análisis de datos satelitales. Su investigación se sitúa en la
-          intersección entre astronomía espacial, instrumentación y astrobiología.
+          <p>Biografía
           </p>
         </div>
         <div class="jurado-card jurado-2">
-          <img src="imgs/jurado2.jpg" alt="Miembro del jurado">
-          <h3 class="miembro-jurado fw-semibold">Nombre Apellido</h3>
-          <div class="jurado-rol">Investigador en sostenibilidad espacial</div>
-          <p>Biografía.</p>
+          <img src="imgs/jurado2.jpg" alt="">
+          <h3 class="miembro-jurado fw-semibold">Anónimo</h3>
+          <div class="jurado-rol">Investigador en contaminación lumínica y teledetección nocturna</div>
+          <p>Biografía</p>
         </div>
         <div class="jurado-card jurado-3">
-          <img src="imgs/jurado3.jpg" alt="Miembro del jurado">
-          <h3 class="miembro-jurado fw-semibold">Nombre Apellido</h3>
-          <div class="jurado-rol">Experto en innovación tecnológica</div>
-          <p>Biografía.</p>
+          <img src="imgs/jurado3.jpg" alt="">
+          <h3 class="miembro-jurado fw-semibold">Anónimo</h3>
+          <div class="jurado-rol">Investigador en sistemas de control de satélites (Actitud, Órbita y Formaciones de Vuelo)</div>
+          <p>Biografía</p>
         </div>
+        <!--
         <div class="jurado-card jurado-4">
           <img src="imgs/jurado4.jpg" alt="Miembro del jurado">
-          <h3 class="miembro-jurado fw-semibold">Nombre Apellido</h3>
+          <h3 class="miembro-jurado fw-semibold">Anónimo</h3>
           <div class="jurado-rol">Emprendedor en el sector espacial</div>
-          <p>Biografía.</p>
+          <p>Biografía</p>
         </div>
         <div class="jurado-card jurado-5">
           <img src="imgs/jurado5.jpg" alt="Miembro del jurado">
-          <h3 class="miembro-jurado fw-semibold">Nombre Apellido</h3>
+          <h3 class="miembro-jurado fw-semibold">Anónimo</h3>
           <div class="jurado-rol">Profesional invitado</div>
-          <p>Biografía.</p>
+          <p>Biografía</p>
         </div>
+        -->
   </div>
--->
 </section>
 
 
@@ -240,6 +246,9 @@ footer: hacksat
           </a>
   </div>
 
+</section>
+
+<section class="container text-center mb-5">
 <h2 class="fw-bold mb-4">Sponsors & Partners</h2>
 
 <!--
