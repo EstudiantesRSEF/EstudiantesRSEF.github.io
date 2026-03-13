@@ -148,6 +148,18 @@ img {
   box-shadow: 0 4px 12px rgba(255, 122, 0, 0.3);
 }
 
+.img-programa {
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer; /* indica que se puede clickear */
+}
+
+.modal-content img {
+  max-height: 100vh; /* no sobresale de la pantalla */
+  object-fit: contain; /* mantiene proporción */
+}
 
 /*-------------------------------------------------------------------------------------*/
 
