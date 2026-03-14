@@ -8,9 +8,9 @@ permalink: /ConcursoRelatosDivulgativosGdeE/
 
 <br>
 
-Uno de los pilares básicos del Grupo de Estudiantes de la Real Sociedad Española de Física es la **divulgación de la Física** por y para los estudiantes, y los apasionados de esta disciplina. Es por ello que el GdeE convoca su primer
+Uno de los pilares básicos del Grupo de Estudiantes de la Real Sociedad Española de Física es la **divulgación de la Física** por y para los estudiantes, y los apasionados de esta disciplina. Es por ello que el GdeE convoca su primer <strong> CONCURSO DE RELATOS DIVULGATIVOS</strong>🏆.
 
-<h2 align="center">🏆 <strong> CONCURSO DE RELATOS DIVULGATIVOS</strong> </h2>
+<img src="/Divulgacion/ConcursoRelatos/portada_provisional.png" alt="Portada del Concurso" style="float: left; width: 350px; margin-right: 20px; margin-bottom: 10px;">
 
 Si estamos aquí es porque *nos gusta la Física*. Sabemos que muchos de vosotros tenéis un talento excepcional para transmitir vuestro conocimiento de esta ciencia ¡y nosotros estamos deseando leeros!
 
@@ -33,6 +33,7 @@ Porque, sí:
 * **Tercer premio:** **📚 El icónico libro *¿Está usted de broma, sr. Feynman?*** de Richard P. Feynman, además de **📦 una camiseta oficial de la RSEF**.
  
 ---
+
 Escribe tu relato divulgativo en el estilo que más cómodo te sientas y ¡da rienda suelta a tu imaginación!🚀
 
 Tienes toda la información del **formato**, **premios**, **criterios de valoración**, y **fechas** claves en las <a href="/Divulgacion/ConcursoRelatos/Bases_Concurso_Divulgación.pdf">Bases del Concurso.</a>
