@@ -35,7 +35,7 @@ Porque, sí:
 ---
 Escribe tu relato divulgativo en el estilo que más cómodo te sientas y ¡da rienda suelta a tu imaginación!🚀
 
-Tienes toda la información del **formato**, **premios**, **criterios de valoración**, y **fechas** claves en las <a href="/ConcursoRelatos/Bases_Reguladoras.pdf">Bases del Concurso.</a>
+Tienes toda la información del **formato**, **premios**, **criterios de valoración**, y **fechas** claves en las <a href="/Divulgacion/ConcursoRelatos/Bases_Concurso_Divulgación.pdf">Bases del Concurso.</a>
 
 ¡Estamos encantados de leer cualquier propuesta, así que no lo dudes y participa!
 
@@ -51,7 +51,7 @@ Tienes toda la información del **formato**, **premios**, **criterios de valorac
   </div>  
   
   <div class="row center">
-    <a href="/ConcursoRelatos/Bases Reguladoras.pdf" class="btn btn-ConcursoLogo waves-effect waves-light">
+    <a href="/Divulgacion/ConcursoRelatos/Bases_Concurso_Divulgación.pdf" class="btn btn-ConcursoLogo waves-effect waves-light">
       BASES REGULADORAS DEL CONCURSO
     </a>
   </div>  
