@@ -3,8 +3,10 @@ layout: page
 permalink: /ConcursoRelatosDivulgativosGdeE/
 ---
 
-<h1 align="center">Concurso de Relatos Divulgativos 2026 del Grupo de Estudiantes</h1>
-<h5 align="center"><i>Publicado: 15/03/2026 --- Fecha límite: 12/04/2026</i></h5>
+<h1 align="center">Concurso de Relatos Divulgativos</h1>
+<h6 align="center"><i>Publicado: 15/03/2026 --- Fecha límite: 12/04/2026</i></h6>
+
+<br>
 
 Uno de los pilares básicos del Grupo de Estudiantes de la Real Sociedad Española de Física es la **divulgación de la Física** por y para los estudiantes, y los apasionados de esta disciplina. Es por ello que el GdeE convoca su primer
 
