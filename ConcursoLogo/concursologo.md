@@ -2,6 +2,9 @@
 layout: page
 permalink: /ConcursoLogoGdeE/
 ---
+<p align="center">
+  <img src="/ConcursoLogo/banner_ConcursoLogo.png" alt="Concurso de diseño del nuevo logo" width="100%">
+</p>
 
 <h1 align="center">Concurso de diseño del nuevo Logo del Grupo de Estudiantes</h1>
 
