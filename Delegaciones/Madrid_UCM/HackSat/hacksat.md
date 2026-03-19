@@ -190,46 +190,53 @@ footer: hacksat
 <section id="jurado" class="container py-5 text-center">
       <h2 class="fw-bold mb-4">Conoce al Jurado</h2>
 
-  <p class="lead mx-auto w-75 fw-normal text-muted reto-text">Nuestro jurado estará compuesto por profesionales del ámbito científico, tecnológico y del emprendimiento. Aquí podrás conocer un poco más sobre las personas encargadas de evaluar los proyectos. (Os dejamos pequeñas pistas de quienes podrían ser)</p>
+  <p class="lead mx-auto w-75 fw-normal text-muted reto-text">Nuestro jurado estará compuesto por profesionales del ámbito científico, tecnológico y del emprendimiento. Aquí podrás conocer un poco más sobre las personas encargadas de evaluar los proyectos.</p>
 
 
   <div class="jurado-grid">
         <div class="jurado-card jurado-1">
-          <img src="imgs/jurado1.jpg" alt="">
-          <h3 class="miembro-jurado fw-semibold">Anónimo</h3>
+          <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/Madrid_UCM/HackSat/img/jurado_anaines.png" alt="">
+          <h3 class="miembro-jurado fw-semibold">Ana Inés Gómez de Castro</h3>
           <div class="jurado-rol">Catedrática de Astronomía y Astrofísica.
           Presidenta de la Division B: Facilities, Technologies and Data Science de
           la Unión Astronómica Internacional
           </div>
-          <p>Biografía
+          <p>Dña Ana Inés Gómez de Castro es Catedrática de Astronomía y Astrofísica en
+                      la Universidad Complutense de Madrid y presidenta de la División B
+                      (Facilities, Technologies and Data Science) de la Unión Astronómica Internacional. Es
+                      investigadora principal del instrumento espacial Observatorio Ultravioleta
+                      Lunar y dirige el Grupo de Investigación de Astronomía Espacial
+                      AEGORA/UCM. Además, es investigadora principal del proyecto ERC Advanced
+                      Grant ENIMUS, centrado en la detección de aminoácidos en el Sistema Solar
+                      mediante el análisis de datos satelitales. Su investigación se sitúa en la
+                      intersección entre astronomía espacial, instrumentación y astrobiología.
           </p>
         </div>
-        <div class="jurado-card jurado-2">
-          <img src="imgs/jurado2.jpg" alt="">
-          <h3 class="miembro-jurado fw-semibold">Anónimo</h3>
-          <div class="jurado-rol">Investigador en contaminación lumínica y teledetección nocturna</div>
-          <p>Biografía</p>
+        <div class="jurado-card jurado-5">
+          <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/Madrid_UCM/HackSat/img/jurado_alejandro.jpeg" alt="">
+          <h3 class="miembro-jurado fw-semibold">Alejandro Sánchez de Miguel</h3>
+          <div class="jurado-rol">Investigador en contaminación lumínica y teledetección nocturna. Instituto de Astrofísica de Andalucía (IAA-CSIC), Universidad Complutense de Madrid y University of Exeter</div>
+          <p>Alejandro Sánchez de Miguel es investigador especializado en la observación nocturna de la Tierra desde el espacio y en el estudio de la contaminación lumínica mediante teledetección. Su trabajo combina astronomía, análisis de datos satelitales y sostenibilidad, con especial interés en el impacto de la iluminación artificial en el medio ambiente. Colabora con instituciones internacionales y participa en proyectos científicos relacionados con el uso de imágenes nocturnas de alta resolución y el desarrollo de nuevas misiones espaciales para la observación de la Tierra.</p>
         </div>
         <div class="jurado-card jurado-3">
-          <img src="imgs/jurado3.jpg" alt="">
-          <h3 class="miembro-jurado fw-semibold">Anónimo</h3>
-          <div class="jurado-rol">Investigador en sistemas de control de satélites (Actitud, Órbita y Formaciones de Vuelo)</div>
-          <p>Biografía</p>
+          <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/Madrid_UCM/HackSat/img/jurado_armando.jpeg" alt="">
+          <h3 class="miembro-jurado fw-semibold">Armando Gil de Paz</h3>
+          <div class="jurado-rol">Profesor titular de la Universidad Complutense de Madrid - Astrofísica extragaláctica e instrumentación</div>
+          <p>Obtuve la Licenciatura en Física en 1995 (Premio Extraordinario) y finalicé mi doctorado en 2000, ambos en la Universidad Complutense de Madrid (UCM). Ese mismo año comencé a trabajar en IPAC (Caltech/Jet Propulsion Laboratory) y en 2002 me trasladé a la Carnegie Institution for Science, donde trabajé hasta 2005. En 2005 obtuve una beca Marie Curie en la UCM, donde posteriormente acepté un contrato Ramón y Cajal en 2007 y me convertí en Profesor Contratado Doctor en 2012. Desde 2017 soy Profesor Titular en la UCM. Trabajo en Astrofísica Extragaláctica e Instrumentación y he sido IP de múltiples proyectos, incluyendo el instrumento MEGARA para GTC y TARSIS para Calar Alto, además de director del Laboratorio de Instrumentación Científica Avanzada (LICA) de la UCM y Calibration Scientist de MOSAIC para el ELT. He publicado un total de ~200 artículos arbitrados.</p>
         </div>
-        <!--
         <div class="jurado-card jurado-4">
-          <img src="imgs/jurado4.jpg" alt="Miembro del jurado">
-          <h3 class="miembro-jurado fw-semibold">Anónimo</h3>
-          <div class="jurado-rol">Emprendedor en el sector espacial</div>
-          <p>Biografía</p>
+          <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/Madrid_UCM/HackSat/img/jurado_segundo.jpeg" alt="Miembro del jurado">
+          <h3 class="miembro-jurado fw-semibold">Segundo Esteban San Román</h3>
+          <div class="jurado-rol">Profesor titular de Universidad Complutense de Madrid. Departamento de Arquitectura de Computadores y Automática</div>
+          <p>Su investigación se centra en la simulación, modelado y control de sistemas, con aplicación en múltiples ámbitos: marítimo, espacial y energético. Ha dirigido 2 Tesis Doctorales y ha sido miembro de 6 tribunales de Tesis Doctoral. Tiene en su currículum más de 100 publicaciones internacionales (ORCID: 0000-0002-4071-2147). 
+          Ha participado en 17 proyectos de investigación competitivos nacionales e internacionales. Su investigación es aplicada, y gracias a ello ha participado en 12 proyectos de transferencia tecnológica con empresas. Dentro de las aportaciones en el ámbito espacial destaca el desarrolló, calibración y calificación en vuelo del software del Control de Actitud (ACS) del satélite INTA-Nanosat-1B (operativo desde 2009-2016). Además, ha diseñado el subsistema de Control de Actitud y Orbital (AOCS) de las misiones Microsat-1 y Nanosat-2. También ha desarrollado partes críticas de la automatización del instrumento MEGARA, que fue instalado en 2016 en el Gran Telescopio de Canarias y actualmente sigue operativo. Actualmente investiga en sistemas de control de actitud y control orbital utilizando micropropulsores (MadridSpace 2025 y Solarmems 2026) y en el análisis de misión y apuntamiento un instrumento satelital para monitorización de DANAs (ESA-ADTelecom 2026).</p>
         </div>
-        <div class="jurado-card jurado-5">
-          <img src="imgs/jurado5.jpg" alt="Miembro del jurado">
-          <h3 class="miembro-jurado fw-semibold">Anónimo</h3>
-          <div class="jurado-rol">Profesional invitado</div>
-          <p>Biografía</p>
-        </div>
-        -->
+        <div class="jurado-card jurado-2">
+          <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/Madrid_UCM/HackSat/img/jurado_angel.jpeg" alt="">
+          <h3 class="miembro-jurado fw-semibold">Ángel del Pino Jiménez</h3>
+          <div class="jurado-rol">Investigador en el Instituto Nacional de Técnica Aeroespacial (INTA) en análisis y procesamiento de datos satelitales</div>
+          <p>Don Ángel del Pino Jiménez centra su investigación en el análisis y procesamiento de datos satelitales. También, es doctorando en Ingeniería Aeroespacial en tethers electrodinámicos para desorbitado pasivo de satélites y mitigación de basura espacial.</p>
+          </div>
   </div>
 </section>
 
@@ -274,6 +281,9 @@ footer: hacksat
         </a>
         <a href="https://www.unav.edu/" class="sponsor-card">
             <img src="{{ site.baseurl }}/Delegaciones/Madrid_UCM/HackSat/img/navarra_logo.png" alt="Univ. Narvarra Logo" class="max-h-24 max-w-full object-contain">
+        </a>
+        <a href="https://www.gmv.com/es-es" class="sponsor-card">
+            <img src="{{ site.baseurl }}/Delegaciones/Madrid_UCM/HackSat/img/gmv_logo.png" alt="GMV Logo" class="max-h-24 max-w-full object-contain">
         </a>
   </div>
     <!--
