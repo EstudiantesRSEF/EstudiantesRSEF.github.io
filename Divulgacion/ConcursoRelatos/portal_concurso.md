@@ -28,7 +28,7 @@ Porque, sí:
 
 ### 🎁 ¡Hay premios para los tres mejores relatos!
 
-* **Primer premio:** **🎟️ Admisión directa y gratuita** a la próxima edición del **SIPE** (Spanish Italian Physics Exchange), que tendrá lugar en Murcia durante el cuarto trimestre de 2026 (fechas por confirmar).
+* **Primer premio:** **🎟️ Admisión directa y gratuita** a la próxima edición del **SIPE** (Spanish Italian Physics Exchange), que tendrá lugar en Murcia durante el cuarto trimestre de 2026 (fechas por confirmar). Si no pudieras asistir, ¡no te preocupes que no te quedarás sin premio! En ese caso, el premio podrá sustituirse por una **💸tarjeta de regalo de 100 euros** en la librería *La Casa del Libro*. 
 * **Segundo premio:** **💸 Una tarjeta de regalo de 50 euros** en la librería *La Casa del Libro*.
 * **Tercer premio:** **📚 El icónico libro *¿Está usted de broma, sr. Feynman?*** de Richard P. Feynman, además de **📦 una camiseta oficial de la RSEF**.
  
