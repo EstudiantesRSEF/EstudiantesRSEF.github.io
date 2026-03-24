@@ -57,7 +57,15 @@ permalink: /PreliminaresPLANCKS2026/
         </div>
       </div>
        <!-- Slc -->
-       <!-- CLS -->
+       <!-- CLASIFICACIÓN -->
+      <hr>
+      <p style="text-align: justify;">Tras vuestro gran trabajo, ¡ya están disponibles las clasificiaciones de este año! Haciendo click en el siguiente botón y poniendo el DNI de vuestro capitán/na vereis el desglose de las puntuaciones</p>
+      <div class="section" style="display: flex; flex-direction: column; justify-content: space-between">
+        <div class="row center">
+          <a href="https://estudiantes.rsef.es/PreliminaresPLANCKS/2026/puntuaciones.html" id="info-clasif" class="collection-item modal-trigger btn-rounded plancks26-color"><i class="material-icons" style="padding-right: 8px;">info</i><strong>Clasificación</strong></a>
+        </div>
+      </div>
+      <hr>   
         <!-- COUNTDOWN -->
        <div class="row" style="margin-bottom: -10px">  
         <p style="text-align: justify;">Las inscripciones para las Preliminares de PLANCKS 2026 se cerrarán en...</p>
