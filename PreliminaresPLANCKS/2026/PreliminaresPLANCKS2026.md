@@ -56,7 +56,14 @@ permalink: /PreliminaresPLANCKS2026/
           <a href="#inscripcion-modal" id="inscripcion-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">create</i><strong>Inscríbete</strong></a>
         </div>
       </div>
-       <!-- Slc -->
+      <!-- SOLUCIONES -->
+      <hr>
+      <p style="text-align: justify;">¡Ya están aquí las soluciones de las Preliminares de PLANCKS 2026! ¿Cómo os ha ido? Consultad las soluciones completas en el siguiente enlace:</p>
+      <h2 style="text-align: center;">
+      <h2 style="text-align: center;">
+        <a href="/PreliminaresPLANCKS/2026/Soluciones_PrelisPLANCK2026.pdf" target="_blank"><span><strong>SOLUCIONES DE LOS PROBLEMAS</strong></span></a>
+      </h2>
+      <hr>
        <!-- CLASIFICACIÓN -->
       <hr>
       <p style="text-align: justify;">Tras vuestro gran trabajo, ¡ya están disponibles las clasificiaciones de este año! Haciendo click en el siguiente botón y poniendo el DNI de vuestro capitán/na vereis el desglose de las puntuaciones</p>
@@ -97,7 +104,7 @@ permalink: /PreliminaresPLANCKS2026/
         </div>
       </div>
       <!-- AUTORES -->
-      <!--h3 id="Autores">¡Conoce a l@s autor@s de los problemas!</h3>
+      <h3 id="Autores">¡Conoce a l@s autor@s de los problemas!</h3>
       <p style="text-align:justify;">Los miembros del Comité Académico de las Preliminares PLANCKS 2026 son:</p>
       <div class="section">
         <div style="display:flex; flex-wrap:wrap; gap:16px; justify-content:center;">
@@ -120,21 +127,20 @@ permalink: /PreliminaresPLANCKS2026/
                   </div>
                 </div>
               </div>
-            </div -->
-            <!-- Modal con la biografía -->
-            <!--div id="{{ autor.nombre | slugify }}-modal" class="modal">
-              <div class="modal-content">
-                <h4>{{ autor.nombre }}</h4>
-                <h6><em>{{ autor.tema }}</em></h6>
-                <p style="text-align: justify;">{{ autor["biografia"] }}</p>
+              <div id="{{ autor.nombre | slugify }}-modal" class="modal">
+                <div class="modal-content">
+                  <h4>{{ autor.nombre }}</h4>
+                  <h6><em>{{ autor.tema }}</em></h6>
+                  <p style="text-align: justify;">{{ autor["biografia"] }}</p>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
+                </div>
               </div>
-              <div class="modal-footer">
-                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
-              </div>
-            </div>
+            {% endfor %}
           {% endfor %}
-        {% endfor %}
-      </div -->
+        </div>
+      </div>
       <!-- COMITÉS -->
       <div class="row" style="margin-bottom: -10px"> 
         <p style="text-align: justify;">Además, puedes <a href="#comites-modal" class="prelis26 modal-trigger">consultar aquí</a> los integrantes del Comité Organizador de las Preliminares de PLANCKS 2026.</p>
