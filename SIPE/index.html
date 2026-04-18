@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +7,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
     
     <style>
-        /* Variables de color */
+        /* Nuevas Variables de Color basadas en la paleta proporcionada */
         :root {
-            --primario: #e67e22; /* Naranja Murcia */
-            --secundario: #1a252f; /* Azul oscuro elegante */
+            --rojo-oscuro: #811919;
+            --rojo-claro: #B93636;
+            --amarillo-oscuro: #ECBF0B;
+            --amarillo-claro: #EBCB4C;
+            --verde-claro: #4BAB44;
+            --verde-medio: #00733B;
+            --verde-oscuro: #185F08;
+            
+            /* Colores base para fondos y textos */
             --fondo: #f4f6f7;
             --texto: #333333;
             --blanco: #ffffff;
-            --gris: #bdc3c7;
         }
 
         /* Estilos base y scroll suave */
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        html { scroll-behavior: smooth; } /* Desplazamiento elegante al hacer clic en el menú */
+        html { scroll-behavior: smooth; } 
         body { font-family: 'Inter', sans-serif; color: var(--texto); background-color: var(--fondo); line-height: 1.6; }
         h1, h2, h3 { font-family: 'Montserrat', sans-serif; }
         a { text-decoration: none; color: inherit; }
@@ -28,29 +34,28 @@
         header {
             position: fixed;
             top: 0; width: 100%;
-            background-color: rgba(26, 37, 47, 0.95);
+            background-color: rgba(24, 95, 8, 0.95); /* Verde Oscuro */
             color: var(--blanco);
             padding: 1rem 5%;
             display: flex;
             justify-content: space-between;
             align-items: center;
             z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
         }
-        .logo { font-size: 1.5rem; font-weight: bold; color: var(--primario); }
+        .logo { font-size: 1.5rem; font-weight: bold; color: var(--amarillo-oscuro); }
         nav ul { list-style: none; display: flex; gap: 20px; }
-        nav a { transition: color 0.3s; font-size: 0.95rem;}
-        nav a:hover { color: var(--primario); }
+        nav a { transition: color 0.3s; font-size: 0.95rem; font-weight: 500;}
+        nav a:hover { color: var(--amarillo-claro); }
 
-        /* Espaciado para que el header no tape los títulos al hacer scroll */
         section { padding: 100px 10%; scroll-margin-top: 60px; }
-        h2.section-title { text-align: center; color: var(--secundario); font-size: 2.5rem; margin-bottom: 50px; }
+        h2.section-title { text-align: center; color: var(--verde-oscuro); font-size: 2.5rem; margin-bottom: 50px; }
 
-        /* 1. HOME (Hero) */
+        /* 1. HOME */
         .hero {
             height: 100vh;
-            /* Pon aquí la foto espectacular de Murcia */
-            background: linear-gradient(rgba(26,37,47,0.7), rgba(230,126,34,0.6)), url('murcia.jpg') center/cover;
+            /* Degradado de Verde Oscuro a Rojo Oscuro para darle un toque espectacular */
+            background: linear-gradient(rgba(24, 95, 8, 0.7), rgba(129, 25, 25, 0.7)), url('murcia.jpg') center/cover;
             background-attachment: fixed;
             display: flex;
             flex-direction: column;
@@ -60,21 +65,55 @@
             color: var(--blanco);
             padding: 0 20px;
         }
-        .hero h1 { font-size: 4rem; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+        .hero h1 { font-size: 4rem; margin-bottom: 10px; text-shadow: 2px 2px 6px rgba(0,0,0,0.6); color: var(--amarillo-claro); }
         .hero p { font-size: 1.5rem; margin-bottom: 30px; max-width: 600px; font-weight: 500; }
         .btn {
-            background-color: var(--primario);
+            background-color: var(--rojo-claro);
             color: var(--blanco);
             padding: 15px 30px;
             border-radius: 5px;
             font-size: 1.1rem;
             font-weight: bold;
             transition: all 0.3s;
-            box-shadow: 0 4px 15px rgba(230,126,34,0.4);
+            box-shadow: 0 4px 15px rgba(185, 54, 54, 0.4);
         }
-        .btn:hover { background-color: #d35400; transform: translateY(-3px); box-shadow: 0 6px 20px rgba(230,126,34,0.6); }
+        .btn:hover { background-color: var(--rojo-oscuro); transform: translateY(-3px); box-shadow: 0 6px 20px rgba(129, 25, 25, 0.6); }
 
-        /* 2. DISCOVER MURCIA (Tarjetas) */
+        /* 1.5 ABOUT SIPE */
+        .about-container {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+        .about-text {
+            flex: 1;
+            min-width: 300px;
+        }
+        .about-text p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            color: #555;
+            line-height: 1.8;
+        }
+        .about-image {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+        }
+        .about-image img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            border: 4px solid var(--amarillo-oscuro);
+            transition: transform 0.3s ease;
+        }
+        .about-image img:hover {
+            transform: scale(1.02);
+        }
+
+        /* 2. DISCOVER MURCIA */
         .grid-murcia {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -85,75 +124,110 @@
             padding: 40px 30px;
             border-radius: 12px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-            transition: transform 0.3s;
+            transition: transform 0.3s, border-color 0.3s;
             text-align: center;
             border-top: 4px solid transparent;
+            cursor: pointer;
         }
-        .card:hover { transform: translateY(-10px); border-top: 4px solid var(--primario); }
-        .card h3 { color: var(--secundario); margin-bottom: 15px; font-size: 1.3rem;}
+        .card:hover { transform: translateY(-10px); border-top: 4px solid var(--amarillo-oscuro); }
+        .card h3 { color: var(--verde-medio); margin-bottom: 15px; font-size: 1.3rem;}
         .card-icon { font-size: 2.5rem; margin-bottom: 15px; display: block; }
 
-        /* 3. PROGRAMA (Línea de tiempo) */
+        /* 3. PROGRAMA (Convertido a Desplegable) */
         .timeline {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
-            border-left: 4px solid var(--primario);
+            border-left: 4px solid var(--amarillo-oscuro);
             padding-left: 30px;
         }
         .timeline-item {
             position: relative;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
         }
         .timeline-item::before {
             content: '';
             position: absolute;
             left: -41px;
-            top: 5px;
+            top: 18px;
             width: 20px;
             height: 20px;
             background-color: var(--blanco);
-            border: 4px solid var(--primario);
+            border: 4px solid var(--rojo-claro);
             border-radius: 50%;
+            transition: background-color 0.3s;
         }
-        .timeline-item h3 { color: var(--primario); margin-bottom: 10px; }
-        .timeline-item h4 { color: var(--secundario); margin-bottom: 5px; }
-        .timeline-item p { background: var(--blanco); padding: 15px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.03); }
         
+        .timeline-item h3 { 
+            color: var(--verde-oscuro); 
+            font-size: 1.5rem; 
+            background: var(--blanco);
+            padding: 15px 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background-color 0.3s, color 0.3s;
+            margin-bottom: 0;
+            user-select: none;
+        }
+        .timeline-item h3:hover {
+            background-color: var(--fondo);
+        }
+        .timeline-item h3::after {
+            content: '+';
+            font-size: 1.8rem;
+            color: var(--rojo-claro);
+            transition: transform 0.3s ease;
+        }
+        
+        .timeline-item.active h3 {
+            color: var(--rojo-oscuro);
+            border-radius: 8px 8px 0 0;
+            box-shadow: none;
+            border-bottom: 1px solid #eee;
+        }
+        .timeline-item.active h3::after {
+            transform: rotate(45deg);
+        }
+        .timeline-item.active::before {
+            background-color: var(--rojo-claro);
+        }
 
-        /* Estilos detallados para las charlas en el Programa */
         .timeline-content {
             background: var(--blanco);
-            padding: 25px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-            margin-top: 10px;
+            padding: 0 25px;
+            border-radius: 0 0 8px 8px;
+            box-shadow: 0 8px 15px rgba(0,0,0,0.05);
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-out, padding 0.4s ease;
         }
-        .schedule-list {
-            list-style: none;
-            margin-top: 15px;
+        .timeline-item.active .timeline-content {
+            padding: 20px 25px 25px 25px;
+            max-height: 1500px;
         }
+
+        .schedule-list { list-style: none; }
         .schedule-item {
             display: flex;
             gap: 20px;
-            padding: 15px 0;
+            padding: 12px 0;
             border-bottom: 1px solid #eee;
             align-items: flex-start;
         }
-        .schedule-item:last-child {
-            border-bottom: none;
-            padding-bottom: 0;
-        }
+        .schedule-item:last-child { border-bottom: none; }
         .schedule-time {
             font-weight: bold;
-            color: var(--primario);
-            min-width: 120px; /* Mantiene las horas alineadas */
+            color: var(--rojo-claro);
+            min-width: 100px;
             font-size: 0.95rem;
         }
         .schedule-info { flex: 1; }
-        .schedule-speaker { font-weight: bold; color: var(--secundario); display: block; font-size: 1.1rem; }
-        .schedule-talk { font-style: italic; color: #666; font-size: 0.95rem; margin-top: 3px; display: block;}
+        .schedule-speaker { font-weight: 600; color: var(--verde-medio); display: block; font-size: 1rem; }
 
-        /* 4. COMITÉ ORGANIZADOR (Cuadrícula de perfiles redondos) */
+        /* 4. OC */
         .grid-oc {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -173,14 +247,13 @@
             border-radius: 50%;
             object-fit: cover;
             margin-bottom: 15px;
-            border: 4px solid var(--fondo);
+            border: 4px solid var(--verde-claro);
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
-        .oc-member h3 { color: var(--secundario); font-size: 1.2rem; margin-bottom: 5px;}
-        .cargo { color: var(--primario); font-weight: bold; margin-bottom: 15px; display: inline-block; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;}
-        .oc-desc { font-size: 0.95rem; color: #666; font-style: italic;}
-
-        /* 5. PARTNERSHIPS (Logos minimalistas) */
+        .oc-member h3 { color: var(--rojo-oscuro); font-size: 1.2rem; margin-bottom: 5px;}
+        .cargo { color: var(--amarillo-oscuro); font-weight: bold; margin-bottom: 15px; display: inline-block; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;}
+        
+        /* 5. PARTNERSHIPS */
         .partners-grid {
             display: flex;
             flex-wrap: wrap;
@@ -191,20 +264,20 @@
         .partner-logo {
             width: 150px;
             height: auto;
-            filter: grayscale(100%) opacity(0.6); /* En gris por defecto para que quede limpio */
+            filter: grayscale(100%) opacity(0.6);
             transition: all 0.3s;
         }
         .partner-logo:hover {
-            filter: grayscale(0%) opacity(1); /* Toman color al pasar el ratón */
+            filter: grayscale(0%) opacity(1);
             transform: scale(1.1);
         }
 
-        /* 6. SIGN UP (Formulario destacado) */
+        /* 6. SIGN UP */
         .registro {
-            background-color: var(--secundario);
+            background-color: var(--verde-medio);
             color: var(--blanco);
             text-align: center;
-            background-image: radial-gradient(circle at top right, rgba(230,126,34,0.2), transparent);
+            background-image: radial-gradient(circle at top right, rgba(75, 171, 68, 0.4), transparent);
         }
         .registro h2.section-title { color: var(--blanco); }
         .formulario-espera {
@@ -225,46 +298,33 @@
         .formulario-espera button {
             padding: 15px 30px;
             border: none;
-            background-color: var(--primario);
-            color: var(--blanco);
+            background-color: var(--amarillo-oscuro);
+            color: var(--verde-oscuro);
             font-size: 1rem;
             font-weight: bold;
             border-radius: 0 5px 5px 0;
             cursor: pointer;
             transition: background 0.3s;
         }
-        .formulario-espera button:hover { background-color: #d35400; }
+        .formulario-espera button:hover { background-color: var(--amarillo-claro); }
 
-        /* Pie de página */
-        footer { background: #111; color: #aaa; text-align: center; padding: 30px; font-size: 1rem; font-weight: bold; letter-spacing: 1px;}
-        footer span { color: var(--primario); }
+        footer { background: var(--rojo-oscuro); color: var(--fondo); text-align: center; padding: 30px; font-size: 1rem; font-weight: bold; letter-spacing: 1px;}
+        footer span { color: var(--amarillo-claro); }
     
-    /* --- VENTANAS MODALES (Artículos de Murcia) --- */
-        .card {
-            cursor: pointer; /* Cambia el cursor para indicar que se puede hacer clic */
-        }
-        
-        /* Contenedor del Pop-up oscurecido */
+        /* MODALES */
         .modal-overlay {
             position: fixed;
             top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(26, 37, 47, 0.85); /* Azul oscuro transparente */
+            background: rgba(24, 95, 8, 0.85);
             display: flex;
             justify-content: center;
             align-items: center;
-            z-index: 2000; /* Por encima de todo, incluso del menú */
+            z-index: 2000;
             opacity: 0;
             visibility: hidden;
             transition: all 0.3s ease;
         }
-        
-        /* Aparece suavemente */
-        .modal-overlay.active {
-            opacity: 1;
-            visibility: visible;
-        }
-        
-        /* Caja blanca del artículo */
+        .modal-overlay.active { opacity: 1; visibility: visible; }
         .modal-content {
             background: var(--blanco);
             padding: 40px;
@@ -275,31 +335,22 @@
             transform: translateY(-20px);
             transition: transform 0.3s ease;
             max-height: 80vh;
-            overflow-y: auto; /* Permite hacer scroll si el artículo es muy largo */
+            overflow-y: auto;
             box-shadow: 0 15px 30px rgba(0,0,0,0.2);
         }
-        
-        .modal-overlay.active .modal-content {
-            transform: translateY(0);
-        }
-        
-        /* Botón de cerrar (X) */
+        .modal-overlay.active .modal-content { transform: translateY(0); }
         .close-btn {
             position: absolute;
             top: 15px; right: 20px;
             font-size: 1.8rem;
             cursor: pointer;
-            color: var(--secundario);
+            color: var(--rojo-claro);
             background: none;
             border: none;
             transition: color 0.3s;
         }
-        .close-btn:hover { color: var(--primario); }
-        
-        .modal-content h3 { color: var(--primario); margin-bottom: 20px; font-size: 1.8rem; }
-        .modal-content p { margin-bottom: 15px; color: #555; }
-        
-        /* Oculta el artículo largo dentro de la tarjeta normal */
+        .close-btn:hover { color: var(--rojo-oscuro); }
+        .modal-content h3 { color: var(--rojo-oscuro); margin-bottom: 20px; font-size: 1.8rem; }
         .article-info { display: none; }
     
     </style>
@@ -311,6 +362,7 @@
         <nav>
             <ul>
                 <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About SIPE</a></li>
                 <li><a href="#Murcia">Discover Murcia</a></li>
                 <li><a href="#Program">Program</a></li>
                 <li><a href="#OC">Organizing Committee</a></li>
@@ -326,61 +378,63 @@
         <a href="#SignUp" class="btn">Register Now</a>
     </section>
 
+    <section id="About" style="background-color: var(--blanco);">
+        <h2 class="section-title">What is SIPE?</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>The <strong>Spanish-Italian Physics Exchange (SIPE)</strong> is an annual event that brings together passionate physics students from Spain and Italy. Born from the desire to create a bridge between our countries, SIPE is more than just a conference; it's a unique scientific and cultural experience.</p>
+                <p>Under our motto <em>"Fisica senza confini, Física sin fronteras"</em>, we aim to break down barriers, share innovative research, and build a lasting network of future physicists. Throughout the event, participants will enjoy a vibrant mix of academic talks, visits to cutting-edge laboratories, cultural tours, and unforgettable social events.</p>
+            </div>
+            <div class="about-image">
+                <img src="SIPE2025.png" alt="SIPE 2025 Participants">
+            </div>
+        </div>
+    </section>
+
     <section id="Murcia">
         <h2 class="section-title">Discover Murcia</h2>
         <div class="grid-murcia">
-            
             <div class="card" onclick="abrirModal(this)">
                 <span class="card-icon">✈️</span>
                 <h3>How to get here</h3>
                 <p>Easy connections from Alicante and Corvera airports...</p>
                 <div class="article-info">
-                    <p><strong>By Plane:</strong> The best options are Alicante Airport (ALC), which has a direct bus to Murcia (takes about 55 minutes), or Corvera Airport (RMU), which is closer but has fewer international flights.</p>
-                    <p><strong>By Train:</strong> The AVE (high-speed train) connects Madrid directly with Murcia in just 2 hours and 45 minutes.</p>
+                    <p><strong>By Plane:</strong> Alicante Airport (ALC) or Corvera Airport (RMU).</p>
+                    <p><strong>By Train:</strong> The AVE connects Madrid with Murcia in 2h 45min.</p>
                 </div>
             </div>
-
             <div class="card" onclick="abrirModal(this)">
                 <span class="card-icon">☀️</span>
                 <h3>Climate & Life</h3>
                 <p>The city of eternal sun. Pack light clothes...</p>
                 <div class="article-info">
-                    <p>Murcia is known for its incredible weather. Even in spring or autumn, temperatures during the day are usually warm (around 20-25°C). </p>
-                    <p>Life here happens outdoors. After the conferences, you'll see everyone having a drink in the "terrazas". Don't forget your sunglasses!</p>
+                    <p>Warm temperatures (20-25°C) and outdoor lifestyle.</p>
                 </div>
             </div>
-
             <div class="card" onclick="abrirModal(this)">
                 <span class="card-icon">🍋</span>
                 <h3>Gastronomy</h3>
                 <p>You can't leave without trying a 'marinera'...</p>
                 <div class="article-info">
-                    <p><strong>La Marinera:</strong> A crunchy breadstick topped with Russian salad and an anchovy. The ultimate Murcian tapa.</p>
-                    <p><strong>Paparajotes:</strong> A traditional dessert made by deep-frying a lemon leaf coated in dough and sugar. (Pro tip: You don't eat the leaf, just the dough!).</p>
+                    <p>Marinera, Paparajotes and more local delicacies.</p>
                 </div>
             </div>
-
             <div class="card" onclick="abrirModal(this)">
                 <span class="card-icon">🏛️</span>
                 <h3>What to visit</h3>
-                <p>Get lost around the Cathedral, visit the Real Casino...</p>
+                <p>Get lost around the Cathedral...</p>
                 <div class="article-info">
-                    <p><strong>Catedral de Murcia:</strong> A mix of Gothic, Renaissance, and Baroque styles. Its tower is the second tallest in Spain.</p>
-                    <p><strong>Real Casino:</strong> A stunning 19th-century gentlemen's club with an incredible Moorish courtyard inspired by the Alhambra.</p>
-                    <p><strong>Plaza de las Flores:</strong> The absolute heart of the city's social life, perfect for grabbing a cold beer and a tapa after the conferences.</p>
-                    <p><strong>Santuario de la Fuensanta:</strong> Located in the mountains overlooking the city, it offers the best panoramic views of the entire valley.</p>
+                    <p>Cathedral, Real Casino and Plaza de las Flores.</p>
                 </div>
             </div>
-
         </div>
     </section>
 
     <div id="info-modal" class="modal-overlay">
         <div class="modal-content">
             <button class="close-btn" onclick="cerrarModal()">&times;</button>
-            <h3 id="modal-title">Título del Artículo</h3>
-            <div id="modal-body">
-                </div>
+            <h3 id="modal-title"></h3>
+            <div id="modal-body"></div>
         </div>
     </div>
 
@@ -388,67 +442,169 @@
         <h2 class="section-title">Event Program</h2>
         <div class="timeline">
             
-            <div class="timeline-item">
-                <h3>Day 1: Arrival & Welcome</h3>
+            <div class="timeline-item active">
+                <h3>Tuesday</h3>
                 <div class="timeline-content">
                     <ul class="schedule-list">
                         <li class="schedule-item">
-                            <div class="schedule-time">16:00 - 18:00</div>
-                            <div class="schedule-info">
-                                <span class="schedule-speaker">Check-in & Registration</span>
-                                <span class="schedule-talk">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, et.</span>
-                            </div>
+                            <div class="schedule-time">09:00 - 14:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Welcome / Check-in</span></div>
                         </li>
                         <li class="schedule-item">
-                            <div class="schedule-time">18:30 - 20:00</div>
-                            <div class="schedule-info">
-                                <span class="schedule-speaker">Opening Ceremony</span>
-                                <span class="schedule-talk">Welcome speech by the SIPE 2026 Organizing Committee.</span>
-                            </div>
+                            <div class="schedule-time">14:00 - 16:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Welcome Lunch</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">16:00 - 17:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Opening Ceremony</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">17:00 - 18:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Opening Keynote</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">18:00 - 21:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Scavenger Hunt</span></div>
                         </li>
                     </ul>
                 </div>
             </div>
 
             <div class="timeline-item">
-                <h3>Day 2: Topology Rocks</h3>
+                <h3>Wednesday</h3>
                 <div class="timeline-content">
                     <ul class="schedule-list">
                         <li class="schedule-item">
-                            <div class="schedule-time">09:30 - 10:30</div>
-                            <div class="schedule-info">
-                                <span class="schedule-speaker">Dr. Felipe el Arcano</span>
-                                <span class="schedule-talk">"The Cantor Set and the meaning of life"</span>
-                            </div>
+                            <div class="schedule-time">09:00 - 09:30</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Bus to Campus</span></div>
                         </li>
                         <li class="schedule-item">
-                            <div class="schedule-time">10:30 - 11:00</div>
-                            <div class="schedule-info">
-                                <span class="schedule-speaker">Coffee Break ☕</span>
-                                <span class="schedule-talk">Fueling up!</span>
-                            </div>
+                            <div class="schedule-time">09:30 - 12:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Lectures</span></div>
                         </li>
                         <li class="schedule-item">
-                            <div class="schedule-time">11:00 - 12:30</div>
-                            <div class="schedule-info">
-                                <span class="schedule-speaker">Prof. Munkres</span>
-                                <span class="schedule-talk">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</span>
-                            </div>
+                            <div class="schedule-time">12:00 - 12:30</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Coffee Break ☕</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">12:30 - 14:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Company Presentations</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">14:00 - 15:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Traditional Migas Lunch</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">15:00 - 16:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Company Fair</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">16:30 - 17:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Bus to City Center</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">17:00 - 19:30</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Murcia City Tour</span></div>
                         </li>
                     </ul>
                 </div>
             </div>
 
             <div class="timeline-item">
-                <h3>Day 3: Bye!</h3>
+                <h3>Thursday</h3>
                 <div class="timeline-content">
                     <ul class="schedule-list">
+                        <li class="schedule-item">
+                            <div class="schedule-time">09:00 - 10:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Train/Bus to Cartagena</span></div>
+                        </li>
                         <li class="schedule-item">
                             <div class="schedule-time">10:00 - 11:30</div>
-                            <div class="schedule-info">
-                                <span class="schedule-speaker">Lorem, ipsum dolor.</span>
-                                <span class="schedule-talk">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, unde?</span>
-                            </div>
+                            <div class="schedule-info"><span class="schedule-speaker">Lectures/Labs at UPCT</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">11:30 - 12:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Coffee Break ☕</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">12:00 - 14:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Lectures/Labs at UPCT</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">14:00 - 16:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Free Time for Lunch</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">16:00 - 20:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Tour and Free Time in Cartagena</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">20:00 - 21:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Train/Bus to Murcia</span></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Friday</h3>
+                <div class="timeline-content">
+                    <ul class="schedule-list">
+                        <li class="schedule-item">
+                            <div class="schedule-time">09:30 - 10:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Bus to Campus</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">10:00 - 11:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Lectures</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">11:00 - 12:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Lab Tours</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">12:00 - 12:30</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Coffee Break ☕</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">12:30 - 14:30</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Lab Tours</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">14:30 - 16:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Traditional Rice Lunch</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">16:00 - 16:30</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Bus to City Center</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">20:30 - 23:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Traditional Dinner (Peña Huertana)</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">23:00 - ...</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Official Party 🥳</span></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Saturday</h3>
+                <div class="timeline-content">
+                    <ul class="schedule-list">
+                        <li class="schedule-item">
+                            <div class="schedule-time">11:00 - 12:30</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Parallel Sessions</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">12:30 - 14:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Closing Keynote</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">14:00 - 15:00</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Closing Ceremony</span></div>
                         </li>
                     </ul>
                 </div>
@@ -461,41 +617,29 @@
         <h2 class="section-title">Meet the OC</h2>
         <div class="grid-oc">
             <div class="oc-member">
-                <img src="https://via.placeholder.com/150" alt="Miembro OC" class="oc-foto">
-                <h3>Nombre Apellido</h3>
-                <span class="cargo">Cargo1</span>
-                <p class="oc-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, nihil.</p>
+                <img src="https://via.placeholder.com/150" alt="OC" class="oc-foto">
+                <h3>First Name Last Name</h3>
+                <span class="cargo">Role 1</span>
             </div>
             <div class="oc-member">
-                <img src="https://via.placeholder.com/150" alt="Miembro OC" class="oc-foto">
-                <h3>Nombre Apellido</h3>
-                <span class="cargo">Cargo2</span>
-                <p class="oc-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, numquam.</p>
-            </div>
-            <div class="oc-member">
-                <img src="https://via.placeholder.com/150" alt="Miembro OC" class="oc-foto">
-                <h3>Nombre Apellido</h3>
-                <span class="cargo">Cargo3</span>
-                <p class="oc-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, earum!</p>
+                <img src="https://via.placeholder.com/150" alt="OC" class="oc-foto">
+                <h3>First Name Last Name</h3>
+                <span class="cargo">Role 2</span>
             </div>
         </div>
     </section>
 
-    <section id="Partnerships" style="background-color: var(--blanco);">
+    <section id="Partnerships">
         <h2 class="section-title">Our Partnerships</h2>
-        <p style="text-align: center; margin-bottom: 40px; color: #666;">Thanks to the institutions making SIPE 2026 possible.</p>
         <div class="partners-grid">
-            <img src="https://via.placeholder.com/200x80?text=University+Logo" alt="Partner 1" class="partner-logo">
-            <img src="https://via.placeholder.com/200x80?text=Physics+Society" alt="Partner 2" class="partner-logo">
-            <img src="https://via.placeholder.com/200x80?text=Sponsor+Company" alt="Partner 3" class="partner-logo">
-            <img src="https://via.placeholder.com/200x80?text=Local+Government" alt="Partner 4" class="partner-logo">
+            <img src="https://via.placeholder.com/200x80?text=University" alt="Partner" class="partner-logo">
+            <img src="https://via.placeholder.com/200x80?text=Sponsor" alt="Partner" class="partner-logo">
         </div>
     </section>
 
     <section id="SignUp" class="registro">
         <h2 class="section-title">Sign Up Now</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, rerum?</p>
-        <form class="formulario-espera" onsubmit="event.preventDefault(); alert('Grazie! We will notify you soon.');">
+        <form class="formulario-espera" onsubmit="event.preventDefault(); alert('Grazie!');">
             <input type="email" placeholder="Please provide your email" required>
             <button type="submit">Register</button>
         </form>
@@ -505,34 +649,29 @@
         <p>SIPE 2026 - “<span>Fisica senza confini</span>, <span>Física sin fronteras</span>”</p>
     </footer>
 
-
-<script>
+    <script>
+        // Funcionalidad de la ventana Modal (Artículos de Murcia)
         function abrirModal(tarjeta) {
-            // Coge el título y el contenido oculto de la tarjeta que has clickado
             const titulo = tarjeta.querySelector('h3').innerText;
             const contenidoArticulo = tarjeta.querySelector('.article-info').innerHTML;
-            
-            // Los mete dentro de la ventana modal
             document.getElementById('modal-title').innerText = titulo;
             document.getElementById('modal-body').innerHTML = contenidoArticulo;
-            
-            // Muestra la ventana modal
             document.getElementById('info-modal').classList.add('active');
         }
-
         function cerrarModal() {
-            // Oculta la ventana modal
             document.getElementById('info-modal').classList.remove('active');
         }
-
-        // Si el usuario hace clic fuera de la caja blanca (en la zona oscura), también se cierra
         window.onclick = function(event) {
-            const modal = document.getElementById('info-modal');
-            if (event.target === modal) {
-                cerrarModal();
-            }
+            if (event.target === document.getElementById('info-modal')) cerrarModal();
         }
-    </script>
 
+        // Funcionalidad del Programa Desplegable (Acordeón)
+        document.querySelectorAll('.timeline-item h3').forEach(header => {
+            header.addEventListener('click', () => {
+                const currentItem = header.parentElement;
+                currentItem.classList.toggle('active');
+            });
+        });
+    </script>
 </body>
 </html>
