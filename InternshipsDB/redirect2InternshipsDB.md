@@ -7,7 +7,7 @@ permalink: /internships/
 <head>
     <title>HTML Redirect</title>
     <meta http-equiv="refresh"
-        content="4; url = https://internships-db.vercel.app/" />
+        content="4; url = https://internships-db-tmp-redirect.vercel.app/" />
 </head>
 </html>
 
