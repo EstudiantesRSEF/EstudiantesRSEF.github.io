@@ -1,0 +1,80 @@
+{% assign aisf = "#28008c" %}
+{% assign crimson = "#d60430" %}
+<!DOCTYPE html>
+<html lang="es">
+  {% include head.html %}
+  <body>
+<!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFMX8WX"
+      height="0" width="0" style="display:none;visibility:hidden">
+    </iframe>
+  </noscript>
+<!-- End Google Tag Manager (noscript) -->
+                  <!-- NAVBAR PREMIUM HACKSAT -->
+                          <nav class="navbar navbar-expand-lg navbar-dark navbar-premium fixed-top">
+                          <div class="container nav-container">
+
+                          <!-- Brand -->
+                          <a class="navbar-brand" href="/">
+                          <img src="{{ site.baseurl }}/Delegaciones/Madrid_UCM/HackSat/img/sat_logo.png">
+
+                          <span class="fw-bold">HackSat</span>
+
+                          </a>
+
+                          <!-- Toggle Mobile -->
+                          <button class="navbar-toggler border-0"
+                          type="button"
+                          data-bs-toggle="offcanvas"
+                          data-bs-target="#navMobile">
+
+                          <span class="navbar-toggler-icon"></span>
+
+                          </button>
+
+                          <!-- Desktop Menu -->
+                          <div class="ms-auto d-none d-lg-flex gap-4">
+
+                          <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#reto"> <i class="fas fa-rocket"></i> <span>Reto</span></a>
+                          <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#programa"> <i class="fas fa-calendar-alt"></i> <span>Programa</span></a>
+                          <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#jurado"> <i class="fas fa-users"></i> <span>Jurado</span></a>
+                          <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#sponsors"> <i class="fas fa-id-card"></i> <span>Organizadores</span></a>
+
+                          </div>
+
+                          </div>
+                          </nav>
+
+                          <!-- MOBILE OFFCANVAS -->
+                          <div class="offcanvas offcanvas-end bg-dark text-white" id="navMobile">
+
+                          <div class="offcanvas-header border-bottom border-secondary">
+
+                          <h5 class="fw-bold">HackSat</h5>
+
+                          <button class="btn-close btn-close-white"
+                          data-bs-dismiss="offcanvas"></button>
+
+                          </div>
+
+                          <div class="offcanvas-body d-flex flex-column gap-3">
+
+                          <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#reto"> <i class="fas fa-rocket"></i> <span>Reto</span></a>
+                          <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#programa"> <i class="fas fa-calendar-alt"></i> <span>Programa</span></a>
+                          <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#jurado"> <i class="fas fa-users"></i> <span>Jurado</span></a>
+                          <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#sponsors"> <i class="fas fa-id-card"></i> <span>Organizadores</span></a>
+
+                          </div>
+
+                          </div>
+        {{ content }}
+    <!-- Footer condicional: (para personalizar si se quiere) -->
+    {% if page.footer == "hacksat" %}
+      {% include Delegaciones/Madrid_UCM/footer-hacksat.html %}
+    {% else %}
+      {% include footer.html %}
+    {% endif %}
+  </body>
+  {% include scripts.html %}
+</html>

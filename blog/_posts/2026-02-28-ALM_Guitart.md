@@ -1,0 +1,166 @@
+---
+layout: post
+categories: 
+   - GdeE por el mundo
+title:  "GdeE por el mundo: Sonsoles y Àlex en el ALM 2026 en Washington D.C."
+cover: "/img/blog/2026-02-28-ALM_Guitart/sonsoles_leonor_alex.jpeg"
+date: 2026-02-28 11:00
+author: Àlex Guitart
+redirect-from:
+excerpt: "A principios de febrero la vicepresidenta del Grupo de Estudiantes, Sonsoles Riscos Martínez, y 
+el internacionalista (RR.II.), aquí un servidor, fuimos invitados por la American Physical Society 
+(APS) a participar en el Annual Leadership Meeting 2026 (ALM), en Washington D.C. 🦅🌐 en 
+calidad de embajadores estudiantiles."
+---
+
+<section class="blog">
+
+<p class="clearfix">
+  A principios de febrero la vicepresidenta del Grupo de Estudiantes, <b>Sonsoles Riscos Martínez</b>, y 
+el internacionalista (RR.II.), aquí un servidor, fuimos invitados por la <b><i>American Physical Society 
+(APS)</i></b> a participar en el <b><i>Annual Leadership Meeting 2026 (ALM)</i></b>, en Washington D.C. 🦅🌐 en 
+calidad de embajadores estudiantiles. 
+</p>
+
+<br>
+<p><img class="img-left" src="/img/blog/2026-02-28-ALM_Guitart/meeting.jpeg">
+El <i>Annual Leadership Meeting</i> es un evento de carácter exclusivo y por invitación de la <i>American Physical Society</i>, dirigido únicamente a los líderes y 
+miembros con roles de dirección dentro de la Sociedad. Su propósito principal es reunir a 
+aproximadamente 300 asistentes, entre los que se incluyen directores de unidades, 
+presidentes de comités, miembros de la junta y el consejo, así como embajadores estudiantiles 
+y oficiales de capítulos, para trazar el rumbo futuro de la organización y de la comunidad de 
+físicos en general. 
+</p>
+<p>
+Durante la reunión, que se realiza de forma presencial, se llevan a cabo sesiones estratégicas, 
+talleres de desarrollo de liderazgo y paneles de discusión sobre temas relevantes para la física, 
+además de incluir una ceremonia de premiación para reconocer a miembros destacados. 
+</p>
+<p>
+Tras 19 horas de viaje ✈️ (las cuales aprovechamos para debatir sobre el rumbo del Grupo de 
+Estudiantes), la avanzadilla del GdeE 🪖 aterrizó en suelo estadounidense (brutal el viaje en 
+avión, me dejaron repetir 3 veces de comer, histórico). 
+</p>
+<p>
+A continuación, cogimos un taxi que nos dejó en el lugar donde residimos durante todo el 
+evento: el <b><i>Grand Hyatt Washington</i></b> ★★★★. Después de pagar la fianza de mi habitación y la 
+de mi compañera (que, por cierto, me costó un riñón) dejamos las cosas y nos fuimos a 
+explorar la ciudad. 
+</p>
+<p>
+Una de las cosas que nos dimos cuenta rápidamente es que volveríamos a España con unos 
+cuantos quilitos de más, ya que la comida es muy barata, muy buena y dan en gran cantidad &#127839; (desayunamos todos los días en el McDonald's, brutal los almuerzos que tiene ahí). 
+</p>
+<p>
+Al día siguiente, nos reunimos con nuestra amiga y compañera <b>Leonor Andrade</b>, presidenta de 
+la <b><i>International Association of Physics Students (IAPS)</i></b> y aprovechamos para hacer turismo. 
+Nuestro plan inicial era visitar <i>The White House</i>, el <i>Washington Monument</i>, el <i>National Mall</i>, el 
+<i>Lincoln Memorial</i> y tres museos (porque no había nada más cerca, que, si no, seguro que lo 
+habríamos añadido). Obviamente, no nos dio tiempo ni a ver la mitad, y es que, como bien es 
+sabido, los trayectos a pie en Estados Unidos son demoledores. 
+</p>
+<img class="img-center" src="/img/blog/2026-02-28-ALM_Guitart/sonsoles_leonor_alex.jpeg">
+<p>
+En primer lugar, fuimos a "ver" la Casa Blanca, pero debido a los últimos acontecimientos 
+ocurridos en el país no nos dejaban acercarnos a más de una manzana de distancia. Por lo 
+tanto, aprovechamos para ir a ver el Monumento de Washington. Grata fue nuestra sorpresa 
+cuando nos percatamos de que llegamos justo a la hora en la que abrían las puertas y que el 
+ticket era gratuito si se compraba en el momento. Después de que nos mareasen comprando 
+los tickets, subimos a la cima, donde pudimos disfrutar de unas vistas <u>ESPECTACULARES</u> de la 
+ciudad. 
+</p>
+<p>
+Mientras contemplábamos la Casa Blanca (a la misma distancia que antes) nos encontramos 
+con un <b>puertorriqueño</b> muy amigable y sus dos acompañantes, que resultaban ser físicos (Dios 
+los cría y ellos se juntan ✝️).
+</p>
+<p>
+Seguidamente, mientras nos dirigíamos al Memorial de Lincoln, algunos aprovechamos para 
+"patinar" por el estanque congelado que refleja el Monumento de Washington (sin duda la 
+frase que más se dijo durante todo el viaje fue <b>"Where is Àlex?"</b> ❓).
+</p>
+<div class = "video-block">
+   <video autoplay muted controls playsinline width = "100%" style="max-width: 500px; display: block; margin: 0 auto;">
+      <source src="https://archive.org/download/Blog_ALM/quantum_spin.mp4" type="video/mp4"> ==$0
+      "Tu navegador no soporta vídeos. "
+   </video>
+</div>
+<p>
+Después de demostrar un par de teoremas de la física clásica, llegamos a la entrada del Memorial, donde tuve que 
+demostrar mis dotes de networking con otras especies de la zona. 
+</p>
+<div class = "video-block">
+   <video autoplay muted controls playsinline width = "100%" style="max-width: 500px; display: block; margin: 0 auto;">
+      <source src="https://ia601200.us.archive.org/24/items/Blog_ALM/ardillas.mp4" type="video/mp4"> ==$0
+      "Tu navegador no soporta vídeos. "
+   </video>
+</div>
+<p>
+Justo antes de irnos a comer, visitamos el <b><i>Smithsonian National Museum of American History</i></b>, 
+que, en mi opinión, fue el mejor de todos, vale realmente la pena. Además, en Estados Unidos 
+todos los museos son gratuitos 🙏. 
+</p>
+<p>
+Ya por la tarde, asistimos a la ceremonia de apertura, donde nos recibieron a todos los 
+invitados y aprovechamos para conocer al resto de embajadores estudiantiles (dato: todas las 
+comidas del evento fueron impresionantes). 
+</p>
+<p>
+A la mañana del segundo día del evento, nos recibieron el expresidente y actual presidente de 
+la APS, <b>John Doyle</b> y <b>Brad Marston</b>, respectivamente. Después asistimos a diferentes sesiones 
+plenarias, donde profesionales tan brillantes como <b>Hitoshi Murayama</b>, <b>Gretchen Campbell</b> y 
+<b>Mohammad Soltanieh-ha</b> compartieron con nosotros su background y experiencia profesional 
+en este campo de la ciencia.
+</p>
+<p>
+Más tarde tuvimos un taller 🛠️ de desarrollo profesional enfocado a mejorar las condiciones 
+de nuestros departamentos institucionales y otro centrado en fomentar la participación en los 
+departamentos de física. 
+</p>
+<p>
+Por último, terminamos con la entrega de premios 🏅; nunca había visto tanta cantidad de 
+dinero entregada de golpe 🤑. 
+</p>
+<p>
+Por la noche aprovechamos para salir unos cuantos embajadores estudiantiles a un bar de la 
+zona, donde el networking llegó a su clímax (clavada monumental, no es financieramente 
+responsable “salir a tomar algo” en Estados Unidos). 
+</p>
+<p>
+El último día del evento asistimos a una charla motivacional de <b>Nhi Aronheim</b> (una absoluta 
+máquina honestamente, su historia es de película) y a una sesión relacionada con la 
+implicación que tiene la APS con los estudiantes internacionales (la cual fue la más numerosa 
+de todas). 
+</p>
+<p>
+También tuvimos otro taller, centrado en el proceso de publicación y revisión por pares de 
+revistas científicas 📄, impartido por <b>Brent Grocholski</b>. Me pareció muy útil, ya que además 
+de ser muy amable, supo explicarlo todo con gran claridad. 
+</p>
+<p>
+Para concluir el evento, <i>hora dels adéus</i> 🫂. Terminamos con una pequeña comida en el hall, 
+donde nos despedimos de todas las increíbles personas que habíamos conocido. Sin duda, 
+eventos como estos son claves para hacer contactos. Tuvimos el placer de conocer físicos que 
+trabajan desde en sectores públicos, como el <b><i>U.S. Dept. of Energy</i></b>, hasta en los privados, como 
+<b><i>Quantum Computing of Google</i></b>. 
+</p>
+<img class="img-center" src="/img/blog/2026-02-28-ALM_Guitart/grupo.jpeg">
+<p>
+El resto de la tarde aprovechamos para visitar lo que no nos dio tiempo el primer día y hacer 
+una cena de despedida 🍣 con algunos embajadores estudiantiles (muy buena gente). 
+</p>
+<img class="img-center" src="/img/blog/2026-02-28-ALM_Guitart/de_copas.jpeg">
+<p>
+La última mañana (algunos durmieron menos que otros) fuimos a visitar la <b><i>Library of Congress</i></b> 
+y otro museo más (desafortunadamente, las temperaturas cayeron en picado y estuvimos a -18 
+°C todo el día). Por la tarde ya nos despedimos y fuimos al aeropuerto. 
+</p>
+<p>
+Sin duda, una experiencia inolvidable. <b>Nos vamos con muchos conocimientos y contactos 
+nuevos, con el objetivo de seguir mejorando y creando más oportunidades como estas para 
+esta gran familia, el GdeE 🫶❤️.</b>
+</p>
+<br>
+<p>
+Àlex Guitart – RR.II. 
+</p>

@@ -1,0 +1,552 @@
+:root {
+    --spinner-image-size: 40px;
+    --spinner-image-gap: 4px;
+    --spinner-label-padding-left: 4px;
+    --spinner-label-padding-right: 12px;
+    --spinner-label-display: none;
+    --spinner-label-font-size: 14px;
+    --spinner-background-height: 48px;
+    --spacing: .25rem;
+    --space-xs: 0.5rem;   /* 8px */
+    --space-sm: 1rem;     /* 16px */
+    --space-md: 2rem;     /* 32px */
+    --space-lg: 4rem;     /* 64px */
+    
+}
+/*-------------------------------------------------------------------------------------*/
+body{
+    background-color: rgb(250, 250, 252);
+    margin: 0;
+    padding: 0;
+    /* Mejora la legibilidad en pantallas pequeñas */
+    font-size: 1rem;
+    line-height: 1.6;
+    /* Aseguramos que el contenido comience debajo del navbar */
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 100%; /*16 px por defecto*/
+}
+
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: inherit;
+}
+li a {
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+} 
+
+
+.grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+
+.marginmd {
+    margin: var(--space-md);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.hero-section {
+  position: relative;
+  background-image: url("/Delegaciones/Madrid_UCM/HackSat/img/background_hacksat.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* oscurece */
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.navbar-premium{
+    backdrop-filter: blur(12px);
+    background: rgba(0,0,0,0.85);
+    transition: all 0.35s ease;
+    padding: 12px 0;
+}
+
+/* Hover links */
+.premium-link{
+    position: relative;
+    color: white;
+    transition: opacity .3s ease;
+}
+
+.premium-link:hover{
+    opacity: .7;
+    color: white;
+}
+
+/* Línea animada hover */
+.premium-link::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0%;
+    height: 2px;
+    background: white;
+    transition: width .3s ease;
+}
+
+.premium-link:hover::after{
+    width: 100%;
+}
+
+.circle-transparent {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boton-naranja {
+  display: inline-block;
+  background-color: #ff7a00; /* naranja */
+  color: #ffffff;
+  font-weight: 700;
+  padding: 12px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(255, 122, 0, 0.3);
+}
+
+.boton-naranja:hover {
+  background-color: #e66d00; /* naranja más oscuro */
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(255, 122, 0, 0.4);
+}
+
+.boton-naranja:active {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255, 122, 0, 0.3);
+}
+
+.img-programa {
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer; /* indica que se puede clickear */
+}
+
+.modal-content img {
+  max-height: 100vh; /* no sobresale de la pantalla */
+  object-fit: contain; /* mantiene proporción */
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+.active{
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', sans-serif;
+}
+
+
+/*-------------------------------------------------------------------------------------*/
+
+.miembro-jurado {
+    font-size: clamp(1.25rem, 3vw, 1.75rem);
+}
+
+.max-h-24 {
+    max-height: calc(0.25rem * 24);
+}
+
+.jurado-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto auto;
+    gap: 40px;
+    margin: 5% auto;
+    padding: 0 20px;
+}
+
+.enlacesinternos{
+    text-decoration: none;
+    font-style: normal;
+    color: lightslategrey;
+}
+.enlacesinternos:hover{
+    text-decoration: bold;
+    font-style: normal;
+    color: darkslategrey;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+.bloque-oportunidad {
+    background-color: #0f111a;
+    color: white;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    padding: 3vw 1.5vw;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 5%;
+}
+
+.bloque-oportunidad .etiqueta {
+    display: inline-block;
+    background-color: #53a37d; /*Otra opción color es #356c8d*/
+    color: #0f111a;
+    font-weight: bold;
+    padding: 0.4vw 0.8vw;
+    border-radius: 0.5vw;
+    font-size: 2vw;
+    margin-bottom: 2%;
+}
+
+.bloque-oportunidad h2 {
+    font-size: 3.5vw;
+    font-weight: 800;
+    margin: 0.8vw 0 2vw 0;
+    line-height: 1.2;
+}
+
+.bloque-oportunidad .extras {
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+    flex-wrap: wrap;
+}
+
+.bloque-oportunidad .extra {
+    text-align: center;
+    margin-top: 1.5%;
+    max-width: 22%;
+}
+
+.bloque-oportunidad .extra i {
+    font-size: 2.5vw;
+    margin-bottom: 4%;
+}
+
+.bloque-oportunidad .extra p {
+    font-size: 1.15vw;
+    font-weight: 500;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+.evento-info {
+    display: flex;
+    justify-content: center;
+    gap: 9%;
+    text-align: center;
+    padding: 1.5vw 1vw;
+    font-family: Arial, sans-serif;
+    margin-top: 5%;
+}
+
+.evento-info .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.evento-info .icon-container {
+    background-color: #6faaa2;
+    border-radius: 1vw;
+    padding: 1vw;
+    margin-bottom: 1.5vw;
+}
+
+.evento-info .icon {
+    font-size: 3vw;
+}
+
+.evento-info .text {
+    color: #161b27;
+    font-size: 1.7vw;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+/*-----------------------------------------------------------------------------*/
+/* reto */
+
+.pagina-contexto section {
+    margin-bottom: 40px;
+}
+  
+.pagina-contexto h2 {
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+  
+#reto .reto-card {
+    max-width: none;
+}
+
+#reto .reto-card .card-body {
+    width: 100%;
+}
+
+#reto .reto-card-body {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#reto .reto-card-text {
+    margin-bottom: 0;
+}
+
+@media (min-width: 992px) {
+    #reto .reto-cards-row {
+        --bs-gutter-x: 2rem;
+    }
+
+    #reto .reto-card-body {
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-align: left;
+    }
+}
+
+/* Responsive text: */
+.reto-title {
+  font-size: clamp(1.5rem, 1.1rem + 1.5vw, 2.4rem);
+  line-height: 1.2;
+}
+
+.reto-text {
+  font-size: clamp(0.98rem, 0.95rem + 0.5vw, 1.25rem);
+  line-height: 1.65;
+}
+
+/*-----------------------------------------------------------------------------*/
+/* programa */
+.cont {
+    padding: 5vh 5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1140px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ 
+@media (min-width: 1200px) {
+    .cont {
+      max-width: 1280px;
+    }
+} 
+
+.titulo-programa {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 2em;
+    color: #0f111a;
+}
+
+  
+.dia {
+    margin-bottom: 4em;
+    background-color: white;
+    padding: 2em;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+  
+.dia-titulo {
+    font-size: 2em;
+    color: #53a37d;
+    margin-bottom: 1em;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.5em;
+}
+  
+.agenda {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.agenda li {
+    font-size: 1.1em;
+    padding: 1em 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+.hora {
+    font-weight: bold;
+    color: #356c8d;
+    display: inline-block;
+    width: 160px;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------- */
+/*  SPONSOR */
+
+.sponsor-card {
+    background-color: #f3f3f3;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    border-radius: 12px;
+    max-width: fit-content;
+}
+  
+.sponsor-card:hover {
+    transform: translateY(-5px);
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/*  JURADO */
+.jurado-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto auto;
+    gap: 40px;
+    margin: 5% auto;
+    padding: 0 20px;
+}
+  
+/* Posicionamiento exacto de los jurados */
+.jurado-1 {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+  
+.jurado-2 {
+    grid-column: 3 / 5;
+    grid-row: 1;
+}
+  
+.jurado-3 {
+    grid-column: 5 / 7;
+    grid-row: 1;
+}
+  
+.jurado-4 {
+    grid-column: 2 / 4;
+    grid-row: 2;
+}
+  
+.jurado-5 {
+    grid-column: 4 / 6;
+    grid-row: 2;
+}
+  
+/* Resto del estilo (igual que antes) */
+.jurado-card {
+    background-color: #f3f3f3;
+    border-radius: 12px;
+    padding: 20px;
+    max-height: 550px;    /* El alto máximo que permites */
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+  
+.jurado-card:hover {
+    transform: translateY(-5px);
+}
+  
+.jurado-card img {
+    width: 100%;
+    max-width: 180px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+  
+.jurado-rol {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Responsive para tablets (<= 900px): 2 columnas */
+@media (max-width: 900px) {
+    .jurado-grid {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto auto auto;
+    }
+  
+    .jurado-1 {
+      grid-column: 1 / 2;
+      grid-row: 1;
+    }
+  
+    .jurado-2 {
+      grid-column: 2 / 3;
+      grid-row: 1;
+    }
+  
+    .jurado-3 {
+      grid-column: 1 / 2;
+      grid-row: 2;
+    }
+  
+    .jurado-4 {
+      grid-column: 2 / 3;
+      grid-row: 2;
+    }
+  
+    .jurado-5 {
+      grid-column: 1 / 3;
+      grid-row: 3;
+    }
+}
+  
+/* Responsive para móviles (<= 600px): 1 columna */
+@media (max-width: 600px) {
+    .jurado-grid {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(5, auto);
+    }
+  
+    .jurado-1,
+    .jurado-2,
+    .jurado-3,
+    .jurado-4,
+    .jurado-5 {
+      grid-column: 1 / -1;
+      grid-row: auto;
+    }
+}
+
+
+.caja-enlace {
+  text-decoration: none; /* Quita el subrayado del texto */
+  color: inherit;        /* Mantiene el color original del texto */
+  display: block;       /* Importante: hace que toda el área sea clicable */
+}
+

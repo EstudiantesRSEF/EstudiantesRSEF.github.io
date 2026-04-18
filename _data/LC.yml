@@ -89,7 +89,7 @@
 
 - nombre: "Valencia - UV"
   id: "ValenciaUV"
-  img: "/img/logos/gdee-rsef-logo-cuadrado.png"
+  img: "/img/delegaciones/DUV/SeleUV2026.jpg"
   mail: "estudiantesrsef.uv@gmail.com"
   presidente: "David Camacho Castilla"
   vicepresidente: "Marta Iniesta Martínez"
@@ -108,7 +108,7 @@
   id: "PaisVascoEUH"
   img: "/img/delegaciones/DEHU/DeleEHU.jpg"
   mail: "estudiantesrsef.ehu@gmail.com"
-  presidente: "Enara Tejido Sanz"
+  presidente: "Enara Teijido Sanz"
   vicepresidente: "Unax Ruiz Diaz"
   secretario: "Laura Fernández de Aránguiz Vidaurre"
   tesorero: "Urko Aristondo Pérez"
@@ -298,6 +298,24 @@
   ex:
   logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado:
+
+- nombre: "Madrid - UAM"
+  id: "MadridUAM"
+  img: "/img/delegaciones/DUAM/Dele_UAM.jpg"
+  mail: "estudiantesrsef.uam@gmail.com"
+  presidente: "Lucas Gallego Lomo"
+  vicepresidente: "Andrés García Martínez"
+  secretario: "Cristina Ferro Infanzón"
+  tesorero: "Diego García González"
+  colaboradores:
+    - nombre_col: "Héctor García Palomares"
+  fundacion: "02/2026"
+  ins: "https://www.instagram.com/estudiantesrsef_uam/"
+  tw:
+  ex:
+  logo: "/img/banner/logo-banner-estrsef.jpg"
+  congelado:
+
 
 
 

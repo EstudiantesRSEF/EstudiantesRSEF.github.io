@@ -3,21 +3,51 @@
         "university": "Universidad Complutense de Madrid (UCM)",
         "longitude": -3.7267,
         "latitude": 40.4531,
-        "teams": 3,
+        "teams": 17,
         "team_list": [
             "Hasbulla Rockets",
             "Wronskianos",
-            "Los chicos del Papel"
+            "Los chicos del Papel",
+            "Quantum Quirkification",
+            "El Frente Huygens",
+            "Dúplex de pitos",
+            "Neutrinas",
+            "3 catetos y una hipotenusa",
+            "Panisperna",
+            "Órdago a chica",
+            "Mentes relativistas",
+            "Gooners",
+            "Batamanters",
+            "Los Invariantes",
+            "the big leagues",
+            "Floris",
+            "Las Focas"
+        ]
+    },
+    {
+        "university": "Universidad de Sevilla (US)",
+        "longitude": -5.9845,
+        "latitude": 37.3891,
+        "teams": 3,
+        "team_list": [
+            "NosEquivocamosDeCarrera",
+            "QuantumComunicationsSL",
+            "La granja de los huevos"
         ]
     },
     {
         "university": "Universidad del País Vasco (UPV/EHU)",
         "longitude": -2.935,
         "latitude": 43.263,
-        "teams": 3,
+        "teams": 8,
         "team_list": [
             "Bremsstrahlung",
             "Tres ondas y una partícula",
+            "Vito Kleenex",
+            "CFJ",
+            "Yakuzen",
+            "gorputz baltza sobre lienzo",
+            "Hopkings",
             "ERROMANTIKOAK"
         ]
     },
@@ -25,7 +55,7 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 7,
+        "teams": 26,
         "team_list": [
             "Anècdota precària",
             "Goon gang",
@@ -33,54 +63,106 @@
             "Lxs Maxettes",
             "Las Ondas Traviesas de Erwin Schrödinger",
             "Carles Cuquirk",
-            "Planck Projectiu"
+            "Planck Projectiu",
+            "Esclaus del Jan Pau",
+            "Electrobros i Joel",
+            "Operador{FQ}",
+            "Bohrratxos",
+            "The Einstein Files",
+            "Canteranos",
+            "Bolas Normales",
+            "Los 4 Plancktasticos",
+            "QuímicsFiltrats",
+            "Wash Planck's belly",
+            "CentrifuGauss",
+            "Quartet fornicació",
+            "Falta nom",
+            "Kitten cats",
+            "Llapis afilats",
+            "Fondo Sur",
+            "Charles & the sundays",
+            "La plantxa",
+            "Els Quarkies"
         ]
     },
     {
         "university": "Universidad de Zaragoza (UNIZAR)",
         "longitude": -0.8891,
         "latitude": 41.6488,
-        "teams": 1,
+        "teams": 3,
         "team_list": [
-            "Fast and Fouriers"
+            "Fast and Fouriers",
+            "Gamba (γ) lovers",
+            "Lagrange Multiplayers"
         ]
     },
     {
         "university": "Universidad de Salamanca (USAL)",
         "longitude": -5.6635,
         "latitude": 40.9608,
-        "teams": 1,
+        "teams": 3,
         "team_list": [
-            "Polaris"
+            "Polaris",
+            "Soy un truhan, soy un señor",
+            "Mufins"
         ]
     },
     {
         "university": "Universidad de Alicante (UA)",
         "longitude": -0.4907,
         "latitude": 38.3452,
+        "teams": 3,
+        "team_list": [
+            "Los Wrongskianos",
+            "Iceberg",
+            "Vivo o muerto..."
+        ]
+    },
+    {
+        "university": "Universidad de Córdoba (UCo)",
+        "longitude": -4.7794,
+        "latitude": 37.8847,
         "teams": 1,
         "team_list": [
-            "Los Wrongskianos"
+            "Los polidemonios de Hermite"
         ]
     },
     {
         "university": "Universidad de Barcelona (UB)",
         "longitude": 2.1662,
         "latitude": 41.3879,
-        "teams": 1,
+        "teams": 10,
         "team_list": [
-            "Good Physicists"
+            "Good Physicists",
+            "pussytrons",
+            "Boltzgang",
+            "UMoix",
+            "EigenSquad",
+            "Pèsols",
+            "4 Calçots",
+            "Low S.A.",
+            "Obreros Unidos",
+            "Pablo Gómez (real)"
         ]
     },
     {
         "university": "Universidad Autónoma de Madrid (UAM)",
         "longitude": -3.6922,
         "latitude": 40.5496,
-        "teams": 4,
+        "teams": 13,
         "team_list": [
             "Labubuneta Superpuesta",
             "Caballeros de Marco",
             "Runge-Fruta 4",
+            "Los Balodinos",
+            "Muíno Neutrónico",
+            "Operador Nablajazo",
+            "El Troncocono de Revolución",
+            "DE MODO QUE",
+            "NPCs",
+            "Kotxirriman",
+            "Inter de broglie",
+            "E=mc^2 y ya estaría",
             "El Quark-teto"
         ]
     },
@@ -88,50 +170,88 @@
         "university": "Universidad de Oviedo (UniOvi)",
         "longitude": -5.845,
         "latitude": 43.3619,
-        "teams": 3,
+        "teams": 6,
         "team_list": [
             "The Last Dance ",
             "Tres cuerpos y un problema",
-            "c=1"
+            "c=1",
+            "Geómetras",
+            "Nico y Lás",
+            "El Bosón de la Mon"
         ]
     },
     {
         "university": "Universidad de Valladolid (UVA)",
         "longitude": -4.7245,
         "latitude": 41.6521,
-        "teams": 1,
+        "teams": 13,
         "team_list": [
-            "La Resistencia"
+            "La Resistencia",
+            "Fisicoleguillas",
+            "MRVA",
+            "Los Hermíticos",
+            "Joule-igans",
+            "Grupillo 3",
+            "Las gatitas de Schrödinger",
+            "Comando cinético ",
+            "Los Masones π ",
+            "ket-importa",
+            "DonnerKetBra",
+            "Quark-teto",
+            "Quintapillos"
         ]
     },
     {
         "university": "Universidad de Valencia (UV)",
         "longitude": -0.3752,
         "latitude": 39.4699,
-        "teams": 1,
+        "teams": 8,
         "team_list": [
-            "Incendio Forestal"
+            "Incendio Forestal",
+            "Sacerdotes Awámicos",
+            "Grupo Avelino ",
+            "Ultimo y verdadero club de fans de: Perla Shumajer",
+            "Electrons de València",
+            "PLK",
+            "Top Quarks ",
+            "Tetes Termodinámicos "
         ]
     },
     {
         "university": "Universidad de Granada (UGR)",
         "longitude": -3.602,
         "latitude": 37.1765,
-        "teams": 2,
+        "teams": 5,
         "team_list": [
             "Pastelitos",
+            "Don limpio y los pelopantene",
+            "Bestias Titánicas",
+            "Al pan planck, al vino neutrino, po tríncame el pepino",
             "Los extraordinarios "
+        ]
+    },
+    {
+        "university": "Universidad Rovira i Virgili (URV)",
+        "longitude": 1.255,
+        "latitude": 41.1167,
+        "teams": 2,
+        "team_list": [
+            "Dextrogir",
+            "3milk1coffee"
         ]
     },
     {
         "university": "Universidad Politécnica de Cataluña (UPC)",
         "longitude": 2.1131,
         "latitude": 41.3891,
-        "teams": 3,
+        "teams": 6,
         "team_list": [
             "Alexandroff Extension",
             "Els deixebles de'n Blas",
-            "Quack Quark"
+            "Quack Quark",
+            "No hay paja",
+            "Planckhadores",
+            "No Pressure, Just Plancks"
         ]
     },
     {
@@ -147,20 +267,43 @@
         "university": "Universidad de la Laguna (ULL)",
         "longitude": -16.3159,
         "latitude": 28.4698,
-        "teams": 1,
+        "teams": 3,
         "team_list": [
-            "Entropic Warriors"
+            "Entropic Warriors",
+            "Ragazzi di via lagunera",
+            "La onda canaria"
         ]
     },
     {
         "university": "Universidad Politécnica de Valencia (UPV)",
         "longitude": -0.3422,
         "latitude": 39.482,
-        "teams": 3,
+        "teams": 5,
         "team_list": [
             "las gatitas radioactivas",
             "Menú Bourbon",
-            "Sin Potencial"
+            "Sin Potencial",
+            "payicos",
+            "Galileos"
+        ]
+    },
+    {
+        "university": "Universidad Carlos III de Madrid (UC3M)",
+        "longitude": -3.727,
+        "latitude": 40.3259,
+        "teams": 1,
+        "team_list": [
+            "Los Fisiados"
+        ]
+    },
+    {
+        "university": "Universidad de Cantabria (UC)",
+        "longitude": -3.8044,
+        "latitude": 43.4623,
+        "teams": 2,
+        "team_list": [
+            "Cuadrupolo cántabro",
+            "Los hipotéticos"
         ]
     },
     {
@@ -185,37 +328,85 @@
         "university": "Universitat de les Illes Balears (UIB)",
         "longitude": 2.6426,
         "latitude": 39.6361,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Fallo y error"
-        ]
-    },
-    {
-        "university": "Universidad de Murcia (UMU)",
-        "longitude": -1.1307,
-        "latitude": 37.9922,
-        "teams": 1,
-        "team_list": [
-            "Los Little Epsteins"
+            "Fallo y error",
+            "Ricci-Culous"
         ]
     },
     {
         "university": "Universidad de Castilla-La Mancha (UCLM)",
         "longitude": -3.9206,
         "latitude": 38.9941,
-        "teams": 2,
+        "teams": 4,
         "team_list": [
             "Electromagnetismos Rodríguez",
-            "Tensor de incompetencia "
+            "Tensor de incompetencia ",
+            "FFT xk NFT",
+            "Mistura Paradoxal"
         ]
     },
     {
         "university": "Universidad Europea de Madrid (UEM)",
         "longitude": -3.918953,
         "latitude": 40.371831,
+        "teams": 3,
+        "team_list": [
+            "El trío electrodinámico",
+            "Los patos quark",
+            "Cocineros de tartas de manzana"
+        ]
+    },
+    {
+        "university": "Universidad Antonio de Nebrija(UANE)",
+        "longitude": -3.71306,
+        "latitude": 40.4297,
+        "teams": 5,
+        "team_list": [
+            "3 fermionas y un bosón",
+            "Las tres guerreras de Newton",
+            "Chiqui-Tum-PlankPlank",
+            "El club de la PRBA105",
+            "Wilhelmina"
+        ]
+    },
+    {
+        "university": "Universidad de Murcia (UMU)",
+        "longitude": -1.1307,
+        "latitude": 37.9922,
+        "teams": 3,
+        "team_list": [
+            "Los Little Einsteins",
+            "Anti-Abellanianos",
+            "Toñito"
+        ]
+    },
+    {
+        "university": "Universidad de Santiago de Compostela (USC)",
+        "longitude": -8.5448,
+        "latitude": 42.8782,
+        "teams": 2,
+        "team_list": [
+            "Risco de Rotura",
+            "Caipiriñas"
+        ]
+    },
+    {
+        "university": "Universidad de Huelva (UHU)",
+        "longitude": -6.92361,
+        "latitude": 37.27038,
         "teams": 1,
         "team_list": [
-            "El trío electrodinámico"
+            "Golden Atoms"
+        ]
+    },
+    {
+        "university": "Universidad San Pablo-CEU (UCEU)",
+        "longitude": -3.71738,
+        "latitude": 40.44253,
+        "teams": 1,
+        "team_list": [
+            "Física CEU"
         ]
     }
 ]

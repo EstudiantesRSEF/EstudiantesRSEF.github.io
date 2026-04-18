@@ -38,7 +38,7 @@ permalink: /PreliminaresPLANCKS2026/
       </h2>
       <hr> -->
       <!-- INTRODUCCIÓN -->
-      <p style="text-align: justify; line-height: 1.5;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la novena edición de las <strong>Preliminares de PLANCKS</strong>! Y este año también ofrecemos <strong>1500€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces. Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p>       
+      <p style="text-align: justify; line-height: 1.5;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la novena edición de las <strong>Preliminares de PLANCKS</strong>! Y este año también ofrecemos <strong>2000€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces. Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p>       
       <!--p style="text-align: justify; line-height: 1.5;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la novena edición de las <strong>Preliminares de PLANCKS</strong>! Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!
       </p-->
       <!-- BOTONES -->
@@ -49,18 +49,36 @@ permalink: /PreliminaresPLANCKS2026/
         <div class="row_prelis">
           <a href="#supervisores-modal" id="supervisores-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Supervisoras/es</strong></a>
           <a href="#plancks-modal" id="conocer-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px; line-height: 1.1;"><i class="material-icons" style="padding-right: 8px;">explore</i><strong>Conoce Plancks</strong></a>
-          <a href="#premios-modal" id="premios-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">star</i><strong>Premios</strong></a>
+          <a href="#premios-modal" id="premios-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px; position: relative; overflow: visible;">
+            <span class="badge-novedad">¡Novedad!</span>
+            <i class="material-icons" style="padding-right: 8px;">star</i><strong>Premios</strong>
+          </a>
           <a href="#inscripcion-modal" id="inscripcion-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">create</i><strong>Inscríbete</strong></a>
         </div>
       </div>
-       <!-- Slc -->
-       <!-- CLS -->
+      <!-- SOLUCIONES -->
+      <hr>
+      <p style="text-align: justify;">¡Ya están aquí las soluciones de las Preliminares de PLANCKS 2026! ¿Cómo os ha ido? Consultad las soluciones completas en el siguiente enlace:</p>
+      <h2 style="text-align: center;">
+      <h2 style="text-align: center;">
+        <a href="/PreliminaresPLANCKS/2026/Soluciones_PrelisPLANCK2026.pdf" target="_blank"><span><strong>SOLUCIONES DE LOS PROBLEMAS</strong></span></a>
+      </h2>
+      <hr>
+       <!-- CLASIFICACIÓN -->
+      <hr>
+      <p style="text-align: justify;">Tras vuestro gran trabajo, ¡ya están disponibles las clasificiaciones de este año! Haciendo click en el siguiente botón y poniendo el DNI de vuestro capitán/na vereis el desglose de las puntuaciones</p>
+      <div class="section" style="display: flex; flex-direction: column; justify-content: space-between">
+        <div class="row center">
+          <a href="https://estudiantes.rsef.es/PreliminaresPLANCKS/2026/puntuaciones.html" id="info-clasif" class="collection-item modal-trigger btn-rounded plancks26-color"><i class="material-icons" style="padding-right: 8px;">info</i><strong>Clasificación</strong></a>
+        </div>
+      </div>
+      <hr>   
         <!-- COUNTDOWN -->
        <div class="row" style="margin-bottom: -10px">  
         <p style="text-align: justify;">Las inscripciones para las Preliminares de PLANCKS 2026 se cerrarán en...</p>
         <h3 style="text-align: center;"><p id="countdown" style="text-align:center"></p></h3>
-        <p style="text-align: justify;">¡No dejes tu inscripción para el último momento para asegurarnos que tendrás aulas y supervisores disponibles en tu facultad!</p>
-        <p style="text-align: justify;"> Hemos comenzado ya con la promoción a todos los estudiantes de física de España. ¡Así que no te quedes sin plaza!</p> 
+        <!-- <p style="text-align: justify;">¡No dejes tu inscripción para el último momento para asegurarnos que tendrás aulas y supervisores disponibles en tu facultad!</p>
+        <p style="text-align: justify;"> Hemos comenzado ya con la promoción a todos los estudiantes de física de España. ¡Así que no te quedes sin plaza!</p> -->
        </div> 
         <!-- FI -->
         <!-- PUBLICACIONES MÓVILES -->
@@ -86,7 +104,7 @@ permalink: /PreliminaresPLANCKS2026/
         </div>
       </div>
       <!-- AUTORES -->
-      <!--h3 id="Autores">¡Conoce a l@s autor@s de los problemas!</h3>
+      <h3 id="Autores">¡Conoce a l@s autor@s de los problemas!</h3>
       <p style="text-align:justify;">Los miembros del Comité Académico de las Preliminares PLANCKS 2026 son:</p>
       <div class="section">
         <div style="display:flex; flex-wrap:wrap; gap:16px; justify-content:center;">
@@ -109,21 +127,20 @@ permalink: /PreliminaresPLANCKS2026/
                   </div>
                 </div>
               </div>
-            </div -->
-            <!-- Modal con la biografía -->
-            <!--div id="{{ autor.nombre | slugify }}-modal" class="modal">
-              <div class="modal-content">
-                <h4>{{ autor.nombre }}</h4>
-                <h6><em>{{ autor.tema }}</em></h6>
-                <p style="text-align: justify;">{{ autor["biografia"] }}</p>
+              <div id="{{ autor.nombre | slugify }}-modal" class="modal">
+                <div class="modal-content">
+                  <h4>{{ autor.nombre }}</h4>
+                  <h6><em>{{ autor.tema }}</em></h6>
+                  <p style="text-align: justify;">{{ autor["biografia"] }}</p>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
+                </div>
               </div>
-              <div class="modal-footer">
-                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
-              </div>
-            </div>
+            {% endfor %}
           {% endfor %}
-        {% endfor %}
-      </div -->
+        </div>
+      </div>
       <!-- COMITÉS -->
       <div class="row" style="margin-bottom: -10px"> 
         <p style="text-align: justify;">Además, puedes <a href="#comites-modal" class="prelis26 modal-trigger">consultar aquí</a> los integrantes del Comité Organizador de las Preliminares de PLANCKS 2026.</p>
@@ -135,18 +152,44 @@ permalink: /PreliminaresPLANCKS2026/
           <iframe id="content-desktop" src="/PreliminaresPLANCKS/2026/Mapa/universities_map_desktop.html" class="scalable-iframe" style="border:none"></iframe> 
           <iframe id="content-mobile" src="/PreliminaresPLANCKS/2026/Mapa/universities_map_mobile.html" class="scalable-iframe" style="border:none; width: 100%"></iframe> 
       </div> 
-      <!-- CARRERA -->
-      <h3>¡Sigue la carrera de inscripciones!</h3>
+      <!-- Carrera  -->
+		<h3>¡Sigue la carrera de inscripciones!</h3>
 
 <div class="iframe-responsive-wrapper">
      <iframe 
         src="/PreliminaresPLANCKS/2026/carrera.html" 
-        width="100%" 
-        height="500px" 
         loading="lazy"
-        style="border: 1px solid #ccc; border-radius: 8px; display: block;">
+        class="carrera-iframe">
      </iframe>
 </div>
+
+<style>
+  /* Contenedor: maneja el desbordamiento (scroll) */
+  .iframe-responsive-wrapper {
+      width: 100%;
+      overflow-x: auto; /* Fuerza la aparición del scroll horizontal si el contenido es más ancho */
+      overflow-y: hidden;
+      -webkit-overflow-scrolling: touch; /* Scroll suave en dispositivos iOS */
+      border-radius: 8px; /* Mover el borde al contenedor suele dar un acabado más limpio */
+      border: 1px solid #ccc;
+  }
+
+  /* Iframe: tamaño y proporciones */
+  .carrera-iframe {
+      width: 100%;
+      min-width: 800px; 
+      height: 500px;
+      border: none; 
+      display: block;
+  }
+
+  /* Ajustes específicos para móviles */
+  @media (max-width: 600px) {
+      .carrera-iframe {
+          height: 400px; /* Ajusta la altura en pantallas pequeñas */
+      }
+  }
+</style>
 
 <style>
   /* Estilos para asegurar que se vea bien en móvil */
@@ -162,6 +205,85 @@ permalink: /PreliminaresPLANCKS2026/
           height: 400px; /* Puedes ajustar esto según necesites */
       }
   }
+/* Definimos la animación de pálpito */
+  @keyframes palpitar {
+    0% {
+      transform: rotate(12deg) scale(1); /* Estado inicial inclinado */
+    }
+    50% {
+      transform: rotate(12deg) scale(1.15); /* Crece un 15% a mitad de ciclo */
+    }
+    100% {
+      transform: rotate(12deg) scale(1); /* Vuelve al estado inicial */
+    }
+  }
+
+ /* --- ESTILO SELLO ELÍPTICO CON PICOS (VERSIÓN REDUCIDA) --- */
+
+.badge-novedad {
+    position: absolute;
+    /* Ajustamos la posición al ser más pequeño */
+    top: -20px; 
+    right: -15px; 
+    
+    /* 1. Reducimos la elipse base */
+    padding: 3px 22px;      
+    white-space: nowrap;
+    
+    background-color: #ffb30f;
+    color: #FFFFFF;
+    font-weight: 900;
+    /* 2. Reducimos el tamaño de la fuente */
+    font-size: 9px;          
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; 
+    
+    z-index: 10;
+    pointer-events: none;
+    text-transform: uppercase;
+    transform: rotate(8deg); 
+    
+    /* Sombra un poco más suave acorde al tamaño */
+    filter: drop-shadow(2px 3px 2px rgba(0,0,0,0.4)); 
+    animation: palpitarSello 1.8s ease-in-out infinite; 
+}
+
+/* El ribete con picos de estrella */
+.badge-novedad::before {
+    content: "";
+    position: absolute;
+    
+    /* 3. Reducimos el alcance de los picos hacia afuera */
+    top: -8px;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+    
+    background-color: #C35B13;
+    z-index: -1;
+    
+    /* La misma estrella perfecta de 16 puntas */
+    clip-path: polygon(
+        50% 0%, 59% 9%, 71% 2%, 76% 14%, 
+        88% 12%, 88% 25%, 98% 29%, 92% 41%, 
+        100% 50%, 92% 59%, 98% 71%, 88% 75%, 
+        88% 88%, 76% 86%, 71% 98%, 59% 91%, 
+        50% 100%, 41% 91%, 29% 98%, 24% 86%, 
+        12% 88%, 12% 75%, 2% 71%, 8% 59%, 
+        0% 50%, 8% 41%, 2% 29%, 12% 25%, 
+        12% 12%, 24% 14%, 29% 2%, 41% 9%
+    );
+}
+
+/* Animación de pálpito */
+@keyframes palpitarSello {
+    0% { transform: rotate(8deg) scale(1); }
+    50% { transform: rotate(8deg) scale(1.04); }
+    100% { transform: rotate(8deg) scale(1); }
+}
 </style>
       <!-- EDICIONES ANTERIORES -->
       <div class="section" id="ediciones-anteriores">
@@ -216,8 +338,8 @@ permalink: /PreliminaresPLANCKS2026/
       <div class="row center">
         <h3 class="justify">Información general</h3>
         <p style="text-align: justify;"><strong>¿En qué consisten las Preliminares?</strong> Las Preliminares de PLANCKS 2026 es una competición de física teórica por equipos en la que habrá que resolver 8 problemas no muy largos. Puedes ver las pruebas de otros años en la <a class="prelis26 modal-close" href="#ediciones-anteriores">sección de Ediciones anteriores</a>, aunque el año pasado se cambió a un nuevo formato y ahora son más preguntas más cortas que anteriormente. Puedes ver las soluciones de los exámenes de la final de PLANCKS de años anteriores <a class="prelis26" href="https://estudiantes.rsef.es/PLANCKS25/Exams">aquí</a>.
-        </p>        
-        <p style="text-align: justify;"><strong>¿Cómo puedo participar en las Preliminares?</strong> Es muy sencillo: si conoces un@s cuant@s amig@s con los que te apetecería pasar un buen rato, resolver problemas que resultan todo un reto e inventarte respuestas disparatadas cuando no sepas por dónde salir, reúne un equipo de hasta cuatro personas y no lo dudes: <a class="prelis26" href="https://forms.gle/MSpSEH1DZWzR62Zf6" id="inscripcion-button" target="_blank">¡inscríbete!</a> Los equipos deben de estar formados por 3 o 4 personas. Esta primera fase nacional nos permitirá seleccionar a los mejores equipos para que nos representen en la competición internacional, el año pasado se clasificaron cinco equipos a la fase final. </p>   
+        </p>        <!--https://forms.gle/MSpSEH1DZWzR62Zf6-->
+        <p style="text-align: justify;"><strong>¿Cómo puedo participar en las Preliminares?</strong> Es muy sencillo: si conoces un@s cuant@s amig@s con los que te apetecería pasar un buen rato, resolver problemas que resultan todo un reto e inventarte respuestas disparatadas cuando no sepas por dónde salir, reúne un equipo de hasta cuatro personas y no lo dudes: <a class="prelis26" href="" id="inscripcion-button" target="_blank">¡inscríbete!</a> Los equipos deben de estar formados por 3 o 4 personas. Esta primera fase nacional nos permitirá seleccionar a los mejores equipos para que nos representen en la competición internacional, el año pasado se clasificaron cinco equipos a la fase final. </p>   
         <p style="text-align: justify;">Si ya existe una <a class="prelis26" href="https://estudiantes.rsef.es/delegaciones/">delegación del GdeE</a> en tu facultad, se ocuparán ellos de organizar las Prelis. Si no es el caso, es posible que el comité organizador os pida ayuda para encontrar un aula y un/a supervisor/a para poder garantizar una sede de las Preliminares en vuestra ciudad. </p>
         <p style="text-align: justify;"><strong>¿Cómo y cuándo tendrán lugar las Preliminares?</strong> Las Preliminares de PLANCKS 2026 en España se celebrarán el próximo <strong>viernes 6 de marzo por la tarde</strong>, de forma simultánea en sedes situadas en facultades de física del territorio nacional. La prueba durará 3 horas y tendrá lugar de 16:00 a 19:00 (GMT+1).</p>        
         <p style="text-align: justify;"><strong>Y si la prueba os sale muy bien hay premio por partida doble...</strong></p>      
@@ -253,7 +375,7 @@ permalink: /PreliminaresPLANCKS2026/
           Los clasificados participarán en la fase internacional de PLANCKS en Eindhoven, Países Bajos, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
         </p-->
         <p style="text-align: justify;">
-          Este año contamos con el apoyo y financiación de la <a class="prelis26" href="https://www.fundacionareces.es" id="ramon-areces" target="_blank">Fundación Ramón Areces</a>, que nos permite ofrecer premios a los tres mejores equipos: 700€ para el primer equipo, 500€ para el segundo y 300€ para el tercer clasificado. Además, los clasificados participarán en la fase internacional de PLANCKS en Eindhoven, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
+          Este año contamos con el apoyo y financiación de la <a class="prelis26" href="https://www.fundacionareces.es" id="ramon-areces" target="_blank">Fundación Ramón Areces</a>, que nos permite ofrecer premios a los tres mejores equipos: <strong>900€</strong> para el primer equipo, <strong>600€</strong>  para el segundo y <strong>500€</strong>  para el tercer clasificado. Además, los clasificados participarán en la fase internacional de PLANCKS en Eindhoven, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
         </p>
         <p style="text-align: justify;">
           Todo esto no sería posible sin el apoyo de la Fundación Ramón Areces y de los miembros del GdeE. ¡Así que muchas gracias por confiar en nosotros!
@@ -305,7 +427,8 @@ permalink: /PreliminaresPLANCKS2026/
     <a href="#!" class="modal-close waves-effect waves-green btn-flat">CERRAR</a>
   </div>
 </div>
-<!-- https://docs.google.com/forms/d/e/1FAIpQLSfjPhQE64biN66TFOW85IMMEr1PVc8AAXMu5vZHfsJwVFxpfA/viewform?usp=sharing&ouid=114236208530030479904-->
+
+
 <!-- CONOCER MODAL -->
 <div id="plancks-modal" class="modal prelis26">
   <div class="modal-content-tight">    
@@ -347,7 +470,9 @@ permalink: /PreliminaresPLANCKS2026/
       <div class="row center">  
         <div class="col s12 m6">
           <div class="row center">
-            <a href="https://forms.gle/75dXeeHSi8DbFNqG7" id="inscripcion-equipos-button" target="_blank" class="btn-plancks26 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">groups</i><strong>Inscripción equipos</strong></a>
+            <a href=""
+             id="inscripcion-equipos-button" target="_blank" class="btn-plancks26 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">groups</i><strong>Inscripción equipos</strong></a>
+             <!--"https://forms.gle/75dXeeHSi8DbFNqG7"-->
           </div>
         </div>
         <div class="col s12 m6">
@@ -465,3 +590,4 @@ permalink: /PreliminaresPLANCKS2026/
     }
   }, 1000);
 </script>
+

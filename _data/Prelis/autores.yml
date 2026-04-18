@@ -47,9 +47,52 @@
 
   - "nombre": "Ángel Sanz"
     "tema": "Presidente del Comité Académico"
-    "biografia": "Ángel Sanz es Profesor Asociado en el Departamento de Óptica de la Universidad Complutense de Madrid."
+    "biografia": "Ángel S. Sanz es Profesor Titular en la Universidad Complutense de Madrid, donde desarrolla investigaciones relacionadas con ecuaciones no lineales de Schrödinger, metrología cuántica, luz estructurada y fundamentos de la mecánica cuántica. Es, además, el coordinador de la fase local de la Olimpiada de Física de Madrid."
     "imagen": "/img/logos/gdee-rsef-logo-cuadrado.png"
 
 
 - "2026":
+  - "nombre": "Ángel S. Sanz"
+    "tema": "Presidente del Comité Académico | Óptica Cuántica"
+    "biografia": "Ángel S. Sanz es Profesor Titular en la Universidad Complutense de Madrid, donde desarrolla investigaciones relacionadas con ecuaciones no lineales de Schrödinger, metrología cuántica, luz estructurada y fundamentos de la mecánica cuántica. Es, además, el coordinador de la fase local de la Olimpiada de Física de Madrid."
+    "imagen": "/img/eventos/2026-PrelisPLANCKS/autores/Angel_Sanz.jpeg"
 
+  - "nombre": "Iván Martí-Vidal"
+    "tema": "Gravitación"
+    "biografia": "Iván Marti-Vidal es Profesor Titular en el Departamento de Astronomía y Astrofísica de la Universitat de València y jefe de instrumentación de su Observatorio Astronómico. Especialidad en Radioastronomía e Interferometría Astronómica. Miembro de la Colaboración Event Horizon Telescope."
+    "imagen": "/img/eventos/2026-PrelisPLANCKS/autores/Ivan_Marti-Vidal_2.jpg"
+
+  - "nombre": "Laura Mercadé Morales"
+    "tema": "Optomecánica"
+    "biografia": "Laura Mercadé Morales es Profesora Permanente Laboral en el Departamento de Física Aplicada de la Universitat Politècnica de València (UPV). Desarrolla su actividad investigadora en el Instituto Universitario de Tecnología Nanofotónica, en particular en el estudio de la interacción óptica y mecánica en la micro y nanoescala."
+    "imagen": "/img/eventos/2026-PrelisPLANCKS/autores/Laura_Mercade_Morales.jpeg"
+
+  - "nombre": "Fabio Revuelta Peña"
+    "tema": "Mecánica Clásica"
+    "biografia": "Fabio Revuelta Peña es Profesor Titular en el Grupo de Sistemas Complejos de la Universidad Politécnica de Madrid. Su investigación se centra en el estudio del caos y los efectos anharmónicos en sistemas atómicos y moleculares."
+    "imagen": "/img/eventos/2026-PrelisPLANCKS/autores/Fabio Revuelta Peña.jpg"
+
+  - "nombre": "José Polo Gómez"
+    "tema": "Termodinámica e Información cuántica"
+    "biografia": "José Polo-Gómez (Sevilla, Spain, 1998) graduated in Mathematics and Physics from Universidad Complutense de Madrid in 2020. In 2025, he completed his PhD in Applied Mathematics and Quantum Information at the University of Waterloo, working under the supervision of Prof. Eduardo Martín-Martínez, and with the support of a Mike and Ophelia Lazaridis Fellowship and a La Caixa Foundation Postgraduate Fellowship. His research combines tools from quantum information and quantum field theory. The main body of his work addresses problems related to measurements, causality, and entanglement in quantum field theory, and his contributions range from black hole physics to thermodynamics. He is currently a postdoctoral researcher in the group of Prof. Ignacio Cirac at the Max Planck Institute of Quantum Optics."
+    "imagen": "/img/eventos/2026-PrelisPLANCKS/autores/Jose_Polo_Gomez.jpg"
+
+  - "nombre": "Juan A. Añel"
+    "tema": "Física de la Atmósfera y Océano"
+    "biografia": "Juan A. Añel es Catedrático de Física de la Tierra en el EPhysLab en Ourense (Universidade de Vigo) y Presidente del Grupo de Física de la Atmósfera y del Océano de la RSEF. Su investigación se centra en el estudio de la física de la atmósfera, incluyendo impactos del cambio climático."
+    "imagen": "/img/eventos/2026-PrelisPLANCKS/autores/Juan_Antonio_Anel_Cabanelas.png"
+
+  - "nombre": "Beatriz Ruiz Granados"
+    "tema": "Cono de Noillet"
+    "biografia": "Beatriz Ruiz Granados es Profesora Permanente Laboral del Departamento de Física de la Universidad de Córdoba. Su investigación se centra en astrofísica y cosmología, en concreto en el estudio del fondo cósmico de microondas y el magnetismo del Universo."
+    "imagen": "/img/eventos/2026-PrelisPLANCKS/autores/Beatriz_Ruiz_Granados.JPG"
+
+  - "nombre": "Andreu Anglés Castillo"
+    "tema": "Quantum Machine Learning"
+    "biografia": "Andreu Anglés-Castillo es investigador postdoctoral en la Universitat Politècnica de València. Su trabajo gira en torno a la computación cuántica. Desde el estudio de modelos de ruido cuántico con la teoria de los sistemas cuanticos abiertos, hasta el desarrollo de algoritmos cuánticos para la preparación de estados fundamentales."
+    "imagen": "/img/eventos/2026-PrelisPLANCKS/autores/Andreu_Angles_Castillo.jpg"
+
+  - "nombre": "Rodrigo Martínez Sanz"
+    "tema": "Quantum Machine Learning"
+    "biografia": "Rodrigo Martínez se graduó en Física por la Universitat de València y cursó el Máster en Quantum Information en Sorbonne Université (París). Actualmente, es estudiante de doctorado en Computación Cuántica y Quantum Machine Learning en la Universidad Politécnica de Valencia."
+    "imagen": "/img/eventos/2026-PrelisPLANCKS/autores/Rodrigo_Martinez.jpg"
