@@ -1,88 +1,73 @@
 ---
 layout: eclipse
-title: Eclipse
-permalink: /DeleUVa/Eclipse
+title: Totality
+permalink: /DeleUVa/Totality
 footer: eclipse
 ---
 
-<link rel="stylesheet" href="{{ site.baseurl }}/Delegaciones/Madrid_UCM/HackSat/Style.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/Delegaciones/UVa/Style.css">
 
 <section class="vh-100 d-flex align-items-center text-center hero-section">
   <div class="container">
     <h1 class="display-3 display-md-2 display-lg-1 fw-bold lh-1 mb-4">
-      Eclipse
+      Totality
     </h1>
     <p class="lead mx-auto col-lg-8 text-light">
-      Eclipse es un hackathon donde pondrás a prueba tu ingenio para encontrar soluciones a uno de tres distintos problemas reales de la actualidad del entorno orbital. No necesitas ser un experto, solo ganas de aprender y pasártelo bien. Si te apasiona la ciencia, innovación y desafíos tecnológicos, este evento es para ti.
+      Insertar un texto al estilo de qué es el evento, pero resumido. unas tres lineas
     </p>
   </div>
 </section>
 
 <section class="container py-5">
   <div class="row g-4 text-center">
+    
     <div class="col-md-6">
-      <a href="https://maps.google.com" style="text-decoration: none; color: inherit;">
+      <a href="https://www.google.com/maps/place/Autilla+del+Pino,+Palencia" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;" class="h-100">
         <div class="p-4 rounded shadow-sm h-100">
           <i class="fas fa-map-marker-alt fs-1 mb-3 text-primary"></i>
-          <h5 class="fw-bold">42 Madrid</h5>
-          <p class="text-muted">Distrito Telefónica</p>
+          <h5 class="fw-bold">Autilla del Pino</h5>
+          <p class="text-muted">Palencia</p>
         </div>
       </a>
     </div>
+    
     <div class="col-md-6">
-      <div class="p-4 rounded shadow-sm h-100">
-        <i class="fas fa-calendar-alt fs-1 mb-3 text-primary"></i>
-        <h5 class="fw-bold">20 – 21 Marzo 2026</h5>
-        <p class="text-muted">Hackathon presencial</p>
-      </div>
+      <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260812T000000Z/20260813T000000Z&text=Eclipse+total+de+Sol&location=Autilla+del+Pino,+Palencia" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;" class="h-100">
+        <div class="p-4 rounded shadow-sm h-100">
+          <i class="fas fa-calendar-alt fs-1 mb-3 text-primary"></i>
+          <h5 class="fw-bold">12 de Agosto de 2026</h5>
+          <p class="text-muted">Eclipse total de Sol</p>
+        </div>
+      </a>
     </div>
+
   </div>
 </section>
 
-<section class="bg-dark text-white text-center py-5 my-5">
-  <div class="d-flex flex-wrap align-items-center justify-content-center gap-5">
-    <a href="https://forms.gle/MdpMBBEiDft5gMZN9" class="boton-naranja mb-3">INSCRIPCIÓN DE EQUIPOS</a>
-    <a href="mailto:estudiantesrsef.ucm@gmail.com?subject=[Eclipse 2026]" class="boton-naranja mb-3">CONTACTO</a>
-  </div>
-  <h2 class="fw-bold mb-4">
-    NO PIERDAS TU OPORTUNIDAD<br>
-    PIENSA EN SOLUCIONES Y GANA
-  </h2>
-  <div class="row g-4 mt-4">
-    <div class="col-md-4">
-      <i class="fas fa-medal fs-2 mb-3 text-warning"></i>
-      <p>Premio de 500€ al equipo ganador</p>
-    </div>
-    <div class="col-md-4">
-      <i class="fas fa-mug-hot fs-2 mb-3 text-info"></i>
-      <p>Coffee breaks para mantener la energía</p>
-    </div>
-    <div class="col-md-4">
-      <i class="fas fa-chalkboard-teacher fs-2 mb-3 text-success"></i>
-      <p>Charlas de expertos en tecnología espacial</p>
-    </div>
-  </div>
-</section>
-
-<section id="reto" class="container-fluid py-5 text-center">
-  <h2 class="fw-bold mb-4">El Reto</h2>
-  <div class="fs-5 fw-semibold mb-4">Salvar el entorno orbital</div>
+<section id="evento" class="container-fluid py-5 text-center">
+  <h2 class="fw-bold mb-4">El Evento</h2>
+  <div class="fs-5 fw-semibold mb-4">No se si se te ocurre un subtitulo</div>
   <div class="row justify-content-center">
     <p class="col-12 col-md-10 col-lg-8 text-center lead text-muted fw-normal reto-text">
-      Estamos lanzando miles de satélites al año. En Eclipse 2026, tu misión es encontrar soluciones innovadoras que aseguren que podamos seguir usando el espacio en el futuro. No buscamos solo ingeniería, buscamos estrategias e ideas que marquen la diferencia. Tú eliges el problema específico dentro de las siguientes tres líneas de acción:
+      Aqui un pequeño texto sobre el porqué queremos hacer el evento, por qué el lugar e introduces los siguientes tres pilares que hemos escogido para el evento:
     </p>
   </div>
   <div class="container my-5">
     <div class="row g-4 reto-cards-row">
       <div class="col-12 col-lg-4 d-flex">
-        <div class="sponsor-card reto-card h-100 w-100">
-          <div class="card-body d-flex flex-wrap justify-content-center align-items-center reto-card-body">
-            <div class="circle-transparent"><i class="fas fa-trash-restore-alt fs-1 text-primary"></i></div>
-            <h5 class="card-title mb-2 text-center">Sostenibilidad y Basura Espacial (SSA)</h5>
-            <p class="card-text reto-card-text text-center">Vigilancia, rastreo, protección, prevención y gestión de residuos en el espacio.</p>
-          </div>
-        </div>
+  <div class="sponsor-card reto-card h-100 w-100">
+    <div class="card-body d-flex flex-column justify-content-center align-items-center reto-card-body">
+      
+      <div class="circle-transparent mb-3">
+        <i class="fas fa-universal-access fs-1 text-primary"></i>
       </div>
+      
+      <h5 class="card-title mb-2 text-center">Inclusión</h5>
+      <p class="card-text reto-card-text text-center">Somos muy majetones y puede venir quien quiera jeje (es para personas con sindrome de down y asi).</p>
+      
+    </div>
+  </div>
+</div>
       <div class="col-12 col-lg-4 d-flex">
         <div class="sponsor-card reto-card h-100 w-100">
           <div class="card-body d-flex flex-wrap justify-content-center align-items-center reto-card-body">
