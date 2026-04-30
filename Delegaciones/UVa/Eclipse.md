@@ -114,8 +114,8 @@ footer: eclipse
   </div>
 </div>
 
-<section id="jurado" class="container py-5 text-center">
-  <h2 class="fw-bold mb-4">Conoce al Jurado</h2>
+<section id="ponentes" class="container py-5 text-center">
+  <h2 class="fw-bold mb-4">Conoce a los ponentes</h2>
   <div class="jurado-grid">
     <div class="jurado-card jurado-1">
       <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/Madrid_UCM/HackSat/img/jurado_anaines.png" alt="">
@@ -130,12 +130,15 @@ footer: eclipse
   <h2 class="fw-bold mb-4">Organizan</h2>
   
   <div class="d-flex flex-wrap justify-content-center align-items-center gap-5 m-4">
-    <a href="https://estudiantes.rsef.es/" class="sponsor-card">
-      <img src="{{ site.baseurl }}/img/delegaciones/DUCM/LogoDUCM.jpeg" alt="Delegación UCM Logo" class="img-fluid mw-100 object-fit-contain" style="height: 150px;">
+    <a href="https://estudiantes.rsef.es/delegaciones/" class="sponsor-card">
+      <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Organizadores/LogoUvaConFondo.jpg" alt="Delegación UVa Logo" class="img-fluid mw-100 object-fit-contain" style="height: 150px;">
     </a>
     <a href="https://www.instagram.com/ajapi.autilla/" class="sponsor-card">
       <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Organizadores/AJAPI-Color-fondo.png" alt="Delegación AJAPI Logo" class="img-fluid mw-100 object-fit-contain" style="height: 150px;">
     </a>
+     <a href="https://astrobriga.es/" class="sponsor-card">
+    <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/ASTRÓBRIGA.jpeg" alt="Astróbriga" class="img-fluid mw-100 object-fit-contain" style="height: 150px;">
+  </a>
   </div>
   <h2 class="fw-bold mb-4">Patrocinan</h2>
   
@@ -148,11 +151,7 @@ footer: eclipse
     </a>
   </div>
   <h2 class="fw-bold mb-4">Colaboran</h2>
-  
   <div class="d-flex flex-wrap justify-content-center align-items-center gap-5 m-4">
-  <a href="https://astrobriga.es/" class="sponsor-card">
-    <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/ASTRÓBRIGA.jpeg" alt="Astrobriga" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
-  </a>
   <a href="https://autilladelpino.es/" class="sponsor-card">
     <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/AYUNTAMIENTO.jpg" alt="Ayto. Autilla del Pino" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
   </a>
@@ -164,6 +163,21 @@ footer: eclipse
   </a>
   <a href="https://frenosyembragues.es/" class="sponsor-card">
     <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/FFEEP.jpg" alt="FFEEP" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
+  </a>
+  <a href="https://mantesolar.com/" class="sponsor-card">
+    <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/Mantesolar.jpeg" alt="Mantesolar" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
+  </a>
+  <a href="https://www.somosonline.es/" class="sponsor-card">
+    <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/ONLINE.jpg" alt="Online" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
+  </a>
+  <a href="https://www.somosonline.es/" class="sponsor-card">
+    <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/Páramo.png" alt="Bodegas Páramo" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
+  </a>
+  <a href="https://tecnicampo.com/" class="sponsor-card">
+    <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/TECNICAMPO.png" alt="Tecnicampo" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
+  </a>
+  <a href="https://www.grupotecnipec.net/" class="sponsor-card">
+    <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/TECNIPEC.jpg" alt="TECNIPEC" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
   </a>
 </div>
 </section>
