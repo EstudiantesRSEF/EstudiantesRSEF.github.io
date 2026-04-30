@@ -71,33 +71,36 @@ footer: eclipse
       <div class="col-12 col-lg-4 d-flex">
         <div class="sponsor-card reto-card h-100 w-100">
           <div class="card-body d-flex flex-wrap justify-content-center align-items-center reto-card-body">
-            <div class="circle-transparent align-items-center"><i class="fas fa-satellite fs-1 text-primary"></i></div>
-            <h5 class="card-title mb-2 text-center">Protección de la Astronomía y del Cielo</h5>
-            <p class="card-text reto-card-text text-center">Soluciones para reducir el brillo de los satélites y limpiar imágenes astronómicas.</p>
+            <div class="circle-transparent align-items-center"><i class="fas fa-cogs fs-1 text-primary"></i></div>
+            <h5 class="card-title mb-2 text-center">Divulgación Científica</h5>
+            <p class="card-text reto-card-text text-center">Algo como que es para llevar la física y otras ramas del conocimiento a todos o a los pueblos</p>
           </div>
         </div>
       </div>
       <div class="col-12 col-lg-4 d-flex">
         <div class="sponsor-card reto-card h-100 w-100">
           <div class="card-body d-flex flex-wrap justify-content-center align-items-center reto-card-body">
-            <div class="circle-transparent"><i class="fas fa-bolt fs-1 text-primary"></i></div>
-            <h5 class="card-title mb-2 text-center">Optimización y Eficiencia de Misiones</h5>
-            <p class="card-text reto-card-text text-center">Uso de IA para optimizar constelaciones y estrategias de reentrada rápida.</p>
+            <div class="circle-transparent"><i class="fas fa-recycle fs-1 text-primary"></i></div>
+            <h5 class="card-title mb-2 text-center">Sostenibilidad (o algo de entorno rural)</h5>
+            <p class="card-text reto-card-text text-center">Vamos a ser respetuosos con el medio ambiente / lo vamos a hacer en la castilla vaciada</p>
           </div>
         </div>
       </div>
     </div>
+  </div>
+  <div class="row justify-content-center">
+  <p class="col-12 col-md-10 col-lg-8 text-center lead text-muted fw-normal reto-text">Además, aqui podríamos presentar un poco autilla, poner como una imagen/mapa de donde será el evento, los puestos que haya alrededor,...</p>
   </div>
 </section>
 
 <section id="programa" class="container py-5 text-center">
   <h2 class="fw-bold mb-4">Programa</h2>
   <p class="lead mx-auto w-75 text-muted fw-normal reto-text mb-4">
-    ¡Os presentamos el programa de Eclipse 2026! El evento tendrá lugar el viernes 20 y sábado 21 de marzo.
+    Más adelante se publicará el programa del evento, lleno de distintas actividades interdisciplinares pero con el eclipse como punto común.
   </p>
-  <div class="container py-5">
+  <!-- <div class="container py-5">
     <img class="materialboxed rounded responsive-img" src="{{ site.baseurl }}/Delegaciones/Madrid_UCM/HackSat/img/programa_hacksat2026.png" data-bs-toggle="modal" data-bs-target="#programaModal" style="cursor: pointer;">
-  </div>
+  </div> -->
 </section>
 
 <div class="modal fade" id="programaModal" tabindex="-1" aria-hidden="true">
@@ -124,10 +127,43 @@ footer: eclipse
 </section>
 
 <section id="sponsors" class="container text-center mb-5">
-  <h2 class="fw-bold mb-4">Organizadores</h2>
+  <h2 class="fw-bold mb-4">Organizan</h2>
+  
   <div class="d-flex flex-wrap justify-content-center align-items-center gap-5 m-4">
     <a href="https://estudiantes.rsef.es/" class="sponsor-card">
-      <img src="{{ site.baseurl }}/img/delegaciones/DUCM/LogoDUCM.jpeg" alt="Delegación UCM Logo" class="img-fluid max-h-24 mw-100 object-fit-contain">
+      <img src="{{ site.baseurl }}/img/delegaciones/DUCM/LogoDUCM.jpeg" alt="Delegación UCM Logo" class="img-fluid mw-100 object-fit-contain" style="height: 150px;">
+    </a>
+    <a href="https://www.instagram.com/ajapi.autilla/" class="sponsor-card">
+      <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Organizadores/AJAPI-Color-fondo.png" alt="Delegación AJAPI Logo" class="img-fluid mw-100 object-fit-contain" style="height: 150px;">
     </a>
   </div>
+  <h2 class="fw-bold mb-4">Patrocinan</h2>
+  
+  <div class="d-flex flex-wrap justify-content-center align-items-center gap-5 m-4">
+    <a href="https://fundacionlacaixa.org/es/" class="sponsor-card">
+      <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/Logo_horizontal_CMYK_castellano.jpg" alt="Fundación la Caixa" class="img-fluid max-h-24 mw-100 object-fit-contain">
+    </a>
+    <a href="https://www.diputaciondepalencia.es/" class="sponsor-card">
+      <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/Logo Largo Color Fondo.jpg" alt="Diputación de Palencia" class="img-fluid max-h-24 mw-100 object-fit-contain">
+    </a>
+  </div>
+  <h2 class="fw-bold mb-4">Colaboran</h2>
+  
+  <div class="d-flex flex-wrap justify-content-center align-items-center gap-5 m-4">
+  <a href="https://astrobriga.es/" class="sponsor-card">
+    <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/ASTRÓBRIGA.jpeg" alt="Astrobriga" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
+  </a>
+  <a href="https://autilladelpino.es/" class="sponsor-card">
+    <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/AYUNTAMIENTO.jpg" alt="Ayto. Autilla del Pino" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
+  </a>
+  <a href=" " class="sponsor-card">
+    <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/CARPE DIEM.jpeg" alt="Carpe Diem" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
+  </a>
+  <a href="https://www.tallerescasares.net/" class="sponsor-card">
+    <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/CASARES.jpeg" alt="Casares" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
+  </a>
+  <a href="https://frenosyembragues.es/" class="sponsor-card">
+    <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/FFEEP.jpg" alt="FFEEP" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
+  </a>
+</div>
 </section>
