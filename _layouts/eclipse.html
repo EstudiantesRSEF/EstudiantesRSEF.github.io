@@ -23,7 +23,25 @@
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
   }
-</style>
+
+  /* Estilos del Logo Responsive */
+  #primary-logo {
+    border-radius: 0 !important;
+    object-fit: contain !important;
+    height: 110px;
+    width: auto;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+  }
+
+  /* Reducción del logo solo en pantallas móviles */
+  @media (max-width: 991.98px) {
+    #primary-logo {
+      height: 55px;
+    }
+  }
+  </style>
+
   <style>
     @keyframes slideTransition {
       0% {
@@ -91,7 +109,7 @@
     <div class="container nav-container" id="nav-container">
 
       <a class="navbar-brand" href="/" id="brand-container" style="position: relative; display: flex; align-items: center;">
-        <img id="primary-logo" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/LogoTotality-SolBlanco.png" alt="Logo Totality" style="border-radius: 0 !important; object-fit: contain !important; height: 110px; width: auto; transition: opacity 0.3s ease; cursor: pointer;">
+        <img id="primary-logo" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/LogoTotality-SolBlanco.png" alt="Logo Totality">
         <span class="fw-bold ms-2">Totality</span>
       </a>
 
@@ -103,7 +121,7 @@
       </button>
 
       <div class="ms-auto d-none d-lg-flex gap-4">
-        <a id="primary-event" class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#evento"> 
+        <a id="primary-event" class="nav-link premium-link fw-semibold d-flex align-items-center gap-2 trigger-evento" href="#evento"> 
           <i class="fas fa-sun"></i> <span>Evento</span>
         </a>
         <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#programa"> <i class="fas fa-calendar-alt"></i> <span>Programa</span></a>
@@ -120,10 +138,10 @@
       <button class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
     </div>
     <div class="offcanvas-body d-flex flex-column gap-3">
-      <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#evento" data-bs-dismiss="offcanvas"> <i class="fas fa-rocket"></i> <span>Evento</span></a>
-      <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#programa" data-bs-dismiss="offcanvas"> <i class="fas fa-calendar-alt"></i> <span>Programa</span></a>
-      <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#ponentes" data-bs-dismiss="offcanvas"> <i class="fas fa-users"></i> <span>Ponentes</span></a>
-      <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#sponsors" data-bs-dismiss="offcanvas"> <i class="fas fa-id-card"></i> <span>Organizadores</span></a>
+      <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2 trigger-evento" href="#evento"> <i class="fas fa-sun"></i> <span>Evento</span></a>
+      <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#programa"> <i class="fas fa-calendar-alt"></i> <span>Programa</span></a>
+      <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#ponentes"> <i class="fas fa-users"></i> <span>Ponentes</span></a>
+      <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#sponsors"> <i class="fas fa-id-card"></i> <span>Organizadores</span></a>
     </div>
   </div>
 
@@ -137,12 +155,13 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", function() {
+      // --- LÓGICA DEL EASTER EGG ---
       let iC = 0;
       let iT;
       
       const pl = document.getElementById('primary-logo');
-      const pe = document.getElementById('primary-event');
       const bc = document.getElementById('brand-container');
+      const eventButtons = document.querySelectorAll('.trigger-evento');
 
       function rI() {
         iC = 0;
@@ -154,7 +173,7 @@
         iT = setTimeout(rI, 2000);
       }
 
-      if(pl && pe) {
+      if(pl && eventButtons.length > 0) {
         pl.addEventListener('click', function(e) {
           e.preventDefault(); 
           if (iC === 0 || iC === 1) {
@@ -167,21 +186,24 @@
           }
         });
 
-        pe.addEventListener('click', function(e) {
-          if (iC === 2 || iC === 3) {
-            e.preventDefault();
-            iC++;
-            
-            if (iC === 4) {
-              clearTimeout(iT);
-              rO();
-              iC = 0; 
+        eventButtons.forEach(btn => {
+          btn.addEventListener('click', function(e) {
+            // Si estamos realizando el patrón del easter egg, controlamos el contador
+            if (iC === 2 || iC === 3) {
+              e.preventDefault();
+              iC++;
+              
+              if (iC === 4) {
+                clearTimeout(iT);
+                rO();
+                iC = 0; 
+              } else {
+                sIT();
+              }
             } else {
-              sIT();
+              rI(); 
             }
-          } else {
-            rI(); 
-          }
+          });
         });
       }
 
@@ -207,6 +229,45 @@
           pl.style.opacity = '1';
         }, 4000);
       }
+
+      // --- LÓGICA DE NAVEGACIÓN DEL MENÚ MÓVIL ---
+      const menuLinksMobile = document.querySelectorAll('#navMobile .nav-link');
+      const menuLateral = document.getElementById('navMobile');
+      const btnCerrarMenu = menuLateral.querySelector('.btn-close');
+
+      menuLinksMobile.forEach(link => {
+        link.addEventListener('click', function(e) {
+          // Si es el botón de evento y el usuario está activando el easter egg, no hacemos nada más aquí
+          if (this.classList.contains('trigger-evento') && (iC === 2 || iC === 3 || iC === 4)) {
+            return;
+          }
+
+          e.preventDefault(); // Detenemos el salto brusco normal
+
+          const targetId = this.getAttribute('href');
+          const targetSection = document.querySelector(targetId);
+
+          // Simulamos un clic en la 'X' para cerrar el menú lateral correctamente
+          if (btnCerrarMenu) {
+            btnCerrarMenu.click();
+          }
+
+          // Esperamos a que la cortina negra desaparezca y se desbloquee el scroll
+          setTimeout(() => {
+            if (targetSection) {
+              // Hacemos el scroll suave teniendo en cuenta el menú superior fijo (aprox 80px)
+              const headerOffset = 80;
+              const elementPosition = targetSection.getBoundingClientRect().top;
+              const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+              window.scrollTo({
+                top: offsetPosition,
+                behavior: "smooth"
+              });
+            }
+          }, 350); 
+        });
+      });
     });
   </script>
   </body>

@@ -46,7 +46,7 @@ footer: eclipse
 
 <section id="evento" class="container-fluid py-5 text-center">
   <h2 class="fw-bold mb-4">El Evento</h2>
-  <div class="fs-5 fw-semibold mb-4">El día donde ciencia, música, divulgación y fiesta nos unen a todos para contemplar la belleza del firmamento</div>
+  <div class="fs-5 fw-semibold mb-4">El día en el que ciencia, música, divulgación y fiesta nos unen a todos para contemplar la belleza del firmamento</div>
   <div class="row justify-content-center">
     <p class="col-12 col-md-10 col-lg-8 text-center lead text-muted fw-normal reto-text">
       EL ECLIPSE es una experiencia inigualable que solo se puede disfrutar en el sitio adecuado. Los estudiantes de la <strong> Delegación de Valladolid del GdeE de la R.S.E.F.</strong> buscamos poder <strong>ofrecer un lugar perfecto</strong> en cuanto a localización, espacio y vistas para todo el mundo, y así hemos encontrado <strong>Autilla del Pino</strong>: situada en el trayecto del eclipse, apuntando hacia el Sol y alejada de la contaminación lumínica. <br>
@@ -168,10 +168,7 @@ footer: eclipse
         </div>
     </a>
 </div>
-  <!-- <div class="container py-5">
-    <img class="materialboxed rounded responsive-img" src="{{ site.baseurl }}/Delegaciones/Madrid_UCM/HackSat/img/programa_hacksat2026.png" data-bs-toggle="modal" data-bs-target="#programaModal" style="cursor: pointer;">
-  </div> -->
-</section>
+  </section>
 
 <div class="modal fade" id="programaModal" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog modal-fullscreen">
@@ -187,14 +184,12 @@ footer: eclipse
 <section id="ponentes" class="container py-5 text-center">
   <h2 class="fw-bold mb-4">Conoce a los ponentes</h2>
   
-  <div id="carruselPonentes" class="carousel slide carousel-dark" data-bs-ride="carousel" data-bs-interval="10000">
-    
+  <div id="carruselPonentesEscritorio" class="carousel slide carousel-dark d-none d-lg-block" data-bs-ride="carousel" data-bs-interval="10000">
     <div class="carousel-inner px-5"> 
       
       <div class="carousel-item active">
         <div class="row justify-content-center">
-          
-          <div class="col-md-4 mb-4">
+          <div class="col-lg-4 mb-4">
             <div class="jurado-card jurado-1 h-100 tarjeta-clicable" data-bs-toggle="modal" data-bs-target="#modalPonente1">
               <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/AlvaroDueñas.png" alt="Retrato de Álvaro Dueñas">
               <h3 class="miembro-jurado fw-semibold mt-3">Álvaro Dueñas</h3>
@@ -204,8 +199,7 @@ footer: eclipse
               </div>
             </div>
           </div>
-
-          <div class="col-md-4 mb-4">
+          <div class="col-lg-4 mb-4">
             <div class="jurado-card jurado-1 h-100 tarjeta-clicable" data-bs-toggle="modal" data-bs-target="#modalPonente2">
               <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/Buitrago.jpg" alt="Retrato de Fernando Buitrago">
               <h3 class="miembro-jurado fw-semibold mt-3">Fernando Buitrago</h3>
@@ -215,8 +209,7 @@ footer: eclipse
               </div>
             </div>
           </div>
-
-          <div class="col-md-4 mb-4">
+          <div class="col-lg-4 mb-4">
             <div class="jurado-card jurado-1 h-100 tarjeta-clicable" data-bs-toggle="modal" data-bs-target="#modalPonente3">
               <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/GillianNave.jpg" alt="Retrato de Gillian Nave">
               <h3 class="miembro-jurado fw-semibold mt-3">Gillian Nave</h3>
@@ -226,14 +219,12 @@ footer: eclipse
               </div>
             </div>
           </div>
-
         </div>
       </div>
 
       <div class="carousel-item">
         <div class="row justify-content-center">
-          
-          <div class="col-md-4 mb-4">
+          <div class="col-lg-4 mb-4">
             <div class="jurado-card jurado-1 h-100 tarjeta-clicable" data-bs-toggle="modal" data-bs-target="#modalPonente4">
               <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/HugoMessias.png" alt="Retrato de Hugo Messias">
               <h3 class="miembro-jurado fw-semibold mt-3">Hugo Messias</h3>
@@ -243,8 +234,7 @@ footer: eclipse
               </div>
             </div>
           </div>
-
-          <div class="col-md-4 mb-4">
+          <div class="col-lg-4 mb-4">
             <div class="jurado-card jurado-1 h-100 tarjeta-clicable" data-bs-toggle="modal" data-bs-target="#modalPonente5">
               <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/Carlos.jpg" alt="Retrato de Carlos Guzón García">
               <h3 class="miembro-jurado fw-semibold mt-3">Carlos Guzón García</h3>
@@ -254,8 +244,7 @@ footer: eclipse
               </div>
             </div>
           </div>
-
-          <div class="col-md-4 mb-4">
+          <div class="col-lg-4 mb-4">
             <div class="jurado-card jurado-1 h-100 tarjeta-clicable" data-bs-toggle="modal" data-bs-target="#modalPonente6">
               <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/Jaime.jpg" alt="Retrato de Jaime Bajo">
               <h3 class="miembro-jurado fw-semibold mt-3">Jaime Bajo</h3>
@@ -265,21 +254,216 @@ footer: eclipse
               </div>
             </div>
           </div>
-
         </div>
       </div>
 
     </div>
 
-    <button class="carousel-control-prev" type="button" data-bs-target="#carruselPonentes" data-bs-slide="prev" style="width: 5%;">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carruselPonentesEscritorio" data-bs-slide="prev" style="width: 5%;">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Anterior</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carruselPonentes" data-bs-slide="next" style="width: 5%;">
+    <button class="carousel-control-next" type="button" data-bs-target="#carruselPonentesEscritorio" data-bs-slide="next" style="width: 5%;">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Siguiente</span>
     </button>
+  </div>
 
+
+  <div id="carruselPonentesTablet" class="carousel slide carousel-dark d-none d-md-block d-lg-none" data-bs-ride="carousel" data-bs-interval="10000">
+    <div class="carousel-inner px-5"> 
+      
+      <div class="carousel-item active">
+        <div class="row justify-content-center">
+          <div class="col-md-6 mb-4">
+            <div class="jurado-card jurado-1 h-100 tarjeta-clicable" data-bs-toggle="modal" data-bs-target="#modalPonente1">
+              <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/AlvaroDueñas.png" alt="Retrato de Álvaro Dueñas">
+              <h3 class="miembro-jurado fw-semibold mt-3">Álvaro Dueñas</h3>
+              <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
+              <div class="jurado-rol">
+                <p class="texto-truncado">Profesor titular de la Escuela Politécnica Nacional, en Quito, Ecuador. Actualmente dirige la Cátedra de Mecánica y el Grupo de Investigación en Física Teórica del Ecuador...</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="jurado-card jurado-1 h-100 tarjeta-clicable" data-bs-toggle="modal" data-bs-target="#modalPonente2">
+              <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/Buitrago.jpg" alt="Retrato de Fernando Buitrago">
+              <h3 class="miembro-jurado fw-semibold mt-3">Fernando Buitrago</h3>
+              <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
+              <div class="jurado-rol">
+                <p class="texto-truncado">Profesor titular de la Universidad de Valladolid y colaborador externo del Instituto de Astrofísica y Ciencias del Espacio (Portugal). Además miembro de la Junta Directiva de la Sociedad Española de Astronomía...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="row justify-content-center">
+          <div class="col-md-6 mb-4">
+            <div class="jurado-card jurado-1 h-100 tarjeta-clicable" data-bs-toggle="modal" data-bs-target="#modalPonente3">
+              <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/GillianNave.jpg" alt="Retrato de Gillian Nave">
+              <h3 class="miembro-jurado fw-semibold mt-3">Gillian Nave</h3>
+              <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
+              <div class="jurado-rol">
+                <p class="texto-truncado">Retired in 2023 after 29 years in the Atomic Spectroscopy Group at the National Institute of Standards and Technology (NIST), USA. While there, she studied the spectra of neutral and singly-ionized atoms...</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="jurado-card jurado-1 h-100 tarjeta-clicable" data-bs-toggle="modal" data-bs-target="#modalPonente4">
+              <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/HugoMessias.png" alt="Retrato de Hugo Messias">
+              <h3 class="miembro-jurado fw-semibold mt-3">Hugo Messias</h3>
+              <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
+              <div class="jurado-rol">
+                <p class="texto-truncado">Astronomer at ALMA’s Department of Science Operations since January 2020. He obtained his PhD in 2011 at the Universidade de Lisboa, in Portugal. He went on to Universidad de Concepción, in Chile...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="row justify-content-center">
+          <div class="col-md-6 mb-4">
+            <div class="jurado-card jurado-1 h-100 tarjeta-clicable" data-bs-toggle="modal" data-bs-target="#modalPonente5">
+              <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/Carlos.jpg" alt="Retrato de Carlos Guzón García">
+              <h3 class="miembro-jurado fw-semibold mt-3">Carlos Guzón García</h3>
+              <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
+              <div class="jurado-rol">
+                <p class="texto-truncado">Graduado en Biología por la Universidad de León y Máster en Conservación de la Biodiversidad por la Universidad de Granada. Actualmente ejerce / ejerzo de investigador predoctoral en el grupo de investigación ADIBECO (ULE)...</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="jurado-card jurado-1 h-100 tarjeta-clicable" data-bs-toggle="modal" data-bs-target="#modalPonente6">
+              <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/Jaime.jpg" alt="Retrato de Jaime Bajo">
+              <h3 class="miembro-jurado fw-semibold mt-3">Jaime Bajo</h3>
+              <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
+              <div class="jurado-rol">
+                <p class="texto-truncado">Natural de Ciudad Rodrigo, estudió el Doble Grado de Matemáticas y Física en la Universidad de Valladolid, recibiendo el título Fin de Carrera en ambos grados en 2025, así como la beca de Excelencia 360 Santander...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carruselPonentesTablet" data-bs-slide="prev" style="width: 5%;">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carruselPonentesTablet" data-bs-slide="next" style="width: 5%;">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+
+  <div id="carruselPonentesMovil" class="carousel slide carousel-dark d-block d-md-none" data-bs-ride="carousel" data-bs-interval="10000">
+    <div class="carousel-inner px-4"> 
+      
+      <div class="carousel-item active">
+        <div class="row justify-content-center">
+          <div class="col-12 mb-4">
+            <div class="jurado-card jurado-1 h-100 tarjeta-clicable" data-bs-toggle="modal" data-bs-target="#modalPonente1">
+              <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/AlvaroDueñas.png" alt="Retrato de Álvaro Dueñas">
+              <h3 class="miembro-jurado fw-semibold mt-3">Álvaro Dueñas</h3>
+              <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
+              <div class="jurado-rol">
+                <p class="texto-truncado">Profesor titular de la Escuela Politécnica Nacional, en Quito, Ecuador. Actualmente dirige la Cátedra de Mecánica y el Grupo de Investigación en Física Teórica del Ecuador...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="row justify-content-center">
+          <div class="col-12 mb-4">
+            <div class="jurado-card jurado-1 h-100 tarjeta-clicable" data-bs-toggle="modal" data-bs-target="#modalPonente2">
+              <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/Buitrago.jpg" alt="Retrato de Fernando Buitrago">
+              <h3 class="miembro-jurado fw-semibold mt-3">Fernando Buitrago</h3>
+              <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
+              <div class="jurado-rol">
+                <p class="texto-truncado">Profesor titular de la Universidad de Valladolid y colaborador externo del Instituto de Astrofísica y Ciencias del Espacio (Portugal). Además miembro de la Junta Directiva de la Sociedad Española de Astronomía...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="row justify-content-center">
+          <div class="col-12 mb-4">
+            <div class="jurado-card jurado-1 h-100 tarjeta-clicable" data-bs-toggle="modal" data-bs-target="#modalPonente3">
+              <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/GillianNave.jpg" alt="Retrato de Gillian Nave">
+              <h3 class="miembro-jurado fw-semibold mt-3">Gillian Nave</h3>
+              <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
+              <div class="jurado-rol">
+                <p class="texto-truncado">Retired in 2023 after 29 years in the Atomic Spectroscopy Group at the National Institute of Standards and Technology (NIST), USA. While there, she studied the spectra of neutral and singly-ionized atoms...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="row justify-content-center">
+          <div class="col-12 mb-4">
+            <div class="jurado-card jurado-1 h-100 tarjeta-clicable" data-bs-toggle="modal" data-bs-target="#modalPonente4">
+              <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/HugoMessias.png" alt="Retrato de Hugo Messias">
+              <h3 class="miembro-jurado fw-semibold mt-3">Hugo Messias</h3>
+              <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
+              <div class="jurado-rol">
+                <p class="texto-truncado">Astronomer at ALMA’s Department of Science Operations since January 2020. He obtained his PhD in 2011 at the Universidade de Lisboa, in Portugal. He went on to Universidad de Concepción, in Chile...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="row justify-content-center">
+          <div class="col-12 mb-4">
+            <div class="jurado-card jurado-1 h-100 tarjeta-clicable" data-bs-toggle="modal" data-bs-target="#modalPonente5">
+              <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/Carlos.jpg" alt="Retrato de Carlos Guzón García">
+              <h3 class="miembro-jurado fw-semibold mt-3">Carlos Guzón García</h3>
+              <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
+              <div class="jurado-rol">
+                <p class="texto-truncado">Graduado en Biología por la Universidad de León y Máster en Conservación de la Biodiversidad por la Universidad de Granada. Actualmente ejerce / ejerzo de investigador predoctoral en el grupo de investigación ADIBECO (ULE)...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="row justify-content-center">
+          <div class="col-12 mb-4">
+            <div class="jurado-card jurado-1 h-100 tarjeta-clicable" data-bs-toggle="modal" data-bs-target="#modalPonente6">
+              <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/Jaime.jpg" alt="Retrato de Jaime Bajo">
+              <h3 class="miembro-jurado fw-semibold mt-3">Jaime Bajo</h3>
+              <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
+              <div class="jurado-rol">
+                <p class="texto-truncado">Natural de Ciudad Rodrigo, estudió el Doble Grado de Matemáticas y Física en la Universidad de Valladolid, recibiendo el título Fin de Carrera en ambos grados en 2025, así como la beca de Excelencia 360 Santander...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carruselPonentesMovil" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carruselPonentesMovil" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
   </div>
 </section>
 
@@ -420,10 +604,10 @@ footer: eclipse
   <a href="https://mantesolar.com/" class="sponsor-card">
     <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/Mantesolar.jpeg" alt="Mantesolar" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
   </a>
-  <a href="https://www.instagram.com/bodega_paramo/" class="sponsor-card">
+  <a href="https://www.somosonline.es/" class="sponsor-card">
     <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/ONLINE.jpg" alt="Online" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
   </a>
-  <a href="https://www.somosonline.es/" class="sponsor-card">
+  <a href="https://jesusrevilla.es/vino/" class="sponsor-card">
     <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/Páramo.png" alt="Bodegas Páramo" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
   </a>
   <a href=" " class="sponsor-card">
