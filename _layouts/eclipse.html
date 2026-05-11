@@ -3,7 +3,27 @@
 <!DOCTYPE html>
 <html lang="es">
   {% include head.html %}
-  
+  <style>
+  /* Acorta el texto a 4 líneas y añade puntos suspensivos */
+  .texto-truncado {
+    display: -webkit-box;
+    -webkit-line-clamp: 4; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Efecto visual para que parezca clicable */
+  .tarjeta-clicable {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .tarjeta-clicable:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+</style>
   <style>
     @keyframes slideTransition {
       0% {
@@ -100,9 +120,9 @@
       <button class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
     </div>
     <div class="offcanvas-body d-flex flex-column gap-3">
-      <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#reto" data-bs-dismiss="offcanvas"> <i class="fas fa-rocket"></i> <span>Reto</span></a>
+      <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#evento" data-bs-dismiss="offcanvas"> <i class="fas fa-rocket"></i> <span>Evento</span></a>
       <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#programa" data-bs-dismiss="offcanvas"> <i class="fas fa-calendar-alt"></i> <span>Programa</span></a>
-      <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#jurado" data-bs-dismiss="offcanvas"> <i class="fas fa-users"></i> <span>Jurado</span></a>
+      <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#ponentes" data-bs-dismiss="offcanvas"> <i class="fas fa-users"></i> <span>Ponentes</span></a>
       <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#sponsors" data-bs-dismiss="offcanvas"> <i class="fas fa-id-card"></i> <span>Organizadores</span></a>
     </div>
   </div>
