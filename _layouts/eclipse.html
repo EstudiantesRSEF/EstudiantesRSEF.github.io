@@ -1,0 +1,214 @@
+{% assign aisf = "#28008c" %}
+{% assign crimson = "#d60430" %}
+<!DOCTYPE html>
+<html lang="es">
+  {% include head.html %}
+  <style>
+  /* Acorta el texto a 4 líneas y añade puntos suspensivos */
+  .texto-truncado {
+    display: -webkit-box;
+    -webkit-line-clamp: 4; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Efecto visual para que parezca clicable */
+  .tarjeta-clicable {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .tarjeta-clicable:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+</style>
+  <style>
+    @keyframes slideTransition {
+      0% {
+        transform: translate(-50%, -50%) translateX(-120px);
+        opacity: 0;
+      }
+      20% {
+        opacity: 1;
+      }
+      50% {
+        transform: translate(-50%, -50%) translateX(0);
+        opacity: 1;
+      }
+      80% {
+        opacity: 1;
+      }
+      100% {
+        transform: translate(-50%, -50%) translateX(120px);
+        opacity: 0;
+      }
+    }
+    
+    .ui-overlay-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 110px;
+      height: 110px;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      z-index: 9999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .ui-base-layer {
+      position: absolute;
+      width: 90px;
+      height: 90px;
+      background-color: white;
+      border-radius: 50%;
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.8);
+    }
+
+    .ui-dynamic-layer {
+      position: absolute;
+      font-size: 100px;
+      line-height: 1;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); 
+      animation: slideTransition 4s ease-in-out forwards;
+    }
+  </style>
+
+  <body>
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFMX8WX"
+      height="0" width="0" style="display:none;visibility:hidden">
+    </iframe>
+  </noscript>
+
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-premium fixed-top" style="position: relative; overflow: hidden;">
+    <div class="container nav-container" id="nav-container">
+
+      <a class="navbar-brand" href="/" id="brand-container" style="position: relative; display: flex; align-items: center;">
+        <img id="primary-logo" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/LogoTotality-SolBlanco.png" alt="Logo Totality" style="border-radius: 0 !important; object-fit: contain !important; height: 110px; width: auto; transition: opacity 0.3s ease; cursor: pointer;">
+        <span class="fw-bold ms-2">Totality</span>
+      </a>
+
+      <button class="navbar-toggler border-0"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#navMobile">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="ms-auto d-none d-lg-flex gap-4">
+        <a id="primary-event" class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#evento"> 
+          <i class="fas fa-sun"></i> <span>Evento</span>
+        </a>
+        <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#programa"> <i class="fas fa-calendar-alt"></i> <span>Programa</span></a>
+        <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#ponentes"> <i class="fas fa-users"></i> <span>Ponentes</span></a>
+        <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#sponsors"> <i class="fas fa-id-card"></i> <span>Organizadores</span></a>
+      </div>
+
+    </div>
+  </nav>
+
+  <div class="offcanvas offcanvas-end bg-dark text-white" id="navMobile">
+    <div class="offcanvas-header border-bottom border-secondary">
+      <h5 class="fw-bold">Eclipse</h5>
+      <button class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body d-flex flex-column gap-3">
+      <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#evento" data-bs-dismiss="offcanvas"> <i class="fas fa-rocket"></i> <span>Evento</span></a>
+      <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#programa" data-bs-dismiss="offcanvas"> <i class="fas fa-calendar-alt"></i> <span>Programa</span></a>
+      <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#ponentes" data-bs-dismiss="offcanvas"> <i class="fas fa-users"></i> <span>Ponentes</span></a>
+      <a class="nav-link premium-link fw-semibold d-flex align-items-center gap-2" href="#sponsors" data-bs-dismiss="offcanvas"> <i class="fas fa-id-card"></i> <span>Organizadores</span></a>
+    </div>
+  </div>
+
+  {{ content }}
+
+  {% if page.footer == "eclipse" %}
+    {% include Delegaciones/UVa/footer-eclipse.html %}
+  {% else %}
+    {% include footer.html %}
+  {% endif %}
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      let iC = 0;
+      let iT;
+      
+      const pl = document.getElementById('primary-logo');
+      const pe = document.getElementById('primary-event');
+      const bc = document.getElementById('brand-container');
+
+      function rI() {
+        iC = 0;
+        clearTimeout(iT);
+      }
+
+      function sIT() {
+        clearTimeout(iT);
+        iT = setTimeout(rI, 2000);
+      }
+
+      if(pl && pe) {
+        pl.addEventListener('click', function(e) {
+          e.preventDefault(); 
+          if (iC === 0 || iC === 1) {
+            iC++;
+            sIT();
+          } else {
+            rI(); 
+            iC = 1;
+            sIT();
+          }
+        });
+
+        pe.addEventListener('click', function(e) {
+          if (iC === 2 || iC === 3) {
+            e.preventDefault();
+            iC++;
+            
+            if (iC === 4) {
+              clearTimeout(iT);
+              rO();
+              iC = 0; 
+            } else {
+              sIT();
+            }
+          } else {
+            rI(); 
+          }
+        });
+      }
+
+      function rO() {
+        pl.style.opacity = '0';
+
+        const wrp = document.createElement('div');
+        wrp.className = 'ui-overlay-container';
+
+        const bl = document.createElement('div');
+        bl.className = 'ui-base-layer';
+
+        const dl = document.createElement('div');
+        dl.innerText = '\uD83C\uDF11';
+        dl.className = 'ui-dynamic-layer';
+        
+        wrp.appendChild(bl);
+        wrp.appendChild(dl);
+        bc.insertBefore(wrp, pl);
+
+        setTimeout(() => {
+          wrp.remove();
+          pl.style.opacity = '1';
+        }, 4000);
+      }
+    });
+  </script>
+  </body>
+  {% include scripts.html %}
+</html>
