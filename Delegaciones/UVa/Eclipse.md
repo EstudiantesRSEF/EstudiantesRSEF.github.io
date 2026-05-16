@@ -49,9 +49,9 @@ footer: eclipse
   <div class="fs-5 fw-semibold mb-4">El día en el que ciencia, música, divulgación y fiesta nos unen a todos para contemplar la belleza del firmamento</div>
   <div class="row justify-content-center">
     <p class="col-12 col-md-10 col-lg-8 text-center lead text-muted fw-normal reto-text">
-      EL ECLIPSE es una experiencia inigualable que solo se puede disfrutar en el sitio adecuado. Los estudiantes de la <strong> Delegación de Valladolid del GdeE de la R.S.E.F.</strong> buscamos poder <strong>ofrecer un lugar perfecto</strong> en cuanto a localización, espacio y vistas para todo el mundo, y así hemos encontrado <strong>Autilla del Pino</strong>: situada en el trayecto del eclipse, apuntando hacia el Sol y alejada de la contaminación lumínica. <br>
+      EL ECLIPSE es una experiencia inigualable que solo se puede disfrutar en el sitio adecuado. Los estudiantes de la <strong> Delegación de Valladolid del GdeE de la R.S.E.F.</strong> buscamos poder <strong>ofrecer un lugar perfecto</strong> en cuanto a localización, espacio y vistas para todo el mundo, y así hemos encontrado <strong>Autilla del Pino</strong>: situada en el trayecto del eclipse, apuntando hacia el Sol y alejada de la contaminación lumínica, lo que nos va a permitir aprovechar este evento para finalizar haciendo una observación guiada del firmamento y las perseidas. <br>
       Nuestro propósito es <strong>hacer llegar las maravillas astronómicas</strong> que nunca podemos ver a aquellos miembros que forman nuestra comunidad científica, pero también compartirlo con <strong>todas las personas</strong> para que conozcan la parte más bella de la Física: <strong>las experiencias reales</strong>. <br>
-      Para aprovechar el potencial de reunir a tanta gente, no solo se tratará de un eclipse; mejoraremos todo lo posible esta oportunidad única, completando todo el día con actividades de todo tipo y gustos: vendrán expertos de todo el mundo, habrá música en directo, barra de comida y bebida, talleres para toda la familia, estancia acomodada para compartir tiempo con la gente, telescopios solares, exploración guiada... <br>
+      Para aprovechar el potencial de reunir a tanta gente, no solo se tratará de un eclipse; mejoraremos todo lo posible esta oportunidad única, completando todo el día con actividades de todo tipo y para todos los gustos: vendrán expertos de todo el mundo, habrá música en directo, barra de comida y bebida, talleres para toda la familia, estancia acomodada para compartir tiempo con la gente, telescopios solares, exploración guiada... <br>
       Buscamos elevar el fenómeno a <strong>un día inolvidable</strong>. Seas quien seas SIÉNTETE INVITADO a descubrir más y que no solo sea una sencilla mirada al Sol. Ven acompañado, disfruta del día con todos, participa en los talleres, charlas, actividades y también encuentra tiempo para relajarte y conectar con la naturaleza. <br>
       Los pilares fundamentales de este precioso evento son:
     </p>
@@ -164,7 +164,7 @@ footer: eclipse
   <div class="d-flex justify-content-center my-4">
     <a href="https://www.instagram.com/totality.eclipse2026/" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
         <div class="circle-transparent text-center">
-            <i class="fab fa-instagram fs-1 text-primary"></i>
+            <i class="fab fa-instagram text-primary" style="font-size: 80px;"></i>
         </div>
     </a>
 </div>
@@ -557,6 +557,32 @@ footer: eclipse
   </div>
 </div>
 
+<section id="inscribete" class="container py-5 text-center">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-10 col-lg-8">
+      <div class="p-5 rounded-4 shadow-sm border" style="background-color: rgba(255, 255, 255, 0.05);">
+        
+        <!-- Icono decorativo -->
+        <div class="circle-transparent mx-auto mb-3 d-flex justify-content-center align-items-center">
+          <i class="fas fa-envelope-open-text fs-1 text-primary"></i>
+        </div>
+        
+        <h2 class="fw-bold mb-4">¡Inscríbete y no te pierdas nada!</h2>
+        
+        <p class="lead text-muted fw-normal reto-text mb-4">
+          Que no te lo cuenten. Únete a nosotros en este día histórico donde la ciencia, la naturaleza y la celebración se dan la mano bajo el cielo de Autilla del Pino. Rellena el siguiente formulario para apuntarte a la actividad, asegurar tu plaza y recibir todas las novedades del evento de primera mano.
+        </p>
+        
+        <!-- Botón de llamada a la acción -->
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSclXMK4BkviOcvoU1TTWBHrnqpBmH-fGi_MNzAhxz-PqO8P0Q/viewform" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg px-5 py-0 fw-semibold shadow-sm" style="border-radius: 50px;">
+          <i class="fas fa-clipboard-list me-2"></i> Acceder al formulario
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="sponsors" class="container text-center mb-5">
   <h2 class="fw-bold mb-4">Organizan</h2>
   
@@ -571,8 +597,7 @@ footer: eclipse
     <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/ASTRÓBRIGA.jpeg" alt="Astróbriga" class="img-fluid mw-100 object-fit-contain" style="height: 150px;">
   </a>
   </div>
-  <h2 class="fw-bold mb-4">Patrocinan</h2>
-  
+  <h2 class="fw-bold mb-4">Colaboran</h2>
   <div class="d-flex flex-wrap justify-content-center align-items-center gap-5 m-4">
     <a href="https://fundacionlacaixa.org/es/" class="sponsor-card">
       <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/Logo_horizontal_CMYK_castellano.jpg" alt="Fundación la Caixa" class="img-fluid max-h-24 mw-100 object-fit-contain">
@@ -581,7 +606,6 @@ footer: eclipse
       <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/Logo Largo Color Fondo.jpg" alt="Diputación de Palencia" class="img-fluid max-h-24 mw-100 object-fit-contain">
     </a>
   </div>
-  <h2 class="fw-bold mb-4">Colaboran</h2>
   <div class="d-flex flex-wrap justify-content-center align-items-center gap-5 m-4">
   <a href="https://www.talleresarnaiz.es/" class="sponsor-card">
     <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/ARNÁIZ.jpeg" alt="Arnáiz" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">

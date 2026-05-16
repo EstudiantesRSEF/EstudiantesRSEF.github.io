@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,15 +53,10 @@
         section { padding: 100px 10%; scroll-margin-top: 60px; }
         h2.section-title { text-align: center; color: var(--verde-oscuro); font-size: 2.5rem; margin-bottom: 50px; }
 
-        /* 1. HOME */
+       /* 1. HOME */
         .hero {
             height: 100vh;
-<<<<<<< HEAD:SIPE/index.html
-            /* Degradado de Verde Oscuro a Rojo Oscuro para darle un toque espectacular */
             background: linear-gradient(rgba(24, 95, 8, 0.7), rgba(129, 25, 25, 0.7)), url('murcia.jpg') center/cover;
-=======
-            background: linear-gradient(rgba(26,37,47,0.7), rgba(230,126,34,0.6)), url('murcia.jpg') center/cover;
->>>>>>> 660c5c3fb94c9121bc5f5e21cf1d251c4b814f06:SIPE_idhiUFHIuubfiuhfiuHFIUHiwuhvui2883838384ksjoaj/index.html
             background-attachment: fixed;
             display: flex;
             flex-direction: column;
@@ -80,6 +77,7 @@
             font-weight: bold;
             transition: all 0.3s;
             box-shadow: 0 4px 15px rgba(185, 54, 54, 0.4);
+            display: inline-block;
         }
         .btn:hover { background-color: var(--rojo-oscuro); transform: translateY(-3px); box-shadow: 0 6px 20px rgba(129, 25, 25, 0.6); }
 
@@ -231,11 +229,7 @@
         .schedule-info { flex: 1; }
         .schedule-speaker { font-weight: 600; color: var(--verde-medio); display: block; font-size: 1rem; }
 
-<<<<<<< HEAD:SIPE/index.html
-        /* 4. OC */
-=======
-        /* 4. COMITÉ ORGANIZADOR */
->>>>>>> 660c5c3fb94c9121bc5f5e21cf1d251c4b814f06:SIPE_idhiUFHIuubfiuhfiuHFIUHiwuhvui2883838384ksjoaj/index.html
+        /* 4. OC / COMITÉ ORGANIZADOR */
         .grid-oc {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -258,18 +252,11 @@
             border: 4px solid var(--verde-claro);
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
-<<<<<<< HEAD:SIPE/index.html
         .oc-member h3 { color: var(--rojo-oscuro); font-size: 1.2rem; margin-bottom: 5px;}
         .cargo { color: var(--amarillo-oscuro); font-weight: bold; margin-bottom: 15px; display: inline-block; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;}
+        .oc-desc { font-size: 0.95rem; color: #666; font-style: italic;}
         
         /* 5. PARTNERSHIPS */
-=======
-        .oc-member h3 { color: var(--secundario); font-size: 1.2rem; margin-bottom: 5px;}
-        .cargo { color: var(--primario); font-weight: bold; margin-bottom: 15px; display: inline-block; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;}
-        .oc-desc { font-size: 0.95rem; color: #666; font-style: italic;}
-
-        /* 5. PARTNERSHIPS*/
->>>>>>> 660c5c3fb94c9121bc5f5e21cf1d251c4b814f06:SIPE_idhiUFHIuubfiuhfiuHFIUHiwuhvui2883838384ksjoaj/index.html
         .partners-grid {
             display: flex;
             flex-wrap: wrap;
@@ -296,55 +283,21 @@
             background-image: radial-gradient(circle at top right, rgba(75, 171, 68, 0.4), transparent);
         }
         .registro h2.section-title { color: var(--blanco); }
-        .formulario-espera {
-            display: flex;
-            justify-content: center;
-            margin-top: 40px;
-            gap: 0;
+        
+        .signup-text {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            font-weight: 500;
         }
-        .formulario-espera input {
-            padding: 15px 20px;
-            width: 100%;
-            max-width: 400px;
-            border: none;
-            border-radius: 5px 0 0 5px;
-            font-size: 1rem;
-            outline: none;
-        }
-        .formulario-espera button {
-            padding: 15px 30px;
-            border: none;
-            background-color: var(--amarillo-oscuro);
-            color: var(--verde-oscuro);
-            font-size: 1rem;
-            font-weight: bold;
-            border-radius: 0 5px 5px 0;
-            cursor: pointer;
-            transition: background 0.3s;
-        }
-        .formulario-espera button:hover { background-color: var(--amarillo-claro); }
 
         footer { background: var(--rojo-oscuro); color: var(--fondo); text-align: center; padding: 30px; font-size: 1rem; font-weight: bold; letter-spacing: 1px;}
         footer span { color: var(--amarillo-claro); }
     
-<<<<<<< HEAD:SIPE/index.html
-        /* MODALES */
+        /* --- VENTANAS MODALES (Artículos de Murcia) --- */
         .modal-overlay {
             position: fixed;
             top: 0; left: 0; width: 100%; height: 100%;
             background: rgba(24, 95, 8, 0.85);
-=======
-    /* --- VENTANAS MODALES (Artículos de Murcia) --- */
-        .card {
-            cursor: pointer; 
-        }
-        
-        /* Contenedor del Pop-up oscurecido */
-        .modal-overlay {
-            position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(26, 37, 47, 0.85); 
->>>>>>> 660c5c3fb94c9121bc5f5e21cf1d251c4b814f06:SIPE_idhiUFHIuubfiuhfiuHFIUHiwuhvui2883838384ksjoaj/index.html
             display: flex;
             justify-content: center;
             align-items: center;
@@ -353,15 +306,8 @@
             visibility: hidden;
             transition: all 0.3s ease;
         }
-<<<<<<< HEAD:SIPE/index.html
         .modal-overlay.active { opacity: 1; visibility: visible; }
-=======
-        .modal-overlay.active {
-            opacity: 1;
-            visibility: visible;
-        }
         
->>>>>>> 660c5c3fb94c9121bc5f5e21cf1d251c4b814f06:SIPE_idhiUFHIuubfiuhfiuHFIUHiwuhvui2883838384ksjoaj/index.html
         .modal-content {
             background: var(--blanco);
             padding: 40px;
@@ -375,15 +321,8 @@
             overflow-y: auto;
             box-shadow: 0 15px 30px rgba(0,0,0,0.2);
         }
-<<<<<<< HEAD:SIPE/index.html
         .modal-overlay.active .modal-content { transform: translateY(0); }
-=======
         
-        .modal-overlay.active .modal-content {
-            transform: translateY(0);
-        }
-        
->>>>>>> 660c5c3fb94c9121bc5f5e21cf1d251c4b814f06:SIPE_idhiUFHIuubfiuhfiuHFIUHiwuhvui2883838384ksjoaj/index.html
         .close-btn {
             position: absolute;
             top: 15px; right: 20px;
@@ -394,16 +333,11 @@
             border: none;
             transition: color 0.3s;
         }
-<<<<<<< HEAD:SIPE/index.html
         .close-btn:hover { color: var(--rojo-oscuro); }
-        .modal-content h3 { color: var(--rojo-oscuro); margin-bottom: 20px; font-size: 1.8rem; }
-=======
-        .close-btn:hover { color: var(--primario); }
         
-        .modal-content h3 { color: var(--primario); margin-bottom: 20px; font-size: 1.8rem; }
+        .modal-content h3 { color: var(--rojo-oscuro); margin-bottom: 20px; font-size: 1.8rem; }
         .modal-content p { margin-bottom: 15px; color: #555; }
         
->>>>>>> 660c5c3fb94c9121bc5f5e21cf1d251c4b814f06:SIPE_idhiUFHIuubfiuhfiuHFIUHiwuhvui2883838384ksjoaj/index.html
         .article-info { display: none; }
     
     </style>
@@ -669,16 +603,14 @@
     <section id="OC">
         <h2 class="section-title">Meet the OC</h2>
         <div class="grid-oc">
+            {% for member in site.data.SIPE.OC %}
             <div class="oc-member">
-                <img src="https://via.placeholder.com/150" alt="OC" class="oc-foto">
-                <h3>First Name Last Name</h3>
-                <span class="cargo">Role 1</span>
+                <img src="{{ member.image }}" alt="{{ member.name }}" class="oc-foto">
+                <h3>{{ member.name }}</h3>
+                <span class="cargo">{{ member.role }}</span>
+                <p class="oc-desc">{{ member.description }}</p>
             </div>
-            <div class="oc-member">
-                <img src="https://via.placeholder.com/150" alt="OC" class="oc-foto">
-                <h3>First Name Last Name</h3>
-                <span class="cargo">Role 2</span>
-            </div>
+            {% endfor %}
         </div>
     </section>
 
@@ -692,10 +624,15 @@
 
     <section id="SignUp" class="registro">
         <h2 class="section-title">Sign Up Now</h2>
-        <form class="formulario-espera" onsubmit="event.preventDefault(); alert('Grazie!');">
-            <input type="email" placeholder="Please provide your email" required>
-            <button type="submit">Register</button>
-        </form>
+        
+        <!-- ESTA ES LA VERSIÓN FINAL CON EL BOTÓN. DESCOMENTAR CUANDO ESTÉ LISTO EL FORMULARIO
+        <p class="signup-text">Don't miss out! Come on and join us for an unforgettable experience.</p>
+        <a href="#" class="btn">Go to Registration Form</a>
+        -->
+        
+        <!-- ESTE ES EL TEXTO TEMPORAL ACTUAL -->
+        <p class="signup-text">We are still working on it! Stay tuned so you don't miss any details.</p>
+        
     </section>
 
     <footer>
@@ -707,24 +644,16 @@
         function abrirModal(tarjeta) {
             const titulo = tarjeta.querySelector('h3').innerText;
             const contenidoArticulo = tarjeta.querySelector('.article-info').innerHTML;
-<<<<<<< HEAD:SIPE/index.html
-            document.getElementById('modal-title').innerText = titulo;
-            document.getElementById('modal-body').innerHTML = contenidoArticulo;
-=======
             
             document.getElementById('modal-title').innerText = titulo;
             document.getElementById('modal-body').innerHTML = contenidoArticulo;
             
->>>>>>> 660c5c3fb94c9121bc5f5e21cf1d251c4b814f06:SIPE_idhiUFHIuubfiuhfiuHFIUHiwuhvui2883838384ksjoaj/index.html
             document.getElementById('info-modal').classList.add('active');
         }
         function cerrarModal() {
             document.getElementById('info-modal').classList.remove('active');
         }
-<<<<<<< HEAD:SIPE/index.html
-=======
 
->>>>>>> 660c5c3fb94c9121bc5f5e21cf1d251c4b814f06:SIPE_idhiUFHIuubfiuhfiuHFIUHiwuhvui2883838384ksjoaj/index.html
         window.onclick = function(event) {
             if (event.target === document.getElementById('info-modal')) cerrarModal();
         }
