@@ -10,10 +10,18 @@
 #  link: "http://epsyoungminds.org"
 #  level: "1"
 
+
+
 - name: "UV"
   section: "Instituciones Académicas"
   logo: "/ENEF/2026/img/Sponsors/logoUV.jpg"
   link: "https://www.uv.es/"
+  level: "2"
+
+- name: "UV- Facultad de Física"
+  section: "Instituciones Académicas"
+  logo: "/ENEF/2026/img/Sponsors/logo_facultadFisicaUV.jpg"
+  link: "https://www.uv.es/uvweb/fisica/es/facultad-fisica-1285850062061.html"
   level: "2"
 
 - name: "UPV"

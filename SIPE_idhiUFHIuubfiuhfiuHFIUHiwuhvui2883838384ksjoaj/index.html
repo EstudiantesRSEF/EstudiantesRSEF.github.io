@@ -253,7 +253,35 @@
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
         .oc-member h3 { color: var(--rojo-oscuro); font-size: 1.2rem; margin-bottom: 5px;}
-        .cargo { color: var(--amarillo-oscuro); font-weight: bold; margin-bottom: 15px; display: inline-block; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;}
+        /* Contenedor de las etiquetas */
+.oc-roles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px; /* Separación entre las etiquetas */
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* Diseño individual de cada etiqueta */
+.badge-role {
+    background-color: var(--fondo);
+    color: var(--verde-oscuro);
+    border: 1px solid var(--verde-claro);
+    padding: 4px 10px;
+    border-radius: 20px; /* Bordes redondeados tipo píldora */
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Truco visual: Destacar el cargo principal */
+.badge-role:first-child {
+    background-color: var(--amarillo-claro);
+    color: var(--rojo-oscuro);
+    border: none;
+}
         .oc-desc { font-size: 0.95rem; color: #666; font-style: italic;}
         
         /* 5. PARTNERSHIPS */
@@ -601,18 +629,26 @@
     </section>
 
     <section id="OC">
-        <h2 class="section-title">Meet the OC</h2>
-        <div class="grid-oc">
-            {% for member in site.data.SIPE.OC %}
-            <div class="oc-member">
-                <img src="{{ member.image }}" alt="{{ member.name }}" class="oc-foto">
-                <h3>{{ member.name }}</h3>
-                <span class="cargo">{{ member.role }}</span>
-                <p class="oc-desc">{{ member.description }}</p>
+    <h2 class="section-title">Meet the OC</h2>
+    <div class="grid-oc">
+        {% for member in site.data.SIPE.OC %}
+        <div class="oc-member">
+            <img src="{{ member.image }}" alt="{{ member.name }}" class="oc-foto">
+            <h3>{{ member.name }}</h3>
+            
+            <!-- Contenedor de roles transformado en etiquetas -->
+            <div class="oc-roles">
+                {% assign roles = member.role | split: ", " %}
+                {% for rol in roles %}
+                    <span class="badge-role">{{ rol }}</span>
+                {% endfor %}
             </div>
-            {% endfor %}
+            
+            <p class="oc-desc">{{ member.description }}</p>
         </div>
-    </section>
+        {% endfor %}
+    </div>
+</section>
 
     <section id="Partnerships">
         <h2 class="section-title">Our Partnerships</h2>

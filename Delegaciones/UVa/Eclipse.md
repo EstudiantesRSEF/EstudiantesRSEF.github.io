@@ -240,7 +240,7 @@ footer: eclipse
               <h3 class="miembro-jurado fw-semibold mt-3">Carlos Guzón García</h3>
               <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
               <div class="jurado-rol">
-                <p class="texto-truncado">Graduado en Biología por la Universidad de León y Máster en Conservación de la Biodiversidad por la Universidad de Granada. Actualmente ejerce / ejerzo de investigador predoctoral en el grupo de investigación ADIBECO (ULE)...</p>
+                <p class="texto-truncado">Graduado en Biología por la Universidad de León y Máster en Conservación de la Biodiversidad por la Universidad de Granada. Actualmente ejerce de investigador predoctoral en el grupo de investigación ADIBECO (ULE)...</p>
               </div>
             </div>
           </div>
@@ -331,7 +331,7 @@ footer: eclipse
               <h3 class="miembro-jurado fw-semibold mt-3">Carlos Guzón García</h3>
               <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
               <div class="jurado-rol">
-                <p class="texto-truncado">Graduado en Biología por la Universidad de León y Máster en Conservación de la Biodiversidad por la Universidad de Granada. Actualmente ejerce / ejerzo de investigador predoctoral en el grupo de investigación ADIBECO (ULE)...</p>
+                <p class="texto-truncado">Graduado en Biología por la Universidad de León y Máster en Conservación de la Biodiversidad por la Universidad de Granada. Actualmente ejerce de investigador predoctoral en el grupo de investigación ADIBECO (ULE)...</p>
               </div>
             </div>
           </div>
@@ -432,7 +432,7 @@ footer: eclipse
               <h3 class="miembro-jurado fw-semibold mt-3">Carlos Guzón García</h3>
               <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
               <div class="jurado-rol">
-                <p class="texto-truncado">Graduado en Biología por la Universidad de León y Máster en Conservación de la Biodiversidad por la Universidad de Granada. Actualmente ejerce / ejerzo de investigador predoctoral en el grupo de investigación ADIBECO (ULE)...</p>
+                <p class="texto-truncado">Graduado en Biología por la Universidad de León y Máster en Conservación de la Biodiversidad por la Universidad de Granada. Actualmente ejerce de investigador predoctoral en el grupo de investigación ADIBECO (ULE)...</p>
               </div>
             </div>
           </div>
@@ -536,7 +536,7 @@ footer: eclipse
       <div class="modal-body text-center px-5 pb-5">
         <img style="width:200px; height:200px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/Carlos.jpg" alt="Carlos Guzón García" class="mb-4">
         <h3 class="fw-bold mb-3">Carlos Guzón García</h3>
-        <p class="text-start">Graduado en Biología por la Universidad de León y Máster en Conservación de la Biodiversidad por la Universidad de Granada. Actualmente ejerce / ejerzo de investigador predoctoral en el grupo de investigación ADIBECO (ULE), con un proyecto que estudia la comunicación animal utilizando inteligencia artificial y la corneja negra como especie modelo.</p>
+        <p class="text-start">Graduado en Biología por la Universidad de León y Máster en Conservación de la Biodiversidad por la Universidad de Granada. Actualmente ejerce de investigador predoctoral en el grupo de investigación ADIBECO (ULE), con un proyecto que estudia la comunicación animal utilizando inteligencia artificial y la corneja negra como especie modelo.</p>
       </div>
     </div>
   </div>
