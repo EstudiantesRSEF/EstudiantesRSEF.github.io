@@ -118,8 +118,22 @@
         /* 2. DISCOVER MURCIA */
         .grid-murcia {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(4, 1fr); /* 4 columnas por defecto */
             gap: 30px;
+        }
+
+        /* Pantallas medianas (Portátiles y Tablets): 2x2 simétrico */
+        @media (max-width: 1100px) {
+            .grid-murcia {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Pantallas pequeñas (Móviles): 1 columna vertical */
+        @media (max-width: 650px) {
+            .grid-murcia {
+                grid-template-columns: 1fr;
+            }
         }
         .card {
             background: var(--blanco);
@@ -232,9 +246,11 @@
         /* 4. OC / COMITÉ ORGANIZADOR */
         .grid-oc {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            grid-template-columns: repeat(4, 1fr); /* 4 tarjetas por fila en PC */
             gap: 40px;
+            width: 100%; /* Ocupa todo el espacio disponible */
         }
+        
         .oc-member {
             background: var(--blanco);
             padding: 30px 20px;
@@ -243,6 +259,22 @@
             box-shadow: 0 5px 15px rgba(0,0,0,0.05);
             transition: transform 0.3s;
         }
+
+        /* Pantallas medianas (Portátiles y Tablets): 2 por fila */
+        @media (max-width: 1100px) {
+            .grid-oc {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Pantallas pequeñas (Móviles): 1 por fila */
+        @media (max-width: 650px) {
+            .grid-oc {
+                grid-template-columns: 1fr;
+            }
+        }
+
+
         .oc-member:hover { transform: scale(1.05); }
         .oc-foto {
             width: 140px; height: 140px;
@@ -254,34 +286,37 @@
         }
         .oc-member h3 { color: var(--rojo-oscuro); font-size: 1.2rem; margin-bottom: 5px;}
         /* Contenedor de las etiquetas */
-.oc-roles {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 6px; /* Separación entre las etiquetas */
-    margin-top: 10px;
-    margin-bottom: 15px;
-}
+/* Contenedor de las etiquetas */
+        .oc-roles {
+            text-align: center; /* Centra el contenido */
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
 
-/* Diseño individual de cada etiqueta */
-.badge-role {
-    background-color: var(--fondo);
-    color: var(--verde-oscuro);
-    border: 1px solid var(--verde-claro);
-    padding: 4px 10px;
-    border-radius: 20px; /* Bordes redondeados tipo píldora */
-    font-size: 0.75rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
+        /* Diseño individual de cada etiqueta secundaria */
+        .badge-role {
+            display: inline-block; /* Permite que se coloquen una al lado de otra */
+            margin: 3px; /* Espaciado entre etiquetas (sustituye al gap) */
+            background-color: var(--fondo);
+            color: var(--verde-oscuro);
+            border: 1px solid var(--verde-claro);
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
 
-/* Truco visual: Destacar el cargo principal */
-.badge-role:first-child {
-    background-color: var(--amarillo-claro);
-    color: var(--rojo-oscuro);
-    border: none;
-}
+        /* Truco visual: Destacar el cargo principal en su propia fila */
+        .badge-role:first-child {
+            display: block; /* Fuerza a la etiqueta a estar sola en su propia línea */
+            width: fit-content; /* Evita que el fondo se estire por toda la tarjeta */
+            margin: 0 auto 8px auto; /* Centra la etiqueta y deja espacio por debajo */
+            background-color: var(--amarillo-claro);
+            color: var(--rojo-oscuro);
+            border: none;
+        }
         .oc-desc { font-size: 0.95rem; color: #666; font-style: italic;}
         
         /* 5. PARTNERSHIPS */
@@ -531,7 +566,7 @@
                     <ul class="schedule-list">
                         <li class="schedule-item">
                             <div class="schedule-time">09:00 - 10:00</div>
-                            <div class="schedule-info"><span class="schedule-speaker">Train/Bus to Cartagena</span></div>
+                            <div class="schedule-info"><span class="schedule-speaker">Travel to Cartagena</span></div>
                         </li>
                         <li class="schedule-item">
                             <div class="schedule-time">10:00 - 11:30</div>
@@ -555,7 +590,7 @@
                         </li>
                         <li class="schedule-item">
                             <div class="schedule-time">20:00 - 21:00</div>
-                            <div class="schedule-info"><span class="schedule-speaker">Train/Bus to Murcia</span></div>
+                            <div class="schedule-info"><span class="schedule-speaker">Travel to Murcia</span></div>
                         </li>
                     </ul>
                 </div>
