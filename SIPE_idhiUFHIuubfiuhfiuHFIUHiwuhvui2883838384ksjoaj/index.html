@@ -224,7 +224,70 @@
             padding: 20px 25px 25px 25px;
             max-height: 1500px;
         }
-
+        .slide-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.6); /* Fondo negro semi-transparente */
+            color: var(--blanco);
+            padding: 15px;
+            font-size: 1.1rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+        /* --- CARRUSEL SIPE --- */
+        .carrusel-seccion {
+            background-color: var(--blanco);
+            text-align: center;
+        }
+        .carrusel-pequeno {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+        .slide {
+            display: none;
+        }
+        .slide.activa {
+            display: block;
+            animation: fade 0.8s ease-in-out;
+        }
+        .slide img {
+            width: 100%;
+            height: 450px;
+            object-fit: cover;
+            display: block;
+        }
+        @keyframes fade {
+            from { opacity: 0.6; }
+            to { opacity: 1; }
+        }
+        
+        /* Botones de navegación */
+        .btn-carrusel {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(24, 95, 8, 0.7); /* Verde del SIPE */
+            color: var(--blanco);
+            border: none;
+            width: 50px;
+            height: 50px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            border-radius: 50%;
+            transition: background 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn-carrusel:hover { background-color: var(--rojo-claro); }
+        .btn-carrusel.prev { left: 15px; }
+        .btn-carrusel.next { right: 15px; }
         .schedule-list { list-style: none; }
         .schedule-item {
             display: flex;
@@ -246,9 +309,9 @@
         /* 4. OC / COMITÉ ORGANIZADOR */
         .grid-oc {
             display: grid;
-            grid-template-columns: repeat(4, 1fr); /* 4 tarjetas por fila en PC */
+            grid-template-columns: repeat(4, 1fr);
             gap: 40px;
-            width: 100%; /* Ocupa todo el espacio disponible */
+            width: 100%;
         }
         
         .oc-member {
@@ -260,11 +323,27 @@
             transition: transform 0.3s;
         }
 
+        .oc-member:hover { transform: scale(1.05); }
+
+        /* MAGIA CORREGIDA: Usando el flujo natural de CSS Grid */
+        @media (min-width: 1101px) {
+            .oc-member:nth-child(1) {
+                grid-column: 2; /* Obliga al primero a empezar en la columna 2. (La columna 1 se salta y queda vacía) */
+            }
+            /* El miembro 2 fluye naturalmente a la columna 3 */
+            
+            .oc-member:nth-child(3) {
+                grid-column: 1; /* Le pedimos al 3 que vaya a la columna 1. Como Grid nunca retrocede, se ve obligado a saltar a la fila de abajo. (La columna 4 se salta y queda vacía). */
+            }
+            /* A partir del 4, todos rellenan las 4 columnas de forma normal */
+        }
+        
         /* Pantallas medianas (Portátiles y Tablets): 2 por fila */
         @media (max-width: 1100px) {
             .grid-oc {
                 grid-template-columns: repeat(2, 1fr);
             }
+            /* Como sois 14, aquí saldrán 7 filas perfectas de 2 sin huecos raros */
         }
 
         /* Pantallas pequeñas (Móviles): 1 por fila */
@@ -441,8 +520,43 @@
         </div>
     </section>
 
+    
+
     <section id="Murcia">
         <h2 class="section-title">Discover Murcia</h2>
+        <div style="margin-bottom: 60px; text-align: center;">
+            <div class="carrusel-pequeno">
+                <!-- Fotos -->
+                <div class="slide activa">
+                    <img src="La Merced 1.jpg" alt="La Merced Campus">
+                    <div class="slide-caption">La Merced Campus</div>
+                </div>
+                <div class="slide">
+                    <img src="La Merced 2.jpg" alt="La Merced Campus">
+                    <div class="slide-caption">La Merced Campus</div>
+                </div>
+                <div class="slide">
+                    <img src="Edificio Pleiades.jpg" alt="Edificio Pleiades">
+                    <div class="slide-caption">Edificio Pleiades</div>
+                </div>
+                <div class="slide">
+                    <img src="UmuFQ.jpg" alt="University of Murcia (UMU), Faculty of Chemistry">
+                    <div class="slide-caption">University of Murcia (UMU), Faculty of Chemistry</div>
+                </div>
+                <div class="slide">
+                    <img src="UPCT1.jpg" alt="Polytechnic University of Cartagena (UPCT)">
+                    <div class="slide-caption">Polytechnic University of Cartagena (UPCT)</div>
+                </div>
+                <div class="slide">
+                    <img src="UPCT2.jpg" alt="Polytechnic University of Cartagena (UPCT)">
+                    <div class="slide-caption">Polytechnic University of Cartagena (UPCT)</div>
+                </div>
+
+                <!-- Controles -->
+                <button class="btn-carrusel prev" onclick="moverCarrusel(-1)">&#10094;</button>
+                <button class="btn-carrusel next" onclick="moverCarrusel(1)">&#10095;</button>
+            </div>
+        </div>
         <div class="grid-murcia">
             <div class="card" onclick="abrirModal(this)">
                 <span class="card-icon">✈️</span>
@@ -736,6 +850,36 @@
                 currentItem.classList.toggle('active');
             });
         });
+
+    // Funcionalidad del Carrusel
+        let slideIndex = 0;
+        const slides = document.querySelectorAll('.slide');
+        let temporizador; // Guardamos el reloj en una variable
+
+        function moverCarrusel(n) {
+            slides[slideIndex].classList.remove('activa');
+            
+            slideIndex += n;
+            
+            // Ciclo infinito
+            if (slideIndex >= slides.length) { slideIndex = 0; }
+            if (slideIndex < 0) { slideIndex = slides.length - 1; }
+            
+            slides[slideIndex].classList.add('activa');
+            
+            // Cada vez que cambiamos de foto (manual o automático), reiniciamos el reloj
+            reiniciarTemporizador();
+        }
+
+        function reiniciarTemporizador() {
+            clearInterval(temporizador); // Borra la cuenta atrás anterior
+            temporizador = setInterval(() => {
+                moverCarrusel(1); // Cuenta 5 segundos nuevos
+            }, 5000);
+        }
+
+        // Arrancamos el reloj por primera vez al cargar la página
+        reiniciarTemporizador();
     </script>
 </body>
 </html>
