@@ -1,0 +1,16 @@
+organizadores:
+  - name: "GdeE"
+    logo: "/img/logos/gdee-rsef-white-background.png"
+    url: "https://estudiantes.rsef.es/"
+patrocinadores:
+  - name: "IAPS"
+    logo: "/img/iapsnew.png"
+    url: "https://iaps.info/"
+  
+  - name: "UMU"
+    logo: "/SIPE/Sponsors/UMU.jpg"
+    url: "https://www.um.es/"
+  
+  - name: "Facultad de Química UMU"
+    logo: "/SIPE/Sponsors/FacultadQuimicaUMU.jpg"
+    url: "https://www.um.es/web/quimica/"

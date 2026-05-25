@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIPE 2026 | Murcia</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <style>
         /* Nuevas Variables de Color basadas en la paleta proporcionada */
@@ -407,7 +408,7 @@
             gap: 50px;
         }
         .partner-logo {
-            width: 150px;
+            width: 220px;
             height: auto;
             filter: grayscale(100%) opacity(0.6);
             transition: all 0.3s;
@@ -434,6 +435,18 @@
 
         footer { background: var(--rojo-oscuro); color: var(--fondo); text-align: center; padding: 30px; font-size: 1rem; font-weight: bold; letter-spacing: 1px;}
         footer span { color: var(--amarillo-claro); }
+        
+        .social-link {
+            display: inline-block;
+            margin-left: 20px;
+            color: var(--amarillo-claro);
+            font-size: 1.8rem;
+            transition: all 0.3s ease;
+        }
+        .social-link:hover {
+            transform: scale(1.2);
+            color: var(--blanco);
+        }
     
         /* --- VENTANAS MODALES (Artículos de Murcia) --- */
         .modal-overlay {
@@ -503,7 +516,7 @@
 
     <section id="Home" class="hero">
         <h1>SIPE 2026</h1>
-        <p>Spanish-Italian Physics Exchange. Murcia 2026 <br> "Fisica senza confini, Física sin fronteras”</p>
+        <p>Spanish-Italian Physics Exchange. <br>Murcia, October 20-24, 2026 <br> "Fisica senza confini, Física sin fronteras"</p>
         <a href="#SignUp" class="btn">Register Now</a>
     </section>
 
@@ -800,10 +813,25 @@
 </section>
 
     <section id="Partnerships">
-        <h2 class="section-title">Our Partnerships</h2>
+        
+        <!-- ORGANIZADORES -->
+        <h3 style="text-align: center; color: var(--verde-medio); margin-bottom: 40px; font-size: 1.8rem;">Organizing Partners</h3>
         <div class="partners-grid">
-            <img src="https://via.placeholder.com/200x80?text=University" alt="Partner" class="partner-logo">
-            <img src="https://via.placeholder.com/200x80?text=Sponsor" alt="Partner" class="partner-logo">
+            {% for org in site.data.SIPE.Patrocinadores.organizadores %}
+            <a href="{{ org.url }}" target="_blank" title="{{ org.name }}">
+                <img src="{{ org.logo }}" alt="{{ org.name }}" class="partner-logo">
+            </a>
+            {% endfor %}
+        </div>
+
+        <!-- PATROCINADORES -->
+        <h3 style="text-align: center; color: var(--rojo-claro); margin-top: 60px; margin-bottom: 40px; font-size: 1.8rem;">Sponsors</h3>
+        <div class="partners-grid">
+            {% for sponsor in site.data.SIPE.Patrocinadores.patrocinadores %}
+            <a href="{{ sponsor.url }}" target="_blank" title="{{ sponsor.name }}">
+                <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" class="partner-logo">
+            </a>
+            {% endfor %}
         </div>
     </section>
 
@@ -821,8 +849,9 @@
     </section>
 
     <footer>
-        <p>SIPE 2026 - “<span>Fisica senza confini</span>, <span>Física sin fronteras</span>”</p>
-    </footer>
+        <p>SIPE 2026 - “<span>Fisica senza confini</span>, <span>Física sin fronteras</span>”</p>        <a href="https://www.instagram.com/sipe.26/" target="_blank" title="Follow us on Instagram" class="social-link">
+            <i class="fab fa-instagram"></i>
+        </a>    </footer>
 
     <script>
         // Funcionalidad de la ventana Modal (Artículos de Murcia)

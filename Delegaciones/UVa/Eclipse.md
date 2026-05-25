@@ -86,7 +86,7 @@ footer: eclipse
         <div class="sponsor-card reto-card h-100 w-100">
           <div class="card-body d-flex flex-wrap justify-content-center align-items-center reto-card-body">
             <div class="circle-transparent"><i class="fas fa-recycle fs-1 text-primary"></i></div>
-            <h5 class="card-title mb-2 text-center">Sostenibilidad</h5>
+            <h5 class="card-title mb-2 text-center">  Sostenibilidad  </h5>
             <p class="card-text reto-card-text text-center">El recuerdo de que la Tierra nos puede regalar aún más</p>
       <p class="card-text reto-card-text text-center">Solo en estas ocasiones recordamos lo importante que son los pueblos pequeños de Castilla y su gente. Aprovechamos esta fugaz mirada para conocerla mejor.</p>
           </div>
@@ -215,7 +215,7 @@ footer: eclipse
               <h3 class="miembro-jurado fw-semibold mt-3">Gillian Nave</h3>
               <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
               <div class="jurado-rol">
-                <p class="texto-truncado">Retired in 2023 after 29 years in the Atomic Spectroscopy Group at the National Institute of Standards and Technology (NIST), USA. While there, she studied the spectra of neutral and singly-ionized atoms...</p>
+                <p class="texto-truncado">Se jubiló en 2023 tras 29 años en el Grupo de Espectroscopia Atómica del Instituto Nacional de Estándares y Tecnología (NIST). Allí, estudió los espectros de átomos neutros e ionizados...</p>
               </div>
             </div>
           </div>
@@ -230,7 +230,7 @@ footer: eclipse
               <h3 class="miembro-jurado fw-semibold mt-3">Hugo Messias</h3>
               <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
               <div class="jurado-rol">
-                <p class="texto-truncado">Astronomer at ALMA’s Department of Science Operations since January 2020. He obtained his PhD in 2011 at the Universidade de Lisboa, in Portugal. He went on to Universidad de Concepción, in Chile...</p>
+                <p class="texto-truncado">Astrónomo en el Departamento de Operaciones Científicas de ALMA desde enero de 2020. Obtuvo su doctorado en 2011 en la Universidad de Lisboa. Luego fue becario FCT en el Instituto de Astrofísica...</p>
               </div>
             </div>
           </div>
@@ -306,7 +306,7 @@ footer: eclipse
               <h3 class="miembro-jurado fw-semibold mt-3">Gillian Nave</h3>
               <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
               <div class="jurado-rol">
-                <p class="texto-truncado">Retired in 2023 after 29 years in the Atomic Spectroscopy Group at the National Institute of Standards and Technology (NIST), USA. While there, she studied the spectra of neutral and singly-ionized atoms...</p>
+                <p class="texto-truncado">Se jubiló en 2023 tras 29 años en el Grupo de Espectroscopia Atómica del Instituto Nacional de Estándares y Tecnología (NIST). Allí, estudió los espectros de átomos neutros e ionizados...</p>
               </div>
             </div>
           </div>
@@ -316,7 +316,7 @@ footer: eclipse
               <h3 class="miembro-jurado fw-semibold mt-3">Hugo Messias</h3>
               <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
               <div class="jurado-rol">
-                <p class="texto-truncado">Astronomer at ALMA’s Department of Science Operations since January 2020. He obtained his PhD in 2011 at the Universidade de Lisboa, in Portugal. He went on to Universidad de Concepción, in Chile...</p>
+                <p class="texto-truncado">Astrónomo en el Departamento de Operaciones Científicas de ALMA desde enero de 2020. Obtuvo su doctorado en 2011 en la Universidad de Lisboa. Luego fue becario FCT en el Instituto de Astrofísica...</p>
               </div>
             </div>
           </div>
@@ -402,7 +402,7 @@ footer: eclipse
               <h3 class="miembro-jurado fw-semibold mt-3">Gillian Nave</h3>
               <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
               <div class="jurado-rol">
-                <p class="texto-truncado">Retired in 2023 after 29 years in the Atomic Spectroscopy Group at the National Institute of Standards and Technology (NIST), USA. While there, she studied the spectra of neutral and singly-ionized atoms...</p>
+                <p class="texto-truncado">Se jubiló en 2023 tras 29 años en el Grupo de Espectroscopia Atómica del Instituto Nacional de Estándares y Tecnología (NIST). Allí, estudió los espectros de átomos neutros e ionizados...</p>
               </div>
             </div>
           </div>
@@ -417,7 +417,7 @@ footer: eclipse
               <h3 class="miembro-jurado fw-semibold mt-3">Hugo Messias</h3>
               <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
               <div class="jurado-rol">
-                <p class="texto-truncado">Astronomer at ALMA’s Department of Science Operations since January 2020. He obtained his PhD in 2011 at the Universidade de Lisboa, in Portugal. He went on to Universidad de Concepción, in Chile...</p>
+                <p class="texto-truncado">Astrónomo en el Departamento de Operaciones Científicas de ALMA desde enero de 2020. Obtuvo su doctorado en 2011 en la Universidad de Lisboa. Luego fue becario FCT en el Instituto de Astrofísica...</p>
               </div>
             </div>
           </div>
@@ -506,7 +506,7 @@ footer: eclipse
       <div class="modal-body text-center px-5 pb-5">
         <img style="width:200px; height:200px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/GillianNave.jpg" alt="Gillian Nave" class="mb-4">
         <h3 class="fw-bold mb-3">Gillian Nave</h3>
-        <p class="text-start">Retired in 2023 after 29 years in the Atomic Spectroscopy Group at the National Institute of Standards and Technology (NIST), USA. While there, she studied the spectra of neutral and singly-ionized atoms, measuring fundamental atomic properties such as energy levels, transition rates and atomic line wavelengths. She is still active in the field of atomic spectroscopy, making frequent visits to NASA Goddard Space Flight Center, NIST, and Imperial College London to collaborate with students and early-career scientists.<br><br>She will talk about how the knowledge of atomic spectra can help us understand the Sun and how the spectra of the Sun during an eclipse helped us understand the solar corona.</p>
+        <p class="text-start">Se jubiló en 2023 tras 29 años en el Grupo de Espectroscopia Atómica del Instituto Nacional de Estándares y Tecnología (NIST) de Estados Unidos. Allí, estudió los espectros de átomos neutros e ionizados una vez, midiendo propiedades atómicas fundamentales como los niveles de energía, las tasas de transición y las longitudes de onda de las líneas atómicas. Sigue activa en el campo de la espectroscopia atómica, realizando frecuentes visitas al Centro de Vuelos Espaciales Goddard de la NASA, al NIST y al Imperial College de Londres para colaborar con estudiantes y jóvenes científicos.</p>
       </div>
     </div>
   </div>
@@ -521,7 +521,7 @@ footer: eclipse
       <div class="modal-body text-center px-5 pb-5">
         <img style="width:200px; height:200px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/HugoMessias.png" alt="Hugo Messias" class="mb-4">
         <h3 class="fw-bold mb-3">Hugo Messias</h3>
-        <p class="text-start">Astronomer at ALMA’s Department of Science Operations since January 2020. He obtained his PhD in 2011 at the Universidade de Lisboa, in Portugal. He went on to Universidad de Concepción, in Chile, as an ALMA-CONICyT postdoc. He was then a FCT Fellow at Institute of Astrophysics and Space Science (IA, Portugal) since 2014, where he was also the Lead Scientist of the Portuguese ALMA Centre of Expertise. That led to his moving back to Chile as an ALMA Fellow from 2016 and 2019. After a short period at IA at the end of 2019, he was back again to ALMA as a DSO Astronomer. His scientific interests are mostly related to extra-galactic astronomy: galaxy and super-massive black-hole (co-)evolution; gas content and dynamics in galaxies; galaxy growth mechanisms; IR-selected AGN; distant (sub-)millimeter/radio-selected galaxies.</p>
+        <p class="text-start">Astrónomo en el Departamento de Operaciones Científicas de ALMA desde enero de 2020. Obtuvo su doctorado en 2011 en la Universidad de de Lisboa, en Portugal. Luego fue becario FCT en el Instituto de Astrofísica y Ciencias Espaciales (IA, Portugal) desde 2014, donde también fue Científico Jefe del Centro de Experimentación ALMA Portugués. Sus intereses científicos están relacionados principalmente con la astronomía extragaláctica: (co)evolución de galaxias y agujeros negros supermasivos; contenido y dinámica de gas en galaxias; mecanismos de crecimiento de galaxias; (sub-)millimeter/radio-selected galaxies.</p>
       </div>
     </div>
   </div>
