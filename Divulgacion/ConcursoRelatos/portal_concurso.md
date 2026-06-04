@@ -8,7 +8,7 @@ permalink: /ConcursoRelatosDivulgativosGdeE/
 
 <br>
 
-<h4 align="center"> ¡Plazo ampliado hasta el 19 de abril!</h4>
+<h4 align="center"> ¡Ya está publicado el fallo del Jurado!</h4>
 
 Uno de los pilares básicos del Grupo de Estudiantes de la Real Sociedad Española de Física es la **divulgación de la Física** por y para los estudiantes, y los apasionados de esta disciplina. Es por ello que el GdeE convoca su primer <strong> CONCURSO DE RELATOS DIVULGATIVOS</strong>🏆.
 
@@ -56,6 +56,11 @@ Tienes toda la información del **formato**, **premios**, **criterios de valorac
   <div class="row center">
     <a href="/Divulgacion/ConcursoRelatos/Bases_Concurso_Divulgación.pdf" class="btn btn-ConcursoLogo waves-effect waves-light">
       BASES REGULADORAS DEL CONCURSO
+    </a>
+  </div>  
+  <div class="row center">
+    <a href="/Divulgacion/ConcursoRelatos/Acta_fallo_signed.pdf" class="btn btn-ConcursoLogo waves-effect waves-light">
+      RESOLUCIÓN y FALLO DEL JURADO
     </a>
   </div>  
 
