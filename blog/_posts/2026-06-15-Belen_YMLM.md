@@ -5,7 +5,7 @@ categories:
    - GdeE por el mundo
 title:  "GdeE por el mundo: Belén en el 2026 EPS YM Leadership Meeting en Vilna"
 cover: "/img/blog/2026-06-15-Belen_YMLM/Foto3.jpg"
-date: 2026-03-28 11:00
+date: 2026-06-17 11:00
 author: Belén Carreres Chulilla
 redirect-from:
 excerpt: "¿Hasta dónde te llevaría decir que sí a un plan de última hora? A Belén le llevo a nada más y nada menos que a Vilna, Lituania, al 14º EPS Young Minds Leadership Meeting. Dos días, decenas de estudiantes de física de toda Europa y un evento que superó todas las expectativas. Lee lo que nos cuenta Belén y a ver qué dices tú a la próxima vez que te propongan algo de un día para otro..."
