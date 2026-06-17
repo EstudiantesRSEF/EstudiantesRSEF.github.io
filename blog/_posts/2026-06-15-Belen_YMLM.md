@@ -23,13 +23,13 @@ excerpt: "¿Hasta dónde te llevaría decir que sí a un plan de última hora? A
 
 <p>Significaba irnos a Vilna, Lituania, para un evento de tan solo dos días. Como cubrían el viaje de un solo representante, primero tenía que convencer a mis compis de junta para ir yo. También tenía que convencerme a mí misma, a esa Belén más vergonzosa y con algo de dudas. En la anterior entrada del blog, Eric comentó que las oportunidades no llegan, se encuentran. No quiero contradecirle, pero añadiría que sí hay oportunidades que llegan (o te las hacen llegar). Solo hay que ser valiente para decir que sí y saber reconocer cuándo se nos presentan grandes oportunidades.</p>
 
-<p><img class="img-left" src="/img/blog/2026-06-15/Foto1.jpg">¡Por fin llegó el día de volar a Vilna! Durante el viaje David y yo coincidimos con dos españoles, algo previsible por estadística, ya que España es el país con más secciones locales de <i>Young Minds</i>. Entre todos los españoles encontramos a dos de los nuestros, del GdeE: Sergio, un murciano aterrorizado por la lluvia, y Óscar, un madrileño muy malagueño. Estas secciones son el motor de <i>Young Minds</i>, la red de estudiantes de la <i>European Physics Society</i> (EPS).</p>
+<p><img class="img-left" src="/img/blog/2026-06-15-Belen_YMLM/Foto1.jpg">¡Por fin llegó el día de volar a Vilna! Durante el viaje David y yo coincidimos con dos españoles, algo previsible por estadística, ya que España es el país con más secciones locales de <i>Young Minds</i>. Entre todos los españoles encontramos a dos de los nuestros, del GdeE: Sergio, un murciano aterrorizado por la lluvia, y Óscar, un madrileño muy malagueño. Estas secciones son el motor de <i>Young Minds</i>, la red de estudiantes de la <i>European Physics Society</i> (EPS).</p>
 
 <p>Por primera vez, el <i>Leadership Meeting</i> se celebraba en paralelo con el <i>EPS Council Meeting</i>, lo que suponía una gran oportunidad para ese tan buscado <i>networking</i>. Cómo no, nos reunimos con ellos mayoritariamente para comer, ya fuera en los <i>coffee breaks</i> del viernes y sábado como en la cena del viernes. Cenamos en uno de esos sitios donde tienes que recordar que se empieza a comer con el cubierto de más afuera, que tu plato de pan es el de la izquierda y que no puedes rechazar una copa de vino, aunque sea solo para mojarte los labios.</p>
 
 <img
      class = "img-center"
-     src="/img/blog/2026-06-15/Foto2.jpg"
+     src="/img/blog/2026-06-15-Belen_YMLM/Foto2.jpg"
     />
 
 <br>
@@ -37,7 +37,7 @@ excerpt: "¿Hasta dónde te llevaría decir que sí a un plan de última hora? A
 
 <p>Hablando de identificar, en Vilna es fácil reconocer las torres de sus muchas iglesias en su horizonte, no por nada es conocida como la ciudad de las iglesias. Aunque el cristianismo es solo su primera religión: la segunda son los láseres y la tercera, el baloncesto. Por ello, la mayoría de ponentes y visitas que siguieron ese primer día estaban relacionados con la fotónica y óptica. Tras una sesión introductoria sobre la historia de los láseres en el país, (re)corrimos varios centros de investigación en los que siempre había una mesa antivibratoria con láseres, lentes, fibras ópticas...</p>
 
-<p><img class="img-left" src="/img/blog/2026-06-15/Foto3.jpg">El programa académico de ese día culminó con la sesión de pósteres, la actividad que más disfruté sin duda. Quizás contribuyera el hecho de ser mi segunda vez exponiendo uno y ser una actividad fiel al objetivo de cualquier <i>Leadership Meeting</i>: dar a conocer y a la vez descubrir lo que hacen otros grupos de estudiantes en torno a la física. Ahora nosotros teníamos el protagonismo para enseñar a las altas esferas del <i>EPS Council</i> todo lo que hacíamos a nivel local, pero, sobre todo, enseñar la ilusión por formar parte de este proyecto.</p>
+<p><img class="img-left" src="/img/blog/2026-06-15-Belen_YMLM/Foto3.jpg">El programa académico de ese día culminó con la sesión de pósteres, la actividad que más disfruté sin duda. Quizás contribuyera el hecho de ser mi segunda vez exponiendo uno y ser una actividad fiel al objetivo de cualquier <i>Leadership Meeting</i>: dar a conocer y a la vez descubrir lo que hacen otros grupos de estudiantes en torno a la física. Ahora nosotros teníamos el protagonismo para enseñar a las altas esferas del <i>EPS Council</i> todo lo que hacíamos a nivel local, pero, sobre todo, enseñar la ilusión por formar parte de este proyecto.</p>
 
 <p>Ya no hacía falta imaginar cuál era el equivalente del Grupo de Estudiantes en Italia, Serbia, Portugal, Alemania o Polonia: bastaba con acercarse a cualquier póster para averiguarlo. Allí estaba Valentina contándonos cómo habían revivido un antiguo aulario gracias a un ciclo de charlas con un buen aperitivo de por medio, como buenos italianos. O Erik y Patrick explicándonos el funcionamiento de su <i>Mitgliederversammlung</i>, la asamblea general en la que definen sus líneas de acción.</p>
 
@@ -45,7 +45,7 @@ excerpt: "¿Hasta dónde te llevaría decir que sí a un plan de última hora? A
 
 <img
      class = "img-center"
-     src="/img/blog/2026-06-15/Foto4.jpg"
+     src="/img/blog/2026-06-15-Belen_YMLM/Foto4.jpg"
     />
 
 <br>
@@ -53,8 +53,8 @@ excerpt: "¿Hasta dónde te llevaría decir que sí a un plan de última hora? A
 <p>No nos fuimos sin descubrir la propia ciudad que nos acogía, que tenía una parte antigua y una nueva separadas por el río Neris. Tampoco sin degustar su gastronomía. Probamos su famosa sopa fría de remolacha, con un sabor mucho menos extraño que su apariencia, y los <i>cepelinai</i>, que eran como unas patatas rellenas de carne (¡que no me escuchen los locales!).</p>
 <br>
 <div style="display: flex; justify-content: space-around; align-items: flex-start;">
-  <img src="/img/blog/2026-06-15/Foto5.jpg" alt="" style="width: 48%; max-width: 400px;">
-  <img src="/img/blog/2026-06-15/Foto6.jpg" alt="" style="width: 48%; max-width: 400px;">
+  <img src="/img/blog/2026-06-15-Belen_YMLM/Foto5.jpg" alt="" style="width: 48%; max-width: 400px;">
+  <img src="/img/blog/2026-06-15-Belen_YMLM/Foto6.jpg" alt="" style="width: 48%; max-width: 400px;">
 </div>
 <br>
 <p>Hasta aquí mi aventura por Lituania. Gracias a David, Óscar y Sergio por ser mi apoyo cuando mi inglés estaba oxidado o cuando un italiano me hablaba de agujeros negros a las 2 de la mañana. Gracias a Lucas y Rocío por ayudarme a hacer el póster en el último momento, y gracias a los tres, contando a Luvic, por ser tan buen equipo. Espero veros a todos los que estáis leyendo esto en el ENEF de Valencia.</p>
