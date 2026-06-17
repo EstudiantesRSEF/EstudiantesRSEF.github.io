@@ -37,7 +37,7 @@ excerpt: "¿Hasta dónde te llevaría decir que sí a un plan de última hora? A
 
 <p>Hablando de identificar, en Vilna es fácil reconocer las torres de sus muchas iglesias en su horizonte, no por nada es conocida como la ciudad de las iglesias. Aunque el cristianismo es solo su primera religión: la segunda son los láseres y la tercera, el baloncesto. Por ello, la mayoría de ponentes y visitas que siguieron ese primer día estaban relacionados con la fotónica y óptica. Tras una sesión introductoria sobre la historia de los láseres en el país, (re)corrimos varios centros de investigación en los que siempre había una mesa antivibratoria con láseres, lentes, fibras ópticas...</p>
 
-<p><img class="img-left" src="/img/blog/2026-06-15-Belen_YMLM/Foto3.jpg" style="transform: rotate(-90deg);">El programa académico de ese día culminó con la sesión de pósteres, la actividad que más disfruté sin duda. Quizás contribuyera el hecho de ser mi segunda vez exponiendo uno y ser una actividad fiel al objetivo de cualquier <i>Leadership Meeting</i>: dar a conocer y a la vez descubrir lo que hacen otros grupos de estudiantes en torno a la física. Ahora nosotros teníamos el protagonismo para enseñar a las altas esferas del <i>EPS Council</i> todo lo que hacíamos a nivel local, pero, sobre todo, enseñar la ilusión por formar parte de este proyecto.</p>
+<p><img class="img-left" src="/img/blog/2026-06-15-Belen_YMLM/Foto3.jpg">El programa académico de ese día culminó con la sesión de pósteres, la actividad que más disfruté sin duda. Quizás contribuyera el hecho de ser mi segunda vez exponiendo uno y ser una actividad fiel al objetivo de cualquier <i>Leadership Meeting</i>: dar a conocer y a la vez descubrir lo que hacen otros grupos de estudiantes en torno a la física. Ahora nosotros teníamos el protagonismo para enseñar a las altas esferas del <i>EPS Council</i> todo lo que hacíamos a nivel local, pero, sobre todo, enseñar la ilusión por formar parte de este proyecto.</p>
 
 <p>Ya no hacía falta imaginar cuál era el equivalente del Grupo de Estudiantes en Italia, Serbia, Portugal, Alemania o Polonia: bastaba con acercarse a cualquier póster para averiguarlo. Allí estaba Valentina contándonos cómo habían revivido un antiguo aulario gracias a un ciclo de charlas con un buen aperitivo de por medio, como buenos italianos. O Erik y Patrick explicándonos el funcionamiento de su <i>Mitgliederversammlung</i>, la asamblea general en la que definen sus líneas de acción.</p>
 
@@ -54,7 +54,7 @@ excerpt: "¿Hasta dónde te llevaría decir que sí a un plan de última hora? A
 <br>
 <div style="display: flex; justify-content: space-around; align-items: flex-start;">
   <img src="/img/blog/2026-06-15-Belen_YMLM/Foto5.jpg" alt="" style="width: 48%; max-width: 400px;">
-  <img src="/img/blog/2026-06-15-Belen_YMLM/Foto6.jpg" alt="" style="width: 48%; max-width: 400px;">
+  <img src="/img/blog/2026-06-15-Belen_YMLM/Foto6_cut.jpg" alt="" style="width: 48%; max-width: 400px;">
 </div>
 <br>
 <p>Hasta aquí mi aventura por Lituania. Gracias a David, Óscar y Sergio por ser mi apoyo cuando mi inglés estaba oxidado o cuando un italiano me hablaba de agujeros negros a las 2 de la mañana. Gracias a Lucas y Rocío por ayudarme a hacer el póster en el último momento, y gracias a los tres, contando a Luvic, por ser tan buen equipo. Espero veros a todos los que estáis leyendo esto en el ENEF de Valencia.</p>
