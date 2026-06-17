@@ -51,19 +51,13 @@ excerpt: "¿Hasta dónde te llevaría decir que sí a un plan de última hora? A
 <br>
 
 <p>No nos fuimos sin descubrir la propia ciudad que nos acogía, que tenía una parte antigua y una nueva separadas por el río Neris. Tampoco sin degustar su gastronomía. Probamos su famosa sopa fría de remolacha, con un sabor mucho menos extraño que su apariencia, y los <i>cepelinai</i>, que eran como unas patatas rellenas de carne (¡que no me escuchen los locales!).</p>
-
+<br>
+<div style="display: flex; justify-content: space-around; align-items: flex-start;">
+  <img src="/img/blog/2026-06-15/foto5.jpg" alt="" style="width: 48%; max-width: 400px;">
+  <img src="/img/blog/2026-06-15/foto6.jpg" alt="" style="width: 48%; max-width: 400px;">
+</div>
+<br>
 <p>Hasta aquí mi aventura por Lituania. Gracias a David, Óscar y Sergio por ser mi apoyo cuando mi inglés estaba oxidado o cuando un italiano me hablaba de agujeros negros a las 2 de la mañana. Gracias a Lucas y Rocío por ayudarme a hacer el póster en el último momento, y gracias a los tres, contando a Luvic, por ser tan buen equipo. Espero veros a todos los que estáis leyendo esto en el ENEF de Valencia.</p>
 <br>
 <p><b>Belén</b></p>
-
-<br>
-
-<img
-     class = "img-center"
-     src="/img/blog/2026-03-27-Eric_CERN/ecuador.png"
-    />
-   <p>
-      <i>Eloi Casalé, vocal de la JdeG del GdeE 2023-2025, y Eric, mucho antes de escribir esta entrada del Blog, pasándoselo bien en el Pase de Ecuador</i>
-   </p>
-<p>
 
