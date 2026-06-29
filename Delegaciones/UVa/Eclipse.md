@@ -600,10 +600,13 @@ footer: eclipse
   <h2 class="fw-bold mb-4">Colaboran</h2>
   <div class="d-flex flex-wrap justify-content-center align-items-center gap-5 m-4">
     <a href="https://fundacionlacaixa.org/es/" class="sponsor-card">
-      <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/Logo_horizontal_CMYK_castellano.jpg" alt="Fundación la Caixa" class="img-fluid max-h-24 mw-100 object-fit-contain">
+      <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/Logo_horizontal_CMYK_castellano.jpg" alt="Fundación la Caixa" class="img-fluid max-h-24 mw-100 object-fit-contain" style="height: 150px;">
     </a>
     <a href="https://www.diputaciondepalencia.es/" class="sponsor-card">
       <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/Logo Largo Color Fondo.jpg" alt="Diputación de Palencia" class="img-fluid max-h-24 mw-100 object-fit-contain">
+    </a>
+    <a href=" " class="sponsor-card">
+      <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/ENERPAL.png" alt="Enerpal" class="img-fluid mw-100 object-fit-contain" style="height: 150px;">
     </a>
   </div>
   <div class="d-flex flex-wrap justify-content-center align-items-center gap-5 m-4">
@@ -645,6 +648,21 @@ footer: eclipse
   </a>
   <a href="https://www.grupotecnipec.net/" class="sponsor-card">
     <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/TECNIPEC.jpg" alt="TECNIPEC" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
+  </a>
+  <a href=" " class="sponsor-card">
+    <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/ARADUEY.jpg" alt="Araduey" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
+  </a>
+  <a href=" " class="sponsor-card">
+    <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/ELGOSA.png" alt="Elgosa" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
+  </a>
+  <a href=" " class="sponsor-card">
+    <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/FENÍE.png" alt="Feníe" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
+  </a>
+  <a href=" " class="sponsor-card">
+    <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/ITAGRA CT.png" alt="Itagra CT" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
+  </a>
+  <a href=" " class="sponsor-card">
+    <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/JD NAILS.jpeg" alt="JD Nails" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
   </a>
 </div>
 </section>
