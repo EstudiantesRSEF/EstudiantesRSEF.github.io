@@ -605,7 +605,7 @@ footer: eclipse
     <a href="https://www.diputaciondepalencia.es/" class="sponsor-card">
       <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/Logo Largo Color Fondo.jpg" alt="Diputación de Palencia" class="img-fluid max-h-24 mw-100 object-fit-contain">
     </a>
-    <a href=" " class="sponsor-card">
+    <a href="https://enerpal.es/es/inicio/" class="sponsor-card">
       <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/ENERPAL.png" alt="Enerpal" class="img-fluid mw-100 object-fit-contain" style="height: 150px;">
     </a>
   </div>
@@ -649,16 +649,16 @@ footer: eclipse
   <a href="https://www.grupotecnipec.net/" class="sponsor-card">
     <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/TECNIPEC.jpg" alt="TECNIPEC" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
   </a>
-  <a href=" " class="sponsor-card">
+  <a href="https://aradueycampos.org/" class="sponsor-card">
     <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/ARADUEY.jpg" alt="Araduey" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
   </a>
-  <a href=" " class="sponsor-card">
+  <a href="https://www.electricistaspalencia.com/" class="sponsor-card">
     <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/ELGOSA.png" alt="Elgosa" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
   </a>
-  <a href=" " class="sponsor-card">
+  <a href="https://www.fenieenergia.es/es" class="sponsor-card">
     <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/FENÍE.png" alt="Feníe" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
   </a>
-  <a href=" " class="sponsor-card">
+  <a href="https://itagra.com/" class="sponsor-card">
     <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/ITAGRA CT.png" alt="Itagra CT" class="img-fluid mw-100 object-fit-contain" style="height: 60px;">
   </a>
   <a href=" " class="sponsor-card">
