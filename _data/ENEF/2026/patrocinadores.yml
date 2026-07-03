@@ -4,24 +4,17 @@
   link: "https://estudiantes.rsef.es/"
   level: "1"
 
-#- name: "Young Minds"
-#  section: "Organizadores"
-#  logo: "/img/eventos/2023-ENEF/Patrocinadores/YoungMinds.png"
-#  link: "http://epsyoungminds.org"
-#  level: "1"
 
-
+- name: "Young Minds"
+  section: "Organizadores"
+  logo: "/img/eventos/2023-ENEF/Patrocinadores/YoungMinds.png"
+  link: "http://epsyoungminds.org"
+  level: "1"
 
 - name: "UV"
   section: "Instituciones Académicas"
-  logo: "/ENEF/2026/img/Sponsors/logoUV.jpg"
+  logo: "/ENEF/2026/img/Sponsors/escut_UV_2linies.png"
   link: "https://www.uv.es/"
-  level: "2"
-
-- name: "UV- Facultad de Física"
-  section: "Instituciones Académicas"
-  logo: "/ENEF/2026/img/Sponsors/logo_facultadFisicaUV.jpg"
-  link: "https://www.uv.es/uvweb/fisica/es/facultad-fisica-1285850062061.html"
   level: "2"
 
 - name: "UPV"
@@ -30,11 +23,66 @@
   link: "https://www.upv.es/"
   level: "2"
 
-- name: "ICMOL"
+- name: "UV- Facultad de Física"
   section: "Instituciones Académicas"
+  logo: "/ENEF/2026/img/Sponsors/Facultat_de_Física.png"
+  link: "https://www.uv.es/uvweb/fisica/es/facultad-fisica-1285850062061.html"
+  level: "2"
+
+- name: "UV- Facultad de Derecho"
+  section: "Instituciones Académicas"
+  logo: "/ENEF/2026/img/Sponsors/Facultat_de_Dret.png"
+  link: "https://www.uv.es/uvweb/dret/es/facultad-derecho-1285848604865.html"
+  level: "2"
+
+- name: "UV- Facultad de Medicina"
+  section: "Instituciones Académicas"
+  logo: "/ENEF/2026/img/Sponsors/Facultat_de_Medicina_i_Odontologia.png"
+  link: "https://www.uv.es/uvweb/medicina-odontologia/es/facultad-medicina-odontologia-1285849537235.html"
+  level: "2"
+
+- name: "UPV- Escuela de Telecomunicaciones"
+  section: "Instituciones Académicas"
+  logo: "/ENEF/2026/img/Sponsors/Escuela_de_Telecom.png"
+  link: "https://www.upv.es/entidades/etsit/"
+  level: "2"
+
+- name: "UPV- VEE"
+  section: "Instituciones Académicas"
+  logo: "/ENEF/2026/img/Sponsors/VEE_c.png.png"
+  link: "https://www.upv.es/entidades/vee/"
+  level: "2"
+
+- name: "ICMOL"
+  section: "Centros de Investigación"
   logo: "/ENEF/2026/img/Sponsors/icmol.png"
   link: "https://www.icmol.es/"
-  level: "2"
+  level: "3"
+
+- name: "ICMUV"
+  section: "Centros de Investigación"
+  logo: "/ENEF/2026/img/Sponsors/ICMUV.png"
+  link: "https://www.uv.es/uvweb/institut-ciencia-materials-icmuv/ca/institut-universitari-ciencia-materials-icmuv-1285918028224.html"
+  level: "3"
+
+- name: "IFIC"
+  section: "Centros de Investigación"
+  logo: "/ENEF/2026/img/Sponsors/IFIC.png"
+  link: "https://webific.ific.uv.es/web/"
+  level: "3"
+
+- name: "Observatorio UV"
+  section: "Centros de Investigación"
+  logo: "/ENEF/2026/img/Sponsors/observatorio.png"
+  link: "https://observatori.uv.es/"
+  level: "3"
+
+
+- name: "i3M"
+  section: "Centros de Investigación"
+  logo: "/ENEF/2026/img/Sponsors/i3M.png"
+  link: "https://i3m.csic.upv.es/"
+  level: "3"
 
 #- name: "Bizkaia Lantik"
 #  section: "Patrocinadores Principales"
@@ -42,11 +90,13 @@
 #  link: "https://lantik.bizkaia.eus/es/inicio"
 #  level: "2"
 
-#- name: "Multiverse Computing"
-#  section: "Patrocinadores Platino"
-#  logo: "/ENEF/2025/img/Sponsors/MultiverseComputing.png"
-#  link: "https://multiversecomputing.com/"
-#  level: "3"
+- name: "Multiverse Computing"
+  section: "Patrocinadores Platino"
+  logo: "/ENEF/2025/img/Sponsors/MultiverseComputing.png"
+  link: "https://multiversecomputing.com/"
+  level: "3"
+
+
 
 - name: "ICMOL"
   section: "Patrocinadores Oro"
@@ -54,15 +104,120 @@
   link: "https://www.icmol.es/"
   level: "4"
 
-- name: "Jane Street"
-  section: "Patrocinadores Bronce"
-  logo: "/ENEF/2025/img/Sponsors/JaneStreet.png"
-  link: "https://www.janestreet.com/"
+- name: "UPV- Escuela de Telecomunicaciones"
+  section: "Patrocinadores Oro"
+  logo: "/ENEF/2026/img/Sponsors/Escuela_de_Telecom.png"
+  link: "https://www.upv.es/entidades/etsit/"
+  level: "4"
+
+- name: "ICMUV"
+  section: "Patrocinadores Oro"
+  logo: "/ENEF/2026/img/Sponsors/ICMUV.png"
+  link: "https://www.uv.es/uvweb/institut-ciencia-materials-icmuv/ca/institut-universitari-ciencia-materials-icmuv-1285918028224.html"
+  level: "4"
+
+
+- name: "UPV- NTC"
+  section: "Patrocinadores Oro"
+  logo: "/ENEF/2026/img/Sponsors/NTC.png"
+  link: "https://ntc.webs.upv.es/"
+  level: "4"
+
+- name: "UV- Facultad de Física"
+  section: "Patrocinadores Oro"
+  logo: "/ENEF/2026/img/Sponsors/Facultat_de_Física.png"
+  link: "https://www.uv.es/uvweb/fisica/es/facultad-fisica-1285850062061.html"
+  level: "4"
+
+- name: "Babaria"
+  section: "Patrocinadores Oro"
+  logo: "/ENEF/2026/img/Sponsors/Babaria.png"
+  link: "https://babaria.es/"
+  level: "4"
+
+
+- name: "KIPU"
+  section: "Patrocinadores Plata"
+  logo: "/ENEF/2026/img/Sponsors/Kipu_Quantum.png"
+  link: "https://kipu-quantum.com/"
+  level: "5"
+
+- name: "IFIC"
+  section: "Patrocinadores Plata"
+  logo: "/ENEF/2026/img/Sponsors/IFIC.png"
+  link: "https://webific.ific.uv.es/web/"
   level: "5"
 
 - name: "Qilimanjaro"
   section: "Patrocinadores Bronce"
   logo: "/ENEF/2026/img/Sponsors/qilimanjaro.png"
   link: "https://qilimanjaro.tech/"
+  level: "6"
+
+- name: "UPV- Cátedra PIC PERTE"
+  section: "Patrocinadores Plata"
+  logo: "/ENEF/2026/img/Sponsors/Cátedra_PIC-PERTE_Chair_UPV.png"
+  link: "https://www.pic-chair.upv.es/"
   level: "5"
 
+- name: "Calsens"
+  section: "Patrocinadores Plata"
+  logo: "/ENEF/2026/img/Sponsors/Calsens.png"
+  link: "https://www.calsens.es/es"
+  level: "5"
+
+- name: "Jane Street"
+  section: "Patrocinadores Bronce"
+  logo: "/ENEF/2025/img/Sponsors/JaneStreet.png"
+  link: "https://www.janestreet.com/"
+  level: "6"
+
+- name: "UPV- Cátedra de Microelectrónica"
+  section: "Patrocinadores Bronce"
+  logo: "/ENEF/2026/img/Sponsors/Cátedra_Microelectrónica_UPV.png"
+  link: "http://catedramicroe.upv.es/"
+  level: "6"
+
+
+- name: "Observatorio UV"
+  section: "Patrocinadores Bronce"
+  logo: "/ENEF/2026/img/Sponsors/observatorio.png"
+  link: "https://observatori.uv.es/"
+  level: "6"
+
+
+- name: "i3M"
+  section: "Patrocinadores Bronce"
+  logo: "/ENEF/2026/img/Sponsors/i3M.png"
+  link: "https://i3m.csic.upv.es/"
+  level: "6"
+
+- name: "UPV- Cátedra de HP"
+  section: "Patrocinadores Bronce"
+  logo: "/ENEF/2026/img/Sponsors/Cátedra_HP_UPV.png"
+  link: "https://catedra-hp.webs.upv.es/"
+  level: "6"
+
+- name: "Quantum Computing Solutions"
+  section: "Patrocinadores Bronce"
+  logo: "/ENEF/2026/img/Sponsors/QCS.png"
+  link: "https://qcsolutions.io/"
+  level: "6"
+
+- name: "MicroNano Spain"
+  section: "Patrocinadores Bronce"
+  logo: "/ENEF/2026/img/Sponsors/Micronanospain.png"
+  link: "https://micronanospain.org/"
+  level: "6"
+
+- name: "Mujeres en Física RSEF"
+  section: "Patrocinadores Bronce"
+  logo: "/ENEF/2026/img/Sponsors/GEMF.png"
+  link: "https://www.gemf-rsef.es/"
+  level: "6"
+
+- name: "DEDF RSEF"
+  section: "Patrocinadores Bronce"
+  logo: "/ENEF/2026/img/Sponsors/DEDF.png"
+  link: "https://www.dedfisica-rsef.com/"
+  level: "6"

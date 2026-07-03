@@ -25,4 +25,7 @@ Si ocurriese algún problema con tu participación y finalmente no pudieses veni
 * **Entre un mes y 15 días antes** del inicio del ENEF: devolución del 50% si hay una razón justificada, sin devolución si la razón no es justificada.
 * **En los últimos 15 días** no habrá devolución del importe.
 
+
 </div>
+
+<div style="height: 3rem;"></div>
