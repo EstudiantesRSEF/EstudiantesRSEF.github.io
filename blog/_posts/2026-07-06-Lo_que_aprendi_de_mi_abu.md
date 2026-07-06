@@ -83,23 +83,23 @@ excerpt: "¿Puede un simple experimento casero de óptica explicar por qué los 
 
 <p>—Amador, ¿puedes subir la persiana que aquí no hay quien vea? —Cogió un folio y empezó a escribir—. Como tu abuelo ha sido muy minucioso en su trabajo, podemos suponer que las aberturas que ha hecho son lo suficientemente pequeñas como para que la amplitud del campo se pueda describir con un solo valor del campo eléctrico. Como hemos dicho que vamos a estudiar la cantidad de luz, elevamos el valor del campo eléctrico en la pared al cuadrado:</p>
 <br>
-<p>$|E(P)|^{2} = |E_{1}(\vec{r})|^{2} + |E_{2}(\vec{r})|^2 + E_{1}^*(\vec{r})E_{2}(\vec{r}) + E_{1} (\vec{r}) E_{2}^*(\vec{r})$</p>
+<p>$$|E(P)|^{2} = |E_{1}(\vec{r})|^{2} + |E_{2}(\vec{r})|^2 + E_{1}^*(\vec{r})E_{2}(\vec{r}) + E_{1} (\vec{r}) E_{2}^*(\vec{r})$$</p>
 <br>
 <p>Pero como este es un valor que cambia cada vez que realizamos este sencillo experimento, lo mejor será que calculemos su promedio:</p>
 <br>
-<p>$\langle|E(\vec{r})|^{2}\rangle=\langle|E_{1}(\vec{r})|^{2}\rangle+\langle|E_{2}(\vec{r})|^{2}\rangle+\langle E_{1}^{*}(\vec{r})E_{2}(\vec{r})\rangle+\langle E_{1}(\vec{r})E_{2}^{*}(\vec{r})\rangle$</p>
+<p>$$\langle|E(\vec{r})|^{2}\rangle=\langle|E_{1}(\vec{r})|^{2}\rangle+\langle|E_{2}(\vec{r})|^{2}\rangle+\langle E_{1}^{*}(\vec{r})E_{2}(\vec{r})\rangle+\langle E_{1}(\vec{r})E_{2}^{*}(\vec{r})\rangle$$</p>
 <br>
 <p>De esta expresión podemos sacar la siguiente conclusión, tenemos interferencia si y solo si:</p>
 <br>
-<p>$\langle|E(\vec{r})|^{2}\rangle\ne\langle|E_{1}(\vec{r})|^{2}\rangle+\langle|E_{2}(\vec{r})|^{2}\rangle$</p>
+<p>$$\langle|E(\vec{r})|^{2}\rangle\ne\langle|E_{1}(\vec{r})|^{2}\rangle+\langle|E_{2}(\vec{r})|^{2}\rangle$$</p>
 <br>
 <p>o lo que es lo mismo</p>
 <br>
-<p>$\langle E_{1}(\vec{r})E_{2}^{*}(\vec{r})\rangle\ne0$, $\langle E(\vec{r}_{1})E^{*}(\vec{r}_{2})\rangle\ne0$</p>
+<p>$$\langle E_{1}(\vec{r})E_{2}^{*}(\vec{r})\rangle\ne0, \quad \langle E(\vec{r}_{1})E^{*}(\vec{r}_{2})\rangle\ne0$$</p>
 <br>
 <p>Esto último nos permite definir una expresión fundamental de la óptica, la <b>"Función de Coherencia Mutua"</b></p>
 <br>
-<p>$\Gamma(\vec{r}_{1},\vec{r}_{2})=\langle E(\vec{r}_{1})E^{*}(\vec{r}_{2})\rangle$.</p>
+<p>$$\Gamma(\vec{r}_{1},\vec{r}_{2})=\langle E(\vec{r}_{1})E^{*}(\vec{r}_{2})\rangle$$.</p>
 <br>
 <p>Que fue propuesta en los años cincuenta y que está detrás de todos los fenómenos de la óptica. Todo esto que os acabo de explicar se basa en considerar a la luz como una onda escalar, pero el mundo que nos rodea es mucho más complejo, por lo que, durante años, los físicos hemos gastado nuestras energías en considerar a la luz como un vector. De modo que si tomamos dos componentes trasversales de nuestros dos puntos de la pared tenemos lo que se denominó <b>"Matriz de Densidad Espectral Cruzada"</b>:</p>
 <br>
@@ -114,7 +114,7 @@ $$</p>
 <br>
 <p>y cada uno de sus elementos se define como:</p>
 <br>
-<p>$\Gamma_{i,j}^{l,m}=\langle E_{l}(\vec{r}_{i})E_{m}^{*}(\vec{r}_{j})\rangle$</p>
+<p>$$\Gamma_{i,j}^{l,m}=\langle E_{l}(\vec{r}_{i})E_{m}^{*}(\vec{r}_{j})\rangle$$</p>
 <br>
 <p>—Gracias a estas dos expresiones podemos definir cantidades esenciales como el grado de coherencia ¿Veis a donde quiero llegar? —preguntó la abuela señalando el papel.</p>
 
