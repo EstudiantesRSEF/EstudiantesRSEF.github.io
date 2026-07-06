@@ -8,11 +8,11 @@ cover: "Divulgacion/ConcursoRelatos/portada.png"
 date: 2026-07-06 11:00
 author: Lucia Matey Font
 redirect-from:
-excerpt: ""
+excerpt: "¿Puede un simple experimento casero de óptica explicar por qué los seres humanos no nos entendemos? En este relato, Lucía nos cuenta cómo una abuela utiliza la física para reflexionar sobre la empatía y dar la mejor lección de vida a su nieta."
 ---
 
 <section class="blog">
-
+¿Puede un simple experimento casero de óptica explicar por qué los seres humanos no nos entendemos? En este relato, Lucía nos cuenta cómo una abuela utiliza la física para reflexionar sobre la empatía y dar la mejor lección de vida a su nieta.
 <p class="clearfix">
   
 </p>
