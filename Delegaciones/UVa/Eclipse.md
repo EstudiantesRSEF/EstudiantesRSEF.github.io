@@ -567,17 +567,26 @@ footer: eclipse
           <i class="fas fa-envelope-open-text fs-1 text-primary"></i>
         </div>
         
-        <h2 class="fw-bold mb-4">¡Inscríbete y no te pierdas nada!</h2>
+        <h2 class="fw-bold mb-4">Reserva tu plaza</h2>
         
         <p class="lead text-muted fw-normal reto-text mb-4">
-          Que no te lo cuenten. Únete a nosotros en este día histórico donde la ciencia, la naturaleza y la celebración se dan la mano bajo el cielo de Autilla del Pino. Rellena el siguiente formulario para apuntarte a la actividad, asegurar tu plaza y recibir todas las novedades del evento de primera mano.
+          Que no te lo cuenten. Únete a nosotros en este día histórico donde la ciencia, la naturaleza y la celebración se dan la mano bajo el cielo de Autilla del Pino. Accede a nuestra propia página de pago para confirmar tu asistencia al evento, asegurar tu plaza y recibir todas las novedades de primera mano. El importe es simbólico y sirve para gestionar tu reserva y asegurar la mejor experiencia posible el día del eclipse.
         </p>
         
         <!-- Botón de llamada a la acción -->
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSclXMK4BkviOcvoU1TTWBHrnqpBmH-fGi_MNzAhxz-PqO8P0Q/viewform" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg px-5 py-0 fw-semibold shadow-sm" style="border-radius: 50px;">
-          <i class="fas fa-clipboard-list me-2"></i> Acceder al formulario
+        <a href="https://buy.stripe.com/28EfZj2SfafB2PYdrWes001" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg px-5 py-0 fw-semibold shadow-sm" style="border-radius: 50px;">
+          <i class="fas fa-ticket-alt me-2"></i> RESERVA TU PLAZA
         </a>
-        
+
+        <div class="p-4 rounded-4 shadow-sm border mt-4" style="background-color: rgba(255, 255, 255, 0.05);">
+          <h3 class="fw-bold mb-3">Información de buses</h3>
+          <p class="lead text-muted fw-normal reto-text mb-2">
+            Próximamente se publicará un cuestionario para la solicitud de buses.
+          </p>
+          <p class="text-muted mb-0">
+            Los buses Valladolid - Autilla saldrán a las 12:00 y la vuelta será a las 00:00. Estad atentos y no os perdáis nada.
+          </p>
+        </div>
       </div>
     </div>
   </div>
