@@ -1,0 +1,39 @@
+<div id="instagram-feed" class="tu-clase-de-estilos">
+  </div>
+
+<script>
+  // Función para cargar el JSON generado por el bot
+  async function loadInstagramFeed() {
+    try {
+      // Cargamos el archivo JSON local desde tu propio repositorio de GitHub Pages
+      const response = await fetch('instagram.json');
+      if (!response.ok) throw new Error('No se pudo cargar el feed');
+      
+      const posts = await response.json();
+      const container = document.getElementById('instagram-feed');
+      
+      // Limpiamos el contenedor por si acaso
+      container.innerHTML = '';
+      
+      // Recorremos los 3 posts y generamos el HTML dinámicamente
+      posts.forEach(post => {
+        const postElement = document.createElement('div');
+        postElement.className = 'instagram-post'; // Añade aquí tus clases CSS
+        
+        postElement.innerHTML = `
+          <a href="${post.url}" target="_blank" rel="noopener noreferrer">
+            <img src="${post.image_url}" alt="${post.caption.substring(0, 50)}..." style="width:100%; max-width:300px; border-radius:8px;">
+          </a>
+        `;
+        
+        container.appendChild(postElement);
+      });
+    } catch (error) {
+      console.error('Error al renderizar el feed de Instagram:', error);
+      // Opcional: Mostrar un mensaje elegante o mantener 3 fotos estáticas de respaldo
+    }
+  }
+
+  // Ejecutar la función al cargar la página
+  document.addEventListener('DOMContentLoaded', loadInstagramFeed);
+</script>

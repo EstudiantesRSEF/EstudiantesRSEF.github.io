@@ -148,6 +148,12 @@
   link: "https://webific.ific.uv.es/web/"
   level: "5"
 
+- name: "Oesia"
+  section: "Patrocinadores Plata"
+  logo: "ENEF/2026/img/Sponsors/Oesia.png"
+  link: "https://grupooesia.com/"
+  level: "5"
+
 - name: "Qilimanjaro"
   section: "Patrocinadores Bronce"
   logo: "/ENEF/2026/img/Sponsors/qilimanjaro.png"

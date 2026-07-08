@@ -1,0 +1,45 @@
+name: Actualizar Feed de Instagram
+
+on:
+  schedule:
+    # Se ejecuta automáticamente todos los días a las 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Esto te permite ejecutarlo manualmente desde GitHub cuando quieras
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Descargar el código del repositorio
+    - name: Checkout del repositorio
+      uses: actions/checkout@v3
+
+    # 2. Configurar el entorno de Python
+    - name: Configurar Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    # 3. Instalar las librerías necesarias
+    - name: Instalar dependencias
+      run: |
+        python -m pip install --upgrade pip
+        pip install instaloader
+
+    # 4. Ejecutar nuestro script
+    - name: Ejecutar script de Python
+      run: python update_instagram.py
+
+    # 5. Guardar los cambios y subirlos al repositorio si el JSON cambió
+    - name: Hacer commit y push de los cambios
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add instagram.json
+        if ! git diff --cached --quiet; then
+          git commit -m "Bot: Actualización automática del feed de Instagram"
+          git push
+        else
+          echo "No hay cambios en el feed."
+        fi
