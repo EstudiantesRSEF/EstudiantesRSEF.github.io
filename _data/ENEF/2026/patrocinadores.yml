@@ -150,7 +150,7 @@
 
 - name: "Oesia"
   section: "Patrocinadores Plata"
-  logo: "ENEF/2026/img/Sponsors/Oesia.png"
+  logo: "/ENEF/2026/img/Sponsors/Oesia.png"
   link: "https://grupooesia.com/"
   level: "5"
 
