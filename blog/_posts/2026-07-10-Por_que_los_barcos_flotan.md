@@ -40,7 +40,7 @@ excerpt: "¿Hasta dónde puede uno llegar si se deja llevar por la curiosidad? E
 
 $$P=E$$
 
-$$\rho_{\text{objeto}} V_{\text{objeto}} g = \rho_{\text{fluido}} V_{\text{sumergido}} g$$
+$$\rho_{\text{objeto}}\  V_{\text{objeto}} \  g = \rho_{\text{fluido}}\  V_{\text{sumergido}}\  g$$
 
 <p>Por fin, por fin tenía la condición de flotabilidad. Observando dicha expresión vio enseguida que en caso de estar el objeto completamente sumergido para que este quedara estático se necesitaría que la densidad del objeto y del fluido coincidieran y que si la densidad del objeto fuera menor a la del fluido este ascendería.</p> 
 
