@@ -64,7 +64,7 @@ Einstein para complicarlo todo y, precisamente por eso, entenderlo mejor.</p>
 <p>Y quizá por eso me gusta tanto la física: porque a veces consiste exactamente en eso, en mirar algo que creías cotidiano hasta que deja de serlo.</p>
 
 <p>Atte:<br>
-<b>El míster de la luz</b></p>
+El míster de la luz</p>
 <hr>
 <p>
 Andrea Morras - Universidad Antonio de Nebrija
