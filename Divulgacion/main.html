@@ -1,0 +1,445 @@
+---
+---
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GdeE Divulgación | RSEF</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root {
+            --azul-marino: #0B1F3A;   /* Azul marino principal */
+            --azul-oscuro: #071429;   /* Azul aún más oscuro (cabecera / footer) */
+            --azul-medio: #1B3B6F;    /* Azul medio */
+            --azul-claro: #4A7FBF;    /* Azul claro para acentos suaves */
+            --azul-pastel: #DCE6F5;   /* Azul muy claro para fondos */
+            --dorado: #E8B84B;        /* Acento cálido de contraste */
+            --dorado-oscuro: #C6941F;
+
+            --fondo: #f4f6fa;
+            --texto: #2c2f36;
+            --blanco: #ffffff;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; color: var(--texto); background-color: var(--fondo); line-height: 1.6; }
+        h1, h2, h3 { font-family: 'Montserrat', sans-serif; }
+        a { text-decoration: none; color: inherit; }
+        ul { list-style: none; }
+
+        /* ===== HEADER ===== */
+        header {
+            position: fixed;
+            top: 0; width: 100%;
+            background-color: rgba(7, 20, 41, 0.95);
+            color: var(--blanco);
+            padding: 0.9rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+        }
+        .logo { font-size: 1.4rem; font-weight: 800; color: var(--dorado); display: flex; align-items: center; gap: 15px; }
+        .logo-img { width: 68px; height: 68px; border-radius: 50%; object-fit: contain; background-color: var(--blanco); padding: 2px; border: 2px solid var(--dorado); }
+        nav ul { display: flex; gap: 25px; }
+        nav a { transition: color 0.3s; font-size: 0.95rem; font-weight: 600; }
+        nav a:hover { color: var(--dorado); }
+
+        section { padding: 110px 10% 90px; scroll-margin-top: 70px; }
+        h2.section-title { color: var(--azul-marino); font-size: 2.4rem; margin-bottom: 45px; }
+        .center { text-align: center; }
+
+        .btn {
+            background-color: var(--dorado);
+            color: var(--azul-oscuro);
+            padding: 14px 28px;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 700;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(232, 184, 75, 0.4);
+            display: inline-block;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover { background-color: var(--dorado-oscuro); transform: translateY(-3px); box-shadow: 0 6px 20px rgba(198, 148, 31, 0.5); }
+
+        /* ===== 1. HOME ===== */
+        .hero {
+            height: 100vh;
+            background: linear-gradient(rgba(7, 20, 41, 0.75), rgba(11, 31, 58, 0.85)), url('foto-home.jpg') center/cover;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: var(--blanco);
+            padding: 0 20px;
+        }
+        .hero h1 { font-size: 3.6rem; margin-bottom: 15px; text-shadow: 2px 2px 8px rgba(0,0,0,0.6); color: var(--blanco); }
+        .hero p { font-size: 1.4rem; margin-bottom: 35px; max-width: 650px; font-weight: 500; color: var(--dorado); }
+
+        /* ===== 2. CONCEPTO ===== */
+        #Concepto { background-color: var(--blanco); }
+        .concepto-container {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            flex-wrap: wrap;
+        }
+        .concepto-text {
+            flex: 1.2;
+            min-width: 300px;
+            text-align: left;
+        }
+        .concepto-text h2.section-title { text-align: left; }
+        .concepto-text p {
+            font-size: 1.08rem;
+            margin-bottom: 18px;
+            color: #444;
+        }
+        .leer-mas {
+            color: var(--azul-claro);
+            font-weight: 700;
+            display: inline-block;
+            margin-top: 5px;
+            transition: color 0.3s;
+        }
+        .leer-mas:hover { color: var(--dorado-oscuro); }
+        .concepto-image {
+            flex: 1;
+            min-width: 280px;
+            text-align: center;
+        }
+        .concepto-image img {
+            width: 100%;
+            max-width: 480px;
+            border-radius: 14px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            border: 4px solid var(--azul-pastel);
+        }
+
+        /* ===== 3. BLOG ===== */
+        #Blog { background-color: var(--fondo); }
+
+        .blog-carousel-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .blog-carousel {
+            display: flex;
+            gap: 25px;
+            overflow-x: auto;
+            scroll-behavior: smooth;
+            padding: 10px 5px 20px;
+            flex: 1;
+            scrollbar-width: thin;
+            scrollbar-color: var(--azul-claro) transparent;
+        }
+        .blog-carousel::-webkit-scrollbar { height: 8px; }
+        .blog-carousel::-webkit-scrollbar-thumb { background: var(--azul-claro); border-radius: 10px; }
+
+        .blog-card {
+            flex: 0 0 300px;
+            background: var(--blanco);
+            border-radius: 14px;
+            box-shadow: 0 8px 24px rgba(11, 31, 58, 0.1);
+            padding: 25px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border-top: 4px solid var(--azul-marino);
+            display: flex;
+            flex-direction: column;
+        }
+        .blog-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 14px 30px rgba(11, 31, 58, 0.2);
+            border-top-color: var(--dorado);
+        }
+        .blog-card-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 15px;
+        }
+        .blog-author-img {
+            width: 48px; height: 48px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid var(--azul-pastel);
+        }
+        .blog-meta { font-size: 0.85rem; color: #777; }
+        .blog-meta strong { color: var(--azul-medio); }
+        .blog-card h3 { font-size: 1.15rem; color: var(--azul-marino); margin-bottom: 10px; }
+        .blog-abstract { font-size: 0.95rem; color: #555; flex: 1; }
+
+        .blog-more {
+            flex: 0 0 180px;
+            background: var(--azul-marino);
+            color: var(--blanco);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            border-radius: 14px;
+            font-weight: 700;
+            text-align: center;
+            transition: background 0.3s, transform 0.3s;
+        }
+        .blog-more i { font-size: 1.8rem; color: var(--dorado); }
+        .blog-more:hover { background: var(--azul-medio); transform: translateY(-8px); }
+
+        .btn-carrusel {
+            background-color: var(--azul-marino);
+            color: var(--blanco);
+            border: none;
+            width: 46px;
+            height: 46px;
+            font-size: 1.3rem;
+            cursor: pointer;
+            border-radius: 50%;
+            transition: background 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        .btn-carrusel:hover { background-color: var(--dorado-oscuro); }
+
+        /* ===== 4. PODCAST ===== */
+        #Podcast {
+            background: linear-gradient(120deg, var(--azul-marino), var(--azul-oscuro));
+            color: var(--blanco);
+        }
+        .podcast-container {
+            display: flex;
+            justify-content: flex-end;
+            text-align: right;
+        }
+        .podcast-content { max-width: 550px; }
+        #Podcast h2.section-title { color: var(--blanco); text-align: right; }
+        .podcast-content p {
+            font-size: 1.1rem;
+            color: #dbe4f2;
+            margin-bottom: 30px;
+        }
+        .podcast-content .btn i { margin-left: 8px; }
+        .podcast-content .btn {
+            background-color: #FF0000;
+            color: var(--blanco);
+            box-shadow: 0 4px 15px rgba(255,0,0,0.35);
+        }
+        .podcast-content .btn:hover { background-color: #cc0000; }
+
+        /* ===== 5. COLABORA ===== */
+        .colabora {
+            background-color: var(--blanco);
+            text-align: center;
+        }
+        .colabora-text {
+            font-size: 1.2rem;
+            color: #444;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+
+        /* ===== MODAL (leer más) ===== */
+        .modal-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(7, 20, 41, 0.85);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease;
+        }
+        .modal-overlay.active { opacity: 1; visibility: visible; }
+        .modal-content {
+            background: var(--blanco);
+            max-width: 700px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+            border-radius: 14px;
+            padding: 40px;
+            position: relative;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+        .modal-content h3 { color: var(--azul-marino); margin-bottom: 20px; font-size: 1.7rem; }
+        .modal-content p { margin-bottom: 15px; color: #444; }
+        .close-btn {
+            position: absolute;
+            top: 15px; right: 20px;
+            font-size: 1.6rem;
+            color: #999;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+        .close-btn:hover { color: var(--dorado-oscuro); }
+
+        footer {
+            background: var(--azul-oscuro);
+            color: var(--fondo);
+            text-align: center;
+            padding: 30px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        footer span { color: var(--dorado); }
+        .social-link { display: inline-block; margin-left: 20px; color: var(--dorado); font-size: 1.6rem; transition: all 0.3s ease; }
+        .social-link:hover { transform: scale(1.2); color: var(--blanco); }
+
+        @media (max-width: 800px) {
+            .concepto-container { flex-direction: column; }
+            .podcast-container { justify-content: center; text-align: center; }
+            #Podcast h2.section-title { text-align: center; }
+            .concepto-text, .concepto-text h2.section-title { text-align: center; }
+            nav ul { flex-wrap: wrap; gap: 12px; justify-content: center; }
+            header { flex-direction: column; gap: 10px; padding: 1rem 5%; }
+            section { padding: 90px 6% 70px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="/img/logos/gdee-rsef-logo-cuadrado-fondo-blanco.png" alt="Logo GdeE RSEF" class="logo-img">
+            <span>GdeE Divulgación</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Concepto">Concepto</a></li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#Podcast">Podcast</a></li>
+                <li><a href="#Colabora">¡Colabora!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 1. HOME -->
+    <section id="Home" class="hero">
+        <h1>Divulgación en el GdeE</h1>
+        <p>Física por estudiantes para estudiantes</p>
+        <a href="#Concepto" class="btn">Descubre más</a>
+    </section>
+
+    <!-- 2. CONCEPTO -->
+    <section id="Concepto">
+        <div class="concepto-container">
+            <div class="concepto-text">
+                <h2 class="section-title">¿Por qué divulgación?</h2>
+                <p>La física, como todas las ciencias, avanza gracias a la curiosidad y al deseo de compartir el conocimiento. El Grupo de Estudiantes (GdeE) de la RSEF nace con la convicción de que la mejor manera de aprender física es explicándosela a otros, y de que ningún estudiante debería sentir que la ciencia es un territorio reservado a unos pocos.</p>
+                <p>A través de artículos, pódcasts y actividades abiertas, buscamos acercar la investigación actual y los conceptos fundamentales de la física a un público amplio, empezando por quienes, como nosotros, todavía están formándose...</p>
+                <a href="javascript:void(0)" class="leer-mas" onclick="abrirModalConcepto()">leer más...</a>
+            </div>
+            <div class="concepto-image">
+                <img src="concepto.jpg" alt="Divulgación científica GdeE">
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. BLOG -->
+    <section id="Blog">
+        <h2 class="section-title center">El Blog del GdeE</h2>
+
+        <div class="blog-carousel-wrapper">
+            <button class="btn-carrusel prev" onclick="moverBlog(-1)"><i class="fas fa-chevron-left"></i></button>
+
+            <div class="blog-carousel" id="blogCarousel">
+
+                {% for post in site.posts limit:5 %}
+                {% assign autor_info = site.data.autores[post.author] %}
+                <a href="{{ post.url }}" class="blog-card">
+                    <div class="blog-card-header">
+                        <img src="{{ autor_info.image | default: '/assets/autores/default.jpg' }}" alt="Foto de {{ post.author }}" class="blog-author-img">
+                        <div class="blog-meta">{{ post.date | date: "%-d %B %Y" }}<br><strong>{{ post.author }}</strong></div>
+                    </div>
+                    <h3>{{ post.title }}</h3>
+                    <p class="blog-abstract">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+                </a>
+                {% endfor %}
+
+                <a href="/blog" class="blog-card blog-more">
+                    <i class="fas fa-arrow-right"></i>
+                    <span>Ver todo el blog</span>
+                </a>
+
+            </div>
+
+            <button class="btn-carrusel next" onclick="moverBlog(1)"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- 4. PODCAST -->
+    <section id="Podcast">
+        <div class="podcast-container">
+            <div class="podcast-content">
+                <h2 class="section-title">En la Onda del GdeE</h2>
+                <p>Nuestro pódcast, <strong>"Quark y Medio"</strong>, acerca la física de manera cercana y amena a través de conversaciones entre estudiantes, con invitados de la investigación actual y debates sobre los grandes interrogantes de la ciencia. Nuevos episodios cada mes.</p>
+                <a href="https://www.youtube.com" target="_blank" class="btn">Ver en YouTube <i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. COLABORA -->
+    <section id="Colabora" class="colabora">
+        <h2 class="section-title center">¿Quieres involucrarte en la Divulgación del GdeE?</h2>
+        <p class="colabora-text">Rellena este formulario:</p>
+        <a href="https://forms.google.com" target="_blank" class="btn">Ir al formulario <i class="fas fa-arrow-up-right-from-square"></i></a>
+    </section>
+
+    <footer>
+        <p>GdeE Divulgación - <span>RSEF</span> — Grupo de Estudiantes</p>
+        <a href="#" target="_blank" title="Instagram" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank" title="YouTube" class="social-link"><i class="fab fa-youtube"></i></a>
+    </footer>
+
+    <!-- MODAL CONCEPTO -->
+    <div class="modal-overlay" id="concepto-modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="cerrarModalConcepto()">&times;</span>
+            <h3>¿Por qué divulgación?</h3>
+            <p>La física, como todas las ciencias, avanza gracias a la curiosidad y al deseo de compartir el conocimiento. El Grupo de Estudiantes (GdeE) de la RSEF nace con la convicción de que la mejor manera de aprender física es explicándosela a otros, y de que ningún estudiante debería sentir que la ciencia es un territorio reservado a unos pocos.</p>
+            <p>A través de artículos, pódcasts y actividades abiertas, buscamos acercar la investigación actual y los conceptos fundamentales de la física a un público amplio, empezando por quienes, como nosotros, todavía están formándose. Creemos que explicar un concepto en voz alta, escribir sobre él o debatirlo con otros compañeros es, en sí mismo, un ejercicio de aprendizaje tan valioso como resolver un problema o leer un artículo.</p>
+            <p>Además, entendemos la divulgación como una responsabilidad: la ciencia se financia y se sostiene gracias a la sociedad, y devolverle ese conocimiento de forma accesible es parte de nuestro compromiso como futuros investigadores. Por eso impulsamos actividades en institutos, colaboramos con otras iniciativas de la RSEF y mantenemos abiertos nuestros canales —blog y pódcast— a cualquier estudiante que quiera participar, ya sea escribiendo, grabando o simplemente proponiendo ideas.</p>
+            <p>En definitiva, "GdeE Divulgación" es un espacio hecho por estudiantes de física para todo aquel que sienta curiosidad por entender un poco mejor el universo que nos rodea.</p>
+        </div>
+    </div>
+
+    <script>
+        // Modal "leer más" del Concepto
+        function abrirModalConcepto() {
+            document.getElementById('concepto-modal').classList.add('active');
+        }
+        function cerrarModalConcepto() {
+            document.getElementById('concepto-modal').classList.remove('active');
+        }
+        window.addEventListener('click', function (event) {
+            if (event.target === document.getElementById('concepto-modal')) cerrarModalConcepto();
+        });
+
+        // Carrusel de botones del Blog
+        function moverBlog(direccion) {
+            const carrusel = document.getElementById('blogCarousel');
+            const card = carrusel.querySelector('.blog-card');
+            const scrollAmount = card.offsetWidth + 25; // ancho de tarjeta + gap
+            carrusel.scrollBy({ left: direccion * scrollAmount, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
