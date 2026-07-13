@@ -11,14 +11,14 @@
 
     <style>
         :root {
-            --azul-marino: #0B1F3A;   /* Azul marino principal */
-            --azul-oscuro: #071429;   /* Azul aún más oscuro (cabecera / footer) */
+            --azul-marino: #16203F;   /* Azul marino principal (igual que la web del RSEF) */
+            --azul-oscuro: #0E1730;   /* Azul aún más oscuro (cabecera / footer) */
             --azul-medio: #1B3B6F;    /* Azul medio */
             --azul-claro: #4A7FBF;    /* Azul claro para acentos suaves */
             --azul-pastel: #DCE6F5;   /* Azul muy claro para fondos */
             --dorado: #E8B84B;        /* Acento cálido de contraste */
             --dorado-oscuro: #C6941F;
-
+ 
             --fondo: #f4f6fa;
             --texto: #2c2f36;
             --blanco: #ffffff;
@@ -35,7 +35,7 @@
         header {
             position: fixed;
             top: 0; width: 100%;
-            background-color: rgba(7, 20, 41, 0.95);
+            background-color: rgba(22, 32, 63, 0.95);
             color: var(--blanco);
             padding: 0.9rem 5%;
             display: flex;
@@ -49,6 +49,42 @@
         nav ul { display: flex; gap: 25px; }
         nav a { transition: color 0.3s; font-size: 0.95rem; font-weight: 600; }
         nav a:hover { color: var(--dorado); }
+
+        .dropdown { position: relative; }
+        .dropdown-toggle { display: flex; align-items: center; gap: 6px; cursor: pointer; }
+        .dropdown-toggle i { font-size: 0.7rem; transition: transform 0.3s; }
+        .dropdown.active .dropdown-toggle i { transform: rotate(180deg); }
+        .dropdown-menu {
+            position: absolute;
+            top: calc(100% + 18px);
+            right: 0;
+            background-color: var(--blanco);
+            min-width: 190px;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+            overflow: hidden;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-8px);
+            transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
+            z-index: 1001;
+        }
+        .dropdown:hover .dropdown-menu,
+        .dropdown.active .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+        .dropdown-menu li a {
+            display: block;
+            padding: 12px 20px;
+            color: var(--azul-marino);
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: background 0.25s, color 0.25s;
+        }
+        .dropdown-menu li a:hover { background-color: var(--azul-pastel); color: var(--azul-oscuro); }
+        .dropdown-menu li:not(:last-child) a { border-bottom: 1px solid #eee; }
 
         section { padding: 110px 10% 90px; scroll-margin-top: 70px; }
         h2.section-title { color: var(--azul-marino); font-size: 2.4rem; margin-bottom: 45px; }
@@ -68,11 +104,60 @@
             cursor: pointer;
         }
         .btn:hover { background-color: var(--dorado-oscuro); transform: translateY(-3px); box-shadow: 0 6px 20px rgba(198, 148, 31, 0.5); }
+        .btn-small { padding: 10px 22px; font-size: 0.9rem; box-shadow: none; }
+
+        /* ===== CONCURSOS ===== */
+        #Concursos { background-color: var(--blanco); }
+        .concursos-carousel-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .concursos-carousel {
+            display: flex;
+            gap: 25px;
+            overflow-x: auto;
+            scroll-behavior: smooth;
+            scroll-snap-type: x mandatory;
+            padding: 10px 5px 20px;
+            flex: 1;
+            scrollbar-width: thin;
+            scrollbar-color: var(--azul-claro) transparent;
+        }
+        .concursos-carousel::-webkit-scrollbar { height: 8px; }
+        .concursos-carousel::-webkit-scrollbar-thumb { background: var(--azul-claro); border-radius: 10px; }
+
+        .concurso-card {
+            flex: 0 0 100%;
+            scroll-snap-align: start;
+            background: var(--fondo);
+            border-radius: 14px;
+            box-shadow: 0 8px 24px rgba(22, 32, 63, 0.12);
+            overflow: hidden;
+            transition: box-shadow 0.3s;
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+        }
+        .concurso-card:hover { box-shadow: 0 14px 30px rgba(22, 32, 63, 0.22); }
+        .concurso-card img { flex: 0 0 42%; width: 42%; object-fit: cover; }
+        .concurso-content { flex: 1; padding: 40px 50px; display: flex; flex-direction: column; justify-content: center; gap: 16px; }
+        .concurso-content h3 { color: var(--azul-marino); font-size: 1.7rem; }
+        .concurso-content p { font-size: 1.05rem; color: #555; }
+        .concurso-content .btn-small { align-self: flex-start; }
+
+        @media (max-width: 800px) {
+            .concurso-card { flex-direction: column; }
+            .concurso-card img { width: 100%; flex: 0 0 220px; height: 220px; }
+            .concurso-content { padding: 25px; }
+        }
 
         /* ===== 1. HOME ===== */
         .hero {
             height: 100vh;
-            background: linear-gradient(rgba(7, 20, 41, 0.75), rgba(11, 31, 58, 0.85)), url('foto-home.jpg') center/cover;
+            background: linear-gradient(rgba(14, 23, 48, 0.75), rgba(22, 32, 63, 0.85)), url('foto-home.jpg') center/cover;
             background-attachment: fixed;
             display: flex;
             flex-direction: column;
@@ -256,7 +341,7 @@
         .modal-overlay {
             position: fixed;
             top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(7, 20, 41, 0.85);
+            background: rgba(14, 23, 48, 0.85);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -310,6 +395,8 @@
             nav ul { flex-wrap: wrap; gap: 12px; justify-content: center; }
             header { flex-direction: column; gap: 10px; padding: 1rem 5%; }
             section { padding: 90px 6% 70px; }
+            .dropdown-menu { right: 50%; transform: translate(50%, -8px); }
+            .dropdown:hover .dropdown-menu, .dropdown.active .dropdown-menu { transform: translate(50%, 0); }
         }
     </style>
 </head>
@@ -327,6 +414,16 @@
                 <li><a href="#Blog">Blog</a></li>
                 <li><a href="#Podcast">Podcast</a></li>
                 <li><a href="#Colabora">¡Colabora!</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropdown-toggle" onclick="toggleDropdown(event)">Más <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#Concursos">Concursos</a></li>
+                        <li><a href="/Revistas">Revistas</a></li>
+                        <li><a href="/Acertijos">Acertijos</a></li>
+                        <li><a href="/Cursos">Cursos</a></li>
+                        <li><a href="/Apoyo">Apoyo</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
     </header>
@@ -366,7 +463,7 @@
                 {% assign autor_info = site.data.autores[post.author] %}
                 <a href="{{ post.url }}" class="blog-card">
                     <div class="blog-card-header">
-                        <img src="{{ autor_info.image | default: '/assets/autores/default.jpg' }}" alt="Foto de {{ post.author }}" class="blog-author-img">
+                        <img src="{{ autor_info.image | default: '/Divulgacion/avatar-default.svg' }}" alt="Foto de {{ post.author }}" class="blog-author-img" onerror="this.onerror=null;this.src='/Divulgacion/avatar-default.svg';">
                         <div class="blog-meta">{{ post.date | date: "%-d %B %Y" }}<br><strong>{{ post.author }}</strong></div>
                     </div>
                     <h3>{{ post.title }}</h3>
@@ -382,6 +479,30 @@
             </div>
 
             <button class="btn-carrusel next" onclick="moverBlog(1)"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- CONCURSOS -->
+    <section id="Concursos">
+        <h2 class="section-title center">Concursos</h2>
+
+        <div class="concursos-carousel-wrapper">
+            <button class="btn-carrusel prev" onclick="moverConcursos(-1)"><i class="fas fa-chevron-left"></i></button>
+
+            <div class="concursos-carousel" id="concursosCarousel">
+
+                <div class="concurso-card">
+                    <img src="/Divulgacion/ConcursoRelatos/portada.png" alt="I Concurso de Relatos Divulgativos">
+                    <div class="concurso-content">
+                        <h3>I Concurso de Relatos Divulgativos</h3>
+                        <p>Un espacio donde estudiantes de física ponen a prueba su creatividad, combinando literatura y ciencia en relatos breves sobre los grandes temas de la física actual. ¡Participa y comparte tu visión del universo!</p>
+                        <a href="/ConcursoRelatos/portal_concurso.md" class="btn btn-small">Ver más</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="btn-carrusel next" onclick="moverConcursos(1)"><i class="fas fa-chevron-right"></i></button>
         </div>
     </section>
 
@@ -422,6 +543,17 @@
     </div>
 
     <script>
+        // Desplegable "Más" de la cabecera (clic para móvil, hover para escritorio)
+        function toggleDropdown(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            document.querySelector('.dropdown').classList.toggle('active');
+        }
+        window.addEventListener('click', function (event) {
+            const dropdown = document.querySelector('.dropdown');
+            if (dropdown && !dropdown.contains(event.target)) dropdown.classList.remove('active');
+        });
+
         // Modal "leer más" del Concepto
         function abrirModalConcepto() {
             document.getElementById('concepto-modal').classList.add('active');
@@ -438,6 +570,14 @@
             const carrusel = document.getElementById('blogCarousel');
             const card = carrusel.querySelector('.blog-card');
             const scrollAmount = card.offsetWidth + 25; // ancho de tarjeta + gap
+            carrusel.scrollBy({ left: direccion * scrollAmount, behavior: 'smooth' });
+        }
+
+        // Carrusel de foto y texto de Concursos
+        function moverConcursos(direccion) {
+            const carrusel = document.getElementById('concursosCarousel');
+            const card = carrusel.querySelector('.concurso-card');
+            const scrollAmount = card.offsetWidth + 25;
             carrusel.scrollBy({ left: direccion * scrollAmount, behavior: 'smooth' });
         }
     </script>
