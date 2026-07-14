@@ -5,7 +5,6 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch:
 
-# 1. SOLUCIÓN AL ERROR 128: Le damos permisos explícitos al bot en el archivo
 permissions:
   contents: write
 
@@ -14,7 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # 2. SOLUCIÓN AL AVISO DE NODE.JS: Actualizamos a la v4 y v5
     - name: Checkout del repositorio
       uses: actions/checkout@v4
 
@@ -23,10 +21,11 @@ jobs:
       with:
         python-version: '3.x'
 
+    # AQUÍ ES DONDE ESTABA EL DETALLE QUE FALTABA:
     - name: Instalar dependencias
       run: |
         python -m pip install --upgrade pip
-        pip install instaloader requests
+        pip install requests beautifulsoup4 bs4 lxml
 
     - name: Ejecutar script de Python
       run: python update_instagram.py
@@ -36,8 +35,6 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         
-        # 3. SOLUCIÓN AL ERROR 128: Usamos "git add ." para añadir todo lo que haya cambiado.
-        # Así, si un día falla Instagram y no hay fotos nuevas, Git no dará error 128 por no encontrarlas.
         git add .
         
         if ! git diff --cached --quiet; then
