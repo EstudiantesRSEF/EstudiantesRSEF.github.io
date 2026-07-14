@@ -579,12 +579,22 @@ footer: eclipse
         </a>
 
         <div class="p-4 rounded-4 shadow-sm border mt-4" style="background-color: rgba(255, 255, 255, 0.05);">
+          <h3 class="fw-bold mb-3">Inscripción al autobús</h3>
+          <p class="lead text-muted fw-normal reto-text mb-3">
+            Si quieres venir en autobús, rellena este formulario para reservar tu plaza en el viaje. ¡No te quedes sin sitio!
+          </p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdHm8eR8E6UhEy4WYYJDd7wHr96ECFNJLQK2jk3jzHAquw-8g/viewform" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary btn-lg px-5 py-2 fw-semibold shadow-sm" style="border-radius: 50px;">
+            <i class="fas fa-bus me-2"></i> Apúntate al autobús
+          </a>
+        </div>
+
+        <div class="p-4 rounded-4 shadow-sm border mt-4" style="background-color: rgba(255, 255, 255, 0.05);">
           <h3 class="fw-bold mb-3">Información de buses</h3>
           <p class="lead text-muted fw-normal reto-text mb-2">
-            Próximamente se publicará un cuestionario para la solicitud de buses.
+            Los buses Valladolid - Autilla saldrán a las 12:00 y la vuelta será a las 00:00. Estad atentos y no os perdáis nada.
           </p>
           <p class="text-muted mb-0">
-            Los buses Valladolid - Autilla saldrán a las 12:00 y la vuelta será a las 00:00. Estad atentos y no os perdáis nada.
+            La inscripción al autobús se gestiona a través del formulario. Reserva cuanto antes tu plaza en el viaje.
           </p>
         </div>
       </div>
