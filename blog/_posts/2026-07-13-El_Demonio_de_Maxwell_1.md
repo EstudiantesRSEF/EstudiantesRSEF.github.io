@@ -32,6 +32,7 @@ excerpt: "Este es un cuento para no dormir. Un relato de fantasmas. Una historia
 <p>Si algo pudo aprender en Cambridge fue, sin duda, la matematización del conocimiento. Y, sin perder ese rumbo, fue gestando una obsesión por entender aquellas líneas de fuerza "faradayanas" como algo físico, susceptible de escribirse con ecuaciones.</p>
 
 <br>
+<br>
 
 <p>Como no podía ser de otra manera, aquella tarde llovía en Londres. Las mesas estaban llenas de aparatos extraños. "Si puedes construirlo, podrás escribirlo". Ese mantra le había llevado a construir un sistema mecánico para reproducir una idea que llevaba diez años obsesionándole. Aun así, no encajaba. Pretendía representar las interacciones y la dinámica de la electricidad y el magnetismo como un conjunto de ecuaciones diferenciales que hablaran de un campo. No había perdido la razón, pero su convicción comenzaba a flaquear. Resentido de una larga jornada de trabajo, se sentó en su sillón junto a la ventana. Encendió su pipa y comenzó a fumar, reflejando nubes de humo denso contra el cristal, repiqueteando bajo la incesante lluvia. En cada calada, un pensamiento; en cada calada, un deseo de encontrarlo.</p>
 
@@ -76,6 +77,17 @@ excerpt: "Este es un cuento para no dormir. Un relato de fantasmas. Una historia
 <p>Era demasiado bueno para ser verdad. Con la pluma en la mano, el doctor miró al demonio fijamente a esas pupilas sin fondo. Vaciló, levantó ligeramente la mano, y el demonio no perdió la oportunidad de estrecharla. En ese apretón volvió todo el humo y se concentró en la llama de la lámpara, que estalló en un destello que cegó al profesor.</p>
 
 <p>Despertó de un salto en el sillón, con la pipa aún en la boca. La tempestad había amainado. La pluma reposaba en el alféizar de la ventana.</p>
+
+<br>
+<br>
+
+<p>Lo que siguió ya pertenece a la historia que conocemos. </p>
+
+<p>Efectivamente, aquella misteriosa corriente de desplazamiento fue lo que le permitió encajar sus ideas. Y la promesa del demonio no cayó en saco roto. Poco se tardó en revelar las ecuaciones de onda entre aquellas 20 líneas de cálculo. Era una solución elegante que nos demostraba que la luz no era otra cosa que una onda. Era fascinante. Lo sigue siendo. Se tardaron muchos años en comprender aquella revolución, pero cuando se hizo, fue de una magnitud revolucionaria. Una teoría sin parangón de la altura de Sir Isaac Newton.</p>
+
+<p>Maxwell descansó en paz durante muchos meses. Hasta que, una fatídica noche, le acosó la más intensa de las pesadillas. Eran de esos sueños que dejan la columna rígida y helada a cualquiera. No llegó a escuchar de nuevo la risa profunda del demonio en el fondo de su sueño. Se despertó de un sobresalto, empapado en sudor y con 2 nombres que rebotarían en su cabeza durante días. No los conocía. No los conocería nunca. Maxwell soñó con fantasmas, y su única pista eran aquellos nombres rusos: Faddeev y Popov.</p>
+
+<br>
 
 <hr>
 <p>
