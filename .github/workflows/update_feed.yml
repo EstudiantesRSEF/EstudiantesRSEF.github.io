@@ -2,19 +2,24 @@ name: Actualizar Feed de Instagram
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Se ejecuta cada día a medianoche
-  workflow_dispatch:     # Permite ejecutarlo a mano desde la web de GitHub
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+# 1. SOLUCIÓN AL ERROR 128: Le damos permisos explícitos al bot en el archivo
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
+    # 2. SOLUCIÓN AL AVISO DE NODE.JS: Actualizamos a la v4 y v5
     - name: Checkout del repositorio
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Configurar Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.x'
 
@@ -31,12 +36,13 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         
-        # Añadimos tanto el archivo JSON como la carpeta de las fotos
-        git add instagram.json instagram_posts/
+        # 3. SOLUCIÓN AL ERROR 128: Usamos "git add ." para añadir todo lo que haya cambiado.
+        # Así, si un día falla Instagram y no hay fotos nuevas, Git no dará error 128 por no encontrarlas.
+        git add .
         
         if ! git diff --cached --quiet; then
           git commit -m "Bot: Actualización limpia del feed e imágenes de Instagram"
           git push
         else
-          echo "No hay cambios detectados en Instagram."
+          echo "No hay cambios detectados o el script de Python no generó archivos nuevos."
         fi
