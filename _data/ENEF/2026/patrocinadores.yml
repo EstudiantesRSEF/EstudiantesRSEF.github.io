@@ -191,6 +191,12 @@
   link: "https://observatori.uv.es/"
   level: "6"
 
+- name: "Bain & Company"
+  section: "Patrocinadores Bronce"
+  logo: "/ENEF/2026/img/Sponsors/Bain&Company.png"
+  link: "https://www.bain.com/"
+  level: "6"
+
 
 - name: "i3M"
   section: "Patrocinadores Bronce"
