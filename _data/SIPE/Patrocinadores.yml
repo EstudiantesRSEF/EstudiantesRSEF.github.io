@@ -14,3 +14,11 @@ patrocinadores:
   - name: "Facultad de Química UMU"
     logo: "/SIPE/Sponsors/FacultadQuimicaUMU.jpg"
     url: "https://www.um.es/web/quimica/"
+
+  - name: "COFIS"
+    logo: "/ENEF/2025/img/Sponsors/COFIS.png"
+    url: "https://www.cofis.es/"
+
+  - name: "Casio"
+    logo: "/ENEF/2025/img/Sponsors/Casio.png"
+    url: "https://www.casio.com/es/"
