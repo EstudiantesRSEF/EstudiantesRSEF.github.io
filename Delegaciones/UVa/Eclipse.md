@@ -155,9 +155,12 @@ footer: eclipse
         </button>
     </div>
 </div>
-  <p class="lead mx-auto w-75 text-muted fw-normal reto-text mb-4">
-  Aún estamos completando el horario para abarcar todo el tiempo posible y conseguir que valga la pena venir aquí. Contará con mucha ciencia, música en directo y una barra con comida y bebida, para asegurarnos de que tu experiencia sea inolvidable.
-  </p>
+  <div class="text-center my-4">
+    <p class="display-6 fw-bold text-dark mx-auto w-75 mb-3">Pincha en la imagen para descargar el folleto del evento</p>
+    <a href="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/folleto/Copia de Folleto Totality (1).pdf" target="_blank" rel="noopener noreferrer" class="d-inline-block">
+      <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/folleto/Copia de Folleto Totality (1)_page-0002.jpg" alt="Segunda página del folleto del evento" class="img-fluid rounded shadow-sm" style="max-width: 700px;">
+    </a>
+  </div>
   <p class="lead mx-auto w-75 text-muted fw-normal reto-text mb-4">
   ¡No te pierdas nuestras redes para cualquier novedad!
   </p>
