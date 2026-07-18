@@ -16,8 +16,15 @@
             --azul-medio: #1B3B6F;    /* Azul medio */
             --azul-claro: #4A7FBF;    /* Azul claro para acentos suaves */
             --azul-pastel: #DCE6F5;   /* Azul muy claro para fondos */
-            --dorado: #E8B84B;        /* Acento cálido de contraste */
-            --dorado-oscuro: #C6941F;
+
+            --verde-oscuro: #03572B;  /* Verde oscuro del logo GdeE */
+            --verde: #78BE40;         /* Verde claro del logo GdeE - acento principal */
+            --verde-hover: #5C9930;   /* Verde para estados hover */
+            --verde-pastel: #C8E4B4;  /* Verde muy claro para fondos suaves */
+
+            --rojo: #BD1D3A;          /* Rojo/granate del logo GdeE - acento secundario */
+            --rojo-hover: #971730;    /* Rojo más oscuro para estados hover */
+            --rojo-pastel: #E5A5B0;   /* Rojo muy claro para fondos suaves */
  
             --fondo: #f4f6fa;
             --texto: #2c2f36;
@@ -44,11 +51,11 @@
             z-index: 1000;
             box-shadow: 0 2px 12px rgba(0,0,0,0.3);
         }
-        .logo { font-size: 1.4rem; font-weight: 800; color: var(--dorado); display: flex; align-items: center; gap: 15px; }
-        .logo-img { width: 68px; height: 68px; border-radius: 50%; object-fit: contain; background-color: var(--blanco); padding: 2px; border: 2px solid var(--dorado); }
+        .logo { font-size: 1.4rem; font-weight: 800; color: var(--verde); display: flex; align-items: center; gap: 15px; }
+        .logo-img { width: 68px; height: 68px; border-radius: 50%; object-fit: contain; background-color: var(--blanco); padding: 2px; border: 2px solid var(--verde); }
         nav ul { display: flex; gap: 25px; }
         nav a { transition: color 0.3s; font-size: 0.95rem; font-weight: 600; }
-        nav a:hover { color: var(--dorado); }
+        nav a:hover { color: var(--verde); }
 
         .dropdown { position: relative; }
         .dropdown-toggle { display: flex; align-items: center; gap: 6px; cursor: pointer; }
@@ -83,7 +90,7 @@
             font-size: 0.9rem;
             transition: background 0.25s, color 0.25s;
         }
-        .dropdown-menu li a:hover { background-color: var(--azul-pastel); color: var(--azul-oscuro); }
+        .dropdown-menu li a:hover { background-color: var(--verde-pastel); color: var(--verde-oscuro); }
         .dropdown-menu li:not(:last-child) a { border-bottom: 1px solid #eee; }
 
         section { padding: 110px 10% 90px; scroll-margin-top: 70px; }
@@ -91,20 +98,22 @@
         .center { text-align: center; }
 
         .btn {
-            background-color: var(--dorado);
+            background-color: var(--verde);
             color: var(--azul-oscuro);
             padding: 14px 28px;
             border-radius: 6px;
             font-size: 1rem;
             font-weight: 700;
             transition: all 0.3s;
-            box-shadow: 0 4px 15px rgba(232, 184, 75, 0.4);
+            box-shadow: 0 4px 15px rgba(120, 190, 64, 0.4);
             display: inline-block;
             border: none;
             cursor: pointer;
         }
-        .btn:hover { background-color: var(--dorado-oscuro); transform: translateY(-3px); box-shadow: 0 6px 20px rgba(198, 148, 31, 0.5); }
+        .btn:hover { background-color: var(--verde-hover); transform: translateY(-3px); box-shadow: 0 6px 20px rgba(92, 153, 48, 0.5); }
         .btn-small { padding: 10px 22px; font-size: 0.9rem; box-shadow: none; }
+        .btn-rojo { background-color: var(--rojo); color: var(--blanco); box-shadow: 0 4px 15px rgba(189, 29, 58, 0.4); }
+        .btn-rojo:hover { background-color: var(--rojo-hover); box-shadow: 0 6px 20px rgba(151, 23, 48, 0.5); }
 
         /* ===== CONCURSOS ===== */
         #Concursos { background-color: var(--blanco); }
@@ -157,18 +166,44 @@
         /* ===== 1. HOME ===== */
         .hero {
             height: 100vh;
-            background: linear-gradient(rgba(14, 23, 48, 0.75), rgba(22, 32, 63, 0.85)), url('foto-home.jpg') center/cover;
-            background-attachment: fixed;
+            position: relative;
+            overflow: hidden;
             display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
-            text-align: center;
             color: var(--blanco);
+        }
+        .hero-grid {
+            position: absolute;
+            inset: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 6px;
+            background-color: var(--azul-oscuro);
+            z-index: 0;
+        }
+        .hero-grid-item {
+            background-size: cover;
+            background-position: center;
+        }
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(rgba(14, 23, 48, 0.5), rgba(22, 32, 63, 0.6));
+            z-index: 1;
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
             padding: 0 20px;
         }
         .hero h1 { font-size: 3.6rem; margin-bottom: 15px; text-shadow: 2px 2px 8px rgba(0,0,0,0.6); color: var(--blanco); }
-        .hero p { font-size: 1.4rem; margin-bottom: 35px; max-width: 650px; font-weight: 500; color: var(--dorado); }
+        .hero p { font-size: 1.4rem; margin-bottom: 35px; max-width: 650px; font-weight: 500; color: var(--verde); }
 
         /* ===== 2. CONCEPTO ===== */
         #Concepto { background-color: var(--blanco); }
@@ -196,7 +231,7 @@
             margin-top: 5px;
             transition: color 0.3s;
         }
-        .leer-mas:hover { color: var(--dorado-oscuro); }
+        .leer-mas:hover { color: var(--verde-hover); }
         .concepto-image {
             flex: 1;
             min-width: 280px;
@@ -247,7 +282,7 @@
         .blog-card:hover {
             transform: translateY(-8px);
             box-shadow: 0 14px 30px rgba(11, 31, 58, 0.2);
-            border-top-color: var(--dorado);
+            border-top-color: var(--verde);
         }
         .blog-card-header {
             display: flex;
@@ -280,7 +315,7 @@
             text-align: center;
             transition: background 0.3s, transform 0.3s;
         }
-        .blog-more i { font-size: 1.8rem; color: var(--dorado); }
+        .blog-more i { font-size: 1.8rem; color: var(--verde); }
         .blog-more:hover { background: var(--azul-medio); transform: translateY(-8px); }
 
         .btn-carrusel {
@@ -298,7 +333,7 @@
             justify-content: center;
             flex-shrink: 0;
         }
-        .btn-carrusel:hover { background-color: var(--dorado-oscuro); }
+        .btn-carrusel:hover { background-color: var(--verde-hover); }
 
         /* ===== 4. PODCAST ===== */
         #Podcast {
@@ -372,7 +407,7 @@
             cursor: pointer;
             transition: color 0.3s;
         }
-        .close-btn:hover { color: var(--dorado-oscuro); }
+        .close-btn:hover { color: var(--rojo); }
 
         footer {
             background: var(--azul-oscuro);
@@ -383,8 +418,8 @@
             font-weight: 600;
             letter-spacing: 0.5px;
         }
-        footer span { color: var(--dorado); }
-        .social-link { display: inline-block; margin-left: 20px; color: var(--dorado); font-size: 1.6rem; transition: all 0.3s ease; }
+        footer span { color: var(--verde); }
+        .social-link { display: inline-block; margin-left: 20px; color: var(--verde); font-size: 1.6rem; transition: all 0.3s ease; }
         .social-link:hover { transform: scale(1.2); color: var(--blanco); }
 
         @media (max-width: 800px) {
@@ -404,7 +439,7 @@
 
     <header>
         <div class="logo">
-            <img src="/img/logos/gdee-rsef-logo-cuadrado-fondo-blanco.png" alt="Logo GdeE RSEF" class="logo-img">
+            <img src="/Divulgacion/logo_centrado.svg" alt="Logo GdeE RSEF" class="logo-img">
             <span>GdeE Divulgación</span>
         </div>
         <nav>
@@ -430,9 +465,18 @@
 
     <!-- 1. HOME -->
     <section id="Home" class="hero">
-        <h1>Divulgación en el GdeE</h1>
-        <p>Física por estudiantes para estudiantes</p>
-        <a href="#Concepto" class="btn">Descubre más</a>
+        <div class="hero-grid">
+            <div class="hero-grid-item" style="background-image: url('/Divulgacion/cosmos.jpg');"></div>
+            <div class="hero-grid-item" style="background-image: url('/Divulgacion/anne.JPG');"></div>
+            <div class="hero-grid-item" style="background-image: url('/Divulgacion/grupo.JPG');"></div>
+            <div class="hero-grid-item" style="background-image: url('/Divulgacion/BSC.jpg');"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Divulgación en el GdeE</h1>
+            <p>Física por estudiantes para estudiantes</p>
+            <a href="#Concepto" class="btn">Descubre más</a>
+        </div>
     </section>
 
     <!-- 2. CONCEPTO -->
@@ -445,7 +489,7 @@
                 <a href="javascript:void(0)" class="leer-mas" onclick="abrirModalConcepto()">leer más...</a>
             </div>
             <div class="concepto-image">
-                <img src="concepto.jpg" alt="Divulgación científica GdeE">
+                <img src="/Divulgacion/concepto.jpg" alt="Divulgación científica GdeE">
             </div>
         </div>
     </section>
@@ -521,7 +565,7 @@
     <section id="Colabora" class="colabora">
         <h2 class="section-title center">¿Quieres involucrarte en la Divulgación del GdeE?</h2>
         <p class="colabora-text">Rellena este formulario:</p>
-        <a href="https://forms.google.com" target="_blank" class="btn">Ir al formulario <i class="fas fa-arrow-up-right-from-square"></i></a>
+        <a href="https://forms.google.com" target="_blank" class="btn btn-rojo">Ir al formulario <i class="fas fa-arrow-up-right-from-square"></i></a>
     </section>
 
     <footer>
