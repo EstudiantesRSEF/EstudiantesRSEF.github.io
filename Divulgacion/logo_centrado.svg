@@ -1,0 +1,3168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="29.26 0 400 400"
+   version="1.1"
+   id="svg737"
+   sodipodi:docname="logo_DEFINITIVO.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview737"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="1.4265879"
+     inkscape:cx="140.19465"
+     inkscape:cy="208.53955"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg737" />
+  <defs
+     id="defs716">
+    <linearGradient
+       id="line_TR_BR_0"
+       gradientUnits="userSpaceOnUse"
+       x1="287.00"
+       y1="138.00"
+       x2="287.00"
+       y2="163.00">
+      <stop
+         offset="0.00%"
+         stop-color="#103060"
+         id="stop1" />
+      <stop
+         offset="12.50%"
+         stop-color="#103160"
+         id="stop2" />
+      <stop
+         offset="25.00%"
+         stop-color="#113160"
+         id="stop3" />
+      <stop
+         offset="37.50%"
+         stop-color="#113160"
+         id="stop4" />
+      <stop
+         offset="50.00%"
+         stop-color="#113260"
+         id="stop5" />
+      <stop
+         offset="62.50%"
+         stop-color="#12325F"
+         id="stop6" />
+      <stop
+         offset="75.00%"
+         stop-color="#12335F"
+         id="stop7" />
+      <stop
+         offset="87.50%"
+         stop-color="#13345F"
+         id="stop8" />
+      <stop
+         offset="100.00%"
+         stop-color="#14365F"
+         id="stop9" />
+    </linearGradient>
+    <linearGradient
+       id="line_TR_BR_1"
+       gradientUnits="userSpaceOnUse"
+       x1="287.00"
+       y1="177.00"
+       x2="287.00"
+       y2="191.50">
+      <stop
+         offset="0.00%"
+         stop-color="#1E435C"
+         id="stop10" />
+      <stop
+         offset="12.50%"
+         stop-color="#20455C"
+         id="stop11" />
+      <stop
+         offset="25.00%"
+         stop-color="#22485B"
+         id="stop12" />
+      <stop
+         offset="37.50%"
+         stop-color="#244B5A"
+         id="stop13" />
+      <stop
+         offset="50.00%"
+         stop-color="#274E5A"
+         id="stop14" />
+      <stop
+         offset="62.50%"
+         stop-color="#295259"
+         id="stop15" />
+      <stop
+         offset="75.00%"
+         stop-color="#2C5658"
+         id="stop16" />
+      <stop
+         offset="87.50%"
+         stop-color="#2F5A57"
+         id="stop17" />
+      <stop
+         offset="100.00%"
+         stop-color="#335F56"
+         id="stop18" />
+    </linearGradient>
+    <linearGradient
+       id="line_TR_BR_2"
+       gradientUnits="userSpaceOnUse"
+       x1="287.00"
+       y1="208.50"
+       x2="287.00"
+       y2="223.00">
+      <stop
+         offset="0.00%"
+         stop-color="#548C4D"
+         id="stop19" />
+      <stop
+         offset="12.50%"
+         stop-color="#58914C"
+         id="stop20" />
+      <stop
+         offset="25.00%"
+         stop-color="#5B954B"
+         id="stop21" />
+      <stop
+         offset="37.50%"
+         stop-color="#5E994A"
+         id="stop22" />
+      <stop
+         offset="50.00%"
+         stop-color="#609D49"
+         id="stop23" />
+      <stop
+         offset="62.50%"
+         stop-color="#63A049"
+         id="stop24" />
+      <stop
+         offset="75.00%"
+         stop-color="#65A348"
+         id="stop25" />
+      <stop
+         offset="87.50%"
+         stop-color="#67A647"
+         id="stop26" />
+      <stop
+         offset="100.00%"
+         stop-color="#69A847"
+         id="stop27" />
+    </linearGradient>
+    <linearGradient
+       id="line_TR_BR_3"
+       gradientUnits="userSpaceOnUse"
+       x1="287.00"
+       y1="237.00"
+       x2="287.00"
+       y2="262.00">
+      <stop
+         offset="0.00%"
+         stop-color="#73B544"
+         id="stop28" />
+      <stop
+         offset="12.50%"
+         stop-color="#74B744"
+         id="stop29" />
+      <stop
+         offset="25.00%"
+         stop-color="#75B844"
+         id="stop30" />
+      <stop
+         offset="37.50%"
+         stop-color="#75B944"
+         id="stop31" />
+      <stop
+         offset="50.00%"
+         stop-color="#76B943"
+         id="stop32" />
+      <stop
+         offset="62.50%"
+         stop-color="#76BA43"
+         id="stop33" />
+      <stop
+         offset="75.00%"
+         stop-color="#76BA43"
+         id="stop34" />
+      <stop
+         offset="87.50%"
+         stop-color="#77BA43"
+         id="stop35" />
+      <stop
+         offset="100.00%"
+         stop-color="#77BB43"
+         id="stop36" />
+    </linearGradient>
+    <linearGradient
+       id="line_TR_Lv_0"
+       gradientUnits="userSpaceOnUse"
+       x1="254.09"
+       y1="119.00"
+       x2="232.44"
+       y2="131.50">
+      <stop
+         offset="0.00%"
+         stop-color="#103060"
+         id="stop37" />
+      <stop
+         offset="12.50%"
+         stop-color="#103060"
+         id="stop38" />
+      <stop
+         offset="25.00%"
+         stop-color="#103060"
+         id="stop39" />
+      <stop
+         offset="37.50%"
+         stop-color="#103060"
+         id="stop40" />
+      <stop
+         offset="50.00%"
+         stop-color="#10315F"
+         id="stop41" />
+      <stop
+         offset="62.50%"
+         stop-color="#10315F"
+         id="stop42" />
+      <stop
+         offset="75.00%"
+         stop-color="#10315F"
+         id="stop43" />
+      <stop
+         offset="87.50%"
+         stop-color="#10315E"
+         id="stop44" />
+      <stop
+         offset="100.00%"
+         stop-color="#0F325E"
+         id="stop45" />
+    </linearGradient>
+    <linearGradient
+       id="line_TR_Lv_1"
+       gradientUnits="userSpaceOnUse"
+       x1="220.32"
+       y1="138.50"
+       x2="207.76"
+       y2="145.75">
+      <stop
+         offset="0.00%"
+         stop-color="#0E3559"
+         id="stop46" />
+      <stop
+         offset="12.50%"
+         stop-color="#0E3658"
+         id="stop47" />
+      <stop
+         offset="25.00%"
+         stop-color="#0E3757"
+         id="stop48" />
+      <stop
+         offset="37.50%"
+         stop-color="#0D3856"
+         id="stop49" />
+      <stop
+         offset="50.00%"
+         stop-color="#0D3955"
+         id="stop50" />
+      <stop
+         offset="62.50%"
+         stop-color="#0D3A54"
+         id="stop51" />
+      <stop
+         offset="75.00%"
+         stop-color="#0C3B52"
+         id="stop52" />
+      <stop
+         offset="87.50%"
+         stop-color="#0C3C51"
+         id="stop53" />
+      <stop
+         offset="100.00%"
+         stop-color="#0B3E4F"
+         id="stop54" />
+    </linearGradient>
+    <linearGradient
+       id="line_TR_Lv_2"
+       gradientUnits="userSpaceOnUse"
+       x1="193.04"
+       y1="154.25"
+       x2="180.48"
+       y2="161.50">
+      <stop
+         offset="0.00%"
+         stop-color="#074B3F"
+         id="stop55" />
+      <stop
+         offset="12.50%"
+         stop-color="#064D3D"
+         id="stop56" />
+      <stop
+         offset="25.00%"
+         stop-color="#064E3C"
+         id="stop57" />
+      <stop
+         offset="37.50%"
+         stop-color="#054F3A"
+         id="stop58" />
+      <stop
+         offset="50.00%"
+         stop-color="#055039"
+         id="stop59" />
+      <stop
+         offset="62.50%"
+         stop-color="#055138"
+         id="stop60" />
+      <stop
+         offset="75.00%"
+         stop-color="#045237"
+         id="stop61" />
+      <stop
+         offset="87.50%"
+         stop-color="#045336"
+         id="stop62" />
+      <stop
+         offset="100.00%"
+         stop-color="#045435"
+         id="stop63" />
+    </linearGradient>
+    <linearGradient
+       id="line_TR_Lv_3"
+       gradientUnits="userSpaceOnUse"
+       x1="168.35"
+       y1="168.50"
+       x2="146.70"
+       y2="181.00">
+      <stop
+         offset="0.00%"
+         stop-color="#035730"
+         id="stop64" />
+      <stop
+         offset="12.50%"
+         stop-color="#025830"
+         id="stop65" />
+      <stop
+         offset="25.00%"
+         stop-color="#02582F"
+         id="stop66" />
+      <stop
+         offset="37.50%"
+         stop-color="#02582F"
+         id="stop67" />
+      <stop
+         offset="50.00%"
+         stop-color="#02582F"
+         id="stop68" />
+      <stop
+         offset="62.50%"
+         stop-color="#02592E"
+         id="stop69" />
+      <stop
+         offset="75.00%"
+         stop-color="#02592E"
+         id="stop70" />
+      <stop
+         offset="87.50%"
+         stop-color="#02592E"
+         id="stop71" />
+      <stop
+         offset="100.00%"
+         stop-color="#02592E"
+         id="stop72" />
+    </linearGradient>
+    <linearGradient
+       id="line_BR_Lv_0"
+       gradientUnits="userSpaceOnUse"
+       x1="254.09"
+       y1="281.00"
+       x2="232.44"
+       y2="268.50">
+      <stop
+         offset="0.00%"
+         stop-color="#77BB43"
+         id="stop73" />
+      <stop
+         offset="12.50%"
+         stop-color="#76BB43"
+         id="stop74" />
+      <stop
+         offset="25.00%"
+         stop-color="#76BA43"
+         id="stop75" />
+      <stop
+         offset="37.50%"
+         stop-color="#76BA43"
+         id="stop76" />
+      <stop
+         offset="50.00%"
+         stop-color="#75BA43"
+         id="stop77" />
+      <stop
+         offset="62.50%"
+         stop-color="#75B943"
+         id="stop78" />
+      <stop
+         offset="75.00%"
+         stop-color="#74B942"
+         id="stop79" />
+      <stop
+         offset="87.50%"
+         stop-color="#73B842"
+         id="stop80" />
+      <stop
+         offset="100.00%"
+         stop-color="#72B742"
+         id="stop81" />
+    </linearGradient>
+    <linearGradient
+       id="line_BR_Lv_1"
+       gradientUnits="userSpaceOnUse"
+       x1="220.32"
+       y1="261.50"
+       x2="207.76"
+       y2="254.25">
+      <stop
+         offset="0.00%"
+         stop-color="#67AE40"
+         id="stop82" />
+      <stop
+         offset="12.50%"
+         stop-color="#65AC40"
+         id="stop83" />
+      <stop
+         offset="25.00%"
+         stop-color="#63AA3F"
+         id="stop84" />
+      <stop
+         offset="37.50%"
+         stop-color="#60A83F"
+         id="stop85" />
+      <stop
+         offset="50.00%"
+         stop-color="#5DA63E"
+         id="stop86" />
+      <stop
+         offset="62.50%"
+         stop-color="#5AA33E"
+         id="stop87" />
+      <stop
+         offset="75.00%"
+         stop-color="#57A03D"
+         id="stop88" />
+      <stop
+         offset="87.50%"
+         stop-color="#539D3D"
+         id="stop89" />
+      <stop
+         offset="100.00%"
+         stop-color="#509A3C"
+         id="stop90" />
+    </linearGradient>
+    <linearGradient
+       id="line_BR_Lv_2"
+       gradientUnits="userSpaceOnUse"
+       x1="193.04"
+       y1="245.75"
+       x2="180.48"
+       y2="238.50">
+      <stop
+         offset="0.00%"
+         stop-color="#297A35"
+         id="stop91" />
+      <stop
+         offset="12.50%"
+         stop-color="#267734"
+         id="stop92" />
+      <stop
+         offset="25.00%"
+         stop-color="#227434"
+         id="stop93" />
+      <stop
+         offset="37.50%"
+         stop-color="#1F7133"
+         id="stop94" />
+      <stop
+         offset="50.00%"
+         stop-color="#1C6E33"
+         id="stop95" />
+      <stop
+         offset="62.50%"
+         stop-color="#196C32"
+         id="stop96" />
+      <stop
+         offset="75.00%"
+         stop-color="#166A32"
+         id="stop97" />
+      <stop
+         offset="87.50%"
+         stop-color="#146831"
+         id="stop98" />
+      <stop
+         offset="100.00%"
+         stop-color="#126631"
+         id="stop99" />
+    </linearGradient>
+    <linearGradient
+       id="line_BR_Lv_3"
+       gradientUnits="userSpaceOnUse"
+       x1="168.35"
+       y1="231.50"
+       x2="146.70"
+       y2="219.00">
+      <stop
+         offset="0.00%"
+         stop-color="#075D2F"
+         id="stop100" />
+      <stop
+         offset="12.50%"
+         stop-color="#065C2F"
+         id="stop101" />
+      <stop
+         offset="25.00%"
+         stop-color="#055B2F"
+         id="stop102" />
+      <stop
+         offset="37.50%"
+         stop-color="#045B2E"
+         id="stop103" />
+      <stop
+         offset="50.00%"
+         stop-color="#045A2E"
+         id="stop104" />
+      <stop
+         offset="62.50%"
+         stop-color="#035A2E"
+         id="stop105" />
+      <stop
+         offset="75.00%"
+         stop-color="#035A2E"
+         id="stop106" />
+      <stop
+         offset="87.50%"
+         stop-color="#03592E"
+         id="stop107" />
+      <stop
+         offset="100.00%"
+         stop-color="#02592E"
+         id="stop108" />
+    </linearGradient>
+    <linearGradient
+       id="wave_TR_98_5"
+       gradientUnits="userSpaceOnUse"
+       x1="328.63"
+       y1="189.27"
+       x2="188.87"
+       y2="108.58">
+      <stop
+         offset="0.00%"
+         stop-color="#447652"
+         id="stop109" />
+      <stop
+         offset="0.34%"
+         stop-color="#447652"
+         id="stop110" />
+      <stop
+         offset="0.68%"
+         stop-color="#447652"
+         id="stop111" />
+      <stop
+         offset="1.03%"
+         stop-color="#447652"
+         id="stop112" />
+      <stop
+         offset="1.38%"
+         stop-color="#447652"
+         id="stop113" />
+      <stop
+         offset="1.74%"
+         stop-color="#447652"
+         id="stop114" />
+      <stop
+         offset="2.10%"
+         stop-color="#447652"
+         id="stop115" />
+      <stop
+         offset="2.46%"
+         stop-color="#447652"
+         id="stop116" />
+      <stop
+         offset="2.83%"
+         stop-color="#447652"
+         id="stop117" />
+      <stop
+         offset="3.21%"
+         stop-color="#447652"
+         id="stop118" />
+      <stop
+         offset="3.59%"
+         stop-color="#447652"
+         id="stop119" />
+      <stop
+         offset="3.97%"
+         stop-color="#447652"
+         id="stop120" />
+      <stop
+         offset="4.36%"
+         stop-color="#447652"
+         id="stop121" />
+      <stop
+         offset="4.75%"
+         stop-color="#447652"
+         id="stop122" />
+      <stop
+         offset="5.14%"
+         stop-color="#447652"
+         id="stop123" />
+      <stop
+         offset="5.54%"
+         stop-color="#447652"
+         id="stop124" />
+      <stop
+         offset="5.94%"
+         stop-color="#447652"
+         id="stop125" />
+      <stop
+         offset="6.35%"
+         stop-color="#447652"
+         id="stop126" />
+      <stop
+         offset="6.76%"
+         stop-color="#447652"
+         id="stop127" />
+      <stop
+         offset="7.18%"
+         stop-color="#447652"
+         id="stop128" />
+      <stop
+         offset="7.60%"
+         stop-color="#447652"
+         id="stop129" />
+      <stop
+         offset="8.02%"
+         stop-color="#447652"
+         id="stop130" />
+      <stop
+         offset="8.45%"
+         stop-color="#447652"
+         id="stop131" />
+      <stop
+         offset="8.88%"
+         stop-color="#447652"
+         id="stop132" />
+      <stop
+         offset="9.32%"
+         stop-color="#447652"
+         id="stop133" />
+      <stop
+         offset="9.75%"
+         stop-color="#447652"
+         id="stop134" />
+      <stop
+         offset="10.20%"
+         stop-color="#447652"
+         id="stop135" />
+      <stop
+         offset="10.64%"
+         stop-color="#447652"
+         id="stop136" />
+      <stop
+         offset="11.09%"
+         stop-color="#447652"
+         id="stop137" />
+      <stop
+         offset="11.55%"
+         stop-color="#447652"
+         id="stop138" />
+      <stop
+         offset="12.00%"
+         stop-color="#447652"
+         id="stop139" />
+      <stop
+         offset="12.46%"
+         stop-color="#447652"
+         id="stop140" />
+      <stop
+         offset="12.93%"
+         stop-color="#447652"
+         id="stop141" />
+      <stop
+         offset="13.39%"
+         stop-color="#447652"
+         id="stop142" />
+      <stop
+         offset="13.86%"
+         stop-color="#447652"
+         id="stop143" />
+      <stop
+         offset="14.34%"
+         stop-color="#447652"
+         id="stop144" />
+      <stop
+         offset="14.82%"
+         stop-color="#447652"
+         id="stop145" />
+      <stop
+         offset="15.30%"
+         stop-color="#447652"
+         id="stop146" />
+      <stop
+         offset="15.78%"
+         stop-color="#447652"
+         id="stop147" />
+      <stop
+         offset="16.27%"
+         stop-color="#447652"
+         id="stop148" />
+      <stop
+         offset="16.76%"
+         stop-color="#447652"
+         id="stop149" />
+      <stop
+         offset="17.25%"
+         stop-color="#447652"
+         id="stop150" />
+      <stop
+         offset="17.74%"
+         stop-color="#447652"
+         id="stop151" />
+      <stop
+         offset="18.24%"
+         stop-color="#447652"
+         id="stop152" />
+      <stop
+         offset="18.75%"
+         stop-color="#447652"
+         id="stop153" />
+      <stop
+         offset="19.25%"
+         stop-color="#447652"
+         id="stop154" />
+      <stop
+         offset="19.76%"
+         stop-color="#447652"
+         id="stop155" />
+      <stop
+         offset="20.27%"
+         stop-color="#447652"
+         id="stop156" />
+      <stop
+         offset="20.78%"
+         stop-color="#447652"
+         id="stop157" />
+      <stop
+         offset="21.30%"
+         stop-color="#447652"
+         id="stop158" />
+      <stop
+         offset="21.82%"
+         stop-color="#447652"
+         id="stop159" />
+      <stop
+         offset="22.34%"
+         stop-color="#447652"
+         id="stop160" />
+      <stop
+         offset="22.86%"
+         stop-color="#447652"
+         id="stop161" />
+      <stop
+         offset="23.39%"
+         stop-color="#447652"
+         id="stop162" />
+      <stop
+         offset="23.91%"
+         stop-color="#447652"
+         id="stop163" />
+      <stop
+         offset="24.45%"
+         stop-color="#447652"
+         id="stop164" />
+      <stop
+         offset="24.98%"
+         stop-color="#447652"
+         id="stop165" />
+      <stop
+         offset="25.51%"
+         stop-color="#447652"
+         id="stop166" />
+      <stop
+         offset="26.05%"
+         stop-color="#447652"
+         id="stop167" />
+      <stop
+         offset="26.59%"
+         stop-color="#447652"
+         id="stop168" />
+      <stop
+         offset="27.13%"
+         stop-color="#447652"
+         id="stop169" />
+      <stop
+         offset="27.68%"
+         stop-color="#447652"
+         id="stop170" />
+      <stop
+         offset="28.23%"
+         stop-color="#447652"
+         id="stop171" />
+      <stop
+         offset="28.77%"
+         stop-color="#447652"
+         id="stop172" />
+      <stop
+         offset="29.32%"
+         stop-color="#447652"
+         id="stop173" />
+      <stop
+         offset="29.88%"
+         stop-color="#447652"
+         id="stop174" />
+      <stop
+         offset="30.43%"
+         stop-color="#447652"
+         id="stop175" />
+      <stop
+         offset="30.99%"
+         stop-color="#437552"
+         id="stop176" />
+      <stop
+         offset="31.54%"
+         stop-color="#427353"
+         id="stop177" />
+      <stop
+         offset="32.10%"
+         stop-color="#407153"
+         id="stop178" />
+      <stop
+         offset="32.66%"
+         stop-color="#3F6F53"
+         id="stop179" />
+      <stop
+         offset="33.23%"
+         stop-color="#3D6D54"
+         id="stop180" />
+      <stop
+         offset="33.79%"
+         stop-color="#3C6B54"
+         id="stop181" />
+      <stop
+         offset="34.36%"
+         stop-color="#3A6955"
+         id="stop182" />
+      <stop
+         offset="34.92%"
+         stop-color="#396755"
+         id="stop183" />
+      <stop
+         offset="35.49%"
+         stop-color="#376456"
+         id="stop184" />
+      <stop
+         offset="36.06%"
+         stop-color="#356256"
+         id="stop185" />
+      <stop
+         offset="36.63%"
+         stop-color="#346056"
+         id="stop186" />
+      <stop
+         offset="37.21%"
+         stop-color="#325E57"
+         id="stop187" />
+      <stop
+         offset="37.78%"
+         stop-color="#315C57"
+         id="stop188" />
+      <stop
+         offset="38.35%"
+         stop-color="#2F5A58"
+         id="stop189" />
+      <stop
+         offset="38.93%"
+         stop-color="#2E5858"
+         id="stop190" />
+      <stop
+         offset="39.51%"
+         stop-color="#2C5658"
+         id="stop191" />
+      <stop
+         offset="40.08%"
+         stop-color="#2B5459"
+         id="stop192" />
+      <stop
+         offset="40.66%"
+         stop-color="#295259"
+         id="stop193" />
+      <stop
+         offset="41.24%"
+         stop-color="#27505A"
+         id="stop194" />
+      <stop
+         offset="41.82%"
+         stop-color="#264D5A"
+         id="stop195" />
+      <stop
+         offset="42.40%"
+         stop-color="#244B5B"
+         id="stop196" />
+      <stop
+         offset="42.98%"
+         stop-color="#23495B"
+         id="stop197" />
+      <stop
+         offset="43.57%"
+         stop-color="#21475B"
+         id="stop198" />
+      <stop
+         offset="44.15%"
+         stop-color="#20455C"
+         id="stop199" />
+      <stop
+         offset="44.73%"
+         stop-color="#1E435C"
+         id="stop200" />
+      <stop
+         offset="45.32%"
+         stop-color="#1C415D"
+         id="stop201" />
+      <stop
+         offset="45.90%"
+         stop-color="#1B3F5D"
+         id="stop202" />
+      <stop
+         offset="46.49%"
+         stop-color="#193D5D"
+         id="stop203" />
+      <stop
+         offset="47.07%"
+         stop-color="#183B5E"
+         id="stop204" />
+      <stop
+         offset="47.66%"
+         stop-color="#16385E"
+         id="stop205" />
+      <stop
+         offset="48.24%"
+         stop-color="#15365F"
+         id="stop206" />
+      <stop
+         offset="48.83%"
+         stop-color="#13345F"
+         id="stop207" />
+      <stop
+         offset="49.41%"
+         stop-color="#123260"
+         id="stop208" />
+      <stop
+         offset="50.00%"
+         stop-color="#103060"
+         id="stop209" />
+      <stop
+         offset="50.59%"
+         stop-color="#10315F"
+         id="stop210" />
+      <stop
+         offset="51.17%"
+         stop-color="#10315E"
+         id="stop211" />
+      <stop
+         offset="51.76%"
+         stop-color="#0F325E"
+         id="stop212" />
+      <stop
+         offset="52.34%"
+         stop-color="#0F325D"
+         id="stop213" />
+      <stop
+         offset="52.93%"
+         stop-color="#0F335C"
+         id="stop214" />
+      <stop
+         offset="53.51%"
+         stop-color="#0F345C"
+         id="stop215" />
+      <stop
+         offset="54.10%"
+         stop-color="#0F345B"
+         id="stop216" />
+      <stop
+         offset="54.68%"
+         stop-color="#0E355A"
+         id="stop217" />
+      <stop
+         offset="55.27%"
+         stop-color="#0E3559"
+         id="stop218" />
+      <stop
+         offset="55.85%"
+         stop-color="#0E3658"
+         id="stop219" />
+      <stop
+         offset="56.43%"
+         stop-color="#0E3758"
+         id="stop220" />
+      <stop
+         offset="57.02%"
+         stop-color="#0D3757"
+         id="stop221" />
+      <stop
+         offset="57.60%"
+         stop-color="#0D3856"
+         id="stop222" />
+      <stop
+         offset="58.18%"
+         stop-color="#0D3856"
+         id="stop223" />
+      <stop
+         offset="58.76%"
+         stop-color="#0D3955"
+         id="stop224" />
+      <stop
+         offset="59.34%"
+         stop-color="#0D3A54"
+         id="stop225" />
+      <stop
+         offset="59.92%"
+         stop-color="#0C3A53"
+         id="stop226" />
+      <stop
+         offset="60.49%"
+         stop-color="#0C3B52"
+         id="stop227" />
+      <stop
+         offset="61.07%"
+         stop-color="#0C3B52"
+         id="stop228" />
+      <stop
+         offset="61.65%"
+         stop-color="#0C3C51"
+         id="stop229" />
+      <stop
+         offset="62.22%"
+         stop-color="#0C3D50"
+         id="stop230" />
+      <stop
+         offset="62.79%"
+         stop-color="#0B3D50"
+         id="stop231" />
+      <stop
+         offset="63.37%"
+         stop-color="#0B3E4F"
+         id="stop232" />
+      <stop
+         offset="63.94%"
+         stop-color="#0B3E4E"
+         id="stop233" />
+      <stop
+         offset="64.51%"
+         stop-color="#0B3F4D"
+         id="stop234" />
+      <stop
+         offset="65.08%"
+         stop-color="#0B404C"
+         id="stop235" />
+      <stop
+         offset="65.64%"
+         stop-color="#0A404C"
+         id="stop236" />
+      <stop
+         offset="66.21%"
+         stop-color="#0A414B"
+         id="stop237" />
+      <stop
+         offset="66.77%"
+         stop-color="#0A414A"
+         id="stop238" />
+      <stop
+         offset="67.34%"
+         stop-color="#0A424A"
+         id="stop239" />
+      <stop
+         offset="67.90%"
+         stop-color="#094349"
+         id="stop240" />
+      <stop
+         offset="68.46%"
+         stop-color="#094348"
+         id="stop241" />
+      <stop
+         offset="69.01%"
+         stop-color="#094447"
+         id="stop242" />
+      <stop
+         offset="69.57%"
+         stop-color="#094447"
+         id="stop243" />
+      <stop
+         offset="70.12%"
+         stop-color="#094447"
+         id="stop244" />
+      <stop
+         offset="70.68%"
+         stop-color="#094447"
+         id="stop245" />
+      <stop
+         offset="71.23%"
+         stop-color="#094447"
+         id="stop246" />
+      <stop
+         offset="71.77%"
+         stop-color="#094447"
+         id="stop247" />
+      <stop
+         offset="72.32%"
+         stop-color="#094447"
+         id="stop248" />
+      <stop
+         offset="72.87%"
+         stop-color="#094447"
+         id="stop249" />
+      <stop
+         offset="73.41%"
+         stop-color="#094447"
+         id="stop250" />
+      <stop
+         offset="73.95%"
+         stop-color="#094447"
+         id="stop251" />
+      <stop
+         offset="74.49%"
+         stop-color="#094447"
+         id="stop252" />
+      <stop
+         offset="75.02%"
+         stop-color="#094447"
+         id="stop253" />
+      <stop
+         offset="75.55%"
+         stop-color="#094447"
+         id="stop254" />
+      <stop
+         offset="76.09%"
+         stop-color="#094447"
+         id="stop255" />
+      <stop
+         offset="76.61%"
+         stop-color="#094447"
+         id="stop256" />
+      <stop
+         offset="77.14%"
+         stop-color="#094447"
+         id="stop257" />
+      <stop
+         offset="77.66%"
+         stop-color="#094447"
+         id="stop258" />
+      <stop
+         offset="78.18%"
+         stop-color="#094447"
+         id="stop259" />
+      <stop
+         offset="78.70%"
+         stop-color="#094447"
+         id="stop260" />
+      <stop
+         offset="79.22%"
+         stop-color="#094447"
+         id="stop261" />
+      <stop
+         offset="79.73%"
+         stop-color="#094447"
+         id="stop262" />
+      <stop
+         offset="80.24%"
+         stop-color="#094447"
+         id="stop263" />
+      <stop
+         offset="80.75%"
+         stop-color="#094447"
+         id="stop264" />
+      <stop
+         offset="81.25%"
+         stop-color="#094447"
+         id="stop265" />
+      <stop
+         offset="81.76%"
+         stop-color="#094447"
+         id="stop266" />
+      <stop
+         offset="82.26%"
+         stop-color="#094447"
+         id="stop267" />
+      <stop
+         offset="82.75%"
+         stop-color="#094447"
+         id="stop268" />
+      <stop
+         offset="83.24%"
+         stop-color="#094447"
+         id="stop269" />
+      <stop
+         offset="83.73%"
+         stop-color="#094447"
+         id="stop270" />
+      <stop
+         offset="84.22%"
+         stop-color="#094447"
+         id="stop271" />
+      <stop
+         offset="84.70%"
+         stop-color="#094447"
+         id="stop272" />
+      <stop
+         offset="85.18%"
+         stop-color="#094447"
+         id="stop273" />
+      <stop
+         offset="85.66%"
+         stop-color="#094447"
+         id="stop274" />
+      <stop
+         offset="86.14%"
+         stop-color="#094447"
+         id="stop275" />
+      <stop
+         offset="86.61%"
+         stop-color="#094447"
+         id="stop276" />
+      <stop
+         offset="87.07%"
+         stop-color="#094447"
+         id="stop277" />
+      <stop
+         offset="87.54%"
+         stop-color="#094447"
+         id="stop278" />
+      <stop
+         offset="88.00%"
+         stop-color="#094447"
+         id="stop279" />
+      <stop
+         offset="88.45%"
+         stop-color="#094447"
+         id="stop280" />
+      <stop
+         offset="88.91%"
+         stop-color="#094447"
+         id="stop281" />
+      <stop
+         offset="89.36%"
+         stop-color="#094447"
+         id="stop282" />
+      <stop
+         offset="89.80%"
+         stop-color="#094447"
+         id="stop283" />
+      <stop
+         offset="90.25%"
+         stop-color="#094447"
+         id="stop284" />
+      <stop
+         offset="90.68%"
+         stop-color="#094447"
+         id="stop285" />
+      <stop
+         offset="91.12%"
+         stop-color="#094447"
+         id="stop286" />
+      <stop
+         offset="91.55%"
+         stop-color="#094447"
+         id="stop287" />
+      <stop
+         offset="91.98%"
+         stop-color="#094447"
+         id="stop288" />
+      <stop
+         offset="92.40%"
+         stop-color="#094447"
+         id="stop289" />
+      <stop
+         offset="92.82%"
+         stop-color="#094447"
+         id="stop290" />
+      <stop
+         offset="93.24%"
+         stop-color="#094447"
+         id="stop291" />
+      <stop
+         offset="93.65%"
+         stop-color="#094447"
+         id="stop292" />
+      <stop
+         offset="94.06%"
+         stop-color="#094447"
+         id="stop293" />
+      <stop
+         offset="94.46%"
+         stop-color="#094447"
+         id="stop294" />
+      <stop
+         offset="94.86%"
+         stop-color="#094447"
+         id="stop295" />
+      <stop
+         offset="95.25%"
+         stop-color="#094447"
+         id="stop296" />
+      <stop
+         offset="95.64%"
+         stop-color="#094447"
+         id="stop297" />
+      <stop
+         offset="96.03%"
+         stop-color="#094447"
+         id="stop298" />
+      <stop
+         offset="96.41%"
+         stop-color="#094447"
+         id="stop299" />
+      <stop
+         offset="96.79%"
+         stop-color="#094447"
+         id="stop300" />
+      <stop
+         offset="97.17%"
+         stop-color="#094447"
+         id="stop301" />
+      <stop
+         offset="97.54%"
+         stop-color="#094447"
+         id="stop302" />
+      <stop
+         offset="97.90%"
+         stop-color="#094447"
+         id="stop303" />
+      <stop
+         offset="98.26%"
+         stop-color="#094447"
+         id="stop304" />
+      <stop
+         offset="98.62%"
+         stop-color="#094447"
+         id="stop305" />
+      <stop
+         offset="98.97%"
+         stop-color="#094447"
+         id="stop306" />
+      <stop
+         offset="99.32%"
+         stop-color="#094447"
+         id="stop307" />
+      <stop
+         offset="99.66%"
+         stop-color="#094447"
+         id="stop308" />
+      <stop
+         offset="100.00%"
+         stop-color="#094447"
+         id="stop309" />
+    </linearGradient>
+    <linearGradient
+       id="wave_BR_98_5"
+       gradientUnits="userSpaceOnUse"
+       x1="188.87"
+       y1="291.42"
+       x2="328.63"
+       y2="210.73">
+      <stop
+         offset="0.00%"
+         stop-color="#3C8A38"
+         id="stop310" />
+      <stop
+         offset="0.34%"
+         stop-color="#3C8A38"
+         id="stop311" />
+      <stop
+         offset="0.68%"
+         stop-color="#3C8A38"
+         id="stop312" />
+      <stop
+         offset="1.03%"
+         stop-color="#3C8A38"
+         id="stop313" />
+      <stop
+         offset="1.38%"
+         stop-color="#3C8A38"
+         id="stop314" />
+      <stop
+         offset="1.74%"
+         stop-color="#3C8A38"
+         id="stop315" />
+      <stop
+         offset="2.10%"
+         stop-color="#3C8A38"
+         id="stop316" />
+      <stop
+         offset="2.46%"
+         stop-color="#3C8A38"
+         id="stop317" />
+      <stop
+         offset="2.83%"
+         stop-color="#3C8A38"
+         id="stop318" />
+      <stop
+         offset="3.21%"
+         stop-color="#3C8A38"
+         id="stop319" />
+      <stop
+         offset="3.59%"
+         stop-color="#3C8A38"
+         id="stop320" />
+      <stop
+         offset="3.97%"
+         stop-color="#3C8A38"
+         id="stop321" />
+      <stop
+         offset="4.36%"
+         stop-color="#3C8A38"
+         id="stop322" />
+      <stop
+         offset="4.75%"
+         stop-color="#3C8A38"
+         id="stop323" />
+      <stop
+         offset="5.14%"
+         stop-color="#3C8A38"
+         id="stop324" />
+      <stop
+         offset="5.54%"
+         stop-color="#3C8A38"
+         id="stop325" />
+      <stop
+         offset="5.94%"
+         stop-color="#3C8A38"
+         id="stop326" />
+      <stop
+         offset="6.35%"
+         stop-color="#3C8A38"
+         id="stop327" />
+      <stop
+         offset="6.76%"
+         stop-color="#3C8A38"
+         id="stop328" />
+      <stop
+         offset="7.18%"
+         stop-color="#3C8A38"
+         id="stop329" />
+      <stop
+         offset="7.60%"
+         stop-color="#3C8A38"
+         id="stop330" />
+      <stop
+         offset="8.02%"
+         stop-color="#3C8A38"
+         id="stop331" />
+      <stop
+         offset="8.45%"
+         stop-color="#3C8A38"
+         id="stop332" />
+      <stop
+         offset="8.88%"
+         stop-color="#3C8A38"
+         id="stop333" />
+      <stop
+         offset="9.32%"
+         stop-color="#3C8A38"
+         id="stop334" />
+      <stop
+         offset="9.75%"
+         stop-color="#3C8A38"
+         id="stop335" />
+      <stop
+         offset="10.20%"
+         stop-color="#3C8A38"
+         id="stop336" />
+      <stop
+         offset="10.64%"
+         stop-color="#3C8A38"
+         id="stop337" />
+      <stop
+         offset="11.09%"
+         stop-color="#3C8A38"
+         id="stop338" />
+      <stop
+         offset="11.55%"
+         stop-color="#3C8A38"
+         id="stop339" />
+      <stop
+         offset="12.00%"
+         stop-color="#3C8A38"
+         id="stop340" />
+      <stop
+         offset="12.46%"
+         stop-color="#3C8A38"
+         id="stop341" />
+      <stop
+         offset="12.93%"
+         stop-color="#3C8A38"
+         id="stop342" />
+      <stop
+         offset="13.39%"
+         stop-color="#3C8A38"
+         id="stop343" />
+      <stop
+         offset="13.86%"
+         stop-color="#3C8A38"
+         id="stop344" />
+      <stop
+         offset="14.34%"
+         stop-color="#3C8A38"
+         id="stop345" />
+      <stop
+         offset="14.82%"
+         stop-color="#3C8A38"
+         id="stop346" />
+      <stop
+         offset="15.30%"
+         stop-color="#3C8A38"
+         id="stop347" />
+      <stop
+         offset="15.78%"
+         stop-color="#3C8A38"
+         id="stop348" />
+      <stop
+         offset="16.27%"
+         stop-color="#3C8A38"
+         id="stop349" />
+      <stop
+         offset="16.76%"
+         stop-color="#3C8A38"
+         id="stop350" />
+      <stop
+         offset="17.25%"
+         stop-color="#3C8A38"
+         id="stop351" />
+      <stop
+         offset="17.74%"
+         stop-color="#3C8A38"
+         id="stop352" />
+      <stop
+         offset="18.24%"
+         stop-color="#3C8A38"
+         id="stop353" />
+      <stop
+         offset="18.75%"
+         stop-color="#3C8A38"
+         id="stop354" />
+      <stop
+         offset="19.25%"
+         stop-color="#3C8A38"
+         id="stop355" />
+      <stop
+         offset="19.76%"
+         stop-color="#3C8A38"
+         id="stop356" />
+      <stop
+         offset="20.27%"
+         stop-color="#3C8A38"
+         id="stop357" />
+      <stop
+         offset="20.78%"
+         stop-color="#3C8A38"
+         id="stop358" />
+      <stop
+         offset="21.30%"
+         stop-color="#3C8A38"
+         id="stop359" />
+      <stop
+         offset="21.82%"
+         stop-color="#3C8A38"
+         id="stop360" />
+      <stop
+         offset="22.34%"
+         stop-color="#3C8A38"
+         id="stop361" />
+      <stop
+         offset="22.86%"
+         stop-color="#3C8A38"
+         id="stop362" />
+      <stop
+         offset="23.39%"
+         stop-color="#3C8A38"
+         id="stop363" />
+      <stop
+         offset="23.91%"
+         stop-color="#3C8A38"
+         id="stop364" />
+      <stop
+         offset="24.45%"
+         stop-color="#3C8A38"
+         id="stop365" />
+      <stop
+         offset="24.98%"
+         stop-color="#3C8A38"
+         id="stop366" />
+      <stop
+         offset="25.51%"
+         stop-color="#3C8A38"
+         id="stop367" />
+      <stop
+         offset="26.05%"
+         stop-color="#3C8A38"
+         id="stop368" />
+      <stop
+         offset="26.59%"
+         stop-color="#3C8A38"
+         id="stop369" />
+      <stop
+         offset="27.13%"
+         stop-color="#3C8A38"
+         id="stop370" />
+      <stop
+         offset="27.68%"
+         stop-color="#3C8A38"
+         id="stop371" />
+      <stop
+         offset="28.23%"
+         stop-color="#3C8A38"
+         id="stop372" />
+      <stop
+         offset="28.77%"
+         stop-color="#3C8A38"
+         id="stop373" />
+      <stop
+         offset="29.32%"
+         stop-color="#3C8A38"
+         id="stop374" />
+      <stop
+         offset="29.88%"
+         stop-color="#3C8A38"
+         id="stop375" />
+      <stop
+         offset="30.43%"
+         stop-color="#3C8A38"
+         id="stop376" />
+      <stop
+         offset="30.99%"
+         stop-color="#3D8A38"
+         id="stop377" />
+      <stop
+         offset="31.54%"
+         stop-color="#3E8C38"
+         id="stop378" />
+      <stop
+         offset="32.10%"
+         stop-color="#408D39"
+         id="stop379" />
+      <stop
+         offset="32.66%"
+         stop-color="#428F39"
+         id="stop380" />
+      <stop
+         offset="33.23%"
+         stop-color="#449039"
+         id="stop381" />
+      <stop
+         offset="33.79%"
+         stop-color="#45923A"
+         id="stop382" />
+      <stop
+         offset="34.36%"
+         stop-color="#47933A"
+         id="stop383" />
+      <stop
+         offset="34.92%"
+         stop-color="#49953A"
+         id="stop384" />
+      <stop
+         offset="35.49%"
+         stop-color="#4B963B"
+         id="stop385" />
+      <stop
+         offset="36.06%"
+         stop-color="#4D983B"
+         id="stop386" />
+      <stop
+         offset="36.63%"
+         stop-color="#4E993B"
+         id="stop387" />
+      <stop
+         offset="37.21%"
+         stop-color="#509B3C"
+         id="stop388" />
+      <stop
+         offset="37.78%"
+         stop-color="#529C3C"
+         id="stop389" />
+      <stop
+         offset="38.35%"
+         stop-color="#549E3C"
+         id="stop390" />
+      <stop
+         offset="38.93%"
+         stop-color="#559F3D"
+         id="stop391" />
+      <stop
+         offset="39.51%"
+         stop-color="#57A13D"
+         id="stop392" />
+      <stop
+         offset="40.08%"
+         stop-color="#59A23D"
+         id="stop393" />
+      <stop
+         offset="40.66%"
+         stop-color="#5BA33E"
+         id="stop394" />
+      <stop
+         offset="41.24%"
+         stop-color="#5CA53E"
+         id="stop395" />
+      <stop
+         offset="41.82%"
+         stop-color="#5EA63E"
+         id="stop396" />
+      <stop
+         offset="42.40%"
+         stop-color="#60A83F"
+         id="stop397" />
+      <stop
+         offset="42.98%"
+         stop-color="#62A93F"
+         id="stop398" />
+      <stop
+         offset="43.57%"
+         stop-color="#64AB3F"
+         id="stop399" />
+      <stop
+         offset="44.15%"
+         stop-color="#65AC40"
+         id="stop400" />
+      <stop
+         offset="44.73%"
+         stop-color="#67AE40"
+         id="stop401" />
+      <stop
+         offset="45.32%"
+         stop-color="#69AF40"
+         id="stop402" />
+      <stop
+         offset="45.90%"
+         stop-color="#6BB141"
+         id="stop403" />
+      <stop
+         offset="46.49%"
+         stop-color="#6CB241"
+         id="stop404" />
+      <stop
+         offset="47.07%"
+         stop-color="#6EB441"
+         id="stop405" />
+      <stop
+         offset="47.66%"
+         stop-color="#70B542"
+         id="stop406" />
+      <stop
+         offset="48.24%"
+         stop-color="#72B742"
+         id="stop407" />
+      <stop
+         offset="48.83%"
+         stop-color="#73B842"
+         id="stop408" />
+      <stop
+         offset="49.41%"
+         stop-color="#75BA43"
+         id="stop409" />
+      <stop
+         offset="50.00%"
+         stop-color="#77BB43"
+         id="stop410" />
+      <stop
+         offset="50.59%"
+         stop-color="#75B943"
+         id="stop411" />
+      <stop
+         offset="51.17%"
+         stop-color="#74B744"
+         id="stop412" />
+      <stop
+         offset="51.76%"
+         stop-color="#72B544"
+         id="stop413" />
+      <stop
+         offset="52.34%"
+         stop-color="#71B345"
+         id="stop414" />
+      <stop
+         offset="52.93%"
+         stop-color="#6FB145"
+         id="stop415" />
+      <stop
+         offset="53.51%"
+         stop-color="#6EAF46"
+         id="stop416" />
+      <stop
+         offset="54.10%"
+         stop-color="#6CAD46"
+         id="stop417" />
+      <stop
+         offset="54.68%"
+         stop-color="#6BAA47"
+         id="stop418" />
+      <stop
+         offset="55.27%"
+         stop-color="#69A847"
+         id="stop419" />
+      <stop
+         offset="55.85%"
+         stop-color="#68A648"
+         id="stop420" />
+      <stop
+         offset="56.43%"
+         stop-color="#66A448"
+         id="stop421" />
+      <stop
+         offset="57.02%"
+         stop-color="#65A248"
+         id="stop422" />
+      <stop
+         offset="57.60%"
+         stop-color="#63A049"
+         id="stop423" />
+      <stop
+         offset="58.18%"
+         stop-color="#629E49"
+         id="stop424" />
+      <stop
+         offset="58.76%"
+         stop-color="#609C4A"
+         id="stop425" />
+      <stop
+         offset="59.34%"
+         stop-color="#5F9A4A"
+         id="stop426" />
+      <stop
+         offset="59.92%"
+         stop-color="#5D984B"
+         id="stop427" />
+      <stop
+         offset="60.49%"
+         stop-color="#5B964B"
+         id="stop428" />
+      <stop
+         offset="61.07%"
+         stop-color="#5A944C"
+         id="stop429" />
+      <stop
+         offset="61.65%"
+         stop-color="#58924C"
+         id="stop430" />
+      <stop
+         offset="62.22%"
+         stop-color="#57904C"
+         id="stop431" />
+      <stop
+         offset="62.79%"
+         stop-color="#558D4D"
+         id="stop432" />
+      <stop
+         offset="63.37%"
+         stop-color="#548B4D"
+         id="stop433" />
+      <stop
+         offset="63.94%"
+         stop-color="#52894E"
+         id="stop434" />
+      <stop
+         offset="64.51%"
+         stop-color="#51874E"
+         id="stop435" />
+      <stop
+         offset="65.08%"
+         stop-color="#4F854F"
+         id="stop436" />
+      <stop
+         offset="65.64%"
+         stop-color="#4E834F"
+         id="stop437" />
+      <stop
+         offset="66.21%"
+         stop-color="#4C8150"
+         id="stop438" />
+      <stop
+         offset="66.77%"
+         stop-color="#4B7F50"
+         id="stop439" />
+      <stop
+         offset="67.34%"
+         stop-color="#497D50"
+         id="stop440" />
+      <stop
+         offset="67.90%"
+         stop-color="#487B51"
+         id="stop441" />
+      <stop
+         offset="68.46%"
+         stop-color="#467951"
+         id="stop442" />
+      <stop
+         offset="69.01%"
+         stop-color="#457752"
+         id="stop443" />
+      <stop
+         offset="69.57%"
+         stop-color="#447652"
+         id="stop444" />
+      <stop
+         offset="70.12%"
+         stop-color="#447652"
+         id="stop445" />
+      <stop
+         offset="70.68%"
+         stop-color="#447652"
+         id="stop446" />
+      <stop
+         offset="71.23%"
+         stop-color="#447652"
+         id="stop447" />
+      <stop
+         offset="71.77%"
+         stop-color="#447652"
+         id="stop448" />
+      <stop
+         offset="72.32%"
+         stop-color="#447652"
+         id="stop449" />
+      <stop
+         offset="72.87%"
+         stop-color="#447652"
+         id="stop450" />
+      <stop
+         offset="73.41%"
+         stop-color="#447652"
+         id="stop451" />
+      <stop
+         offset="73.95%"
+         stop-color="#447652"
+         id="stop452" />
+      <stop
+         offset="74.49%"
+         stop-color="#447652"
+         id="stop453" />
+      <stop
+         offset="75.02%"
+         stop-color="#447652"
+         id="stop454" />
+      <stop
+         offset="75.55%"
+         stop-color="#447652"
+         id="stop455" />
+      <stop
+         offset="76.09%"
+         stop-color="#447652"
+         id="stop456" />
+      <stop
+         offset="76.61%"
+         stop-color="#447652"
+         id="stop457" />
+      <stop
+         offset="77.14%"
+         stop-color="#447652"
+         id="stop458" />
+      <stop
+         offset="77.66%"
+         stop-color="#447652"
+         id="stop459" />
+      <stop
+         offset="78.18%"
+         stop-color="#447652"
+         id="stop460" />
+      <stop
+         offset="78.70%"
+         stop-color="#447652"
+         id="stop461" />
+      <stop
+         offset="79.22%"
+         stop-color="#447652"
+         id="stop462" />
+      <stop
+         offset="79.73%"
+         stop-color="#447652"
+         id="stop463" />
+      <stop
+         offset="80.24%"
+         stop-color="#447652"
+         id="stop464" />
+      <stop
+         offset="80.75%"
+         stop-color="#447652"
+         id="stop465" />
+      <stop
+         offset="81.25%"
+         stop-color="#447652"
+         id="stop466" />
+      <stop
+         offset="81.76%"
+         stop-color="#447652"
+         id="stop467" />
+      <stop
+         offset="82.26%"
+         stop-color="#447652"
+         id="stop468" />
+      <stop
+         offset="82.75%"
+         stop-color="#447652"
+         id="stop469" />
+      <stop
+         offset="83.24%"
+         stop-color="#447652"
+         id="stop470" />
+      <stop
+         offset="83.73%"
+         stop-color="#447652"
+         id="stop471" />
+      <stop
+         offset="84.22%"
+         stop-color="#447652"
+         id="stop472" />
+      <stop
+         offset="84.70%"
+         stop-color="#447652"
+         id="stop473" />
+      <stop
+         offset="85.18%"
+         stop-color="#447652"
+         id="stop474" />
+      <stop
+         offset="85.66%"
+         stop-color="#447652"
+         id="stop475" />
+      <stop
+         offset="86.14%"
+         stop-color="#447652"
+         id="stop476" />
+      <stop
+         offset="86.61%"
+         stop-color="#447652"
+         id="stop477" />
+      <stop
+         offset="87.07%"
+         stop-color="#447652"
+         id="stop478" />
+      <stop
+         offset="87.54%"
+         stop-color="#447652"
+         id="stop479" />
+      <stop
+         offset="88.00%"
+         stop-color="#447652"
+         id="stop480" />
+      <stop
+         offset="88.45%"
+         stop-color="#447652"
+         id="stop481" />
+      <stop
+         offset="88.91%"
+         stop-color="#447652"
+         id="stop482" />
+      <stop
+         offset="89.36%"
+         stop-color="#447652"
+         id="stop483" />
+      <stop
+         offset="89.80%"
+         stop-color="#447652"
+         id="stop484" />
+      <stop
+         offset="90.25%"
+         stop-color="#447652"
+         id="stop485" />
+      <stop
+         offset="90.68%"
+         stop-color="#447652"
+         id="stop486" />
+      <stop
+         offset="91.12%"
+         stop-color="#447652"
+         id="stop487" />
+      <stop
+         offset="91.55%"
+         stop-color="#447652"
+         id="stop488" />
+      <stop
+         offset="91.98%"
+         stop-color="#447652"
+         id="stop489" />
+      <stop
+         offset="92.40%"
+         stop-color="#447652"
+         id="stop490" />
+      <stop
+         offset="92.82%"
+         stop-color="#447652"
+         id="stop491" />
+      <stop
+         offset="93.24%"
+         stop-color="#447652"
+         id="stop492" />
+      <stop
+         offset="93.65%"
+         stop-color="#447652"
+         id="stop493" />
+      <stop
+         offset="94.06%"
+         stop-color="#447652"
+         id="stop494" />
+      <stop
+         offset="94.46%"
+         stop-color="#447652"
+         id="stop495" />
+      <stop
+         offset="94.86%"
+         stop-color="#447652"
+         id="stop496" />
+      <stop
+         offset="95.25%"
+         stop-color="#447652"
+         id="stop497" />
+      <stop
+         offset="95.64%"
+         stop-color="#447652"
+         id="stop498" />
+      <stop
+         offset="96.03%"
+         stop-color="#447652"
+         id="stop499" />
+      <stop
+         offset="96.41%"
+         stop-color="#447652"
+         id="stop500" />
+      <stop
+         offset="96.79%"
+         stop-color="#447652"
+         id="stop501" />
+      <stop
+         offset="97.17%"
+         stop-color="#447652"
+         id="stop502" />
+      <stop
+         offset="97.54%"
+         stop-color="#447652"
+         id="stop503" />
+      <stop
+         offset="97.90%"
+         stop-color="#447652"
+         id="stop504" />
+      <stop
+         offset="98.26%"
+         stop-color="#447652"
+         id="stop505" />
+      <stop
+         offset="98.62%"
+         stop-color="#447652"
+         id="stop506" />
+      <stop
+         offset="98.97%"
+         stop-color="#447652"
+         id="stop507" />
+      <stop
+         offset="99.32%"
+         stop-color="#447652"
+         id="stop508" />
+      <stop
+         offset="99.66%"
+         stop-color="#447652"
+         id="stop509" />
+      <stop
+         offset="100.00%"
+         stop-color="#447652"
+         id="stop510" />
+    </linearGradient>
+    <linearGradient
+       id="wave_Lv_98_5"
+       gradientUnits="userSpaceOnUse"
+       x1="170.29"
+       y1="119.31"
+       x2="170.29"
+       y2="280.69">
+      <stop
+         offset="0.00%"
+         stop-color="#094447"
+         id="stop511" />
+      <stop
+         offset="0.34%"
+         stop-color="#094447"
+         id="stop512" />
+      <stop
+         offset="0.68%"
+         stop-color="#094447"
+         id="stop513" />
+      <stop
+         offset="1.03%"
+         stop-color="#094447"
+         id="stop514" />
+      <stop
+         offset="1.38%"
+         stop-color="#094447"
+         id="stop515" />
+      <stop
+         offset="1.74%"
+         stop-color="#094447"
+         id="stop516" />
+      <stop
+         offset="2.10%"
+         stop-color="#094447"
+         id="stop517" />
+      <stop
+         offset="2.46%"
+         stop-color="#094447"
+         id="stop518" />
+      <stop
+         offset="2.83%"
+         stop-color="#094447"
+         id="stop519" />
+      <stop
+         offset="3.21%"
+         stop-color="#094447"
+         id="stop520" />
+      <stop
+         offset="3.59%"
+         stop-color="#094447"
+         id="stop521" />
+      <stop
+         offset="3.97%"
+         stop-color="#094447"
+         id="stop522" />
+      <stop
+         offset="4.36%"
+         stop-color="#094447"
+         id="stop523" />
+      <stop
+         offset="4.75%"
+         stop-color="#094447"
+         id="stop524" />
+      <stop
+         offset="5.14%"
+         stop-color="#094447"
+         id="stop525" />
+      <stop
+         offset="5.54%"
+         stop-color="#094447"
+         id="stop526" />
+      <stop
+         offset="5.94%"
+         stop-color="#094447"
+         id="stop527" />
+      <stop
+         offset="6.35%"
+         stop-color="#094447"
+         id="stop528" />
+      <stop
+         offset="6.76%"
+         stop-color="#094447"
+         id="stop529" />
+      <stop
+         offset="7.18%"
+         stop-color="#094447"
+         id="stop530" />
+      <stop
+         offset="7.60%"
+         stop-color="#094447"
+         id="stop531" />
+      <stop
+         offset="8.02%"
+         stop-color="#094447"
+         id="stop532" />
+      <stop
+         offset="8.45%"
+         stop-color="#094447"
+         id="stop533" />
+      <stop
+         offset="8.88%"
+         stop-color="#094447"
+         id="stop534" />
+      <stop
+         offset="9.32%"
+         stop-color="#094447"
+         id="stop535" />
+      <stop
+         offset="9.75%"
+         stop-color="#094447"
+         id="stop536" />
+      <stop
+         offset="10.20%"
+         stop-color="#094447"
+         id="stop537" />
+      <stop
+         offset="10.64%"
+         stop-color="#094447"
+         id="stop538" />
+      <stop
+         offset="11.09%"
+         stop-color="#094447"
+         id="stop539" />
+      <stop
+         offset="11.55%"
+         stop-color="#094447"
+         id="stop540" />
+      <stop
+         offset="12.00%"
+         stop-color="#094447"
+         id="stop541" />
+      <stop
+         offset="12.46%"
+         stop-color="#094447"
+         id="stop542" />
+      <stop
+         offset="12.93%"
+         stop-color="#094447"
+         id="stop543" />
+      <stop
+         offset="13.39%"
+         stop-color="#094447"
+         id="stop544" />
+      <stop
+         offset="13.86%"
+         stop-color="#094447"
+         id="stop545" />
+      <stop
+         offset="14.34%"
+         stop-color="#094447"
+         id="stop546" />
+      <stop
+         offset="14.82%"
+         stop-color="#094447"
+         id="stop547" />
+      <stop
+         offset="15.30%"
+         stop-color="#094447"
+         id="stop548" />
+      <stop
+         offset="15.78%"
+         stop-color="#094447"
+         id="stop549" />
+      <stop
+         offset="16.27%"
+         stop-color="#094447"
+         id="stop550" />
+      <stop
+         offset="16.76%"
+         stop-color="#094447"
+         id="stop551" />
+      <stop
+         offset="17.25%"
+         stop-color="#094447"
+         id="stop552" />
+      <stop
+         offset="17.74%"
+         stop-color="#094447"
+         id="stop553" />
+      <stop
+         offset="18.24%"
+         stop-color="#094447"
+         id="stop554" />
+      <stop
+         offset="18.75%"
+         stop-color="#094447"
+         id="stop555" />
+      <stop
+         offset="19.25%"
+         stop-color="#094447"
+         id="stop556" />
+      <stop
+         offset="19.76%"
+         stop-color="#094447"
+         id="stop557" />
+      <stop
+         offset="20.27%"
+         stop-color="#094447"
+         id="stop558" />
+      <stop
+         offset="20.78%"
+         stop-color="#094447"
+         id="stop559" />
+      <stop
+         offset="21.30%"
+         stop-color="#094447"
+         id="stop560" />
+      <stop
+         offset="21.82%"
+         stop-color="#094447"
+         id="stop561" />
+      <stop
+         offset="22.34%"
+         stop-color="#094447"
+         id="stop562" />
+      <stop
+         offset="22.86%"
+         stop-color="#094447"
+         id="stop563" />
+      <stop
+         offset="23.39%"
+         stop-color="#094447"
+         id="stop564" />
+      <stop
+         offset="23.91%"
+         stop-color="#094447"
+         id="stop565" />
+      <stop
+         offset="24.45%"
+         stop-color="#094447"
+         id="stop566" />
+      <stop
+         offset="24.98%"
+         stop-color="#094447"
+         id="stop567" />
+      <stop
+         offset="25.51%"
+         stop-color="#094447"
+         id="stop568" />
+      <stop
+         offset="26.05%"
+         stop-color="#094447"
+         id="stop569" />
+      <stop
+         offset="26.59%"
+         stop-color="#094447"
+         id="stop570" />
+      <stop
+         offset="27.13%"
+         stop-color="#094447"
+         id="stop571" />
+      <stop
+         offset="27.68%"
+         stop-color="#094447"
+         id="stop572" />
+      <stop
+         offset="28.23%"
+         stop-color="#094447"
+         id="stop573" />
+      <stop
+         offset="28.77%"
+         stop-color="#094447"
+         id="stop574" />
+      <stop
+         offset="29.32%"
+         stop-color="#094447"
+         id="stop575" />
+      <stop
+         offset="29.88%"
+         stop-color="#094447"
+         id="stop576" />
+      <stop
+         offset="30.43%"
+         stop-color="#094447"
+         id="stop577" />
+      <stop
+         offset="30.99%"
+         stop-color="#094447"
+         id="stop578" />
+      <stop
+         offset="31.54%"
+         stop-color="#094546"
+         id="stop579" />
+      <stop
+         offset="32.10%"
+         stop-color="#094545"
+         id="stop580" />
+      <stop
+         offset="32.66%"
+         stop-color="#084644"
+         id="stop581" />
+      <stop
+         offset="33.23%"
+         stop-color="#084744"
+         id="stop582" />
+      <stop
+         offset="33.79%"
+         stop-color="#084743"
+         id="stop583" />
+      <stop
+         offset="34.36%"
+         stop-color="#084842"
+         id="stop584" />
+      <stop
+         offset="34.92%"
+         stop-color="#074942"
+         id="stop585" />
+      <stop
+         offset="35.49%"
+         stop-color="#074941"
+         id="stop586" />
+      <stop
+         offset="36.06%"
+         stop-color="#074A40"
+         id="stop587" />
+      <stop
+         offset="36.63%"
+         stop-color="#074B3F"
+         id="stop588" />
+      <stop
+         offset="37.21%"
+         stop-color="#074B3E"
+         id="stop589" />
+      <stop
+         offset="37.78%"
+         stop-color="#064C3E"
+         id="stop590" />
+      <stop
+         offset="38.35%"
+         stop-color="#064C3D"
+         id="stop591" />
+      <stop
+         offset="38.93%"
+         stop-color="#064D3C"
+         id="stop592" />
+      <stop
+         offset="39.51%"
+         stop-color="#064E3C"
+         id="stop593" />
+      <stop
+         offset="40.08%"
+         stop-color="#064E3B"
+         id="stop594" />
+      <stop
+         offset="40.66%"
+         stop-color="#054F3A"
+         id="stop595" />
+      <stop
+         offset="41.24%"
+         stop-color="#055039"
+         id="stop596" />
+      <stop
+         offset="41.82%"
+         stop-color="#055038"
+         id="stop597" />
+      <stop
+         offset="42.40%"
+         stop-color="#055138"
+         id="stop598" />
+      <stop
+         offset="42.98%"
+         stop-color="#055137"
+         id="stop599" />
+      <stop
+         offset="43.57%"
+         stop-color="#045236"
+         id="stop600" />
+      <stop
+         offset="44.15%"
+         stop-color="#045336"
+         id="stop601" />
+      <stop
+         offset="44.73%"
+         stop-color="#045335"
+         id="stop602" />
+      <stop
+         offset="45.32%"
+         stop-color="#045434"
+         id="stop603" />
+      <stop
+         offset="45.90%"
+         stop-color="#035533"
+         id="stop604" />
+      <stop
+         offset="46.49%"
+         stop-color="#035532"
+         id="stop605" />
+      <stop
+         offset="47.07%"
+         stop-color="#035632"
+         id="stop606" />
+      <stop
+         offset="47.66%"
+         stop-color="#035631"
+         id="stop607" />
+      <stop
+         offset="48.24%"
+         stop-color="#035730"
+         id="stop608" />
+      <stop
+         offset="48.83%"
+         stop-color="#025830"
+         id="stop609" />
+      <stop
+         offset="49.41%"
+         stop-color="#02582F"
+         id="stop610" />
+      <stop
+         offset="50.00%"
+         stop-color="#02592E"
+         id="stop611" />
+      <stop
+         offset="50.59%"
+         stop-color="#045A2E"
+         id="stop612" />
+      <stop
+         offset="51.17%"
+         stop-color="#055C2F"
+         id="stop613" />
+      <stop
+         offset="51.76%"
+         stop-color="#075D2F"
+         id="stop614" />
+      <stop
+         offset="52.34%"
+         stop-color="#095F2F"
+         id="stop615" />
+      <stop
+         offset="52.93%"
+         stop-color="#0B6030"
+         id="stop616" />
+      <stop
+         offset="53.51%"
+         stop-color="#0C6230"
+         id="stop617" />
+      <stop
+         offset="54.10%"
+         stop-color="#0E6330"
+         id="stop618" />
+      <stop
+         offset="54.68%"
+         stop-color="#106530"
+         id="stop619" />
+      <stop
+         offset="55.27%"
+         stop-color="#126631"
+         id="stop620" />
+      <stop
+         offset="55.85%"
+         stop-color="#136831"
+         id="stop621" />
+      <stop
+         offset="56.43%"
+         stop-color="#156931"
+         id="stop622" />
+      <stop
+         offset="57.02%"
+         stop-color="#176B32"
+         id="stop623" />
+      <stop
+         offset="57.60%"
+         stop-color="#196C32"
+         id="stop624" />
+      <stop
+         offset="58.18%"
+         stop-color="#1A6E32"
+         id="stop625" />
+      <stop
+         offset="58.76%"
+         stop-color="#1C6F32"
+         id="stop626" />
+      <stop
+         offset="59.34%"
+         stop-color="#1E7133"
+         id="stop627" />
+      <stop
+         offset="59.92%"
+         stop-color="#207233"
+         id="stop628" />
+      <stop
+         offset="60.49%"
+         stop-color="#217333"
+         id="stop629" />
+      <stop
+         offset="61.07%"
+         stop-color="#237534"
+         id="stop630" />
+      <stop
+         offset="61.65%"
+         stop-color="#257634"
+         id="stop631" />
+      <stop
+         offset="62.22%"
+         stop-color="#277834"
+         id="stop632" />
+      <stop
+         offset="62.79%"
+         stop-color="#287935"
+         id="stop633" />
+      <stop
+         offset="63.37%"
+         stop-color="#2A7B35"
+         id="stop634" />
+      <stop
+         offset="63.94%"
+         stop-color="#2C7C35"
+         id="stop635" />
+      <stop
+         offset="64.51%"
+         stop-color="#2D7E36"
+         id="stop636" />
+      <stop
+         offset="65.08%"
+         stop-color="#2F7F36"
+         id="stop637" />
+      <stop
+         offset="65.64%"
+         stop-color="#318136"
+         id="stop638" />
+      <stop
+         offset="66.21%"
+         stop-color="#338236"
+         id="stop639" />
+      <stop
+         offset="66.77%"
+         stop-color="#348437"
+         id="stop640" />
+      <stop
+         offset="67.34%"
+         stop-color="#368537"
+         id="stop641" />
+      <stop
+         offset="67.90%"
+         stop-color="#388737"
+         id="stop642" />
+      <stop
+         offset="68.46%"
+         stop-color="#3A8838"
+         id="stop643" />
+      <stop
+         offset="69.01%"
+         stop-color="#3B8A38"
+         id="stop644" />
+      <stop
+         offset="69.57%"
+         stop-color="#3C8A38"
+         id="stop645" />
+      <stop
+         offset="70.12%"
+         stop-color="#3C8A38"
+         id="stop646" />
+      <stop
+         offset="70.68%"
+         stop-color="#3C8A38"
+         id="stop647" />
+      <stop
+         offset="71.23%"
+         stop-color="#3C8A38"
+         id="stop648" />
+      <stop
+         offset="71.77%"
+         stop-color="#3C8A38"
+         id="stop649" />
+      <stop
+         offset="72.32%"
+         stop-color="#3C8A38"
+         id="stop650" />
+      <stop
+         offset="72.87%"
+         stop-color="#3C8A38"
+         id="stop651" />
+      <stop
+         offset="73.41%"
+         stop-color="#3C8A38"
+         id="stop652" />
+      <stop
+         offset="73.95%"
+         stop-color="#3C8A38"
+         id="stop653" />
+      <stop
+         offset="74.49%"
+         stop-color="#3C8A38"
+         id="stop654" />
+      <stop
+         offset="75.02%"
+         stop-color="#3C8A38"
+         id="stop655" />
+      <stop
+         offset="75.55%"
+         stop-color="#3C8A38"
+         id="stop656" />
+      <stop
+         offset="76.09%"
+         stop-color="#3C8A38"
+         id="stop657" />
+      <stop
+         offset="76.61%"
+         stop-color="#3C8A38"
+         id="stop658" />
+      <stop
+         offset="77.14%"
+         stop-color="#3C8A38"
+         id="stop659" />
+      <stop
+         offset="77.66%"
+         stop-color="#3C8A38"
+         id="stop660" />
+      <stop
+         offset="78.18%"
+         stop-color="#3C8A38"
+         id="stop661" />
+      <stop
+         offset="78.70%"
+         stop-color="#3C8A38"
+         id="stop662" />
+      <stop
+         offset="79.22%"
+         stop-color="#3C8A38"
+         id="stop663" />
+      <stop
+         offset="79.73%"
+         stop-color="#3C8A38"
+         id="stop664" />
+      <stop
+         offset="80.24%"
+         stop-color="#3C8A38"
+         id="stop665" />
+      <stop
+         offset="80.75%"
+         stop-color="#3C8A38"
+         id="stop666" />
+      <stop
+         offset="81.25%"
+         stop-color="#3C8A38"
+         id="stop667" />
+      <stop
+         offset="81.76%"
+         stop-color="#3C8A38"
+         id="stop668" />
+      <stop
+         offset="82.26%"
+         stop-color="#3C8A38"
+         id="stop669" />
+      <stop
+         offset="82.75%"
+         stop-color="#3C8A38"
+         id="stop670" />
+      <stop
+         offset="83.24%"
+         stop-color="#3C8A38"
+         id="stop671" />
+      <stop
+         offset="83.73%"
+         stop-color="#3C8A38"
+         id="stop672" />
+      <stop
+         offset="84.22%"
+         stop-color="#3C8A38"
+         id="stop673" />
+      <stop
+         offset="84.70%"
+         stop-color="#3C8A38"
+         id="stop674" />
+      <stop
+         offset="85.18%"
+         stop-color="#3C8A38"
+         id="stop675" />
+      <stop
+         offset="85.66%"
+         stop-color="#3C8A38"
+         id="stop676" />
+      <stop
+         offset="86.14%"
+         stop-color="#3C8A38"
+         id="stop677" />
+      <stop
+         offset="86.61%"
+         stop-color="#3C8A38"
+         id="stop678" />
+      <stop
+         offset="87.07%"
+         stop-color="#3C8A38"
+         id="stop679" />
+      <stop
+         offset="87.54%"
+         stop-color="#3C8A38"
+         id="stop680" />
+      <stop
+         offset="88.00%"
+         stop-color="#3C8A38"
+         id="stop681" />
+      <stop
+         offset="88.45%"
+         stop-color="#3C8A38"
+         id="stop682" />
+      <stop
+         offset="88.91%"
+         stop-color="#3C8A38"
+         id="stop683" />
+      <stop
+         offset="89.36%"
+         stop-color="#3C8A38"
+         id="stop684" />
+      <stop
+         offset="89.80%"
+         stop-color="#3C8A38"
+         id="stop685" />
+      <stop
+         offset="90.25%"
+         stop-color="#3C8A38"
+         id="stop686" />
+      <stop
+         offset="90.68%"
+         stop-color="#3C8A38"
+         id="stop687" />
+      <stop
+         offset="91.12%"
+         stop-color="#3C8A38"
+         id="stop688" />
+      <stop
+         offset="91.55%"
+         stop-color="#3C8A38"
+         id="stop689" />
+      <stop
+         offset="91.98%"
+         stop-color="#3C8A38"
+         id="stop690" />
+      <stop
+         offset="92.40%"
+         stop-color="#3C8A38"
+         id="stop691" />
+      <stop
+         offset="92.82%"
+         stop-color="#3C8A38"
+         id="stop692" />
+      <stop
+         offset="93.24%"
+         stop-color="#3C8A38"
+         id="stop693" />
+      <stop
+         offset="93.65%"
+         stop-color="#3C8A38"
+         id="stop694" />
+      <stop
+         offset="94.06%"
+         stop-color="#3C8A38"
+         id="stop695" />
+      <stop
+         offset="94.46%"
+         stop-color="#3C8A38"
+         id="stop696" />
+      <stop
+         offset="94.86%"
+         stop-color="#3C8A38"
+         id="stop697" />
+      <stop
+         offset="95.25%"
+         stop-color="#3C8A38"
+         id="stop698" />
+      <stop
+         offset="95.64%"
+         stop-color="#3C8A38"
+         id="stop699" />
+      <stop
+         offset="96.03%"
+         stop-color="#3C8A38"
+         id="stop700" />
+      <stop
+         offset="96.41%"
+         stop-color="#3C8A38"
+         id="stop701" />
+      <stop
+         offset="96.79%"
+         stop-color="#3C8A38"
+         id="stop702" />
+      <stop
+         offset="97.17%"
+         stop-color="#3C8A38"
+         id="stop703" />
+      <stop
+         offset="97.54%"
+         stop-color="#3C8A38"
+         id="stop704" />
+      <stop
+         offset="97.90%"
+         stop-color="#3C8A38"
+         id="stop705" />
+      <stop
+         offset="98.26%"
+         stop-color="#3C8A38"
+         id="stop706" />
+      <stop
+         offset="98.62%"
+         stop-color="#3C8A38"
+         id="stop707" />
+      <stop
+         offset="98.97%"
+         stop-color="#3C8A38"
+         id="stop708" />
+      <stop
+         offset="99.32%"
+         stop-color="#3C8A38"
+         id="stop709" />
+      <stop
+         offset="99.66%"
+         stop-color="#3C8A38"
+         id="stop710" />
+      <stop
+         offset="100.00%"
+         stop-color="#3C8A38"
+         id="stop711" />
+    </linearGradient>
+    <clipPath
+       id="clip_TR_BR">
+      <polygon
+         points="296.00,-900.00 296.00,1100.00 -1704.00,1100.00 -1704.00,-900.00"
+         id="polygon711" />
+    </clipPath>
+    <clipPath
+       id="clip_TR_Lv">
+      <polygon
+         points="1148.53,-407.79 -583.53,592.21 416.47,2324.26 2148.53,1324.26"
+         id="polygon712" />
+    </clipPath>
+    <clipPath
+       id="clip_BR_TR">
+      <polygon
+         points="296.00,1300.00 296.00,-700.00 -1704.00,-700.00 -1704.00,1300.00"
+         id="polygon713" />
+    </clipPath>
+    <clipPath
+       id="clip_BR_Lv">
+      <polygon
+         points="1148.53,807.79 -583.53,-192.21 416.47,-1924.26 2148.53,-924.26"
+         id="polygon714" />
+    </clipPath>
+    <clipPath
+       id="clip_Lv_TR">
+      <polygon
+         points="-756.73,692.21 975.32,-307.79 1975.32,1424.26 243.27,2424.26"
+         id="polygon715" />
+    </clipPath>
+    <clipPath
+       id="clip_Lv_BR">
+      <polygon
+         points="-756.73,-292.21 975.32,707.79 1975.32,-1024.26 243.27,-2024.26"
+         id="polygon716" />
+    </clipPath>
+  </defs>
+  <g
+     stroke-width="5"
+     stroke-linecap="butt"
+     fill="none"
+     id="g727">
+    <path
+       d="M 287.00 138.00 L 287.00 163.00"
+       stroke="url(#line_TR_BR_0)"
+       id="path716" />
+    <path
+       d="M 287.00 177.00 L 287.00 191.50"
+       stroke="url(#line_TR_BR_1)"
+       id="path717" />
+    <path
+       d="M 287.00 208.50 L 287.00 223.00"
+       stroke="url(#line_TR_BR_2)"
+       id="path718" />
+    <path
+       d="M 287.00 237.00 L 287.00 262.00"
+       stroke="url(#line_TR_BR_3)"
+       id="path719" />
+    <path
+       d="M 254.09 119.00 L 232.44 131.50"
+       stroke="url(#line_TR_Lv_0)"
+       id="path720" />
+    <path
+       d="M 220.32 138.50 L 207.76 145.75"
+       stroke="url(#line_TR_Lv_1)"
+       id="path721" />
+    <path
+       d="M 193.04 154.25 L 180.48 161.50"
+       stroke="url(#line_TR_Lv_2)"
+       id="path722" />
+    <path
+       d="M 168.35 168.50 L 146.70 181.00"
+       stroke="url(#line_TR_Lv_3)"
+       id="path723" />
+    <path
+       d="M 254.09 281.00 L 232.44 268.50"
+       stroke="url(#line_BR_Lv_0)"
+       id="path724" />
+    <path
+       d="M 220.32 261.50 L 207.76 254.25"
+       stroke="url(#line_BR_Lv_1)"
+       id="path725" />
+    <path
+       d="M 193.04 245.75 L 180.48 238.50"
+       stroke="url(#line_BR_Lv_2)"
+       id="path726" />
+    <path
+       d="M 168.35 231.50 L 146.70 219.00"
+       stroke="url(#line_BR_Lv_3)"
+       id="path727" />
+  </g>
+  <g
+     stroke-width="9"
+     stroke-linecap="butt"
+     fill="none"
+     id="g735">
+    <g
+       clip-path="url(#clip_TR_BR)"
+       id="g730">
+      <g
+         clip-path="url(#clip_TR_Lv)"
+         id="g729">
+        <path
+           d="M 316.58 163.44 L 315.97 163.72 L 315.36 164.00 L 314.74 164.27 L 314.13 164.53 L 313.51 164.79 L 312.88 165.04 L 312.26 165.28 L 311.63 165.52 L 311.00 165.76 L 310.37 165.98 L 309.73 166.21 L 309.10 166.42 L 308.46 166.63 L 307.82 166.83 L 307.17 167.03 L 306.53 167.22 L 305.88 167.40 L 305.24 167.58 L 304.59 167.76 L 303.93 167.92 L 303.28 168.08 L 302.63 168.23 L 301.97 168.38 L 301.31 168.52 L 300.66 168.65 L 300.00 168.78 L 299.34 168.90 L 298.67 169.02 L 298.01 169.13 L 297.35 169.23 L 296.68 169.33 L 296.02 169.42 L 295.35 169.50 L 294.68 169.58 L 294.01 169.65 L 293.34 169.71 L 292.67 169.77 L 292.00 169.82 L 291.33 169.87 L 290.66 169.90 L 289.99 169.94 L 289.32 169.96 L 288.65 169.98 L 287.98 169.99 L 287.31 170.00 L 286.63 170.00 L 285.96 169.99 L 285.29 169.98 L 284.62 169.96 L 283.95 169.93 L 283.28 169.90 L 282.60 169.86 L 281.93 169.82 L 281.26 169.76 L 280.59 169.71 L 279.93 169.64 L 279.26 169.57 L 278.59 169.49 L 277.92 169.41 L 277.26 169.32 L 276.59 169.22 L 275.93 169.12 L 275.27 169.01 L 274.60 168.89 L 273.94 168.77 L 273.28 168.64 L 272.63 168.51 L 271.97 168.37 L 271.31 168.22 L 270.66 168.07 L 270.01 167.91 L 269.36 167.74 L 268.71 167.57 L 268.06 167.39 L 267.41 167.20 L 266.77 167.01 L 266.13 166.82 L 265.49 166.61 L 264.85 166.40 L 264.21 166.19 L 263.58 165.96 L 262.94 165.74 L 262.31 165.50 L 261.69 165.26 L 261.06 165.02 L 260.44 164.76 L 259.82 164.51 L 259.20 164.24 L 258.58 163.97 L 257.97 163.70 L 257.36 163.42 L 256.75 163.13 L 256.15 162.84 L 255.55 162.54 L 254.95 162.23 L 254.35 161.92 L 253.76 161.60 L 253.17 161.28 L 252.58 160.95 L 252.00 160.62 L 251.42 160.28 L 250.84 159.94 L 250.27 159.59 L 249.70 159.23 L 249.13 158.87 L 248.57 158.51 L 248.01 158.13 L 247.45 157.76 L 246.90 157.38 L 246.35 156.99 L 245.81 156.60 L 245.26 156.20 L 244.73 155.79 L 244.19 155.39 L 243.66 154.97 L 243.14 154.55 L 242.62 154.13 L 242.10 153.70 L 241.59 153.27 L 241.08 152.83 L 240.57 152.39 L 240.07 151.94 L 239.57 151.49 L 239.08 151.03 L 238.59 150.57 L 238.11 150.10 L 237.63 149.63 L 237.16 149.15 L 236.69 148.67 L 236.22 148.18 L 235.76 147.70 L 235.31 147.20 L 234.86 146.70 L 234.41 146.20 L 233.97 145.69 L 233.53 145.18 L 233.10 144.67 L 232.68 144.15 L 232.26 143.62 L 231.84 143.10 L 231.43 142.56 L 231.02 142.03 L 230.62 141.49 L 230.23 140.95 L 229.84 140.40 L 229.45 139.85 L 229.07 139.30 L 228.70 138.74 L 228.33 138.18 L 227.96 137.61 L 227.60 137.04 L 227.25 136.47 L 226.90 135.90 L 226.56 135.32 L 226.23 134.74 L 225.90 134.15 L 225.57 133.56 L 225.25 132.97 L 224.94 132.38 L 224.63 131.78 L 224.33 131.18 L 224.03 130.58 L 223.74 129.97 L 223.46 129.36 L 223.18 128.75 L 222.90 128.14 L 222.64 127.52 L 222.38 126.90 L 222.12 126.28 L 221.87 125.66 L 221.63 125.03 L 221.39 124.40 L 221.16 123.77 L 220.93 123.14 L 220.71 122.50 L 220.50 121.86 L 220.30 121.22 L 220.09 120.58 L 219.90 119.94 L 219.71 119.29 L 219.53 118.65 L 219.35 118.00 L 219.18 117.35 L 219.02 116.70 L 218.86 116.04 L 218.71 115.39 L 218.57 114.73 L 218.43 114.08 L 218.30 113.42 L 218.17 112.76 L 218.05 112.10 L 217.94 111.43 L 217.83 110.77 L 217.73 110.10 L 217.64 109.44 L 217.55 108.77 L 217.47 108.11 L 217.40 107.44 L 217.33 106.77 L 217.27 106.10"
+           stroke="#103060"
+           id="path728" />
+        <path
+           d="M 328.63 189.27 L 327.77 189.67 L 326.91 190.05 L 326.04 190.43 L 325.17 190.80 L 324.30 191.17 L 323.42 191.52 L 322.54 191.86 L 321.66 192.20 L 320.77 192.53 L 319.88 192.85 L 318.99 193.16 L 318.09 193.46 L 317.19 193.76 L 316.29 194.04 L 315.39 194.32 L 314.48 194.59 L 313.57 194.85 L 312.66 195.10 L 311.75 195.34 L 310.83 195.57 L 309.91 195.80 L 308.99 196.01 L 308.07 196.22 L 307.14 196.42 L 306.22 196.61 L 305.29 196.79 L 304.36 196.96 L 303.43 197.12 L 302.49 197.27 L 301.56 197.42 L 300.62 197.55 L 299.69 197.68 L 298.75 197.80 L 297.81 197.91 L 296.87 198.00 L 295.93 198.09 L 294.99 198.18 L 294.04 198.25 L 293.10 198.31 L 292.16 198.37 L 291.21 198.41 L 290.27 198.45 L 289.32 198.47 L 288.38 198.49 L 287.43 198.50 L 286.48 198.50 L 285.54 198.49 L 284.59 198.47 L 283.65 198.44 L 282.70 198.41 L 281.76 198.36 L 280.82 198.31 L 279.87 198.24 L 278.93 198.17 L 277.99 198.09 L 277.05 198.00 L 276.11 197.90 L 275.17 197.79 L 274.23 197.67 L 273.29 197.54 L 272.36 197.41 L 271.42 197.26 L 270.49 197.11 L 269.56 196.94 L 268.63 196.77 L 267.70 196.59 L 266.77 196.40 L 265.85 196.20 L 264.93 195.99 L 264.01 195.78 L 263.09 195.55 L 262.17 195.32 L 261.26 195.08 L 260.35 194.83 L 259.44 194.56 L 258.53 194.30 L 257.63 194.02 L 256.73 193.73 L 255.83 193.44 L 254.93 193.13 L 254.04 192.82 L 253.15 192.50 L 252.26 192.17 L 251.38 191.83 L 250.50 191.49 L 249.62 191.13 L 248.75 190.77 L 247.88 190.40 L 247.01 190.02 L 246.15 189.63 L 245.29 189.23 L 244.44 188.83 L 243.59 188.42 L 242.74 188.00 L 241.90 187.57 L 241.06 187.13 L 240.23 186.69 L 239.40 186.23 L 238.57 185.77 L 237.75 185.30 L 236.93 184.83 L 236.12 184.34 L 235.31 183.85 L 234.51 183.35 L 233.71 182.84 L 232.92 182.33 L 232.13 181.80 L 231.35 181.27 L 230.57 180.74 L 229.80 180.19 L 229.03 179.64 L 228.27 179.08 L 227.52 178.51 L 226.76 177.94 L 226.02 177.35 L 225.28 176.76 L 224.55 176.17 L 223.82 175.57 L 223.09 174.96 L 222.38 174.34 L 221.67 173.72 L 220.96 173.08 L 220.26 172.45 L 219.57 171.80 L 218.89 171.15 L 218.21 170.50 L 217.53 169.83 L 216.87 169.16 L 216.20 168.49 L 215.55 167.80 L 214.90 167.11 L 214.26 166.42 L 213.63 165.72 L 213.00 165.01 L 212.38 164.30 L 211.77 163.58 L 211.16 162.85 L 210.56 162.12 L 209.97 161.38 L 209.38 160.64 L 208.80 159.89 L 208.23 159.14 L 207.67 158.38 L 207.11 157.62 L 206.56 156.85 L 206.02 156.07 L 205.48 155.29 L 204.96 154.51 L 204.44 153.72 L 203.93 152.92 L 203.42 152.12 L 202.93 151.32 L 202.44 150.51 L 201.96 149.70 L 201.48 148.88 L 201.02 148.05 L 200.56 147.23 L 200.11 146.39 L 199.67 145.56 L 199.24 144.72 L 198.81 143.87 L 198.39 143.02 L 197.98 142.17 L 197.58 141.32 L 197.19 140.46 L 196.81 139.59 L 196.43 138.72 L 196.06 137.85 L 195.70 136.98 L 195.35 136.10 L 195.01 135.22 L 194.68 134.33 L 194.35 133.45 L 194.04 132.56 L 193.73 131.66 L 193.43 130.76 L 193.14 129.87 L 192.85 128.96 L 192.58 128.06 L 192.32 127.15 L 192.06 126.24 L 191.81 125.33 L 191.57 124.41 L 191.34 123.50 L 191.12 122.58 L 190.91 121.65 L 190.71 120.73 L 190.51 119.81 L 190.33 118.88 L 190.15 117.95 L 189.98 117.02 L 189.82 116.09 L 189.67 115.15 L 189.53 114.22 L 189.40 113.28 L 189.28 112.35 L 189.16 111.41 L 189.06 110.47 L 188.96 109.53 L 188.87 108.58"
+           stroke="url(#wave_TR_98_5)"
+           id="path729" />
+      </g>
+    </g>
+    <g
+       clip-path="url(#clip_BR_TR)"
+       id="g732">
+      <g
+         clip-path="url(#clip_BR_Lv)"
+         id="g731">
+        <path
+           d="M 217.27 293.90 L 217.33 293.23 L 217.40 292.56 L 217.47 291.89 L 217.55 291.23 L 217.64 290.56 L 217.73 289.90 L 217.83 289.23 L 217.94 288.57 L 218.05 287.90 L 218.17 287.24 L 218.30 286.58 L 218.43 285.92 L 218.57 285.27 L 218.71 284.61 L 218.86 283.96 L 219.02 283.30 L 219.18 282.65 L 219.35 282.00 L 219.53 281.35 L 219.71 280.71 L 219.90 280.06 L 220.09 279.42 L 220.30 278.78 L 220.50 278.14 L 220.71 277.50 L 220.93 276.86 L 221.16 276.23 L 221.39 275.60 L 221.63 274.97 L 221.87 274.34 L 222.12 273.72 L 222.38 273.10 L 222.64 272.48 L 222.90 271.86 L 223.18 271.25 L 223.46 270.64 L 223.74 270.03 L 224.03 269.42 L 224.33 268.82 L 224.63 268.22 L 224.94 267.62 L 225.25 267.03 L 225.57 266.44 L 225.90 265.85 L 226.23 265.26 L 226.56 264.68 L 226.90 264.10 L 227.25 263.53 L 227.60 262.96 L 227.96 262.39 L 228.33 261.82 L 228.70 261.26 L 229.07 260.70 L 229.45 260.15 L 229.84 259.60 L 230.23 259.05 L 230.62 258.51 L 231.02 257.97 L 231.43 257.44 L 231.84 256.90 L 232.26 256.38 L 232.68 255.85 L 233.10 255.33 L 233.53 254.82 L 233.97 254.31 L 234.41 253.80 L 234.86 253.30 L 235.31 252.80 L 235.76 252.30 L 236.22 251.82 L 236.69 251.33 L 237.16 250.85 L 237.63 250.37 L 238.11 249.90 L 238.59 249.43 L 239.08 248.97 L 239.57 248.51 L 240.07 248.06 L 240.57 247.61 L 241.08 247.17 L 241.59 246.73 L 242.10 246.30 L 242.62 245.87 L 243.14 245.45 L 243.66 245.03 L 244.19 244.61 L 244.73 244.21 L 245.26 243.80 L 245.81 243.40 L 246.35 243.01 L 246.90 242.62 L 247.45 242.24 L 248.01 241.87 L 248.57 241.49 L 249.13 241.13 L 249.70 240.77 L 250.27 240.41 L 250.84 240.06 L 251.42 239.72 L 252.00 239.38 L 252.58 239.05 L 253.17 238.72 L 253.76 238.40 L 254.35 238.08 L 254.95 237.77 L 255.55 237.46 L 256.15 237.16 L 256.75 236.87 L 257.36 236.58 L 257.97 236.30 L 258.58 236.03 L 259.20 235.76 L 259.82 235.49 L 260.44 235.24 L 261.06 234.98 L 261.69 234.74 L 262.31 234.50 L 262.94 234.26 L 263.58 234.04 L 264.21 233.81 L 264.85 233.60 L 265.49 233.39 L 266.13 233.18 L 266.77 232.99 L 267.41 232.80 L 268.06 232.61 L 268.71 232.43 L 269.36 232.26 L 270.01 232.09 L 270.66 231.93 L 271.31 231.78 L 271.97 231.63 L 272.63 231.49 L 273.28 231.36 L 273.94 231.23 L 274.60 231.11 L 275.27 230.99 L 275.93 230.88 L 276.59 230.78 L 277.26 230.68 L 277.92 230.59 L 278.59 230.51 L 279.26 230.43 L 279.93 230.36 L 280.59 230.29 L 281.26 230.24 L 281.93 230.18 L 282.60 230.14 L 283.28 230.10 L 283.95 230.07 L 284.62 230.04 L 285.29 230.02 L 285.96 230.01 L 286.63 230.00 L 287.31 230.00 L 287.98 230.01 L 288.65 230.02 L 289.32 230.04 L 289.99 230.06 L 290.66 230.10 L 291.33 230.13 L 292.00 230.18 L 292.67 230.23 L 293.34 230.29 L 294.01 230.35 L 294.68 230.42 L 295.35 230.50 L 296.02 230.58 L 296.68 230.67 L 297.35 230.77 L 298.01 230.87 L 298.67 230.98 L 299.34 231.10 L 300.00 231.22 L 300.66 231.35 L 301.31 231.48 L 301.97 231.62 L 302.63 231.77 L 303.28 231.92 L 303.93 232.08 L 304.59 232.24 L 305.24 232.42 L 305.88 232.60 L 306.53 232.78 L 307.17 232.97 L 307.82 233.17 L 308.46 233.37 L 309.10 233.58 L 309.73 233.79 L 310.37 234.02 L 311.00 234.24 L 311.63 234.48 L 312.26 234.72 L 312.88 234.96 L 313.51 235.21 L 314.13 235.47 L 314.74 235.73 L 315.36 236.00 L 315.97 236.28 L 316.58 236.56"
+           stroke="#77BB43"
+           id="path730" />
+        <path
+           d="M 188.87 291.42 L 188.96 290.47 L 189.06 289.53 L 189.16 288.59 L 189.28 287.65 L 189.40 286.72 L 189.53 285.78 L 189.67 284.85 L 189.82 283.91 L 189.98 282.98 L 190.15 282.05 L 190.33 281.12 L 190.51 280.19 L 190.71 279.27 L 190.91 278.35 L 191.12 277.42 L 191.34 276.50 L 191.57 275.59 L 191.81 274.67 L 192.06 273.76 L 192.32 272.85 L 192.58 271.94 L 192.85 271.04 L 193.14 270.13 L 193.43 269.24 L 193.73 268.34 L 194.04 267.44 L 194.35 266.55 L 194.68 265.67 L 195.01 264.78 L 195.35 263.90 L 195.70 263.02 L 196.06 262.15 L 196.43 261.28 L 196.81 260.41 L 197.19 259.54 L 197.58 258.68 L 197.98 257.83 L 198.39 256.98 L 198.81 256.13 L 199.24 255.28 L 199.67 254.44 L 200.11 253.61 L 200.56 252.77 L 201.02 251.95 L 201.48 251.12 L 201.96 250.30 L 202.44 249.49 L 202.93 248.68 L 203.42 247.88 L 203.93 247.08 L 204.44 246.28 L 204.96 245.49 L 205.48 244.71 L 206.02 243.93 L 206.56 243.15 L 207.11 242.38 L 207.67 241.62 L 208.23 240.86 L 208.80 240.11 L 209.38 239.36 L 209.97 238.62 L 210.56 237.88 L 211.16 237.15 L 211.77 236.42 L 212.38 235.70 L 213.00 234.99 L 213.63 234.28 L 214.26 233.58 L 214.90 232.89 L 215.55 232.20 L 216.20 231.51 L 216.87 230.84 L 217.53 230.17 L 218.21 229.50 L 218.89 228.85 L 219.57 228.20 L 220.26 227.55 L 220.96 226.92 L 221.67 226.28 L 222.38 225.66 L 223.09 225.04 L 223.82 224.43 L 224.55 223.83 L 225.28 223.24 L 226.02 222.65 L 226.76 222.06 L 227.52 221.49 L 228.27 220.92 L 229.03 220.36 L 229.80 219.81 L 230.57 219.26 L 231.35 218.73 L 232.13 218.20 L 232.92 217.67 L 233.71 217.16 L 234.51 216.65 L 235.31 216.15 L 236.12 215.66 L 236.93 215.17 L 237.75 214.70 L 238.57 214.23 L 239.40 213.77 L 240.23 213.31 L 241.06 212.87 L 241.90 212.43 L 242.74 212.00 L 243.59 211.58 L 244.44 211.17 L 245.29 210.77 L 246.15 210.37 L 247.01 209.98 L 247.88 209.60 L 248.75 209.23 L 249.62 208.87 L 250.50 208.51 L 251.38 208.17 L 252.26 207.83 L 253.15 207.50 L 254.04 207.18 L 254.93 206.87 L 255.83 206.56 L 256.73 206.27 L 257.63 205.98 L 258.53 205.70 L 259.44 205.44 L 260.35 205.17 L 261.26 204.92 L 262.17 204.68 L 263.09 204.45 L 264.01 204.22 L 264.93 204.01 L 265.85 203.80 L 266.77 203.60 L 267.70 203.41 L 268.63 203.23 L 269.56 203.06 L 270.49 202.89 L 271.42 202.74 L 272.36 202.59 L 273.29 202.46 L 274.23 202.33 L 275.17 202.21 L 276.11 202.10 L 277.05 202.00 L 277.99 201.91 L 278.93 201.83 L 279.87 201.76 L 280.82 201.69 L 281.76 201.64 L 282.70 201.59 L 283.65 201.56 L 284.59 201.53 L 285.54 201.51 L 286.48 201.50 L 287.43 201.50 L 288.38 201.51 L 289.32 201.53 L 290.27 201.55 L 291.21 201.59 L 292.16 201.63 L 293.10 201.69 L 294.04 201.75 L 294.99 201.82 L 295.93 201.91 L 296.87 202.00 L 297.81 202.09 L 298.75 202.20 L 299.69 202.32 L 300.62 202.45 L 301.56 202.58 L 302.49 202.73 L 303.43 202.88 L 304.36 203.04 L 305.29 203.21 L 306.22 203.39 L 307.14 203.58 L 308.07 203.78 L 308.99 203.99 L 309.91 204.20 L 310.83 204.43 L 311.75 204.66 L 312.66 204.90 L 313.57 205.15 L 314.48 205.41 L 315.39 205.68 L 316.29 205.96 L 317.19 206.24 L 318.09 206.54 L 318.99 206.84 L 319.88 207.15 L 320.77 207.47 L 321.66 207.80 L 322.54 208.14 L 323.42 208.48 L 324.30 208.83 L 325.17 209.20 L 326.04 209.57 L 326.91 209.95 L 327.77 210.33 L 328.63 210.73"
+           stroke="url(#wave_BR_98_5)"
+           id="path731" />
+      </g>
+    </g>
+    <g
+       clip-path="url(#clip_Lv_TR)"
+       id="g734">
+      <g
+         clip-path="url(#clip_Lv_BR)"
+         id="g733">
+        <path
+           d="M 153.95 142.66 L 154.49 143.05 L 155.04 143.44 L 155.58 143.84 L 156.12 144.24 L 156.65 144.65 L 157.18 145.07 L 157.70 145.48 L 158.23 145.91 L 158.74 146.34 L 159.26 146.77 L 159.77 147.21 L 160.27 147.65 L 160.77 148.10 L 161.27 148.56 L 161.76 149.01 L 162.24 149.48 L 162.73 149.94 L 163.21 150.42 L 163.68 150.89 L 164.15 151.37 L 164.61 151.86 L 165.07 152.35 L 165.53 152.84 L 165.98 153.34 L 166.42 153.85 L 166.86 154.35 L 167.30 154.86 L 167.73 155.38 L 168.16 155.90 L 168.58 156.42 L 168.99 156.95 L 169.40 157.48 L 169.81 158.02 L 170.21 158.56 L 170.61 159.10 L 171.00 159.65 L 171.38 160.20 L 171.76 160.76 L 172.13 161.31 L 172.50 161.88 L 172.87 162.44 L 173.22 163.01 L 173.58 163.58 L 173.92 164.16 L 174.26 164.74 L 174.60 165.32 L 174.93 165.90 L 175.25 166.49 L 175.57 167.08 L 175.89 167.68 L 176.19 168.28 L 176.49 168.88 L 176.79 169.48 L 177.08 170.08 L 177.36 170.69 L 177.64 171.31 L 177.92 171.92 L 178.18 172.54 L 178.44 173.16 L 178.70 173.78 L 178.95 174.40 L 179.19 175.03 L 179.43 175.66 L 179.66 176.29 L 179.88 176.92 L 180.10 177.56 L 180.31 178.19 L 180.52 178.83 L 180.72 179.48 L 180.91 180.12 L 181.10 180.76 L 181.28 181.41 L 181.46 182.06 L 181.63 182.71 L 181.79 183.36 L 181.95 184.02 L 182.10 184.67 L 182.24 185.33 L 182.38 185.98 L 182.51 186.64 L 182.63 187.30 L 182.75 187.96 L 182.86 188.63 L 182.97 189.29 L 183.07 189.96 L 183.16 190.62 L 183.25 191.29 L 183.33 191.95 L 183.41 192.62 L 183.47 193.29 L 183.53 193.96 L 183.59 194.63 L 183.64 195.30 L 183.68 195.97 L 183.71 196.64 L 183.74 197.31 L 183.77 197.98 L 183.78 198.66 L 183.79 199.33 L 183.79 200.00 L 183.79 200.67 L 183.78 201.34 L 183.77 202.02 L 183.74 202.69 L 183.71 203.36 L 183.68 204.03 L 183.64 204.70 L 183.59 205.37 L 183.53 206.04 L 183.47 206.71 L 183.41 207.38 L 183.33 208.05 L 183.25 208.71 L 183.16 209.38 L 183.07 210.04 L 182.97 210.71 L 182.86 211.37 L 182.75 212.04 L 182.63 212.70 L 182.51 213.36 L 182.38 214.02 L 182.24 214.67 L 182.10 215.33 L 181.95 215.98 L 181.79 216.64 L 181.63 217.29 L 181.46 217.94 L 181.28 218.59 L 181.10 219.24 L 180.91 219.88 L 180.72 220.52 L 180.52 221.17 L 180.31 221.81 L 180.10 222.44 L 179.88 223.08 L 179.66 223.71 L 179.43 224.34 L 179.19 224.97 L 178.95 225.60 L 178.70 226.22 L 178.44 226.84 L 178.18 227.46 L 177.92 228.08 L 177.64 228.69 L 177.36 229.31 L 177.08 229.92 L 176.79 230.52 L 176.49 231.12 L 176.19 231.72 L 175.89 232.32 L 175.57 232.92 L 175.25 233.51 L 174.93 234.10 L 174.60 234.68 L 174.26 235.26 L 173.92 235.84 L 173.58 236.42 L 173.22 236.99 L 172.87 237.56 L 172.50 238.12 L 172.13 238.69 L 171.76 239.24 L 171.38 239.80 L 171.00 240.35 L 170.61 240.90 L 170.21 241.44 L 169.81 241.98 L 169.40 242.52 L 168.99 243.05 L 168.58 243.58 L 168.16 244.10 L 167.73 244.62 L 167.30 245.14 L 166.86 245.65 L 166.42 246.15 L 165.98 246.66 L 165.53 247.16 L 165.07 247.65 L 164.61 248.14 L 164.15 248.63 L 163.68 249.11 L 163.21 249.58 L 162.73 250.06 L 162.24 250.52 L 161.76 250.99 L 161.27 251.44 L 160.77 251.90 L 160.27 252.35 L 159.77 252.79 L 159.26 253.23 L 158.74 253.66 L 158.23 254.09 L 157.70 254.52 L 157.18 254.93 L 156.65 255.35 L 156.12 255.76 L 155.58 256.16 L 155.04 256.56 L 154.49 256.95 L 153.95 257.34"
+           stroke="#02592E"
+           id="path732" />
+        <path
+           d="M 170.29 119.31 L 171.06 119.86 L 171.83 120.41 L 172.59 120.97 L 173.35 121.54 L 174.10 122.12 L 174.84 122.70 L 175.58 123.29 L 176.32 123.89 L 177.04 124.49 L 177.77 125.10 L 178.48 125.72 L 179.19 126.34 L 179.90 126.97 L 180.59 127.61 L 181.29 128.26 L 181.97 128.91 L 182.65 129.56 L 183.32 130.23 L 183.99 130.90 L 184.65 131.58 L 185.30 132.26 L 185.95 132.95 L 186.59 133.64 L 187.22 134.35 L 187.85 135.05 L 188.47 135.77 L 189.08 136.49 L 189.69 137.21 L 190.29 137.95 L 190.88 138.68 L 191.47 139.43 L 192.04 140.17 L 192.62 140.93 L 193.18 141.69 L 193.73 142.45 L 194.28 143.22 L 194.83 144.00 L 195.36 144.78 L 195.89 145.56 L 196.40 146.35 L 196.92 147.15 L 197.42 147.95 L 197.91 148.75 L 198.40 149.56 L 198.88 150.38 L 199.36 151.20 L 199.82 152.02 L 200.28 152.85 L 200.72 153.68 L 201.17 154.52 L 201.60 155.36 L 202.02 156.20 L 202.44 157.05 L 202.85 157.91 L 203.25 158.76 L 203.64 159.62 L 204.02 160.49 L 204.40 161.35 L 204.76 162.23 L 205.12 163.10 L 205.47 163.98 L 205.81 164.86 L 206.15 165.75 L 206.47 166.63 L 206.79 167.53 L 207.10 168.42 L 207.39 169.32 L 207.68 170.22 L 207.97 171.12 L 208.24 172.02 L 208.50 172.93 L 208.76 173.84 L 209.01 174.76 L 209.24 175.67 L 209.47 176.59 L 209.69 177.51 L 209.90 178.43 L 210.11 179.35 L 210.30 180.28 L 210.49 181.21 L 210.66 182.13 L 210.83 183.06 L 210.99 184.00 L 211.14 184.93 L 211.28 185.87 L 211.41 186.80 L 211.53 187.74 L 211.64 188.68 L 211.75 189.62 L 211.84 190.56 L 211.93 191.50 L 212.00 192.44 L 212.07 193.39 L 212.13 194.33 L 212.18 195.27 L 212.22 196.22 L 212.25 197.16 L 212.28 198.11 L 212.29 199.05 L 212.29 200.00 L 212.29 200.95 L 212.28 201.89 L 212.25 202.84 L 212.22 203.78 L 212.18 204.73 L 212.13 205.67 L 212.07 206.61 L 212.00 207.56 L 211.93 208.50 L 211.84 209.44 L 211.75 210.38 L 211.64 211.32 L 211.53 212.26 L 211.41 213.20 L 211.28 214.13 L 211.14 215.07 L 210.99 216.00 L 210.83 216.94 L 210.66 217.87 L 210.49 218.79 L 210.30 219.72 L 210.11 220.65 L 209.90 221.57 L 209.69 222.49 L 209.47 223.41 L 209.24 224.33 L 209.01 225.24 L 208.76 226.16 L 208.50 227.07 L 208.24 227.98 L 207.97 228.88 L 207.68 229.78 L 207.39 230.68 L 207.10 231.58 L 206.79 232.47 L 206.47 233.37 L 206.15 234.25 L 205.81 235.14 L 205.47 236.02 L 205.12 236.90 L 204.76 237.77 L 204.40 238.65 L 204.02 239.51 L 203.64 240.38 L 203.25 241.24 L 202.85 242.09 L 202.44 242.95 L 202.02 243.80 L 201.60 244.64 L 201.17 245.48 L 200.72 246.32 L 200.28 247.15 L 199.82 247.98 L 199.36 248.80 L 198.88 249.62 L 198.40 250.44 L 197.91 251.25 L 197.42 252.05 L 196.92 252.85 L 196.40 253.65 L 195.89 254.44 L 195.36 255.22 L 194.83 256.00 L 194.28 256.78 L 193.73 257.55 L 193.18 258.31 L 192.62 259.07 L 192.04 259.83 L 191.47 260.57 L 190.88 261.32 L 190.29 262.05 L 189.69 262.79 L 189.08 263.51 L 188.47 264.23 L 187.85 264.95 L 187.22 265.65 L 186.59 266.36 L 185.95 267.05 L 185.30 267.74 L 184.65 268.42 L 183.99 269.10 L 183.32 269.77 L 182.65 270.44 L 181.97 271.09 L 181.29 271.74 L 180.59 272.39 L 179.90 273.03 L 179.19 273.66 L 178.48 274.28 L 177.77 274.90 L 177.04 275.51 L 176.32 276.11 L 175.58 276.71 L 174.84 277.30 L 174.10 277.88 L 173.35 278.46 L 172.59 279.03 L 171.83 279.59 L 171.06 280.14 L 170.29 280.69"
+           stroke="url(#wave_Lv_98_5)"
+           id="path733" />
+      </g>
+    </g>
+  </g>
+  <circle
+     cx="287.00"
+     cy="100.00"
+     r="30"
+     fill="#9FACBF"
+     stroke="#103060"
+     stroke-width="8"
+     id="circle735"
+     style="stroke-width:9;stroke-dasharray:none" />
+  <circle
+     cx="287.00"
+     cy="300.00"
+     r="30"
+     fill="#C9E4B4"
+     stroke="#77BB43"
+     stroke-width="8"
+     id="circle736"
+     style="stroke-width:9;stroke-dasharray:none" />
+  <circle
+     cx="113.79"
+     cy="200.00"
+     r="30"
+     fill="#9ABDAB"
+     stroke="#02592E"
+     stroke-width="8"
+     id="circle737"
+     style="stroke-width:9;stroke-dasharray:none" />
+</svg>
