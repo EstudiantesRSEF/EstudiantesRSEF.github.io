@@ -630,6 +630,12 @@ footer: eclipse
     <a href="https://enerpal.es/es/inicio/" class="sponsor-card">
       <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Patrocinadores/ENERPAL.png" alt="Enerpal" class="img-fluid mw-100 object-fit-contain" style="height: 150px;">
     </a>
+    <a href="https://www.uva.es/export/sites/uva/" class="sponsor-card">
+      <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Universidad-de-Valladolid-1024x666.png" alt="Universidad de Valladolid" class="img-fluid mw-100 object-fit-contain" style="height: 150px;">
+    </a>
+    <a href="https://www.palencia.uva.es/" class="sponsor-card">
+      <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Palencia-Campus.jpg" alt="UVa Campus de Palencia" class="img-fluid mw-100 object-fit-contain" style="height: 150px;">
+    </a>
   </div>
   <div class="d-flex flex-wrap justify-content-center align-items-center gap-5 m-4">
   <a href="https://www.talleresarnaiz.es/" class="sponsor-card">
