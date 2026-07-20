@@ -260,6 +260,21 @@ footer: eclipse
         </div>
       </div>
 
+    <div class="carousel-item">
+        <div class="row justify-content-center">
+          <div class="col-lg-4 mb-4">
+            <div class="jurado-card jurado-1 h-100 tarjeta-clicable" data-bs-toggle="modal" data-bs-target="#modalPonente7">
+              <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/Bilal.jpg" alt="Retrato de Bilal Siddiqui">
+              <h3 class="miembro-jurado fw-semibold mt-3">Bilal Siddiqui</h3>
+              <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
+              <div class="jurado-rol">
+                <p class="texto-truncado">Creador de CosmicNearness, una comunidad de astronomía de más de 250.000 seguidores en redes sociales. Ingeniero de Software, lidera los programas de IA de Meta...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
 
     <button class="carousel-control-prev" type="button" data-bs-target="#carruselPonentesEscritorio" data-bs-slide="prev" style="width: 5%;">
@@ -345,6 +360,21 @@ footer: eclipse
               <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
               <div class="jurado-rol">
                 <p class="texto-truncado">Natural de Ciudad Rodrigo, estudió el Doble Grado de Matemáticas y Física en la Universidad de Valladolid, recibiendo el título Fin de Carrera en ambos grados en 2025, así como la beca de Excelencia 360 Santander...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="carousel-item">
+        <div class="row justify-content-center">
+          <div class="col-md-6 mb-4">
+            <div class="jurado-card jurado-1 h-100 tarjeta-clicable" data-bs-toggle="modal" data-bs-target="#modalPonente7">
+              <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/Bilal.jpg" alt="Retrato de Bilal Siddiqui">
+              <h3 class="miembro-jurado fw-semibold mt-3">Bilal Siddiqui</h3>
+              <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
+              <div class="jurado-rol">
+                <p class="texto-truncado">Creador de CosmicNearness, una comunidad de astronomía de más de 250.000 seguidores en redes sociales. Ingeniero de Software, lidera los programas de IA de Meta...</p>
               </div>
             </div>
           </div>
@@ -457,6 +487,21 @@ footer: eclipse
         </div>
       </div>
 
+    <div class="carousel-item">
+        <div class="row justify-content-center">
+          <div class="col-12 mb-4">
+            <div class="jurado-card jurado-1 h-100 tarjeta-clicable" data-bs-toggle="modal" data-bs-target="#modalPonente7">
+              <img style="width:180px; height:180px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/Bilal.jpg" alt="Retrato de Bilal Siddiqui">
+              <h3 class="miembro-jurado fw-semibold mt-3">Bilal Siddiqui</h3>
+              <div class="jurado-rol text-muted small mb-2">Haz clic para leer más</div>
+              <div class="jurado-rol">
+                <p class="texto-truncado">Creador de CosmicNearness, una comunidad de astronomía de más de 250.000 seguidores en redes sociales. Ingeniero de Software, lidera los programas de IA de Meta...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
 
     <button class="carousel-control-prev" type="button" data-bs-target="#carruselPonentesMovil" data-bs-slide="prev">
@@ -555,6 +600,21 @@ footer: eclipse
         <img style="width:200px; height:200px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/Jaime.jpg" alt="Jaime Bajo" class="mb-4">
         <h3 class="fw-bold mb-3">Jaime Bajo</h3>
         <p class="text-start">Natural de Ciudad Rodrigo, estudió el Doble Grado de Matemáticas y Física en la Universidad de Valladolid, recibiendo el título Fin de Carrera en ambos grados en 2025, así como la beca de Excelencia 360 Santander. Actualmente, cursa el Máster de Matemáticas en la ETH Zürich gracias a la beca de Posgrado de la Fundación La Caixa. Durante sus estudios realizó una estancia de verano en Polonia estudiando la radioactividad nuclear, así como dos estancias de verano en el ICMAT que culminaron en la publicación de sendos artículos científios. Formó parte del equipo PSISICOS de la UVa que consiguió la mejor clasificación de un equipo español en PLANCKS 2025. Actualmente es también miembro de la Junta directiva de Astróbriga.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalPonente7" tabindex="-1" aria-labelledby="modalPonente7Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body text-center px-5 pb-5">
+        <img style="width:200px; height:200px; object-fit:cover; border-radius:50%;" src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Ponentes/Bilal.jpg" alt="Bilal Siddiqui" class="mb-4">
+        <h3 class="fw-bold mb-3">Bilal Siddiqui</h3>
+        <p class="text-start">Bilal Siddiqui es el creador de CosmicNearness, una comunidad de astronomía de más de 250.000 seguidores en redes sociales. Ingeniero de Software, lidera los programas de IA de Meta. Su pasión es hacer la astronomía accesible y comprensible para todos.</p>
       </div>
     </div>
   </div>
