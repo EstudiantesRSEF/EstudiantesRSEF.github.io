@@ -64,10 +64,10 @@ diferencia va curvando su trayectoria; siempre me sorprendo de lo que hace, mete
 por la escuadra que flipas. </p>
 
 <p>Solo cuando vuelves a estar naranja me doy cuenta de lo cansado que estoy y de las horas 
-que llevo jugando. Todos los días igual… Qué bien que me avisas. </p>
+que llevo jugando. Todos los días igual… Qué bien que me avisas.</p>
 
 <p>Yo creo que tú también estás cansado a esas horas. Al fin y al cabo, llevas todo el día 
-despierto, siendo iluminado por el Sol. </p>
+despierto, siendo iluminado por el Sol.</p>
 
 <p>Tú y yo somos muy parecidos: hay muchas cosas que separan al Sol de mí; sin embargo, 
 las pequeñas partículas de tu luz no tienen problema en llegar, pues, aun con obstáculos, están lo 
@@ -75,7 +75,7 @@ bastante cerca como para enseñarme su gran color azul y superan todo el aire qu
 Pero tú te vas cansando, y las partículas también. Cuando llega el final del día, esas partículas se 
 van chocando con muchas otras hasta llegar a mí, porque están más lejos. Entonces, las partículas 
 azules, que son más grandes, se quedan en el camino, y solo quedan las anaranjadas, las pequeñitas. 
-Es tu forma de mostrarme que estás cansado y que solo me puedes hacer llegar esas. </p>
+Es tu forma de mostrarme que estás cansado y que solo me puedes hacer llegar esas.</p>
 
 <p>Pero igual las veo, igual sé que sigues estando ahí, que has vivido conmigo el día. Contigo 
 nunca estoy solo, pues me muestras las cosas más dulces de la naturaleza y, a cambio, solo me 
