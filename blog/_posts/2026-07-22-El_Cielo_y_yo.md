@@ -29,7 +29,7 @@ al fin y al cabo, tú también te estás despertando. </p>
 galleta, ya nos hemos espabilado los dos y me muestras tu bonito color azul; entonces sé que ya 
 podemos empezar el día: el Sol ya nos está iluminando a los dos.</p>
 
-<p><img class="img-right" src="/img/blog/2026-07-22-El_Cielo_y_yo/cielo.jpg">La casa siempre está silenciosa. Mamá ya no viene por aquí y solo estamos la abuela y yo. Ella no habla mucho de mi madre, solo del día que se fue, hace unos años, cuando yo todavía le llegaba a las rodillas. Aquel día tú estabas muy gris y lloraste mucho. A veces lloras mucho, pero te pasa como a mí: llorar te sienta bien, porque después, en ese momento en el que las lágrimas flotan en el aire, tan pequeñas que no se pueden apreciar, la luz pasa a través de ellas y se forma un arcoíris precioso.  </p>
+<p><img class="img-right" src="/img/blog/2026-07-22-El_Cielo_y_yo/Cielo.png">La casa siempre está silenciosa. Mamá ya no viene por aquí y solo estamos la abuela y yo. Ella no habla mucho de mi madre, solo del día que se fue, hace unos años, cuando yo todavía le llegaba a las rodillas. Aquel día tú estabas muy gris y lloraste mucho. A veces lloras mucho, pero te pasa como a mí: llorar te sienta bien, porque después, en ese momento en el que las lágrimas flotan en el aire, tan pequeñas que no se pueden apreciar, la luz pasa a través de ellas y se forma un arcoíris precioso.  </p>
 
 <p>Incluso a través de esos obstáculos, esa luz encuentra un camino; aunque se tenga que 
 dividir en muchos trocitos de color, consigue siempre superarlo. A veces siento que lloras solo para verlo, igual que a veces yo lloro para que después todo esté mejor.</p>
