@@ -1,0 +1,20 @@
+{% assign post = include.post %}
+<a href="{{ post.url | prepend: site.baseurl }}" class="post-card-large">
+    {% if post.cover %}
+        <img src="{{ post.cover }}" alt="{{ post.title }}" class="cover">
+    {% endif %}
+    <div class="body">
+        <h3>{{ post.title }}</h3>
+        <div class="meta">
+            {% if post.date %}<span class="chip">{{ post.date | date: "%-d %b %Y" }}</span>{% endif %}
+            {% if post.author %}<span class="chip">{{ post.author }}</span>{% endif %}
+            {% if post.categories %}
+                {% for category in post.categories %}
+                    {% unless category == 'blog' %}<span class="chip">{{ category }}</span>{% endunless %}
+                {% endfor %}
+            {% endif %}
+        </div>
+        <p class="excerpt">{{ post.excerpt | strip_html }}</p>
+        <span class="leer-mas">Leer más...</span>
+    </div>
+</a>

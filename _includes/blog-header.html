@@ -1,0 +1,39 @@
+<header class="blog-header">
+    <div class="logo">
+        <img src="/img/logos/gdee-rsef-logo-cuadrado-fondo-blanco.png" alt="Logo GdeE RSEF" class="logo-img">
+        <span>Grupo de Estudiantes RSEF</span>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="/Divulgacion/main.html">Divulgación</a></li>
+            <li><a href="/blog/">Todo el Blog</a></li>
+            <li><a href="/blog/secciones/gdee-por-el-mundo/">GdeE por el mundo</a></li>
+            <li><a href="/blog/secciones/diario-de-un-friki/">Diario de un Friki</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropdown-toggle" onclick="toggleDropdown(event)">Más Secciones <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-menu">
+                    {% for item in site.data.secciones %}
+                        {% assign slug = item[0] %}
+                        {% assign s = item[1] %}
+                        {% unless slug == "gdee-por-el-mundo" or slug == "diario-de-un-friki" %}
+                            <li><a href="/blog/secciones/{{ slug }}/">{{ s.titulo }}</a></li>
+                        {% endunless %}
+                    {% endfor %}
+                </ul>
+            </li>
+            <li><a href="https://forms.google.com" target="_blank" class="btn btn-small">¡Colabora!</a></li>
+        </ul>
+    </nav>
+</header>
+<script>
+    function toggleDropdown(event) {
+        event.preventDefault();
+        event.stopPropagation();
+        event.currentTarget.closest('.dropdown').classList.toggle('active');
+    }
+    window.addEventListener('click', function (event) {
+        document.querySelectorAll('.dropdown.active').forEach(function (d) {
+            if (!d.contains(event.target)) d.classList.remove('active');
+        });
+    });
+</script>
