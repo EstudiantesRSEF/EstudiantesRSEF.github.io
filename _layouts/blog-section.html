@@ -1,0 +1,77 @@
+---
+---
+{% assign s = site.data.secciones[page.seccion] %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ s.titulo }} | El Blog del GdeE</title>
+    {% include blog-styles.html %}
+    {% include analytics.html %}
+</head>
+<body>
+
+{% include blog-header.html %}
+
+<div class="seccion-hero" style="background-image: url('{{ s.imagen }}');">
+    <div class="seccion-hero-overlay"></div>
+    <div class="seccion-hero-content">
+        <h1>{{ s.titulo }}</h1>
+        <p>{{ s.descripcion }}</p>
+    </div>
+</div>
+
+<div class="blog-layout">
+
+    <div class="blog-main">
+        <h2 class="blog-heading">Entradas de "{{ s.titulo }}"</h2>
+        <div class="post-card-grid">
+            {% assign posts_seccion = site.posts | where_exp: "p", "p.categories contains s.categoria" %}
+            {% for post in posts_seccion %}
+                {% unless post.hidden %}
+                    {% include blog-post-card.html post=post %}
+                {% endunless %}
+            {% endfor %}
+        </div>
+        {% if posts_seccion.size == 0 %}
+            <p style="color:#777;">Todavía no hay entradas publicadas en esta sección. ¡Vuelve pronto!</p>
+        {% endif %}
+    </div>
+
+    <aside class="blog-sidebar">
+        <div class="sidebar-widget">
+            <h3>Autores destacados</h3>
+            {% assign posts_by_author = site.posts | where_exp: "p", "p.categories contains 'blog'" | group_by: "author" | sort: "size" | reverse %}
+            {% for grupo in posts_by_author limit: 2 %}
+                {% assign autor_info = site.data.autores[grupo.name] %}
+                <div class="autor-destacado">
+                    <img src="{{ autor_info.image | default: '/Divulgacion/avatar-default.svg' }}" alt="Foto de {{ grupo.name }}" onerror="this.onerror=null;this.src='/Divulgacion/avatar-default.svg';">
+                    <div>
+                        <div class="nombre">{{ grupo.name }}</div>
+                        <div class="conteo">{{ grupo.items.size }} entrada{% if grupo.items.size != 1 %}s{% endif %}</div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="sidebar-widget">
+            <h3>Entradas más visitadas</h3>
+            {% assign posts_por_visitas = site.posts | where_exp: "p", "p.categories contains 'blog'" | sort: "views" | reverse %}
+            {% for post in posts_por_visitas limit: 5 %}
+                <a href="{{ post.url | prepend: site.baseurl }}" class="entrada-destacada">
+                    <span class="num">{{ forloop.index }}</span>
+                    <div>
+                        <div class="titulo">{{ post.title }}</div>
+                        <div class="visitas">{{ post.views | default: 0 }} visitas</div>
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+    </aside>
+
+</div>
+
+{% include blog-footer.html %}
+</body>
+</html>
