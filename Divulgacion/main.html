@@ -339,6 +339,536 @@ permalink: /Divulgacion/
         }
         .btn-carrusel:hover { background-color: var(--verde-hover); }
 
+        /* ===== 4. PODCAST ===== */
+        #Podcast {
+            background-color: #084391; /* mismo azul de fondo que el logo "En la Onda del GdeE" */
+            color: var(--blanco);
+        }
+        .podcast-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 40px;
+            text-align: right;
+        }
+        .podcast-image { flex-shrink: 0; }
+        .podcast-image img {
+            width: 230px;
+            height: 230px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid var(--verde);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+            animation: flotar 4.5s ease-in-out infinite;
+        }
+        @keyframes flotar {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-18px); }
+        }
+        .podcast-content { max-width: 550px; }
+        #Podcast h2.section-title { color: var(--blanco); text-align: right; }
+        .podcast-content p {
+            font-size: 1.1rem;
+            color: #dbe4f2;
+            margin-bottom: 30px;
+        }
+        .podcast-content .btn i { margin-left: 8px; }
+        .podcast-content .btn {
+            background-color: #FF0000;
+            color: var(--blanco);
+            box-shadow: 0 4px 15px rgba(255,0,0,0.35);
+        }
+        .podcast-content .btn:hover { background-color: #cc0000; }
+
+        /* ===== 5. COLABORA ===== */
+        .colabora {
+            background-color: var(--blanco);
+            text-align: center;
+        }
+        .colabora-text {
+            font-size: 1.2rem;
+            color: #444;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+
+        footer {
+            background: var(--azul-oscuro);
+            color: var(--fondo);
+            text-align: center;
+            padding: 30px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        footer span { color: var(--verde); }
+        .social-link { display: inline-block; margin-left: 20px; color: var(--verde); font-size: 1.6rem; transition: all 0.3s ease; }
+        .social-link:hover { transform: scale(1.2); color: var(--blanco); }
+
+        @media (max-width: 800px) {
+            .concepto-container { flex-direction: column; }
+            .podcast-container { justify-content: center; text-align: center; flex-direction: column; }
+            .podcast-image img { width: 160px; height: 160px; }
+            #Podcast h2.section-title { text-align: center; }
+            .concepto-text, .concepto-text h2.section-title { text-align: center; }
+            nav ul { flex-wrap: wrap; gap: 12px; justify-content: center; }
+            header { flex-direction: column; gap: 10px; padding: 1rem 5%; }
+            section { padding: 90px 6% 70px; }
+            .dropdown-menu { right: 50%; transform: translate(50%, -8px); }
+            .dropdown:hover .dropdown-menu, .dropdown.active .dropdown-menu { transform: translate(50%, 0); }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <!-- <img src="/Divulgacion/logo_centrado.svg" alt="Logo GdeE RSEF" class="logo-img"> -->
+            <img src="/img/logos/gdee-rsef-logo-cuadrado.png" alt="Logo GdeE RSEF" class="logo-img">
+            <span>Grupo de Estudiantes RSEF</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Concepto">Concepto</a></li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#Podcast">Podcast</a></li>
+                <li><a href="#Colabora">¡Colabora!</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropdown-toggle" onclick="toggleDropdown(event)">Más <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#Concursos">Concursos</a></li>
+                        <li><a href="/Revistas">Revistas</a></li>
+                        <li><a href="/Acertijos">Acertijos</a></li>
+                        <li><a href="/Cursos">Cursos</a></li>
+                        <li><a href="/Apoyo">Apoyo</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 1. HOME -->
+    <section id="Home" class="hero">
+        <div class="hero-grid">
+            <div class="hero-grid-item" style="background-image: url('/Divulgacion/imagenes/web/cosmos.jpg');"></div>
+            <div class="hero-grid-item" style="background-image: url('/Divulgacion/imagenes/web/anne.JPG');"></div>
+            <div class="hero-grid-item" style="background-image: url('/Divulgacion/imagenes/web/grupo.JPG');"></div>
+            <div class="hero-grid-item" style="background-image: url('/Divulgacion/imagenes/web/BSC.jpg');"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Divulgación en el GdeE</h1>
+            <p>Física por estudiantes para estudiantes</p>
+            <a href="#Concepto" class="btn">Descubre más</a>
+        </div>
+    </section>
+
+    <!-- 2. CONCEPTO -->
+    <section id="Concepto">
+        <div class="concepto-container">
+            <div class="concepto-text">
+                <h2 class="section-title">¿Por qué divulgación?</h2>
+                <p>La física, como todas las ciencias, avanza gracias a la curiosidad y al deseo de compartir el conocimiento. El Grupo de Estudiantes (GdeE) de la RSEF nace con la convicción de que la mejor manera de aprender física es explicándosela a otros, y de que ningún estudiante debería sentir que la ciencia es un territorio reservado a unos pocos.</p>
+                <p>A través de artículos, pódcasts y actividades abiertas, buscamos acercar la investigación actual y los conceptos fundamentales de la física a un público amplio, empezando por quienes, como nosotros, todavía están formándose...</p>
+                <a href="/Divulgacion/concepto.html" class="leer-mas">leer más...</a>
+            </div>
+            <div class="concepto-image">
+                <img src="/Divulgacion/imagenes/web/concepto.jpg" alt="Divulgación científica GdeE">
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. BLOG -->
+    <section id="Blog">
+        <h2 class="section-title center">El Blog del GdeE</h2>
+
+        <div class="blog-carousel-wrapper">
+            <button class="btn-carrusel prev" onclick="moverBlog(-1)"><i class="fas fa-chevron-left"></i></button>
+
+            <div class="blog-carousel" id="blogCarousel">
+
+                {% for post in site.posts limit:5 %}
+                {% assign autor_info = site.data.autores[post.author] %}
+                <a href="{{ post.url }}" class="blog-card">
+                    <div class="blog-card-header">
+                        <img src="{{ autor_info.image | default: '/Divulgacion/avatar-default.svg' }}" alt="Foto de {{ post.author }}" class="blog-author-img" onerror="this.onerror=null;this.src='/Divulgacion/avatar-default.svg';">
+                        <div class="blog-meta">{{ post.date | date: "%-d %B %Y" }}<br><strong>{{ post.author }}</strong></div>
+                    </div>
+                    <h3>{{ post.title }}</h3>
+                    <p class="blog-abstract">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+                </a>
+                {% endfor %}
+
+                <a href="/blog" class="blog-card blog-more">
+                    <i class="fas fa-arrow-right"></i>
+                    <span>Ver todo el blog</span>
+                </a>
+
+            </div>
+
+            <button class="btn-carrusel next" onclick="moverBlog(1)"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- CONCURSOS -->
+    <section id="Concursos">
+        <h2 class="section-title center">Concursos</h2>
+
+        <div class="concursos-carousel-wrapper">
+            <button class="btn-carrusel prev" onclick="moverConcursos(-1)"><i class="fas fa-chevron-left"></i></button>
+
+            <div class="concursos-carousel" id="concursosCarousel">
+
+                <div class="concurso-card">
+                    <img src="/Divulgacion/ConcursoRelatos/portada.png" alt="I Concurso de Relatos Divulgativos">
+                    <div class="concurso-content">
+                        <h3>I Concurso de Relatos Divulgativos</h3>
+                        <p>Un espacio donde estudiantes de física ponen a prueba su creatividad, combinando literatura y ciencia en relatos breves sobre los grandes temas de la física actual. ¡Participa y comparte tu visión del universo! [PLAZO CERRADO]</p>
+                        <a href="/ConcursoRelatos/portal_concurso.md" class="btn btn-small">Ver más</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="btn-carrusel next" onclick="moverConcursos(1)"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- 4. PODCAST -->
+    <section id="Podcast">
+        <div class="podcast-container">
+            <div class="podcast-image">
+                <img src="/Divulgacion/imagenes/web/logo-podcast.jpg" alt="Logo de En la Onda del GdeE">
+            </div>
+            <div class="podcast-content">
+                <h2 class="section-title">En la Onda del GdeE</h2>
+                <p>Nuestro pódcast, <strong>"En la Onda del GdeE"</strong>, acerca la física de manera cercana y amena a través de conversaciones entre estudiantes, con invitados desde investigadores punteros a divulgadores científicos y debates sobre los resultados más excitantes y recientes de sus respectivos campos. Nuevos episodios cada mes.</p>
+                <a href="http://www.youtube.com/@grupodeestudiantesrsef" target="_blank" class="btn">Ver en YouTube <i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. COLABORA -->
+    <section id="Colabora" class="colabora">
+        <h2 class="section-title center">¿Quieres involucrarte en la Divulgación del GdeE?</h2>
+        <p class="colabora-text">Rellena este formulario:</p>
+        <a href="https://forms.gle/2AYU4vsTf95mjJew5" target="_blank" class="btn btn-rojo">Ir al formulario <i class="fas fa-arrow-up-right-from-square"></i></a>
+    </section>
+
+    <footer>
+        <p>GdeE Divulgación - <span>RSEF</span> — Grupo de Estudiantes</p>
+        <a href="#" target="_blank" title="Instagram" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank" title="YouTube" class="social-link"><i class="fab fa-youtube"></i></a>
+    </footer>
+
+    <script>
+        // Desplegable "Más" de la cabecera (clic para móvil, hover para escritorio)
+        function toggleDropdown(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            document.querySelector('.dropdown').classList.toggle('active');
+        }
+        window.addEventListener('click', function (event) {
+            const dropdown = document.querySelector('.dropdown');
+            if (dropdown && !dropdown.contains(event.target)) dropdown.classList.remove('active');
+        });
+
+        // Carrusel de botones del Blog
+        function moverBlog(direccion) {
+            const carrusel = document.getElementById('blogCarousel');
+            const card = carrusel.querySelector('.blog-card');
+            const scrollAmount = card.offsetWidth + 25; // ancho de tarjeta + gap
+            carrusel.scrollBy({ left: direccion * scrollAmount, behavior: 'smooth' });
+        }
+
+        // Carrusel de foto y texto de Concursos
+        function moverConcursos(direccion) {
+            const carrusel = document.getElementById('concursosCarousel');
+            const card = carrusel.querySelector('.concurso-card');
+            const scrollAmount = card.offsetWidth + 25;
+            carrusel.scrollBy({ left: direccion * scrollAmount, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>        .dropdown { position: relative; }
+        .dropdown-toggle { display: flex; align-items: center; gap: 6px; cursor: pointer; }
+        .dropdown-toggle i { font-size: 0.7rem; transition: transform 0.3s; }
+        .dropdown.active .dropdown-toggle i { transform: rotate(180deg); }
+        .dropdown-menu {
+            position: absolute;
+            top: calc(100% + 18px);
+            right: 0;
+            background-color: var(--blanco);
+            min-width: 190px;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+            overflow: hidden;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-8px);
+            transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
+            z-index: 1001;
+        }
+        .dropdown:hover .dropdown-menu,
+        .dropdown.active .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+        .dropdown-menu li a {
+            display: block;
+            padding: 12px 20px;
+            color: var(--azul-marino);
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: background 0.25s, color 0.25s;
+        }
+        .dropdown-menu li a:hover { background-color: var(--verde-pastel); color: var(--verde-oscuro); }
+        .dropdown-menu li:not(:last-child) a { border-bottom: 1px solid #eee; }
+
+        section { padding: 110px 10% 90px; scroll-margin-top: 70px; }
+        h2.section-title { color: var(--azul-marino); font-size: 2.4rem; margin-bottom: 45px; }
+        .center { text-align: center; }
+
+        .btn {
+            background-color: var(--verde);
+            color: var(--azul-oscuro);
+            padding: 14px 28px;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 700;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(120, 190, 64, 0.4);
+            display: inline-block;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover { background-color: var(--verde-hover); transform: translateY(-3px); box-shadow: 0 6px 20px rgba(92, 153, 48, 0.5); }
+        .btn-small { padding: 10px 22px; font-size: 0.9rem; box-shadow: none; }
+        .btn-rojo { background-color: var(--rojo); color: var(--blanco); box-shadow: 0 4px 15px rgba(189, 29, 58, 0.4); }
+        .btn-rojo:hover { background-color: var(--rojo-hover); box-shadow: 0 6px 20px rgba(151, 23, 48, 0.5); }
+
+        /* ===== CONCURSOS ===== */
+        #Concursos { background-color: var(--blanco); }
+        .concursos-carousel-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .concursos-carousel {
+            display: flex;
+            gap: 25px;
+            overflow-x: auto;
+            scroll-behavior: smooth;
+            scroll-snap-type: x mandatory;
+            padding: 10px 5px 20px;
+            flex: 1;
+            scrollbar-width: thin;
+            scrollbar-color: var(--azul-claro) transparent;
+        }
+        .concursos-carousel::-webkit-scrollbar { height: 8px; }
+        .concursos-carousel::-webkit-scrollbar-thumb { background: var(--azul-claro); border-radius: 10px; }
+
+        .concurso-card {
+            flex: 0 0 100%;
+            scroll-snap-align: start;
+            background: var(--fondo);
+            border-radius: 14px;
+            box-shadow: 0 8px 24px rgba(22, 32, 63, 0.12);
+            overflow: hidden;
+            transition: box-shadow 0.3s;
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+        }
+        .concurso-card:hover { box-shadow: 0 14px 30px rgba(22, 32, 63, 0.22); }
+        .concurso-card img { flex: 0 0 42%; width: 42%; object-fit: cover; }
+        .concurso-content { flex: 1; padding: 40px 50px; display: flex; flex-direction: column; justify-content: center; gap: 16px; }
+        .concurso-content h3 { color: var(--azul-marino); font-size: 1.7rem; }
+        .concurso-content p { font-size: 1.05rem; color: #555; }
+        .concurso-content .btn-small { align-self: flex-start; }
+
+        @media (max-width: 800px) {
+            .concurso-card { flex-direction: column; }
+            .concurso-card img { width: 100%; flex: 0 0 220px; height: 220px; }
+            .concurso-content { padding: 25px; }
+        }
+
+        /* ===== 1. HOME ===== */
+        .hero {
+            height: 100vh;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--blanco);
+        }
+        .hero-grid {
+            position: absolute;
+            inset: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 6px;
+            background-color: var(--azul-oscuro);
+            z-index: 0;
+        }
+        .hero-grid-item {
+            background-size: cover;
+            background-position: center;
+        }
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(rgba(14, 23, 48, 0.5), rgba(22, 32, 63, 0.6));
+            z-index: 1;
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+        .hero h1 { font-size: 3.6rem; margin-bottom: 15px; text-shadow: 2px 2px 8px rgba(0,0,0,0.6); color: var(--blanco); }
+        .hero p { font-size: 1.4rem; margin-bottom: 35px; max-width: 650px; font-weight: 500; color: var(--verde); }
+
+        /* ===== 2. CONCEPTO ===== */
+        #Concepto { background-color: var(--blanco); }
+        .concepto-container {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            flex-wrap: wrap;
+        }
+        .concepto-text {
+            flex: 1.2;
+            min-width: 300px;
+            text-align: left;
+        }
+        .concepto-text h2.section-title { text-align: left; }
+        .concepto-text p {
+            font-size: 1.08rem;
+            margin-bottom: 18px;
+            color: #444;
+        }
+        .leer-mas {
+            color: var(--azul-claro);
+            font-weight: 700;
+            display: inline-block;
+            margin-top: 5px;
+            transition: color 0.3s;
+        }
+        .leer-mas:hover { color: var(--verde-hover); }
+        .concepto-image {
+            flex: 1;
+            min-width: 280px;
+            text-align: center;
+        }
+        .concepto-image img {
+            width: 100%;
+            max-width: 480px;
+            border-radius: 14px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            border: 4px solid var(--azul-pastel);
+        }
+
+        /* ===== 3. BLOG ===== */
+        #Blog { background-color: var(--fondo); }
+
+        .blog-carousel-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .blog-carousel {
+            display: flex;
+            gap: 25px;
+            overflow-x: auto;
+            scroll-behavior: smooth;
+            padding: 10px 5px 20px;
+            flex: 1;
+            scrollbar-width: thin;
+            scrollbar-color: var(--azul-claro) transparent;
+        }
+        .blog-carousel::-webkit-scrollbar { height: 8px; }
+        .blog-carousel::-webkit-scrollbar-thumb { background: var(--azul-claro); border-radius: 10px; }
+
+        .blog-card {
+            flex: 0 0 300px;
+            background: var(--blanco);
+            border-radius: 14px;
+            box-shadow: 0 8px 24px rgba(11, 31, 58, 0.1);
+            padding: 25px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border-top: 4px solid var(--azul-marino);
+            display: flex;
+            flex-direction: column;
+        }
+        .blog-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 14px 30px rgba(11, 31, 58, 0.2);
+            border-top-color: var(--verde);
+        }
+        .blog-card-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 15px;
+        }
+        .blog-author-img {
+            width: 48px; height: 48px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid var(--azul-pastel);
+        }
+        .blog-meta { font-size: 0.85rem; color: #777; }
+        .blog-meta strong { color: var(--azul-medio); }
+        .blog-card h3 { font-size: 1.15rem; color: var(--azul-marino); margin-bottom: 10px; }
+        .blog-abstract { font-size: 0.95rem; color: #555; flex: 1; }
+
+        .blog-more {
+            flex: 0 0 180px;
+            background: var(--azul-marino);
+            color: var(--blanco);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            border-radius: 14px;
+            font-weight: 700;
+            text-align: center;
+            transition: background 0.3s, transform 0.3s;
+        }
+        .blog-more i { font-size: 1.8rem; color: var(--verde); }
+        .blog-more:hover { background: var(--azul-medio); transform: translateY(-8px); }
+
+        .btn-carrusel {
+            background-color: var(--azul-marino);
+            color: var(--blanco);
+            border: none;
+            width: 46px;
+            height: 46px;
+            font-size: 1.3rem;
+            cursor: pointer;
+            border-radius: 50%;
+            transition: background 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        .btn-carrusel:hover { background-color: var(--verde-hover); }
+
         /* ===== 4.  ===== */
         # {
             background: linear-gradient(120deg, var(--azul-marino), var(--azul-oscuro));
