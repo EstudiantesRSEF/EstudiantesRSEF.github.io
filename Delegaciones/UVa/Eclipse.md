@@ -681,7 +681,7 @@ Resolvemos aquí las dudas más habituales sobre el evento Totality 2026. Si tie
 </h3>
 <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1" data-bs-parent="#accordionFAQ">
 <div class="accordion-body text-start">
-En el Mirador de Tierra de Campos, situado en la localidad de Autilla del Pino (Palencia).
+En una parcela privada situada en la ladera del Mirador de Tierra de Campos (Polígono 2, Parcela 48, Camino de Grijota), en Autilla del Pino (Palencia). El propio mirador es un espacio público y no es el lugar exacto de la celebración.
 </div>
 </div>
 </div>
