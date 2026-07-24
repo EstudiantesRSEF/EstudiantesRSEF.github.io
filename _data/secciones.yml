@@ -2,7 +2,7 @@ gdee-por-el-mundo:
   titulo: "GdeE por el mundo"
   categoria: "gdee-por-el-mundo"
   descripcion: "Estudiantes del GdeE cuentan su experiencia investigando, estudiando o haciendo estancias fuera de casa."
-  imagen: "/img/blog/secciones/gdee-por-el-mundo.jpg"
+  imagen: "/img/blog/secciones/gdee_por_el_mundo.JPG"
 
 diario-de-un-friki:
   titulo: "Diario de un Friki"
@@ -14,13 +14,13 @@ hall-of-fame:
   titulo: "Hall of Fame"
   categoria: "hall-of-fame"
   descripcion: "Reconocemos a los físicos y físicas que han marcado un antes y un después en la historia de la ciencia."
-  imagen: "/img/blog/secciones/hall-of-fame.jpg"
+  imagen: "/img/blog/secciones/hall-of-fame.JPG"
 
 concurso-relatos:
   titulo: "I Concurso de Relatos Divulgativos"
   categoria: "concurso-relatos"
   descripcion: "Relatos breves donde ciencia y literatura se encuentran, escritos por estudiantes de física."
-  imagen: "/img/blog/secciones/concurso-relatos.jpg"
+  imagen: "/img/blog/secciones/concurso-relatos.png"
 
 entrevistas:
   titulo: "Entrevistas"
@@ -32,7 +32,7 @@ eventos:
   titulo: "Eventos"
   categoria: "eventos"
   descripcion: "Congresos, jornadas y actividades del Grupo de Estudiantes y de la comunidad de física."
-  imagen: "/img/blog/secciones/eventos.jpg"
+  imagen: "/img/blog/secciones/eventos.JPG"
 
 divulgacion:
   titulo: "Divulgación"
