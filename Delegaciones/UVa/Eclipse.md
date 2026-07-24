@@ -665,6 +665,68 @@ footer: eclipse
   </div>
 </section>
 
+<section id="faq" class="container py-5">
+<h2 class="fw-bold mb-4 text-center">Preguntas Frecuentes</h2>
+<p class="lead mx-auto w-75 text-muted fw-normal reto-text mb-4 text-center">
+Aquí resolvemos las dudas más habituales sobre Totality. Si tienes alguna otra pregunta, contáctanos a través de nuestras redes sociales.
+</p>
+<div class="accordion mx-auto" id="accordionFAQ" style="max-width: 800px;">
+
+<div class="accordion-item">
+<h3 class="accordion-header" id="faqHeading1">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+¿Pregunta frecuente 1?
+</button>
+</h3>
+<div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1" data-bs-parent="#accordionFAQ">
+<div class="accordion-body text-start">
+Respuesta a la pregunta frecuente 1.
+</div>
+</div>
+</div>
+
+<div class="accordion-item">
+<h3 class="accordion-header" id="faqHeading2">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+¿Pregunta frecuente 2?
+</button>
+</h3>
+<div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#accordionFAQ">
+<div class="accordion-body text-start">
+Respuesta a la pregunta frecuente 2.
+</div>
+</div>
+</div>
+
+<div class="accordion-item">
+<h3 class="accordion-header" id="faqHeading3">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+¿Pregunta frecuente 3?
+</button>
+</h3>
+<div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#accordionFAQ">
+<div class="accordion-body text-start">
+Respuesta a la pregunta frecuente 3.
+</div>
+</div>
+</div>
+
+<div class="accordion-item">
+<h3 class="accordion-header" id="faqHeading4">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+¿Pregunta frecuente 4?
+</button>
+</h3>
+<div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#accordionFAQ">
+<div class="accordion-body text-start">
+Respuesta a la pregunta frecuente 4.
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
 <section id="sponsors" class="container text-center mb-5">
   <h2 class="fw-bold mb-4">Organizan</h2>
   
