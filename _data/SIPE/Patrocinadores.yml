@@ -22,3 +22,7 @@ patrocinadores:
   - name: "Casio"
     logo: "/ENEF/2025/img/Sponsors/Casio.png"
     url: "https://www.casio.com/es/"
+
+  - name: "Jane Street"
+    logo: "/SIPE/Sponsors/logo_horizontal_black_registered.png"
+    url: "https://www.janestreet.com/"
