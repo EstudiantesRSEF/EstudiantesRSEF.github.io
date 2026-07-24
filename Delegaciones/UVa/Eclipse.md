@@ -668,45 +668,48 @@ footer: eclipse
 <section id="faq" class="container py-5">
 <h2 class="fw-bold mb-4 text-center">Preguntas Frecuentes</h2>
 <p class="lead mx-auto w-75 text-muted fw-normal reto-text mb-4 text-center">
-Aquí resolvemos las dudas más habituales sobre Totality. Si tienes alguna otra pregunta, contáctanos a través de nuestras redes sociales.
+Resolvemos aquí las dudas más habituales sobre el evento Totality 2026. Si tienes alguna otra pregunta, contáctanos a través de nuestras redes sociales.
 </p>
 <div class="accordion mx-auto" id="accordionFAQ" style="max-width: 800px;">
 
+<h5 class="fw-bold mt-4 mb-2">Ubicación</h5>
 <div class="accordion-item">
 <h3 class="accordion-header" id="faqHeading1">
 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-¿Pregunta frecuente 1?
+¿Dónde se celebra exactamente el evento?
 </button>
 </h3>
 <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1" data-bs-parent="#accordionFAQ">
 <div class="accordion-body text-start">
-Respuesta a la pregunta frecuente 1.
+En el Mirador de Tierra de Campos, situado en la localidad de Autilla del Pino (Palencia).
 </div>
 </div>
 </div>
 
+<h5 class="fw-bold mt-4 mb-2">Entradas</h5>
 <div class="accordion-item">
 <h3 class="accordion-header" id="faqHeading2">
 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
-¿Pregunta frecuente 2?
+¿Puedo comprar la entrada el mismo día en el recinto?
 </button>
 </h3>
 <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#accordionFAQ">
 <div class="accordion-body text-start">
-Respuesta a la pregunta frecuente 2.
+Sí, pero te arriesgas a quedarte fuera si se completa el aforo. Recomendamos encarecidamente comprarlas online con antelación.
 </div>
 </div>
 </div>
 
+<h5 class="fw-bold mt-4 mb-2">Acampada y Autocaravanas</h5>
 <div class="accordion-item">
 <h3 class="accordion-header" id="faqHeading3">
 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
-¿Pregunta frecuente 3?
+¿Hay camping oficial?
 </button>
 </h3>
 <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#accordionFAQ">
 <div class="accordion-body text-start">
-Respuesta a la pregunta frecuente 3.
+No. Un particular nos cede su terreno (Polígono 2, Parcela 48, Camino de Grijota) para instalar tiendas bajo vuestra propia responsabilidad.
 </div>
 </div>
 </div>
@@ -714,19 +717,72 @@ Respuesta a la pregunta frecuente 3.
 <div class="accordion-item">
 <h3 class="accordion-header" id="faqHeading4">
 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
-¿Pregunta frecuente 4?
+¿Hay servicios o agua en la zona de acampada?
 </button>
 </h3>
 <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#accordionFAQ">
 <div class="accordion-body text-start">
-Respuesta a la pregunta frecuente 4.
+No, es una tierra de labor rústica. Debes traer todo lo necesario.
+</div>
+</div>
+</div>
+
+<div class="accordion-item">
+<h3 class="accordion-header" id="faqHeading5">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+¿Puedo pernoctar con autocaravana?
+</button>
+</h3>
+<div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#accordionFAQ">
+<div class="accordion-body text-start">
+Sí, hay zonas cercanas al recinto habilitadas para aparcar y pernoctar.
+</div>
+</div>
+</div>
+
+<h5 class="fw-bold mt-4 mb-2">Autobuses</h5>
+<div class="accordion-item">
+<h3 class="accordion-header" id="faqHeading6">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+¿Habrá autobús desde Valladolid?
+</button>
+</h3>
+<div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6" data-bs-parent="#accordionFAQ">
+<div class="accordion-body text-start">
+Está previsto si hay gente suficiente. Costará unos 23 euros (ida y vuelta) y saldrá sobre las 12:00 desde la plaza del Poniente. El pago será siempre online y por adelantado.
+</div>
+</div>
+</div>
+
+<div class="accordion-item">
+<h3 class="accordion-header" id="faqHeading7">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse7" aria-expanded="false" aria-controls="faqCollapse7">
+¿Habrá autobús desde Palencia?
+</button>
+</h3>
+<div id="faqCollapse7" class="accordion-collapse collapse" aria-labelledby="faqHeading7" data-bs-parent="#accordionFAQ">
+<div class="accordion-body text-start">
+También está previsto si hay gente suficiente. Costará unos 6 euros (ida y vuelta). Horario y lugar exacto por confirmar. El pago será online y por adelantado.
+</div>
+</div>
+</div>
+
+<h5 class="fw-bold mt-4 mb-2">Colaboraciones</h5>
+<div class="accordion-item">
+<h3 class="accordion-header" id="faqHeading8">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse8" aria-expanded="false" aria-controls="faqCollapse8">
+¿Puedo dar una charla en el evento?
+</button>
+</h3>
+<div id="faqCollapse8" class="accordion-collapse collapse" aria-labelledby="faqHeading8" data-bs-parent="#accordionFAQ">
+<div class="accordion-body text-start">
+El programa de ponencias ya está lleno, pero estamos totalmente abiertos a propuestas para organizar talleres, actividades interactivas o cualquier otra idea creativa. ¡Escríbenos!
 </div>
 </div>
 </div>
 
 </div>
 </section>
-
 <section id="sponsors" class="container text-center mb-5">
   <h2 class="fw-bold mb-4">Organizan</h2>
   
