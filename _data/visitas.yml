@@ -1,0 +1,4 @@
+# Este archivo se actualiza automáticamente cada noche mediante
+# .github/workflows/actualizar-visitas.yml — no lo edites a mano.
+# Formato: "/ruta/de/la/entrada/": número_de_visitas
+{}
