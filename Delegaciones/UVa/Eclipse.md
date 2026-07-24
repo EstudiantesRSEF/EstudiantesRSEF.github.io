@@ -686,16 +686,16 @@ En una parcela privada situada en la ladera del Mirador de Tierra de Campos (Pol
 </div>
 </div>
 
-<h5 class="fw-bold mt-4 mb-2">Entradas</h5>
+<h5 class="fw-bold mt-4 mb-2">Inscripción</h5>
 <div class="accordion-item">
 <h3 class="accordion-header" id="faqHeading2">
 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
-¿Puedo comprar la entrada el mismo día en el recinto?
+No sé cuántos somos y por eso no me he inscrito, ¿puedo hacerlo el mismo día?
 </button>
 </h3>
 <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#accordionFAQ">
 <div class="accordion-body text-start">
-Sí, pero te arriesgas a quedarte fuera si se completa el aforo. Recomendamos encarecidamente comprarlas online con antelación.
+Contamos con un aforo de unas 2000 personas, así que corres el riesgo de quedarte fuera si esperas al mismo día. Te recomendamos inscribirte con antelación en cuanto sepas cuántos vais a venir.
 </div>
 </div>
 </div>
