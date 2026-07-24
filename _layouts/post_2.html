@@ -1,0 +1,159 @@
+---
+---
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | El Blog del GdeE</title>
+    {% include blog-styles.html %}
+    {% include analytics.html %}
+</head>
+<body>
+
+{% include blog-header.html %}
+
+<div class="post-container">
+
+    {% if page.cover %}
+        <img src="{{ page.cover }}" alt="{{ page.title }}" class="post-cover">
+    {% endif %}
+
+    <h1 class="post-title">{{ page.title }}</h1>
+
+    <div class="post-meta-row">
+        {% if page.categories %}
+            {% for category in page.categories %}
+                {% unless category == 'blog' %}<span class="chip">{{ category }}</span>{% endunless %}
+            {% endfor %}
+        {% endif %}
+    </div>
+
+    {% assign autor_info = site.data.autores[page.author] %}
+    {% assign palabras = content | strip_html | number_of_words %}
+    {% assign minutos_raw = palabras | divided_by: 200.0 %}
+    {% assign tiempo_lectura = minutos_raw | ceil %}
+    {% if tiempo_lectura < 1 %}{% assign tiempo_lectura = 1 %}{% endif %}
+
+    <div class="autor-box">
+        <img src="{{ autor_info.image | default: '/Divulgacion/avatar-default.svg' }}" alt="Foto de {{ page.author }}" onerror="this.onerror=null;this.src='/Divulgacion/avatar-default.svg';">
+        <div>
+            <div class="nombre">{{ page.author }}</div>
+            {% if autor_info.universidad %}<div class="universidad">{{ autor_info.universidad }}</div>{% endif %}
+        </div>
+        {% if page.date %}
+            <div class="fecha">{{ page.date | date: "%-d %B %Y" }} · {{ tiempo_lectura }} min de lectura</div>
+        {% endif %}
+    </div>
+
+    <div class="post-stats">
+        <span class="post-stat"><i class="fas fa-star"></i> <span id="ratingAverage">Cargando valoración...</span></span>
+        <span class="post-stat"><i class="fas fa-eye"></i> {{ page.views | default: 0 }} visita{% unless page.views == 1 %}s{% endunless %}</span>
+    </div>
+
+    {% if page.excerpt %}
+        <div class="post-excerpt">{{ page.excerpt | strip_html }}</div>
+    {% endif %}
+
+    <div class="post-body">
+        {{ content }}
+    </div>
+
+    <!-- VALORACIÓN CON ESTRELLAS (media compartida vía Firebase Firestore) -->
+    <div class="rating-box" data-post-id="{{ page.url }}">
+        <h3>¿Qué te ha parecido esta entrada?</h3>
+        <div class="star-rating">
+            <input type="radio" id="star5" name="estrellas-{{ page.url | slugify }}" value="5"><label for="star5">★</label>
+            <input type="radio" id="star4" name="estrellas-{{ page.url | slugify }}" value="4"><label for="star4">★</label>
+            <input type="radio" id="star3" name="estrellas-{{ page.url | slugify }}" value="3"><label for="star3">★</label>
+            <input type="radio" id="star2" name="estrellas-{{ page.url | slugify }}" value="2"><label for="star2">★</label>
+            <input type="radio" id="star1" name="estrellas-{{ page.url | slugify }}" value="1"><label for="star1">★</label>
+        </div>
+        <p class="rating-note">Puedes votar una vez por entrada. Tu voto se recuerda en este navegador.</p>
+    </div>
+
+    <!-- COMENTARIOS (giscus, basado en GitHub Discussions) -->
+    <div class="comentarios-box">
+        <h3>Comentarios</h3>
+        <script src="https://giscus.app/client.js"
+            data-repo="EstudiantesRSEF/EstudiantesRSEF.github.io"
+            data-repo-id="TU_REPO_ID"
+            data-category="Comentarios-Blog"
+            data-category-id="TU_CATEGORY_ID"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="bottom"
+            data-theme="light"
+            data-lang="es"
+            crossorigin="anonymous"
+            async>
+        </script>
+    </div>
+
+</div>
+
+{% include blog-footer.html %}
+
+<!-- Firebase (solo Firestore, plan gratuito Spark, sin tarjeta) -->
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
+    import {
+        getFirestore, doc, getDoc, setDoc, updateDoc, increment
+    } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js";
+
+    // Sustituye esto por la configuración real de tu proyecto de Firebase
+    const firebaseConfig = {
+        apiKey: "TU_API_KEY",
+        authDomain: "TU_PROYECTO.firebaseapp.com",
+        projectId: "TU_PROYECTO",
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+
+    const box = document.querySelector('.rating-box');
+    const postId = box.dataset.postId;
+    const ratingRef = doc(db, "valoraciones", postId);
+    const localKey = "valoracion:" + postId;
+
+    async function mostrarMedia() {
+        const snap = await getDoc(ratingRef);
+        const avgEl = document.getElementById('ratingAverage');
+        if (snap.exists()) {
+            const { suma, numero } = snap.data();
+            const media = numero > 0 ? (suma / numero).toFixed(1) : "0.0";
+            avgEl.textContent = `Media: ${media} / 5 (${numero} valoración${numero === 1 ? '' : 'es'})`;
+        } else {
+            avgEl.textContent = "Sé la primera persona en valorar esta entrada.";
+        }
+    }
+
+    // Si ya votó desde este navegador, marca su estrella y no deja votar otra vez
+    const yaVotado = localStorage.getItem(localKey);
+    if (yaVotado) {
+        const input = box.querySelector('input[value="' + yaVotado + '"]');
+        if (input) input.checked = true;
+        box.querySelectorAll('input').forEach(i => i.disabled = true);
+    } else {
+        box.querySelectorAll('input').forEach(function (input) {
+            input.addEventListener('change', async function () {
+                box.querySelectorAll('input').forEach(i => i.disabled = true);
+                const valor = parseInt(input.value, 10);
+                const snap = await getDoc(ratingRef);
+                if (snap.exists()) {
+                    await updateDoc(ratingRef, { suma: increment(valor), numero: increment(1) });
+                } else {
+                    await setDoc(ratingRef, { suma: valor, numero: 1 });
+                }
+                localStorage.setItem(localKey, input.value);
+                mostrarMedia();
+            });
+        });
+    }
+
+    mostrarMedia();
+</script>
+</body>
+</html>
