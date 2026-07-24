@@ -1,0 +1,45 @@
+name: Actualizar visitas del blog
+
+on:
+  schedule:
+    - cron: "0 4 * * *"   # todos los días a las 4:00 UTC
+  workflow_dispatch:        # también se puede lanzar a mano desde la pestaña Actions
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar-visitas:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install google-analytics-data pyyaml
+
+      - name: Guardar credenciales de la cuenta de servicio
+        run: echo '${{ secrets.GA_SERVICE_ACCOUNT_JSON }}' > ga-credentials.json
+
+      - name: Consultar Google Analytics y actualizar visitas.yml
+        env:
+          GA_PROPERTY_ID: ${{ secrets.GA_PROPERTY_ID }}
+          GOOGLE_APPLICATION_CREDENTIALS: ga-credentials.json
+        run: python scripts/actualizar_visitas.py
+
+      - name: Borrar las credenciales del disco
+        if: always()
+        run: rm -f ga-credentials.json
+
+      - name: Commitear los cambios si los hay
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _data/visitas.yml
+          git diff --cached --quiet || git commit -m "Actualizar visitas del blog [automático]"
+          git push
