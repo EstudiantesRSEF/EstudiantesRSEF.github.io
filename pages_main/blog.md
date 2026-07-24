@@ -4,7 +4,7 @@ permalink: /blog/
 redirect_from:
   - /blog.html
 ---
-<!DOCTYPE html>
+<DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
