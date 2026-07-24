@@ -7,6 +7,9 @@ permalink: /Divulgacion/
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GdeE Divulgación | RSEF</title>
+    <link rel="icon" type="image/png" href="/img/logos/gdee-rsef-logo-cuadrado.png">
+    <link rel="shortcut icon" type="image/png" href="/img/logos/gdee-rsef-logo-cuadrado.png">
+    <link rel="apple-touch-icon" href="/img/logos/gdee-rsef-logo-cuadrado.png">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -343,8 +346,24 @@ permalink: /Divulgacion/
         }
         .podcast-container {
             display: flex;
-            justify-content: flex-end;
+            justify-content: space-between;
+            align-items: center;
+            gap: 40px;
             text-align: right;
+        }
+        .podcast-image { flex-shrink: 0; }
+        .podcast-image img {
+            width: 230px;
+            height: 230px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid var(--verde);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+            animation: flotar 4.5s ease-in-out infinite;
+        }
+        @keyframes flotar {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-18px); }
         }
         .podcast-content { max-width: 550px; }
         #Podcast h2.section-title { color: var(--blanco); text-align: right; }
@@ -373,43 +392,6 @@ permalink: /Divulgacion/
             font-weight: 500;
         }
 
-        /* ===== MODAL (leer más) ===== */
-        .modal-overlay {
-            position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(14, 23, 48, 0.85);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 2000;
-            opacity: 0;
-            visibility: hidden;
-            transition: opacity 0.3s ease;
-        }
-        .modal-overlay.active { opacity: 1; visibility: visible; }
-        .modal-content {
-            background: var(--blanco);
-            max-width: 700px;
-            width: 90%;
-            max-height: 80vh;
-            overflow-y: auto;
-            border-radius: 14px;
-            padding: 40px;
-            position: relative;
-            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
-        }
-        .modal-content h3 { color: var(--azul-marino); margin-bottom: 20px; font-size: 1.7rem; }
-        .modal-content p { margin-bottom: 15px; color: #444; }
-        .close-btn {
-            position: absolute;
-            top: 15px; right: 20px;
-            font-size: 1.6rem;
-            color: #999;
-            cursor: pointer;
-            transition: color 0.3s;
-        }
-        .close-btn:hover { color: var(--rojo); }
-
         footer {
             background: var(--azul-oscuro);
             color: var(--fondo);
@@ -425,7 +407,8 @@ permalink: /Divulgacion/
 
         @media (max-width: 800px) {
             .concepto-container { flex-direction: column; }
-            .podcast-container { justify-content: center; text-align: center; }
+            .podcast-container { justify-content: center; text-align: center; flex-direction: column; }
+            .podcast-image img { width: 160px; height: 160px; }
             #Podcast h2.section-title { text-align: center; }
             .concepto-text, .concepto-text h2.section-title { text-align: center; }
             nav ul { flex-wrap: wrap; gap: 12px; justify-content: center; }
@@ -440,7 +423,8 @@ permalink: /Divulgacion/
 
     <header>
         <div class="logo">
-            <img src="/Divulgacion/logo_centrado.svg" alt="Logo GdeE RSEF" class="logo-img">
+            <!-- <img src="/Divulgacion/logo_centrado.svg" alt="Logo GdeE RSEF" class="logo-img"> -->
+            <img src="/img/logos/gdee-rsef-logo-cuadrado.png" alt="Logo GdeE RSEF" class="logo-img">
             <span>Grupo de Estudiantes RSEF</span>
         </div>
         <nav>
@@ -487,7 +471,7 @@ permalink: /Divulgacion/
                 <h2 class="section-title">¿Por qué divulgación?</h2>
                 <p>La física, como todas las ciencias, avanza gracias a la curiosidad y al deseo de compartir el conocimiento. El Grupo de Estudiantes (GdeE) de la RSEF nace con la convicción de que la mejor manera de aprender física es explicándosela a otros, y de que ningún estudiante debería sentir que la ciencia es un territorio reservado a unos pocos.</p>
                 <p>A través de artículos, pódcasts y actividades abiertas, buscamos acercar la investigación actual y los conceptos fundamentales de la física a un público amplio, empezando por quienes, como nosotros, todavía están formándose...</p>
-                <a href="javascript:void(0)" class="leer-mas" onclick="abrirModalConcepto()">leer más...</a>
+                <a href="/Divulgacion/concepto.html" class="leer-mas">leer más...</a>
             </div>
             <div class="concepto-image">
                 <img src="/Divulgacion/imagenes/web/concepto.jpg" alt="Divulgación científica GdeE">
@@ -554,10 +538,13 @@ permalink: /Divulgacion/
     <!-- 4. PODCAST -->
     <section id="Podcast">
         <div class="podcast-container">
+            <div class="podcast-image">
+                <img src="/Divulgacion/imagenes/web/logo-podcast.jpg" alt="Logo de En la Onda del GdeE">
+            </div>
             <div class="podcast-content">
                 <h2 class="section-title">En la Onda del GdeE</h2>
                 <p>Nuestro pódcast, <strong>"En la Onda del GdeE"</strong>, acerca la física de manera cercana y amena a través de conversaciones entre estudiantes, con invitados desde investigadores punteros a divulgadores científicos y debates sobre los resultados más excitantes y recientes de sus respectivos campos. Nuevos episodios cada mes.</p>
-                <a href="https://www.youtube.com" target="_blank" class="btn">Ver en YouTube <i class="fab fa-youtube"></i></a>
+                <a href="http://www.youtube.com/@grupodeestudiantesrsef" target="_blank" class="btn">Ver en YouTube <i class="fab fa-youtube"></i></a>
             </div>
         </div>
     </section>
@@ -566,7 +553,7 @@ permalink: /Divulgacion/
     <section id="Colabora" class="colabora">
         <h2 class="section-title center">¿Quieres involucrarte en la Divulgación del GdeE?</h2>
         <p class="colabora-text">Rellena este formulario:</p>
-        <a href="https://forms.google.com" target="_blank" class="btn btn-rojo">Ir al formulario <i class="fas fa-arrow-up-right-from-square"></i></a>
+        <a href="https://forms.gle/2AYU4vsTf95mjJew5" target="_blank" class="btn btn-rojo">Ir al formulario <i class="fas fa-arrow-up-right-from-square"></i></a>
     </section>
 
     <footer>
@@ -574,18 +561,6 @@ permalink: /Divulgacion/
         <a href="#" target="_blank" title="Instagram" class="social-link"><i class="fab fa-instagram"></i></a>
         <a href="#" target="_blank" title="YouTube" class="social-link"><i class="fab fa-youtube"></i></a>
     </footer>
-
-    <!-- MODAL CONCEPTO -->
-    <div class="modal-overlay" id="concepto-modal">
-        <div class="modal-content">
-            <span class="close-btn" onclick="cerrarModalConcepto()">&times;</span>
-            <h3>¿Por qué divulgación?</h3>
-            <p>La física, como todas las ciencias, avanza gracias a la curiosidad y al deseo de compartir el conocimiento. El Grupo de Estudiantes (GdeE) de la RSEF nace con la convicción de que la mejor manera de aprender física es explicándosela a otros, y de que ningún estudiante debería sentir que la ciencia es un territorio reservado a unos pocos.</p>
-            <p>A través de artículos, pódcasts y actividades abiertas, buscamos acercar la investigación actual y los conceptos fundamentales de la física a un público amplio, empezando por quienes, como nosotros, todavía están formándose. Creemos que explicar un concepto en voz alta, escribir sobre él o debatirlo con otros compañeros es, en sí mismo, un ejercicio de aprendizaje tan valioso como resolver un problema o leer un artículo.</p>
-            <p>Además, entendemos la divulgación como una responsabilidad: la ciencia se financia y se sostiene gracias a la sociedad, y devolverle ese conocimiento de forma accesible es parte de nuestro compromiso como futuros investigadores. Por eso impulsamos actividades en institutos, colaboramos con otras iniciativas de la RSEF y mantenemos abiertos nuestros canales —blog y pódcast— a cualquier estudiante que quiera participar, ya sea escribiendo, grabando o simplemente proponiendo ideas.</p>
-            <p>En definitiva, "GdeE Divulgación" es un espacio hecho por estudiantes de física para todo aquel que sienta curiosidad por entender un poco mejor el universo que nos rodea.</p>
-        </div>
-    </div>
 
     <script>
         // Desplegable "Más" de la cabecera (clic para móvil, hover para escritorio)
@@ -597,17 +572,6 @@ permalink: /Divulgacion/
         window.addEventListener('click', function (event) {
             const dropdown = document.querySelector('.dropdown');
             if (dropdown && !dropdown.contains(event.target)) dropdown.classList.remove('active');
-        });
-
-        // Modal "leer más" del Concepto
-        function abrirModalConcepto() {
-            document.getElementById('concepto-modal').classList.add('active');
-        }
-        function cerrarModalConcepto() {
-            document.getElementById('concepto-modal').classList.remove('active');
-        }
-        window.addEventListener('click', function (event) {
-            if (event.target === document.getElementById('concepto-modal')) cerrarModalConcepto();
         });
 
         // Carrusel de botones del Blog
