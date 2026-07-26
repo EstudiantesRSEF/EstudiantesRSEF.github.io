@@ -44,6 +44,16 @@ footer: eclipse
   </div>
 </section>
 
+<section id="ubicacion" class="container py-5 text-center">
+  <h2 class="fw-bold mb-4">Ubicación y accesos</h2>
+  <p class="lead mx-auto w-75 text-muted fw-normal reto-text mb-4 text-start">
+  El día 12 de agosto desde las 11:00 el único acceso a Autilla del Pino será por la carretera P-9020 desde Palencia, y la salida será por la P-9021 hacia Villamartín, quedando cortados los sentidos contrarios de ambas carreteras. La entrada a la población solo estará permitida para los habitantes. A partir de las 20:30 ambas carreteras volverán a su estado habitual, pudiendo evacuar el municipio por ambos sentidos. El acceso a los parkings estará señalizado desde antes de la entrada al municipio por voluntarios debidamente identificados.
+  </p>
+  <div class="text-center my-4">
+    <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Autilla/Ubicacion.jpeg" alt="Mapa de accesos y ubicación de Autilla del Pino" class="img-fluid rounded shadow-sm" style="max-width: 700px;">
+  </div>
+</section>
+
 <section id="evento" class="container-fluid py-5 text-center">
   <h2 class="fw-bold mb-4">El Evento</h2>
   <div class="fs-5 fw-semibold mb-4">El día en el que ciencia, música, divulgación y fiesta nos unen a todos para contemplar la belleza del firmamento</div>
@@ -684,21 +694,6 @@ Resolvemos aquí las dudas más habituales sobre el evento Totality 2026. Si tie
 En una parcela privada situada en la ladera del Mirador de Tierra de Campos (Polígono 2, Parcela 48, Camino de Grijota), en Autilla del Pino (Palencia). El propio mirador es un espacio público y no es el lugar exacto de la celebración.
 </div>
 </div>
-</div>
-
-<div class="accordion-item">
-  <h3 class="accordion-header" id="faqHeadingAccesos">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseAccesos" aria-expanded="false" aria-controls="faqCollapseAccesos">
-      ¿Cómo será el acceso por carretera el día del eclipse?
-    </button>
-  </h3>
-  <div id="faqCollapseAccesos" class="accordion-collapse collapse" aria-labelledby="faqHeadingAccesos" data-bs-parent="#accordionFAQ">
-    <div class="accordion-body text-start">
-      El día 12 de agosto desde las 11:00 el único acceso a Autilla del Pino será por la carretera P-9020 desde Palencia, y la salida será por la P-9021 hacia Villamartín, quedando cortados los sentidos contrarios de ambas carreteras. La entrada a la población solo estará permitida para los habitantes. A partir de las 20:30 ambas carreteras volverán a su estado habitual, pudiendo evacuar el municipio por ambos sentidos. El acceso a los parkings estará señalizado desde antes de la entrada al municipio por voluntarios debidamente identificados.
-      <br><br>
-      <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Autilla/Ubicacion.jpeg" alt="Mapa de accesos y ubicación de Autilla del Pino" class="img-fluid rounded shadow-sm mt-2" style="max-width: 100%;">
-    </div>
-  </div>
 </div>
 
 <h5 class="fw-bold mt-4 mb-2">Inscripción</h5>
