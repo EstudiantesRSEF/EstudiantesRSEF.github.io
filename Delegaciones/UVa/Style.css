@@ -156,8 +156,30 @@ img {
   cursor: pointer; /* indica que se puede clickear */
 }
 
+.img-ubicacion,
+.img-programa-modal {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.img-ubicacion {
+  max-width: min(100%, 700px);
+}
+
+.modal-dialog.modal-fullscreen .modal-body {
+  overflow: auto;
+  padding: 1rem;
+}
+
 .modal-content img {
-  max-height: 100vh; /* no sobresale de la pantalla */
+  max-width: min(100%, 1100px);
+  max-height: calc(100vh - 2rem);
+  width: 100%;
+  height: auto;
   object-fit: contain; /* mantiene proporción */
 }
 

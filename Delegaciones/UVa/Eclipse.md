@@ -50,7 +50,7 @@ footer: eclipse
   El día 12 de agosto desde las 11:00 el único acceso a Autilla del Pino será por la carretera P-9020 desde Palencia, y la salida será por la P-9021 hacia Villamartín, quedando cortados los sentidos contrarios de ambas carreteras. La entrada a la población solo estará permitida para los habitantes. A partir de las 20:30 ambas carreteras volverán a su estado habitual, pudiendo evacuar el municipio por ambos sentidos. El acceso a los parkings estará señalizado desde antes de la entrada al municipio por voluntarios debidamente identificados.
   </p>
   <div class="text-center my-4">
-    <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Autilla/Ubicacion.jpeg" alt="Mapa de accesos y ubicación de Autilla del Pino" class="img-fluid rounded shadow-sm" style="max-width: 700px;">
+    <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Autilla/Ubicacion.jpeg" alt="Mapa de accesos y ubicación de Autilla del Pino" class="img-fluid rounded shadow-sm img-ubicacion">
   </div>
 </section>
 
