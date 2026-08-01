@@ -54,6 +54,49 @@ footer: eclipse
   </div>
 </section>
 
+<section id="punto-observacion" class="container py-5">
+<h2 class="fw-bold mb-4 text-center">Punto de observación del eclipse</h2>
+<p class="lead mx-auto w-75 text-muted fw-normal reto-text mb-4 text-center">
+El evento Totality se celebra dentro del único punto de observación habilitado por el CECOPI en Autilla del Pino. Para garantizar la máxima seguridad y comodidad de todos los asistentes, es importante entender la diferencia entre el punto de observación general y el recinto específico del evento.
+</p>
+<div class="row g-4 justify-content-center">
+<div class="col-12 col-lg-6 d-flex">
+<div class="p-4 rounded-4 shadow-sm border h-100 w-100" style="background-color: rgba(255, 255, 255, 0.05);">
+<div class="circle-transparent mx-auto mb-3 d-flex justify-content-center align-items-center">
+<i class="fas fa-users fs-1 text-primary"></i>
+</div>
+<h3 class="fw-bold mb-3 text-center">Punto de observación general (acceso gratuito)</h3>
+<p class="text-muted fw-normal reto-text text-start">
+Este punto <strong>no es el Mirador de Tierra de Campos</strong>: las administraciones han descartado su uso por motivos de seguridad y su acceso estará restringido y prohibido a vehículos. El punto oficial se ubica en la misma ladera, en una parcela agrícola privada cedida y abierta al público para la ocasión.
+</p>
+<ul class="text-start text-muted reto-text">
+<li><strong>Servicios:</strong> baños, ambulancia y puesto de Cruz Roja.</li>
+<li><strong>Acceso:</strong> completamente gratuito para todo el mundo.</li>
+<li><strong>Recomendación:</strong> trae tu propia sombrilla, carpa pequeña o kit de playa.</li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-6 d-flex">
+<div class="p-4 rounded-4 shadow-sm border h-100 w-100" style="background-color: rgba(255, 255, 255, 0.05);">
+<div class="circle-transparent mx-auto mb-3 d-flex justify-content-center align-items-center">
+<i class="fas fa-glasses fs-1 text-primary"></i>
+</div>
+<h3 class="fw-bold mb-3 text-center">Evento Totality (recinto controlado)</h3>
+<p class="text-muted fw-normal reto-text text-start">
+Dentro del punto de observación gratuito hemos delimitado una zona exclusiva para el evento Totality, con aforo controlado para vivir el eclipse con la mayor comodidad. Por un precio simbólico, tu entrada incluye:
+</p>
+<ul class="text-start text-muted reto-text">
+<li>Un kit de bienvenida con gafas homologadas para la observación segura del eclipse.</li>
+<li>Participación en todas las actividades organizadas junto a la Asociación Juvenil de Autilla del Pino y el grupo de estudiantes de física de la Universidad de Valladolid.</li>
+</ul>
+<p class="text-muted fw-normal reto-text text-start mb-0">
+Cuando termine el eclipse, las puertas del recinto se abrirán por completo: cualquier persona del punto de observación general podrá entrar libremente a disfrutar del concierto con nosotros.
+</p>
+</div>
+</div>
+</div>
+</section>
+
 <section id="evento" class="container-fluid py-5 text-center">
   <h2 class="fw-bold mb-4">El Evento</h2>
   <div class="fs-5 fw-semibold mb-4">El día en el que ciencia, música, divulgación y fiesta nos unen a todos para contemplar la belleza del firmamento</div>
@@ -193,6 +236,64 @@ footer: eclipse
     </div>
   </div>
 </div>
+
+<section id="que-traer" class="container py-5 text-center">
+<h2 class="fw-bold mb-4">Qué traer al evento Totality</h2>
+<p class="lead mx-auto w-75 text-muted fw-normal reto-text mb-4">
+Para que disfrutes de la observación de forma cómoda, esto es lo que te aconsejamos llevar al recinto:
+</p>
+<div class="container my-5">
+<div class="row g-4 reto-cards-row">
+<div class="col-12 col-md-6 col-lg-3 d-flex">
+<div class="sponsor-card reto-card h-100 w-100">
+<div class="card-body d-flex flex-column justify-content-center align-items-center reto-card-body">
+<div class="circle-transparent mb-3">
+<i class="fas fa-shoe-prints fs-1 text-primary"></i>
+</div>
+<h5 class="card-title mb-2 text-center">Calzado adecuado</h5>
+<p class="card-text reto-card-text text-center">El terreno es de tierra, así que te aconsejamos llevar zapatos cerrados y cómodos.</p>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-3 d-flex">
+<div class="sponsor-card reto-card h-100 w-100">
+<div class="card-body d-flex flex-column justify-content-center align-items-center reto-card-body">
+<div class="circle-transparent mb-3">
+<i class="fas fa-sun fs-1 text-primary"></i>
+</div>
+<h5 class="card-title mb-2 text-center">Protección solar</h5>
+<p class="card-text reto-card-text text-center">Imprescindible para protegerte durante las horas que estemos al aire libre.</p>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-3 d-flex">
+<div class="sponsor-card reto-card h-100 w-100">
+<div class="card-body d-flex flex-column justify-content-center align-items-center reto-card-body">
+<div class="circle-transparent mb-3">
+<i class="fas fa-utensils fs-1 text-primary"></i>
+</div>
+<h5 class="card-title mb-2 text-center">Comida y bebida</h5>
+<p class="card-text reto-card-text text-center">Eres libre de traer tus propias provisiones. También dispondremos de un servicio de barra y bocadillos.</p>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-3 d-flex">
+<div class="sponsor-card reto-card h-100 w-100">
+<div class="card-body d-flex flex-column justify-content-center align-items-center reto-card-body">
+<div class="circle-transparent mb-3">
+<i class="fas fa-umbrella-beach fs-1 text-primary"></i>
+</div>
+<h5 class="card-title mb-2 text-center">Sillas y equipo de sombra</h5>
+<p class="card-text reto-card-text text-center">El recinto contará con carpas y jaimas, pero también puedes traer tu kit de playa, sillas de camping, sombrillas o carpas pequeñas.</p>
+</div> 
+</div>
+</div>
+</div>
+</div>
+<p class="text-muted fw-normal reto-text mx-auto w-75 mt-2 mb-0 text-start">
+<strong>Aviso de la organización:</strong> nos reservamos el derecho de controlar, organizar y delimitar las zonas habilitadas para la instalación de sombrillas y carpas privadas. Además, nos reservamos el derecho de solicitar amablemente la retirada o reubicación de aquellas sombrillas o carpas que puedan obstaculizar el paso o la visibilidad de otros asistentes, con el fin de garantizar el buen desarrollo del evento y la comodidad de todos los asistentes.
+</p>
+</section>
 
 <section id="ponentes" class="container py-5 text-center">
   <h2 class="fw-bold mb-4">Conoce a los ponentes</h2>
