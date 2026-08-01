@@ -57,7 +57,7 @@ footer: eclipse
 <section id="punto-observacion" class="container py-5">
 <h2 class="fw-bold mb-4 text-center">Punto de observación del eclipse</h2>
 <p class="lead mx-auto w-75 text-muted fw-normal reto-text mb-4 text-center">
-El evento Totality se celebra dentro del único punto de observación habilitado por el CECOPI en Autilla del Pino. Para garantizar la máxima seguridad y comodidad de todos los asistentes, es importante entender la diferencia entre el punto de observación general y el recinto específico del evento.
+El evento Totality se celebra dentro del único punto de observación autorizado por el CECOPI en Autilla del Pino. Para garantizar la máxima seguridad y comodidad de todos los asistentes, es importante entender la diferencia entre el punto de observación general y el recinto específico del evento.
 </p>
 <div class="row g-4 justify-content-center">
 <div class="col-12 col-lg-6 d-flex">
@@ -67,10 +67,10 @@ El evento Totality se celebra dentro del único punto de observación habilitado
 </div>
 <h3 class="fw-bold mb-3 text-center">Punto de observación general (acceso gratuito)</h3>
 <p class="text-muted fw-normal reto-text text-start">
-Este punto <strong>no es el Mirador de Tierra de Campos</strong>: las administraciones han descartado su uso por motivos de seguridad y su acceso estará restringido y prohibido a vehículos. El punto oficial se ubica en la misma ladera, en una parcela agrícola privada cedida y abierta al público para la ocasión.
+Este punto <strong>no es el Mirador de Tierra de Campos</strong>: las administraciones han descartado su uso por motivos de seguridad y su acceso estará restringido y prohibido a vehículos. Este punto de observación se ubica en la misma parcela agrícola en la que se celebra el evento Totality, cedida y abierta al público para la ocasión.
 </p>
 <ul class="text-start text-muted reto-text">
-<li><strong>Servicios:</strong> baños, ambulancia y puesto de Cruz Roja.</li>
+<li><strong>Servicios:</strong> baños, ambulancia, puesto de Cruz Roja y bar.</li>
 <li><strong>Acceso:</strong> completamente gratuito para todo el mundo.</li>
 <li><strong>Recomendación:</strong> trae tu propia sombrilla, carpa pequeña o kit de playa.</li>
 </ul>
@@ -83,7 +83,7 @@ Este punto <strong>no es el Mirador de Tierra de Campos</strong>: las administra
 </div>
 <h3 class="fw-bold mb-3 text-center">Evento Totality (recinto controlado)</h3>
 <p class="text-muted fw-normal reto-text text-start">
-Dentro del punto de observación gratuito hemos delimitado una zona exclusiva para el evento Totality, con aforo controlado para vivir el eclipse con la mayor comodidad. Por un precio simbólico, tu entrada incluye:
+Dentro del punto de observación gratuito hemos delimitado una zona exclusiva para el evento Totality, con aforo controlado para vivir el eclipse con la mayor comodidad. Por un precio simbólico, obtendrás:
 </p>
 <ul class="text-start text-muted reto-text">
 <li>Un kit de bienvenida con gafas homologadas para la observación segura del eclipse.</li>
