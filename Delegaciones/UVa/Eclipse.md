@@ -42,7 +42,7 @@ footer: eclipse
     </div>
 
   </div>
-</section>
+</section> 
 
 <section id="ubicacion" class="container py-5 text-center">
   <h2 class="fw-bold mb-4">Ubicación y accesos</h2>
