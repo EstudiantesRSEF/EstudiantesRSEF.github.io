@@ -813,7 +813,7 @@ Contamos con un aforo de unas 2000 personas, así que corres el riesgo de quedar
 
 
 <div class="accordion-item">
-<h3 class="accordion-header" id="faqHeading2">
+<h3 class="accordion-header" id="faqHeading2b">
 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
 ¿Qué tengo que presentar para entrar al evento?
 </button>
