@@ -814,11 +814,11 @@ Contamos con un aforo de unas 2000 personas, así que corres el riesgo de quedar
 
 <div class="accordion-item">
 <h3 class="accordion-header" id="faqHeading2b">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2b" aria-expanded="false" aria-controls="faqCollapse2b">
 ¿Qué tengo que presentar para entrar al evento?
 </button>
 </h3>
-<div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#accordionFAQ">
+<div id="faqCollapse2b" class="accordion-collapse collapse" aria-labelledby="faqHeading2b" data-bs-parent="#accordionFAQ">
 <div class="accordion-body text-start">
 Basta con que des el nombre de la persona que ha hecho la reserva para que puedas acceder y se te dé la bolsa de bienvenida. Eso sí, los grupos deben entrar al mismo tiempo.
 </div>
