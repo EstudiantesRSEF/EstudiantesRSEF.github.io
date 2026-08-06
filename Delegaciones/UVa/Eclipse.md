@@ -811,6 +811,20 @@ Contamos con un aforo de unas 2000 personas, así que corres el riesgo de quedar
 </div>
 </div>
 
+
+<div class="accordion-item">
+<h3 class="accordion-header" id="faqHeading2">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+¿Qué tengo que presentar para entrar al evento?
+</button>
+</h3>
+<div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#accordionFAQ">
+<div class="accordion-body text-start">
+Basta con que des el nombre de la persona que ha hecho la reserva para que puedas acceder y se te dé la bolsa de bienvenida. Eso sí, los grupos deben entrar al mismo tiempo.
+</div>
+</div>
+</div>
+
 <h5 class="fw-bold mt-4 mb-2">Acampada y Autocaravanas</h5>
 <div class="accordion-item">
 <h3 class="accordion-header" id="faqHeading3">
@@ -820,7 +834,7 @@ Contamos con un aforo de unas 2000 personas, así que corres el riesgo de quedar
 </h3>
 <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#accordionFAQ">
 <div class="accordion-body text-start">
-No. Un particular nos cede su terreno (Polígono 2, Parcela 48, Camino de Grijota) para instalar tiendas bajo vuestra propia responsabilidad.
+No, pero tenemos un permiso especial para acampar. Un particular nos cede su terreno (Polígono 2, Parcela 48, Camino de Grijota) para instalar tiendas bajo vuestra propia responsabilidad.
 </div>
 </div>
 </div>
@@ -873,7 +887,7 @@ Está previsto si hay gente suficiente. Costará unos 23 euros (ida y vuelta) y 
 </h3>
 <div id="faqCollapse7" class="accordion-collapse collapse" aria-labelledby="faqHeading7" data-bs-parent="#accordionFAQ">
 <div class="accordion-body text-start">
-También está previsto si hay gente suficiente. Costará unos 6 euros (ida y vuelta). Horario y lugar exacto por confirmar. El pago será online y por adelantado.
+Se habilitará un bus a un precio de 10 €. Horario y lugar exacto por confirmar. El pago será online y por adelantado.
 </div>
 </div>
 </div>
