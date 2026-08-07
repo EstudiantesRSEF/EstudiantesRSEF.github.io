@@ -243,7 +243,7 @@ Cuando termine el eclipse, las puertas del recinto se abrirán por completo: cua
 Para que disfrutes de la observación de forma cómoda, esto es lo que te aconsejamos llevar al recinto:
 </p>
 <div class="container my-5">
-<div class="row g-4 reto-cards-row">
+<div class="row g-4 reto-cards-row justify-content-center">
 <div class="col-12 col-md-6 col-lg-3 d-flex">
 <div class="sponsor-card reto-card h-100 w-100">
 <div class="card-body d-flex flex-column justify-content-center align-items-center reto-card-body">
@@ -285,6 +285,17 @@ Para que disfrutes de la observación de forma cómoda, esto es lo que te aconse
 </div>
 <h5 class="card-title mb-2 text-center">Sillas y equipo de sombra</h5>
 <p class="card-text reto-card-text text-center">El recinto contará con carpas y jaimas, pero también puedes traer tu kit de playa, sillas de camping, sombrillas o carpas pequeñas.</p>
+</div> 
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-3 d-flex">
+<div class="sponsor-card reto-card h-100 w-100">
+<div class="card-body d-flex flex-column justify-content-center align-items-center reto-card-body">
+<div class="circle-transparent mb-3">
+<i class="fas fa-temperature-low fs-1 text-primary"></i>
+</div>
+<h5 class="card-title mb-2 text-center">Ropa de abrigo</h5>
+<p class="card-text reto-card-text text-center">Se recomienda traer ropa de abrigo. Durante el eclipse las temperaturas bajarán y de igual forma será muy útil durante la observación nocturna.</p>
 </div> 
 </div>
 </div>
