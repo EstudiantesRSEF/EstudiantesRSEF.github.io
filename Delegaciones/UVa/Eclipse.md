@@ -752,16 +752,16 @@ Para que disfrutes de la observación de forma cómoda, esto es lo que te aconse
           <i class="fas fa-envelope-open-text fs-1 text-primary"></i>
         </div>
         
-        <h2 class="fw-bold mb-4">Reserva tu plaza</h2>
+        <h2 class="fw-bold mb-4">¿Aforo completo!</h2>
         
         <p class="lead text-muted fw-normal reto-text mb-4">
-          Que no te lo cuenten. Únete a nosotros en este día histórico donde la ciencia, la naturaleza y la celebración se dan la mano bajo el cielo de Autilla del Pino. Accede a nuestra propia página de pago para confirmar tu asistencia al evento, asegurar tu plaza y recibir todas las novedades de primera mano. El importe es simbólico y sirve para gestionar tu reserva y asegurar la mejor experiencia posible el día del eclipse.
+          Estamos muy orgullosos y agradecidos por la acogida que ha tenido el evento. Os esperamos a todos este miércoles 12 de agosto para disfrutar junto a vosotros de un día inolvidable.
         </p>
         
-        <!-- Botón de llamada a la acción -->
+        <!-- Botón de llamada a la acción
         <a href="https://buy.stripe.com/28EfZj2SfafB2PYdrWes001" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg px-5 py-0 fw-semibold shadow-sm" style="border-radius: 50px;">
           <i class="fas fa-ticket-alt me-2"></i> RESERVA TU PLAZA
-        </a>
+        </a> -->
 
         <div class="p-4 rounded-4 shadow-sm border mt-4" style="background-color: rgba(255, 255, 255, 0.05);">
           <h3 class="fw-bold mb-3">Inscripción al autobús</h3>
@@ -876,6 +876,20 @@ Sí, hay zonas cercanas al recinto habilitadas para aparcar y pernoctar.
 </div>
 </div>
 
+<div class="accordion-item">
+  <h3 class="accordion-header" id="faqHeading5Park">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+      ¿Dónde está la zona de autocaravanas?
+    </button>
+  </h3>
+  <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5Park" data-bs-parent="#accordionFAQ">
+    <div class="accordion-body text-start">
+      La zona destinada para el aparcamiento y pernocta de autocaravanas es la misma que está señalizada en el mapa del recinto como aparcamiento de autobuses. 
+      <!-- Opcional: <br><a href="#enlace-al-mapa">Ver el mapa aquí</a> -->
+    </div>
+  </div>
+</div>
+
 <h5 class="fw-bold mt-4 mb-2">Autobuses</h5>
 <div class="accordion-item">
 <h3 class="accordion-header" id="faqHeading6">
@@ -949,6 +963,9 @@ El programa de ponencias ya está lleno, pero estamos totalmente abiertos a prop
     </a>
     <a href="https://www.palencia.uva.es/" class="sponsor-card">
       <img src="{{ site.baseurl }}/Delegaciones/UVa/Imagenes/Logos/Palencia-Campus.jpg" alt="UVa Campus de Palencia" class="img-fluid mw-100 object-fit-contain" style="height: 150px;">
+    </a>
+    <a href="https://iaps.info/" class="sponsor-card">
+      <img src="{{ site.baseurl }}/img/iapsnew.png" alt="IAPS" class="img-fluid mw-100 object-fit-contain" style="height: 150px;">
     </a>
   </div>
   <div class="d-flex flex-wrap justify-content-center align-items-center gap-5 m-4">
