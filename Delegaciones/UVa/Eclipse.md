@@ -752,7 +752,7 @@ Para que disfrutes de la observación de forma cómoda, esto es lo que te aconse
           <i class="fas fa-envelope-open-text fs-1 text-primary"></i>
         </div>
         
-        <h2 class="fw-bold mb-4">¿Aforo completo!</h2>
+        <h2 class="fw-bold mb-4">¡Aforo completo!</h2>
         
         <p class="lead text-muted fw-normal reto-text mb-4">
           Estamos muy orgullosos y agradecidos por la acogida que ha tenido el evento. Os esperamos a todos este miércoles 12 de agosto para disfrutar junto a vosotros de un día inolvidable.
@@ -864,28 +864,29 @@ No, es una tierra de labor rústica. Debes traer todo lo necesario.
 </div>
 
 <div class="accordion-item">
-<h3 class="accordion-header" id="faqHeading5">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
-¿Puedo pernoctar con autocaravana?
-</button>
-</h3>
-<div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#accordionFAQ">
-<div class="accordion-body text-start">
-Sí, hay zonas cercanas al recinto habilitadas para aparcar y pernoctar.
-</div>
-</div>
+  <h3 class="accordion-header" id="faqHeading5">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+      ¿Puedo pernoctar con autocaravana?
+    </button>
+  </h3>
+  <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#accordionFAQ">
+    <div class="accordion-body text-start">
+      Sí, hay zonas cercanas al recinto habilitadas para aparcar y pernoctar.
+    </div>
+  </div>
 </div>
 
 <div class="accordion-item">
   <h3 class="accordion-header" id="faqHeading5Park">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+    <!-- Cambio 1 y 2: target y aria-controls -->
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5Park" aria-expanded="false" aria-controls="faqCollapse5Park">
       ¿Dónde está la zona de autocaravanas?
     </button>
   </h3>
-  <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5Park" data-bs-parent="#accordionFAQ">
+  <!-- Cambio 3: id del collapse -->
+  <div id="faqCollapse5Park" class="accordion-collapse collapse" aria-labelledby="faqHeading5Park" data-bs-parent="#accordionFAQ">
     <div class="accordion-body text-start">
       La zona destinada para el aparcamiento y pernocta de autocaravanas es la misma que está señalizada en el mapa del recinto como aparcamiento de autobuses. 
-      <!-- Opcional: <br><a href="#enlace-al-mapa">Ver el mapa aquí</a> -->
     </div>
   </div>
 </div>
