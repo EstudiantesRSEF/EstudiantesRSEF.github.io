@@ -193,7 +193,7 @@ description: El Grupo de Estudiantes de la RSEF reúne a estudiantes de física 
                     {% endif %}
                     {% if post.categories %}
                       {% for category in post.categories %}
-                        {% if category == 'blog' %}
+                        {% if category == 'blog' or category == 'blog-cosas' %}
                           {% else %}
                             <div class="chip">
                               <span class="post-meta">
