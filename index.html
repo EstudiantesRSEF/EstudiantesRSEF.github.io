@@ -174,7 +174,7 @@ description: El Grupo de Estudiantes de la RSEF reúne a estudiantes de física 
                 {% assign countBlog = countBlog | plus: 1 %}
                 <li>
                   <h2>
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="padding:10px">
+                    <a class="post-link" href="/divulgacion/{{ post.url | prepend: site.baseurl }}" style="padding:10px">
                       {{ post.title }}
                     </a>
                     {% if post.date %}
@@ -209,7 +209,7 @@ description: El Grupo de Estudiantes de la RSEF reúne a estudiantes de física 
                   </div>
                   <div class="row">
                     <div class="right" style="margin-top: 10px; text-align: end;">
-                    <a class="btn-large waves-effect waves-light" href="{{ root_url }}{{ post.url }}" name="action">Continúa
+                    <a class="btn-large waves-effect waves-light" href="/divulgacion/{{ root_url }}{{ post.url }}" name="action">Continúa
                       <i class="material-icons right">send</i>
                     </a>
                   </div>
