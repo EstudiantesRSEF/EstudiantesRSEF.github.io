@@ -16,11 +16,10 @@
        url: /colabora/
      - text: Internships Database
        url: /internships/
-     - text: Divulgación
-       url: /divulgacion/
        blank: YES
-# - text: <strong>El Blog</strong>
-#   url: /blog/
+# Otro item
+ - text: <strong>Divulgación</strong>
+   url: /divulgacion/
 # - text: ICPS'20
 #   url: /eventos-internacionales/2020/08/09/ICPS2020/
  - text: <strong>¡Inscríbete!</strong>
