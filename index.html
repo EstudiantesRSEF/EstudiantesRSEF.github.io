@@ -160,69 +160,94 @@ description: El Grupo de Estudiantes de la RSEF reúne a estudiantes de física 
 <!-- QUANTUM-SOCIETY.COM COLLABORATION -->
 <!-- <iframe src="https://quantum-society.com" width="100%" height="1000" frameborder="5" margin="40 40 40 40"></iframe> -->
 
-<!-- BLOG -->
-    <div class="section">
-      <div class="row">
-        <div class="col s12 m12">
-          <h3>Lo último del Blog</h3>
-          <div class="blog-index">
-            <ul class="post-list">
-            {% assign maxCountBlog = 3 %}
-            {% assign countBlog = 0 %}
-            {% for post in site.categories.blog %}
-              {% if post.hidden != true and countBlog < maxCountBlog %}
-                {% assign countBlog = countBlog | plus: 1 %}
-                <li>
-                  <h2>
-                    <a class="post-link" href="/divulgacion/{{ post.url | prepend: site.baseurl }}" style="padding:10px">
-                      {{ post.title }}
-                    </a>
-                    {% if post.date %}
-                      <div class="chip">
-                        <span class="post-meta">
-                          {{ post.date | date: "%-d %b %Y" }}
-                        </span>
-                      </div>
-                    {% endif %}
-                    {% if post.author %}
-                      <div class="chip">
-                        <span class="post-meta">
-                          {{ post.author }}
-                        </span>
-                      </div>
-                    {% endif %}
-                    {% if post.categories %}
-                      {% for category in post.categories %}
-                        {% if category == 'blog' or category == 'blog-cosas' %}
-                          {% else %}
-                            <div class="chip">
-                              <span class="post-meta">
-                                {{ category }}
-                              </span>
-                            </div>
-                        {% endif %}
-                      {% endfor %}
-                    {% endif %}
-                  </h2>
-                  <div class="entry-content">
-                    {{ post.excerpt | strip_html }}
-                  </div>
-                  <div class="row">
-                    <div class="right" style="margin-top: 10px; text-align: end;">
-                    <a class="btn-large waves-effect waves-light" href="/divulgacion/{{ root_url }}{{ post.url }}" name="action">Continúa
-                      <i class="material-icons right">send</i>
-                    </a>
-                  </div>
-                  <br>
-                  </li>
-                  <div class="divider">
-                  </div>
-              {% endif %}
-            {% endfor %}
-            </ul>
-          </div>
-        </div>
-      </div>
+	<!-- BLOG -->
+	<div class="section">
+	  <div class="row">
+	    <div class="col s12 m12">
+	      <h3>Lo último del Blog</h3>
+	      <div class="blog-index">
+	        <ul class="post-list" id="blog-posts-container">
+	          <!-- Este texto se mostrará mientras cargan los posts -->
+	          <li>Cargando las últimas entradas...</li>
+	        </ul>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+	<script>
+	  // Una vez que la página carga, ejecutamos el script
+	  document.addEventListener("DOMContentLoaded", function() {
+	    // La dirección donde vive el JSON que creamos en el Paso 1
+	    const apiURL = '/divulgacion/ultimos-posts.json';
+	
+	    // Llamamos al archivo JSON
+	    fetch(apiURL)
+	      .then(response => {
+	        if (!response.ok) throw new Error("Error al cargar los posts");
+	        return response.json();
+	      })
+	      .then(posts => {
+	        const container = document.getElementById('blog-posts-container');
+	        container.innerHTML = ''; // Limpiamos el texto de "Cargando..."
+	
+	        // Recorremos los 3 posts que nos devuelve el JSON
+	        posts.forEach(post => {
+	          
+	          // Generamos los chips de categorías excluyendo las que no quieres ver
+	          let categoriasHTML = '';
+	          if (post.categories) {
+	            post.categories.forEach(cat => {
+	              if (cat !== 'blog' && cat !== 'blog-cosas') {
+	                categoriasHTML += `
+	                <div class="chip">
+	                  <span class="post-meta">${cat}</span>
+	                </div>`;
+	              }
+	            });
+	          }
+	
+	          // Construimos la tarjeta HTML calcada a tu diseño original
+	          const li = document.createElement('li');
+	          li.innerHTML = `
+	            <h2>
+	              <a class="post-link" href="${post.url}" style="padding:10px">
+	                ${post.title}
+	              </a>
+	              ${post.date ? `
+	              <div class="chip">
+	                <span class="post-meta">${post.date}</span>
+	              </div>` : ''}
+	              ${post.author ? `
+	              <div class="chip">
+	                <span class="post-meta">${post.author}</span>
+	              </div>` : ''}
+	              ${categoriasHTML}
+	            </h2>
+	            <div class="entry-content">
+	              ${post.excerpt}
+	            </div>
+	            <div class="row">
+	              <div class="right" style="margin-top: 10px; text-align: end;">
+	                <a class="btn-large waves-effect waves-light" href="${post.url}" name="action">Continúa
+	                  <i class="material-icons right">send</i>
+	                </a>
+	              </div>
+	            </div>
+	            <br>
+	            <div class="divider"></div>
+	          `;
+	          
+	          // Añadimos el post a la lista visual
+	          container.appendChild(li);
+	        });
+	      })
+	      .catch(error => {
+	        console.error("Error:", error);
+	        document.getElementById('blog-posts-container').innerHTML = '<li>Pronto habrá nuevas publicaciones.</li>';
+	      });
+	  });
+	</script>
       <div class="row center">
            <a href="{{ site.url }}/divulgacion/blog/" id="about-button" class="btn-gdee">Accede al Blog</a>
       </div>
