@@ -11,7 +11,7 @@ permalink: /ConcursoRelatosDivulgativosGdeE/
 
 Uno de los pilares básicos del Grupo de Estudiantes de la Real Sociedad Española de Física es la **divulgación de la Física** por y para los estudiantes, y los apasionados de esta disciplina. Es por ello que el GdeE convoca su primer <strong> CONCURSO DE RELATOS DIVULGATIVOS</strong>🏆.
 
-<img src="/Divulgacion/ConcursoRelatos/portada.png" alt="Portada del Concurso" style="float: left; width: 350px; margin-right: 20px; margin-bottom: 10px;">
+<img src="/Divulgacion-cosas/ConcursoRelatos/portada.png" alt="Portada del Concurso" style="float: left; width: 350px; margin-right: 20px; margin-bottom: 10px;">
 
 Si estamos aquí es porque *nos gusta la Física*. Sabemos que muchos de vosotros tenéis un talento excepcional para transmitir vuestro conocimiento de esta ciencia ¡y nosotros estamos deseando leeros!
 
@@ -53,12 +53,12 @@ Tienes toda la información del **formato**, **premios**, **criterios de valorac
   </div>  
   
   <div class="row center">
-    <a href="/Divulgacion/ConcursoRelatos/Bases_Concurso_Divulgación.pdf" class="btn btn-ConcursoLogo waves-effect waves-light">
+    <a href="/Divulgacion-cosas/ConcursoRelatos/Bases_Concurso_Divulgación.pdf" class="btn btn-ConcursoLogo waves-effect waves-light">
       BASES REGULADORAS DEL CONCURSO
     </a>
   </div>  
   <div class="row center">
-    <a href="/Divulgacion/ConcursoRelatos/Acta_fallo_signed.pdf" class="btn btn-ConcursoLogo waves-effect waves-light">
+    <a href="/Divulgacion-cosas/ConcursoRelatos/Acta_fallo_signed.pdf" class="btn btn-ConcursoLogo waves-effect waves-light">
       RESOLUCIÓN y FALLO DEL JURADO
     </a>
   </div>  
