@@ -819,14 +819,15 @@
     <section id="Partnerships">
         
         <!-- ORGANIZADORES -->
-        <h3 style="text-align: center; color: var(--verde-medio); margin-bottom: 40px; font-size: 1.8rem;">Organizing Partners</h3>
-        <div class="partners-grid">
-            {% for org in site.data.SIPE.Patrocinadores.organizadores %}
-            <a href="{{ org.url }}" target="_blank" title="{{ org.name }}">
-                <img src="{{ org.logo }}" alt="{{ org.name }}" class="partner-logo">
-            </a>
-            {% endfor %}
-        </div>
+<h3 style="text-align: center; color: var(--verde-medio); margin-bottom: 40px; font-size: 1.8rem;">Organizing Partners</h3>
+<div class="partners-grid">
+    {% for org in site.data.SIPE.Patrocinadores.organizadores %}
+    <a href="{{ org.url }}" target="_blank" title="{{ org.name }}">
+        <!-- Aquí añadimos el style -->
+        <img src="{{ org.logo }}" alt="{{ org.name }}" class="partner-logo" style="max-width: 200px; height: auto;">
+    </a>
+    {% endfor %}
+</div>
 
         <!-- PATROCINADORES -->
         <h3 style="text-align: center; color: var(--rojo-claro); margin-top: 60px; margin-bottom: 40px; font-size: 1.8rem;">Sponsors</h3>
