@@ -26,3 +26,7 @@ patrocinadores:
   - name: "Jane Street"
     logo: "/SIPE/Sponsors/logo_horizontal_black_registered.png"
     url: "https://www.janestreet.com/"
+
+  - name: "Meteored"
+    logo: "/SIPE/Sponsors/meteored.png"
+    url: "https://www.meteored.com/es/"
