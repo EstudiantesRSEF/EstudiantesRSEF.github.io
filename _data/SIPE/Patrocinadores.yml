@@ -11,9 +11,17 @@ patrocinadores:
     logo: "/SIPE/Sponsors/UMU.jpg"
     url: "https://www.um.es/"
   
+  - name: "UMU-VicEstudiantes"
+    logo: "/SIPE/Sponsors/Logo-VIC-Estudiantes-positivo-v1 (1).png"
+    url: "https://www.um.es/web/vice-estudiantes/"
+
   - name: "Facultad de Química UMU"
-    logo: "/SIPE/Sponsors/FacultadQuimicaUMU.jpg"
+    logo: "/SIPE/Sponsors/Química-RGB-Logosim_H-01TR (5).png"
     url: "https://www.um.es/web/quimica/"
+
+  - name: "CMN"
+    logo: "/SIPE/Sponsors/logo-cmn-262x90 (1).png"
+    url: "https://www.campusmarenostrum.es/web/cmn/"
 
   - name: "COFIS"
     logo: "/ENEF/2025/img/Sponsors/COFIS.png"
@@ -30,3 +38,7 @@ patrocinadores:
   - name: "Meteored"
     logo: "/SIPE/Sponsors/meteored.png"
     url: "https://www.meteored.com/es/"
+
+  - name: "Crowe"
+    logo: "/SIPE/Sponsors/(PARA USO GENERAL) Crowe Logo vectorizado (7).svg"
+    url: "https://www.crowe.com/es"
