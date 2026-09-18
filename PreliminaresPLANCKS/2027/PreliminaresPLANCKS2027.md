@@ -56,15 +56,15 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
           <a href="#inscripcion-modal" id="inscripcion-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">create</i><strong>Inscríbete</strong></a>
         </div>
       </div>
-      <!-- SOLUCIONES -->
+      <!-- <!-- SOLUCIONES 
       <hr>
       <p style="text-align: justify;">¡Ya están aquí las soluciones de las Preliminares de PLANCKS 2027! ¿Cómo os ha ido? Consultad las soluciones completas en el siguiente enlace:</p>
       <h2 style="text-align: center;">
       <h2 style="text-align: center;">
         <a href="/PreliminaresPLANCKS/2027/Soluciones_PrelisPLANCK2026.pdf" target="_blank"><span><strong>SOLUCIONES DE LOS PROBLEMAS</strong></span></a>
       </h2>
-      <hr>
-       <!-- CLASIFICACIÓN -->
+      <hr>     -->
+       <!-- <!-- CLASIFICACIÓN 
       <hr>
       <p style="text-align: justify;">Tras vuestro gran trabajo, ¡ya están disponibles las clasificiaciones de este año! Haciendo click en el siguiente botón y poniendo el DNI de vuestro capitán/na vereis el desglose de las puntuaciones</p>
       <div class="section" style="display: flex; flex-direction: column; justify-content: space-between">
@@ -72,7 +72,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
           <a href="https://estudiantes.rsef.es/PreliminaresPLANCKS/2027/puntuaciones.html" id="info-clasif" class="collection-item modal-trigger btn-rounded plancks26-color"><i class="material-icons" style="padding-right: 8px;">info</i><strong>Clasificación</strong></a>
         </div>
       </div>
-      <hr>   
+      <hr>   -->
         <!-- COUNTDOWN -->
        <div class="row" style="margin-bottom: -10px">  
         <p style="text-align: justify;">Las inscripciones para las Preliminares de PLANCKS 2027 se cerrarán en...</p>
@@ -103,7 +103,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
           {% endfor %}
         </div>
       </div>
-      <!-- AUTORES -->
+      <!-- <!-- AUTORES 
       <h3 id="Autores">¡Conoce a l@s autor@s de los problemas!</h3>
       <p style="text-align:justify;">Los miembros del Comité Académico de las Preliminares PLANCKS 2027 son:</p>
       <div class="section">
@@ -140,7 +140,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
             {% endfor %}
           {% endfor %}
         </div>
-      </div>
+      </div>  -->
       <!-- COMITÉS -->
       <div class="row" style="margin-bottom: -10px"> 
         <p style="text-align: justify;">Además, puedes <a href="#comites-modal" class="prelis26 modal-trigger">consultar aquí</a> los integrantes del Comité Organizador de las Preliminares de PLANCKS 2027.</p>
@@ -337,15 +337,15 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center">
         <h3 class="justify">Información general</h3>
-        <p style="text-align: justify;"><strong>¿En qué consisten las Preliminares?</strong> Las Preliminares de PLANCKS 2027 es una competición de física teórica por equipos en la que habrá que resolver 8 problemas no muy largos. Puedes ver las pruebas de otros años en la <a class="prelis26 modal-close" href="#ediciones-anteriores">sección de Ediciones anteriores</a>, aunque el año pasado se cambió a un nuevo formato y ahora son más preguntas más cortas que anteriormente. Puedes ver las soluciones de los exámenes de la final de PLANCKS de años anteriores <a class="prelis26" href="https://estudiantes.rsef.es/PLANCKS26/Exams">aquí</a>.
+        <p style="text-align: justify;"><strong>¿En qué consisten las Preliminares?</strong> Las Preliminares de PLANCKS 2027 es una competición de física teórica por equipos en la que habrá que resolver 8 problemas no muy largos. Puedes ver las pruebas de otros años en la <a class="prelis26 modal-close" href="#ediciones-anteriores">sección de Ediciones anteriores</a>, aunque hace unos años se cambió a un nuevo formato y ahora son más preguntas más cortas que anteriormente. Puedes ver las soluciones de los exámenes de la final de PLANCKS de años anteriores <a class="prelis26" href="https://estudiantes.rsef.es/PLANCKS26/Exams">aquí</a>.
         </p>        <!--https://forms.gle/MSpSEH1DZWzR62Zf6-->
         <p style="text-align: justify;"><strong>¿Cómo puedo participar en las Preliminares?</strong> Es muy sencillo: si conoces un@s cuant@s amig@s con los que te apetecería pasar un buen rato, resolver problemas que resultan todo un reto e inventarte respuestas disparatadas cuando no sepas por dónde salir, reúne un equipo de hasta cuatro personas y no lo dudes: <a class="prelis26" href="" id="inscripcion-button" target="_blank">¡inscríbete!</a> Los equipos deben de estar formados por 3 o 4 personas. Esta primera fase nacional nos permitirá seleccionar a los mejores equipos para que nos representen en la competición internacional, el año pasado se clasificaron cinco equipos a la fase final. </p>   
         <p style="text-align: justify;">Si ya existe una <a class="prelis26" href="https://estudiantes.rsef.es/delegaciones/">delegación del GdeE</a> en tu facultad, se ocuparán ellos de organizar las Prelis. Si no es el caso, es posible que el comité organizador os pida ayuda para encontrar un aula y un/a supervisor/a para poder garantizar una sede de las Preliminares en vuestra ciudad. </p>
-        <p style="text-align: justify;"><strong>¿Cómo y cuándo tendrán lugar las Preliminares?</strong> Las Preliminares de PLANCKS 2027 en España se celebrarán el próximo <strong>viernes 6 de marzo por la tarde</strong>, de forma simultánea en sedes situadas en facultades de física del territorio nacional. La prueba durará 3 horas y tendrá lugar de 16:00 a 19:00 (GMT+1).</p>        
+        <p style="text-align: justify;"><strong>¿Cómo y cuándo tendrán lugar las Preliminares?</strong> Las Preliminares de PLANCKS 2027 en España se celebrarán el próximo <strong>viernes 20 de noviembre por la tarde</strong>, de forma simultánea en sedes situadas en facultades de física del territorio nacional. La prueba durará 3 horas y tendrá lugar de 16:00 a 19:00 (GMT+1).</p>        
         <p style="text-align: justify;"><strong>Y si la prueba os sale muy bien hay premio por partida doble...</strong></p>      
         <!--p style="text-align: justify;"><strong>Y si la prueba os sale muy bien...</strong></p-->        
         <list class="a">
-          <li style="text-align: justify;">Las Preliminares de PLANCKS son la fase de clasificación nacional para PLANCKS en nuestro país. El mejor equipo de las Prelis nos representará en mayo en la final, ¡que se celebra en Eindhoven! La inscripción y alojamiento estará cubierta por el Grupo de Estudiantes. ¿Qué aún no sabes lo que es PLANCKS? Encuentra toda la información en <a class="prelis26 modal-trigger" href="#plancks-modal">este enlace</a>.</li>
+          <li style="text-align: justify;">Las Preliminares de PLANCKS son la fase de clasificación nacional para PLANCKS en nuestro país. El mejor equipo de las Prelis nos representará en mayo en la final, ¡que se celebra en San Pedro Sula! La inscripción y alojamiento estará cubierta por el Grupo de Estudiantes. ¿Qué aún no sabes lo que es PLANCKS? Encuentra toda la información en <a class="prelis26 modal-trigger" href="#plancks-modal">este enlace</a>.</li>
           <li style="text-align: justify;">¡Y este año tenemos premios para los tres mejores equipos gracias a la financiación de la Fundación Ramón Areces! Lee más en <a href="#premios-modal" class="prelis26 modal-trigger">este enlace</a>.</li > 
         </list> 
         <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a class="prelis26" href="/PreliminaresPLANCKS/2027/Competition_Rules____Preliminares_de_PLANCKS_2026.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
@@ -372,10 +372,10 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
       <div class="row center">
         <h3 class="justify">Premios</h3>
         <!--p style="text-align: justify;">
-          Los clasificados participarán en la fase internacional de PLANCKS en Eindhoven, Países Bajos, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
+          Los clasificados participarán en la fase internacional de PLANCKS en San Pedro Sula, Honduras, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
         </p-->
         <p style="text-align: justify;">
-          Este año contamos con el apoyo y financiación de la <a class="prelis26" href="https://www.fundacionareces.es" id="ramon-areces" target="_blank">Fundación Ramón Areces</a>, que nos permite ofrecer premios a los tres mejores equipos: <strong>900€</strong> para el primer equipo, <strong>600€</strong>  para el segundo y <strong>500€</strong>  para el tercer clasificado. Además, los clasificados participarán en la fase internacional de PLANCKS en Eindhoven, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
+          Este año contamos con el apoyo y financiación de la <a class="prelis26" href="https://www.fundacionareces.es" id="ramon-areces" target="_blank">Fundación Ramón Areces</a>, que nos permite ofrecer premios a los tres mejores equipos: <strong>900€</strong> para el primer equipo, <strong>600€</strong>  para el segundo y <strong>500€</strong>  para el tercer clasificado. Además, los clasificados participarán en la fase internacional de PLANCKS en Honduras, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
         </p>
         <p style="text-align: justify;">
           Todo esto no sería posible sin el apoyo de la Fundación Ramón Areces y de los miembros del GdeE. ¡Así que muchas gracias por confiar en nosotros!
@@ -402,7 +402,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
         <p style="text-align: justify;"><strong>¿Cuáles son los requisitos del cargo de Supervisor/a?</strong> Son dos:</p>
         <list class="a">
           <li style="text-align: justify;">Ser investigador pre- o post-doctoral o ser docente universitario o de educación secundaria (en activo o jubilado).</li>
-          <li style="text-align: justify;">Comprometerse a tener disponibilidad en el rango horario 15:30h - 19:30h el viernes 6 de marzo de 2027, así como a dedicar esa disponibilidad a las responsabilidades abajo indicadas.</li>
+          <li style="text-align: justify;">Comprometerse a tener disponibilidad en el rango horario 15:30h - 19:30h el viernes 20 de noviembre de 2027, así como a dedicar esa disponibilidad a las responsabilidades abajo indicadas.</li>
         </list>
         <p></p>
         <p style="text-align: justify;"><strong>¿Cuáles son las responsabilidades del cargo de Supervisor/a?</strong> Son las siguientes:</p>
@@ -437,7 +437,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
         <h3 class="justify">Conoce Plancks </h3>
         <p style="text-align: justify;"><strong>¿Qué es PLANCKS?</strong> PLANCKS (Physics League Across Numerous Countries for Kick-ass Students) es la competición internacional de física teórica de IAPS, la International Association of Physics Students. En ella pueden participar equipos de tres a cuatro estudiantes de grado y/o máster. Además, la competición se enmarca en un evento de varios días repleto de charlas y actividades para que los participantes se conozcan entre sí.</p>
         <p style="text-align: justify;">
-          Este año PLANCKS tendrá lugar del 21 al 25 de mayo en Eindhoven. ¡La última edición reunió 46 equipos de 28 países! Si quieres conocer más sobre PLANCKS y IAPS, la International Association of Physics Students, clica en los enlaces siguientes.
+          Este año PLANCKS tendrá lugar del 1 al 5 de mayo en San Pedro Sula. ¡La última edición reunió XX equipos de XX países! Si quieres conocer más sobre PLANCKS y IAPS, la International Association of Physics Students, clica en los enlaces siguientes.
         </p>
       </div>
     </div>    

@@ -48,3 +48,14 @@
     image: "/img/eventos/2026-PrelisPLANCKS/Wrapped2025.jpg"
     text: "2025 Wrapped"
   # En móvil se pueden ver hasta 5 post
+
+
+- "2027":
+  # DEJAR ESTE SIEMPRE EL PRIMERO! Ordenar los nuevos post de más a menos recientes a partir del segundo
+  - url: "https://www.instagram.com/p/DAQyHcstswn/?img_index=1"
+    image: "/img/eventos/2026-PrelisPLANCKS/Presentación GdeE - post.png"
+    text: "Presentación GdeE"
+
+  - url: "https://www.instagram.com/reel/DS8AEOJjMWm/?img_index=1"
+    image: "/img/eventos/2026-PrelisPLANCKS/Wrapped2025.jpg"
+    text: "2025 Wrapped"
