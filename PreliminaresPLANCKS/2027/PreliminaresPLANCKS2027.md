@@ -10,7 +10,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
     <div class="prelis26-sidebar">
         <ul>
           {% for year in site.data.Prelis.PostsList %}
-            {% for item in year["2026"] limit:3 %}
+            {% for item in year["2027"] limit:3 %}
               <li>
                 <a href="{{ item.url }}">
                   <p>{{ item.text }}</p>
@@ -58,10 +58,10 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
       </div>
       <!-- SOLUCIONES -->
       <hr>
-      <p style="text-align: justify;">¡Ya están aquí las soluciones de las Preliminares de PLANCKS 2026! ¿Cómo os ha ido? Consultad las soluciones completas en el siguiente enlace:</p>
+      <p style="text-align: justify;">¡Ya están aquí las soluciones de las Preliminares de PLANCKS 2027! ¿Cómo os ha ido? Consultad las soluciones completas en el siguiente enlace:</p>
       <h2 style="text-align: center;">
       <h2 style="text-align: center;">
-        <a href="/PreliminaresPLANCKS/2026/Soluciones_PrelisPLANCK2026.pdf" target="_blank"><span><strong>SOLUCIONES DE LOS PROBLEMAS</strong></span></a>
+        <a href="/PreliminaresPLANCKS/2027/Soluciones_PrelisPLANCK2026.pdf" target="_blank"><span><strong>SOLUCIONES DE LOS PROBLEMAS</strong></span></a>
       </h2>
       <hr>
        <!-- CLASIFICACIÓN -->
@@ -69,13 +69,13 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
       <p style="text-align: justify;">Tras vuestro gran trabajo, ¡ya están disponibles las clasificiaciones de este año! Haciendo click en el siguiente botón y poniendo el DNI de vuestro capitán/na vereis el desglose de las puntuaciones</p>
       <div class="section" style="display: flex; flex-direction: column; justify-content: space-between">
         <div class="row center">
-          <a href="https://estudiantes.rsef.es/PreliminaresPLANCKS/2026/puntuaciones.html" id="info-clasif" class="collection-item modal-trigger btn-rounded plancks26-color"><i class="material-icons" style="padding-right: 8px;">info</i><strong>Clasificación</strong></a>
+          <a href="https://estudiantes.rsef.es/PreliminaresPLANCKS/2027/puntuaciones.html" id="info-clasif" class="collection-item modal-trigger btn-rounded plancks26-color"><i class="material-icons" style="padding-right: 8px;">info</i><strong>Clasificación</strong></a>
         </div>
       </div>
       <hr>   
         <!-- COUNTDOWN -->
        <div class="row" style="margin-bottom: -10px">  
-        <p style="text-align: justify;">Las inscripciones para las Preliminares de PLANCKS 2026 se cerrarán en...</p>
+        <p style="text-align: justify;">Las inscripciones para las Preliminares de PLANCKS 2027 se cerrarán en...</p>
         <h3 style="text-align: center;"><p id="countdown" style="text-align:center"></p></h3>
         <!-- <p style="text-align: justify;">¡No dejes tu inscripción para el último momento para asegurarnos que tendrás aulas y supervisores disponibles en tu facultad!</p>
         <p style="text-align: justify;"> Hemos comenzado ya con la promoción a todos los estudiantes de física de España. ¡Así que no te quedes sin plaza!</p> -->
@@ -85,7 +85,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
        <div class="publicaciones-movil-prelis26">
         <div class="publicaciones-row">
           {% for year in site.data.Prelis.PostsList %}
-            {% for item in year["2026"] limit:5 %}
+            {% for item in year["2027"] limit:5 %}
               <div class="publicacion">
                 <a href="{{ item.url }}">
                   <p style="height: 3.5em">{{ item.text }}</p>
@@ -105,11 +105,11 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
       </div>
       <!-- AUTORES -->
       <h3 id="Autores">¡Conoce a l@s autor@s de los problemas!</h3>
-      <p style="text-align:justify;">Los miembros del Comité Académico de las Preliminares PLANCKS 2026 son:</p>
+      <p style="text-align:justify;">Los miembros del Comité Académico de las Preliminares PLANCKS 2027 son:</p>
       <div class="section">
         <div style="display:flex; flex-wrap:wrap; gap:16px; justify-content:center;">
           {% for year in site.data.Prelis.autores %}
-            {% for autor in year["2026"] %}
+            {% for autor in year["2027"] %}
               <div style="flex:1 1 280px; max-width:340px;">
                 <div style="border:1px solid #e0e0e0; border-radius:6px; overflow:hidden; box-shadow:0 2px 4px #e53935; background:#fff;">
                   <div style="background:#b71c1c; color:#fff; display:flex; gap:12px; align-items:center; padding:12px;">
@@ -143,21 +143,21 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
       </div>
       <!-- COMITÉS -->
       <div class="row" style="margin-bottom: -10px"> 
-        <p style="text-align: justify;">Además, puedes <a href="#comites-modal" class="prelis26 modal-trigger">consultar aquí</a> los integrantes del Comité Organizador de las Preliminares de PLANCKS 2026.</p>
+        <p style="text-align: justify;">Además, puedes <a href="#comites-modal" class="prelis26 modal-trigger">consultar aquí</a> los integrantes del Comité Organizador de las Preliminares de PLANCKS 2027.</p>
       </div>    
       <!-- MAP -->
       <div class="section">
-          <strong><h3>El mapa de las Preliminares de PLANCKS 2026</h3></strong>
+          <strong><h3>El mapa de las Preliminares de PLANCKS 2027</h3></strong>
           <p style="text-align: justify;">¡En el siguiente mapa puedes consultar todas las sedes!</p>
-          <iframe id="content-desktop" src="/PreliminaresPLANCKS/2026/Mapa/universities_map_desktop.html" class="scalable-iframe" style="border:none"></iframe> 
-          <iframe id="content-mobile" src="/PreliminaresPLANCKS/2026/Mapa/universities_map_mobile.html" class="scalable-iframe" style="border:none; width: 100%"></iframe> 
+          <iframe id="content-desktop" src="/PreliminaresPLANCKS/2027/Mapa/universities_map_desktop.html" class="scalable-iframe" style="border:none"></iframe> 
+          <iframe id="content-mobile" src="/PreliminaresPLANCKS/2027/Mapa/universities_map_mobile.html" class="scalable-iframe" style="border:none; width: 100%"></iframe> 
       </div> 
       <!-- Carrera  -->
 		<h3>¡Sigue la carrera de inscripciones!</h3>
 
 <div class="iframe-responsive-wrapper">
      <iframe 
-        src="/PreliminaresPLANCKS/2026/carrera.html" 
+        src="/PreliminaresPLANCKS/2027/carrera.html" 
         loading="lazy"
         class="carrera-iframe">
      </iframe>
@@ -295,7 +295,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
       {% assign loopindex = 0 %}
       {% for event in site.events reversed %}
         {% if event.title contains "Preliminares de PLANCKS"%}
-        {% if event.title != "Preliminares de PLANCKS 2026"%}
+        {% if event.title != "Preliminares de PLANCKS 2027"%}
       {% assign rowfinder = loopindex | modulo:2 %}
           {% if rowfinder == 0 %}
             <div class="row">
@@ -337,25 +337,25 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center">
         <h3 class="justify">Información general</h3>
-        <p style="text-align: justify;"><strong>¿En qué consisten las Preliminares?</strong> Las Preliminares de PLANCKS 2026 es una competición de física teórica por equipos en la que habrá que resolver 8 problemas no muy largos. Puedes ver las pruebas de otros años en la <a class="prelis26 modal-close" href="#ediciones-anteriores">sección de Ediciones anteriores</a>, aunque el año pasado se cambió a un nuevo formato y ahora son más preguntas más cortas que anteriormente. Puedes ver las soluciones de los exámenes de la final de PLANCKS de años anteriores <a class="prelis26" href="https://estudiantes.rsef.es/PLANCKS25/Exams">aquí</a>.
+        <p style="text-align: justify;"><strong>¿En qué consisten las Preliminares?</strong> Las Preliminares de PLANCKS 2027 es una competición de física teórica por equipos en la que habrá que resolver 8 problemas no muy largos. Puedes ver las pruebas de otros años en la <a class="prelis26 modal-close" href="#ediciones-anteriores">sección de Ediciones anteriores</a>, aunque el año pasado se cambió a un nuevo formato y ahora son más preguntas más cortas que anteriormente. Puedes ver las soluciones de los exámenes de la final de PLANCKS de años anteriores <a class="prelis26" href="https://estudiantes.rsef.es/PLANCKS26/Exams">aquí</a>.
         </p>        <!--https://forms.gle/MSpSEH1DZWzR62Zf6-->
         <p style="text-align: justify;"><strong>¿Cómo puedo participar en las Preliminares?</strong> Es muy sencillo: si conoces un@s cuant@s amig@s con los que te apetecería pasar un buen rato, resolver problemas que resultan todo un reto e inventarte respuestas disparatadas cuando no sepas por dónde salir, reúne un equipo de hasta cuatro personas y no lo dudes: <a class="prelis26" href="" id="inscripcion-button" target="_blank">¡inscríbete!</a> Los equipos deben de estar formados por 3 o 4 personas. Esta primera fase nacional nos permitirá seleccionar a los mejores equipos para que nos representen en la competición internacional, el año pasado se clasificaron cinco equipos a la fase final. </p>   
         <p style="text-align: justify;">Si ya existe una <a class="prelis26" href="https://estudiantes.rsef.es/delegaciones/">delegación del GdeE</a> en tu facultad, se ocuparán ellos de organizar las Prelis. Si no es el caso, es posible que el comité organizador os pida ayuda para encontrar un aula y un/a supervisor/a para poder garantizar una sede de las Preliminares en vuestra ciudad. </p>
-        <p style="text-align: justify;"><strong>¿Cómo y cuándo tendrán lugar las Preliminares?</strong> Las Preliminares de PLANCKS 2026 en España se celebrarán el próximo <strong>viernes 6 de marzo por la tarde</strong>, de forma simultánea en sedes situadas en facultades de física del territorio nacional. La prueba durará 3 horas y tendrá lugar de 16:00 a 19:00 (GMT+1).</p>        
+        <p style="text-align: justify;"><strong>¿Cómo y cuándo tendrán lugar las Preliminares?</strong> Las Preliminares de PLANCKS 2027 en España se celebrarán el próximo <strong>viernes 6 de marzo por la tarde</strong>, de forma simultánea en sedes situadas en facultades de física del territorio nacional. La prueba durará 3 horas y tendrá lugar de 16:00 a 19:00 (GMT+1).</p>        
         <p style="text-align: justify;"><strong>Y si la prueba os sale muy bien hay premio por partida doble...</strong></p>      
         <!--p style="text-align: justify;"><strong>Y si la prueba os sale muy bien...</strong></p-->        
         <list class="a">
           <li style="text-align: justify;">Las Preliminares de PLANCKS son la fase de clasificación nacional para PLANCKS en nuestro país. El mejor equipo de las Prelis nos representará en mayo en la final, ¡que se celebra en Eindhoven! La inscripción y alojamiento estará cubierta por el Grupo de Estudiantes. ¿Qué aún no sabes lo que es PLANCKS? Encuentra toda la información en <a class="prelis26 modal-trigger" href="#plancks-modal">este enlace</a>.</li>
           <li style="text-align: justify;">¡Y este año tenemos premios para los tres mejores equipos gracias a la financiación de la Fundación Ramón Areces! Lee más en <a href="#premios-modal" class="prelis26 modal-trigger">este enlace</a>.</li > 
         </list> 
-        <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a class="prelis26" href="/PreliminaresPLANCKS/2026/Competition_Rules____Preliminares_de_PLANCKS_2026.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
+        <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a class="prelis26" href="/PreliminaresPLANCKS/2027/Competition_Rules____Preliminares_de_PLANCKS_2026.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
       </div>
     </div>    
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="section" style="padding-left: 15px; padding-right: 15px; border: 2px solid #A51E1C;">
         <strong>Términos y Condiciones de IAPS</strong> | Todos los participantes:
         <p style="text-align: justify;">- Declaran conocer que PLANCKS está regulado por el Artículo 12 de las <a class="prelis26" href="https://www.iaps.info/wp-content/uploads/2023/01/iaps__Regulations_2022.pdf" target="_blank">IAPS Regulations</a>.</p>
-        <p style="text-align: justify;">- Y se comprometen a cumplir las <a class="prelis26" href="https://www.iaps.info/wp-content/uploads/2021/01/PLANCKS-General-Rules-EGM-2020.pdf" target="_blank">Reglas Generales de PLANCKS</a>, además del <a class="prelis26" href="https://www.iaps.info/wp-content/uploads/2022/08/IAPS-Code-of-Conduct-2020.pdf" target="_blank">IAPS Code of Conduct</a> y <a class="prelis26" href="/PreliminaresPLANCKS/2026/Terms-and-Conditions-2020.pdf" target="_blank"> los Términos y Condiciones de cualquier actividad de IAPS.</a></p>
+        <p style="text-align: justify;">- Y se comprometen a cumplir las <a class="prelis26" href="https://www.iaps.info/wp-content/uploads/2021/01/PLANCKS-General-Rules-EGM-2020.pdf" target="_blank">Reglas Generales de PLANCKS</a>, además del <a class="prelis26" href="https://www.iaps.info/wp-content/uploads/2022/08/IAPS-Code-of-Conduct-2020.pdf" target="_blank">IAPS Code of Conduct</a> y <a class="prelis26" href="/PreliminaresPLANCKS/2027/Terms-and-Conditions-2020.pdf" target="_blank"> los Términos y Condiciones de cualquier actividad de IAPS.</a></p>
         <!-- <p style="text-align: justify;">Además, habrán de tener en cuenta que el Grupo de Estudiantes de la RSEF no ejerce en modo alguno de intermediario económico en este convocatoria de PLANCKS.</p> -->
       </div>
     </div>    
@@ -397,12 +397,12 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center">
         <h3 class="justify">Información para supervisoras/es</h3>
-        <p style="text-align: justify;">¡Hola! Si has llegado hasta esta página es que puedes ser un/a posible supervisor/a de examen en las Preliminares de PLANCKS 2026. A continuación, te contamos cuáles son los requisitos y las responsabilidades del cargo.</p>
+        <p style="text-align: justify;">¡Hola! Si has llegado hasta esta página es que puedes ser un/a posible supervisor/a de examen en las Preliminares de PLANCKS 2027. A continuación, te contamos cuáles son los requisitos y las responsabilidades del cargo.</p>
         <p style="text-align: justify;">Lee sobre la información general de las Preliminares de PLANCKS en <a class="modal-trigger" href="#info-modal">este enlace</a>.</p>
         <p style="text-align: justify;"><strong>¿Cuáles son los requisitos del cargo de Supervisor/a?</strong> Son dos:</p>
         <list class="a">
           <li style="text-align: justify;">Ser investigador pre- o post-doctoral o ser docente universitario o de educación secundaria (en activo o jubilado).</li>
-          <li style="text-align: justify;">Comprometerse a tener disponibilidad en el rango horario 15:30h - 19:30h el viernes 6 de marzo de 2026, así como a dedicar esa disponibilidad a las responsabilidades abajo indicadas.</li>
+          <li style="text-align: justify;">Comprometerse a tener disponibilidad en el rango horario 15:30h - 19:30h el viernes 6 de marzo de 2027, así como a dedicar esa disponibilidad a las responsabilidades abajo indicadas.</li>
         </list>
         <p></p>
         <p style="text-align: justify;"><strong>¿Cuáles son las responsabilidades del cargo de Supervisor/a?</strong> Son las siguientes:</p>
@@ -413,8 +413,8 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
           <li style="text-align: justify;">Recoger las hojas de la prueba y escanearlas para enviarlas al Comité Organizador el mismo día de la prueba.</li>
         </list>
         <p></p>
-        <p style="text-align: justify;"><strong>¿Cómo puedo supervisar un examen en las Preliminares 2026?</strong> Es muy sencillo: sólo tienes que rellenar <a href="https://forms.gle/BXBE9NumcMeeNRqU9" id="inscripcion-supervisores-button" target="_blank">este formulario</a>. Una vez cumplimentado, nos pondremos en contacto contigo para informarte de los siguientes pasos.</p>
-        <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a href="/PreliminaresPLANCKS/2026/Competition_Rules____Preliminares_de_PLANCKS_2026.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
+        <p style="text-align: justify;"><strong>¿Cómo puedo supervisar un examen en las Preliminares 2027?</strong> Es muy sencillo: sólo tienes que rellenar <a href="https://forms.gle/BXBE9NumcMeeNRqU9" id="inscripcion-supervisores-button" target="_blank">este formulario</a>. Una vez cumplimentado, nos pondremos en contacto contigo para informarte de los siguientes pasos.</p>
+        <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a href="/PreliminaresPLANCKS/2027/Competition_Rules____Preliminares_de_PLANCKS_2026.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
          <div class="col s12 m6">
           <div class="row center">
             <a href="https://forms.gle/BXBE9NumcMeeNRqU9" id="inscripcion-supers-button" target="_blank" class="btn-plancks26 waves-effect waves-light" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Inscripción supervisores</strong></a>
@@ -445,7 +445,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
       <div class="row center">
         <div class="col s12 m6">
           <div class="row center">
-            <a href="https://plancks2026.verenigingspin.nl/" target="_blank" id="plancks-button" class="btn-plancks26 waves-effect waves-light" style="margin: 0 10px;"><strong>Conoce Plancks 2026</strong></a>
+            <a href="https://plancks2026.verenigingspin.nl/" target="_blank" id="plancks-button" class="btn-plancks26 waves-effect waves-light" style="margin: 0 10px;"><strong>Conoce Plancks 2027</strong></a>
           </div>
         </div>
         <div class="col s12 m6">
