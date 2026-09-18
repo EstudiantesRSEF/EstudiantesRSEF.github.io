@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Preliminares PLANCKS 2027
-description: ¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la novena edición de las Preliminares de PLANCKS! 
+# title: Preliminares PLANCKS 2027
+# description: ¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la novena edición de las Preliminares de PLANCKS!
 permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
 ---
 
