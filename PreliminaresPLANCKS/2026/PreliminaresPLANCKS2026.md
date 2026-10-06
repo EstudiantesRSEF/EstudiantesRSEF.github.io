@@ -328,8 +328,7 @@ permalink: /PreliminaresPLANCKS2026/
         </div>
       {% endif %}
     </div>
-  </div>
-</div>    
+
 
 <!-- INFO MODAL -->
 <div id="info-modal" class="modal prelis26">
