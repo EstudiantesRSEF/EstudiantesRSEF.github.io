@@ -370,7 +370,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
         <h3 class="justify">Premios</h3>
         <!--p style="text-align: justify;">
           Los clasificados participarán en la fase internacional de PLANCKS en San Pedro Sula, Honduras, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
-        </p-->
+        </p>
         <p style="text-align: justify;">
           Este año contamos con el apoyo y financiación de la <a class="prelis26" href="https://www.fundacionareces.es" id="ramon-areces" target="_blank">Fundación Ramón Areces</a>, que nos permite ofrecer premios a los tres mejores equipos: <strong>900€</strong> para el primer equipo, <strong>600€</strong>  para el segundo y <strong>500€</strong>  para el tercer clasificado. Además, los clasificados participarán en la fase internacional de PLANCKS en Honduras, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
         </p>
