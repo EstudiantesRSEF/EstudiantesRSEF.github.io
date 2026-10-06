@@ -1,7 +1,7 @@
 ---
 layout: default
 # title: Preliminares PLANCKS 2027
-# description: ¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la novena edición de las Preliminares de PLANCKS!
+# description: ¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la décima edición de las Preliminares de PLANCKS!
 permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
 ---
 
@@ -38,9 +38,9 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
       </h2>
       <hr> -->
       <!-- INTRODUCCIÓN -->
-      <p style="text-align: justify; line-height: 1.5;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la novena edición de las <strong>Preliminares de PLANCKS</strong>! Y este año también ofrecemos <strong>2000€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces. Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p>       
-      <!--p style="text-align: justify; line-height: 1.5;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la novena edición de las <strong>Preliminares de PLANCKS</strong>! Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!
-      </p-->
+      <!-- <p style="text-align: justify; line-height: 1.5;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la décima edición de las <strong>Preliminares de PLANCKS</strong>! Y este año también ofrecemos <strong>2000€ en PREMIOS</strong> gracias al apoyo de la Fundación Ramón Areces. Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!</p> -->
+      <p style="text-align: justify; line-height: 1.5;">¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la décima edición de las <strong>Preliminares de PLANCKS</strong>! Así que reúne a un grupo de motivados como tú y sigue explorando la web para saber más. ¡Bienvenid@!
+      </p>
       <!-- BOTONES -->
       <div class="section" style="display: flex; flex-direction: column; justify-content: space-between">
         <div class="center" style="margin: 0 0 20px 0"> <!--Antes: <div class="row center">. Daba problemas. Revertir si es necesario-->
@@ -49,7 +49,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
         <div class="row_prelis">
           <a href="#supervisores-modal" id="supervisores-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Supervisoras/es</strong></a>
           <a href="#plancks-modal" id="conocer-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px; line-height: 1.1;"><i class="material-icons" style="padding-right: 8px;">explore</i><strong>Conoce Plancks</strong></a>
-          <a href="#premios-modal" id="premios-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px"><i class="material-icons" style="padding-right: 8px;">star</i><strong>Premios</strong></a>
+          <!--a href="#premios-modal" id="premios-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px"><i class="material-icons" style="padding-right: 8px;">star</i><strong>Premios</strong></a-->
           <a href="#inscripcion-modal" id="inscripcion-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">create</i><strong>Inscríbete</strong></a>
         </div>
       </div>
@@ -343,7 +343,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
         <!--p style="text-align: justify;"><strong>Y si la prueba os sale muy bien...</strong></p-->        
         <list class="a">
           <li style="text-align: justify;">Las Preliminares de PLANCKS son la fase de clasificación nacional para PLANCKS en nuestro país. El mejor equipo de las Prelis nos representará en mayo en la final, ¡que se celebra en San Pedro Sula! La inscripción y alojamiento estará cubierta por el Grupo de Estudiantes. ¿Qué aún no sabes lo que es PLANCKS? Encuentra toda la información en <a class="prelis26 modal-trigger" href="#plancks-modal">este enlace</a>.</li>
-          <li style="text-align: justify;">¡Y este año tenemos premios para los tres mejores equipos gracias a la financiación de la Fundación Ramón Areces! Lee más en <a href="#premios-modal" class="prelis26 modal-trigger">este enlace</a>.</li > 
+          <!--li style="text-align: justify;">¡Y este año tenemos premios para los tres mejores equipos gracias a la financiación de la Fundación Ramón Areces! Lee más en <a href="#premios-modal" class="prelis26 modal-trigger">este enlace</a>.</li--> 
         </list> 
         <p style="text-align: justify;"><i class="material-icons" style="padding-right: 8px;">warning</i><strong>Lee las reglas de la competición en <a class="prelis26" href="/PreliminaresPLANCKS/2027/Competition_Rules____Preliminares_de_PLANCKS_2026.pdf" id="reglas-button" target="_blank">este enlace</a>.</strong></p>
       </div>
@@ -363,7 +363,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
 </div>
 
 <!-- PREMIOS MODAL -->
-<div id="premios-modal" class="modal prelis26">
+<!-- <div id="premios-modal" class="modal prelis26">
   <div class="modal-content-tight">
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center">
@@ -381,7 +381,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
           Si aún no sabes de qué estamos hablando, clica en este <a class="modal-trigger" href="#info-modal">este enlace</a>.
         </p>
       </div>
-    </div>
+    </div>-->
   </div>
   <div class="modal-footer">
     <a href="#!" class="modal-close waves-effect waves-green btn-flat">CERRAR</a>
