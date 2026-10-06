@@ -381,12 +381,12 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
           Si aún no sabes de qué estamos hablando, clica en este <a class="modal-trigger" href="#info-modal">este enlace</a>.
         </p>
       </div>
-    </div>-->
+    </div>>
   </div>
   <div class="modal-footer">
     <a href="#!" class="modal-close waves-effect waves-green btn-flat">CERRAR</a>
   </div>
-</div>
+</div-->
 
 <!-- SUPERVISORES MODAL -->
 <div id="supervisores-modal" class="modal prelis26">
