@@ -433,8 +433,11 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
       <div class="row center">
         <h3 class="justify">Conoce Plancks </h3>
         <p style="text-align: justify;"><strong>¿Qué es PLANCKS?</strong> PLANCKS (Physics League Across Numerous Countries for Kick-ass Students) es la competición internacional de física teórica de IAPS, la International Association of Physics Students. En ella pueden participar equipos de tres a cuatro estudiantes de grado y/o máster. Además, la competición se enmarca en un evento de varios días repleto de charlas y actividades para que los participantes se conozcan entre sí.</p>
-        <p style="text-align: justify;">
+        <!--p style="text-align: justify;">
           Este año PLANCKS tendrá lugar del 1 al 5 de mayo en San Pedro Sula. ¡La última edición reunió XX equipos de XX países! Si quieres conocer más sobre PLANCKS y IAPS, la International Association of Physics Students, clica en los enlaces siguientes.
+        </p-->
+        <p style="text-align: justify;">
+          Este año PLANCKS tendrá lugar del 1 al 5 de mayo en San Pedro Sula. ¡En la última edición se inscribieron 57 equipos de 34 países! Si quieres conocer más sobre PLANCKS y IAPS, la International Association of Physics Students, clica en los enlaces siguientes.
         </p>
       </div>
     </div>    
