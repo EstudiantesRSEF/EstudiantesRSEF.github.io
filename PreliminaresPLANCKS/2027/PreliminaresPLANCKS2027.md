@@ -502,6 +502,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
               <p align="center">Miryam Suárez Delgado - Web </p>
               <p align="center">Óscar Naranjo López - Web </p>
               <p align="center">Nilo Muñiz Martínez - Web </p>
+              <p align="center">Juan de Frutos Jiménez - Web </p>
               <p align="center">Emma Rebollar Cuenca - Grafismos </p>
               <p align="center">Adrián Ocaña  González - Logística</p>
               <p align="center">Álvaro Serrano Ruiz - Logística</p>
