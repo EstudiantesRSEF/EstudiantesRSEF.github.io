@@ -1,11 +1,11 @@
 from Map_Functions import get_google_sheet_data,load_json, filter_universities, generate_university_maps, list_processing
 
-spreadsheet_id = '1zDbVXgE4-az4Uh626jjQNQqNu1hGD5wrU919KCR7LPs'
-api_key = 'AIzaSyA1bagRhIkVfKJqYE2XYroOIKcCTwhWs1c'
-sheet_name = "Web"
+spreadsheet_id = '1zb6UrHOUOfCkk7eJwE0iA4UoG2NySX34MRwNg8nWLak'
+api_key = 'AIzaSyA20q0RD66mntBrw3uUFeyBboos3zpjn1k'
+sheet_name = "Hoja 1"
 
-dict_path = r"/workspaces/EstudiantesRSEF.github.io/PreliminaresPLANCKS/2026/Mapa/university_dic.json"  
-university_data_path = r"/workspaces/EstudiantesRSEF.github.io/PreliminaresPLANCKS/2026/Mapa/universities_data.json"
+dict_path = r"/workspaces/EstudiantesRSEF.github.io/PreliminaresPLANCKS/2027/Mapa/university_dic.json"  
+university_data_path = r"/workspaces/EstudiantesRSEF.github.io/PreliminaresPLANCKS/2027/Mapa/universities_data.json"
 
 sheet_data = get_google_sheet_data(spreadsheet_id,sheet_name, api_key)
 
