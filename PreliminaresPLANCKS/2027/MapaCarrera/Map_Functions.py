@@ -204,7 +204,7 @@ def generate_university_maps(university_data_path):
         layout = column(p, div) if mobile else row(p, div)
 
         file_option = "mobile" if mobile else "desktop"
-        file_name = rf"/workspaces/EstudiantesRSEF.github.io/PreliminaresPLANCKS/2027/Mapa/universities_map_{file_option}.html"
+        file_name = rf"/workspaces/EstudiantesRSEF.github.io/PreliminaresPLANCKS/2027/MapaCarrera/universities_map_{file_option}.html"
         output_file(file_name, title="Mapa de Universidades")
 
         # Save the plot and layout as an HTML file
