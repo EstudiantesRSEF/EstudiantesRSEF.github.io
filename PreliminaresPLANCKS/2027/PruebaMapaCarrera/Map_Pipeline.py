@@ -4,9 +4,9 @@ spreadsheet_id = '1zb6UrHOUOfCkk7eJwE0iA4UoG2NySX34MRwNg8nWLak'
 api_key = 'AIzaSyA20q0RD66mntBrw3uUFeyBboos3zpjn1k'
 sheet_name = "Hoja 1"
 
-dict_path = r"/workspaces/EstudiantesRSEF.github.io/PreliminaresPLANCKS/2027/Mapa/university_dic.json"  
-university_data_path = r"/workspaces/EstudiantesRSEF.github.io/PreliminaresPLANCKS/2027/Mapa/universities_data.json"
-race_data_path = r"/workspaces/EstudiantesRSEF.github.io/PreliminaresPLANCKS/2027/Mapa/carrera_data.json"
+dict_path = r"/workspaces/EstudiantesRSEF.github.io/PreliminaresPLANCKS/2027/PruebaMapaCarrera/university_dic.json"  
+university_data_path = r"/workspaces/EstudiantesRSEF.github.io/PreliminaresPLANCKS/2027/PruebaMapaCarrera/universities_data.json"
+race_data_path = r"/workspaces/EstudiantesRSEF.github.io/PreliminaresPLANCKS/2027/PruebaMapaCarrera/carrera_data.json"
 
 sheet_data = get_google_sheet_data(spreadsheet_id,sheet_name, api_key)
 
