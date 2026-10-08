@@ -90,7 +90,7 @@ def generate_university_maps(university_data_path):
     Returns the file paths for both versions.
     """
     # Load regions GeoJSON data (for boundaries)
-    with open(r"/workspaces/EstudiantesRSEF.github.io/PreliminaresPLANCKS/2027/Mapa/spainMapsDivisions.json", "r", encoding="utf-8") as f:
+    with open(r"/workspaces/EstudiantesRSEF.github.io/PreliminaresPLANCKS/2027/MapaCarrera/spainMapsDivisions.json", "r", encoding="utf-8") as f:
         regions_geojson = json.load(f)
     regions_source = GeoJSONDataSource(geojson=json.dumps(regions_geojson))
 
