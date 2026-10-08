@@ -146,15 +146,15 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
       <div class="section">
           <strong><h3>El mapa de las Preliminares de PLANCKS 2027</h3></strong>
           <p style="text-align: justify;">¡En el siguiente mapa puedes consultar todas las sedes!</p>
-          <iframe id="content-desktop" src="/PreliminaresPLANCKS/2027/PruebaMapaCarrera/universities_map_desktop.html" class="scalable-iframe" style="border:none"></iframe> 
-          <iframe id="content-mobile" src="/PreliminaresPLANCKS/2027/PruebaMapaCarrera/universities_map_mobile.html" class="scalable-iframe" style="border:none; width: 100%"></iframe> 
+          <iframe id="content-desktop" src="/PreliminaresPLANCKS/2027/MapaCarrera/universities_map_desktop.html" class="scalable-iframe" style="border:none"></iframe> 
+          <iframe id="content-mobile" src="/PreliminaresPLANCKS/2027/MapaCarrera/universities_map_mobile.html" class="scalable-iframe" style="border:none; width: 100%"></iframe> 
       </div> 
       <!-- Carrera  -->
 		<h3>¡Sigue la carrera de inscripciones!</h3>
 
 <div class="iframe-responsive-wrapper">
      <iframe 
-        src="/PreliminaresPLANCKS/2027/PruebaMapaCarrera/carrera.html" 
+        src="/PreliminaresPLANCKS/2027/MapaCarrera/carrera.html" 
         loading="lazy"
         class="carrera-iframe">
      </iframe>
