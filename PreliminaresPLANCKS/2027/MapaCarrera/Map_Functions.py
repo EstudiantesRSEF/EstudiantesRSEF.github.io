@@ -4,9 +4,12 @@ from bokeh.plotting import figure, show
 from bokeh.models import GeoJSONDataSource, ColumnDataSource, HoverTool, Div, CustomJS, WheelZoomTool, Model
 from bokeh.layouts import row, column
 from bokeh.io import output_file, save, curdoc
+from pathlib import Path
 import math
 import re
 import logging
+
+BASE_DIR = Path(__file__).resolve().parent
 
 def get_google_sheet_data(spreadsheet_id,sheet_name, api_key):
     # Construct the URL for the Google Sheets API
@@ -90,7 +93,8 @@ def generate_university_maps(university_data_path):
     Returns the file paths for both versions.
     """
     # Load regions GeoJSON data (for boundaries)
-    with open(r"/workspaces/EstudiantesRSEF.github.io/PreliminaresPLANCKS/2027/MapaCarrera/spainMapsDivisions.json", "r", encoding="utf-8") as f:
+    geojson_path = BASE_DIR/"spainMapsDivisions.json"
+    with open(geojson_path, "r", encoding="utf-8") as f:
         regions_geojson = json.load(f)
     regions_source = GeoJSONDataSource(geojson=json.dumps(regions_geojson))
 
@@ -204,8 +208,8 @@ def generate_university_maps(university_data_path):
         layout = column(p, div) if mobile else row(p, div)
 
         file_option = "mobile" if mobile else "desktop"
-        file_name = rf"/workspaces/EstudiantesRSEF.github.io/PreliminaresPLANCKS/2027/MapaCarrera/universities_map_{file_option}.html"
-        output_file(file_name, title="Mapa de Universidades")
+        file_name = BASE_DIR/f"universities_map_{file_option}.html"
+        output_file(str(file_name), title="Mapa de Universidades")
 
         # Save the plot and layout as an HTML file
         save(layout)

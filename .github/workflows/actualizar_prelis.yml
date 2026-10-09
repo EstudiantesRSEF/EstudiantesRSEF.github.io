@@ -1,0 +1,65 @@
+name: Actualizador Mapa y Carrera Prelis
+
+on:
+  schedule:
+    # Se ejecuta al minuto 0 de cada hora
+    - cron: '0 * * * *'
+  # Boton manual en GitHub Actions para probarlo cuando quieras
+  workflow_dispatch:
+
+# OBLIGATORIO: Otorga permisos al bot para hacer git push
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Comprobar fecha limite (hasta el 16 de noviembre de 2026)
+        id: check_fecha
+        run: |
+          FECHA_ACTUAL=$(date +%Y%m%d)
+          FECHA_LIMITE=20261116
+          if [ "$FECHA_ACTUAL" -gt "$FECHA_LIMITE" ]; then
+            echo "El periodo de inscripciones de Prelis ha pasado. Deteniendo ejecucion."
+            echo "valido=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "valido=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Descargar repositorio
+        if: steps.check_fecha.outputs.valido == 'true'
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        if: steps.check_fecha.outputs.valido == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        if: steps.check_fecha.outputs.valido == 'true'
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests bokeh
+
+      - name: Ejecutar script de actualizacion
+        if: steps.check_fecha.outputs.valido == 'true'
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: |
+          cd PreliminaresPLANCKS/2027/MapaCarrera
+          python Map_Pipeline.py
+
+      - name: Guardar y subir cambios
+        if: steps.check_fecha.outputs.valido == 'true'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          if ! git diff --quiet || ! git diff --staged --quiet; then
+            git commit -m "Auto-actualizacion de mapas y datos [skip ci]"
+            git pull --rebase origin main || git pull --rebase origin master
+            git push
+          fi

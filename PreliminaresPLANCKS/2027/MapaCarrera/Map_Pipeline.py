@@ -1,12 +1,23 @@
+import os
+from pathlib import Path
 from Map_Functions import get_google_sheet_data,load_json, filter_universities, generate_university_maps, list_processing, generate_race_data
 
+#Tomamos la API guardada como Secreto en GitHub
+api_key = os.environ.get("GOOGLE_API_KEY")
+
+#Comprobamos que es válida
+if not api_key:
+    raise ValueError("Error: no se encontró la variable de entorno 'GOOGLE_API_KEY'.")
+
+#Datos de la Hoja de Cálculo que vamos a leer
 spreadsheet_id = '1zb6UrHOUOfCkk7eJwE0iA4UoG2NySX34MRwNg8nWLak'
-api_key = 'AIzaSyA20q0RD66mntBrw3uUFeyBboos3zpjn1k'
 sheet_name = "Hoja 1"
 
-dict_path = r"/workspaces/EstudiantesRSEF.github.io/PreliminaresPLANCKS/2027/MapaCarrera/university_dic.json"  
-university_data_path = r"/workspaces/EstudiantesRSEF.github.io/PreliminaresPLANCKS/2027/MapaCarrera/universities_data.json"
-race_data_path = r"/workspaces/EstudiantesRSEF.github.io/PreliminaresPLANCKS/2027/MapaCarrera/carrera_data.json"
+#Rutas de los archivos (usando rutas dinámicas)
+BASE_DIR = Path(__file__).resolve().parent
+dict_path = BASE_DIR/"university_dic.json"  
+university_data_path = BASE_DIR/"universities_data.json"
+race_data_path = BASE_DIR/"carrera_data.json"
 
 sheet_data = get_google_sheet_data(spreadsheet_id,sheet_name, api_key)
 
@@ -16,15 +27,15 @@ try:
     print("Sheet succesfully read")    
     print(useful_info)    
     # print(type(useful_info[1][3]))
-except:
-    print("Failed to fetch data from Google Sheets API.")
+except Exception as e:
+    print(f"Failed to fetch data from Google Sheets API:{e}")
 
 else:    
-    data_dict = load_json(dict_path)
+    data_dict = load_json(str(dict_path))
     print("Dictionary read")
     
-    filter_universities(useful_info, data_dict, output_file=university_data_path)
-    generate_race_data(useful_info, output_file=race_data_path)
+    filter_universities(useful_info, data_dict, output_file=str(university_data_path))
+    generate_race_data(useful_info, output_file=str(race_data_path))
 
-    generate_university_maps(university_data_path)
+    generate_university_maps(str(university_data_path))
 
