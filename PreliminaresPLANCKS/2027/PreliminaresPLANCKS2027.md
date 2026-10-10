@@ -49,7 +49,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
         <div class="row_prelis">
           <a href="#supervisores-modal" id="supervisores-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">remove_red_eye</i><strong>Supervisoras/es</strong></a>
           <a href="#plancks-modal" id="conocer-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px; line-height: 1.1;"><i class="material-icons" style="padding-right: 8px;">explore</i><strong>Conoce Plancks</strong></a>
-          <!--a href="#premios-modal" id="premios-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px"><i class="material-icons" style="padding-right: 8px;">star</i><strong>Premios</strong></a-->
+          <a href="#premios-modal" id="premios-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px"><i class="material-icons" style="padding-right: 8px;">star</i><strong>Premios</strong></a>
           <a href="#inscripcion-modal" id="inscripcion-button" class="collection-item modal-trigger btn-rounded plancks26-color" style="margin: 0 10px;"><i class="material-icons" style="padding-right: 8px;">create</i><strong>Inscríbete</strong></a>
         </div>
       </div>
@@ -363,15 +363,15 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
 </div>
 
 <!-- PREMIOS MODAL -->
-<!-- <div id="premios-modal" class="modal prelis26">
+<div id="premios-modal" class="modal prelis26">
   <div class="modal-content-tight">
     <div class="section" style="padding-left: 30px; padding-right: 30px;">
       <div class="row center">
         <h3 class="justify">Premios</h3>
-        <!--p style="text-align: justify;">
+        <p style="text-align: justify;">
           Los clasificados participarán en la fase internacional de PLANCKS en San Pedro Sula, Honduras, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
         </p>
-        <p style="text-align: justify;">
+        <!--p style="text-align: justify;">
           Este año contamos con el apoyo y financiación de la <a class="prelis26" href="https://www.fundacionareces.es" id="ramon-areces" target="_blank">Fundación Ramón Areces</a>, que nos permite ofrecer premios a los tres mejores equipos: <strong>900€</strong> para el primer equipo, <strong>600€</strong>  para el segundo y <strong>500€</strong>  para el tercer clasificado. Además, los clasificados participarán en la fase internacional de PLANCKS en Honduras, con la inscripción y el alojamiento financiado por el Grupo de Estudiantes.
         </p>
         <p style="text-align: justify;">
@@ -379,14 +379,14 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
         </p>
         <p style="text-align: justify;">
           Si aún no sabes de qué estamos hablando, clica en este <a class="modal-trigger" href="#info-modal">este enlace</a>.
-        </p>
+        </p-->
       </div>
     </div>>
   </div>
   <div class="modal-footer">
     <a href="#!" class="modal-close waves-effect waves-green btn-flat">CERRAR</a>
   </div>
-</div-->
+</div>
 
 <!-- SUPERVISORES MODAL -->
 <div id="supervisores-modal" class="modal prelis26">
