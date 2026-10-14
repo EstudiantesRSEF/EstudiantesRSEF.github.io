@@ -307,6 +307,26 @@
         }
         .schedule-info { flex: 1; }
         .schedule-speaker { font-weight: 600; color: var(--verde-medio); display: block; font-size: 1rem; }
+        .schedule-download {
+            display: block;
+            max-width: 900px;
+            margin: 30px auto 0;
+            text-align: center;
+        }
+        .schedule-download span {
+            display: block;
+            margin-bottom: 15px;
+            color: var(--verde-oscuro);
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+        .schedule-download img {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+        }
 
         /* 4. OC / COMITÉ ORGANIZADOR */
         .grid-oc {
@@ -676,10 +696,6 @@
                             <div class="schedule-info"><span class="schedule-speaker">Traditional Migas Lunch</span></div>
                         </li>
                         <li class="schedule-item">
-                            <div class="schedule-time">15:00 - 16:00</div>
-                            <div class="schedule-info"><span class="schedule-speaker">Company Fair</span></div>
-                        </li>
-                        <li class="schedule-item">
                             <div class="schedule-time">16:30 - 17:00</div>
                             <div class="schedule-info"><span class="schedule-speaker">Bus to City Center</span></div>
                         </li>
@@ -752,11 +768,15 @@
                             <div class="schedule-info"><span class="schedule-speaker">Lab Tours</span></div>
                         </li>
                         <li class="schedule-item">
-                            <div class="schedule-time">14:30 - 16:00</div>
+                            <div class="schedule-time">14:30 - 16:30</div>
                             <div class="schedule-info"><span class="schedule-speaker">Traditional Rice Lunch</span></div>
                         </li>
                         <li class="schedule-item">
-                            <div class="schedule-time">16:00 - 16:30</div>
+                            <div class="schedule-time">16:30 - 17:30</div>
+                            <div class="schedule-info"><span class="schedule-speaker">Fun Physics</span></div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">17:30 - 18:00</div>
                             <div class="schedule-info"><span class="schedule-speaker">Bus to City Center</span></div>
                         </li>
                         <li class="schedule-item">
@@ -792,6 +812,10 @@
             </div>
 
         </div>
+        <a class="schedule-download" href="IMG-20261014-WA0029.jpg" download="HorarioSIPE2026.jpg" aria-label="Download the full SIPE 2026 schedule">
+            <span>Download the full schedule</span>
+            <img src="IMG-20261014-WA0029.jpg" alt="Full SIPE 2026 schedule">
+        </a>
     </section>
 
     <section id="OC">
