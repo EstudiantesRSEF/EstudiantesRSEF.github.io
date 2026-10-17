@@ -226,6 +226,36 @@ button.btn-floating {
   display: block;
 }
 
+.btn-plancks27 {
+  @extend .btn-large; 
+  color: #ffffff;
+  background-color: #2A4D3E;
+  font-weight: bold;
+  border-radius: 50px !important; 
+
+  &:hover {
+    background-color: #A36A28;
+  }
+}
+.bubble-buttons .btn-plancks27 {
+  border: 2px solid #A36A28;
+  flex: 1; 
+  text-align: center; 
+  padding: 12px 0; 
+  display: flex; /* inline-block */
+  align-items: center;
+  justify-content: center;
+  width: 100px; 
+  height: 50px;
+  box-sizing: border-box; 
+  line-height: 1;
+}
+// Block button
+.btn-block {
+  display: block;
+}
+
+
 
 // Variables
 $enef25-blue: #00589D;
@@ -299,6 +329,15 @@ $enef26-orange: #ec8d1c;
 
   &:hover {
     background-color: #C35B13 !important;
+  }
+}
+
+.plancks27-color{ 
+  color: #ffffff !important; 
+  background-color: #2A4D3E !important;
+
+  &:hover {
+    background-color: #A36A28 !important;
   }
 }
 
@@ -477,6 +516,26 @@ a.enef25-link {
     color: #C35B13; // Orange color for hovered links
   }
   .btn-plancks26 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.1;
+  }
+}
+
+.prelis27{
+  a:not(.btn-plancks27), span {
+    color: #2A4D3E; // Red color for standard links and spans
+  }
+
+  a:not(.btn-plancks27):visited {
+    color: #2A4D3E; // Red color for clicked links
+  }
+
+  a:not(.btn-plancks27):hover {
+    color: #A36A28; // Orange color for hovered links
+  }
+  .btn-plancks27 {
     display: flex;
     align-items: center;
     justify-content: center;
