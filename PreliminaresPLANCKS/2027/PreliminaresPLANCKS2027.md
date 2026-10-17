@@ -151,15 +151,15 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
           <iframe id="content-mobile" src="/PreliminaresPLANCKS/2027/MapaCarrera/universities_map_mobile.html" class="scalable-iframe" style="border:none; width: 100%"></iframe> 
       </div> 
       <!-- Carrera  -->
-		<h3>¡Sigue la carrera de inscripciones!</h3>
+		<!--<h3>¡Sigue la carrera de inscripciones!</h3>-->
 
-<div class="iframe-responsive-wrapper">
+<!--<div class="iframe-responsive-wrapper">
      <iframe 
         src="/PreliminaresPLANCKS/2027/MapaCarrera/carrera.html" 
         loading="lazy"
         class="carrera-iframe">
      </iframe>
-</div>
+</div>-->
 
 <style>
   /* Contenedor: maneja el desbordamiento (scroll) */
@@ -437,18 +437,21 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
         <!--p style="text-align: justify;">
           Este año PLANCKS tendrá lugar del 1 al 5 de mayo en San Pedro Sula. ¡La última edición reunió XX equipos de XX países! Si quieres conocer más sobre PLANCKS y IAPS, la International Association of Physics Students, clica en los enlaces siguientes.
         </p-->
-        <p style="text-align: justify;">
+        <!--p style="text-align: justify;">
           Este año PLANCKS tendrá lugar del 1 al 5 de mayo en San Pedro Sula. ¡En la última edición se inscribieron 57 equipos de 34 países! Si quieres conocer más sobre PLANCKS y IAPS, la International Association of Physics Students, clica en los enlaces siguientes.
+        </p-->
+        <p style="text-align: justify;">
+          Este año PLANCKS tendrá lugar del 1 al 5 de mayo en San Pedro Sula. ¡En la última edición se inscribieron 57 equipos de 34 países! Si quieres conocer más sobre IAPS, la International Association of Physics Students, clica en el enlace siguiente.
         </p>
       </div>
     </div>    
     <div class="section">
       <div class="row center">
-        <div class="col s12 m6">
+        <!--<div class="col s12 m6">
           <div class="row center">
             <a href="https://plancks2026.verenigingspin.nl/" target="_blank" id="plancks-button" class="btn-plancks27 waves-effect waves-light" style="margin: 0 10px;"><strong>Conoce Plancks 2027</strong></a>
           </div>
-        </div>
+        </div>-->
         <div class="col s12 m6">
           <div class="row center">
             <a href="https://www.iaps.info/" target="_blank" id="iaps-button" class="btn-plancks27 waves-effect waves-light" style="margin: 0 10px;"><strong>Conoce IAPS</strong></a>
