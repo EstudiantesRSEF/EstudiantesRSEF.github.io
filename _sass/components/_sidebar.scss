@@ -402,11 +402,11 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
   @extend .sb-sidebar;
   
   li {
-    border-bottom: 2px solid #2A4D3E;
+    border-bottom: 2px solid #376694;
   }
   
   p {
-    color: #2A4D3E;
+    color: #376694;
   }
 }
 
@@ -450,7 +450,7 @@ $plancks25-light-teal: lighten($plancks25-teal, 45%);
     p {
       margin: 10px 0 0; // Espaciado encima del texto
       font-size: 20px;
-      color: #2A4D3E; // Color texto
+      color: #376694; // Color texto
       font-weight: bold; // Texto en negrita
       text-align: center; // Asegura que el texto esté centrado
       line-height: 1.1;

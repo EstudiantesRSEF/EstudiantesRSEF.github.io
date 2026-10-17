@@ -229,16 +229,16 @@ button.btn-floating {
 .btn-plancks27 {
   @extend .btn-large; 
   color: #ffffff;
-  background-color: #2A4D3E;
+  background-color: #376694;
   font-weight: bold;
   border-radius: 50px !important; 
 
   &:hover {
-    background-color: #A36A28;
+    background-color: #8bdd68;
   }
 }
 .bubble-buttons .btn-plancks27 {
-  border: 2px solid #A36A28;
+  border: 2px solid #8bdd68;
   flex: 1; 
   text-align: center; 
   padding: 12px 0; 
@@ -334,10 +334,10 @@ $enef26-orange: #ec8d1c;
 
 .plancks27-color{ 
   color: #ffffff !important; 
-  background-color: #2A4D3E !important;
+  background-color: #376694 !important;
 
   &:hover {
-    background-color: #A36A28 !important;
+    background-color: #8bdd68 !important;
   }
 }
 
@@ -525,15 +525,15 @@ a.enef25-link {
 
 .prelis27{
   a:not(.btn-plancks27), span {
-    color: #2A4D3E; // Red color for standard links and spans
+    color: #376694; // Red color for standard links and spans
   }
 
   a:not(.btn-plancks27):visited {
-    color: #2A4D3E; // Red color for clicked links
+    color: #376694; // Red color for clicked links
   }
 
   a:not(.btn-plancks27):hover {
-    color: #A36A28; // Orange color for hovered links
+    color: #8bdd68; // Orange color for hovered links
   }
   .btn-plancks27 {
     display: flex;
