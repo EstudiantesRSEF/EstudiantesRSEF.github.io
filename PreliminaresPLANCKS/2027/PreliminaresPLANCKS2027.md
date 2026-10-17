@@ -31,7 +31,7 @@ permalink: /abfqeilrgbalkbaifhlkqahfenbf0i0409357/
     </div>
     <div class="prelis25-content">
       <!-- BANNER -->
-      <img class="materialboxed" width="100%" src="/img/eventos/2026-PrelisPLANCKS/Prelis26_Banner.png">
+      <img class="materialboxed" width="100%" src="/img/eventos/2027-PrelisPLANCKS/Prelis27_Banner.png">
       <!-- RESULTADOS -->
       <!-- <hr>
       <h2 style="text-align: center;">
