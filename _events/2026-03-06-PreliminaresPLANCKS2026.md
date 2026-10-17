@@ -9,8 +9,8 @@ locandina: /img/eventos/2026-PrelisPLANCKS/Prelis26_Logo.png
 cover: /img/eventos/2026-PrelisPLANCKS/Prelis26_Logo.png
 gallery:
 site: /PreliminaresPLANCKS2026/
-ranking: 
-exam: 
+ranking: https://estudiantes.rsef.es/PreliminaresPLANCKS/2026/puntuaciones.html
+exam: https://estudiantes.rsef.es/PreliminaresPLANCKS/2026/Soluciones_PrelisPLANCK2026.pdf
 comm: 
 ---
 
