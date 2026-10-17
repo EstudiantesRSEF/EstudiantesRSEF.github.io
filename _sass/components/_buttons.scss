@@ -234,11 +234,11 @@ button.btn-floating {
   border-radius: 50px !important; 
 
   &:hover {
-    background-color: #8bdd68;
+    background-color: #7ED957;
   }
 }
 .bubble-buttons .btn-plancks27 {
-  border: 2px solid #8bdd68;
+  border: 2px solid #7ED957;
   flex: 1; 
   text-align: center; 
   padding: 12px 0; 
@@ -337,7 +337,7 @@ $enef26-orange: #ec8d1c;
   background-color: #376694 !important;
 
   &:hover {
-    background-color: #8bdd68 !important;
+    background-color: #7ED957 !important;
   }
 }
 
@@ -533,7 +533,7 @@ a.enef25-link {
   }
 
   a:not(.btn-plancks27):hover {
-    color: #8bdd68; // Orange color for hovered links
+    color: #7ED957; // Orange color for hovered links
   }
   .btn-plancks27 {
     display: flex;
@@ -628,7 +628,7 @@ a.enef25-link {
 .donation-button {
   display: inline-block;
   padding: 15px 30px;
-  background-color: #27ae60;
+  background-color: #7ED957;
   color: white;
   text-decoration: none;
   font-size: 18px;
