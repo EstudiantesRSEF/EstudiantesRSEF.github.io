@@ -2,8 +2,8 @@ name: Actualizador Mapa y Carrera Prelis
 
 on:
   schedule:
-    # Se ejecuta al minuto 0 de cada hora
-    - cron: '0 * * * *'
+    # Se ejecuta al minuto 15 de cada hora
+    - cron: '15 * * * *'
   # Boton manual en GitHub Actions para probarlo cuando quieras
   workflow_dispatch:
 
