@@ -10,7 +10,11 @@ patrocinadores:
   - name: "UMU"
     logo: "/SIPE/Sponsors/UMU.jpg"
     url: "https://www.um.es/"
-  
+
+  # - name: "Ambasciata d'Italia Madrid"
+  #   logo: "/SIPE/Sponsors/IMG-20261010-WA0005.jpg"
+  #   url: "https://ambmadrid.esteri.it/es/"
+
   - name: "UMU-VicEstudiantes"
     logo: "/SIPE/Sponsors/Logo-VIC-Estudiantes-positivo-v1 (1).png"
     url: "https://www.um.es/web/vice-estudiantes/"
@@ -46,3 +50,4 @@ patrocinadores:
   - name: "PLDSpace"
     logo: "/SIPE/Sponsors/PLDSpace_Logo_Black 1.png"
     url: "https://www.pldspace.com/"
+    
