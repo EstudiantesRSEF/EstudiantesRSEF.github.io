@@ -3,7 +3,6 @@ layout: default
 title: Preliminares PLANCKS 2027
 description: ¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la décima edición de las Preliminares de PLANCKS!
 permalink: /PreliminaresPLANCKS2027/
-image: "https://EstudiantesRSEF.github.io/EstudiantesRSEF/img/eventos/2027-PrelisPLANCKS/Prelis27_Logo.png"
 ---
 
 <div class="no-pad-top" id="index-page">
@@ -308,8 +307,8 @@ image: "https://EstudiantesRSEF.github.io/EstudiantesRSEF/img/eventos/2027-Preli
                   <p><small><b>{{ event.place }}</b> {{ event.startingdate | date: '%d %b %Y' }} {% if event.endingdate != nil %} - {{ event.endingdate | date: '%d %b %Y' }}                    {% endif %} </small></p>
                 </div>
                 <div class="card-action">
-                  <a href="{{ event.ranking }}" target="_blank">Clasificación</a>
-                  <a href="{{ event.exam }}" target="_blank">Soluciones</a>
+                  {% if event.ranking != nil %}<a href="{{ event.ranking }}" target="_blanck">Clasificación</a>{% endif %}
+                  {% if event.exam != nil %}<a href="{{ event.exam }}"  target="_blanck">Soluciones</a>{% endif %}
                   <a href="{{ event.url }}">Post web</a>
                   {% if event.comm != nil %}<a href="{{ event.comm }}">Comités Organizador y Académico</a>{% endif %}
                 </div>
