@@ -9,11 +9,11 @@ permalink: /PreliminaresPLANCKS/
 <!-- INTRODUCCIÓN -->
     <p style="text-align: justify;">
     ¿Te gustan los retos y te apasiona la física? ¿Quieres aspirar a representar a nuestro país en un concurso internacional con estudiantes de física de todo el mundo?
-    El Grupo de Estudiantes de la RSEF lleva ya ocho años organizando las <strong>Preliminares de PLANCKS</strong> en España. Para participar sólo hace falta reunir un grupo de motivados como tú para pasar una tarde resolviendo problemas de física.
+    El Grupo de Estudiantes de la RSEF lleva ya diez años organizando las <strong>Preliminares de PLANCKS</strong> en España. Para participar sólo hace falta reunir un grupo de motivados como tú para pasar una tarde resolviendo problemas de física.
     Si ves que falta poco para la próxima edición de las Preliminares, entra a ver qué se cuece. Mientras, puedes explorar las últimas ediciones del concurso.
     Y si quieres conocer más sobre PLANCKS, consulta <a href="https://iaps.info/events/plancks/" class = "prelis25" target="_blank">esta página</a> de la International Association of Physics Students (IAPS). ¡Bienvenid@!</p>
     <div class="row center">
-      <a href="{{ site.url }}/PreliminaresPLANCKS2026/" id="prelis-button" class="btn-plancks26 waves-effect waves-light ">Accede a la información de esta edición de las Prelis!</a>
+      <a href="{{ site.url }}/PreliminaresPLANCKS2027/" id="prelis-button" class="btn-plancks27 waves-effect waves-light ">Accede a la información de esta edición de las Prelis!</a>
     </div>    
     <!-- <h5 style="text-align: center;"><p style="text-align:center">La próxima edición de las preliminares de Plancks será en marzo de 2024.</p></h5> -->
     <!-- <h4 style="text-align: center;"><p style="text-align:center">Más información en enero de 2024.</p></h4> -->
@@ -24,7 +24,7 @@ permalink: /PreliminaresPLANCKS/
   {% assign loopindex = 0 %}
   {% for event in site.events reversed %}
   {% if event.title contains "Preliminares de PLANCKS"%}
-  {% if event.title != "Preliminares de PLANCKS 2026"%}
+  {% if event.title != "Preliminares de PLANCKS 2027"%}
   {% assign rowfinder = loopindex | modulo:2 %}
   {% if rowfinder == 0 %}
     <div class="row">
