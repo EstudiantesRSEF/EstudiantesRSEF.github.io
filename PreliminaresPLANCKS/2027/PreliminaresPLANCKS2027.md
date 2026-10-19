@@ -3,7 +3,7 @@ layout: default
 title: Preliminares PLANCKS 2027
 description: ¿Tienes ganas de pasar un rato divertido resolviendo problemas de física? ¡Ya tenemos aquí la décima edición de las Preliminares de PLANCKS!
 permalink: /PreliminaresPLANCKS2027/
-image: /img/eventos/2027-PrelisPLANCKS/Prelis27_Logo.png
+image: "https://EstudiantesRSEF.github.io/EstudiantesRSEF/img/eventos/2027-PrelisPLANCKS/Prelis27_Logo.png"
 ---
 
 <div class="no-pad-top" id="index-page">

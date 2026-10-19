@@ -9,9 +9,9 @@ locandina: /img/eventos/2027-PrelisPLANCKS/Prelis27_Logo.png
 cover: /img/eventos/2027-PrelisPLANCKS/Prelis27_Logo.png
 gallery:
 site: /PreliminaresPLANCKS2027/
-#ranking: 
-#exam: 
-#comm: 
+ranking: 
+exam: 
+comm: 
 ---
 
 
