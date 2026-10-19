@@ -310,8 +310,8 @@ permalink: /PreliminaresPLANCKS2026/
                   <p><small><b>{{ event.place }}</b> {{ event.startingdate | date: '%d %b %Y' }} {% if event.endingdate != nil %} - {{ event.endingdate | date: '%d %b %Y' }}                    {% endif %} </small></p>
                 </div>
                 <div class="card-action">
-                  <a href="{{ event.ranking }}" target="_blank">Clasificación</a>
-                  <a href="{{ event.exam }}" target="_blank">Soluciones</a>
+                  {% if event.ranking != nil %}<a href="{{ event.ranking }}" target="_blanck">Clasificación</a>{% endif %}
+                  {% if event.exam != nil %}<a href="{{ event.exam }}"  target="_blanck">Soluciones</a>{% endif %}
                   <a href="{{ event.url }}">Post web</a>
                   {% if event.comm != nil %}<a href="{{ event.comm }}">Comités Organizador y Académico</a>{% endif %}
                 </div>
