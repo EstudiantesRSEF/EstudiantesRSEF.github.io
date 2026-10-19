@@ -50,7 +50,7 @@ permalink: /PreliminaresPLANCKS/
     </div>
   {% endif %}
   {% assign loopindex = loopindex | plus: 1 %}
-  <!--{% endif %}-->
+  {% endif %}
   
   {% endif %}
   {% endfor %}
