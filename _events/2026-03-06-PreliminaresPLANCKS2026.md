@@ -11,7 +11,7 @@ gallery:
 site: /PreliminaresPLANCKS2026/
 ranking: https://estudiantes.rsef.es/PreliminaresPLANCKS/2026/puntuaciones.html
 exam: https://estudiantes.rsef.es/PreliminaresPLANCKS/2026/Soluciones_PrelisPLANCK2026.pdf
-comm: 
+comm: https://estudiantes.rsef.es/PreliminaresPLANCKS/ComitesOrganizadorAcademico/2026/
 ---
 
 
