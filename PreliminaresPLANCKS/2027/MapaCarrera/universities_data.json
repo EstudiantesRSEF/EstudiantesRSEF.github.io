@@ -18,5 +18,14 @@
         "team_list": [
             "Sacerdotes Awámicos"
         ]
+    },
+    {
+        "university": "Universidad de Granada (UGR)",
+        "longitude": -3.602,
+        "latitude": 37.1765,
+        "teams": 1,
+        "team_list": [
+            "Los polidemonios de Hermite"
+        ]
     }
 ]
