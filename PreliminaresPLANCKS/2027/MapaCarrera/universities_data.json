@@ -27,5 +27,14 @@
         "team_list": [
             "Los polidemonios de Hermite"
         ]
+    },
+    {
+        "university": "Universidad de Salamanca (USAL)",
+        "longitude": -5.6635,
+        "latitude": 40.9608,
+        "teams": 1,
+        "team_list": [
+            "Los Rayleigh"
+        ]
     }
 ]
