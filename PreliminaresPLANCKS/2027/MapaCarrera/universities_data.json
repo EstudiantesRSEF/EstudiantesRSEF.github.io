@@ -3,9 +3,10 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Canteranos"
+            "Canteranos",
+            "Planck inclinat"
         ]
     },
     {
