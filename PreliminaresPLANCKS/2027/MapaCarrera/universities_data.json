@@ -1,5 +1,14 @@
 [
     {
+        "university": "Universidad de Sevilla (US)",
+        "longitude": -5.9845,
+        "latitude": 37.3891,
+        "teams": 1,
+        "team_list": [
+            "Los Hijos de Lagrange"
+        ]
+    },
+    {
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
@@ -7,6 +16,15 @@
         "team_list": [
             "Canteranos",
             "Planck inclinat"
+        ]
+    },
+    {
+        "university": "Universidad de Barcelona (UB)",
+        "longitude": 2.1662,
+        "latitude": 41.3879,
+        "teams": 1,
+        "team_list": [
+            "Rust·eze"
         ]
     },
     {
