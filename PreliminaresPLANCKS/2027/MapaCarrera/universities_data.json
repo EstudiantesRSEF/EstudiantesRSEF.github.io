@@ -42,10 +42,11 @@
         "university": "Universidad de Valencia (UV)",
         "longitude": -0.3752,
         "latitude": 39.4699,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "Sacerdotes Awámicos",
-            "Consejo de sabios"
+            "Consejo de sabios",
+            "quesitosfisicos"
         ]
     },
     {
