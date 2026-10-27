@@ -23,20 +23,22 @@
         "university": "Universidad de Barcelona (UB)",
         "longitude": 2.1662,
         "latitude": 41.3879,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Rust·eze"
+            "Rust·eze",
+            "Las Planckticipantes"
         ]
     },
     {
         "university": "Universidad Autónoma de Madrid (UAM)",
         "longitude": -3.6922,
         "latitude": 40.5496,
-        "teams": 3,
+        "teams": 4,
         "team_list": [
             "Élite 4",
             "Her-Míticos",
-            "Los desfasados"
+            "Los desfasados",
+            "Cuaterniones singulares"
         ]
     },
     {
