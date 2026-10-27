@@ -12,10 +12,11 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "Canteranos",
-            "Planck inclinat"
+            "Planck inclinat",
+            "Focault Noté-Chopè"
         ]
     },
     {
@@ -74,6 +75,15 @@
         "teams": 1,
         "team_list": [
             "Los Dados de Dios"
+        ]
+    },
+    {
+        "university": "Universidad de Santiago de Compostela (USC)",
+        "longitude": -8.5448,
+        "latitude": 42.8782,
+        "teams": 1,
+        "team_list": [
+            "Los Lobos de Ginebra"
         ]
     }
 ]
