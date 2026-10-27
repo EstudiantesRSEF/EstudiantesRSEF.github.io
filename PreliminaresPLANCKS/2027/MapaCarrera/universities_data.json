@@ -87,5 +87,14 @@
         "team_list": [
             "Los Lobos de Ginebra"
         ]
+    },
+    {
+        "university": "Universidad Politécnica de Cataluña (UPC)",
+        "longitude": 2.1131,
+        "latitude": 41.3891,
+        "teams": 1,
+        "team_list": [
+            "Del Molino Roa"
+        ]
     }
 ]
