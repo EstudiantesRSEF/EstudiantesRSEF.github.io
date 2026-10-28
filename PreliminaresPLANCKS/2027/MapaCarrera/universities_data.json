@@ -53,6 +53,15 @@
         ]
     },
     {
+        "university": "Universidad Politécnica de Valencia (UPV)",
+        "longitude": -0.3422,
+        "latitude": 39.482,
+        "teams": 1,
+        "team_list": [
+            "polipotenciales"
+        ]
+    },
+    {
         "university": "Universidad de Córdoba (UCo)",
         "longitude": -4.7794,
         "latitude": 37.8847,
@@ -104,6 +113,15 @@
         "teams": 1,
         "team_list": [
             "Les Gaussianes Tropicals"
+        ]
+    },
+    {
+        "university": "Universidad San Pablo-CEU (UCEU)",
+        "longitude": -3.71738,
+        "latitude": 40.44253,
+        "teams": 1,
+        "team_list": [
+            "larpi larp"
         ]
     }
 ]
