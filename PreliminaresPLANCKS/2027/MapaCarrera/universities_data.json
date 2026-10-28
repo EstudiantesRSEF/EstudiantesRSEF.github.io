@@ -96,5 +96,14 @@
         "team_list": [
             "Del Molino Roa"
         ]
+    },
+    {
+        "university": "Universidad Rovira i Virgili (URV)",
+        "longitude": 1.255,
+        "latitude": 41.1167,
+        "teams": 1,
+        "team_list": [
+            "Les Gaussianes Tropicals"
+        ]
     }
 ]
