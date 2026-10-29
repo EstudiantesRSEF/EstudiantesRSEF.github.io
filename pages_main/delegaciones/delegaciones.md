@@ -37,7 +37,7 @@ El Grupo de Estudiantes de la RSEF cuenta por el momento con {{ n }} Delegacione
                     {% unless item.img == "" %}
                         {% assign image = item.img %}
                     {% endunless %}
-                    <img src="{{ item.img }}" alt="" class="circle" style="object-fit: cover; width: 96px; height: 96px;">
+                    <img src="{{ item.img }}" alt="" class="circle" style="object-fit: cover; width: 96px; height: 96px;" {% if item.id == "MadridUAM" %}data-uam-photo{% endif %}>
                     Delegación de <b> {{ item.nombre }} </b>
                     <p>
                         {% if item.presidente != nil %}
@@ -117,7 +117,7 @@ Consulta [esta página](/nueva-delegacion/) para informarte del proceso. Para cu
       <div class="row">
         <div class="col s12 m6 l6">
           <div class="row center">
-        <img src="{{ item.img }}" width="80%">
+        <img src="{{ item.img }}" width="80%" {% if item.id == "MadridUAM" %}data-uam-photo{% endif %}>
           </div>
         </div>
         <div class="col s12 m6 l6">        
@@ -174,3 +174,46 @@ Consulta [esta página](/nueva-delegacion/) para informarte del proceso. Para cu
  </div>
 {% endunless %}
 {% endfor %}
+
+<style>
+    .uam-clown {
+        width: min(22rem, calc(100% - 2rem));
+        border: 0;
+        border-radius: 8px;
+        padding: 2rem;
+        text-align: center;
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+    }
+
+    .uam-clown::backdrop {
+        background: rgba(0, 0, 0, 0.72);
+    }
+
+    .uam-clown__face {
+        display: block;
+        font-size: 8rem;
+        line-height: 1.2;
+    }
+</style>
+
+<dialog id="uam-clown" class="uam-clown" aria-labelledby="uam-clown-title">
+    <span class="uam-clown__face" role="img" aria-label="Payaso">🤡</span>
+    <h2 id="uam-clown-title">¡Sorpresa!</h2>
+    <button type="button" class="btn" onclick="document.getElementById('uam-clown').close()">Cerrar</button>
+</dialog>
+
+<script>
+    let uamPhotoClicks = 0;
+    const uamClown = document.getElementById("uam-clown");
+
+    document.addEventListener("click", (event) => {
+        if (!(event.target instanceof Element) || !event.target.closest("[data-uam-photo]")) {
+            return;
+        }
+
+        uamPhotoClicks += 1;
+        if (uamPhotoClicks === 10) {
+            uamClown.showModal();
+        }
+    });
+</script>
