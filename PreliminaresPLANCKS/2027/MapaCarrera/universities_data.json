@@ -1,14 +1,5 @@
 [
     {
-        "university": "Universidad de Sevilla (US)",
-        "longitude": -5.9845,
-        "latitude": 37.3891,
-        "teams": 1,
-        "team_list": [
-            "Los Hijos de Lagrange"
-        ]
-    },
-    {
         "university": "Universidad del País Vasco (UPV/EHU)",
         "longitude": -2.935,
         "latitude": 43.263,
