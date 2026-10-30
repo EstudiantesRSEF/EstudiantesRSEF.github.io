@@ -83,10 +83,11 @@
         "university": "Universidad de Salamanca (USAL)",
         "longitude": -5.6635,
         "latitude": 40.9608,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "Los Rayleigh",
-            "Lucas 23:34"
+            "Lucas 23:34",
+            "Axiomas desempleados"
         ]
     },
     {
