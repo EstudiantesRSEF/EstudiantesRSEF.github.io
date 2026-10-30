@@ -1,5 +1,14 @@
 [
     {
+        "university": "Universidad Complutense de Madrid (UCM)",
+        "longitude": -3.7267,
+        "latitude": 40.4531,
+        "teams": 1,
+        "team_list": [
+            "Terraplanckistas"
+        ]
+    },
+    {
         "university": "Universidad del País Vasco (UPV/EHU)",
         "longitude": -2.935,
         "latitude": 43.263,
