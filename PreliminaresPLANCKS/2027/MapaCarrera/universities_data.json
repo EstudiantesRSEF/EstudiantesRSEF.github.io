@@ -111,9 +111,10 @@
         "university": "Universidad Politécnica de Cataluña (UPC)",
         "longitude": 2.1131,
         "latitude": 41.3891,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Del Molino Roa"
+            "Del Molino Roa",
+            "Alexandroff Extension"
         ]
     },
     {
