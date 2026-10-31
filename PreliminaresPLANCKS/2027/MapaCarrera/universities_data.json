@@ -9,6 +9,15 @@
         ]
     },
     {
+        "university": "Universidad de Sevilla (US)",
+        "longitude": -5.9845,
+        "latitude": 37.3891,
+        "teams": 1,
+        "team_list": [
+            "Los Hijos de Lagrange"
+        ]
+    },
+    {
         "university": "Universidad del País Vasco (UPV/EHU)",
         "longitude": -2.935,
         "latitude": 43.263,
@@ -42,12 +51,13 @@
         "university": "Universidad Autónoma de Madrid (UAM)",
         "longitude": -3.6922,
         "latitude": 40.5496,
-        "teams": 4,
+        "teams": 5,
         "team_list": [
             "Élite 4",
             "Her-Míticos",
             "Los desfasados",
-            "Cuaterniones singulares"
+            "Cuaterniones singulares",
+            "Little Ciracs"
         ]
     },
     {
