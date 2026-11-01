@@ -30,7 +30,7 @@ permalink: /PreliminaresPLANCKS2027/
     </div>
     <div class="prelis25-content">
       <!-- BANNER -->
-      <img class="materialboxed" width="100%" src="/img/eventos/2027-PrelisPLANCKS/Prelis27_Banner.png">
+      <img class="materialboxed" width="100%" src="/img/eventos/2027-PrelisPLANCKS/Prelis27_Banner-RSEF.png">
       <!-- RESULTADOS -->
       <!-- <hr>
       <h2 style="text-align: center;">
