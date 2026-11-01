@@ -56,8 +56,12 @@
     image: "/img/eventos/2027-PrelisPLANCKS/Presentación GdeE - post.png"
     text: "Presentación GdeE"
 
-  - url: "https://www.instagram.com/p/DeroyUoDLKo/?img_index=1"
-    image: "/img/eventos/2027-PrelisPLANCKS/VuelvenPrelis2027.jpg"
+  - url: "https://www.instagram.com/p/DfNgTKAKwQn/"
+    image: "/img/eventos/2027-PrelisPLANCKS/Premios2027_RSEF.jpg"
+    text: "¡Anunciamos los premios de Prelis!"
+
+  - url: "https://www.instagram.com/p/DfNgOSXjOsW/?img_index=1"
+    image: "/img/eventos/2027-PrelisPLANCKS/VuelvenPrelis2027_RSEF.jpg"
     text: "Vuelven las Preliminares de PLANCKS"
 
   - url: "https://www.instagram.com/reel/DS8AEOJjMWm/?img_index=1"
