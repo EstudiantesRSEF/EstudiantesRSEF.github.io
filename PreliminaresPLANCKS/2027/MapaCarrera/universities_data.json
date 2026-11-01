@@ -73,6 +73,15 @@
         ]
     },
     {
+        "university": "Universidad de Castilla-La Mancha (UCLM)",
+        "longitude": -3.9206,
+        "latitude": 38.9941,
+        "teams": 1,
+        "team_list": [
+            "FFTNFT"
+        ]
+    },
+    {
         "university": "Universidad Politécnica de Valencia (UPV)",
         "longitude": -0.3422,
         "latitude": 39.482,
