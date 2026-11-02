@@ -39,6 +39,15 @@
         ]
     },
     {
+        "university": "Universidad de Zaragoza (UNIZAR)",
+        "longitude": -0.8891,
+        "latitude": 41.6488,
+        "teams": 1,
+        "team_list": [
+            "Zhang's et al."
+        ]
+    },
+    {
         "university": "Universidad de Barcelona (UB)",
         "longitude": 2.1662,
         "latitude": 41.3879,
