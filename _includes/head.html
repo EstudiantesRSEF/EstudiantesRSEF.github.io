@@ -67,28 +67,32 @@
    HEADER GdeE - AZUL TRANSLÚCIDO Y STICKY
    ========================================= */
 
-/* Cabecera */
+/* CABECERA A ANCHO COMPLETO */
 .navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    width: 100%;
+    margin: 0;
+    padding: 10px 5%;
+
     background: rgba(22, 32, 63, 0.88) !important;
-    padding: 10px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
 
-    /* Mantener visible al hacer scroll */
     position: sticky;
     top: 0;
     z-index: 1030;
 
-    /* Efecto translúcido */
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 
     transition: background 0.3s ease;
 }
 
-/* Contenedor */
+/* CONTENEDOR INTERIOR */
 .navbar .nav-container {
-    max-width: 1400px;
+    width: 100%;
+    max-width: none;
+    padding: 0;
+    margin: 0;
 }
 
 /* LOGO Y NOMBRE */
@@ -135,7 +139,7 @@
 
 /* MENÚ DESPLEGABLE */
 .navbar .dropdown-menu {
-    background-color: rgba(255, 255, 255, 0.97);
+    background-color: rgba(35, 50, 97, 0.88) !important;
     border: 1px solid #eeeeee;
     border-radius: 6px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
@@ -184,26 +188,71 @@
 }
 
 /* MENÚ LATERAL MÓVIL */
-.navbar .offcanvas {
-    background-color: #ffffff;
+.mobile-nav-offcanvas {
+    background-color: rgba(22, 32, 63, 0.98);
+    color: #ffffff;
 }
 
-.navbar .offcanvas-title a {
-    color: #222222 !important;
+.mobile-nav-offcanvas .offcanvas-title a {
+    color: #ffffff !important;
     font-weight: 700;
 }
 
-.navbar .offcanvas .nav-link {
-    color: #333333 !important;
+.mobile-nav-offcanvas .navbar-nav {
+    align-items: stretch;
+    gap: 0;
+    height: auto;
+}
+
+.mobile-nav-offcanvas .navbar-nav .nav-item {
+    height: auto;
+    display: block;
+}
+
+.mobile-nav-offcanvas .nav-link {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
     padding: 12px 10px;
+    color: rgba(255, 255, 255, 0.95) !important;
+    border-radius: 5px;
+    transition: color 0.2s ease, background-color 0.2s ease;
 }
 
-.navbar .offcanvas .nav-link:hover {
-    color: #78BE40 !important;
+.mobile-nav-offcanvas > .offcanvas-body > .navbar-nav > .nav-item > .nav-link {
+    min-height: 52px;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
-.navbar .offcanvas .collapse {
-    padding-left: 10px;
+.mobile-nav-offcanvas .nav-link:hover,
+.mobile-nav-offcanvas .nav-link:focus {
+    color: #a9e477 !important;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.mobile-nav-offcanvas .collapse {
+    margin: 4px 0 8px 10px;
+    padding-left: 8px;
+    border-left: 2px solid #78BE40;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 0 5px 5px 0;
+}
+
+.mobile-nav-offcanvas .collapse .nav-link {
+    padding-left: 14px;
+}
+
+.mobile-nav-offcanvas .btn-close {
+    filter: invert(1);
+    opacity: 0.85;
+}
+
+.mobile-nav-offcanvas .btn-close:hover,
+.mobile-nav-offcanvas .btn-close:focus {
+    opacity: 1;
 }
 
 /* RESPONSIVE */
@@ -218,7 +267,7 @@
         height: 40px;
     }
 
-    .navbar .offcanvas .dropdown-menu {
+    .mobile-nav-offcanvas .dropdown-menu {
         border: none;
         box-shadow: none;
     }

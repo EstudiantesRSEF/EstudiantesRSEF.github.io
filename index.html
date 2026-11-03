@@ -6,6 +6,30 @@ description: El Grupo de Estudiantes de la RSEF reúne a estudiantes de física 
 <!-- WINTER SOLSTICE % include_relative effects/snowflakes.html %} -->
 
 <div class="no-pad-top" id="index-page">
+  <section class="home-hero" aria-label="Presentación del Grupo de Estudiantes de la RSEF">
+    <div class="home-hero__slides">
+      {% for slide in site.data.home_carousel %}
+        <div class="home-hero__slide{% if forloop.first %} is-active{% endif %}"
+             data-home-hero-slide
+             aria-hidden="{% if forloop.first %}false{% else %}true{% endif %}">
+          <img src="{{ slide.image }}"
+               alt="{{ slide.alt }}"
+               {% if forloop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %}>
+        </div>
+      {% endfor %}
+      <div class="home-hero__veil" aria-hidden="true"></div>
+    </div>
+
+    <div class="home-hero__content">
+      <div class="home-hero__logos" aria-label="Grupo de Estudiantes y Real Sociedad Española de Física">
+        <img src="/img/Logo-GdeE/logo_gdee_DEFINITIVO_LETRAS_4_LINEAS.png" alt="Logo del Grupo de Estudiantes">
+        <img src="/img/logo_rsef.png" alt="Logo de la Real Sociedad Española de Física">
+      </div>
+      <h1>Grupo de Estudiantes de la Real Sociedad Española de Física</h1>
+    </div>
+
+  </section>
+
   <div class="container">
 <!-- VIDEO TVE & AUDIO COPE -->
     <div class="section">
@@ -250,6 +274,30 @@ description: El Grupo de Estudiantes de la RSEF reúne a estudiantes de física 
 <!-- END OF BLOG SECTION -->
   </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const carousel = document.querySelector(".home-hero");
+    if (!carousel) return;
+
+    const slides = Array.from(carousel.querySelectorAll("[data-home-hero-slide]"));
+    if (slides.length < 2) return;
+
+    let activeIndex = slides.findIndex(function (slide) {
+      return slide.classList.contains("is-active");
+    });
+
+    function showNextSlide() {
+      slides[activeIndex].classList.remove("is-active");
+      slides[activeIndex].setAttribute("aria-hidden", "true");
+      activeIndex = (activeIndex + 1) % slides.length;
+      slides[activeIndex].classList.add("is-active");
+      slides[activeIndex].setAttribute("aria-hidden", "false");
+    }
+
+    window.setInterval(showNextSlide, 5000);
+  });
+</script>
 
 {% include eventos-pagina-principal-modal.html %}
 {% include schema.html %}
