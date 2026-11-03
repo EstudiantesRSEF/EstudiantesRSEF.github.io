@@ -1,59 +1,230 @@
 <head>
 
 <!-- Google Tag Manager -->
-    <script>
-      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-PFMX8WX');
-    </script>
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PFMX8WX');
+</script>
 <!-- End Google Tag Manager -->
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137893368-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137893368-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      gtag('config', 'UA-137893368-1', { 'optimize_id': 'GTM-59RMK9B'});
-    </script>
+  gtag('config', 'UA-137893368-1', { 'optimize_id': 'GTM-59RMK9B'});
+</script>
 
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
 
 <!-- Favicons -->
-    <link rel="icon" type="image/png" href="/img/Logo-GdeE/logo-fondo-cuadrado.png">
-    <link rel="apple-touch-icon" href="/img/Logo-GdeE/logo-fondo-cuadrado.png">
+<link rel="icon" type="image/png" href="/img/Logo-GdeE/logo-fondo-cuadrado.png">
+<link rel="apple-touch-icon" href="/img/Logo-GdeE/logo-fondo-cuadrado.png">
 
-    <!--/img/eventos/2025-PLANCKS/Logo.png-->
-    <title>{% if page.title %}{{ page.title }} - GdeEstudiantes RSEF{% else %}GdeEstudiantes RSEF{% endif %}</title>
-<!-- Standard html meta tags -->
-    <meta name="description" content="{% for entry in site.data.meta %}{% if page.url == entry.id %}{% assign trovato = true %}{{ entry.description }}{% endif %}{% endfor %}{% if trovato != true %}{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ page.content | strip_html | strip_newlines | truncate:160 }}{% endif %}{% endif %}" />
-    <meta name="keywords" content="{% for entry in site.data.meta %}{% if page.url == entry.id %}{% assign trovato = true %}{{ entry.keywords }}{% endif %}{% endfor %}{% if trovato != true %}estudiantes rsef iaps{% if page.tags %} {{ page.tags }}{% endif %}{% endif %}" />
+<title>{% if page.title %}{{ page.title }} - GdeEstudiantes RSEF{% else %}GdeEstudiantes RSEF{% endif %}</title>
 
-<!-- og -->
-    {% include opengraph.html %}
+<!-- Standard HTML meta tags -->
+<meta name="description" content="{% for entry in site.data.meta %}{% if page.url == entry.id %}{% assign trovato = true %}{{ entry.description }}{% endif %}{% endfor %}{% if trovato != true %}{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ page.content | strip_html | strip_newlines | truncate:160 }}{% endif %}{% endif %}" />
 
-<!-- CSS  -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
-    <!-- <link rel="stylesheet prefetch" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"> -->
-    
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<meta name="keywords" content="{% for entry in site.data.meta %}{% if page.url == entry.id %}{% assign trovato = true %}{{ entry.keywords }}{% endif %}{% endfor %}{% if trovato != true %}estudiantes rsef iaps{% if page.tags %} {{ page.tags }}{% endif %}{% endif %}" />
 
-    <!-- Mathjax for Latex-->
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+<!-- Open Graph -->
+{% include opengraph.html %}
 
-    
-    <!-- Load our personalized CSS-->
-    <link href="/css/main.css" type="text/css" rel="stylesheet" media="screen"/>
+<!-- CSS -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
 
-    <!-- Load PyScript -->
-    <script src="https://cdn.pyscript.net/latest/pyscript.js"></script>
-    <link rel="stylesheet" href="https://cdn.pyscript.net/latest/pyscript.css">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- MathJax for LaTeX -->
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+
+<!-- Personalized CSS -->
+<link href="/css/main.css" type="text/css" rel="stylesheet" media="screen"/>
+
+<!-- Load PyScript -->
+<script src="https://cdn.pyscript.net/latest/pyscript.js"></script>
+<link rel="stylesheet" href="https://cdn.pyscript.net/latest/pyscript.css">
+
+
+<!-- =========================================
+     HEADER GdeE - ESTILO BLOG
+     ========================================= -->
+
+<style>
+
+
+/* =========================================
+   HEADER GdeE - AZUL TRANSLÚCIDO Y STICKY
+   ========================================= */
+
+/* Cabecera */
+.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    background: rgba(22, 32, 63, 0.88) !important;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+
+    /* Mantener visible al hacer scroll */
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+
+    /* Efecto translúcido */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    transition: background 0.3s ease;
+}
+
+/* Contenedor */
+.navbar .nav-container {
+    max-width: 1400px;
+}
+
+/* LOGO Y NOMBRE */
+.navbar .navbar-brand-custom {
+    color: #ffffff !important;
+    font-size: 1.15rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-right: 30px;
+}
+
+.navbar .navbar-brand-custom img {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #78BE40;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: #ffffff;
+    object-fit: contain;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+/* NAVEGACIÓN */
+.navbar .navbar-nav {
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.95) !important;
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding: 10px 12px;
+    transition: color 0.2s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus {
+    color: #a9e477 !important;
+}
+
+/* MENÚ DESPLEGABLE */
+.navbar .dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.97);
+    border: 1px solid #eeeeee;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    padding: 8px 0;
+    margin-top: 5px;
+}
+
+.navbar .dropdown-item {
+    color: #333333;
+    font-size: 0.9rem;
+    padding: 9px 18px;
+}
+
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus {
+    background-color: #f5f5f5;
+    color: #65a832;
+}
+
+/* BOTÓN COLABORA */
+.navbar .navbar-nav > .nav-item:last-child > .nav-link {
+    background-color: #78BE40;
+    color: #ffffff !important;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-left: 8px;
+}
+
+.navbar .navbar-nav > .nav-item:last-child > .nav-link:hover {
+    background-color: #65a832;
+    color: #ffffff !important;
+}
+
+/* BOTÓN MENÚ MÓVIL */
+.navbar .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: 0 0 0 0.15rem rgba(255, 255, 255, 0.2);
+}
+
+/* Icono hamburguesa */
+.navbar .navbar-toggler-icon {
+    filter: none;
+}
+
+/* MENÚ LATERAL MÓVIL */
+.navbar .offcanvas {
+    background-color: #ffffff;
+}
+
+.navbar .offcanvas-title a {
+    color: #222222 !important;
+    font-weight: 700;
+}
+
+.navbar .offcanvas .nav-link {
+    color: #333333 !important;
+    padding: 12px 10px;
+}
+
+.navbar .offcanvas .nav-link:hover {
+    color: #78BE40 !important;
+}
+
+.navbar .offcanvas .collapse {
+    padding-left: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 991.98px) {
+    .navbar .navbar-brand-custom {
+        font-size: 1rem;
+        margin-right: 10px;
+    }
+
+    .navbar .navbar-brand-custom img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .navbar .offcanvas .dropdown-menu {
+        border: none;
+        box-shadow: none;
+    }
+}
+
+
+</style>
+
 </head>
