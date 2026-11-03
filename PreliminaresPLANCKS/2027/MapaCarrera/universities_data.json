@@ -49,6 +49,15 @@
         ]
     },
     {
+        "university": "Universidad de Alicante (UA)",
+        "longitude": -0.4907,
+        "latitude": 38.3452,
+        "teams": 1,
+        "team_list": [
+            "Lab rats"
+        ]
+    },
+    {
         "university": "Universidad de Barcelona (UB)",
         "longitude": 2.1662,
         "latitude": 41.3879,
@@ -164,6 +173,15 @@
         "teams": 1,
         "team_list": [
             "larpi larp"
+        ]
+    },
+    {
+        "university": "Universidad de Vigo (UVigo)",
+        "longitude": -8.683481,
+        "latitude": 42.169557,
+        "teams": 1,
+        "team_list": [
+            "Airborne"
         ]
     }
 ]

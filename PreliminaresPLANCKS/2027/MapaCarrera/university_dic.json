@@ -163,5 +163,10 @@
         "university": "Universidad San Pablo-CEU (UCEU)",
         "longitude": -3.71738,
         "latitude": 40.44253
+    },
+    "UVigo": {
+        "university": "Universidad de Vigo (UVigo)",
+        "longitude": -8.683481,
+        "latitude": 42.169557
     }
 }
