@@ -174,5 +174,14 @@
         "team_list": [
             "larpi larp"
         ]
+    },
+    {
+        "university": "Universidad de Vigo (UVigo)",
+        "longitude": -8.683481,
+        "latitude": 42.169557,
+        "teams": 1,
+        "team_list": [
+            "Airborne"
+        ]
     }
 ]
