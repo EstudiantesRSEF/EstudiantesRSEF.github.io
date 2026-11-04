@@ -20,7 +20,7 @@
 
 - nombre: "Oviedo - UniOvi"
   id: "Oviedo"
-  img: "/img/delegaciones/DUNIOVI/DUNIOVI_junta3_avatar.jpg"
+  img: "/img/delegaciones/DUNIOVI/DeleUniOvi26.jpg"
   mail: "estudiantesrsef.uniovi@gmail.com"
   presidente: "Nilo Muñiz Martínez"
   vicepresidente: "María Pérez Pérez"
@@ -42,7 +42,7 @@
   logo: "/img/delegaciones/DUNIOVI/logoDUNIOVI_hor.png"
   congelado:
 
-- nombre: "Granada - "
+- nombre: "Granada - UGR"
   id: "Granada"
   img: "/img/delegaciones/DUGR/DeleUGR.JPG"
   mail: "estudiantesrsef.ugr@ugr.es"
@@ -85,11 +85,11 @@
 
 - nombre: "Valencia - UV"
   id: "ValenciaUV"
-  img: "/img/delegaciones/DUV/SeleUV2026.jpg"
+  img: "/img/delegaciones/DUV/DeleUV26.jpg"
   mail: "estudiantesrsef.uv@gmail.com"
   presidente: "Rafael Velázquez Ruiz"
   vicepresidente: "Ioan Denis Cazacu"
-  secretario: "PAblo Nicolau Monzó"
+  secretario: "Pablo Nicolau Monzó"
   tesorero: "Leonardo García de Luna"
   colaboradores:
   fundacion: "09/2023"
@@ -172,17 +172,20 @@
 
 - nombre: "Murcia - UMU"
   id: "MurciaUMU"
-  img: "/img/delegaciones/DUMU/DeleUMU.jpeg"
+  img: "/img/delegaciones/DUMU/DeleUMU26.png"
   mail: "estudiantesrsef.um@gmail.com"
-  presidente: "Francisco Javier Torroglosa Úbeda"
-  vicepresidente: "Sergio Mulero Moreno"
-  secretario: "Ángela Mendez García"
-  tesorero: "Tyler Scott Stapleton"
+  presidente: "Sergio Mulero Moreno"
+  vicepresidente: "Illias Bastour Bahaoui"
+  secretario: "Juan Alfonso Albacete Cerón"
+  tesorero: "Juan Francisco Muñóz García"
   colaboradores:
   fundacion: "12/2024"
   ins: "https://www.instagram.com/estudiantesrsef_umu/"
   tw:
   ex:
+    - nombre_ex: "Francisco Javier Torroglosa Úbeda"
+    - nombre_ex: "Ángela Mendez García"
+    - nombre_ex: "Tyler Scott Stapleton"
   logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado:
 
@@ -191,13 +194,14 @@
   img: "/img/delegaciones/DULL/DeleULL.jpg"
   mail:
   presidente: "María Magdalena Rodríguez"
-  vicepresidente: "Miguel Roldán Rodríguez"
-  secretario: "Mar Sánchez Sicilia"
+  vicepresidente: "Diego Herrera Sánchez"
+  secretario: "Miguel Roldán Rodríguez"
   tesorero: "Judit Álvarez Fernández"
   fundacion: "12/2024"
   ins: "https://www.instagram.com/estudiantesrsef_ull/"
   tw:
   ex:
+      - nombre_ex: "Mar Sánchez Sicilia"
   logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado:
 
@@ -206,7 +210,7 @@
   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
   mail: "estudiantesrsef.ua@gmail.com"
   presidente: "Álvaro Serrano Ruiz"
-  vicepresidente: "Said Tahmi"
+  vicepresidente: "Said Tahmi Hadsaid"
   secretario: "José García Vicente"
   tesorero: "Pablo Sorribes Córcoles"
   colaboradores:
@@ -224,14 +228,17 @@
   img: "/img/delegaciones/DUIB/DeleUIB.jpg"
   mail: "estudiantesrsef.uib@gmail.com"
   presidente: "Irene Prohens Peteracova"
-  vicepresidente: "Guillem Riera LLinàs"
-  secretario: "Héctor Torio Mercado"
-  tesorero: "Maria Antònia Boira Lladó"
+  vicepresidente: "Daniel Nevado Ruano"
+  secretario: "Eric Toulmin Monserrat"
+  tesorero: "Carla Frontera Gomila"
   fundacion: "12/2024"
   ins: "https://www.instagram.com/estudiantesrsef_uib/"
   tw:
   ex:
     - nombre_ex: "Damià Vicens Ramis"
+    - nombre_ex: "Guillem Riera LLinàs"
+    - nombre_ex: "Héctor Torio Mercado"
+    - nombre_ex: "Maria Antònia Boira Lladó"
   logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado:
 
@@ -239,20 +246,24 @@
   id: "BarcelonaUB"
   img: "/img/delegaciones/DUB/DeleUB.jpg"
   mail: "estudiantesrsef.ub@gmail.com"
-  presidente: "Carla Caro Villanova"
-  vicepresidente: "Helena Villares Santiago"
-  secretario: "José Manuel Pérez Zegarra"
-  tesorero: "Pablo Gómez Montañez"
+  presidente: "Helena Villares Santiago"
+  vicepresidente: "Ían Patón Vázquez"
+  secretario: "Judith García Cardoso"
+  tesorero: "Rubén Giménez Cáceres"
   fundacion: "06/2025"
   ins:
   tw:
   ex:
+    - nombre_ex: "Carla Caro Villanova"
+    - nombre_ex: "Helena Villares Santiago"
+    - nombre_ex: "José Manuel Pérez Zegarra"
+    - nombre_ex: "Pablo Gómez Montañez"
   logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado:
 
 - nombre: "Valencia - UPV"
   id: "ValenciaUPV"
-  img: "/img/delegaciones/DUPV/Dele-Upv-Val.jpg"
+  img: "/img/delegaciones/DUPV/DeleUPV26.jpg"
   mail: "g.estudiantesrsef.upv@gmail.com"
   presidente: "Lucas Miguel Conde Flores"
   vicepresidente: "Belén Carreres Chulilla"
@@ -288,19 +299,22 @@
   img: "/img/logos/gdee-rsef-logo-cuadrado.png"
   mail: "estudiantesrsef.nebrija@gmail.com"
   presidente: "Andrea Morras Utrero"
-  vicepresidente: "Sergio Ureta González"
-  secretario: "Alfonso Miguel Fernández Pérez"
-  tesorero: "Paula Serrano Romero"
+  vicepresidente: "Mario Paredes Rodríguez"
+  secretario: "David Wang"
+  tesorero: "Alba Lasso Correa"
   fundacion: "12/2025"
   ins: "https://www.instagram.com/estudiantesrsef_nebrija/"
   tw:
   ex:
+    - nombre_ex: "Sergio Ureta González"
+    - nombre_ex: "Alfonso Miguel Fernández Pérez"
+    - nombre_ex: "Paula Serrano Romero"
   logo: "/img/banner/logo-banner-estrsef.jpg"
   congelado:
 
 - nombre: "Madrid - UAM"
   id: "MadridUAM"
-  img: "/img/delegaciones/DUAM/Dele_UAM.jpg"
+  img: "/img/delegaciones/DUAM/DeleUAM26.jpeg"
   mail: "estudiantesrsef.uam@gmail.com"
   presidente: "Lucas Gallego Lomo"
   vicepresidente: "Andrés García Martínez"
@@ -309,6 +323,8 @@
   colaboradores:
     - nombre_col: "Héctor García Palomares"
     - nombre_col: "Eva Marina Mendoza Valladolid"
+    - nombre_col: "Jaime Martínez Remondo"
+    - nombre_col: "Hugo Marcos Ceballos"
   fundacion: "02/2026"
   ins: "https://www.instagram.com/estudiantesrsef_uam/"
   tw:
