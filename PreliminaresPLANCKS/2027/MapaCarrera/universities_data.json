@@ -58,6 +58,15 @@
         ]
     },
     {
+        "university": "Universidad Antonio de Nebrija(UANE)",
+        "longitude": -3.71306,
+        "latitude": 40.4297,
+        "teams": 1,
+        "team_list": [
+            "The fearsome foursome"
+        ]
+    },
+    {
         "university": "Universidad de Barcelona (UB)",
         "longitude": 2.1662,
         "latitude": 41.3879,
@@ -71,13 +80,14 @@
         "university": "Universidad Autónoma de Madrid (UAM)",
         "longitude": -3.6922,
         "latitude": 40.5496,
-        "teams": 5,
+        "teams": 6,
         "team_list": [
             "Élite 4",
             "Her-Míticos",
             "Los desfasados",
             "Cuaterniones singulares",
-            "Little Ciracs"
+            "Little Ciracs",
+            "Paquetes Cuantizados"
         ]
     },
     {
