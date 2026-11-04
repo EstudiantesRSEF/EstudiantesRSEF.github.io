@@ -80,14 +80,15 @@
         "university": "Universidad Autónoma de Madrid (UAM)",
         "longitude": -3.6922,
         "latitude": 40.5496,
-        "teams": 6,
+        "teams": 7,
         "team_list": [
             "Élite 4",
             "Her-Míticos",
             "Los desfasados",
             "Cuaterniones singulares",
             "Little Ciracs",
-            "Paquetes Cuantizados"
+            "Paquetes Cuantizados",
+            "Métrica de AMS^2"
         ]
     },
     {
@@ -161,9 +162,10 @@
         "university": "Universidad de Santiago de Compostela (USC)",
         "longitude": -8.5448,
         "latitude": 42.8782,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Los Lobos de Ginebra"
+            "Los Lobos de Ginebra",
+            "nama biru"
         ]
     },
     {
