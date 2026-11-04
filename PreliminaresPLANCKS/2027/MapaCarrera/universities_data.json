@@ -102,6 +102,15 @@
         ]
     },
     {
+        "university": "Universidad de Granada (UGR)",
+        "longitude": -3.602,
+        "latitude": 37.1765,
+        "teams": 1,
+        "team_list": [
+            "Los tres quarks"
+        ]
+    },
+    {
         "university": "Universidad de Castilla-La Mancha (UCLM)",
         "longitude": -3.9206,
         "latitude": 38.9941,
