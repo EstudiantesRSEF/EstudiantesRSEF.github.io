@@ -49,6 +49,15 @@
         ]
     },
     {
+        "university": "Universidad de Murcia (UMU)",
+        "longitude": -1.1307,
+        "latitude": 37.9922,
+        "teams": 1,
+        "team_list": [
+            "Conesa & friends"
+        ]
+    },
+    {
         "university": "Universidad de Alicante (UA)",
         "longitude": -0.4907,
         "latitude": 38.3452,
