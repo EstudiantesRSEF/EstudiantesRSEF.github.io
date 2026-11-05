@@ -43,9 +43,10 @@
         "university": "Universidad de Zaragoza (UNIZAR)",
         "longitude": -0.8891,
         "latitude": 41.6488,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Zhang's et al."
+            "Zhang's et al.",
+            "H sin barra"
         ]
     },
     {
@@ -104,11 +105,12 @@
         "university": "Universidad de Valencia (UV)",
         "longitude": -0.3752,
         "latitude": 39.4699,
-        "teams": 3,
+        "teams": 4,
         "team_list": [
             "Sacerdotes Awámicos",
             "Consejo de sabios",
-            "quesitosfisicos"
+            "quesitosfisicos",
+            "Los Agnes Pockels"
         ]
     },
     {
