@@ -17,7 +17,7 @@
     {
         "delegacion": "UAB",
         "icono": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/1-removebg-preview.png",
-        "equipos": 3
+        "equipos": 4
     },
     {
         "delegacion": "UV",
@@ -87,6 +87,6 @@
     {
         "delegacion": "UAM",
         "icono": "",
-        "equipos": 7
+        "equipos": 8
     }
 ]
