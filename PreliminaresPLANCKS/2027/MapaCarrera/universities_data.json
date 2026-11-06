@@ -3,10 +3,11 @@
         "university": "Universidad Complutense de Madrid (UCM)",
         "longitude": -3.7267,
         "latitude": 40.4531,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "Terraplanckistas",
-            "lenz & co"
+            "lenz & co",
+            "Homo Genius"
         ]
     },
     {
@@ -32,12 +33,15 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 4,
+        "teams": 7,
         "team_list": [
             "Canteranos",
             "Planck inclinat",
             "Focault Noté-Chopè",
-            "Ciencia Radiactiva"
+            "Ciencia Radiactiva",
+            "Bohrn to win",
+            "Quartet Formació",
+            "Matriu de Dihrac"
         ]
     },
     {
@@ -129,9 +133,10 @@
         "university": "Universitat de les Illes Balears (UIB)",
         "longitude": 2.6426,
         "latitude": 39.6361,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Pavos ℝ"
+            "Pavos ℝ",
+            "A quien madruga, Higgs le ayuda"
         ]
     },
     {
