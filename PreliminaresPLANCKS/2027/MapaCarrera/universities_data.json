@@ -126,6 +126,15 @@
         ]
     },
     {
+        "university": "Universitat de les Illes Balears (UIB)",
+        "longitude": 2.6426,
+        "latitude": 39.6361,
+        "teams": 1,
+        "team_list": [
+            "Pavos ℝ"
+        ]
+    },
+    {
         "university": "Universidad de Castilla-La Mancha (UCLM)",
         "longitude": -3.9206,
         "latitude": 38.9941,
@@ -176,10 +185,11 @@
         "university": "Universidad de Santiago de Compostela (USC)",
         "longitude": -8.5448,
         "latitude": 42.8782,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "Los Lobos de Ginebra",
-            "nama biru"
+            "nama biru",
+            "feynwomenn"
         ]
     },
     {
