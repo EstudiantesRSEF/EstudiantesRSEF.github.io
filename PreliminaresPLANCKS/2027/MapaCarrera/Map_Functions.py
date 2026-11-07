@@ -235,7 +235,7 @@ MASCOTAS_DELEGACIONES = {
     "UGR": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota ugr.png",
     "UAB": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uab.png",
     "UV": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uv.png",
-    "EHU": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota upv-ehu.png",
+    "UPV-EHU": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota upv-ehu.png",
     "US": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota us.png",
     "UVA": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uva.png",
     "UMU": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota umu.png",
@@ -245,8 +245,8 @@ MASCOTAS_DELEGACIONES = {
     "UIB": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uib.png",
     "UB": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota ub.png",
     "UPV": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota upv.png",
-    "UniZar": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota unizar.PNG",
-    "Nebrija": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota nebrija.png",
+    "UNIZAR": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota unizar.PNG",
+    "UANE": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota nebrija.png",
     "UAM": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uam.png"
 }
 
