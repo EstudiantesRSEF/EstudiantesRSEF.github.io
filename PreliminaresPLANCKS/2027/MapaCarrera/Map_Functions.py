@@ -230,24 +230,24 @@ def generate_university_maps(university_data_path):
 
 #Lista de Delegaciones y Rutas de las Mascotas
 MASCOTAS_DELEGACIONES = {
-    "UCM": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/MASCOTAS-removebg-preview.png",
-    "UniOvi": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/6-removebg-preview.png",
-    "UGR": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/9-removebg-preview.png",
-    "UAB": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/1-removebg-preview.png",
-    "UV": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/7-removebg-preview.png",
-    "EHU": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/5-removebg-preview.png",
-    "US": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/12-removebg-preview.png",
-    "UVA": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/3-removebg-preview.png",
-    "UMU": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/8-removebg-preview.png",
-    "ULL": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/13-removebg-preview.png",
-    "UA": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/10-removebg-preview.png",
-    "UCLM": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/14-removebg-preview.png",
-    "UIB": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/11-removebg-preview.png",
-    "UB": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/2-removebg-preview.png",
-    "UPV": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/15-removebg-preview.png",
-    "UniZar": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/16-removebg-preview.png",
-    "Nebrija": "/img/eventos/2026-PrelisPLANCKS/Mascotas PNGs/17-removebg-preview.png",
-    "UAM": ""
+    "UCM": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota ucm.png",
+    "UniOvi": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uniovi.png",
+    "UGR": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota ugr.png",
+    "UAB": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uab.png",
+    "UV": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uv.png",
+    "EHU": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota upv-ehu.png",
+    "US": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota us.png",
+    "UVA": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uva.png",
+    "UMU": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota umu.png",
+    "ULL": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota ull.png",
+    "UA": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota ua.png",
+    "UCLM": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uclm.png",
+    "UIB": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uib.png",
+    "UB": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota ub.png",
+    "UPV": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota upv.png",
+    "UniZar": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota unizar.PNG",
+    "Nebrija": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota nebrija.png",
+    "UAM": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uam.png"
 }
 
 def generate_race_data(data_list, output_file="carrera_datos.json"):
