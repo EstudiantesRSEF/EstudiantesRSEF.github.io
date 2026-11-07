@@ -86,7 +86,17 @@
     },
     {
         "delegacion": "UAM",
-        "icono": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uam.pngUSal:USC:",
+        "icono": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uam.png",
         "equipos": 10
+    },
+    {
+        "delegacion": "USal",
+        "icono": "",
+        "equipos": 3
+    },
+    {
+        "delegacion": "USC",
+        "icono": "",
+        "equipos": 3
     }
 ]
