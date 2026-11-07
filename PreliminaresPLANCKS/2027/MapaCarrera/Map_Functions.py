@@ -237,7 +237,7 @@ MASCOTAS_DELEGACIONES = {
     "UV": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uv.png",
     "UPV-EHU": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota upv-ehu.png",
     "US": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota us.png",
-    "UVA": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uva.png",
+    "UVa": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uva.png",
     "UMU": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota umu.png",
     "ULL": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota ull.png",
     "UA": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota ua.png",
@@ -248,6 +248,8 @@ MASCOTAS_DELEGACIONES = {
     "UNIZAR": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota unizar.PNG",
     "UANE": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota nebrija.png",
     "UAM": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uam.png"
+    "USal:" ""
+    "USC:" ""
 }
 
 def generate_race_data(data_list, output_file="carrera_datos.json"):
