@@ -95,7 +95,7 @@
         "university": "Universidad Autónoma de Madrid (UAM)",
         "longitude": -3.6922,
         "latitude": 40.5496,
-        "teams": 8,
+        "teams": 9,
         "team_list": [
             "Élite 4",
             "Her-Míticos",
@@ -104,7 +104,17 @@
             "Little Ciracs",
             "Paquetes Cuantizados",
             "Métrica de AMS^2",
-            "pCABRAMIrGOSmaldo"
+            "pCABRAMIrGOSmaldo",
+            "No hay Bra sin Ket"
+        ]
+    },
+    {
+        "university": "Universidad de Oviedo (UniOvi)",
+        "longitude": -5.845,
+        "latitude": 43.3619,
+        "teams": 1,
+        "team_list": [
+            "c=1"
         ]
     },
     {
@@ -201,11 +211,12 @@
         "university": "Universidad Politécnica de Cataluña (UPC)",
         "longitude": 2.1131,
         "latitude": 41.3891,
-        "teams": 3,
+        "teams": 4,
         "team_list": [
             "Del Molino Roa",
             "Alexandroff Extension",
-            "Escalars desorientats "
+            "Escalars desorientats ",
+            "Twelvefold way "
         ]
     },
     {
