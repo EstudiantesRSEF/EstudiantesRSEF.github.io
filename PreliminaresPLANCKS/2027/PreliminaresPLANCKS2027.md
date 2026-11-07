@@ -150,15 +150,15 @@ permalink: /PreliminaresPLANCKS2027/
           <iframe id="content-mobile" src="/PreliminaresPLANCKS/2027/MapaCarrera/universities_map_mobile.html" class="scalable-iframe" style="border:none; width: 100%"></iframe> 
       </div> 
       <!-- Carrera  -->
-		<!--<h3>¡Sigue la carrera de inscripciones!</h3>-->
+		<h3>¡Sigue la carrera de inscripciones!</h3>
 
-<!--<div class="iframe-responsive-wrapper">
+<div class="iframe-responsive-wrapper">
      <iframe 
         src="/PreliminaresPLANCKS/2027/MapaCarrera/carrera.html" 
         loading="lazy"
         class="carrera-iframe">
      </iframe>
-</div>-->
+</div>
 
 <style>
   /* Contenedor: maneja el desbordamiento (scroll) */
