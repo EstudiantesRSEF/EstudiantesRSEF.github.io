@@ -73,12 +73,13 @@
         ]
     },
     {
-        "university": "Universidad Antonio de Nebrija(UANE)",
+        "university": "Universidad Antonio de Nebrija (UANE)",
         "longitude": -3.71306,
         "latitude": 40.4297,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "The fearsome foursome"
+            "The fearsome foursome",
+            "Los protoncitos"
         ]
     },
     {
@@ -95,7 +96,7 @@
         "university": "Universidad Autónoma de Madrid (UAM)",
         "longitude": -3.6922,
         "latitude": 40.5496,
-        "teams": 9,
+        "teams": 10,
         "team_list": [
             "Élite 4",
             "Her-Míticos",
@@ -105,7 +106,8 @@
             "Paquetes Cuantizados",
             "Métrica de AMS^2",
             "pCABRAMIrGOSmaldo",
-            "No hay Bra sin Ket"
+            "No hay Bra sin Ket",
+            "QuarkTeto"
         ]
     },
     {

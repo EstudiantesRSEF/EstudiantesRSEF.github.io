@@ -25,9 +25,9 @@
         "equipos": 5
     },
     {
-        "delegacion": "EHU",
+        "delegacion": "UPV-EHU",
         "icono": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota upv-ehu.png",
-        "equipos": 0
+        "equipos": 1
     },
     {
         "delegacion": "US",
@@ -75,18 +75,18 @@
         "equipos": 1
     },
     {
-        "delegacion": "UniZar",
+        "delegacion": "UNIZAR",
         "icono": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota unizar.PNG",
-        "equipos": 0
+        "equipos": 2
     },
     {
-        "delegacion": "Nebrija",
+        "delegacion": "UANE",
         "icono": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota nebrija.png",
-        "equipos": 0
+        "equipos": 2
     },
     {
         "delegacion": "UAM",
         "icono": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uam.png",
-        "equipos": 9
+        "equipos": 10
     }
 ]
