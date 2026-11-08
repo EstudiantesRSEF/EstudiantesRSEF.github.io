@@ -86,10 +86,11 @@
         "university": "Universidad de Barcelona (UB)",
         "longitude": 2.1662,
         "latitude": 41.3879,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "Rust·eze",
-            "Las Planckticipantes"
+            "Las Planckticipantes",
+            "4K"
         ]
     },
     {
@@ -123,13 +124,14 @@
         "university": "Universidad de Valencia (UV)",
         "longitude": -0.3752,
         "latitude": 39.4699,
-        "teams": 5,
+        "teams": 6,
         "team_list": [
             "Sacerdotes Awámicos",
             "Consejo de sabios",
             "quesitosfisicos",
             "Los Agnes Pockels",
-            "Los Maoistas"
+            "Los Maoistas",
+            "Equipo 42"
         ]
     },
     {
