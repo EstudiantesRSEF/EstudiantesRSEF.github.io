@@ -33,7 +33,7 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 7,
+        "teams": 9,
         "team_list": [
             "Canteranos",
             "Planck inclinat",
@@ -41,7 +41,9 @@
             "Ciencia Radiactiva",
             "Bohrn to win",
             "Quartet Formació",
-            "Matriu de Dihrac"
+            "Matriu de Dihrac",
+            "Los Diozes, el Payo y Jarvis",
+            "PEM²Seconds"
         ]
     },
     {
@@ -138,9 +140,10 @@
         "university": "Universidad de Granada (UGR)",
         "longitude": -3.602,
         "latitude": 37.1765,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Los tres quarks"
+            "Los tres quarks",
+            "Lobotomiz4dos"
         ]
     },
     {
@@ -166,9 +169,10 @@
         "university": "Universidad Politécnica de Valencia (UPV)",
         "longitude": -0.3422,
         "latitude": 39.482,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "polipotenciales"
+            "polipotenciales",
+            "Sin potencial"
         ]
     },
     {
@@ -204,11 +208,12 @@
         "university": "Universidad de Santiago de Compostela (USC)",
         "longitude": -8.5448,
         "latitude": 42.8782,
-        "teams": 3,
+        "teams": 4,
         "team_list": [
             "Los Lobos de Ginebra",
             "nama biru",
-            "feynwomenn"
+            "feynwomenn",
+            "Rayo maxwelliano"
         ]
     },
     {
