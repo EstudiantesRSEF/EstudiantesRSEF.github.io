@@ -72,7 +72,7 @@
     {
         "delegacion": "UPV",
         "icono": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota upv.png",
-        "equipos": 2
+        "equipos": 3
     },
     {
         "delegacion": "UNIZAR",
@@ -97,6 +97,6 @@
     {
         "delegacion": "USC",
         "icono": "",
-        "equipos": 4
+        "equipos": 5
     }
 ]
