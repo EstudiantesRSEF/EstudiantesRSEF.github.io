@@ -79,10 +79,11 @@
         "university": "Universidad Antonio de Nebrija (UANE)",
         "longitude": -3.71306,
         "latitude": 40.4297,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "The fearsome foursome",
-            "Los protoncitos"
+            "Los protoncitos",
+            "The last braincell"
         ]
     },
     {
@@ -138,14 +139,15 @@
         "university": "Universidad de Valencia (UV)",
         "longitude": -0.3752,
         "latitude": 39.4699,
-        "teams": 6,
+        "teams": 7,
         "team_list": [
             "Sacerdotes Awámicos",
             "Consejo de sabios",
             "quesitosfisicos",
             "Los Agnes Pockels",
             "Los Maoistas",
-            "Equipo 42"
+            "Equipo 42",
+            "Dipolos de fresa"
         ]
     },
     {
