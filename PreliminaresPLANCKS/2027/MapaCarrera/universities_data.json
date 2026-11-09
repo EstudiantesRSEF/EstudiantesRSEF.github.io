@@ -34,7 +34,7 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 9,
+        "teams": 10,
         "team_list": [
             "Canteranos",
             "Planck inclinat",
@@ -44,7 +44,8 @@
             "Quartet Formació",
             "Matriu de Dihrac",
             "Los Diozes, el Payo y Jarvis",
-            "PEM²Seconds"
+            "PEM²Seconds",
+            "Químics Infiltrats"
         ]
     },
     {
