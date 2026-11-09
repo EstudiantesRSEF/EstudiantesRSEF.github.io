@@ -80,11 +80,12 @@
         "university": "Universidad Antonio de Nebrija (UANE)",
         "longitude": -3.71306,
         "latitude": 40.4297,
-        "teams": 3,
+        "teams": 4,
         "team_list": [
             "The fearsome foursome",
             "Los protoncitos",
-            "The last braincell"
+            "The last braincell",
+            "alcanzables"
         ]
     },
     {
@@ -132,9 +133,10 @@
         "university": "Universidad de Valladolid (UVA)",
         "longitude": -4.7245,
         "latitude": 41.6521,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Sin π-es ni cabeza"
+            "Sin π-es ni cabeza",
+            "Rayo UVa"
         ]
     },
     {
@@ -274,6 +276,15 @@
         "teams": 1,
         "team_list": [
             "Airborne"
+        ]
+    },
+    {
+        "university": "Universidad Europea de Madrid (UEM)",
+        "longitude": -3.918953,
+        "latitude": 40.371831,
+        "teams": 1,
+        "team_list": [
+            "Quinientosdieciocho"
         ]
     }
 ]
