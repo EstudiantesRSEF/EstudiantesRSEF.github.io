@@ -33,7 +33,7 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 11,
+        "teams": 12,
         "team_list": [
             "Canteranos",
             "Planck inclinat",
@@ -45,7 +45,8 @@
             "Los Diozes, el Payo y Jarvis",
             "PEM²Seconds",
             "Químics Infiltrats",
-            "Vectors de Frenillo"
+            "Vectors de Frenillo",
+            "Dipolets"
         ]
     },
     {
@@ -208,11 +209,12 @@
         "university": "Universidad de Salamanca (USAL)",
         "longitude": -5.6635,
         "latitude": 40.9608,
-        "teams": 3,
+        "teams": 4,
         "team_list": [
             "Los Rayleigh",
             "Lucas 23:34",
-            "Axiomas desempleados"
+            "Axiomas desempleados",
+            "Potenciales no efectivos"
         ]
     },
     {
