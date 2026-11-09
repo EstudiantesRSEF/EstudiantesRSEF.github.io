@@ -3,12 +3,13 @@
         "university": "Universidad Complutense de Madrid (UCM)",
         "longitude": -3.7267,
         "latitude": 40.4531,
-        "teams": 4,
+        "teams": 5,
         "team_list": [
             "Terraplanckistas",
             "lenz & co",
             "Homo Genius",
-            "El Frente Huygens"
+            "El Frente Huygens",
+            "el cuadrivector definitivo"
         ]
     },
     {
@@ -33,7 +34,7 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 12,
+        "teams": 13,
         "team_list": [
             "Canteranos",
             "Planck inclinat",
@@ -46,7 +47,8 @@
             "PEM²Seconds",
             "Químics Infiltrats",
             "Vectors de Frenillo",
-            "Dipolets"
+            "Dipolets",
+            "Tritio"
         ]
     },
     {
