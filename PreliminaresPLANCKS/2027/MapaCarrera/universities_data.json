@@ -16,9 +16,10 @@
         "university": "Universidad de Sevilla (US)",
         "longitude": -5.9845,
         "latitude": 37.3891,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Quantum Computing Utrera"
+            "Quantum Computing Utrera",
+            "Los Munstereños"
         ]
     },
     {
@@ -65,9 +66,10 @@
         "university": "Universidad de Murcia (UMU)",
         "longitude": -1.1307,
         "latitude": 37.9922,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Conesa & friends"
+            "Conesa & friends",
+            "Frutería Paqui"
         ]
     },
     {
