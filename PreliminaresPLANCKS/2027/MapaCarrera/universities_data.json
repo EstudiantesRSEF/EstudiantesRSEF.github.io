@@ -86,9 +86,10 @@
         "university": "Universidad de Alicante (UA)",
         "longitude": -0.4907,
         "latitude": 38.3452,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "Lab rats"
+            "Lab rats",
+            "Sinvergüenzas"
         ]
     },
     {
@@ -118,7 +119,7 @@
         "university": "Universidad Autónoma de Madrid (UAM)",
         "longitude": -3.6922,
         "latitude": 40.5496,
-        "teams": 13,
+        "teams": 14,
         "team_list": [
             "Élite 4",
             "Her-Míticos",
@@ -132,7 +133,8 @@
             "QuarkTeto",
             "Neutrinos Sin Fronteras",
             "Las gatitas de Schrödinger",
-            "Los mínimos cuadrados"
+            "Los mínimos cuadrados",
+            "Heiseng-beers"
         ]
     },
     {
