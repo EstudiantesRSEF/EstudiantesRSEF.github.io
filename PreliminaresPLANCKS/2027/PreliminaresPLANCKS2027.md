@@ -175,7 +175,7 @@ permalink: /PreliminaresPLANCKS2027/
   .carrera-iframe {
       width: 100%;
       min-width: 800px; 
-      height: 500px;
+      height: 800px;
       border: none; 
       display: block;
   }
@@ -183,7 +183,7 @@ permalink: /PreliminaresPLANCKS2027/
   /* Ajustes específicos para móviles */
   @media (max-width: 600px) {
       .carrera-iframe {
-          height: 400px; /* Ajusta la altura en pantallas pequeñas */
+          height: 650px; /* Ajusta la altura en pantallas pequeñas */
       }
   }
 </style>
