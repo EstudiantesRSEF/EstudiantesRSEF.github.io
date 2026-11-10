@@ -40,7 +40,7 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 16,
+        "teams": 17,
         "team_list": [
             "Canteranos",
             "Planck inclinat",
@@ -57,7 +57,8 @@
             "Tritio",
             "Hannah Montana Linux",
             "Bunyitació espontània",
-            "Planck Gorgonzola"
+            "Planck Gorgonzola",
+            "JAKS"
         ]
     },
     {
@@ -117,7 +118,7 @@
         "university": "Universidad Autónoma de Madrid (UAM)",
         "longitude": -3.6922,
         "latitude": 40.5496,
-        "teams": 11,
+        "teams": 13,
         "team_list": [
             "Élite 4",
             "Her-Míticos",
@@ -129,18 +130,21 @@
             "pCABRAMIrGOSmaldo",
             "No hay Bra sin Ket",
             "QuarkTeto",
-            "Neutrinos Sin Fronteras"
+            "Neutrinos Sin Fronteras",
+            "Las gatitas de Schrödinger",
+            "Los mínimos cuadrados"
         ]
     },
     {
         "university": "Universidad de Oviedo (UniOvi)",
         "longitude": -5.845,
         "latitude": 43.3619,
-        "teams": 3,
+        "teams": 4,
         "team_list": [
             "c=1",
             "Las Trastornadas de Lorentz",
-            "schwarzitos"
+            "schwarzitos",
+            "Tensión no tan superficial"
         ]
     },
     {
@@ -206,12 +210,13 @@
         "university": "Universidad Politécnica de Valencia (UPV)",
         "longitude": -0.3422,
         "latitude": 39.482,
-        "teams": 4,
+        "teams": 5,
         "team_list": [
             "polipotenciales",
             "Sin potencial",
             "las degeneradas",
-            "Pussylot, et al. (27 AD)"
+            "Pussylot, et al. (27 AD)",
+            "Planks B"
         ]
     },
     {
@@ -263,13 +268,14 @@
         "university": "Universidad Politécnica de Cataluña (UPC)",
         "longitude": 2.1131,
         "latitude": 41.3891,
-        "teams": 5,
+        "teams": 6,
         "team_list": [
             "Del Molino Roa",
             "Alexandroff Extension",
             "Escalars desorientats ",
             "Twelvefold way ",
-            "Watt is love? Baby don't Hertz me"
+            "Watt is love? Baby don't Hertz me",
+            "Planck’s plank prank plan"
         ]
     },
     {
@@ -324,6 +330,15 @@
         "teams": 1,
         "team_list": [
             "True Anomaly's gang"
+        ]
+    },
+    {
+        "university": "Universidad de Cantabria (UC)",
+        "longitude": -3.8044,
+        "latitude": 43.4623,
+        "teams": 1,
+        "team_list": [
+            "La grange"
         ]
     }
 ]
