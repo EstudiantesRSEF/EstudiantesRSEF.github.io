@@ -31,18 +31,20 @@
         "university": "Universidad del País Vasco (UPV/EHU)",
         "longitude": -2.935,
         "latitude": 43.263,
-        "teams": 3,
+        "teams": 5,
         "team_list": [
             "Yakuzen",
             "Merequetengue",
-            "Herejía Cinética"
+            "Herejía Cinética",
+            "Talde Abeldarra",
+            "Dirus&Genars "
         ]
     },
     {
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 17,
+        "teams": 18,
         "team_list": [
             "Canteranos",
             "Planck inclinat",
@@ -60,7 +62,8 @@
             "Hannah Montana Linux",
             "Bunyitació espontània",
             "Planck Gorgonzola",
-            "JAKS"
+            "JAKS",
+            "Chopalex"
         ]
     },
     {
@@ -77,11 +80,12 @@
         "university": "Universidad de Murcia (UMU)",
         "longitude": -1.1307,
         "latitude": 37.9922,
-        "teams": 3,
+        "teams": 4,
         "team_list": [
             "Conesa & friends",
             "Frutería Paqui",
-            "Therians de Schrödinger"
+            "Therians de Schrödinger",
+            "Los toroides magnetizados"
         ]
     },
     {
@@ -98,31 +102,33 @@
         "university": "Universidad Antonio de Nebrija (UANE)",
         "longitude": -3.71306,
         "latitude": 40.4297,
-        "teams": 4,
+        "teams": 5,
         "team_list": [
             "The fearsome foursome",
             "Los protoncitos",
             "The last braincell",
-            "alcanzables"
+            "alcanzables",
+            "Las Sherlock Ohms"
         ]
     },
     {
         "university": "Universidad de Barcelona (UB)",
         "longitude": 2.1662,
         "latitude": 41.3879,
-        "teams": 4,
+        "teams": 5,
         "team_list": [
             "Rust·eze",
             "Las Planckticipantes",
             "4K",
-            "Charlie Quark "
+            "Charlie Quark ",
+            "Los 4 fantásticos"
         ]
     },
     {
         "university": "Universidad Autónoma de Madrid (UAM)",
         "longitude": -3.6922,
         "latitude": 40.5496,
-        "teams": 14,
+        "teams": 15,
         "team_list": [
             "Élite 4",
             "Her-Míticos",
@@ -137,7 +143,8 @@
             "Neutrinos Sin Fronteras",
             "Las gatitas de Schrödinger",
             "Los mínimos cuadrados",
-            "Heiseng-beers"
+            "Heiseng-beers",
+            "jorge bravais"
         ]
     },
     {
@@ -216,22 +223,25 @@
         "university": "Universidad Politécnica de Valencia (UPV)",
         "longitude": -0.3422,
         "latitude": 39.482,
-        "teams": 5,
+        "teams": 6,
         "team_list": [
             "polipotenciales",
             "Sin potencial",
             "las degeneradas",
             "Pussylot, et al. (27 AD)",
-            "Planks B"
+            "Planks B",
+            "Chinches Rojas"
         ]
     },
     {
         "university": "Universidad de Córdoba (UCo)",
         "longitude": -4.7794,
         "latitude": 37.8847,
-        "teams": 1,
+        "teams": 3,
         "team_list": [
-            "Los polidemonios de Hermite"
+            "Los polidemonios de Hermite",
+            "Los amigos de Lorentz",
+            "Ecuación ganadora"
         ]
     },
     {
@@ -274,14 +284,16 @@
         "university": "Universidad Politécnica de Cataluña (UPC)",
         "longitude": 2.1131,
         "latitude": 41.3891,
-        "teams": 6,
+        "teams": 8,
         "team_list": [
             "Del Molino Roa",
             "Alexandroff Extension",
             "Escalars desorientats ",
             "Twelvefold way ",
             "Watt is love? Baby don't Hertz me",
-            "Planck’s plank prank plan"
+            "Planck’s plank prank plan",
+            "Plancktons",
+            "GretafisJofre"
         ]
     },
     {
