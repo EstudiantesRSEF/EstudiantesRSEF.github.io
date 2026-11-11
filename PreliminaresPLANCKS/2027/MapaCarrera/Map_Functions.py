@@ -248,7 +248,7 @@ MASCOTAS_DELEGACIONES = {
     "UNIZAR": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota unizar.PNG",
     "UANE": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota nebrija.png",
     "UAM": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uam.png",
-    "USal": "",
+    "USal": "img/eventos/2027-PrelisPLANCKS/Mascotas deles/Mascota_Dele_USal.png",
     "USC": ""
 }
 
