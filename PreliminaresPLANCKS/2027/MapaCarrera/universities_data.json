@@ -31,10 +31,11 @@
         "university": "Universidad del País Vasco (UPV/EHU)",
         "longitude": -2.935,
         "latitude": 43.263,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "Yakuzen",
-            "Merequetengue"
+            "Merequetengue",
+            "Herejía Cinética"
         ]
     },
     {
@@ -109,11 +110,12 @@
         "university": "Universidad de Barcelona (UB)",
         "longitude": 2.1662,
         "latitude": 41.3879,
-        "teams": 3,
+        "teams": 4,
         "team_list": [
             "Rust·eze",
             "Las Planckticipantes",
-            "4K"
+            "4K",
+            "Charlie Quark "
         ]
     },
     {
@@ -295,9 +297,10 @@
         "university": "Universidad San Pablo-CEU (UCEU)",
         "longitude": -3.71738,
         "latitude": 40.44253,
-        "teams": 1,
+        "teams": 2,
         "team_list": [
-            "larpi larp"
+            "larpi larp",
+            "Metanfeynman Enjoyers"
         ]
     },
     {
