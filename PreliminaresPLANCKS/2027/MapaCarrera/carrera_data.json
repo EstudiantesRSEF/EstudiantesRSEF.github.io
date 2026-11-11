@@ -91,12 +91,12 @@
     },
     {
         "delegacion": "USal",
-        "icono": "img/eventos/2027-PrelisPLANCKS/Mascotas deles/Mascota_Dele_USal.png",
+        "icono": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/Mascota_Dele_USal.png",
         "equipos": 4
     },
     {
         "delegacion": "USC",
-        "icono": "",
+        "icono": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota usc.PNG",
         "equipos": 10
     }
 ]
