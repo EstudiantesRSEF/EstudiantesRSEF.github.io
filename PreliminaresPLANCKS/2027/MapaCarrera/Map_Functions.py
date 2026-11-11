@@ -248,8 +248,8 @@ MASCOTAS_DELEGACIONES = {
     "UNIZAR": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota unizar.PNG",
     "UANE": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota nebrija.png",
     "UAM": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uam.png",
-    "USal": "img/eventos/2027-PrelisPLANCKS/Mascotas deles/Mascota_Dele_USal.png",
-    "USC": ""
+    "USal": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/Mascota_Dele_USal.png",
+    "USC": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota usc.PNG"
 }
 
 def generate_race_data(data_list, output_file="carrera_datos.json"):
