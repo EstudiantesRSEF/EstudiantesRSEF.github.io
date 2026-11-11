@@ -34,20 +34,22 @@
         "university": "Universidad del País Vasco (UPV/EHU)",
         "longitude": -2.935,
         "latitude": 43.263,
-        "teams": 5,
+        "teams": 7,
         "team_list": [
             "Yakuzen",
             "Merequetengue",
             "Herejía Cinética",
             "Talde Abeldarra",
-            "Dirus&Genars "
+            "Dirus&Genars ",
+            "CFJ",
+            "Gaussbusters"
         ]
     },
     {
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 24,
+        "teams": 25,
         "team_list": [
             "Canteranos",
             "Planck inclinat",
@@ -72,7 +74,8 @@
             "El quart harmònic",
             "Los cuatro enanitos ",
             "Woke Warriors",
-            "Pastanagues"
+            "Pastanagues",
+            "Les panoràmiques "
         ]
     },
     {
@@ -101,10 +104,11 @@
         "university": "Universidad de Alicante (UA)",
         "longitude": -0.4907,
         "latitude": 38.3452,
-        "teams": 2,
+        "teams": 3,
         "team_list": [
             "Lab rats",
-            "Sinvergüenzas"
+            "Sinvergüenzas",
+            "Fdr nooooo"
         ]
     },
     {
@@ -125,13 +129,14 @@
         "university": "Universidad de Barcelona (UB)",
         "longitude": 2.1662,
         "latitude": 41.3879,
-        "teams": 5,
+        "teams": 6,
         "team_list": [
             "Rust·eze",
             "Las Planckticipantes",
             "4K",
             "Charlie Quark ",
-            "Los 4 fantásticos"
+            "Los 4 fantásticos",
+            "Imagine Hadrons"
         ]
     },
     {
@@ -163,12 +168,13 @@
         "university": "Universidad de Oviedo (UniOvi)",
         "longitude": -5.845,
         "latitude": 43.3619,
-        "teams": 4,
+        "teams": 5,
         "team_list": [
             "c=1",
             "Las Trastornadas de Lorentz",
             "schwarzitos",
-            "Tensión no tan superficial"
+            "Tensión no tan superficial",
+            "Los Planckhaos"
         ]
     },
     {
@@ -190,7 +196,7 @@
         "university": "Universidad de Valencia (UV)",
         "longitude": -0.3752,
         "latitude": 39.4699,
-        "teams": 11,
+        "teams": 12,
         "team_list": [
             "Sacerdotes Awámicos",
             "Consejo de sabios",
@@ -202,7 +208,8 @@
             "Unos Pelaos",
             "Jouleventus ",
             "Electrons de València",
-            "10^-34"
+            "10^-34",
+            "Jouleventus"
         ]
     },
     {
@@ -245,7 +252,7 @@
         "university": "Universidad Politécnica de Valencia (UPV)",
         "longitude": -0.3422,
         "latitude": 39.482,
-        "teams": 8,
+        "teams": 9,
         "team_list": [
             "polipotenciales",
             "Sin potencial",
@@ -254,7 +261,8 @@
             "Planks B",
             "Chinches Rojas",
             "Sheldon's Girls",
-            "E=mc^2 y poco más"
+            "E=mc^2 y poco más",
+            "Caballeros de la cuántica"
         ]
     },
     {
