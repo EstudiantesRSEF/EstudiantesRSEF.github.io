@@ -57,7 +57,7 @@
     {
         "delegacion": "UCLM",
         "icono": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uclm.png",
-        "equipos": 3
+        "equipos": 4
     },
     {
         "delegacion": "UIB",
@@ -87,7 +87,7 @@
     {
         "delegacion": "UAM",
         "icono": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uam.png",
-        "equipos": 17
+        "equipos": 19
     },
     {
         "delegacion": "USal",
@@ -97,6 +97,6 @@
     {
         "delegacion": "USC",
         "icono": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota usc.PNG",
-        "equipos": 10
+        "equipos": 11
     }
 ]
