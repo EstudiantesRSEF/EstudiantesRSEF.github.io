@@ -123,7 +123,7 @@
             "alcanzables",
             "Las Sherlock Ohms",
             "Moleculonas",
-            "Tesla Marinera"
+            "Tesla marinera"
         ]
     },
     {
@@ -144,7 +144,7 @@
         "university": "Universidad Autónoma de Madrid (UAM)",
         "longitude": -3.6922,
         "latitude": 40.5496,
-        "teams": 19,
+        "teams": 20,
         "team_list": [
             "Élite 4",
             "Her-Míticos",
@@ -164,7 +164,8 @@
             "Plancksters",
             "Los Caballeros de Marco",
             "Golden girls",
-            "Mecánica Flaútica"
+            "Mecánica Flaútica",
+            "UAMigos"
         ]
     },
     {
