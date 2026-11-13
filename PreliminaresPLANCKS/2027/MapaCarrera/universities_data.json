@@ -49,7 +49,7 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 25,
+        "teams": 26,
         "team_list": [
             "Canteranos",
             "Planck inclinat",
@@ -75,7 +75,8 @@
             "Los cuatro enanitos ",
             "Woke Warriors",
             "Pastanagues",
-            "Les panoràmiques "
+            "Les panoràmiques ",
+            "Φίσικα "
         ]
     },
     {
@@ -115,7 +116,7 @@
         "university": "Universidad Antonio de Nebrija (UANE)",
         "longitude": -3.71306,
         "latitude": 40.4297,
-        "teams": 7,
+        "teams": 8,
         "team_list": [
             "The fearsome foursome",
             "Los protoncitos",
@@ -123,7 +124,8 @@
             "alcanzables",
             "Las Sherlock Ohms",
             "Moleculonas",
-            "Tesla marinera"
+            "Tesla marinera",
+            "Chicky Tun Plank-Plank 2: AC contraataca"
         ]
     },
     {
@@ -162,10 +164,10 @@
             "Heiseng-beers",
             "jorge bravais",
             "Plancksters",
-            "Los Caballeros de Marco",
             "Golden girls",
             "Mecánica Flaútica",
-            "UAMigos"
+            "UAMigos",
+            "Los caballeros de Marco"
         ]
     },
     {
@@ -317,9 +319,9 @@
             "Cuadrivictor",
             "⟨A|M|P⟩",
             "Jurassic Quark",
-            "Hermanos Lagrangianos",
             "Sin Planck B",
-            "El resto"
+            "El resto",
+            "Hermanos Lagrangianos"
         ]
     },
     {
