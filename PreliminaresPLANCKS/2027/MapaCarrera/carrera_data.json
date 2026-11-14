@@ -2,7 +2,7 @@
     {
         "delegacion": "UCM",
         "icono": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota ucm.png",
-        "equipos": 11
+        "equipos": 12
     },
     {
         "delegacion": "UniOvi",
@@ -12,12 +12,12 @@
     {
         "delegacion": "UGR",
         "icono": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota ugr.png",
-        "equipos": 4
+        "equipos": 5
     },
     {
         "delegacion": "UAB",
         "icono": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uab.png",
-        "equipos": 26
+        "equipos": 28
     },
     {
         "delegacion": "UV",
@@ -87,7 +87,7 @@
     {
         "delegacion": "UAM",
         "icono": "/img/eventos/2027-PrelisPLANCKS/Mascotas deles/mascota uam.png",
-        "equipos": 22
+        "equipos": 23
     },
     {
         "delegacion": "USal",
