@@ -53,7 +53,7 @@
         "university": "Universidad Autónoma de Barcelona (UAB)",
         "longitude": 2.1057,
         "latitude": 41.5016,
-        "teams": 28,
+        "teams": 29,
         "team_list": [
             "Canteranos",
             "Planck inclinat",
@@ -82,7 +82,8 @@
             "Les panoràmiques ",
             "Φίσικα ",
             "Atómicos Anónimos",
-            "els germans planckton"
+            "els germans planckton",
+            "Equip 3"
         ]
     },
     {
@@ -224,7 +225,7 @@
             "Jouleventus ",
             "Electrons de València",
             "10^-34",
-            "Jouleventus",
+            "Jouleventus FC",
             "Fisikapos",
             "Teorema del xauarma"
         ]
@@ -370,7 +371,7 @@
         "teams": 2,
         "team_list": [
             "larpi larp",
-            "Metanfeynman Enjoyers"
+            "Feynman Enjoyers"
         ]
     },
     {
