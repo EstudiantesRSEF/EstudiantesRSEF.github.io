@@ -16,11 +16,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Comprobar fecha limite (hasta el 16 de noviembre de 2026)
+      - name: Comprobar fecha limite (hasta el 20 de noviembre de 2026)
         id: check_fecha
         run: |
           FECHA_ACTUAL=$(date +%Y%m%d)
-          FECHA_LIMITE=20261116
+          FECHA_LIMITE=20261120
           if [ "$FECHA_ACTUAL" -gt "$FECHA_LIMITE" ]; then
             echo "El periodo de inscripciones de Prelis ha pasado. Deteniendo ejecucion."
             echo "valido=false" >> "$GITHUB_OUTPUT"
