@@ -53,6 +53,12 @@
   link: "https://www.upv.es/entidades/vee/"
   level: "2"
 
+- name: "UV- Sedi"
+  section: "Instituciones Académicas"
+  logo: "/ENEF/2026/img/Sponsors/logo_sedi.png"
+  link: "https://www.upv.es/entidades/vee/"
+  level: "2"
+
 - name: "ICMOL"
   section: "Centros de Investigación"
   logo: "/ENEF/2026/img/Sponsors/icmol.png"
